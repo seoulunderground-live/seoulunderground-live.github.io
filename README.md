@@ -4,15 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-10-30T20:52:06Z
-- **Source Commit**: [`f82d21ca1b82b6b564f8640fa982d878e1e03abd`](https://github.com/keunwoochoi/seoulunderground.live/commit/f82d21ca1b82b6b564f8640fa982d878e1e03abd)
+- **Build Time**: 2025-10-30T20:54:32Z
+- **Source Commit**: [`0584b36cc7928c95edecf05c2fdb34a702dfacef`](https://github.com/keunwoochoi/seoulunderground.live/commit/0584b36cc7928c95edecf05c2fdb34a702dfacef)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18954685082)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18954741080)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix fix;
+- **Message**: add cross lingual again
 
 ## Deployment
 

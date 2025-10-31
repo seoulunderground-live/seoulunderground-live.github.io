@@ -4,15 +4,25 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-10-31T15:25:29Z
-- **Source Commit**: [`c22091c5b479765d2dd66a458fc91ae190c2eebb`](https://github.com/keunwoochoi/seoulunderground.live/commit/c22091c5b479765d2dd66a458fc91ae190c2eebb)
+- **Build Time**: 2025-10-31T20:53:30Z
+- **Source Commit**: [`86e125a4adf54384b1a719c8fdd5703a34fa7195`](https://github.com/keunwoochoi/seoulunderground.live/commit/86e125a4adf54384b1a719c8fdd5703a34fa7195)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18977168278)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18984941687)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: reflect gemini comment (#9)
+- **Message**: Feat/timezone (#10)
+
+* fix time issue. add js test for this
+
+* add event extract test
+
+* feat: add automation scripts and launchd config
+
+* update gemini..
+
+* final
 
 ## Deployment
 

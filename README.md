@@ -4,15 +4,22 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-10-30T21:35:32Z
-- **Source Commit**: [`f5010ed9660be6cadaf3db6e4924bdeb207568a0`](https://github.com/keunwoochoi/seoulunderground.live/commit/f5010ed9660be6cadaf3db6e4924bdeb207568a0)
+- **Build Time**: 2025-10-31T05:37:17Z
+- **Source Commit**: [`e885faaabe07b95d36d7142a26b0496b083df605`](https://github.com/keunwoochoi/seoulunderground.live/commit/e885faaabe07b95d36d7142a26b0496b083df605)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18955712203)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18963805280)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: feat: Add test deployment environment
+- **Message**: Fix workflow verification steps for nested JSON structure
+
+- Update deploy-pages.yml to check seoul/jazz/events.en.json instead of flat events.en.json
+- Update deploy-test.yml with same fix
+- Use 'ls -lhR' to show recursive directory structure
+- Use 'find' to locate all JSON files for size check
+
+Fixes the workflow verification errors after locality/genre refactoring.
 
 ## Deployment
 

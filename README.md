@@ -4,27 +4,29 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-10-31T05:48:33Z
-- **Source Commit**: [`94dcb5a8570d84fb201b4cf4e839f5b651c072da`](https://github.com/keunwoochoi/seoulunderground.live/commit/94dcb5a8570d84fb201b4cf4e839f5b651c072da)
+- **Build Time**: 2025-10-31T06:36:56Z
+- **Source Commit**: [`ca5848f0f7d47a27990f598b4c89a1316cf8c1f8`](https://github.com/keunwoochoi/seoulunderground.live/commit/ca5848f0f7d47a27990f598b4c89a1316cf8c1f8)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18963850910)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18964830079)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Add database validation step before export in workflows
+- **Message**: Views (#8)
 
-Fail-fast check to prevent cryptic errors from empty database:
-- Check event and venue counts before running export script
-- Exit with clear error message if database is empty
-- Show helpful command to fix the issue
-- Display counts when validation passes
+* card view
 
-This prevents the confusing 'no such table: events' error from
-propagating through the export script. Now both test and production
-deployments will fail immediately with actionable error messages.
+* reflect gemini comment
 
-Fixes the root cause of the empty database deployment failure.
+* ah
+
+* flags
+
+* gotta add new tsx files..
+
+* hovering on table view too
+
+* haha
 
 ## Deployment
 

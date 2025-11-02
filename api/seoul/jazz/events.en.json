@@ -75,6 +75,31 @@
     }
   },
   {
+    "id": "evt_20251102_e4c15812-c284-432f-9538-f49a3c56cb46",
+    "event_key": "src:https://www.instagram.com/p/DQg_i0Yk0zg/|dt:2025-11-02T18:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQg_i0Yk0zg/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "venue_id": "ven_46c60e6a-9d89-49b0-a379-17fb6d954e81",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T09:00:00+00:00",
+    "price": "Free entry, deferred payment for food/drinks",
+    "llm_confidence": 1.0,
+    "title": "Jo Woon and good friends",
+    "description": "Jo Woon and his good friends perform vocal jazz.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jo Woon and good friends",
+      "description": "Jo Woon and his good friends perform vocal jazz."
+    },
+    "_search_ko": {
+      "title": "조운과 좋은 친구들",
+      "description": "조운과 좋은 친구들이 함께하는 보컬 재즈 공연."
+    }
+  },
+  {
     "id": "evt_20251102_e0f5732d-e8f8-4170-8994-ccb6bf7a09a9",
     "event_key": "src:https://www.instagram.com/p/DQWJbLUEY4m/|dt:2025-11-02T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWJbLUEY4m/",
@@ -150,6 +175,31 @@
     }
   },
   {
+    "id": "evt_20251102_6ae68ea8-97bd-4740-ba69-4b0e985cd967",
+    "event_key": "src:https://www.instagram.com/p/DQeNRv_Ettp/|dt:2025-11-02T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQeNRv_Ettp/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T10:40:00+00:00",
+    "price": "Free Admission",
+    "llm_confidence": 1.0,
+    "title": "Damon Brown & Thai Trio",
+    "description": "Performance by Damon Brown & Thai Trio.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Damon Brown & Thai Trio",
+      "description": "Performance by Damon Brown & Thai Trio."
+    },
+    "_search_ko": {
+      "title": "Damon Brown & Thai Trio",
+      "description": "Damon Brown & Thai Trio 공연."
+    }
+  },
+  {
     "id": "evt_20251102_cfcef4c2-5913-467f-98c7-5912be6033ad",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-02T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
@@ -200,6 +250,31 @@
     }
   },
   {
+    "id": "evt_20251102_d348a290-7e91-4ffa-910f-77425a5cb424",
+    "event_key": "src:https://www.instagram.com/p/DQTWYEQk1L2/|dt:2025-11-02T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQTWYEQk1L2/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "venue_id": "ven_3f4c9fee-aea8-414d-9939-8252919b143c",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Picnic Trio",
+    "description": "Picnic Trio. (vocal, piano, bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Picnic Trio",
+      "description": "Picnic Trio. (vocal, piano, bass)."
+    },
+    "_search_ko": {
+      "title": "Picnic 트리오",
+      "description": "Picnic 트리오. (보컬, 피아노, 베이스)."
+    }
+  },
+  {
     "id": "evt_20251102_f093d713-b119-4d0d-b57a-47371e37c6b7",
     "event_key": "src:https://www.instagram.com/p/DQJQd6pgKmz/|dt:2025-11-02T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQJQd6pgKmz/",
@@ -222,6 +297,81 @@
     "_search_ko": {
       "title": "잼 데이",
       "description": "잼 데이. 호스트 밴드: 말로 (보컬), 이명건 (피아노), 최진배 (베이스), 이도헌 (드럼). 20,000원."
+    }
+  },
+  {
+    "id": "evt_20251102_c17c36c6-f925-4682-b38b-d57d30e3346f",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-02T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung Live",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung Live",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 라이브",
+      "description": "예성 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251102_e2c2cdbd-bb5a-47a3-8ffb-7530a47d77d4",
+    "event_key": "src:https://www.instagram.com/p/DQgsmFsElrU/|dt:2025-11-02T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQgsmFsElrU/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "venue_id": "ven_db854cd2-0cf6-439a-8922-84edd2ba72db",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Maeng Seol-yeong Trio",
+    "description": "Performance by Maeng Seol-yeong Trio, featuring Kim Hyun-gyu on bass.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Maeng Seol-yeong Trio",
+      "description": "Performance by Maeng Seol-yeong Trio, featuring Kim Hyun-gyu on bass."
+    },
+    "_search_ko": {
+      "title": "맹서령 트리오",
+      "description": "맹서령 트리오 공연. 김현규 (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251102_f662eb73-04df-4e28-94d7-3e07ff3b10ba",
+    "event_key": "src:https://www.instagram.com/p/DQg_i0Yk0zg/|dt:2025-11-02T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQg_i0Yk0zg/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "venue_id": "ven_46c60e6a-9d89-49b0-a379-17fb6d954e81",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T11:00:00+00:00",
+    "price": "Free entry, deferred payment for food/drinks",
+    "llm_confidence": 1.0,
+    "title": "Song Yu-rim Quartet",
+    "description": "Song Yu-rim Quartet performs standard jazz.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Song Yu-rim Quartet",
+      "description": "Song Yu-rim Quartet performs standard jazz."
+    },
+    "_search_ko": {
+      "title": "송유림 Quartet",
+      "description": "송유림 퀄텟의 스탠다드 재즈 공연."
     }
   },
   {
@@ -300,8 +450,58 @@
     }
   },
   {
-    "id": "evt_20251102_d348a290-7e91-4ffa-910f-77425a5cb424",
-    "event_key": "src:https://www.instagram.com/p/DQTWYEQk1L2/|dt:2025-11-02T20:00:00+09:00",
+    "id": "evt_20251102_2051a53a-9930-4fb8-a5a2-9422d93749f4",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-02T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T12:00:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Damon Brown & Thai Trio",
+    "description": "Damon Brown & Thai Trio performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Damon Brown & Thai Trio",
+      "description": "Damon Brown & Thai Trio performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "Damon Brown & Thai Trio",
+      "description": "Damon Brown & Thai Trio 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251102_14d5d01b-f989-4cba-a107-8fb3a0bb0025",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-02T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Myung Jin Live",
+    "description": "Myung Jin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Myung Jin Live",
+      "description": "Myung Jin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "명진 라이브",
+      "description": "명진 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251102_b2287d98-0a57-49db-8d0e-4154672df8cc",
+    "event_key": "src:https://www.instagram.com/p/DQTWYEQk1L2/|dt:2025-11-02T21:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQTWYEQk1L2/",
     "venue_handle": "houseofbrown.seoul",
     "musician_ids": [],
@@ -327,31 +527,31 @@
   {
     "id": "evt_20251102_9a349a63-2337-422a-a58f-c13f2b3c4400",
     "event_key": "src:https://www.instagram.com/p/DQT7nezk7PQ/|dt:2025-11-02T18:00:00+09:00",
-    "source_url": "https://www.instagram.com/p/DQT7nezk7PQ/",
+    "source_url": "https://www.instagram.com/p/DQg_i0Yk0zg/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
     "venue_id": "ven_46c60e6a-9d89-49b0-a379-17fb6d954e81",
     "venue_location_id": "main",
     "datetime": "2025-11-02T13:00:00+00:00",
-    "price": null,
+    "price": "Free entry, deferred payment for food/drinks",
     "llm_confidence": 1.0,
     "title": "That King Sound",
-    "description": "Jazz Singer Special. Standard Jazz, Vocal. Free entry, deferred payment.",
+    "description": "That King Sound performs standard jazz inspired by Nat King Cole.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "That King Sound",
-      "description": "Jazz Singer Special. Standard Jazz, Vocal. Free entry, deferred payment."
+      "description": "That King Sound performs standard jazz inspired by Nat King Cole."
     },
     "_search_ko": {
       "title": "That King Sound",
-      "description": "재즈 싱어 특집. 스탠다드 재즈, 보컬. 입장료 무료, 후불 결제."
+      "description": "냇 킹 콜의 사운드에서 영감을 받은 That King Sound의 스탠다드 재즈 공연."
     }
   },
   {
-    "id": "evt_20251102_6ae68ea8-97bd-4740-ba69-4b0e985cd967",
-    "event_key": "src:https://www.instagram.com/p/DQeNRv_Ettp/|dt:2025-11-02T19:40:00+09:00",
+    "id": "evt_20251102_3a1498f6-f3c4-4660-be99-aaf309603e24",
+    "event_key": "src:https://www.instagram.com/p/DQeXf2nkg6z/|dt:2025-11-02T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeXf2nkg6z/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -375,8 +575,33 @@
     }
   },
   {
-    "id": "evt_20251102_c17c36c6-f925-4682-b38b-d57d30e3346f",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-02T20:00:00+09:00",
+    "id": "evt_20251102_72ca5bd5-b5b2-4098-8081-cf7e43ade09f",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-02T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DODOMCHIT",
+    "description": "DODOMCHIT (Alan (saxophone), Yoon (vocal)) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DODOMCHIT",
+      "description": "DODOMCHIT (Alan (saxophone), Yoon (vocal)) performance."
+    },
+    "_search_ko": {
+      "title": "도돔칫",
+      "description": "도돔칫 (앨런 (색소폰), 윤 (보컬)) 공연."
+    }
+  },
+  {
+    "id": "evt_20251102_73ec9600-9035-49fe-a160-482019fe81e6",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-02T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -507,6 +732,31 @@
     "musician_ids": [],
     "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
+    "datetime": "2025-11-03T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251103_b5b75d39-689a-4834-8071-ff9eee84b183",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-03T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
     "datetime": "2025-11-03T13:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
@@ -627,6 +877,56 @@
   {
     "id": "evt_20251104_11efcd64-d7b1-46e8-9ceb-b1e6f608f321",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-04T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-04T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251104_bf43c9d0-fbad-4070-b3fe-a60b80680246",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-04T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-04T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eun Vin (Vocal)",
+    "description": "Eun Vin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Eun Vin (Vocal)",
+      "description": "Eun Vin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "은빈 (보컬)",
+      "description": "은빈 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251104_39e513ef-4593-4180-9475-a86144bf0617",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-04T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -775,8 +1075,133 @@
     }
   },
   {
+    "id": "evt_20251105_e7821f14-08c9-4bfc-ba8c-e7438cb439e7",
+    "event_key": "src:https://www.instagram.com/p/DQhveaUk-fT/|dt:2025-11-05T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhveaUk-fT/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-05T11:00:00+00:00",
+    "price": "KRW 15,000",
+    "llm_confidence": 1.0,
+    "title": "Park Chang-hoon TRIO",
+    "description": "A saxophone trio performing jazz standards and post-bop. They present the essence of jazz on stage with raw yet delicate sounds.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Chang-hoon TRIO",
+      "description": "A saxophone trio performing jazz standards and post-bop. They present the essence of jazz on stage with raw yet delicate sounds."
+    },
+    "_search_ko": {
+      "title": "박창훈 TRIO",
+      "description": "재즈 스탠다드와 포스트 밥 기반의 색소폰 트리오. 거칠지만 섬세한 사운드로 재즈의 본질을 무대 위에 그려낸다."
+    }
+  },
+  {
+    "id": "evt_20251105_558ea195-0564-4ec3-b8a1-65189f1690ea",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-05T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-05T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Cho Un Trio Performance",
+    "description": "Cho Un Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Cho Un Trio Performance",
+      "description": "Cho Un Trio performance."
+    },
+    "_search_ko": {
+      "title": "조운 트리오 공연",
+      "description": "조운 트리오 공연."
+    }
+  },
+  {
+    "id": "evt_20251105_d4352220-9310-46db-ba98-c4f45a92bafb",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-05T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-05T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
+    }
+  },
+  {
     "id": "evt_20251105_6f296bc9-e69f-4002-9512-be6f4623282e",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-05T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-05T12:00:00+00:00",
+    "price": "KRW 5,000",
+    "llm_confidence": 1.0,
+    "title": "Hey P HEYP Duo",
+    "description": "Hey P HEYP Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hey P HEYP Duo",
+      "description": "Hey P HEYP Duo performance."
+    },
+    "_search_ko": {
+      "title": "헤이피 HEYP 듀오",
+      "description": "헤이피 HEYP 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251105_b1a8dade-63ef-45cf-9f69-f8e98d358e82",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-05T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-05T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251105_d0a33459-fb7b-4bfe-ba1b-fdb9daca7c96",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-05T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -800,8 +1225,8 @@
     }
   },
   {
-    "id": "evt_20251105_d4352220-9310-46db-ba98-c4f45a92bafb",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-05T20:30:00+09:00",
+    "id": "evt_20251105_4a406264-6cb7-46c9-8bc4-99c0586af2ef",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-05T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -925,8 +1350,133 @@
     }
   },
   {
+    "id": "evt_20251106_1fab15bd-9347-4432-ab57-9dde622ea26b",
+    "event_key": "src:https://www.instagram.com/p/DQhveaUk-fT/|dt:2025-11-06T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhveaUk-fT/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-06T11:00:00+00:00",
+    "price": "KRW 15,000",
+    "llm_confidence": 1.0,
+    "title": "Dan-ye TRIO",
+    "description": "A performance by top-tier musicians centered around jazz vocalist Dan-ye. They present romantic, lively, delicate, and dynamic performances.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Dan-ye TRIO",
+      "description": "A performance by top-tier musicians centered around jazz vocalist Dan-ye. They present romantic, lively, delicate, and dynamic performances."
+    },
+    "_search_ko": {
+      "title": "단예 TRIO",
+      "description": "재즈 보컬 단예를 중심으로 모인 최정상급 연주자들의 무대. 로맨틱하고 발랄하며 섬세하면서도 역동적인 연주를 선보인다."
+    }
+  },
+  {
+    "id": "evt_20251106_7e9e643c-a5bd-49b9-b471-83247561a9c6",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-06T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-06T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DK (Vocal)",
+    "description": "DK (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DK (Vocal)",
+      "description": "DK (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "DK (보컬)",
+      "description": "DK (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251106_20bef7b6-a801-45a5-ab2f-7720ed11265d",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-06T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-06T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Haeinlove Trio Performance",
+    "description": "Haeinlove Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Haeinlove Trio Performance",
+      "description": "Haeinlove Trio performance."
+    },
+    "_search_ko": {
+      "title": "해인럽 트리오 공연",
+      "description": "해인럽 트리오 공연."
+    }
+  },
+  {
     "id": "evt_20251106_9af4e266-009a-4537-9546-7bbd1082928e",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-06T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-06T12:00:00+00:00",
+    "price": "KRW 5,000",
+    "llm_confidence": 1.0,
+    "title": "Lim Bo-young Duo",
+    "description": "Lim Bo-young Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lim Bo-young Duo",
+      "description": "Lim Bo-young Duo performance."
+    },
+    "_search_ko": {
+      "title": "임보영 듀오",
+      "description": "임보영 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251106_47a437e8-6c3a-4060-8ebf-3220691bd4b5",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-06T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-06T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eun Vin (Vocal)",
+    "description": "Eun Vin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Eun Vin (Vocal)",
+      "description": "Eun Vin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "은빈 (보컬)",
+      "description": "은빈 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251106_96ed7c8f-6f86-44b4-bf74-0734c37d83c9",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-06T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -950,8 +1500,8 @@
     }
   },
   {
-    "id": "evt_20251106_7e9e643c-a5bd-49b9-b471-83247561a9c6",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-06T20:30:00+09:00",
+    "id": "evt_20251106_74212606-4e74-43af-9710-4c801b92bedd",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-06T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -997,6 +1547,81 @@
     "_search_ko": {
       "title": "이주미재즈팔레트 Mood ballad",
       "description": "이주미재즈팔레트의 Mood ballad 공연."
+    }
+  },
+  {
+    "id": "evt_20251107_314b3cbf-fea9-40db-a0c0-46387bfeba2d",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-07T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Jazz Libre",
+    "description": "Jazz Libre performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jazz Libre",
+      "description": "Jazz Libre performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "Jazz Libre",
+      "description": "Jazz Libre 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251107_f3709df2-7ef2-4ecb-9bab-35790029976a",
+    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-07T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Otto Junior Band",
+    "description": "Otto Junior Band performance. Otto Junior (guitar, vocal), Ola Grindbakken (drums), Theis Jakob (bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Otto Junior Band",
+      "description": "Otto Junior Band performance. Otto Junior (guitar, vocal), Ola Grindbakken (drums), Theis Jakob (bass)."
+    },
+    "_search_ko": {
+      "title": "Otto Junior Band",
+      "description": "Otto Junior Band 공연. Otto Junior (기타, 보컬), Ola Grindbakken (드럼), Theis Jakob (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251107_8e66eba6-b695-41a2-ba9c-b26c6c90a00f",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-07T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Jang Jae-hyuk Band",
+    "description": "Jang Jae-hyuk Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jang Jae-hyuk Band",
+      "description": "Jang Jae-hyuk Band performance."
+    },
+    "_search_ko": {
+      "title": "장재혁 밴드",
+      "description": "장재혁 밴드 공연."
     }
   },
   {
@@ -1075,6 +1700,31 @@
     }
   },
   {
+    "id": "evt_20251107_c81b204f-3e1c-41ae-ad6e-73f196ae16c3",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-07T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
+    }
+  },
+  {
     "id": "evt_20251107_c6ab33a3-d7c9-4a7c-99a5-8f446a0856af",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-07T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
@@ -1100,28 +1750,53 @@
     }
   },
   {
-    "id": "evt_20251107_f3709df2-7ef2-4ecb-9bab-35790029976a",
-    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-07T20:00:00+09:00",
-    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
-    "venue_handle": "asome_ground",
+    "id": "evt_20251107_d50e106a-9bd5-4c43-bdca-1d94a78483ea",
+    "event_key": "src:https://www.instagram.com/p/DQhveaUk-fT/|dt:2025-11-07T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhveaUk-fT/",
+    "venue_handle": "jazzxover",
     "musician_ids": [],
-    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
     "venue_location_id": "main",
-    "datetime": "2025-11-07T11:30:00+00:00",
-    "price": null,
+    "datetime": "2025-11-07T11:00:00+00:00",
+    "price": "KRW 15,000",
     "llm_confidence": 1.0,
-    "title": "Otto Junior Band",
-    "description": "Performance by Otto Junior Band. Otto Junior (guitar & vocal), Ola Grindbakken (drums), Theis Jakob (bass).",
+    "title": "ME.G.UN _Merry Grin Underground",
+    "description": "A team delivering musical energy and joy stemming from long-standing teamwork. Their unique style transcends genres such as pop, jazz, and indie.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Otto Junior Band",
-      "description": "Performance by Otto Junior Band. Otto Junior (guitar & vocal), Ola Grindbakken (drums), Theis Jakob (bass)."
+      "title": "ME.G.UN _Merry Grin Underground",
+      "description": "A team delivering musical energy and joy stemming from long-standing teamwork. Their unique style transcends genres such as pop, jazz, and indie."
     },
     "_search_ko": {
-      "title": "Otto Junior Band",
-      "description": "Otto Junior Band의 공연. Otto Junior (기타 & 보컬), Ola Grindbakken (드럼), Theis Jakob (베이스)."
+      "title": "ME.G.UN _메리 그린 언더그라운드",
+      "description": "오랜 팀워크에서 나오는 뮤지컬 에너지와 즐거움을 선사하는 팀. 팝, 재즈, 인디 등 다양한 장르를 넘나드는 독특한 색깔의 연주."
+    }
+  },
+  {
+    "id": "evt_20251107_70105352-e3b2-467c-b7ba-37cfb2e5cc7a",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-07T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "venue_id": "ven_95910118-ea71-4cf3-a30f-b2a2ebb0d637",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Band kay",
+    "description": "Band kay performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Band kay",
+      "description": "Band kay performance."
+    },
+    "_search_ko": {
+      "title": "Band kay",
+      "description": "Band kay 공연."
     }
   },
   {
@@ -1150,8 +1825,58 @@
     }
   },
   {
-    "id": "evt_20251107_8e66eba6-b695-41a2-ba9c-b26c6c90a00f",
-    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-07T20:00:00+09:00",
+    "id": "evt_20251107_4268adea-c3ee-40cf-8ec8-88d637d973df",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-07T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Kim Jae-hyung Quartet Performance",
+    "description": "Kim Jae-hyung Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Jae-hyung Quartet Performance",
+      "description": "Kim Jae-hyung Quartet performance."
+    },
+    "_search_ko": {
+      "title": "김재형 퀄텟 공연",
+      "description": "김재형 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251107_de97210b-9a41-4742-8631-bed7d6377421",
+    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-07T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Otto Junior Band",
+    "description": "Performance by Otto Junior Band. Otto Junior (guitar & vocal), Ola Grindbakken (drums), Theis Jakob (bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Otto Junior Band",
+      "description": "Performance by Otto Junior Band. Otto Junior (guitar & vocal), Ola Grindbakken (drums), Theis Jakob (bass)."
+    },
+    "_search_ko": {
+      "title": "Otto Junior Band",
+      "description": "Otto Junior Band의 공연. Otto Junior (기타 & 보컬), Ola Grindbakken (드럼), Theis Jakob (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251107_eea6720e-22da-4b6b-a94e-e0bd7e793bab",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-07T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -1175,8 +1900,8 @@
     }
   },
   {
-    "id": "evt_20251107_314b3cbf-fea9-40db-a0c0-46387bfeba2d",
-    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-07T19:40:00+09:00",
+    "id": "evt_20251107_0d95f79b-3c0c-47b8-aa61-a293890edd1f",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-07T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -1197,6 +1922,56 @@
     "_search_ko": {
       "title": "Jazz Libre",
       "description": "Jazz Libre 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251107_94caa439-5639-4886-8399-c6d06307c2a5",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-07T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Myung Jin (Vocal)",
+    "description": "Myung Jin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Myung Jin (Vocal)",
+      "description": "Myung Jin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "명진 (보컬)",
+      "description": "명진 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251107_be8bafbc-4296-4042-9b8d-6d57dbca8527",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-07T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DODOMCHIT: Alan & Yoon",
+    "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DODOMCHIT: Alan & Yoon",
+      "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal)."
+    },
+    "_search_ko": {
+      "title": "도둠칫: 앨런 & 윤",
+      "description": "도둠칫 공연: 앨런 (색소폰), 윤 (보컬)."
     }
   },
   {
@@ -1225,8 +2000,8 @@
     }
   },
   {
-    "id": "evt_20251107_c81b204f-3e1c-41ae-ad6e-73f196ae16c3",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-07T20:00:00+09:00",
+    "id": "evt_20251107_81479b45-ce8a-4fb6-9598-5f854fd03ff7",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-07T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -1375,6 +2150,56 @@
     }
   },
   {
+    "id": "evt_20251108_1a43f82b-2326-428d-b099-33d8e62aad9a",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-08T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Nado Yoon Quartet",
+    "description": "Nado Yoon Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nado Yoon Quartet",
+      "description": "Nado Yoon Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "나도윤 퀄텟",
+      "description": "나도윤 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251108_9c2a120f-5a24-4cf4-8cab-c5cb9fb098d1",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-08T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Winsome Band",
+    "description": "Winsome Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Winsome Band",
+      "description": "Winsome Band performance."
+    },
+    "_search_ko": {
+      "title": "Winsome 밴드",
+      "description": "Winsome 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251108_b1b80cdd-7bbb-45d8-99a4-b0350944b746",
     "event_key": "src:https://www.instagram.com/p/DQehDyekRJB/|dt:2025-11-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQehDyekRJB/",
@@ -1450,6 +2275,31 @@
     }
   },
   {
+    "id": "evt_20251108_a0094f9f-2937-45f4-acee-2d43f6bab5ed",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-08T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
+    }
+  },
+  {
     "id": "evt_20251108_d2a566a4-84fa-4c40-b2fe-7ca933005506",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
@@ -1472,6 +2322,31 @@
     "_search_ko": {
       "title": "이지영",
       "description": "이지영 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251108_1e79bd39-bbce-4cbf-93c0-c7ff1fb2d951",
+    "event_key": "src:https://www.instagram.com/p/DQhveaUk-fT/|dt:2025-11-08T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhveaUk-fT/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T11:00:00+00:00",
+    "price": "KRW 15,000",
+    "llm_confidence": 1.0,
+    "title": "Ju Mirae QUARTET",
+    "description": "A quartet that reinterprets familiar jazz standards with sophisticated flair. They create a unique jazz flow by harmonizing freedom and tension within elegant vocal lines and intricate ensemble work.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ju Mirae QUARTET",
+      "description": "A quartet that reinterprets familiar jazz standards with sophisticated flair. They create a unique jazz flow by harmonizing freedom and tension within elegant vocal lines and intricate ensemble work."
+    },
+    "_search_ko": {
+      "title": "주미래 QUARTET",
+      "description": "익숙한 재즈 스탠다드에 세련된 감각을 더해 자신만의 색으로 풀어내는 퀄텟. 유려한 보컬 라인과 정교한 앙상블 속에서 자유로움과 긴장감을 조율하며 재즈의 흐름을 만든다."
     }
   },
   {
@@ -1500,6 +2375,31 @@
     }
   },
   {
+    "id": "evt_20251108_19ec9070-1dec-4fd1-831d-f7b9af4f6c39",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-08T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Kim Kwang-yong Trio Performance",
+    "description": "Kim Kwang-yong Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Kwang-yong Trio Performance",
+      "description": "Kim Kwang-yong Trio performance."
+    },
+    "_search_ko": {
+      "title": "김광용 트리오 공연",
+      "description": "김광용 트리오 공연."
+    }
+  },
+  {
     "id": "evt_20251108_1f6438be-5e5c-4c4c-a512-c0c92e80133b",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-08T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
@@ -1525,8 +2425,8 @@
     }
   },
   {
-    "id": "evt_20251108_9c2a120f-5a24-4cf4-8cab-c5cb9fb098d1",
-    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-08T20:00:00+09:00",
+    "id": "evt_20251108_324cb007-9219-42da-9307-adae9c4bd7a7",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-08T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -1550,8 +2450,8 @@
     }
   },
   {
-    "id": "evt_20251108_1a43f82b-2326-428d-b099-33d8e62aad9a",
-    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-08T19:40:00+09:00",
+    "id": "evt_20251108_370279ca-677d-499c-90be-cac4b423d1e6",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-08T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -1572,6 +2472,56 @@
     "_search_ko": {
       "title": "나도윤 퀄텟",
       "description": "나도윤 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251108_fc2f41cf-a984-4d90-8a46-d2a97fdd9036",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-08T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Myung Jin",
+    "description": "Myung Jin (vocal).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Myung Jin",
+      "description": "Myung Jin (vocal)."
+    },
+    "_search_ko": {
+      "title": "명진",
+      "description": "명진 (보컬)."
+    }
+  },
+  {
+    "id": "evt_20251108_50ab6e5c-1ebf-4675-8987-d28aa29ea452",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-08T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Matter Day (Alan & DK & Eun Vin)",
+    "description": "Matter Day. Alan (saxophone), DK (vocal), Eun Vin (vocal).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Matter Day (Alan & DK & Eun Vin)",
+      "description": "Matter Day. Alan (saxophone), DK (vocal), Eun Vin (vocal)."
+    },
+    "_search_ko": {
+      "title": "매터데이 (알란 & 디케이 & 은빈)",
+      "description": "매터데이. 알란 (색소폰), 디케이 (보컬), 은빈 (보컬)."
     }
   },
   {
@@ -1600,8 +2550,8 @@
     }
   },
   {
-    "id": "evt_20251108_a0094f9f-2937-45f4-acee-2d43f6bab5ed",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-08T20:00:00+09:00",
+    "id": "evt_20251108_ad058848-2603-4eac-a383-78b2e0729896",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-08T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -1725,6 +2675,31 @@
     }
   },
   {
+    "id": "evt_20251109_8708c3fd-2198-4469-8389-3f4e94385b2b",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-09T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-09T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Leo Kim Group",
+    "description": "Leo Kim Group performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Leo Kim Group",
+      "description": "Leo Kim Group performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "레오킴 그룹",
+      "description": "레오킴 그룹 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
     "id": "evt_20251109_f5269d6f-11e9-4f95-9611-9b49ecadd329",
     "event_key": "src:https://www.instagram.com/p/DQehDyekRJB/|dt:2025-11-09T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQehDyekRJB/",
@@ -1750,8 +2725,8 @@
     }
   },
   {
-    "id": "evt_20251109_8708c3fd-2198-4469-8389-3f4e94385b2b",
-    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-09T19:40:00+09:00",
+    "id": "evt_20251109_0cca3741-2730-4efb-99b7-ecd881ce53bc",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-09T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -1832,6 +2807,31 @@
     "musician_ids": [],
     "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
+    "datetime": "2025-11-10T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251110_80506a8b-2a3e-4b01-8d0e-e406b966e969",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-10T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
     "datetime": "2025-11-10T13:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
@@ -1907,6 +2907,56 @@
     "musician_ids": [],
     "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
+    "datetime": "2025-11-11T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251111_72c4f4fc-ea27-4192-8653-e51f82fd8ced",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-11T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-11T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eun Vin (Vocal)",
+    "description": "Eun Vin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Eun Vin (Vocal)",
+      "description": "Eun Vin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "은빈 (보컬)",
+      "description": "은빈 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251111_91449beb-2031-4259-a7f7-f87300ceb50d",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-11T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
     "datetime": "2025-11-11T13:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
@@ -1975,8 +3025,133 @@
     }
   },
   {
+    "id": "evt_20251112_7a96e554-5ffa-40eb-8fd0-c26ef48e9a66",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-12T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jazz Step Village Live",
+    "description": "Live performance by Jazz Step Village.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jazz Step Village Live",
+      "description": "Live performance by Jazz Step Village."
+    },
+    "_search_ko": {
+      "title": "재즈 스텝 빌리지 라이브",
+      "description": "JAZZ STEP VILLAGE 공연."
+    }
+  },
+  {
+    "id": "evt_20251112_abe70ca4-179a-450d-b8ea-1661b0cee02a",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-12T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Lee Ki-hyun Trio Performance",
+    "description": "Lee Ki-hyun Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Ki-hyun Trio Performance",
+      "description": "Lee Ki-hyun Trio performance."
+    },
+    "_search_ko": {
+      "title": "이기현 트리오 공연",
+      "description": "이기현 트리오 공연."
+    }
+  },
+  {
+    "id": "evt_20251112_b45a16bc-0b2f-49e6-8fc4-adfe3b4e5f76",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-12T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
+    }
+  },
+  {
     "id": "evt_20251112_aa8531a2-7b93-4502-8c37-4dac1720c936",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-12T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T12:00:00+00:00",
+    "price": "KRW 5,000",
+    "llm_confidence": 1.0,
+    "title": "Lima Duo",
+    "description": "Lima Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lima Duo",
+      "description": "Lima Duo performance."
+    },
+    "_search_ko": {
+      "title": "리마 듀오",
+      "description": "리마 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251112_875b685b-9159-44b6-82f7-3446d1921398",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-12T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251112_e3f819ba-5621-4f39-9cd7-edcd1c56b59e",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-12T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -2000,8 +3175,8 @@
     }
   },
   {
-    "id": "evt_20251112_b45a16bc-0b2f-49e6-8fc4-adfe3b4e5f76",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-12T20:30:00+09:00",
+    "id": "evt_20251112_3eb05fc6-c96b-4783-a694-dcd1c609578f",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-12T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -2075,8 +3250,133 @@
     }
   },
   {
+    "id": "evt_20251113_ccfec36f-541a-4312-940f-e412e7c4d9ff",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-13T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Won Sung-jin Trio Live",
+    "description": "Live performance by Won Sung-jin Trio.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Won Sung-jin Trio Live",
+      "description": "Live performance by Won Sung-jin Trio."
+    },
+    "_search_ko": {
+      "title": "원성진 트리오 라이브",
+      "description": "원성진 트리오 공연."
+    }
+  },
+  {
+    "id": "evt_20251113_c3561016-4c22-49b4-9667-702bb90dc366",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-13T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DK (Vocal)",
+    "description": "DK (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DK (Vocal)",
+      "description": "DK (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "DK (보컬)",
+      "description": "DK (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251113_b008fb93-475a-4870-b879-d67affdc56ad",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-13T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Choi Young-mi Trio Performance",
+    "description": "Choi Young-mi Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Choi Young-mi Trio Performance",
+      "description": "Choi Young-mi Trio performance."
+    },
+    "_search_ko": {
+      "title": "최영미 트리오 공연",
+      "description": "최영미 트리오 공연."
+    }
+  },
+  {
     "id": "evt_20251113_a4367530-84b4-4518-a64f-f886c8635ef8",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-13T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T12:00:00+00:00",
+    "price": "KRW 5,000",
+    "llm_confidence": 1.0,
+    "title": "Nina Park Duo",
+    "description": "Nina Park Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nina Park Duo",
+      "description": "Nina Park Duo performance."
+    },
+    "_search_ko": {
+      "title": "니나파크 듀오",
+      "description": "니나파크 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251113_940cef0f-8ee2-4cb8-8155-e2cc734c96e9",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-13T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eun Vin (Vocal)",
+    "description": "Eun Vin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Eun Vin (Vocal)",
+      "description": "Eun Vin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "은빈 (보컬)",
+      "description": "은빈 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251113_9a780b8e-3818-425e-9704-ae35d3346cbd",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-13T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -2100,8 +3400,8 @@
     }
   },
   {
-    "id": "evt_20251113_c3561016-4c22-49b4-9667-702bb90dc366",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-13T20:30:00+09:00",
+    "id": "evt_20251113_0134a056-6019-47aa-9222-7aa366f07754",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-13T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -2150,6 +3450,81 @@
     }
   },
   {
+    "id": "evt_20251114_29bbcb77-a21e-4795-8440-5a02e166aa8c",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-14T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Park Sang-ah Quartet",
+    "description": "Park Sang-ah Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Sang-ah Quartet",
+      "description": "Park Sang-ah Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "박상아 퀄텟",
+      "description": "박상아 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251114_7aa6fc9f-6920-45fe-97bb-aa216d2e88eb",
+    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-14T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DCT.",
+    "description": "DCT. performance. Triple B (piano), Shim Yoon-gu (guitar), Rita (vocal), Kang Daniel (drums), Kim No-hyun (bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DCT.",
+      "description": "DCT. performance. Triple B (piano), Shim Yoon-gu (guitar), Rita (vocal), Kang Daniel (drums), Kim No-hyun (bass)."
+    },
+    "_search_ko": {
+      "title": "DCT.",
+      "description": "DCT. 공연. 트리플비 (피아노), 심윤구 (기타), 리타 (보컬), 강다니엘 (드럼), 김노현 (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251114_c5acbfa0-14a9-4f51-a6d1-8f260b09b870",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-14T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Hae Il-leop Band",
+    "description": "Hae Il-leop Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hae Il-leop Band",
+      "description": "Hae Il-leop Band performance."
+    },
+    "_search_ko": {
+      "title": "해일럽 밴드",
+      "description": "해일럽 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251114_f1217609-1c4f-4cd7-9fe5-92107b36ae1e",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-14T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
@@ -2172,6 +3547,31 @@
     "_search_ko": {
       "title": "박은성 스몰 빅밴드",
       "description": "박은성 스몰 빅밴드의 보컬 공연."
+    }
+  },
+  {
+    "id": "evt_20251114_970ec1ca-f329-4d43-8568-5b2e174373d9",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-14T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
     }
   },
   {
@@ -2200,28 +3600,53 @@
     }
   },
   {
-    "id": "evt_20251114_7aa6fc9f-6920-45fe-97bb-aa216d2e88eb",
-    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-14T20:00:00+09:00",
-    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
-    "venue_handle": "asome_ground",
+    "id": "evt_20251114_a73dee2c-ef8b-4477-b84e-9218f6bab2e6",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-14T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
     "musician_ids": [],
-    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
     "venue_location_id": "main",
-    "datetime": "2025-11-14T11:30:00+00:00",
+    "datetime": "2025-11-14T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "DCT.",
-    "description": "Performance by DCT. Triple B (piano), Shim Yoon-goo (guitar), Rita (vocal), Kang Daniel (drums), Kim No-hyun (bass).",
+    "title": "Nan Ajin Band Live",
+    "description": "Live performance by Nan Ajin Band.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "DCT.",
-      "description": "Performance by DCT. Triple B (piano), Shim Yoon-goo (guitar), Rita (vocal), Kang Daniel (drums), Kim No-hyun (bass)."
+      "title": "Nan Ajin Band Live",
+      "description": "Live performance by Nan Ajin Band."
     },
     "_search_ko": {
-      "title": "DCT.",
-      "description": "DCT. 공연. 트리플비 (피아노), 심윤구 (기타), 리타 (보컬), 강다니엘 (드럼), 김노현 (베이스)."
+      "title": "난아진 밴드 라이브",
+      "description": "난아진 밴드 공연."
+    }
+  },
+  {
+    "id": "evt_20251114_a1ed13c2-f9fa-4daf-a8de-89e6e13c693c",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-14T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "venue_id": "ven_95910118-ea71-4cf3-a30f-b2a2ebb0d637",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Night and",
+    "description": "Night and performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Night and",
+      "description": "Night and performance."
+    },
+    "_search_ko": {
+      "title": "Night and",
+      "description": "Night and 공연."
     }
   },
   {
@@ -2250,8 +3675,58 @@
     }
   },
   {
-    "id": "evt_20251114_c5acbfa0-14a9-4f51-a6d1-8f260b09b870",
-    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-14T20:00:00+09:00",
+    "id": "evt_20251114_e3f4858e-9f22-4f3f-bb6c-1900bc1124f0",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-14T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Kim Jae-hyung Quartet Performance",
+    "description": "Kim Jae-hyung Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Jae-hyung Quartet Performance",
+      "description": "Kim Jae-hyung Quartet performance."
+    },
+    "_search_ko": {
+      "title": "김재형 퀄텟 공연",
+      "description": "김재형 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251114_bcc6fe63-1e58-4fbc-801a-103729c9d2f1",
+    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-14T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DCT.",
+    "description": "Performance by DCT. Triple B (piano), Shim Yoon-goo (guitar), Rita (vocal), Kang Daniel (drums), Kim No-hyun (bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DCT.",
+      "description": "Performance by DCT. Triple B (piano), Shim Yoon-goo (guitar), Rita (vocal), Kang Daniel (drums), Kim No-hyun (bass)."
+    },
+    "_search_ko": {
+      "title": "DCT.",
+      "description": "DCT. 공연. 트리플비 (피아노), 심윤구 (기타), 리타 (보컬), 강다니엘 (드럼), 김노현 (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251114_22654856-6ad4-483d-aa7e-a4c4f5fdd999",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-14T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -2275,8 +3750,8 @@
     }
   },
   {
-    "id": "evt_20251114_29bbcb77-a21e-4795-8440-5a02e166aa8c",
-    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-14T19:40:00+09:00",
+    "id": "evt_20251114_071272b1-526e-483a-91f0-429b5c87ab55",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-14T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -2297,6 +3772,56 @@
     "_search_ko": {
       "title": "박상아 퀄텟",
       "description": "박상아 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251114_906cd96b-bb5b-4031-8feb-7486fc15846a",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-14T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eun Vin (Vocal)",
+    "description": "Eun Vin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Eun Vin (Vocal)",
+      "description": "Eun Vin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "은빈 (보컬)",
+      "description": "은빈 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251114_eb9ad129-10a1-4983-97c7-b54be38a9158",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-14T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DODOMCHIT: Alan & Yoon",
+    "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DODOMCHIT: Alan & Yoon",
+      "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal)."
+    },
+    "_search_ko": {
+      "title": "도둠칫: 앨런 & 윤",
+      "description": "도둠칫 공연: 앨런 (색소폰), 윤 (보컬)."
     }
   },
   {
@@ -2325,8 +3850,8 @@
     }
   },
   {
-    "id": "evt_20251114_970ec1ca-f329-4d43-8568-5b2e174373d9",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-14T20:00:00+09:00",
+    "id": "evt_20251114_44c2e03f-d80b-4906-b60d-46bf0c955b08",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-14T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -2372,6 +3897,106 @@
     "_search_ko": {
       "title": "FLATNINE SPECIAL CONCERT",
       "description": "FLATNINE SPECIAL CONCERT. 출연: Tin Trommelen (기타), Tin Trommelen Trio, 박진성 Duo."
+    }
+  },
+  {
+    "id": "evt_20251115_f94fb1cf-6701-4b68-9f1d-af2751c85e63",
+    "event_key": "src:https://www.instagram.com/p/DQg9ttBknHy/|dt:2025-11-15T18:20:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQg9ttBknHy/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T09:20:00+00:00",
+    "price": "KRW 30,000",
+    "llm_confidence": 1.0,
+    "title": "Tijn Trommelen Live at FLATNINE (Part 1)",
+    "description": "Dutch guitarist and vocalist Tijn Trommelen's first Seoul performance at FLATNINE. He presents swing-filled performances and a sweet voice. Live charge KRW 30,000. For 2 people, 1 food item and 1 bottle (including wine) must be ordered. Separate reservation required for each session.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Tijn Trommelen Live at FLATNINE (Part 1)",
+      "description": "Dutch guitarist and vocalist Tijn Trommelen's first Seoul performance at FLATNINE. He presents swing-filled performances and a sweet voice. Live charge KRW 30,000. For 2 people, 1 food item and 1 bottle (including wine) must be ordered. Separate reservation required for each session."
+    },
+    "_search_ko": {
+      "title": "타인 트로멜렌 라이브 at 플랫나인 (1부)",
+      "description": "네덜란드 출신 기타리스트이자 보컬리스트 타인 트로멜렌의 플랫나인 첫 서울 공연. 스윙감 넘치는 연주와 감미로운 목소리를 선보인다. 라이브 차지 30,000원. 2인 기준 1푸드 및 1바틀(와인 포함) 필수 주문. 각 회차별 예약 필요."
+    }
+  },
+  {
+    "id": "evt_20251115_958cd8c2-0355-4240-b513-b43ea1337517",
+    "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-15T19:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Tin Trommelen Quartet",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Tin Trommelen Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Tin Trommelen Quartet",
+      "description": null
+    }
+  },
+  {
+    "id": "evt_20251115_816e0057-3c6c-4e17-b791-b79c91794eb6",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-15T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Lima Jazz Band",
+    "description": "Lima Jazz Band performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lima Jazz Band",
+      "description": "Lima Jazz Band performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "리마재즈밴드",
+      "description": "리마재즈밴드 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251115_c5068b5b-af4e-4c62-955b-0cb99a629852",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-15T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Hey P HEY P Band",
+    "description": "Hey P HEY P Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hey P HEY P Band",
+      "description": "Hey P HEY P Band performance."
+    },
+    "_search_ko": {
+      "title": "헤이피 HEY P 밴드",
+      "description": "헤이피 HEY P 밴드 공연."
     }
   },
   {
@@ -2425,6 +4050,31 @@
     }
   },
   {
+    "id": "evt_20251115_5ac2b6c9-5672-4b6d-a322-9cbdd55ef1b7",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-15T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
+    }
+  },
+  {
     "id": "evt_20251115_9e30dabf-3b0e-4404-88fe-618aeb25104a",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-15T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
@@ -2447,6 +4097,56 @@
     "_search_ko": {
       "title": "신동진 & The New Generation",
       "description": "신동진 & 더 뉴 제너레이션 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251115_51292231-d7cf-4134-8b4a-50837eb1b65a",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-15T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Sasun (SASEON) Live",
+    "description": "Live performance by Sasun (SASEON).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Sasun (SASEON) Live",
+      "description": "Live performance by Sasun (SASEON)."
+    },
+    "_search_ko": {
+      "title": "사선 (SASEON) 라이브",
+      "description": "사선 (SASEON) 공연."
+    }
+  },
+  {
+    "id": "evt_20251115_5916076a-1529-453d-a5f7-aa4604646b82",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-15T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "venue_id": "ven_95910118-ea71-4cf3-a30f-b2a2ebb0d637",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Let's Go See the Moon",
+    "description": "Let's Go See the Moon performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Let's Go See the Moon",
+      "description": "Let's Go See the Moon performance."
+    },
+    "_search_ko": {
+      "title": "달보러가자",
+      "description": "달보러가자 공연."
     }
   },
   {
@@ -2475,8 +4175,33 @@
     }
   },
   {
-    "id": "evt_20251115_c5068b5b-af4e-4c62-955b-0cb99a629852",
-    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-15T20:00:00+09:00",
+    "id": "evt_20251115_0256df42-fa3a-4ff5-9e1f-ed7e76efb054",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-15T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Yang Jun-ho Trio Performance",
+    "description": "Yang Jun-ho Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yang Jun-ho Trio Performance",
+      "description": "Yang Jun-ho Trio performance."
+    },
+    "_search_ko": {
+      "title": "양준호 트리오 공연",
+      "description": "양준호 트리오 공연."
+    }
+  },
+  {
+    "id": "evt_20251115_0ec736e5-318d-4cca-a718-0d30afb43969",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-15T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -2500,8 +4225,8 @@
     }
   },
   {
-    "id": "evt_20251115_816e0057-3c6c-4e17-b791-b79c91794eb6",
-    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-15T19:40:00+09:00",
+    "id": "evt_20251115_c97e1558-e2c1-4d8d-9565-199da6a9a91c",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-15T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -2525,6 +4250,81 @@
     }
   },
   {
+    "id": "evt_20251115_3e220d3d-cc8a-4593-9947-8507b58a695d",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-15T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Junsung (Vocal)",
+    "description": "Junsung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Junsung (Vocal)",
+      "description": "Junsung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "준성 (보컬)",
+      "description": "준성 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251115_ee3e0d9f-7543-4473-ad2e-b4b778c74d9f",
+    "event_key": "src:https://www.instagram.com/p/DQg9ttBknHy/|dt:2025-11-15T21:20:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQg9ttBknHy/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T12:20:00+00:00",
+    "price": "KRW 30,000",
+    "llm_confidence": 1.0,
+    "title": "Tijn Trommelen Live at FLATNINE (Part 2)",
+    "description": "Dutch guitarist and vocalist Tijn Trommelen's first Seoul performance at FLATNINE. He presents swing-filled performances and a sweet voice. Live charge KRW 30,000. For 2 people, 1 food item and 1 bottle (including wine) must be ordered. Separate reservation required for each session.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Tijn Trommelen Live at FLATNINE (Part 2)",
+      "description": "Dutch guitarist and vocalist Tijn Trommelen's first Seoul performance at FLATNINE. He presents swing-filled performances and a sweet voice. Live charge KRW 30,000. For 2 people, 1 food item and 1 bottle (including wine) must be ordered. Separate reservation required for each session."
+    },
+    "_search_ko": {
+      "title": "타인 트로멜렌 라이브 at 플랫나인 (2부)",
+      "description": "네덜란드 출신 기타리스트이자 보컬리스트 타인 트로멜렌의 플랫나인 첫 서울 공연. 스윙감 넘치는 연주와 감미로운 목소리를 선보인다. 라이브 차지 30,000원. 2인 기준 1푸드 및 1바틀(와인 포함) 필수 주문. 각 회차별 예약 필요."
+    }
+  },
+  {
+    "id": "evt_20251115_dd7b184c-d5ad-4385-b3fe-3921163ea137",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-15T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DODOMCHIT: Alan & Yoon",
+    "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DODOMCHIT: Alan & Yoon",
+      "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal)."
+    },
+    "_search_ko": {
+      "title": "도둠칫: 앨런 & 윤",
+      "description": "도둠칫 공연: 앨런 (색소폰), 윤 (보컬)."
+    }
+  },
+  {
     "id": "evt_20251115_eb1e4cd5-4c16-412b-99f9-11869861b0af",
     "event_key": "src:https://www.instagram.com/p/DQeK83jkicg/|dt:2025-11-15T18:20:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
@@ -2536,22 +4336,22 @@
     "price": "KRW 30,000",
     "llm_confidence": 1.0,
     "title": "Min Jeong-won Duo",
-    "description": "Dutch guitarist and vocalist Tijn Trommelen's swinging performance and sweet voice. If continuing to watch the Part 3 performance, the Live Charge for Part 3 is discounted to KRW 5,000.",
+    "description": "Dutch guitarist and vocalist Tijn Trommelen's first Seoul performance at FLATNINE. He presents swing-filled performances and a sweet voice. Live charge KRW 30,000. For 2 people, 1 food item and 1 bottle (including wine) must be ordered. Separate reservation required for each session.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Min Jeong-won Duo",
-      "description": "Dutch guitarist and vocalist Tijn Trommelen's swinging performance and sweet voice. If continuing to watch the Part 3 performance, the Live Charge for Part 3 is discounted to KRW 5,000."
+      "description": "Dutch guitarist and vocalist Tijn Trommelen's first Seoul performance at FLATNINE. He presents swing-filled performances and a sweet voice. Live charge KRW 30,000. For 2 people, 1 food item and 1 bottle (including wine) must be ordered. Separate reservation required for each session."
     },
     "_search_ko": {
       "title": "민정원 Duo",
-      "description": "네덜란드 출신의 기타리스트이자 보컬리스트 Tijn Trommelen의 스윙감 넘치는 연주와 감미로운 목소리. 3부 공연 연달아 관람 시, 3부 Live Charge 5,000원으로 할인."
+      "description": "네덜란드 출신 기타리스트이자 보컬리스트 타인 트로멜렌의 플랫나인 첫 서울 공연. 스윙감 넘치는 연주와 감미로운 목소리를 선보인다. 라이브 차지 30,000원. 2인 기준 1푸드 및 1바틀(와인 포함) 필수 주문. 각 회차별 예약 필요."
     }
   },
   {
-    "id": "evt_20251115_5ac2b6c9-5672-4b6d-a322-9cbdd55ef1b7",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-15T20:00:00+09:00",
+    "id": "evt_20251115_9da8cc2c-fb4c-4606-a1b5-8287859f96a1",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-15T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -2657,6 +4457,31 @@
     "musician_ids": [],
     "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
+    "datetime": "2025-11-16T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Minjhoy Trio",
+    "description": "Minjhoy Trio performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Minjhoy Trio",
+      "description": "Minjhoy Trio performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "Minjhoy 트리오",
+      "description": "Minjhoy 트리오 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251116_a1d10df7-ec35-4fd4-ae3b-128e5bbb8b33",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-16T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
     "datetime": "2025-11-16T12:00:00+00:00",
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
@@ -2727,6 +4552,31 @@
   {
     "id": "evt_20251117_2b26be01-12c4-4a80-adb6-9b1185ec1d1f",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-17T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-17T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251117_089af9ac-a171-4b42-a437-88eaf542dc7d",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-17T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -2807,6 +4657,56 @@
     "musician_ids": [],
     "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
+    "datetime": "2025-11-18T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251118_87150d6d-d17e-4385-897a-05572c6a3a00",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-18T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-18T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eun Vin (Vocal)",
+    "description": "Eun Vin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Eun Vin (Vocal)",
+      "description": "Eun Vin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "은빈 (보컬)",
+      "description": "은빈 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251118_1d56b01f-01f9-4d76-bfa6-08e42f162eb0",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-18T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
     "datetime": "2025-11-18T13:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
@@ -2875,8 +4775,133 @@
     }
   },
   {
+    "id": "evt_20251119_9a71c467-a7ee-424e-82aa-a2568950463f",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-19T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lukku Kim Jazz Band with Kim Han Live",
+    "description": "Live performance by Lukku Kim Jazz Band with Kim Han.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lukku Kim Jazz Band with Kim Han Live",
+      "description": "Live performance by Lukku Kim Jazz Band with Kim Han."
+    },
+    "_search_ko": {
+      "title": "루꾸 김 재즈 밴드 with 김한 라이브",
+      "description": "LUKKU KIM JAZZ BAND with 김한 공연."
+    }
+  },
+  {
+    "id": "evt_20251119_b80e4a4e-3136-4444-9650-15ccb5a5137b",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-19T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Yong To The Sun Performance",
+    "description": "Yong To The Sun performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yong To The Sun Performance",
+      "description": "Yong To The Sun performance."
+    },
+    "_search_ko": {
+      "title": "Yong To The Sun 공연",
+      "description": "Yong To The Sun 공연."
+    }
+  },
+  {
+    "id": "evt_20251119_f4b37af0-edc0-47eb-bce5-3ef0d4602dd7",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-19T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
+    }
+  },
+  {
     "id": "evt_20251119_3d77324b-b4c3-4cfc-8db4-32913208bf4d",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-19T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T12:00:00+00:00",
+    "price": "KRW 5,000",
+    "llm_confidence": 1.0,
+    "title": "Ndalamon Duo",
+    "description": "Ndalamon Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ndalamon Duo",
+      "description": "Ndalamon Duo performance."
+    },
+    "_search_ko": {
+      "title": "Ndalamon 듀오",
+      "description": "Ndalamon 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251119_23ed2369-8cf4-413b-8433-0418dfd504c7",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-19T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251119_bea1777e-57fb-4c01-95ee-095604885c20",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-19T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -2900,8 +4925,8 @@
     }
   },
   {
-    "id": "evt_20251119_f4b37af0-edc0-47eb-bce5-3ef0d4602dd7",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-19T20:30:00+09:00",
+    "id": "evt_20251119_a4b60027-fc69-4be7-aa0d-153ca8f8b229",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-19T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -2975,8 +5000,133 @@
     }
   },
   {
+    "id": "evt_20251120_eefaf434-2282-4726-bca0-7c898fdfc019",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-20T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Young-mi Trio Live",
+    "description": "Live performance by Choi Young-mi Trio.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Choi Young-mi Trio Live",
+      "description": "Live performance by Choi Young-mi Trio."
+    },
+    "_search_ko": {
+      "title": "최영미 트리오 라이브",
+      "description": "최영미 트리오 공연."
+    }
+  },
+  {
+    "id": "evt_20251120_519137a3-6e88-4b1d-bb71-f54161973f68",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-20T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DK (Vocal)",
+    "description": "DK (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DK (Vocal)",
+      "description": "DK (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "DK (보컬)",
+      "description": "DK (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251120_63051271-a995-4140-9612-4cf68b253566",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-20T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Lee Dae-won Trio Performance",
+    "description": "Lee Dae-won Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Dae-won Trio Performance",
+      "description": "Lee Dae-won Trio performance."
+    },
+    "_search_ko": {
+      "title": "이대원 트리오 공연",
+      "description": "이대원 트리오 공연."
+    }
+  },
+  {
     "id": "evt_20251120_d4173e0b-0fa0-44bf-a11d-b5a4f810a14e",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-20T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T12:00:00+00:00",
+    "price": "KRW 5,000",
+    "llm_confidence": 1.0,
+    "title": "Lima Duo",
+    "description": "Lima Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lima Duo",
+      "description": "Lima Duo performance."
+    },
+    "_search_ko": {
+      "title": "리마 듀오",
+      "description": "리마 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251120_07313f6d-e42c-48cf-969d-fe6ca4dc6c0a",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-20T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eun Vin (Vocal)",
+    "description": "Eun Vin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Eun Vin (Vocal)",
+      "description": "Eun Vin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "은빈 (보컬)",
+      "description": "은빈 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251120_c18afd2e-3e2b-46e9-8b7f-bb8fb4f58fa6",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-20T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -3000,8 +5150,8 @@
     }
   },
   {
-    "id": "evt_20251120_519137a3-6e88-4b1d-bb71-f54161973f68",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-20T20:30:00+09:00",
+    "id": "evt_20251120_0a5adde1-11ef-4606-8b9f-e83f8c8db9ed",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-20T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -3050,6 +5200,81 @@
     }
   },
   {
+    "id": "evt_20251121_624dd745-0e3b-408e-bf23-685eb12c76db",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-21T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Swing Nam Project",
+    "description": "Swing Nam Project performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Swing Nam Project",
+      "description": "Swing Nam Project performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "스윙남 프로젝트",
+      "description": "스윙남 프로젝트 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251121_c4798abb-03d2-404a-93e7-97a5ff7e8984",
+    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-21T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Gritikiti",
+    "description": "Gritikiti performance. 8mlee (vocal), JM Kim (keyboard), Victor Dejesus (trumpet), Guillaume Desbos (drums), Alejandro Gonzalez (bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Gritikiti",
+      "description": "Gritikiti performance. 8mlee (vocal), JM Kim (keyboard), Victor Dejesus (trumpet), Guillaume Desbos (drums), Alejandro Gonzalez (bass)."
+    },
+    "_search_ko": {
+      "title": "그리티키티",
+      "description": "그리티키티 공연. 8mlee (보컬), JM Kim (키보드), Victor Dejesus (트럼펫), Guillaume Desbos (드럼), Alejandro Gonzalez (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251121_431d2ec6-11d2-461e-9d88-05b03dd12334",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-21T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Winsome Band",
+    "description": "Winsome Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Winsome Band",
+      "description": "Winsome Band performance."
+    },
+    "_search_ko": {
+      "title": "Winsome 밴드",
+      "description": "Winsome 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251121_9868e39f-9260-482b-8cd5-686e51db7279",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-21T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
@@ -3072,6 +5297,31 @@
     "_search_ko": {
       "title": "김효진 트리오",
       "description": "김효진 트리오의 공연."
+    }
+  },
+  {
+    "id": "evt_20251121_f7872d98-dd25-4fcc-91fe-143f51bcd903",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-21T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
     }
   },
   {
@@ -3100,28 +5350,53 @@
     }
   },
   {
-    "id": "evt_20251121_c4798abb-03d2-404a-93e7-97a5ff7e8984",
-    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-21T20:00:00+09:00",
-    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
-    "venue_handle": "asome_ground",
+    "id": "evt_20251121_a83ceb04-c2c9-4588-88b7-5bd98322b435",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-21T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
     "musician_ids": [],
-    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
     "venue_location_id": "main",
-    "datetime": "2025-11-21T11:30:00+00:00",
+    "datetime": "2025-11-21T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Gritee Kitty",
-    "description": "Performance by Gritee Kitty. 8mlee (vocal), JM Kim (keyboard), Victor Dejesus (trumpet), Guillaume Desbos (drums), Alejandro Gonzalez (bass).",
+    "title": "Iseul & KO Project Live",
+    "description": "Live performance by Iseul & KO Project.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Gritee Kitty",
-      "description": "Performance by Gritee Kitty. 8mlee (vocal), JM Kim (keyboard), Victor Dejesus (trumpet), Guillaume Desbos (drums), Alejandro Gonzalez (bass)."
+      "title": "Iseul & KO Project Live",
+      "description": "Live performance by Iseul & KO Project."
     },
     "_search_ko": {
-      "title": "그리티키티",
-      "description": "그리티키티 공연. 8mlee (보컬), JM Kim (키보드), Victor Dejesus (트럼펫), Guillaume Desbos (드럼), Alejandro Gonzalez (베이스)."
+      "title": "이슬 & 코 프로젝트 라이브",
+      "description": "ISEUL & KO PROJECT 공연."
+    }
+  },
+  {
+    "id": "evt_20251121_43b0de38-a0cf-4542-ac80-5736919e2f98",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-21T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "venue_id": "ven_95910118-ea71-4cf3-a30f-b2a2ebb0d637",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Sung-ho Band",
+    "description": "Lee Sung-ho Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Sung-ho Band",
+      "description": "Lee Sung-ho Band performance."
+    },
+    "_search_ko": {
+      "title": "이성호밴드",
+      "description": "이성호밴드 공연."
     }
   },
   {
@@ -3150,8 +5425,58 @@
     }
   },
   {
-    "id": "evt_20251121_431d2ec6-11d2-461e-9d88-05b03dd12334",
-    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-21T20:00:00+09:00",
+    "id": "evt_20251121_181a210e-d85b-43d4-ab98-6c88c55375f8",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-21T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Kim Jae-hyung Quartet Performance",
+    "description": "Kim Jae-hyung Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Jae-hyung Quartet Performance",
+      "description": "Kim Jae-hyung Quartet performance."
+    },
+    "_search_ko": {
+      "title": "김재형 퀄텟 공연",
+      "description": "김재형 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251121_e77e9ccd-1c0f-42ed-a15a-7413b7adad2f",
+    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-21T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Gritee Kitty",
+    "description": "Performance by Gritee Kitty. 8mlee (vocal), JM Kim (keyboard), Victor Dejesus (trumpet), Guillaume Desbos (drums), Alejandro Gonzalez (bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Gritee Kitty",
+      "description": "Performance by Gritee Kitty. 8mlee (vocal), JM Kim (keyboard), Victor Dejesus (trumpet), Guillaume Desbos (drums), Alejandro Gonzalez (bass)."
+    },
+    "_search_ko": {
+      "title": "그리티키티",
+      "description": "그리티키티 공연. 8mlee (보컬), JM Kim (키보드), Victor Dejesus (트럼펫), Guillaume Desbos (드럼), Alejandro Gonzalez (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251121_314468ac-574d-4a95-a237-16292f5f181d",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-21T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -3175,8 +5500,8 @@
     }
   },
   {
-    "id": "evt_20251121_624dd745-0e3b-408e-bf23-685eb12c76db",
-    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-21T19:40:00+09:00",
+    "id": "evt_20251121_11b2a06e-bdfa-4b3d-a37a-79dcf4045e9d",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-21T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -3197,6 +5522,56 @@
     "_search_ko": {
       "title": "스윙남 프로젝트",
       "description": "스윙남 프로젝트 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251121_b02ac9cc-450d-4933-901f-432cf08936b7",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-21T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Myung Jin (Vocal)",
+    "description": "Myung Jin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Myung Jin (Vocal)",
+      "description": "Myung Jin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "명진 (보컬)",
+      "description": "명진 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251121_f6813cd1-c13a-416b-af75-7dfc2042034d",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-21T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DODOMCHIT: Alan & Yoon",
+    "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DODOMCHIT: Alan & Yoon",
+      "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal)."
+    },
+    "_search_ko": {
+      "title": "도둠칫: 앨런 & 윤",
+      "description": "도둠칫 공연: 앨런 (색소폰), 윤 (보컬)."
     }
   },
   {
@@ -3225,8 +5600,8 @@
     }
   },
   {
-    "id": "evt_20251121_f7872d98-dd25-4fcc-91fe-143f51bcd903",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-21T20:00:00+09:00",
+    "id": "evt_20251121_5a05407e-efd6-42a3-ade6-aaf4aa5bf491",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-21T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -3300,6 +5675,56 @@
     }
   },
   {
+    "id": "evt_20251122_1e6dcdb9-fcef-4ee9-b098-de242aefb2bd",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-22T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Juan Mejía Quartet",
+    "description": "Juan Mejía Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Juan Mejía Quartet",
+      "description": "Juan Mejía Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "Juan Mejía 퀄텟",
+      "description": "Juan Mejía 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251122_9f16259e-aa36-4cb3-b0c8-8f3bac43a786",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-22T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Beard & Young blood Band",
+    "description": "Beard & Young blood Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Beard & Young blood Band",
+      "description": "Beard & Young blood Band performance."
+    },
+    "_search_ko": {
+      "title": "Beard & Young blood 밴드",
+      "description": "Beard & Young blood 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251122_e6f3a10b-8237-49c5-b62b-318bb0681648",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-22T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
@@ -3350,6 +5775,31 @@
     }
   },
   {
+    "id": "evt_20251122_4d52e0f8-6b59-4ced-abfe-f41cfdc089c0",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-22T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Myung Jin (Vocal)",
+    "description": "Myung Jin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Myung Jin (Vocal)",
+      "description": "Myung Jin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "명진 (보컬)",
+      "description": "명진 (보컬) 공연."
+    }
+  },
+  {
     "id": "evt_20251122_56485663-88ea-4d97-9420-4a7580c0717c",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-22T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
@@ -3372,6 +5822,56 @@
     "_search_ko": {
       "title": "임미정",
       "description": "임미정 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251122_74d0c120-4e91-47fb-9b09-e69d14f31d69",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-22T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Heo Won-mu Quartet Live",
+    "description": "Live performance by Heo Won-mu Quartet.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Heo Won-mu Quartet Live",
+      "description": "Live performance by Heo Won-mu Quartet."
+    },
+    "_search_ko": {
+      "title": "허원무 퀄텟 라이브",
+      "description": "허원무 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251122_b89aa96d-5e91-41ba-abfa-4689c261655a",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-22T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "venue_id": "ven_95910118-ea71-4cf3-a30f-b2a2ebb0d637",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ryu In-gi Band",
+    "description": "Ryu In-gi Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ryu In-gi Band",
+      "description": "Ryu In-gi Band performance."
+    },
+    "_search_ko": {
+      "title": "류인기밴드",
+      "description": "류인기밴드 공연."
     }
   },
   {
@@ -3400,8 +5900,33 @@
     }
   },
   {
-    "id": "evt_20251122_9f16259e-aa36-4cb3-b0c8-8f3bac43a786",
-    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-22T20:00:00+09:00",
+    "id": "evt_20251122_9a17c1a1-91cd-451f-900c-0dbb105a0e08",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-22T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Ryu Je-hoon Quartet Performance",
+    "description": "Ryu Je-hoon Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ryu Je-hoon Quartet Performance",
+      "description": "Ryu Je-hoon Quartet performance."
+    },
+    "_search_ko": {
+      "title": "류제훈 퀄텟 공연",
+      "description": "류제훈 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251122_cac878f2-6e02-4bc0-a434-c6ffb6d77882",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-22T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -3425,8 +5950,8 @@
     }
   },
   {
-    "id": "evt_20251122_1e6dcdb9-fcef-4ee9-b098-de242aefb2bd",
-    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-22T19:40:00+09:00",
+    "id": "evt_20251122_b4f2885a-365c-4dd2-a735-573d1919684e",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-22T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -3447,6 +5972,56 @@
     "_search_ko": {
       "title": "Juan Mejía 퀄텟",
       "description": "Juan Mejía 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251122_893b6885-4f91-4882-b332-cb66c2ec82ff",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-22T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251122_e8a39ffc-31e0-4e1a-9841-cfdfb77333c2",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-22T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DODOMCHIT: Alan & Yoon",
+    "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DODOMCHIT: Alan & Yoon",
+      "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal)."
+    },
+    "_search_ko": {
+      "title": "도둠칫: 앨런 & 윤",
+      "description": "도둠칫 공연: 앨런 (색소폰), 윤 (보컬)."
     }
   },
   {
@@ -3475,8 +6050,8 @@
     }
   },
   {
-    "id": "evt_20251122_4d52e0f8-6b59-4ced-abfe-f41cfdc089c0",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-22T20:00:00+09:00",
+    "id": "evt_20251122_309a2c62-c912-4026-a0fc-fc33ce2627ab",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-22T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -3497,6 +6072,31 @@
     "_search_ko": {
       "title": "매터데이: 앨런, DK, & 은빈",
       "description": "매터데이 공연: 앨런 (색소폰), DK (보컬), 은빈 (보컬)."
+    }
+  },
+  {
+    "id": "evt_20251123_2e26b3d1-27bf-4007-bc0d-05c92ad78979",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-23T15:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T06:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "JazzXover Discovery Audition #1",
+    "description": "The first JazzXover Discovery Audition, featuring new bands, new sounds, and new stories.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "JazzXover Discovery Audition #1",
+      "description": "The first JazzXover Discovery Audition, featuring new bands, new sounds, and new stories."
+    },
+    "_search_ko": {
+      "title": "재즈엑스오버 디스커버리 오디션 #1",
+      "description": "새로운 밴드, 새로운 사운드, 새로운 이야기들이 시작되는 첫 재즈엑스오버 디스커버리 오디션."
     }
   },
   {
@@ -3582,6 +6182,31 @@
     "musician_ids": [],
     "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
+    "datetime": "2025-11-23T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Youngmin Kwon Trio",
+    "description": "Youngmin Kwon Trio performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Youngmin Kwon Trio",
+      "description": "Youngmin Kwon Trio performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "권영민 트리오",
+      "description": "권영민 트리오 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251123_df7ddeca-d031-45a5-9768-9d0e8294c3ed",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-23T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
     "datetime": "2025-11-23T12:00:00+00:00",
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
@@ -3652,6 +6277,31 @@
   {
     "id": "evt_20251124_c84daf7e-563b-4c81-9f4e-1778982453cf",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-24T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-24T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251124_c77db1e8-c38e-4b51-bdcf-93b49a8e9b33",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-24T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -3732,6 +6382,56 @@
     "musician_ids": [],
     "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
+    "datetime": "2025-11-25T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251125_d36bf0e5-80bf-460e-b56f-6feed73e85ae",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-25T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-25T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eun Vin (Vocal)",
+    "description": "Eun Vin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Eun Vin (Vocal)",
+      "description": "Eun Vin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "은빈 (보컬)",
+      "description": "은빈 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251125_2a61a813-47d0-45a9-8631-e43fb2b75e31",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-25T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
     "datetime": "2025-11-25T13:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
@@ -3800,8 +6500,133 @@
     }
   },
   {
+    "id": "evt_20251126_58280b0f-c395-4e90-baf8-753cabe6a2c5",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-26T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-26T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jung Ran's YOUNG & BEAUTIFUL Live",
+    "description": "Live performance by Jung Ran's YOUNG & BEAUTIFUL.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jung Ran's YOUNG & BEAUTIFUL Live",
+      "description": "Live performance by Jung Ran's YOUNG & BEAUTIFUL."
+    },
+    "_search_ko": {
+      "title": "정란의 YOUNG & BEAUTIFUL 라이브",
+      "description": "정란의 YOUNG & BEAUTIFUL 공연."
+    }
+  },
+  {
+    "id": "evt_20251126_fdbdc551-6e7b-46a0-b8b2-96e618eba806",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-26T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-26T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Lee Jong-won Trio Performance",
+    "description": "Lee Jong-won Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Jong-won Trio Performance",
+      "description": "Lee Jong-won Trio performance."
+    },
+    "_search_ko": {
+      "title": "이종원 트리오 공연",
+      "description": "이종원 트리오 공연."
+    }
+  },
+  {
+    "id": "evt_20251126_d82608a2-d749-4530-b420-d86869f19547",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-26T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-26T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
+    }
+  },
+  {
     "id": "evt_20251126_93ab7525-384b-4a10-a668-e1e07361fa3e",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-26T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-26T12:00:00+00:00",
+    "price": "KRW 5,000",
+    "llm_confidence": 1.0,
+    "title": "Nam Jeong-min Duo",
+    "description": "Nam Jeong-min Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nam Jeong-min Duo",
+      "description": "Nam Jeong-min Duo performance."
+    },
+    "_search_ko": {
+      "title": "남정민 듀오",
+      "description": "남정민 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251126_46510fd9-f14b-4d8a-8420-1d37017ba449",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-26T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-26T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yoon (Vocal)",
+    "description": "Yoon (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon (Vocal)",
+      "description": "Yoon (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "윤 (보컬)",
+      "description": "윤 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251126_3c1f2775-6cb1-439a-9277-33e86053b60b",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-26T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -3825,8 +6650,8 @@
     }
   },
   {
-    "id": "evt_20251126_d82608a2-d749-4530-b420-d86869f19547",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-26T20:30:00+09:00",
+    "id": "evt_20251126_65ec5054-0623-4c35-9675-23f0d35032c0",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-26T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -3900,8 +6725,133 @@
     }
   },
   {
+    "id": "evt_20251127_6cc79203-1a7e-49b3-8d1c-089b3c133905",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-27T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Ra-on Quartet Live",
+    "description": "Live performance by Park Ra-on Quartet.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Ra-on Quartet Live",
+      "description": "Live performance by Park Ra-on Quartet."
+    },
+    "_search_ko": {
+      "title": "박라온 퀄텟 라이브",
+      "description": "박라온 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251127_cbcab4c6-e4dd-4fbc-af07-b3de1a82e8d8",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-27T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DK (Vocal)",
+    "description": "DK (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DK (Vocal)",
+      "description": "DK (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "DK (보컬)",
+      "description": "DK (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251127_302277eb-1422-48d3-9a71-7e4693bb0420",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-27T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Damon Brown Quartet Performance",
+    "description": "Damon Brown Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Damon Brown Quartet Performance",
+      "description": "Damon Brown Quartet performance."
+    },
+    "_search_ko": {
+      "title": "Damon Brown 퀄텟 공연",
+      "description": "Damon Brown 퀄텟 공연."
+    }
+  },
+  {
     "id": "evt_20251127_8edfaeac-2921-4d40-8e61-dfa13cad53d7",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-27T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T12:00:00+00:00",
+    "price": "KRW 5,000",
+    "llm_confidence": 1.0,
+    "title": "Hey P HEYP Duo",
+    "description": "Hey P HEYP Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hey P HEYP Duo",
+      "description": "Hey P HEYP Duo performance."
+    },
+    "_search_ko": {
+      "title": "헤이피 HEYP 듀오",
+      "description": "헤이피 HEYP 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251127_f7cda625-9553-4124-af9a-14a175382b8c",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-27T21:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T12:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Eun Vin (Vocal)",
+    "description": "Eun Vin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Eun Vin (Vocal)",
+      "description": "Eun Vin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "은빈 (보컬)",
+      "description": "은빈 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251127_1fabb199-6313-4204-bf40-d5937bd11f82",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-27T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -3925,8 +6875,8 @@
     }
   },
   {
-    "id": "evt_20251127_cbcab4c6-e4dd-4fbc-af07-b3de1a82e8d8",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-27T20:30:00+09:00",
+    "id": "evt_20251127_ddf5604c-5c28-48a2-9eb4-5366f40b5f0f",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-27T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -3975,6 +6925,81 @@
     }
   },
   {
+    "id": "evt_20251128_0ce069ed-4aa6-4373-8daa-0312b7f6de5a",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-28T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Ormide Armstrong Quartet",
+    "description": "Ormide Armstrong Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ormide Armstrong Quartet",
+      "description": "Ormide Armstrong Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "Ormide Armstrong 퀄텟",
+      "description": "Ormide Armstrong 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251128_4f4adf1f-e81f-41fe-b922-72a7a2b70394",
+    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-28T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Nina Park",
+    "description": "Nina Park performance. Nina Park (vocal), Kim Deok-hwa (keyboard), Lee Hyun-jae (saxophone), Jang Hyun-ho (drums), Jo Won-woo (bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nina Park",
+      "description": "Nina Park performance. Nina Park (vocal), Kim Deok-hwa (keyboard), Lee Hyun-jae (saxophone), Jang Hyun-ho (drums), Jo Won-woo (bass)."
+    },
+    "_search_ko": {
+      "title": "니나파크",
+      "description": "니나파크 공연. 니나파크 (보컬), 김덕화 (키보드), 이현재 (색소폰), 장현호 (드럼), 조원우 (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251128_aeadb341-4787-409c-a12e-f21f06f3abed",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-28T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Winsome Band",
+    "description": "Winsome Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Winsome Band",
+      "description": "Winsome Band performance."
+    },
+    "_search_ko": {
+      "title": "Winsome 밴드",
+      "description": "Winsome 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251128_e5464aed-3f76-4878-be00-01741d1e7937",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-28T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
@@ -3997,6 +7022,31 @@
     "_search_ko": {
       "title": "로맨스 던",
       "description": "로맨스 던의 보컬 공연."
+    }
+  },
+  {
+    "id": "evt_20251128_bdcd3bcf-ff70-41a1-8fd0-43450842dd98",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-28T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ye:Sung (Vocal)",
+    "description": "Ye:Sung (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ye:Sung (Vocal)",
+      "description": "Ye:Sung (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "예성 (보컬)",
+      "description": "예성 (보컬) 공연."
     }
   },
   {
@@ -4025,28 +7075,53 @@
     }
   },
   {
-    "id": "evt_20251128_4f4adf1f-e81f-41fe-b922-72a7a2b70394",
-    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-28T20:00:00+09:00",
-    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
-    "venue_handle": "asome_ground",
+    "id": "evt_20251128_914c1365-0588-4fe2-8dec-d1f6b5e76487",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-28T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
     "musician_ids": [],
-    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
     "venue_location_id": "main",
-    "datetime": "2025-11-28T11:30:00+00:00",
+    "datetime": "2025-11-28T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Ninapark",
-    "description": "Performance by Ninapark. Ninapark (vocal), Kim Deok-hwa (keyboard), Lee Yeon-jae (saxophone), Jang Hyun-ho (drums), Jo Won-woo (bass).",
+    "title": "Nan Ajin Band Live",
+    "description": "Live performance by Nan Ajin Band.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Ninapark",
-      "description": "Performance by Ninapark. Ninapark (vocal), Kim Deok-hwa (keyboard), Lee Yeon-jae (saxophone), Jang Hyun-ho (drums), Jo Won-woo (bass)."
+      "title": "Nan Ajin Band Live",
+      "description": "Live performance by Nan Ajin Band."
     },
     "_search_ko": {
-      "title": "니나파크",
-      "description": "니나파크 공연. 니나파크 (보컬), 김덕화 (키보드), 이연재 (색소폰), 장현호 (드럼), 조원우 (베이스)."
+      "title": "난아진 밴드 라이브",
+      "description": "난아진 밴드 공연."
+    }
+  },
+  {
+    "id": "evt_20251128_49fa28b0-51b2-43b1-b6a1-f3811ec96007",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-28T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "venue_id": "ven_95910118-ea71-4cf3-a30f-b2a2ebb0d637",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Shim Jae-min Band",
+    "description": "Shim Jae-min Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Shim Jae-min Band",
+      "description": "Shim Jae-min Band performance."
+    },
+    "_search_ko": {
+      "title": "심재민밴드",
+      "description": "심재민밴드 공연."
     }
   },
   {
@@ -4075,8 +7150,58 @@
     }
   },
   {
-    "id": "evt_20251128_aeadb341-4787-409c-a12e-f21f06f3abed",
-    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-28T20:00:00+09:00",
+    "id": "evt_20251128_4d5dfb49-bc6a-4f88-9da7-6e97354e557f",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-28T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Kim Jae-hyung Quartet Performance",
+    "description": "Kim Jae-hyung Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Jae-hyung Quartet Performance",
+      "description": "Kim Jae-hyung Quartet performance."
+    },
+    "_search_ko": {
+      "title": "김재형 퀄텟 공연",
+      "description": "김재형 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251128_552b7ff8-1966-4c8d-aeb2-6eaa60ac8689",
+    "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-28T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
+    "venue_handle": "asome_ground",
+    "musician_ids": [],
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ninapark",
+    "description": "Performance by Ninapark. Ninapark (vocal), Kim Deok-hwa (keyboard), Lee Yeon-jae (saxophone), Jang Hyun-ho (drums), Jo Won-woo (bass).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ninapark",
+      "description": "Performance by Ninapark. Ninapark (vocal), Kim Deok-hwa (keyboard), Lee Yeon-jae (saxophone), Jang Hyun-ho (drums), Jo Won-woo (bass)."
+    },
+    "_search_ko": {
+      "title": "니나파크",
+      "description": "니나파크 공연. 니나파크 (보컬), 김덕화 (키보드), 이연재 (색소폰), 장현호 (드럼), 조원우 (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251128_ff162ea9-1454-47c2-8f0a-ec2a933496df",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-28T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -4100,8 +7225,8 @@
     }
   },
   {
-    "id": "evt_20251128_0ce069ed-4aa6-4373-8daa-0312b7f6de5a",
-    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-28T19:40:00+09:00",
+    "id": "evt_20251128_e217cff9-5740-4c2a-9bbe-bd7929d7f528",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-28T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -4122,6 +7247,56 @@
     "_search_ko": {
       "title": "Ormide Armstrong 퀄텟",
       "description": "Ormide Armstrong 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251128_4e8da6fc-0248-4178-b871-99cfa92f56d1",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-28T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Myung Jin (Vocal)",
+    "description": "Myung Jin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Myung Jin (Vocal)",
+      "description": "Myung Jin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "명진 (보컬)",
+      "description": "명진 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251128_89ada0c0-2438-42de-b501-488ad41c1c4d",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-28T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DODOMCHIT: Alan & Yoon",
+    "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DODOMCHIT: Alan & Yoon",
+      "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal)."
+    },
+    "_search_ko": {
+      "title": "도둠칫: 앨런 & 윤",
+      "description": "도둠칫 공연: 앨런 (색소폰), 윤 (보컬)."
     }
   },
   {
@@ -4150,8 +7325,8 @@
     }
   },
   {
-    "id": "evt_20251128_bdcd3bcf-ff70-41a1-8fd0-43450842dd98",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-28T20:00:00+09:00",
+    "id": "evt_20251128_14d07a49-2fbc-49f0-9b0d-56c47708c3cf",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-28T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -4250,6 +7425,56 @@
     }
   },
   {
+    "id": "evt_20251129_705aa836-30a3-447f-86c4-4d04b6736426",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-29T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Martin Jacobsen Quartet",
+    "description": "Martin Jacobsen Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Martin Jacobsen Quartet",
+      "description": "Martin Jacobsen Quartet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "Martin Jacobsen 퀄텟",
+      "description": "Martin Jacobsen 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251129_21b256ec-16dd-4ec3-a115-c76ba882520f",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-29T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
+    "venue_handle": "bar_tican",
+    "musician_ids": [],
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T11:00:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Hae Il-leop Band",
+    "description": "Hae Il-leop Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hae Il-leop Band",
+      "description": "Hae Il-leop Band performance."
+    },
+    "_search_ko": {
+      "title": "해일럽 밴드",
+      "description": "해일럽 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251129_81a5a6d5-abaf-453c-9a77-5b287b0c892d",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-29T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
@@ -4300,6 +7525,31 @@
     }
   },
   {
+    "id": "evt_20251129_092cf34a-2423-4d78-9b6e-9bde217c73b0",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-29T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jaisma (Piano)",
+    "description": "Jaisma (piano) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jaisma (Piano)",
+      "description": "Jaisma (piano) performance."
+    },
+    "_search_ko": {
+      "title": "자이스마 (피아노)",
+      "description": "자이스마 (피아노) 공연."
+    }
+  },
+  {
     "id": "evt_20251129_f25d2eee-07fd-4b28-ada1-9c7308357759",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-29T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
@@ -4322,6 +7572,56 @@
     "_search_ko": {
       "title": "문미향",
       "description": "문미향 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251129_0b1cf258-aa8c-4371-bcb1-80a187b39a18",
+    "event_key": "src:https://www.instagram.com/p/DQfnO_YE6-b/|dt:2025-11-29T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQfnO_YE6-b/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "venue_id": "ven_c108b1a9-1c57-4692-b083-38b49b3893a6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jason Park Band Live",
+    "description": "Live performance by Jason Park Band.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jason Park Band Live",
+      "description": "Live performance by Jason Park Band."
+    },
+    "_search_ko": {
+      "title": "제이슨 박 밴드 라이브",
+      "description": "제이슨 박 밴드 공연."
+    }
+  },
+  {
+    "id": "evt_20251129_573e801a-90b3-4685-b8de-b18eec6a13ae",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-29T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "venue_id": "ven_95910118-ea71-4cf3-a30f-b2a2ebb0d637",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hwang Jeong-won Band",
+    "description": "Hwang Jeong-won Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hwang Jeong-won Band",
+      "description": "Hwang Jeong-won Band performance."
+    },
+    "_search_ko": {
+      "title": "황정원밴드",
+      "description": "황정원밴드 공연."
     }
   },
   {
@@ -4350,8 +7650,33 @@
     }
   },
   {
-    "id": "evt_20251129_21b256ec-16dd-4ec3-a115-c76ba882520f",
-    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-29T20:00:00+09:00",
+    "id": "evt_20251129_26941985-e6ff-4774-bbb2-ea915bdc2332",
+    "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-29T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQhES8lD488/",
+    "venue_handle": "mammy__blue",
+    "musician_ids": [],
+    "venue_id": "ven_d19eee90-9dcf-4bbf-a917-eb3df0f6e0a2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T11:30:00+00:00",
+    "price": "KRW 10,000",
+    "llm_confidence": 1.0,
+    "title": "Modal Band Performance",
+    "description": "Modal Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Modal Band Performance",
+      "description": "Modal Band performance."
+    },
+    "_search_ko": {
+      "title": "모달 밴드 공연",
+      "description": "모달 밴드 공연."
+    }
+  },
+  {
+    "id": "evt_20251129_8d321157-2c35-4782-ab10-acd5248117f2",
+    "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-29T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
@@ -4375,8 +7700,8 @@
     }
   },
   {
-    "id": "evt_20251129_705aa836-30a3-447f-86c4-4d04b6736426",
-    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-29T19:40:00+09:00",
+    "id": "evt_20251129_38b80341-3d72-4337-ba28-499ddc7df62f",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-29T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -4397,6 +7722,56 @@
     "_search_ko": {
       "title": "Martin Jacobsen 퀄텟",
       "description": "Martin Jacobsen 퀄텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251129_d9643a34-c05d-4738-8fcf-31a2c85f27e3",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-29T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T12:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Myung Jin (Vocal)",
+    "description": "Myung Jin (vocal) performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Myung Jin (Vocal)",
+      "description": "Myung Jin (vocal) performance."
+    },
+    "_search_ko": {
+      "title": "명진 (보컬)",
+      "description": "명진 (보컬) 공연."
+    }
+  },
+  {
+    "id": "evt_20251129_3632843e-9ced-44b3-a571-a655127c52fc",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-29T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
+    "venue_handle": "seoul_garage_bar",
+    "musician_ids": [],
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "DODOMCHIT: Alan & Yoon",
+    "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "DODOMCHIT: Alan & Yoon",
+      "description": "DODOMCHIT performance featuring Alan (saxophone) and Yoon (vocal)."
+    },
+    "_search_ko": {
+      "title": "도둠칫: 앨런 & 윤",
+      "description": "도둠칫 공연: 앨런 (색소폰), 윤 (보컬)."
     }
   },
   {
@@ -4425,8 +7800,8 @@
     }
   },
   {
-    "id": "evt_20251129_092cf34a-2423-4d78-9b6e-9bde217c73b0",
-    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-29T20:00:00+09:00",
+    "id": "evt_20251129_87672901-b9d1-44c9-a4f5-1e39e5ba55eb",
+    "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-29T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
@@ -4552,6 +7927,31 @@
   {
     "id": "evt_20251130_5175e065-4df5-45dd-97ce-dcb542dcef74",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-30T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-30T10:40:00+00:00",
+    "price": "KRW 11,000",
+    "llm_confidence": 1.0,
+    "title": "Jeon Jae-gon Quintet",
+    "description": "Jeon Jae-gon Quintet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jeon Jae-gon Quintet",
+      "description": "Jeon Jae-gon Quintet performance. Two sets: 7:40 PM and 9:00 PM. Each set KRW 11,000. Day pass offers 50% discount on the second set."
+    },
+    "_search_ko": {
+      "title": "전제곤 퀸텟",
+      "description": "전제곤 퀸텟 공연. 1부 7시 40분, 2부 9시 공연. 각 부 11,000원. Day pass 이용 시 2부 입장료 50% 할인."
+    }
+  },
+  {
+    "id": "evt_20251130_1d47485e-a1e8-4440-9b9a-ddbae18fc419",
+    "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-30T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
@@ -5107,6 +8507,31 @@
     "musician_ids": [],
     "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
+    "datetime": "2025-12-22T11:00:00+00:00",
+    "price": "KRW 24,000",
+    "llm_confidence": 1.0,
+    "title": "SEOB's Carol Day with So Jun-seob",
+    "description": "Christmas special performance with Seob's owner So Jun-seob on vocals and piano. Enjoy a year-end atmosphere with warm carols from the song list.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "SEOB's Carol Day with So Jun-seob",
+      "description": "Christmas special performance with Seob's owner So Jun-seob on vocals and piano. Enjoy a year-end atmosphere with warm carols from the song list."
+    },
+    "_search_ko": {
+      "title": "섭스 캐럴 데이 (소준섭)",
+      "description": "섭스 주인장 소준섭 (보컬, 피아노)의 크리스마스 특별 공연. 따뜻한 캐럴과 함께 연말 분위기를 즐길 수 있습니다."
+    }
+  },
+  {
+    "id": "evt_20251222_42014efe-7cbf-4b57-8442-155d786cc5b3",
+    "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-22T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
+    "venue_handle": "seobs_bar",
+    "musician_ids": [],
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
+    "venue_location_id": "main",
     "datetime": "2025-12-22T12:00:00+00:00",
     "price": "KRW 24,000",
     "llm_confidence": 1.0,
@@ -5127,6 +8552,31 @@
   {
     "id": "evt_20251223_f839244d-4c48-4799-b30b-4db45816dc37",
     "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-23T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
+    "venue_handle": "seobs_bar",
+    "musician_ids": [],
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
+    "venue_location_id": "main",
+    "datetime": "2025-12-23T11:00:00+00:00",
+    "price": "KRW 24,000",
+    "llm_confidence": 1.0,
+    "title": "SEOB's Carol Day with So Jun-seob",
+    "description": "Christmas special performance with Seob's owner So Jun-seob on vocals and piano. Enjoy a year-end atmosphere with warm carols from the song list.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "SEOB's Carol Day with So Jun-seob",
+      "description": "Christmas special performance with Seob's owner So Jun-seob on vocals and piano. Enjoy a year-end atmosphere with warm carols from the song list."
+    },
+    "_search_ko": {
+      "title": "섭스 캐럴 데이 (소준섭)",
+      "description": "섭스 주인장 소준섭 (보컬, 피아노)의 크리스마스 특별 공연. 따뜻한 캐럴과 함께 연말 분위기를 즐길 수 있습니다."
+    }
+  },
+  {
+    "id": "evt_20251223_e3bbeb9b-3bbc-4861-93ef-232fe1e6a7f4",
+    "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-23T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],
@@ -5157,6 +8607,31 @@
     "musician_ids": [],
     "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
+    "datetime": "2025-12-24T11:00:00+00:00",
+    "price": "KRW 24,000",
+    "llm_confidence": 1.0,
+    "title": "SEOB's Carol Day with So Jun-seob",
+    "description": "Christmas special performance with Seob's owner So Jun-seob on vocals and piano. Enjoy a year-end atmosphere with warm carols from the song list.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "SEOB's Carol Day with So Jun-seob",
+      "description": "Christmas special performance with Seob's owner So Jun-seob on vocals and piano. Enjoy a year-end atmosphere with warm carols from the song list."
+    },
+    "_search_ko": {
+      "title": "섭스 캐럴 데이 (소준섭)",
+      "description": "섭스 주인장 소준섭 (보컬, 피아노)의 크리스마스 특별 공연. 따뜻한 캐럴과 함께 연말 분위기를 즐길 수 있습니다."
+    }
+  },
+  {
+    "id": "evt_20251224_5076597d-6a69-4d7a-b40c-e6719764374c",
+    "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-24T21:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
+    "venue_handle": "seobs_bar",
+    "musician_ids": [],
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
+    "venue_location_id": "main",
     "datetime": "2025-12-24T12:00:00+00:00",
     "price": "KRW 24,000",
     "llm_confidence": 1.0,
@@ -5177,6 +8652,31 @@
   {
     "id": "evt_20251225_f132a283-67bc-43d4-9211-8ef7c47fa60a",
     "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-25T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
+    "venue_handle": "seobs_bar",
+    "musician_ids": [],
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
+    "venue_location_id": "main",
+    "datetime": "2025-12-25T11:00:00+00:00",
+    "price": "KRW 24,000",
+    "llm_confidence": 1.0,
+    "title": "SEOB's Carol Day with Special Guest",
+    "description": "Christmas special performance with Seob's owner So Jun-seob (vocals, piano) and a special guest. Enjoy a year-end atmosphere with warm carols from the song list.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "SEOB's Carol Day with Special Guest",
+      "description": "Christmas special performance with Seob's owner So Jun-seob (vocals, piano) and a special guest. Enjoy a year-end atmosphere with warm carols from the song list."
+    },
+    "_search_ko": {
+      "title": "섭스 캐럴 데이 (스페셜 게스트)",
+      "description": "섭스 주인장 소준섭 (보컬, 피아노)과 특별 게스트의 크리스마스 특별 공연. 따뜻한 캐럴과 함께 연말 분위기를 즐길 수 있습니다."
+    }
+  },
+  {
+    "id": "evt_20251225_ff991e0d-aa24-4b39-ad0c-009d0a93a867",
+    "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-25T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],

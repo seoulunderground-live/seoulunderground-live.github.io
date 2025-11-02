@@ -600,6 +600,31 @@
     }
   },
   {
+    "id": "evt_20251102_5b6b35a2-9d5a-4f1c-8557-97c3a64629f2",
+    "event_key": "src:https://www.instagram.com/p/DQg_i0Yk0zg/|dt:2025-11-02T22:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQg_i0Yk0zg/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "venue_id": "ven_46c60e6a-9d89-49b0-a379-17fb6d954e81",
+    "venue_location_id": "main",
+    "datetime": "2025-11-02T13:00:00+00:00",
+    "price": "무료 입장, 식음료 후불 결제",
+    "llm_confidence": 1.0,
+    "title": "That King Sound",
+    "description": "냇 킹 콜의 사운드에서 영감을 받은 That King Sound의 스탠다드 재즈 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "That King Sound",
+      "description": "That King Sound performs standard jazz inspired by Nat King Cole."
+    },
+    "_search_ko": {
+      "title": "That King Sound",
+      "description": "냇 킹 콜의 사운드에서 영감을 받은 That King Sound의 스탠다드 재즈 공연."
+    }
+  },
+  {
     "id": "evt_20251102_73ec9600-9035-49fe-a160-482019fe81e6",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-02T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -2375,6 +2400,31 @@
     }
   },
   {
+    "id": "evt_20251108_1f6438be-5e5c-4c4c-a512-c0c92e80133b",
+    "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-08T20:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "venue_id": "ven_96ca3cd6-8814-4cd8-b2d3-ecd6ac840920",
+    "venue_location_id": "jonggak",
+    "datetime": "2025-11-08T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "박재홍 블루스 & 소울",
+    "description": "[위치: 종각] 2부: 박재홍 블루스 & 소울 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Jae-hong Blues & Soul",
+      "description": "[Location: Jonggak] Part 2: Park Jae-hong's Blues & Soul performance."
+    },
+    "_search_ko": {
+      "title": "박재홍 블루스 & 소울",
+      "description": "[위치: 종각] 2부: 박재홍 블루스 & 소울 공연."
+    }
+  },
+  {
     "id": "evt_20251108_19ec9070-1dec-4fd1-831d-f7b9af4f6c39",
     "event_key": "src:https://www.instagram.com/p/DQhES8lD488/|dt:2025-11-08T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQhES8lD488/",
@@ -2400,8 +2450,8 @@
     }
   },
   {
-    "id": "evt_20251108_1f6438be-5e5c-4c4c-a512-c0c92e80133b",
-    "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-08T20:30:00+09:00",
+    "id": "evt_20251108_12bf3da8-3e00-44c3-b389-8dc7f3d2eb29",
+    "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-08T20:50:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
@@ -4347,6 +4397,31 @@
     "_search_ko": {
       "title": "민정원 Duo",
       "description": "네덜란드 출신 기타리스트이자 보컬리스트 타인 트로멜렌의 플랫나인 첫 서울 공연. 스윙감 넘치는 연주와 감미로운 목소리를 선보인다. 라이브 차지 30,000원. 2인 기준 1푸드 및 1바틀(와인 포함) 필수 주문. 각 회차별 예약 필요."
+    }
+  },
+  {
+    "id": "evt_20251115_b8d6ee2c-1cca-475a-b94e-5114d28af295",
+    "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-15T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T13:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "민정원 Duo",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Min Jeong-won Duo",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "민정원 Duo",
+      "description": null
     }
   },
   {

@@ -4,21 +4,21 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-02T02:41:38Z
-- **Source Commit**: [`8477381df70bf77f1d4ffbe943805fb6ee8e5cd4`](https://github.com/keunwoochoi/seoulunderground.live/commit/8477381df70bf77f1d4ffbe943805fb6ee8e5cd4)
+- **Build Time**: 2025-11-02T04:41:10Z
+- **Source Commit**: [`36800698c044d6681ebdc8cecea383e968eb9dfa`](https://github.com/keunwoochoi/seoulunderground.live/commit/36800698c044d6681ebdc8cecea383e968eb9dfa)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19006203160)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19007427783)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Fix missing events. also fix unit test. (#12)
+- **Message**: 20% of Auto ig marketing. adding favicon. adding google analytics. (#13)
 
-* fix import export error
+* original logl
 
-* fix unit test
+* add favicon
 
-* reflect gemini comment
+* half-done, but adding analytics.
 
 ## Deployment
 

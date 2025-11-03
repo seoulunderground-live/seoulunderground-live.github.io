@@ -2968,7 +2968,7 @@
   {
     "id": "ven_f4931463-01f9-4c72-8a55-01152e9c32be",
     "ig_handle": "pungjane2021",
-    "name_irl": "풍자네 부엌(음악과 낭만을 공유하는 곳 우리 모두가 함께 만드는 공간입니다.)",
+    "name_irl": "풍자네 부엌",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -2990,16 +2990,12 @@
           "location_id": "main",
           "name": "풍자네 부엌",
           "address_text": "서울 강동구 양재대로 1339 1층",
-          "address_components": {
-            "street": "양재대로 1339 1층",
-            "district": "강동구",
-            "city": "서울",
-            "postal_code": null,
-            "country": "South Korea"
-          },
+          "address_components": null,
+          "location_lat": 37.5259522700897,
+          "location_lon": 127.135009671072,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": null,
+          "notes": "Units 21, 22, 23, 24 within 1339",
           "i18n": {
             "name": {
               "en": "Pungjane Kitchen",
@@ -3009,20 +3005,30 @@
               "en": "1st Floor, 1339, Yangjae-daero, Gangdong-gu, Seoul, South Korea",
               "ko": "서울 강동구 양재대로 1339 1층"
             },
-            "notes": null
-          },
-          "location_lat": 37.5259522700897,
-          "location_lon": 127.135009671072
+            "notes": {
+              "en": "Units 21, 22, 23, 24 within 1339",
+              "ko": "1339 내 21, 22, 23, 24호"
+            }
+          }
         }
       ]
     },
     "i18n_data": {
       "name": {
-        "en": "Pungjane Kitchen (A place where we share music and romance, a space we all create together.)",
-        "ko": "풍자네 부엌(음악과 낭만을 공유하는 곳 우리 모두가 함께 만드는 공간입니다.)"
+        "en": "Pungjane Kitchen",
+        "ko": "풍자네 부엌"
       },
       "address_text": null,
       "notes": null,
+      "genres": {
+        "en": [
+          "Restaurant"
+        ],
+        "ko": [
+          "레스토랑"
+        ]
+      },
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }

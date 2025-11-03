@@ -4915,18 +4915,21 @@
     "subway_nearby": null,
     "opening_hours": null,
     "typical_show_times": null,
-    "genres": null,
+    "genres": [
+      "Restaurant"
+    ],
     "websites": [
       "https://blog.naver.com/hsu4812"
     ],
     "links": {
       "instagram": "https://www.instagram.com/pungjane2021",
-      "homepage": "https://blog.naver.com/hsu4812",
+      "homepage": null,
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=12011275209003638965"
+      "google_map": null,
+      "naver_map": "https://naver.me/Gn0yfuos"
     },
     "contacts": {
-      "phone": "02-474-0203",
+      "phone": null,
       "email": null
     },
     "food_policy": null,
@@ -4938,16 +4941,12 @@
         "location_id": "main",
         "name": "풍자네 부엌",
         "address_text": "서울 강동구 양재대로 1339 1층",
-        "address_components": {
-          "street": "양재대로 1339 1층",
-          "district": "강동구",
-          "city": "서울",
-          "postal_code": null,
-          "country": "South Korea"
-        },
+        "address_components": null,
+        "location_lat": 37.5259522700897,
+        "location_lon": 127.135009671072,
         "subway_nearby": null,
         "booking_link": null,
-        "notes": null,
+        "notes": "Units 21, 22, 23, 24 within 1339",
         "i18n": {
           "name": {
             "en": "Pungjane Kitchen",
@@ -4957,32 +4956,114 @@
             "en": "1st Floor, 1339, Yangjae-daero, Gangdong-gu, Seoul, South Korea",
             "ko": "서울 강동구 양재대로 1339 1층"
           },
-          "notes": null
-        },
-        "location_lat": 37.5259522700897,
-        "location_lon": 127.135009671072
+          "notes": {
+            "en": "Units 21, 22, 23, 24 within 1339",
+            "ko": "1339 내 21, 22, 23, 24호"
+          }
+        }
       }
     ],
-    "last_analyzed_at": "2025-11-01T05:10:07.090640+09:00",
-    "confidence": 1.0,
+    "last_analyzed_at": "2025-11-03",
+    "confidence": 0.8,
     "extraction_version": "1.0",
     "sources": [
-      "ig_profile:pungjane2021",
+      "pungjane2021",
       "maps:https://maps.google.com/?cid=12011275209003638965",
       "gemini:enrich"
     ],
     "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
+    "prompt_version": "2.4.0",
+    "handle": "pungjane2021",
+    "analyzed": {
+      "ig_handle": "pungjane2021",
+      "name": "풍자네 부엌",
+      "address_text": null,
+      "address_components": null,
+      "location_lat": null,
+      "location_lon": null,
+      "subway_nearby": null,
+      "opening_hours": null,
+      "typical_show_times": null,
+      "genres": [
+        "Restaurant"
+      ],
+      "websites": [
+        "https://blog.naver.com/hsu4812"
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/pungjane2021",
+        "homepage": null,
+        "booking": null,
+        "google_map": null
+      },
+      "contacts": {
+        "phone": null,
+        "email": null
+      },
+      "food_policy": null,
+      "age_limit": null,
+      "dress_code": null,
+      "notes": null,
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "풍자네 부엌",
+          "address_text": "서울 강동구 양재대로 1339 1층",
+          "address_components": {
+            "street": "1339 양재대로",
+            "district": "강동구",
+            "city": "서울",
+            "postal_code": null,
+            "country": "South Korea"
+          },
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": "Units 21, 22, 23, 24 within 1339",
+          "i18n": {
+            "name": {
+              "en": "Pungjane Kitchen",
+              "ko": "풍자네 부엌"
+            },
+            "address_text": {
+              "en": "1st Floor, 1339, Yangjae-daero, Gangdong-gu, Seoul, South Korea",
+              "ko": "서울 강동구 양재대로 1339 1층"
+            },
+            "notes": {
+              "en": "Units 21, 22, 23, 24 within 1339",
+              "ko": "1339 내 21, 22, 23, 24호"
+            }
+          }
+        }
+      ],
+      "last_analyzed_at": "2025-11-03",
+      "confidence": 0.8,
+      "extraction_version": "1.0",
+      "sources": [
+        "pungjane2021"
+      ],
+      "prompt_name": "venue_profile_analyze",
+      "prompt_version": "2.1.1"
+    },
     "i18n": {
       "name": {
-        "en": "Pungjane Kitchen (A place where we share music and romance, a space we all create together.)",
-        "ko": "풍자네 부엌(음악과 낭만을 공유하는 곳 우리 모두가 함께 만드는 공간입니다.)"
+        "en": "Pungjane Kitchen",
+        "ko": "풍자네 부엌"
       },
       "address_text": null,
       "notes": null,
+      "genres": {
+        "en": [
+          "Restaurant"
+        ],
+        "ko": [
+          "레스토랑"
+        ]
+      },
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "5호선 둔촌동역 3번 출구에서 195m"
   },
   {
     "ig_handle": "rustic_jazz",

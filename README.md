@@ -4,29 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-03T10:07:47Z
-- **Source Commit**: [`f0c3ce413a714235747c00136e2bb4ac2ee4b9b0`](https://github.com/keunwoochoi/seoulunderground.live/commit/f0c3ce413a714235747c00136e2bb4ac2ee4b9b0)
+- **Build Time**: 2025-11-03T10:12:45Z
+- **Source Commit**: [`b6ecab31ddbbf70fa2736f99a5066301764d69e1`](https://github.com/keunwoochoi/seoulunderground.live/commit/b6ecab31ddbbf70fa2736f99a5066301764d69e1)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19030854510)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19030989839)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Fix automation; add venue table view.  (#19)
-
-* fix deployment
-
-* niceaa
-
-* click to see the detailed view on the table
-
-* reduce redundancy
-
-* finalize venue view
-
-* add missing file
-
-* reflect gemini comment
+- **Message**: separate out (#20)
 
 ## Deployment
 

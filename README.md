@@ -4,21 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-03T05:37:53Z
+- **Build Time**: 2025-11-03T06:30:05Z
 - **Source Commit**: [`f637e850da2606d7693d9e99fcfcda2c092c2c4e`](https://github.com/keunwoochoi/seoulunderground.live/commit/f637e850da2606d7693d9e99fcfcda2c092c2c4e)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19025014366)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19025885940)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: color better (#18)
-
-* color better
-
-* reflect gemini comment
-
-* add omitted file
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 

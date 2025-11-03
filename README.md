@@ -4,31 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-02T19:54:38Z
-- **Source Commit**: [`e079439dcb40ad4103d56d28e92442ce0aa15c28`](https://github.com/keunwoochoi/seoulunderground.live/commit/e079439dcb40ad4103d56d28e92442ce0aa15c28)
+- **Build Time**: 2025-11-03T00:20:05Z
+- **Source Commit**: [`3452980eb6592479c4f2738fc4036ec5203d2baa`](https://github.com/keunwoochoi/seoulunderground.live/commit/3452980eb6592479c4f2738fc4036ec5203d2baa)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19017337494)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19020332042)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: K/fix auto deployment 1 (#14)
-
-* fixing deployment issue
-
-* more time
-
-* fix the look
-
-* fix deployment issue
-
-* reduce spacing
-
-* reflect gemini comment
-
-* fix how to train
-
-* reflect gemini comment
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 

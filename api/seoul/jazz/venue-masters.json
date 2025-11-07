@@ -90,6 +90,146 @@
     "naver_subway_nearby": "2호선 을지로입구역 1-1번 출구에서 137m"
   },
   {
+    "ig_handle": "africa_since1988",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": "17:00 onwards",
+      "tue": "17:00 onwards",
+      "wed": "17:00 onwards",
+      "thu": "17:00 onwards",
+      "fri": "17:00 onwards",
+      "sat": "17:00 onwards",
+      "sun": "Closed"
+    },
+    "typical_show_times": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": [
+        "20:00"
+      ],
+      "sat": [
+        "20:00"
+      ],
+      "sun": null
+    },
+    "genres": [
+      "Jazz"
+    ],
+    "websites": null,
+    "links": {
+      "instagram": "https://www.instagram.com/africa_since1988",
+      "homepage": null,
+      "booking": null,
+      "google_map": null
+    },
+    "contacts": {
+      "phone": "010-2949-5786",
+      "email": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Cafe 아프리카",
+        "address_text": null,
+        "address_components": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": "Drinks & Snacks available (Beer, Wine, Highball, Whisky, Coffee, Tea). For performer booking inquiries, contact @gyuestagram.",
+        "i18n": {
+          "name": {
+            "en": "Cafe Africa",
+            "ko": "Cafe 아프리카"
+          },
+          "address_text": null,
+          "notes": {
+            "en": "Drinks & Snacks available (Beer, Wine, Highball, Whisky, Coffee, Tea). For performer booking inquiries, contact @gyuestagram.",
+            "ko": "음료 및 스낵 이용 가능 (맥주, 와인, 하이볼, 위스키, 커피, 차). 공연자 섭외 문의는 @gyuestagram으로 연락 바랍니다."
+          }
+        }
+      }
+    ],
+    "last_analyzed_at": "2024-07-28T00:00:00Z",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "ig_profile",
+      "maps:https://maps.google.com/?cid=13911092089477785273",
+      "maps:https://maps.google.com/?cid=8144174621105258153",
+      "maps:https://maps.google.com/?cid=13533146840708857883",
+      "maps:https://maps.google.com/?cid=9043956352662212539",
+      "maps:https://maps.google.com/?cid=1970995059655781846",
+      "maps:https://maps.google.com/?cid=7270571323681865854",
+      "maps:https://maps.google.com/?cid=15937749895034942401",
+      "maps:https://maps.google.com/?cid=17109508792266901426",
+      "maps:https://maps.google.com/?cid=15201819766344665546",
+      "maps:https://maps.google.com/?cid=9587353369021318223",
+      "maps:https://maps.google.com/?cid=10825401448859385111",
+      "maps:https://maps.google.com/?cid=10986936729711021913",
+      "maps:https://maps.google.com/?cid=10604396783998976381",
+      "maps:https://maps.google.com/?cid=16397795210323518028",
+      "maps:https://maps.google.com/?cid=5123135895525407385",
+      "maps:https://maps.google.com/?cid=10206589952544082257",
+      "maps:https://maps.google.com/?cid=2373161495957822034",
+      "maps:https://maps.google.com/?cid=10111399887885419610",
+      "maps:https://maps.google.com/?cid=5367703272943385037",
+      "maps:https://maps.google.com/?cid=7886829755043728708",
+      "maps:https://maps.google.com/?cid=16084038525693329250",
+      "maps:https://maps.google.com/?cid=1629884300631888791",
+      "maps:https://maps.google.com/?cid=3512824848346026630",
+      "maps:https://maps.google.com/?cid=5936925627923403423",
+      "maps:https://maps.google.com/?cid=13163330699457356298",
+      "maps:https://maps.google.com/?cid=18262202458583418314",
+      "maps:https://maps.google.com/?cid=11842852244500454903",
+      "maps:https://maps.google.com/?cid=3803486770832132230",
+      "maps:https://maps.google.com/?cid=12958000001331928624",
+      "maps:https://maps.google.com/?cid=9176070558265640633",
+      "maps:https://maps.google.com/?cid=11881259354384405760",
+      "maps:https://maps.google.com/?cid=10087528049587969518",
+      "maps:https://maps.google.com/?cid=16541142817595661083",
+      "maps:https://maps.google.com/?cid=11008665381407066468",
+      "maps:https://maps.google.com/?cid=17205286011885073919",
+      "maps:https://maps.google.com/?cid=3379724089896059451",
+      "maps:https://maps.google.com/?cid=11766041962633701236",
+      "maps:https://maps.google.com/?cid=10751610816347573634",
+      "maps:https://maps.google.com/?cid=11719609889613605186",
+      "maps:https://maps.google.com/?cid=4614018124655402927",
+      "gemini:enrich"
+    ],
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.0",
+    "i18n": {
+      "name": {
+        "en": "Cafe Africa",
+        "ko": "Cafe 아프리카"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Drinks & Snacks available (Beer, Wine, Highball, Whisky, Coffee, Tea). For performer booking inquiries, contact @gyuestagram.",
+        "ko": "음료 및 스낵 이용 가능 (맥주, 와인, 하이볼, 위스키, 커피, 차). 공연자 섭외 문의는 @gyuestagram으로 연락 바랍니다."
+      },
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "ig_handle": "allthatjazz_itaewon",
     "address_text": null,
     "address_components": null,
@@ -2566,33 +2706,33 @@
     "address_components": null,
     "location_lat": null,
     "location_lon": null,
-    "subway_nearby": null,
+    "subway_nearby": "2호선 신분당강남역 10번 출구에서 342m",
     "opening_hours": null,
     "typical_show_times": {
       "mon": [
-        "18:00"
+        "6:00"
       ],
       "tue": [
-        "18:00"
+        "6:00"
       ],
       "wed": [
-        "18:00"
+        "6:00"
       ],
       "thu": [
-        "18:00"
+        "6:00"
       ],
       "fri": [
-        "19:30",
-        "22:30"
+        "7:30",
+        "10:30"
       ],
       "sat": [
-        "16:00",
-        "19:30",
-        "22:30"
+        "4:00",
+        "7:30",
+        "10:30"
       ],
       "sun": [
-        "16:00",
-        "19:30"
+        "4:00",
+        "7:30"
       ]
     },
     "genres": [
@@ -2603,26 +2743,27 @@
       "instagram": "https://www.instagram.com/flatnine_jazzbar",
       "homepage": null,
       "booking": "https://catchtable.co.kr/flatnine_jazzbar",
-      "google_map": "https://maps.google.com/?cid=3512824848346026630",
+      "google_map": null,
       "naver_map": "https://naver.me/FtThMKei"
     },
     "contacts": {
-      "phone": "050-71389-9630",
+      "phone": "050-7138-9630",
       "email": null
     },
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "FLATNINE",
-        "address_text": "South Korea, Seoul, Seocho District, Gangnam-daero 65-gil, 10 5층",
+        "name": "FLATNINE | 플랫나인",
+        "address_text": "서울 서초구 강남대로65길 10 5층",
         "address_components": null,
-        "subway_nearby": null,
+        "location_lat": 37.5004929768454,
+        "location_lon": 127.024952031721,
+        "subway_nearby": "2호선 신분당강남역 10번 출구에서 342m",
         "booking_link": "https://catchtable.co.kr/flatnine_jazzbar",
-        "notes": null,
+        "notes": "Seoul Jazz bar",
         "i18n": {
           "name": {
             "en": "FLATNINE",
@@ -2632,32 +2773,49 @@
             "en": "5th Floor, 10, Gangnam-daero 65-gil, Seocho District, Seoul, South Korea",
             "ko": "서울 서초구 강남대로65길 10 5층"
           },
-          "notes": null
+          "notes": {
+            "en": "Seoul Jazz bar",
+            "ko": "서울 재즈 바"
+          }
         }
       }
     ],
-    "last_analyzed_at": "2025-10-29",
+    "last_analyzed_at": "2025-11-05",
     "confidence": 1.0,
     "extraction_version": "1.0",
     "sources": [
-      "flatnine_jazzbar",
+      "https://www.instagram.com/flatnine_jazzbar",
       "https://catchtable.co.kr/flatnine_jazzbar",
       "maps:https://maps.google.com/?cid=3512824848346026630",
       "gemini:enrich"
     ],
     "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
+    "prompt_version": "2.4.0",
     "i18n": {
       "name": {
         "en": "FLATNINE",
         "ko": "플랫나인"
       },
       "address_text": null,
-      "notes": null,
+      "notes": {
+        "en": "Seoul Jazz bar",
+        "ko": "서울 재즈 바"
+      },
+      "genres": {
+        "en": [
+          "Jazz bar"
+        ],
+        "ko": [
+          "재즈 바"
+        ]
+      },
+      "subway_nearby": {
+        "en": "342m from Gangnam Station (Line 2, Shinbundang Line) Exit 10",
+        "ko": "2호선 신분당강남역 10번 출구에서 342m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "2호선 신분당강남역 10번 출구에서 342m"
+    }
   },
   {
     "ig_handle": "ghetto_alive",
@@ -2788,6 +2946,266 @@
       "age_limit": null
     },
     "naver_subway_nearby": "2호선 뚝섬역 8번 출구에서 259m"
+  },
+  {
+    "ig_handle": "gv_scene",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": "12:00-22:00",
+      "tue": "12:00-22:00",
+      "wed": "12:00-22:00",
+      "thu": "12:00-22:00",
+      "fri": "12:00-22:00",
+      "sat": "12:00-22:00",
+      "sun": "12:00-22:00"
+    },
+    "typical_show_times": null,
+    "genres": null,
+    "websites": null,
+    "links": {
+      "instagram": "https://www.instagram.com/gv_scene",
+      "homepage": null,
+      "booking": "https://m.place.naver.com/restaurant/1473208599/home?entry=plt",
+      "google_map": null
+    },
+    "contacts": {
+      "email": null,
+      "phone": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "notes": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "GV COFFEE BAR",
+        "address_text": null,
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": "https://m.place.naver.com/restaurant/1473208599/home?entry=plt",
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "GV COFFEE BAR",
+            "ko": "GV 커피 바"
+          },
+          "address_text": null,
+          "notes": null
+        }
+      }
+    ],
+    "last_analyzed_at": "2025-11-07T23:52:14.781752+09:00",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "ig_gv_scene",
+      "maps:https://maps.google.com/?cid=11442401902979778964",
+      "maps:https://maps.google.com/?cid=100818909079613449",
+      "maps:https://maps.google.com/?cid=3700444717594846110",
+      "maps:https://maps.google.com/?cid=8546107871635305500",
+      "maps:https://maps.google.com/?cid=13731582665575015173",
+      "maps:https://maps.google.com/?cid=14703737765127431765",
+      "maps:https://maps.google.com/?cid=6753448389338551928",
+      "maps:https://maps.google.com/?cid=13226203389532959666",
+      "maps:https://maps.google.com/?cid=11466205465461627001",
+      "maps:https://maps.google.com/?cid=2364787091734131273",
+      "maps:https://maps.google.com/?cid=598482037561121974",
+      "maps:https://maps.google.com/?cid=12971002274827872846",
+      "maps:https://maps.google.com/?cid=10239780804079158760",
+      "maps:https://maps.google.com/?cid=6855935720714168688",
+      "maps:https://maps.google.com/?cid=6774125337239065355",
+      "maps:https://maps.google.com/?cid=14790738519146215060",
+      "maps:https://maps.google.com/?cid=12902734384522848149",
+      "maps:https://maps.google.com/?cid=10368674842451086209",
+      "gemini:enrich"
+    ],
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.0",
+    "i18n": {
+      "name": {
+        "en": "GV COFFEE BAR",
+        "ko": "GV 커피 바"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "ig_handle": "gwangalli_namme",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": {
+      "mon": "16:00 ~ 00:00",
+      "tue": "16:00 ~ 00:00",
+      "wed": "16:00 ~ 00:00",
+      "thu": "16:00 ~ 00:00",
+      "fri": "16:00 ~ 01:00",
+      "sat": "16:00 ~ 01:00",
+      "sun": "16:00 ~ 00:00"
+    },
+    "typical_show_times": null,
+    "genres": [
+      "Jazz"
+    ],
+    "websites": null,
+    "links": {
+      "instagram": "https://www.instagram.com/gwangalli_namme",
+      "homepage": null,
+      "booking": "http://naver.me/FFFvSb6M6",
+      "google_map": null
+    },
+    "contacts": {
+      "phone": "070-4312-6566",
+      "email": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "광안리남매",
+        "address_text": "부산 수영구 남천동로108번길 54 2층",
+        "address_components": null,
+        "location_lat": 35.1467159304824,
+        "location_lon": 129.114074496346,
+        "subway_nearby": null,
+        "booking_link": "http://naver.me/FFFvSb6M6",
+        "notes": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시)",
+        "i18n": {
+          "name": {
+            "en": "Gwangalli Namme",
+            "ko": "광안리남매"
+          },
+          "address_text": {
+            "en": "2nd Floor, 54, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea",
+            "ko": "부산 수영구 남천동로108번길 54 2층"
+          },
+          "notes": {
+            "en": "1 hour free parking at Saratoga parking lot (when ordering 1 meal per person)",
+            "ko": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시)"
+          }
+        }
+      }
+    ],
+    "last_analyzed_at": "2025-11-07",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "gwangalli_namme",
+      "maps:https://maps.google.com/?cid=3880074778667714727",
+      "maps:https://maps.google.com/?cid=17298781262385635276",
+      "gemini:enrich"
+    ],
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.0",
+    "handle": "gwangalli_namme",
+    "analyzed": {
+      "ig_handle": "gwangalli_namme",
+      "name": "광안리남매",
+      "address_text": null,
+      "address_components": null,
+      "location_lat": null,
+      "location_lon": null,
+      "subway_nearby": null,
+      "opening_hours": {
+        "mon": "16:00 ~ 00:00",
+        "tue": "16:00 ~ 00:00",
+        "wed": "16:00 ~ 00:00",
+        "thu": "16:00 ~ 00:00",
+        "fri": "16:00 ~ 01:00",
+        "sat": "16:00 ~ 01:00",
+        "sun": "16:00 ~ 00:00"
+      },
+      "typical_show_times": null,
+      "genres": [
+        "Jazz"
+      ],
+      "websites": null,
+      "links": {
+        "instagram": "https://www.instagram.com/gwangalli_namme",
+        "homepage": null,
+        "booking": "http://naver.me/FFFvSb6M6",
+        "google_map": null
+      },
+      "contacts": {
+        "phone": "070-4312-6566",
+        "email": null
+      },
+      "food_policy": null,
+      "age_limit": null,
+      "dress_code": null,
+      "notes": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시)",
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "광안리남매",
+          "address_text": "부산 수영구 남천동로108번길 54 2층",
+          "address_components": null,
+          "subway_nearby": null,
+          "booking_link": "http://naver.me/FFFvSb6M6",
+          "notes": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시)",
+          "i18n": {
+            "name": {
+              "en": "Gwangalli Namme",
+              "ko": "광안리남매"
+            },
+            "address_text": {
+              "en": "2nd Floor, 54, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea",
+              "ko": "부산 수영구 남천동로108번길 54 2층"
+            },
+            "notes": {
+              "en": "1 hour free parking at Saratoga parking lot (when ordering 1 meal per person)",
+              "ko": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시)"
+            }
+          }
+        }
+      ],
+      "last_analyzed_at": "2025-11-07",
+      "confidence": 1.0,
+      "extraction_version": "1.0",
+      "sources": [
+        "gwangalli_namme"
+      ],
+      "prompt_name": "venue_profile_analyze",
+      "prompt_version": "2.1.1"
+    },
+    "i18n": {
+      "name": {
+        "en": "Gwangalli Namme",
+        "ko": "광안리남매"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "1 hour free parking at Saratoga parking lot (when ordering 1 meal per person)",
+        "ko": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시)"
+      },
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
   },
   {
     "ig_handle": "houseofblue.seoul",
@@ -3804,13 +4222,13 @@
     "location_lon": null,
     "subway_nearby": null,
     "opening_hours": {
-      "mon": "18:00-LATE",
-      "tue": "18:00-LATE",
-      "wed": "18:00-LATE",
-      "thu": "18:00-LATE",
-      "fri": "18:00-LATE",
-      "sat": "18:00-LATE",
-      "sun": "18:00-LATE"
+      "mon": "6PM-LATE",
+      "tue": "6PM-LATE",
+      "wed": "6PM-LATE",
+      "thu": "6PM-LATE",
+      "fri": "6PM-LATE",
+      "sat": "6PM-LATE",
+      "sun": "6PM-LATE"
     },
     "typical_show_times": null,
     "genres": [
@@ -3822,9 +4240,9 @@
     ],
     "links": {
       "instagram": "https://www.instagram.com/jazzxover",
-      "homepage": null,
+      "homepage": "https://galaxyroute.kr",
       "booking": "https://catchtable.co.kr/jazzxover",
-      "google_map": "https://maps.google.com/?cid=4259537056996752822",
+      "google_map": null,
       "naver_map": "https://naver.me/x1Vv9rxc"
     },
     "contacts": {
@@ -3838,31 +4256,28 @@
       {
         "location_id": "main",
         "name": "재즈엑스오버",
-        "address_text": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
+        "address_text": "서울 성동구 연무장길 135 1층",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
         "subway_nearby": null,
         "booking_link": "https://catchtable.co.kr/jazzxover",
-        "notes": "Located in Seongsu-dong. Features overwhelming sound and Mediterranean tapas.",
+        "notes": null,
         "i18n": {
           "name": {
-            "en": "JazzXover",
+            "en": "Jazz X Over",
             "ko": "재즈엑스오버"
           },
           "address_text": {
-            "en": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
-            "ko": "서울 성동구 성수동2가 277-138"
+            "en": "1st Floor, 135, Yeonmujang-gil, Seongdong-gu, Seoul, South Korea",
+            "ko": "서울 성동구 연무장길 135 1층"
           },
-          "notes": {
-            "en": "Located in Seongsu-dong. Features overwhelming sound and Mediterranean tapas.",
-            "ko": "성수동에 위치. 압도적인 사운드와 지중해식 타파스 제공."
-          }
+          "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-11-01T05:16:50.995827+09:00",
-    "confidence": 0.9,
+    "last_analyzed_at": "2025-11-05",
+    "confidence": 1.0,
     "extraction_version": "1.0",
     "sources": [
       "jazzxover",
@@ -3870,95 +4285,114 @@
       "gemini:enrich"
     ],
     "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
-    "handle": "jazzxover",
-    "analyzed": {
-      "ig_handle": "jazzxover",
-      "name": "재즈엑스오버",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": "18:00-LATE",
-        "tue": "18:00-LATE",
-        "wed": "18:00-LATE",
-        "thu": "18:00-LATE",
-        "fri": "18:00-LATE",
-        "sat": "18:00-LATE",
-        "sun": "18:00-LATE"
-      },
-      "typical_show_times": null,
-      "genres": [
-        "Jazz"
-      ],
-      "websites": [
-        "https://www.youtube.com/@jazzxover",
-        "https://galaxyroute.kr"
-      ],
-      "links": {
-        "instagram": "https://www.instagram.com/jazzxover",
-        "homepage": null,
-        "booking": "https://catchtable.co.kr/jazzxover",
-        "google_map": "https://maps.google.com/?cid=4259537056996752822"
-      },
-      "contacts": {
-        "phone": "02-6397-0171",
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": "Performance fee starts from ₩15,000. Live performances every night. Inquire via DM for pop-up events and venue rental.",
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "재즈엑스오버",
-          "address_text": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": "https://catchtable.co.kr/jazzxover",
-          "notes": "Located in Seongsu-dong. Features overwhelming sound and Mediterranean tapas.",
-          "i18n": {
-            "name": {
-              "en": "JazzXover",
-              "ko": "재즈엑스오버"
-            },
-            "address_text": {
-              "en": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
-              "ko": "서울 성동구 성수동2가 277-138"
-            },
-            "notes": {
-              "en": "Located in Seongsu-dong. Features overwhelming sound and Mediterranean tapas.",
-              "ko": "성수동에 위치. 압도적인 사운드와 지중해식 타파스 제공."
-            }
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-01T05:16:50.995827+09:00",
-      "confidence": 0.9,
-      "extraction_version": "1.0",
-      "sources": [
-        "jazzxover"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.0"
-    },
+    "prompt_version": "2.4.0",
     "i18n": {
       "name": {
-        "en": "JazzXover",
+        "en": "Jazz X Over",
         "ko": "재즈엑스오버"
       },
       "address_text": null,
       "notes": {
-        "en": "Performance fee starts from ₩15,000. Live performances every night. Inquire via DM for pop-up events and venue rental.",
-        "ko": "공연비 ₩15,000부터. 매일 밤 라이브 공연. 팝업 행사 및 대관 문의는 DM."
+        "en": "Performance fee ₩15K~, popup, venue rental inquiries via DM",
+        "ko": "공연료 ₩15K~, 팝업, 대관 문의는 DM"
+      },
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": {
+        "en": "335m from Seongsu Station Exit 2 on Line 2",
+        "ko": "2호선 성수역 2번 출구에서 335m"
       },
       "food_policy": null,
       "age_limit": null
+    }
+  },
+  {
+    "ig_handle": "jinjujazz",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": null,
+    "typical_show_times": null,
+    "genres": [
+      "Jazz"
+    ],
+    "websites": [
+      "https://linktr.ee/jinjujazz2025"
+    ],
+    "links": {
+      "instagram": null,
+      "homepage": "https://linktr.ee/jinjujazz2025",
+      "booking": null,
+      "google_map": null
     },
-    "naver_subway_nearby": "2호선 성수역 2번 출구에서 335m"
+    "contacts": {
+      "phone": "055-743-6990",
+      "email": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "진주국제재즈페스티벌",
+        "address_text": null,
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Jinju International Jazz Festival",
+            "ko": "진주국제재즈페스티벌"
+          },
+          "address_text": null,
+          "notes": null
+        }
+      }
+    ],
+    "last_analyzed_at": "2025-11-07T23:42:05.194147+09:00",
+    "confidence": 1.0,
+    "extraction_version": "1.0",
+    "sources": [
+      "instagram",
+      "maps:https://maps.google.com/?cid=9484077956215012409",
+      "gemini:enrich"
+    ],
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.0",
+    "i18n": {
+      "name": {
+        "en": "Jinju International Jazz Festival",
+        "ko": "진주국제재즈페스티벌"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "2025 JINJU INTERNATIONAL JAZZ FESTIVAL dates: 2025.12.02. - 2025.12.06.\nTicket open: 2025.10.17. Fri. 09:00\nBooking via NOL Ticket (Interpark Ticket) or phone.",
+        "ko": "2025 진주국제재즈페스티벌 일정: 2025.12.02. - 2025.12.06.\n티켓 오픈: 2025.10.17. 금. 09:00\n예매는 놀티켓(인터파크 티켓) 또는 전화로 가능합니다."
+      },
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
   },
   {
     "ig_handle": "kindseoul.kr",
@@ -5977,7 +6411,7 @@
     }
   },
   {
-    "ig_handle": "yellow__taxi",
+    "ig_handle": "yellow___taxi",
     "address_text": null,
     "address_components": null,
     "location_lat": null,
@@ -5985,13 +6419,16 @@
     "subway_nearby": null,
     "opening_hours": null,
     "typical_show_times": null,
-    "genres": null,
+    "genres": [
+      "Jazz"
+    ],
     "websites": null,
     "links": {
-      "instagram": "https://www.instagram.com/yellow__taxi",
-      "homepage": null,
+      "instagram": "https://www.instagram.com/yellow___taxi",
+      "homepage": "https://www.facebook.com/Premium.Jazz.Bar?mibextid=2JQ9oc",
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=3444863229868124751"
+      "google_map": null,
+      "naver_map": "https://naver.me/FlZnIjBF"
     },
     "contacts": {
       "phone": "042-487-4499",
@@ -6004,61 +6441,62 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "Yellow Taxi",
-        "address_text": "615-2 Bongmyeong-dong, Yuseong District, Daejeon, South Korea",
-        "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "name": "옐로우택시",
+        "address_text": "대전시 유성구 봉명동 615-2",
+        "address_components": {
+          "street": "봉명동 615-2",
+          "district": "유성구",
+          "city": "대전시",
+          "postal_code": null,
+          "country": null
+        },
+        "location_lat": 36.3581605127364,
+        "location_lon": 127.344429501357,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
             "en": "Yellow Taxi",
-            "ko": "옐로우 택시"
+            "ko": "옐로우택시"
           },
           "address_text": {
-            "en": "615-2 Bongmyeong-dong, Yuseong District, Daejeon, South Korea",
-            "ko": "대전 유성구 봉명동 615-2"
+            "en": "615-2, Bongmyeong-dong, Yuseong-gu, Daejeon, South Korea",
+            "ko": "대전시 유성구 봉명동 615-2"
           },
           "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-10-29T08:31:36.633528+09:00",
-    "confidence": 0.1,
+    "last_analyzed_at": "2024-07-28T00:00:00Z",
+    "confidence": 1.0,
     "extraction_version": "1.0",
     "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=3444863229868124751",
-      "maps:https://maps.google.com/?cid=27047732765959772",
-      "maps:https://maps.google.com/?cid=14637729988540887419",
-      "maps:https://maps.google.com/?cid=2510198274690369446",
-      "maps:https://maps.google.com/?cid=4045301424487714298",
-      "maps:https://maps.google.com/?cid=2411329062169979069",
-      "maps:https://maps.google.com/?cid=15647869614814999352",
+      "ig_profile",
       "gemini:enrich"
     ],
     "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
-    "handle": "yellow__taxi",
+    "prompt_version": "2.4.0",
+    "handle": "yellow___taxi",
     "analyzed": {
-      "ig_handle": "yellow__taxi",
-      "name": "Yellow Taxi",
-      "address_text": "615-2 Bongmyeong-dong, Yuseong District, Daejeon, South Korea",
+      "ig_handle": "yellow___taxi",
+      "name": "옐로우택시",
+      "address_text": null,
       "address_components": null,
       "location_lat": null,
       "location_lon": null,
       "subway_nearby": null,
       "opening_hours": null,
       "typical_show_times": null,
-      "genres": null,
+      "genres": [
+        "Jazz"
+      ],
       "websites": null,
       "links": {
-        "instagram": "https://www.instagram.com/yellow__taxi",
-        "homepage": null,
+        "instagram": "https://www.instagram.com/yellow___taxi",
+        "homepage": "https://www.facebook.com/Premium.Jazz.Bar?mibextid=2JQ9oc",
         "booking": null,
-        "google_map": "https://maps.google.com/?cid=3444863229868124751"
+        "google_map": null
       },
       "contacts": {
         "phone": "042-487-4499",
@@ -6071,44 +6509,60 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Yellow Taxi",
-          "address_text": "615-2 Bongmyeong-dong, Yuseong District, Daejeon, South Korea",
-          "address_components": null,
+          "name": "옐로우택시",
+          "address_text": "대전시 유성구 봉명동 615-2",
+          "address_components": {
+            "street": "봉명동 615-2",
+            "district": "유성구",
+            "city": "대전시",
+            "postal_code": null,
+            "country": null
+          },
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
               "en": "Yellow Taxi",
-              "ko": "옐로우 택시"
+              "ko": "옐로우택시"
             },
             "address_text": {
-              "en": "615-2 Bongmyeong-dong, Yuseong District, Daejeon, South Korea",
-              "ko": "대전 유성구 봉명동 615-2"
+              "en": "615-2, Bongmyeong-dong, Yuseong-gu, Daejeon, South Korea",
+              "ko": "대전시 유성구 봉명동 615-2"
             },
             "notes": null
           }
         }
       ],
-      "last_analyzed_at": "2025-10-29T08:31:36.633528+09:00",
-      "confidence": 0.1,
+      "last_analyzed_at": "2024-07-28T00:00:00Z",
+      "confidence": 1.0,
       "extraction_version": "1.0",
       "sources": [
-        "instagram"
+        "ig_profile"
       ],
       "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.0"
+      "prompt_version": "2.1.1"
     },
     "i18n": {
       "name": {
         "en": "Yellow Taxi",
-        "ko": "옐로우 택시"
+        "ko": "옐로우택시"
       },
       "address_text": null,
       "notes": null,
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "1호선 유성온천역 7번 출구에서 632m"
   },
   {
     "ig_handle": "yeonnam5701",

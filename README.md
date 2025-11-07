@@ -4,19 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-07T00:11:54Z
+- **Build Time**: 2025-11-07T00:21:50Z
 - **Source Commit**: [`f78213f34efb823787d343bb464a79e92df4cf12`](https://github.com/keunwoochoi/seoulunderground.live/commit/f78213f34efb823787d343bb464a79e92df4cf12)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19153801351)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19154002912)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: find ig handle in the post and show them (#28)
-
-* done on cursor now
-
-* reflect gemini comment
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 

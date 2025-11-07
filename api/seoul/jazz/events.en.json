@@ -110,6 +110,32 @@
     }
   },
   {
+    "id": "evt_20251107_64bdc183-bce3-4732-b5f0-93f9d8c38a77",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-07T19:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Ju-mi Jazz Palette",
+    "description": "Lee Ju-mi Jazz Palette performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Ju-mi Jazz Palette",
+      "description": "Lee Ju-mi Jazz Palette performance."
+    },
+    "_search_ko": {
+      "title": "이주미 재즈팔레트",
+      "description": "이주미 재즈팔레트 공연."
+    }
+  },
+  {
     "id": "evt_20251107_cafcb62f-5aaf-42f6-bdf1-99b8ba2b7a5e",
     "event_key": "src:https://www.instagram.com/p/DQlmmuykcKA/|dt:2025-11-07T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQlmmuykcKA/",
@@ -896,6 +922,32 @@
     }
   },
   {
+    "id": "evt_20251107_f2e1ee16-ca7a-42da-b95e-9aa284b96ba4",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-07T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T13:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Mood ballad",
+    "description": "Mood ballad performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Mood ballad",
+      "description": "Mood ballad performance."
+    },
+    "_search_ko": {
+      "title": "Mood ballad",
+      "description": "Mood ballad 공연."
+    }
+  },
+  {
     "id": "evt_20251107_d124d245-53c4-40d2-a7e5-d13b47cd9b78",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-07T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -1001,6 +1053,32 @@
     "_search_ko": {
       "title": "김대윤 트리오",
       "description": "김대윤 트리오 공연. 김대윤 (피아노), 백용훈 (베이스), 테디 신 (드럼)."
+    }
+  },
+  {
+    "id": "evt_20251108_435111a1-76cb-4564-be26-9eff91effd76",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-08T16:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T07:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Ji-yong Quartet",
+    "description": "Park Ji-yong Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Ji-yong Quartet",
+      "description": "Park Ji-yong Quartet performance."
+    },
+    "_search_ko": {
+      "title": "박지용 퀄텟",
+      "description": "박지용 퀄텟 공연."
     }
   },
   {
@@ -1214,6 +1292,32 @@
     "_search_ko": {
       "title": "이승현 재즈 보컬 쿼텟: 재즈 보컬의 경이로움",
       "description": "드러머 이승현과 그의 재즈 보컬 쿼텟 공연. 재즈 보컬의 경이로움을 선보인다."
+    }
+  },
+  {
+    "id": "evt_20251108_d140c06a-a6e1-44fc-b9f5-c10b0b8ad98d",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-08T19:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Rainy Band",
+    "description": "Rainy Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Rainy Band",
+      "description": "Rainy Band performance."
+    },
+    "_search_ko": {
+      "title": "레이니밴드",
+      "description": "레이니밴드 공연."
     }
   },
   {
@@ -1959,6 +2063,32 @@
     }
   },
   {
+    "id": "evt_20251108_261245ad-8822-4e3d-a38f-a8e985e7bdc7",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-08T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T13:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ryu Su-wan Duo",
+    "description": "Ryu Su-wan Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ryu Su-wan Duo",
+      "description": "Ryu Su-wan Duo performance."
+    },
+    "_search_ko": {
+      "title": "류수완 듀오",
+      "description": "류수완 듀오 공연."
+    }
+  },
+  {
     "id": "evt_20251108_62711b7c-0921-4f1e-b626-b51a816d84ed",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-08T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -2008,6 +2138,32 @@
     "_search_ko": {
       "title": "박상이 퀄텟",
       "description": "박상이 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251109_1d2dd25f-74b6-44d3-8efd-34c2b039bc73",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-09T16:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-09T07:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Sang-ah Quartet",
+    "description": "Park Sang-ah Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Sang-ah Quartet",
+      "description": "Park Sang-ah Quartet performance."
+    },
+    "_search_ko": {
+      "title": "박상아 퀄텟",
+      "description": "박상아 퀄텟 공연."
     }
   },
   {
@@ -2228,6 +2384,32 @@
     "_search_ko": {
       "title": "신원준 1st 앨범 쇼케이스: A Light Casts Through The Grey",
       "description": "기타리스트 신원준의 첫 정규앨범 'A Light casts through the grey' 발매 기념 쇼케이스. 흐릿한 순간들 속 기억과 희망을 담아낸 음악을 선보인다. 연주: 신원준 (기타), 나도윤 (피아노), 강환수 (더블 베이스), 김선빈 (드럼). 보컬: 복다희."
+    }
+  },
+  {
+    "id": "evt_20251109_f6cc8105-2caf-4947-9983-fdc425539a15",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-09T19:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-09T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jo A-hye Band",
+    "description": "Jo A-hye Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jo A-hye Band",
+      "description": "Jo A-hye Band performance."
+    },
+    "_search_ko": {
+      "title": "조아혜밴드",
+      "description": "조아혜밴드 공연."
     }
   },
   {
@@ -2472,6 +2654,32 @@
     }
   },
   {
+    "id": "evt_20251110_2ef953b2-20c4-4cd2-8aa4-bad43d0d9fb6",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-10T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-10T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Benoît Meynier Quintet",
+    "description": "Benoît Meynier Quintet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Benoît Meynier Quintet",
+      "description": "Benoît Meynier Quintet performance."
+    },
+    "_search_ko": {
+      "title": "Benoît Meynier Quintet",
+      "description": "Benoît Meynier Quintet 공연."
+    }
+  },
+  {
     "id": "evt_20251110_993e9f80-15fa-4b51-a388-b6c15d9296bb",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-10T21:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -2573,6 +2781,32 @@
     "_search_ko": {
       "title": "재즈 잼 데이",
       "description": "재즈 잼 데이."
+    }
+  },
+  {
+    "id": "evt_20251111_a2a42be9-8ee4-4e0f-b5aa-0221b099274a",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-11T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-11T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Ji-won Quartet",
+    "description": "Park Ji-won Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Ji-won Quartet",
+      "description": "Park Ji-won Quartet performance."
+    },
+    "_search_ko": {
+      "title": "박지원 퀄텟",
+      "description": "박지원 퀄텟 공연."
     }
   },
   {
@@ -2836,6 +3070,32 @@
     }
   },
   {
+    "id": "evt_20251112_c8678277-e296-4604-81a3-d1e93596fcaf",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-12T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jung Yoon-woo Quartet",
+    "description": "Jung Yoon-woo Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jung Yoon-woo Quartet",
+      "description": "Jung Yoon-woo Quartet performance."
+    },
+    "_search_ko": {
+      "title": "정윤우 퀄텟",
+      "description": "정윤우 퀄텟 공연."
+    }
+  },
+  {
     "id": "evt_20251112_bf6d513a-d553-46c9-8979-4807beb5ce86",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-12T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -3041,6 +3301,32 @@
     "_search_ko": {
       "title": "주혜진 트리오 & 허소영",
       "description": "주혜진 트리오와 허소영 공연."
+    }
+  },
+  {
+    "id": "evt_20251113_319f881b-d1da-4fe7-b93f-8c3a3a098711",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-13T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Jong-hyun Quartet",
+    "description": "Park Jong-hyun Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Jong-hyun Quartet",
+      "description": "Park Jong-hyun Quartet performance."
+    },
+    "_search_ko": {
+      "title": "박종현 퀄텟",
+      "description": "박종현 퀄텟 공연."
     }
   },
   {
@@ -3253,6 +3539,32 @@
     "_search_ko": {
       "title": "하상암 퀄텟",
       "description": "하상암 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251114_5251521e-4a09-4dcf-acfd-261ce70e0f23",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-14T19:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ha Sang-ah Quartet",
+    "description": "Ha Sang-ah Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ha Sang-ah Quartet",
+      "description": "Ha Sang-ah Quartet performance."
+    },
+    "_search_ko": {
+      "title": "하상아 퀄텟",
+      "description": "하상아 퀄텟 공연."
     }
   },
   {
@@ -3700,6 +4012,32 @@
     }
   },
   {
+    "id": "evt_20251114_9ebe8504-6930-4af6-8672-c9ea907abd1f",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-14T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T13:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hyun Yong-seon Duo",
+    "description": "Hyun Yong-seon Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hyun Yong-seon Duo",
+      "description": "Hyun Yong-seon Duo performance."
+    },
+    "_search_ko": {
+      "title": "현용선 듀오",
+      "description": "현용선 듀오 공연."
+    }
+  },
+  {
     "id": "evt_20251114_51a1a1b6-4f27-4dd7-9f26-133c0f799ebd",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-14T23:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -3749,6 +4087,58 @@
     "_search_ko": {
       "title": "박지기 퀄텟",
       "description": "박지기 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251115_7137c325-aade-48b6-9e9c-a1cfbdd73a5f",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-15T16:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T07:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lim Mi-jung Trio",
+    "description": "FLATNINE SPECIAL CONCERT. Lim Mi-jung Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lim Mi-jung Trio",
+      "description": "FLATNINE SPECIAL CONCERT. Lim Mi-jung Trio performance."
+    },
+    "_search_ko": {
+      "title": "임미정 트리오",
+      "description": "FLATNINE SPECIAL CONCERT. 임미정 트리오 공연."
+    }
+  },
+  {
+    "id": "evt_20251115_a7043396-1536-41dd-bc25-1044adaec724",
+    "event_key": "src:https://www.instagram.com/p/DQg9ttBknHy/|dt:2025-11-15T18:20:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQg9ttBknHy/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T09:20:00+00:00",
+    "price": "KRW 30,000",
+    "llm_confidence": 1.0,
+    "title": "Tijn Trommelen Live",
+    "description": "Swinging jazz performance by Dutch guitarist and vocalist Tijn Trommelen. Part 1. (Live charge KRW 30,000, mandatory 1 Food + 1 Bottle for 2 people)",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Tijn Trommelen Live",
+      "description": "Swinging jazz performance by Dutch guitarist and vocalist Tijn Trommelen. Part 1. (Live charge KRW 30,000, mandatory 1 Food + 1 Bottle for 2 people)"
+    },
+    "_search_ko": {
+      "title": "타인 트로멜렌 라이브",
+      "description": "네덜란드 출신 기타리스트이자 보컬리스트 타인 트로멜렌의 스윙감 넘치는 재즈 공연. 1부. (라이브 차지 30,000원, 2인 기준 1 Food + 1 Bottle 필수 주문)"
     }
   },
   {
@@ -3831,6 +4221,32 @@
     "_search_ko": {
       "title": "김민희 & Her 트리오",
       "description": "김민희 & Her 트리오 공연."
+    }
+  },
+  {
+    "id": "evt_20251115_c53c47ce-1f56-4be8-b67d-04ac69c65681",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-15T19:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Tin Trommelen Trio",
+    "description": "FLATNINE SPECIAL CONCERT. Tin Trommelen Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Tin Trommelen Trio",
+      "description": "FLATNINE SPECIAL CONCERT. Tin Trommelen Trio performance."
+    },
+    "_search_ko": {
+      "title": "Tin Trommelen Trio",
+      "description": "FLATNINE SPECIAL CONCERT. Tin Trommelen Trio 공연."
     }
   },
   {
@@ -4174,6 +4590,32 @@
     }
   },
   {
+    "id": "evt_20251115_da1ef50b-63af-489f-9bf7-b914219e1b70",
+    "event_key": "src:https://www.instagram.com/p/DQg9ttBknHy/|dt:2025-11-15T21:20:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQg9ttBknHy/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T12:20:00+00:00",
+    "price": "KRW 30,000",
+    "llm_confidence": 1.0,
+    "title": "Tijn Trommelen Live",
+    "description": "Swinging jazz performance by Dutch guitarist and vocalist Tijn Trommelen. Part 2. (Live charge KRW 30,000, mandatory 1 Food + 1 Bottle for 2 people)",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Tijn Trommelen Live",
+      "description": "Swinging jazz performance by Dutch guitarist and vocalist Tijn Trommelen. Part 2. (Live charge KRW 30,000, mandatory 1 Food + 1 Bottle for 2 people)"
+    },
+    "_search_ko": {
+      "title": "타인 트로멜렌 라이브",
+      "description": "네덜란드 출신 기타리스트이자 보컬리스트 타인 트로멜렌의 스윙감 넘치는 재즈 공연. 2부. (라이브 차지 30,000원, 2인 기준 1 Food + 1 Bottle 필수 주문)"
+    }
+  },
+  {
     "id": "evt_20251115_e0ef5f57-ce58-468b-9219-5fc5f5078007",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-15T22:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -4197,6 +4639,32 @@
     "_search_ko": {
       "title": "도둠칫: 앨런 & 윤",
       "description": "도둠칫 공연: 앨런 (색소폰), 윤 (보컬)."
+    }
+  },
+  {
+    "id": "evt_20251115_91d27f94-d69c-418d-92df-a1d649a2d7b7",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-15T22:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T13:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Han-beom Duo",
+    "description": "FLATNINE SPECIAL CONCERT. Lee Han-beom Duo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Han-beom Duo",
+      "description": "FLATNINE SPECIAL CONCERT. Lee Han-beom Duo performance."
+    },
+    "_search_ko": {
+      "title": "이한범 듀오",
+      "description": "FLATNINE SPECIAL CONCERT. 이한범 듀오 공연."
     }
   },
   {
@@ -4249,6 +4717,32 @@
     "_search_ko": {
       "title": "박정기 퀄텟",
       "description": "박정기 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251116_8b189d0f-13b6-4171-8a1e-f6fe735c9671",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-16T16:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-16T07:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Min-gi Quartet",
+    "description": "Park Min-gi Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Min-gi Quartet",
+      "description": "Park Min-gi Quartet performance."
+    },
+    "_search_ko": {
+      "title": "박민기 퀄텟",
+      "description": "박민기 퀄텟 공연."
     }
   },
   {
@@ -4330,6 +4824,32 @@
     }
   },
   {
+    "id": "evt_20251116_90746700-5973-43db-bf4f-4c4a260e7197",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-16T19:30:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-16T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Ri-mi & Her Trio",
+    "description": "Kim Ri-mi & Her Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Ri-mi & Her Trio",
+      "description": "Kim Ri-mi & Her Trio performance."
+    },
+    "_search_ko": {
+      "title": "김리미 & Her Trio",
+      "description": "김리미 & Her Trio 공연."
+    }
+  },
+  {
     "id": "evt_20251116_df706c4e-6e8d-43ec-9c3a-32f68b17e76a",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-16T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
@@ -4407,6 +4927,32 @@
     "_search_ko": {
       "title": "김태국",
       "description": "김태국 공연."
+    }
+  },
+  {
+    "id": "evt_20251117_2c8e1b8f-1e26-4e51-b6b8-f42472433e50",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-17T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-17T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "B Project",
+    "description": "B Project performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "B Project",
+      "description": "B Project performance."
+    },
+    "_search_ko": {
+      "title": "B 프로젝트",
+      "description": "B 프로젝트 공연."
     }
   },
   {
@@ -4511,6 +5057,32 @@
     "_search_ko": {
       "title": "재즈 잼 데이",
       "description": "재즈 잼 데이."
+    }
+  },
+  {
+    "id": "evt_20251118_2442bcbf-56cf-45f9-b32b-3366bce5f78d",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-18T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-18T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Yan Kim Trio",
+    "description": "Yan Kim Trio performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yan Kim Trio",
+      "description": "Yan Kim Trio performance."
+    },
+    "_search_ko": {
+      "title": "Yan Kim Trio",
+      "description": "Yan Kim Trio 공연."
     }
   },
   {
@@ -4748,6 +5320,32 @@
     }
   },
   {
+    "id": "evt_20251119_94c01a44-3a97-4636-b3be-c1f84f3db79b",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-19T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Rob Quintet",
+    "description": "Rob Quintet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Rob Quintet",
+      "description": "Rob Quintet performance."
+    },
+    "_search_ko": {
+      "title": "Rob 퀸텟",
+      "description": "Rob 퀸텟 공연."
+    }
+  },
+  {
     "id": "evt_20251119_e23178ae-084d-443f-8113-022ee852d792",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-19T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -4953,6 +5551,32 @@
     "_search_ko": {
       "title": "이지영",
       "description": "이지영 공연."
+    }
+  },
+  {
+    "id": "evt_20251120_863bc2e0-b3f7-4a5b-8559-0b7fcfb1d87c",
+    "event_key": "src:https://www.instagram.com/p/DQjzANhErrK/|dt:2025-11-20T20:00:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
+    "venue_handle": "flatnine_jazzbar",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jung Jae-won Quartet",
+    "description": "Jung Jae-won Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jung Jae-won Quartet",
+      "description": "Jung Jae-won Quartet performance."
+    },
+    "_search_ko": {
+      "title": "정재원 퀄텟",
+      "description": "정재원 퀄텟 공연."
     }
   },
   {

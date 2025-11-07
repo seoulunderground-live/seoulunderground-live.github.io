@@ -4,25 +4,19 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-06T22:48:32Z
-- **Source Commit**: [`93e714950731445d4112f8eeb654452947150d0c`](https://github.com/keunwoochoi/seoulunderground.live/commit/93e714950731445d4112f8eeb654452947150d0c)
+- **Build Time**: 2025-11-07T00:11:54Z
+- **Source Commit**: [`f78213f34efb823787d343bb464a79e92df4cf12`](https://github.com/keunwoochoi/seoulunderground.live/commit/f78213f34efb823787d343bb464a79e92df4cf12)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19152200849)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19153801351)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: improve screenshot - save time text space, etc (#27)
+- **Message**: find ig handle in the post and show them (#28)
 
-* composer 1 so far
-
-* sonnet thanks a lot
-
-* all very good!
+* done on cursor now
 
 * reflect gemini comment
-
-* omitted file
 
 ## Deployment
 

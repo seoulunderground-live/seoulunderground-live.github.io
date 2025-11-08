@@ -4,15 +4,19 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-08T00:56:50Z
-- **Source Commit**: [`9711321304316dd41c399cf8dbdfb75418a68ebc`](https://github.com/keunwoochoi/seoulunderground.live/commit/9711321304316dd41c399cf8dbdfb75418a68ebc)
+- **Build Time**: 2025-11-08T04:55:12Z
+- **Source Commit**: [`1fed211ae8131750bc7e1345582622976679631e`](https://github.com/keunwoochoi/seoulunderground.live/commit/1fed211ae8131750bc7e1345582622976679631e)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19185381661)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19188256756)
 
 ## Commit Details
 
-- **Author**:  <>
-- **Message**: 
+- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
+- **Message**: fix story gen - ig handl json file issue + starting "electronic"  (#31)
+
+* fix story gen - ig handl json file issue
+
+* reflect gemini comment
 
 ## Deployment
 

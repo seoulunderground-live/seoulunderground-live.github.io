@@ -482,18 +482,18 @@
     "datetime": "2025-11-09T11:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Picnic Jazz Band",
-    "description": "Picnic Jazz Band featuring Lee Ji-hyun (vocal), Jo Ha-mi (piano), and Park Ap (bass).",
+    "title": "Libro Jazz Live: Picnic Jazz Band",
+    "description": "Libro Jazz Live featuring Picnic Jazz Band. Roster: Lee Ji-hyun (Vocal), Jo Ha-mi (Piano), Park Hyeop (Bass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Picnic Jazz Band",
-      "description": "Picnic Jazz Band featuring Lee Ji-hyun (vocal), Jo Ha-mi (piano), and Park Ap (bass)."
+      "title": "Libro Jazz Live: Picnic Jazz Band",
+      "description": "Libro Jazz Live featuring Picnic Jazz Band. Roster: Lee Ji-hyun (Vocal), Jo Ha-mi (Piano), Park Hyeop (Bass)."
     },
     "_search_ko": {
-      "title": "피크닉 재즈 밴드",
-      "description": "피크닉재즈밴드: 이지현 (보컬), 조하미 (피아노), 박압 (베이스)."
+      "title": "리브로 재즈 라이브: 피크닉재즈밴드",
+      "description": "피크닉재즈밴드 공연. 이지현 (보컬), 조하미 (피아노), 박협 (베이스)."
     }
   },
   {
@@ -1412,6 +1412,32 @@
     }
   },
   {
+    "id": "evt_20251113_cc02c698-527e-40ca-bd23-bdea97182e01",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-13T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0c469579-b0e3-4564-84a4-4528943ce70d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T15:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Night and Dal Boro Gaja",
+    "description": "Performance by Night and and Dal Boro Gaja.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Night and Dal Boro Gaja",
+      "description": "Performance by Night and and Dal Boro Gaja."
+    },
+    "_search_ko": {
+      "title": "Night and 달보러가자",
+      "description": "Night and와 달보러가자 공연."
+    }
+  },
+  {
     "id": "evt_20251114_a7ee33be-344a-4ced-9f21-ba894221c7a7",
     "event_key": "src:https://www.instagram.com/p/DQjdc8bEZag/|dt:2025-11-14T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjdc8bEZag/",
@@ -1560,17 +1586,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "Charlie Jung Special",
-    "description": "Charlie Jung (guitar).",
+    "description": "Guitar Charlie Jung special concert.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Charlie Jung Special",
-      "description": "Charlie Jung (guitar)."
+      "description": "Guitar Charlie Jung special concert."
     },
     "_search_ko": {
-      "title": "찰리정 스페셜",
-      "description": "찰리정 (기타)."
+      "title": "찰리정 스페셜 콘서트",
+      "description": "기타 찰리정 스페셜 콘서트."
     }
   },
   {
@@ -2163,18 +2189,18 @@
     "datetime": "2025-11-15T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Concert in Korea: Bjørn Solli Quartet",
-    "description": "Bjørn Solli (guitar), Paul Kirby (piano), Sean Pentland (bass), Manuel Weyand (drums).",
+    "title": "Bjørn Solli Quartet",
+    "description": "Bjørn Solli Quartet featuring Guitar Bjørn Solli, Piano Paul Kirby, Bass Sean Pentland, Drums Manuel Weyand.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Concert in Korea: Bjørn Solli Quartet",
-      "description": "Bjørn Solli (guitar), Paul Kirby (piano), Sean Pentland (bass), Manuel Weyand (drums)."
+      "title": "Bjørn Solli Quartet",
+      "description": "Bjørn Solli Quartet featuring Guitar Bjørn Solli, Piano Paul Kirby, Bass Sean Pentland, Drums Manuel Weyand."
     },
     "_search_ko": {
-      "title": "내한 콘서트 비욘 솔리 퀄텟",
-      "description": "비욘 솔리 (기타), 폴 커비 (피아노), 션 펜트랜드 (베이스), 마누엘 웨이얀드 (드럼)."
+      "title": "내한 콘서트 Bjørn Solli Quartet",
+      "description": "Bjørn Solli Quartet: 기타 Bjørn Solli, 피아노 Paul Kirby, 베이스 Sean Pentland, 드럼 Manuel Weyand."
     }
   },
   {
@@ -3541,6 +3567,32 @@
     }
   },
   {
+    "id": "evt_20251120_608d728c-ee25-4c0a-be90-32600583bb33",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-20T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0c469579-b0e3-4564-84a4-4528943ce70d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T15:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Lee Seong Ho Band",
+    "description": "Lee Seong Ho Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Seong Ho Band",
+      "description": "Lee Seong Ho Band performance."
+    },
+    "_search_ko": {
+      "title": "이성호 밴드",
+      "description": "이성호 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251121_e81e7ebb-0c45-4a28-bc85-1647c862460e",
     "event_key": "src:https://www.instagram.com/p/DQjdc8bEZag/|dt:2025-11-21T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjdc8bEZag/",
@@ -4116,6 +4168,32 @@
     "_search_ko": {
       "title": "Love Supreme",
       "description": "Love Supreme: 조민재 (드럼), 김대호 (기타), 김대규 (피아노), 황대웅 (베이스), 박인찬 (색소폰), 최백결 (색소폰)."
+    }
+  },
+  {
+    "id": "evt_20251121_42758f00-8f77-4652-aa8d-1814141a5b2a",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-21T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0c469579-b0e3-4564-84a4-4528943ce70d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T15:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Ryu In-gi Band",
+    "description": "Ryu In-gi Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ryu In-gi Band",
+      "description": "Ryu In-gi Band performance."
+    },
+    "_search_ko": {
+      "title": "류인기 밴드",
+      "description": "류인기 밴드 공연."
     }
   },
   {
@@ -5873,6 +5951,32 @@
     }
   },
   {
+    "id": "evt_20251127_7f73f402-47b8-4229-ab97-d2804d8b238f",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-27T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0c469579-b0e3-4564-84a4-4528943ce70d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T15:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Shim Jae-min Band",
+    "description": "Shim Jae-min Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Shim Jae-min Band",
+      "description": "Shim Jae-min Band performance."
+    },
+    "_search_ko": {
+      "title": "심재민 밴드",
+      "description": "심재민 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251128_31b7959f-acf0-4f0f-adcc-27f2946b9341",
     "event_key": "src:https://www.instagram.com/p/DQjdc8bEZag/|dt:2025-11-28T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjdc8bEZag/",
@@ -6422,6 +6526,32 @@
     "_search_ko": {
       "title": "김대규 퀸텟",
       "description": "김대규 퀸텟: 김대규 (피아노), 강성민 (베이스), 김소희 (드럼), 김경모 (기타), 정준 (색소폰)."
+    }
+  },
+  {
+    "id": "evt_20251128_1c9207f2-aca5-495d-9c2d-e01ab40609d2",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-28T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0c469579-b0e3-4564-84a4-4528943ce70d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T15:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Hwang Jeong-won Band",
+    "description": "Hwang Jeong-won Band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hwang Jeong-won Band",
+      "description": "Hwang Jeong-won Band performance."
+    },
+    "_search_ko": {
+      "title": "황정원 밴드",
+      "description": "황정원 밴드 공연."
     }
   },
   {
@@ -7086,6 +7216,32 @@
     }
   },
   {
+    "id": "evt_20251129_c3ee125e-f34f-41f8-a6c1-fd73ae4c14df",
+    "event_key": "src:https://www.instagram.com/p/DQgfI_9kV1l/|dt:2025-11-29T15:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
+    "venue_handle": "pungjane2021",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0c469579-b0e3-4564-84a4-4528943ce70d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T15:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "30",
+    "description": "Event scheduled for November 30th.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "30",
+      "description": "Event scheduled for November 30th."
+    },
+    "_search_ko": {
+      "title": "30",
+      "description": "11월 30일 예정된 이벤트."
+    }
+  },
+  {
     "id": "evt_20251130_cd2760e6-965e-430a-831b-f8bff9565af3",
     "event_key": "src:https://www.instagram.com/p/DQA5DytCf4C/|dt:2025-11-30T06:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQA5DytCf4C/",
@@ -7543,18 +7699,18 @@
     "datetime": "2025-12-05T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Lee Bu-young Duo with Gwak Jeong-min",
-    "description": "Lee Bu-young (vocal), Gwak Jeong-min (piano).",
+    "title": "Lee Bu Young Duo with Park Jung Min",
+    "description": "Lee Bu Young Duo featuring Vocal Lee Bu Young and Piano Park Jung Min.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lee Bu-young Duo with Gwak Jeong-min",
-      "description": "Lee Bu-young (vocal), Gwak Jeong-min (piano)."
+      "title": "Lee Bu Young Duo with Park Jung Min",
+      "description": "Lee Bu Young Duo featuring Vocal Lee Bu Young and Piano Park Jung Min."
     },
     "_search_ko": {
       "title": "이부영 듀오 with 곽정민",
-      "description": "이부영 (보컬), 곽정민 (피아노)."
+      "description": "이부영 듀오: 보컬 이부영, 피아노 곽정민."
     }
   },
   {
@@ -7840,7 +7996,7 @@
     },
     "_search_ko": {
       "title": "노바샘 트리오",
-      "description": "노바샘 (피아노), 박진교 (베이스), 김상수 (드럼)."
+      "description": "노바샘 트리오: 피아노 노바샘, 베이스 박진교, 드럼 김상수."
     }
   },
   {

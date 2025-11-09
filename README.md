@@ -4,23 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-09T19:29:09Z
-- **Source Commit**: [`45469109535ca79f41ea5cbc19c787f7c68ede35`](https://github.com/keunwoochoi/seoulunderground.live/commit/45469109535ca79f41ea5cbc19c787f7c68ede35)
+- **Build Time**: 2025-11-09T20:13:13Z
+- **Source Commit**: [`e1038e488c8c7f98328e88637bff16930841ade4`](https://github.com/keunwoochoi/seoulunderground.live/commit/e1038e488c8c7f98328e88637bff16930841ade4)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19213353922)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19213833115)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix slack noti (#34)
-
-* done
-
-* Use CSS variable for secondary text color in admin list
-
-Code review feedback: replaced hardcoded #666 color with var(--text-secondary)
-for better theme consistency and maintainability. Applied to both datetime and
-price elements in the admin event list.
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 

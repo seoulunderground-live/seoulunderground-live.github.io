@@ -26,6 +26,32 @@
     }
   },
   {
+    "id": "evt_20251113_deaa9e1a-ad28-4598-b96f-48eeb7c50dd1",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-13T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T02:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "The Boss",
+    "description": "DJ Set — Cityboy from Seoul @cityboyfromseoul, Hogun @djhogun // DJ Set — Kim.Qna @kim.qna, Crab @taeyoon_djcrab",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The Boss",
+      "description": "DJ Set — Cityboy from Seoul @cityboyfromseoul, Hogun @djhogun // DJ Set — Kim.Qna @kim.qna, Crab @taeyoon_djcrab"
+    },
+    "_search_ko": {
+      "title": "The Boss",
+      "description": "DJ Set — Cityboy from Seoul @cityboyfromseoul, Hogun @djhogun // DJ Set — Kim.Qna @kim.qna, Crab @taeyoon_djcrab"
+    }
+  },
+  {
     "id": "evt_20251114_e584c6cb-7d90-45dc-a27a-5e6402effca8",
     "event_key": "v:ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7|t:2025-11-14T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -33,6 +59,32 @@
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T02:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "James Falco (Italy)",
+    "description": "Featuring James Falco (Italy). DJ Set — Mezzo.forte @saerom.mzft, Jaezae @jae_zae_, James Falco @james_falco // DJ Set — Youngisland @young.island, Joshua @joshuakr__ (B2B at 5:00).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "James Falco (Italy)",
+      "description": "Featuring James Falco (Italy). DJ Set — Mezzo.forte @saerom.mzft, Jaezae @jae_zae_, James Falco @james_falco // DJ Set — Youngisland @young.island, Joshua @joshuakr__ (B2B at 5:00)."
+    },
+    "_search_ko": {
+      "title": "James Falco (Italy)",
+      "description": "Featuring James Falco (Italy). DJ Set — Mezzo.forte @saerom.mzft, Jaezae @jae_zae_, James Falco @james_falco // DJ Set — Youngisland @young.island, Joshua @joshuakr__ (B2B at 5:00)."
+    }
+  },
+  {
+    "id": "evt_20251114_b2a9ec16-9515-4912-b6b8-065e0b339efb",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-14T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
     "venue_location_id": "main",
     "datetime": "2025-11-14T02:00:00+00:00",
     "price": "None",
@@ -110,6 +162,64 @@
     }
   },
   {
+    "id": "evt_20251114_7505606a-7cd1-41c6-a3a9-d4bc3448d7ac",
+    "event_key": "v:ven_c331e376-52d7-453e-8c16-c6a5745a1496|t:2025-11-14T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "commodough",
+      "cong_vu",
+      "quandol",
+      "slscp",
+      "vonbueno"
+    ],
+    "venue_id": "ven_c331e376-52d7-453e-8c16-c6a5745a1496",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T13:00:00+00:00",
+    "price": "ADV KRW 20,000 / DOOR KRW 25,000",
+    "llm_confidence": 1.0,
+    "title": "Phantoms Of Riddim w/ Commodo (DEEP MEDI MUSIK / UK)",
+    "description": "Phantoms Of Riddim presents UK's Commodo (DEEP MEDI MUSIK), joined by Von Bueno, DJ Soulscape, Cong Vu, Quandol, Nimvy & Tabris. // Special event celebrating the return of Phantoms Of Riddim after 7 years, featuring special guest Commodo (Deep Medi Musik/Mysterious Trax), known for cinematic, bass-focused beats that blend dubstep, grime, and instrumental hip-hop. // Lineup: Special Guest - Commodo // DJ Set - Cong Vu, DJ Soulscape, Quandol, Von Bueno // More breaks - Nimvy & Tabris.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Phantoms Of Riddim w/ Commodo (DEEP MEDI MUSIK / UK)",
+      "description": "Phantoms Of Riddim presents UK's Commodo (DEEP MEDI MUSIK), joined by Von Bueno, DJ Soulscape, Cong Vu, Quandol, Nimvy & Tabris. // Special event celebrating the return of Phantoms Of Riddim after 7 years, featuring special guest Commodo (Deep Medi Musik/Mysterious Trax), known for cinematic, bass-focused beats that blend dubstep, grime, and instrumental hip-hop. // Lineup: Special Guest - Commodo // DJ Set - Cong Vu, DJ Soulscape, Quandol, Von Bueno // More breaks - Nimvy & Tabris."
+    },
+    "_search_ko": {
+      "title": "Phantoms Of Riddim w/ Commodo (DEEP MEDI MUSIK / UK)",
+      "description": "Phantoms Of Riddim. UK의 Commodo (DEEP MEDI MUSIK)와 Von Bueno, DJ Soulscape, Cong Vu, Quandol, Nimvy & Tabris. // Phantoms Of Riddim 7년만의 귀환 특별 이벤트. 스페셜 게스트 Commodo (Deep Medi Musik/Mysterious Trax) 출연. // Lineup: Special Guest - Commodo // DJ Set - Cong Vu, DJ Soulscape, Quandol, Von Bueno // More breaks - Nimvy & Tabris."
+    }
+  },
+  {
+    "id": "evt_20251114_a97327e1-1ab2-45d2-8536-3fd7321a3234",
+    "event_key": "v:ven_35d92388-127c-4c3a-a341-b1c7e420a1c7|t:2025-11-14T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQCsKo5D6Ix/",
+    "venue_handle": "electrik.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_35d92388-127c-4c3a-a341-b1c7e420a1c7",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T13:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Electrik Seoul: K-POP x EDM",
+    "description": "K-POP x EDM fusion event presented by Insomniac and Electrik Seoul. Ticket link in bio. // Venue: BLOOM, 919 Fourth Ave.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Electrik Seoul: K-POP x EDM",
+      "description": "K-POP x EDM fusion event presented by Insomniac and Electrik Seoul. Ticket link in bio. // Venue: BLOOM, 919 Fourth Ave."
+    },
+    "_search_ko": {
+      "title": "일렉트릭 서울: K-POP x EDM",
+      "description": "INSOMNIAC와 ELECTRIK SEOUL이 함께하는 K-POP x EDM 이벤트. // 장소: BLOOM, 919 Fourth Ave. / 인썸니악과 일렉트릭 서울이 함께하는 K-POP x EDM 퓨전 이벤트. 티켓 링크는 바이오 확인."
+    }
+  },
+  {
     "id": "evt_20251114_828fd542-7762-4f8e-8258-45c5a9a604f0",
     "event_key": "v:ven_cdb6f1a1-fee2-4753-92b4-7a4d4b3e80dd|t:2025-11-14T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
@@ -162,6 +272,58 @@
     }
   },
   {
+    "id": "evt_20251114_418b9510-413a-424c-83ae-899b97882079",
+    "event_key": "v:ven_16425c95-17fd-4501-a9b5-f126b087cb85|t:2025-11-14T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
+    "venue_handle": "shelterseoul_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16425c95-17fd-4501-a9b5-f126b087cb85",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Gestalt",
+    "description": "Guest DJ Set — Gestalt.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Gestalt",
+      "description": "Guest DJ Set — Gestalt."
+    },
+    "_search_ko": {
+      "title": "Gestalt",
+      "description": "Special event featuring Gestalt. Guest DJ Set — Gestalt."
+    }
+  },
+  {
+    "id": "evt_20251114_de76abd1-2734-4e56-a00e-29282103742b",
+    "event_key": "v:ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6|t:2025-11-14T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQThWD_gZcY/",
+    "venue_handle": "volnostseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Beyond The Bridge",
+    "description": "2F: DJ Set ― Jan Swam (Spain), K.O.P. 32, Mizae // 1F: DJ Set ― Seo Youngcha, Haemi Park",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Beyond The Bridge",
+      "description": "2F: DJ Set ― Jan Swam (Spain), K.O.P. 32, Mizae // 1F: DJ Set ― Seo Youngcha, Haemi Park"
+    },
+    "_search_ko": {
+      "title": "Beyond The Bridge",
+      "description": "2F: DJ Set ― JAN SWAM (SPAIN), K.O.P. 32, MIZAE // 1F: DJ Set ― SEO YOUNGCHA, HAEMI PARK"
+    }
+  },
+  {
     "id": "evt_20251115_16d00652-6eaf-45f3-976e-6d1b49e984a1",
     "event_key": "v:ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7|t:2025-11-15T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -169,6 +331,32 @@
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T02:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Indie Dance Night (Special)",
+    "description": "Special Indie Dance Night. DJ Set — Cityboy from Seoul @cityboyfromseoul, Fango (Italy) @fangodegustibus, RTRP @rtrpmusic.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Indie Dance Night (Special)",
+      "description": "Special Indie Dance Night. DJ Set — Cityboy from Seoul @cityboyfromseoul, Fango (Italy) @fangodegustibus, RTRP @rtrpmusic."
+    },
+    "_search_ko": {
+      "title": "Indie Dance Night (Special)",
+      "description": "Special Indie Dance Night. DJ Set — Cityboy from Seoul @cityboyfromseoul, Fango (Italy) @fangodegustibus, RTRP @rtrpmusic."
+    }
+  },
+  {
+    "id": "evt_20251115_962894f9-befa-45bc-9e19-a5c877098dc0",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-15T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
     "venue_location_id": "main",
     "datetime": "2025-11-15T02:00:00+00:00",
     "price": "None",
@@ -219,6 +407,37 @@
     }
   },
   {
+    "id": "evt_20251115_d0b051ee-6ca3-495d-bf9d-7b37621cdfb4",
+    "event_key": "v:ven_9595f693-8332-4e32-b836-ae5e378aa348|t:2025-11-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQoTWzKEa_A/",
+    "venue_handle": "theedgeseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "hyunseungyoo",
+      "neu_fabrica",
+      "parkdaham",
+      "umantherma"
+    ],
+    "venue_id": "ven_9595f693-8332-4e32-b836-ae5e378aa348",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T11:00:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Arthur, Uman Therma, DJ YESYES, Odd J, Eunuk",
+    "description": "Berlin's Arthur (Hard Wax, Open Ground) presents a rare Amapiano-driven set, connecting reggae, dub, house, and techno. Featuring: DJ YESYES, Uman Therma, Odd J, Eunuk.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Arthur, Uman Therma, DJ YESYES, Odd J, Eunuk",
+      "description": "Berlin's Arthur (Hard Wax, Open Ground) presents a rare Amapiano-driven set, connecting reggae, dub, house, and techno. Featuring: DJ YESYES, Uman Therma, Odd J, Eunuk."
+    },
+    "_search_ko": {
+      "title": "Arthur, Uman Therma, DJ YESYES, Odd J, Eunuk",
+      "description": "베를린의 Arthur (Hard Wax, Open Ground)가 레게, 덥, 하우스, 테크노를 아우르는 Amapiano 중심의 특별한 세트 선보임. Featuring: DJ YESYES, Uman Therma, Odd J, Eunuk."
+    }
+  },
+  {
     "id": "evt_20251115_f4184b81-e6e2-40e5-98d7-0037425be359",
     "event_key": "v:ven_17691e49-bce5-4db4-b505-682bb41e1dd3|t:2025-11-15T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnkpMngT4r/",
@@ -233,6 +452,39 @@
       "yyetsubyy"
     ],
     "venue_id": "ven_17691e49-bce5-4db4-b505-682bb41e1dd3",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T13:00:00+00:00",
+    "price": "KRW 20,000 before 12; KRW 25,000 after 12",
+    "llm_confidence": 1.0,
+    "title": "Toma Kami",
+    "description": "Paris-based DJ/Producer Toma Kami. Known for heavy bass, techno, dancehall, jungle, electro, rap. // DJ Set — Yetsuby, Arexibo, Moon Ki, Tabris, Wings of the City.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Toma Kami",
+      "description": "Paris-based DJ/Producer Toma Kami. Known for heavy bass, techno, dancehall, jungle, electro, rap. // DJ Set — Yetsuby, Arexibo, Moon Ki, Tabris, Wings of the City."
+    },
+    "_search_ko": {
+      "title": "Toma Kami",
+      "description": "프랑스 베이스 DJ/프로듀서 Toma Kami. Heavy bass, techno, dancehall, jungle, electro, rap. // DJ Set — Yetsuby @yyetsubyy, Arexibo @soma_kim, Moon Ki @quicktimeevent, Tabris @tabrisnet, Wings of the City @wingsofthecity."
+    }
+  },
+  {
+    "id": "evt_20251115_c9dacbab-3721-41e3-83f7-5c051c9030ad",
+    "event_key": "v:ven_c331e376-52d7-453e-8c16-c6a5745a1496|t:2025-11-15T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnkpMngT4r/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "quicktimeevent",
+      "soma_kim",
+      "tabrisnet",
+      "toma_kami",
+      "wingsofthecity",
+      "yyetsubyy"
+    ],
+    "venue_id": "ven_c331e376-52d7-453e-8c16-c6a5745a1496",
     "venue_location_id": "main",
     "datetime": "2025-11-15T13:00:00+00:00",
     "price": "KRW 20,000 before 12; KRW 25,000 after 12",
@@ -356,6 +608,110 @@
     }
   },
   {
+    "id": "evt_20251115_7a30f0c6-72f7-488c-a873-ec26891f27ce",
+    "event_key": "v:ven_fc128d60-9ab0-48b9-8eb3-3d4ecd82d4b1|t:2025-11-15T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQtavzkkfwS/",
+    "venue_handle": "ring.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_fc128d60-9ab0-48b9-8eb3-3d4ecd82d4b1",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T14:00:00+00:00",
+    "price": "KRW 25,000",
+    "llm_confidence": 1.0,
+    "title": "Brasi, Minkyu, Antwork",
+    "description": "Brasi from Rome returns for his second appearance at RING. Expect positive energy and raw motion all night. Lineup: Brasi, Minkyu, Antwork. Entrance 25,000 KRW (door only). No cameras or flash.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Brasi, Minkyu, Antwork",
+      "description": "Brasi from Rome returns for his second appearance at RING. Expect positive energy and raw motion all night. Lineup: Brasi, Minkyu, Antwork. Entrance 25,000 KRW (door only). No cameras or flash."
+    },
+    "_search_ko": {
+      "title": "Brasi, Minkyu, Antwork",
+      "description": "로마에서 온 Brasi의 두번째 RING 방문. 긍정적인 에너지와 거친 움직임. 라인업: Brasi, Minkyu, Antwork. 입장 25,000원 (현장 구매만 가능). 카메라 및 플래시 사용 금지."
+    }
+  },
+  {
+    "id": "evt_20251115_a3a5434b-30ab-40b3-8ba0-5025ce91d284",
+    "event_key": "v:ven_16425c95-17fd-4501-a9b5-f126b087cb85|t:2025-11-15T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
+    "venue_handle": "shelterseoul_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16425c95-17fd-4501-a9b5-f126b087cb85",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "X2C, Rerekat, No.Link, Apachi, Bumv, Honn",
+    "description": "DJ Set — X2C, Rerekat, No.Link // DJ Set — Apachi, Bumv, Honn",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "X2C, Rerekat, No.Link, Apachi, Bumv, Honn",
+      "description": "DJ Set — X2C, Rerekat, No.Link // DJ Set — Apachi, Bumv, Honn"
+    },
+    "_search_ko": {
+      "title": "X2C, Rerekat, No.Link, Apachi, Bumv, Honn",
+      "description": "DJ Set — X2C, Rerekat, No.Link // DJ Set — Apachi, Bumv, Honn"
+    }
+  },
+  {
+    "id": "evt_20251115_9f8e9ea5-15bc-4195-96ed-8eb3ace287df",
+    "event_key": "v:ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6|t:2025-11-15T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQThWD_gZcY/",
+    "venue_handle": "volnostseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Volnost Night",
+    "description": "2F: DJ Set — Weeun Kim, Hogun (4 Hours Long Set) // 1F: DJ Set — Goochi, Minuc",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Volnost Night",
+      "description": "2F: DJ Set — Weeun Kim, Hogun (4 Hours Long Set) // 1F: DJ Set — Goochi, Minuc"
+    },
+    "_search_ko": {
+      "title": "VOLNOST NIGHT",
+      "description": "2F: DJ Set — WEEUN KIM, HOGUN (4HOURS LONG SET) // 1F: DJ Set — GOOCHI, MINUC"
+    }
+  },
+  {
+    "id": "evt_20251115_a5d984c4-fbfb-4c18-8777-ba09ece8d337",
+    "event_key": "v:ven_606c8414-b7a3-40e5-a22a-dfa6bbf2c86f|t:2025-11-15T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQsYi4hEvzo/",
+    "venue_handle": "vurt_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_606c8414-b7a3-40e5-a22a-dfa6bbf2c86f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T14:00:00+00:00",
+    "price": "KRW 22,000 (RA Reservation) / KRW 25,000 (At Door) / KRW 10,000 (After 4am) / 22,000 KRW (RA); 25,000 KRW (Door); 10,000 KRW (After 4am)",
+    "llm_confidence": 1.0,
+    "title": "VURTNIGHT with ZARA, ANSOL, SUNA",
+    "description": "Vurtnight features Melbourne-based techno artist Zara (Kinesis, Animalia, Amenthia / Australia). Zara's sound is deeply rooted in the primal energy of the Australian environment, exploring spatiality and fluidity between club peak-time and immersive sets. Also featuring ANSOL and SUNA. ID required. No photo/video. Lineup: DJ Set — ZARA // DJ Set — ANSOL // DJ Set — SUNA. Doors open 11 PM.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "VURTNIGHT with ZARA, ANSOL, SUNA",
+      "description": "Vurtnight features Melbourne-based techno artist Zara (Kinesis, Animalia, Amenthia / Australia). Zara's sound is deeply rooted in the primal energy of the Australian environment, exploring spatiality and fluidity between club peak-time and immersive sets. Also featuring ANSOL and SUNA. ID required. No photo/video. Lineup: DJ Set — ZARA // DJ Set — ANSOL // DJ Set — SUNA. Doors open 11 PM."
+    },
+    "_search_ko": {
+      "title": "VURTNIGHT with ZARA, ANSOL, SUNA",
+      "description": "Vurtnight with Zara (Kinesis, Animalia, Amenthia / Australia). Zara는 호주 환경의 원초적 에너지에 깊이 뿌리내린 사운드로 공간감과 유동성을 탐구하는 테크노 아티스트. ANSOL, SUNA. 신분증 지참. 촬영금지. 라인업: DJ Set — ZARA // DJ Set — ANSOL // DJ Set — SUNA. 11PM 오픈."
+    }
+  },
+  {
     "id": "evt_20251116_ca64df09-442c-4080-8a23-56b979803c7a",
     "event_key": "v:ven_5f049571-7b3f-489d-8edd-e5b6b55ba3c8|t:2025-11-16T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQq57bLD2NI/",
@@ -368,6 +724,37 @@
       "thomasankersmit"
     ],
     "venue_id": "ven_5f049571-7b3f-489d-8edd-e5b6b55ba3c8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-16T10:00:00+00:00",
+    "price": "KRW 44,000 (Combined Ticket)",
+    "llm_confidence": 1.0,
+    "title": "WeSA X CTM & kkum LIVE",
+    "description": "[Location: Thilla Ground] WeSA X CTM: Thomas Ankersmit (Modular Live), ABOPF (Live Set). // Followed by kkum LIVE at @vurt_seoul from 21:00.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "WeSA X CTM & kkum LIVE",
+      "description": "[Location: Thilla Ground] WeSA X CTM: Thomas Ankersmit (Modular Live), ABOPF (Live Set). // Followed by kkum LIVE at @vurt_seoul from 21:00."
+    },
+    "_search_ko": {
+      "title": "WeSA X CTM & 꿈 kkum LIVE",
+      "description": "[위치: 틸라 그라운드] WeSA X CTM: Thomas Ankersmit (모듈러 라이브), ABOPF (라이브 셋). // 21시부터 @vurt_seoul에서 꿈 kkum LIVE 이어짐."
+    }
+  },
+  {
+    "id": "evt_20251116_196a05e1-3e78-4bee-aad1-e2c18ccc522d",
+    "event_key": "v:ven_606c8414-b7a3-40e5-a22a-dfa6bbf2c86f|t:2025-11-16T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQq57bLD2NI/",
+    "venue_handle": "vurt_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "abirdofparadiseflower",
+      "rashad__becker",
+      "robert_piotrowicz_",
+      "thomasankersmit"
+    ],
+    "venue_id": "ven_606c8414-b7a3-40e5-a22a-dfa6bbf2c86f",
     "venue_location_id": "main",
     "datetime": "2025-11-16T10:00:00+00:00",
     "price": "KRW 44,000 (Combined Ticket)",
@@ -416,6 +803,35 @@
     }
   },
   {
+    "id": "evt_20251116_183b174a-6374-40f8-bec2-deba63d33e53",
+    "event_key": "v:ven_606c8414-b7a3-40e5-a22a-dfa6bbf2c86f|t:2025-11-16T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQq57bLD2NI/",
+    "venue_handle": "vurt_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "rashad__becker",
+      "robert_piotrowicz_"
+    ],
+    "venue_id": "ven_606c8414-b7a3-40e5-a22a-dfa6bbf2c86f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-16T12:00:00+00:00",
+    "price": "KRW 25,000 (Alternative: KRW 44,000 for Combined Ticket)",
+    "llm_confidence": 1.0,
+    "title": "kkum LIVE",
+    "description": "Kkum LIVE featuring Robert Piotrowicz, Rashad Becker, and BBUREKA. Venue: vurt. Ticket price: 25,000 KRW. This event follows the WeSA X CTM show.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "kkum LIVE",
+      "description": "Kkum LIVE featuring Robert Piotrowicz, Rashad Becker, and BBUREKA. Venue: vurt. Ticket price: 25,000 KRW. This event follows the WeSA X CTM show."
+    },
+    "_search_ko": {
+      "title": "꿈 kkum LIVE",
+      "description": "vurt.에서 열리는 꿈 kkum LIVE. 라인업: Live Set — Robert Piotrowicz @robert_piotrowicz_, Live Set — Rashad Becker @rashad__becker, DJ Set — BBUREKA. 25,000원. WeSA X CTM 공연에 이어 진행."
+    }
+  },
+  {
     "id": "evt_20251120_1b72c88f-abc1-4523-905f-fca16b1acb7b",
     "event_key": "v:ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7|t:2025-11-20T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -423,6 +839,32 @@
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T02:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "TTSD",
+    "description": "DJ Set — Sun of June @soj.music, Hagy @seunghagy // DJ Set — Moeuv @moeuv.loves.sunshine, Yoru @yoruyouryoru",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "TTSD",
+      "description": "DJ Set — Sun of June @soj.music, Hagy @seunghagy // DJ Set — Moeuv @moeuv.loves.sunshine, Yoru @yoruyouryoru"
+    },
+    "_search_ko": {
+      "title": "TTSD",
+      "description": "DJ Set — Sun of June @soj.music, Hagy @seunghagy // DJ Set — Moeuv @moeuv.loves.sunshine, Yoru @yoruyouryoru"
+    }
+  },
+  {
+    "id": "evt_20251120_38a1905b-999f-4d7f-872e-45a149b808cb",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-20T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
     "venue_location_id": "main",
     "datetime": "2025-11-20T02:00:00+00:00",
     "price": "None",
@@ -494,6 +936,58 @@
     }
   },
   {
+    "id": "evt_20251120_e9fe9e31-f7a0-4d6b-af08-2d957551b652",
+    "event_key": "v:ven_c331e376-52d7-453e-8c16-c6a5745a1496|t:2025-11-20T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_c331e376-52d7-453e-8c16-c6a5745a1496",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T13:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Thursday Club: Mon Amour",
+    "description": "Thursday Club Mon Amour featuring Dayoung, Maze, Mokhzolla, Dduldan, August, and Koi Koi. DJ Set — Dayoung, Maze, Mokhzolla // DJ Set — Dduldan, August, Koi Koi",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Thursday Club: Mon Amour",
+      "description": "Thursday Club Mon Amour featuring Dayoung, Maze, Mokhzolla, Dduldan, August, and Koi Koi. DJ Set — Dayoung, Maze, Mokhzolla // DJ Set — Dduldan, August, Koi Koi"
+    },
+    "_search_ko": {
+      "title": "THURSDAY CLUB MON AMOUR",
+      "description": "Thursday Club w/ Mon Amour. DJ Set — Dayoung, Maze, Mokhzolla // DJ Set — Dduldan, August, Koi Koi"
+    }
+  },
+  {
+    "id": "evt_20251120_71ed5dfc-5252-4d0f-ae79-f6ebb9f3da76",
+    "event_key": "v:ven_35d92388-127c-4c3a-a341-b1c7e420a1c7|t:2025-11-20T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DPwxdHYkpK7/",
+    "venue_handle": "electrik.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_35d92388-127c-4c3a-a341-b1c7e420a1c7",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "ELECTRIK SEOUL: K-Pop x EDM",
+    "description": "ELECTRIK SEOUL K-POP x EDM night presented by Insomniac at TIME Nightclub, Orange County, CA.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "ELECTRIK SEOUL: K-Pop x EDM",
+      "description": "ELECTRIK SEOUL K-POP x EDM night presented by Insomniac at TIME Nightclub, Orange County, CA."
+    },
+    "_search_ko": {
+      "title": "ELECTRIK SEOUL: K-POP x EDM",
+      "description": "Insomniac 주최 ELECTRIK SEOUL K-POP x EDM 나이트. TIME Nightclub, 오렌지 카운티, CA."
+    }
+  },
+  {
     "id": "evt_20251121_e70d471a-c6a7-4f43-815d-0955d268a4d9",
     "event_key": "v:ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7|t:2025-11-21T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -501,6 +995,32 @@
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T02:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Only House Day: AND1",
+    "description": "Only House Day featuring AND1. DJ Set — AND1, Maro, Cityboy from Seoul // DJ Set — Joshua, Youngisland",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Only House Day: AND1",
+      "description": "Only House Day featuring AND1. DJ Set — AND1, Maro, Cityboy from Seoul // DJ Set — Joshua, Youngisland"
+    },
+    "_search_ko": {
+      "title": "Only House Day: AND1",
+      "description": "Only House Day featuring AND1. DJ Set — AND1, Maro, Cityboy from Seoul // DJ Set — Joshua, Youngisland"
+    }
+  },
+  {
+    "id": "evt_20251121_a3e85317-60d5-47be-87ed-928aceb85709",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-21T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
     "venue_location_id": "main",
     "datetime": "2025-11-21T02:00:00+00:00",
     "price": "None",
@@ -529,6 +1049,34 @@
       "yoyoufree"
     ],
     "venue_id": "ven_17691e49-bce5-4db4-b505-682bb41e1dd3",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T13:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Soar",
+    "description": "Soar night featuring live performances from Yoyou and Sider7, plus Sinn Davin (live). DJs: Avalanche Death, Ddd, Autopilot77_77, Axe, Bonic Soom, Nofear.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Soar",
+      "description": "Soar night featuring live performances from Yoyou and Sider7, plus Sinn Davin (live). DJs: Avalanche Death, Ddd, Autopilot77_77, Axe, Bonic Soom, Nofear."
+    },
+    "_search_ko": {
+      "title": "SOAR",
+      "description": "Soar. Yoyou, Sider7 (Live Set), Sinn Davin (Live Set). DJ: Avalanche Death, Ddd, Autopilot77_77, Axe, Bonic Soom, Nofear."
+    }
+  },
+  {
+    "id": "evt_20251121_dd1196ee-486a-4186-ad8c-4216346bc76d",
+    "event_key": "v:ven_c331e376-52d7-453e-8c16-c6a5745a1496|t:2025-11-21T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "yoyoufree"
+    ],
+    "venue_id": "ven_c331e376-52d7-453e-8c16-c6a5745a1496",
     "venue_location_id": "main",
     "datetime": "2025-11-21T13:00:00+00:00",
     "price": "None",
@@ -600,6 +1148,58 @@
     }
   },
   {
+    "id": "evt_20251121_a93b8dd3-df3b-434d-a4f4-a9ba120c1e49",
+    "event_key": "v:ven_16425c95-17fd-4501-a9b5-f126b087cb85|t:2025-11-21T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
+    "venue_handle": "shelterseoul_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16425c95-17fd-4501-a9b5-f126b087cb85",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "X2C, Wugu, Baskerville, Axiv, Bumv, Honn",
+    "description": "DJ Set — X2C, Wugu, Baskerville // DJ Set — Axiv, Bumv, Honn",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "X2C, Wugu, Baskerville, Axiv, Bumv, Honn",
+      "description": "DJ Set — X2C, Wugu, Baskerville // DJ Set — Axiv, Bumv, Honn"
+    },
+    "_search_ko": {
+      "title": "X2C, Wugu, Baskerville, Axiv, Bumv, Honn",
+      "description": "DJ Set — X2C, Wugu, Baskerville // DJ Set — Axiv, Bumv, Honn"
+    }
+  },
+  {
+    "id": "evt_20251121_32a1f52f-0a8c-4330-8874-9a59f2ce3cff",
+    "event_key": "v:ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6|t:2025-11-21T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQThWD_gZcY/",
+    "venue_handle": "volnostseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Volnost Night",
+    "description": "2F: DJ Set — Odkis, Deekay, Zorba // 1F: DJ Set — Hender x Yokie",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Volnost Night",
+      "description": "2F: DJ Set — Odkis, Deekay, Zorba // 1F: DJ Set — Hender x Yokie"
+    },
+    "_search_ko": {
+      "title": "VOLNOST NIGHT",
+      "description": "2F: DJ Set — OOKIS, DEEKAY, ZØRBA // 1F: DJ Set — HENDER X YOKIE"
+    }
+  },
+  {
     "id": "evt_20251122_e7848b17-c694-4b38-8e30-d8551a6e77d5",
     "event_key": "v:ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7|t:2025-11-22T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -626,6 +1226,32 @@
     }
   },
   {
+    "id": "evt_20251122_b728864d-4360-4746-8ad8-de98619a48a4",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-22T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T02:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Tic Tac Toe",
+    "description": "Tic Tac Toe featuring Gio @jomyty and Moso @mosobabo, and More...",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Tic Tac Toe",
+      "description": "Tic Tac Toe featuring Gio @jomyty and Moso @mosobabo, and More..."
+    },
+    "_search_ko": {
+      "title": "Tic Tac Toe",
+      "description": "Tic Tac Toe featuring Gio @jomyty, Moso @mosobabo, and More..."
+    }
+  },
+  {
     "id": "evt_20251122_5e1020cf-c55c-4da1-a717-a918f128337e",
     "event_key": "v:ven_17691e49-bce5-4db4-b505-682bb41e1dd3|t:2025-11-22T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
@@ -633,6 +1259,32 @@
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_17691e49-bce5-4db4-b505-682bb41e1dd3",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T13:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "1001.GLOBAL x Toha Radio",
+    "description": "1001.Global x Toha Radio. DJ Set — Mongsang, Lun, Jngkn // Live Set — Choi Sung // DJ Set — Kennid, Dj co.kr, 7ip7o3, Loey",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "1001.GLOBAL x Toha Radio",
+      "description": "1001.Global x Toha Radio. DJ Set — Mongsang, Lun, Jngkn // Live Set — Choi Sung // DJ Set — Kennid, Dj co.kr, 7ip7o3, Loey"
+    },
+    "_search_ko": {
+      "title": "1001.GLOBAL X TOHA RADIO",
+      "description": "1001.Global x Toha Radio. DJ Set — Mongsang, Lun, Jngkn // Live Set — Choi Sung // DJ Set — Kennid, Dj co.kr, 7ip7o3, Loey"
+    }
+  },
+  {
+    "id": "evt_20251122_21dbf7db-30b0-40c9-8507-4f7904477d77",
+    "event_key": "v:ven_c331e376-52d7-453e-8c16-c6a5745a1496|t:2025-11-22T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_c331e376-52d7-453e-8c16-c6a5745a1496",
     "venue_location_id": "main",
     "datetime": "2025-11-22T13:00:00+00:00",
     "price": "None",
@@ -704,6 +1356,58 @@
     }
   },
   {
+    "id": "evt_20251122_6a4b6d39-7818-41a9-85bb-b36051322e78",
+    "event_key": "v:ven_16425c95-17fd-4501-a9b5-f126b087cb85|t:2025-11-22T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
+    "venue_handle": "shelterseoul_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16425c95-17fd-4501-a9b5-f126b087cb85",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "X2C, Honn, Jung, Changyunflug, Avalon, Bumv",
+    "description": "DJ Set — X2C, Honn, Jung // DJ Set — Changyunflug, Avalon, Bumv",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "X2C, Honn, Jung, Changyunflug, Avalon, Bumv",
+      "description": "DJ Set — X2C, Honn, Jung // DJ Set — Changyunflug, Avalon, Bumv"
+    },
+    "_search_ko": {
+      "title": "X2C, Honn, Jung, Changyunflug, Avalon, Bumv",
+      "description": "DJ Set — X2C, Honn, Jung // DJ Set — Changyunflug, Avalon, Bumv"
+    }
+  },
+  {
+    "id": "evt_20251122_2157800a-16ec-485a-aba6-6143e31df83f",
+    "event_key": "v:ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6|t:2025-11-22T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQThWD_gZcY/",
+    "venue_handle": "volnostseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Volnost Night",
+    "description": "2F: DJ Set — Xanexx, Comarobot, Siot // 1F: DJ Set — Keembogyeom, Muah",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Volnost Night",
+      "description": "2F: DJ Set — Xanexx, Comarobot, Siot // 1F: DJ Set — Keembogyeom, Muah"
+    },
+    "_search_ko": {
+      "title": "VOLNOST NIGHT",
+      "description": "2F: DJ Set — XANEXX, COMAROBOT, SIOT // 1F: DJ Set — KEEMBOGYEOM, MUAH"
+    }
+  },
+  {
     "id": "evt_20251127_b458e0ce-fc4c-45f1-acd4-7490f9428f2c",
     "event_key": "v:ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7|t:2025-11-27T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -711,6 +1415,32 @@
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T02:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "TTSD (Special)",
+    "description": "Special TTSD. DJ Set — Honey Cho @h.o.n.e.y.c.h.o, Cityboy from Seoul @cityboyfromseoul // DJ Set — PAPAYA (Hender @hender__r & Hogi @__hogi__) // DJ Set — Dguru @dguru. All DJs from 4:00.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "TTSD (Special)",
+      "description": "Special TTSD. DJ Set — Honey Cho @h.o.n.e.y.c.h.o, Cityboy from Seoul @cityboyfromseoul // DJ Set — PAPAYA (Hender @hender__r & Hogi @__hogi__) // DJ Set — Dguru @dguru. All DJs from 4:00."
+    },
+    "_search_ko": {
+      "title": "TTSD (Special)",
+      "description": "Special TTSD. DJ Set — Honey Cho @h.o.n.e.y.c.h.o, Cityboy from Seoul @cityboyfromseoul // DJ Set — PAPAYA (Hender @hender__r & Hogi @__hogi__) // DJ Set — Dguru @dguru. All DJs from 4:00."
+    }
+  },
+  {
+    "id": "evt_20251127_d956b780-db11-4cbf-b6e5-2462c71cd9b8",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-27T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
     "venue_location_id": "main",
     "datetime": "2025-11-27T02:00:00+00:00",
     "price": "None",
@@ -756,6 +1486,32 @@
     }
   },
   {
+    "id": "evt_20251128_09e55f55-02c3-4e78-a199-66708375f31c",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-28T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T02:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "La Mamies (France)",
+    "description": "Featuring La Mamies (France). DJ Set — La Mamies (France), Gio @jomyty, Cityboy from Seoul @cityboyfromseoul // DJ Set — La Mamies @la_mamies // DJ Set — Youngisland @young.island, Joshua @joshuakr__",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "La Mamies (France)",
+      "description": "Featuring La Mamies (France). DJ Set — La Mamies (France), Gio @jomyty, Cityboy from Seoul @cityboyfromseoul // DJ Set — La Mamies @la_mamies // DJ Set — Youngisland @young.island, Joshua @joshuakr__"
+    },
+    "_search_ko": {
+      "title": "La Mamies (France)",
+      "description": "Featuring La Mamies (France). DJ Set — La Mamies (France), Gio @jomyty, Cityboy from Seoul @cityboyfromseoul // DJ Set — La Mamies @la_mamies // DJ Set — Youngisland @young.island, Joshua @joshuakr__"
+    }
+  },
+  {
     "id": "evt_20251128_811e81a6-dce3-4d01-8632-6308606ebdf1",
     "event_key": "v:ven_17691e49-bce5-4db4-b505-682bb41e1dd3|t:2025-11-28T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
@@ -763,6 +1519,32 @@
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_17691e49-bce5-4db4-b505-682bb41e1dd3",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T13:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Hardcorepaw: First Episode",
+    "description": "Hardcorepaw First Episode featuring Junwookeem, Jav2suh, Dongyeop, Kisewa, Autopilot77_77, Kitty, Nimnoi, and Ddd.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hardcorepaw: First Episode",
+      "description": "Hardcorepaw First Episode featuring Junwookeem, Jav2suh, Dongyeop, Kisewa, Autopilot77_77, Kitty, Nimnoi, and Ddd."
+    },
+    "_search_ko": {
+      "title": "HARDCOREPAW: FIRST EPISODE",
+      "description": "Hardcorepaw 첫 번째 에피소드. Junwookeem, Jav2suh, Dongyeop, Kisewa, Autopilot77_77, Kitty, Nimnoi, Ddd."
+    }
+  },
+  {
+    "id": "evt_20251128_92c109a6-b16b-44df-bdc2-c04003060b5f",
+    "event_key": "v:ven_c331e376-52d7-453e-8c16-c6a5745a1496|t:2025-11-28T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_c331e376-52d7-453e-8c16-c6a5745a1496",
     "venue_location_id": "main",
     "datetime": "2025-11-28T13:00:00+00:00",
     "price": "None",
@@ -834,6 +1616,58 @@
     }
   },
   {
+    "id": "evt_20251128_21f901b8-9a15-4669-8e69-0978ebc1bc21",
+    "event_key": "v:ven_16425c95-17fd-4501-a9b5-f126b087cb85|t:2025-11-28T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
+    "venue_handle": "shelterseoul_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16425c95-17fd-4501-a9b5-f126b087cb85",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "X2C, Bumv, No.Link, Artic, Apachi, Honn",
+    "description": "DJ Set — X2C, Bumv, No.Link // DJ Set — Artic, Apachi, Honn",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "X2C, Bumv, No.Link, Artic, Apachi, Honn",
+      "description": "DJ Set — X2C, Bumv, No.Link // DJ Set — Artic, Apachi, Honn"
+    },
+    "_search_ko": {
+      "title": "X2C, Bumv, No.Link, Artic, Apachi, Honn",
+      "description": "DJ Set — X2C, Bumv, No.Link // DJ Set — Artic, Apachi, Honn"
+    }
+  },
+  {
+    "id": "evt_20251128_de67a87d-1c74-43b5-a13a-0b6e08755e54",
+    "event_key": "v:ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6|t:2025-11-28T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQThWD_gZcY/",
+    "venue_handle": "volnostseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_ee73c66e-528d-4a9a-8d20-2da73bac18f6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Volnost Night",
+    "description": "2F: DJ Set — DJ Sin, Koshin, Yeji // 1F: DJ Set — Kyvu, Jama",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Volnost Night",
+      "description": "2F: DJ Set — DJ Sin, Koshin, Yeji // 1F: DJ Set — Kyvu, Jama"
+    },
+    "_search_ko": {
+      "title": "VOLNOST NIGHT",
+      "description": "2F: DJ Set — DJ SIN, KOSHIN, YEJI // 1F: DJ Set — KYVU, JAMA"
+    }
+  },
+  {
     "id": "evt_20251129_6b4c2884-29c4-4efa-8f2f-662a4e234705",
     "event_key": "v:ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7|t:2025-11-29T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -860,6 +1694,32 @@
     }
   },
   {
+    "id": "evt_20251129_8fcb07c0-c4a9-4e69-bc10-780f33f61fc6",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-29T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T02:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "RTRP All Night Long",
+    "description": "DJ Set — RTRP (All Night Long)",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "RTRP All Night Long",
+      "description": "DJ Set — RTRP (All Night Long)"
+    },
+    "_search_ko": {
+      "title": "RTRP All Night Long",
+      "description": "DJ Set — RTRP (All Night Long)"
+    }
+  },
+  {
     "id": "evt_20251129_2f294764-e1d8-4af1-91c5-4395b948cbce",
     "event_key": "v:ven_17691e49-bce5-4db4-b505-682bb41e1dd3|t:2025-11-29T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
@@ -867,6 +1727,32 @@
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_17691e49-bce5-4db4-b505-682bb41e1dd3",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T13:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Shout Out Music Korea",
+    "description": "Shout Out Music Korea showcase: Autopilot77_77, Kcd (JP), Nana.kr X Vizita Q, Noi X Ddd, Rezniko (CN), Guinneissik (live) + Special Guest.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Shout Out Music Korea",
+      "description": "Shout Out Music Korea showcase: Autopilot77_77, Kcd (JP), Nana.kr X Vizita Q, Noi X Ddd, Rezniko (CN), Guinneissik (live) + Special Guest."
+    },
+    "_search_ko": {
+      "title": "SHOUT OUT MUSIC KOREA",
+      "description": "DJ Set — Autopilot77_77, Kcd (JP) // DJ Set — Nana.kr X Vizita Q, Noi X Ddd // DJ Set — Reznico (CN) // Live Set — Guinneissik + Special Guest"
+    }
+  },
+  {
+    "id": "evt_20251129_b5cefa49-5b50-49ad-b74c-2b8634826580",
+    "event_key": "v:ven_c331e376-52d7-453e-8c16-c6a5745a1496|t:2025-11-29T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_c331e376-52d7-453e-8c16-c6a5745a1496",
     "venue_location_id": "main",
     "datetime": "2025-11-29T13:00:00+00:00",
     "price": "None",
@@ -938,6 +1824,58 @@
     }
   },
   {
+    "id": "evt_20251129_dcde84f0-35c4-41e7-872e-28e85027b0ed",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-11-29T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T14:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "RTRP All Night Long",
+    "description": "RTRP All Night Long session.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "RTRP All Night Long",
+      "description": "RTRP All Night Long session."
+    },
+    "_search_ko": {
+      "title": "RTRP All Night Long",
+      "description": "RTRP All Night Long session."
+    }
+  },
+  {
+    "id": "evt_20251129_fd2e185e-0978-4504-aa7e-9e5cc80f3ffc",
+    "event_key": "v:ven_16425c95-17fd-4501-a9b5-f126b087cb85|t:2025-11-29T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
+    "venue_handle": "shelterseoul_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_16425c95-17fd-4501-a9b5-f126b087cb85",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T14:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "X2C, Movin.kr, Honn, Avalon, Alive999, Bumv",
+    "description": "DJ Set — X2C, Movin.kr, Honn // DJ Set — Avalon, Alive999, Bumv",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "X2C, Movin.kr, Honn, Avalon, Alive999, Bumv",
+      "description": "DJ Set — X2C, Movin.kr, Honn // DJ Set — Avalon, Alive999, Bumv"
+    },
+    "_search_ko": {
+      "title": "X2C, Movin.kr, Honn, Avalon, Alive999, Bumv",
+      "description": "DJ Set — X2C, Movin.kr, Honn // DJ Set — Avalon, Alive999, Bumv"
+    }
+  },
+  {
     "id": "evt_20251204_1be179f6-1a2d-4cf6-a53b-2518ee8189f0",
     "event_key": "v:ven_17691e49-bce5-4db4-b505-682bb41e1dd3|t:2025-12-04T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
@@ -967,6 +1905,35 @@
     }
   },
   {
+    "id": "evt_20251204_6c1918a5-79ea-4c01-8e3f-e446ce643edb",
+    "event_key": "v:ven_c331e376-52d7-453e-8c16-c6a5745a1496|t:2025-12-04T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "djchaoticugly",
+      "hosoterratoma"
+    ],
+    "venue_id": "ven_c331e376-52d7-453e-8c16-c6a5745a1496",
+    "venue_location_id": "main",
+    "datetime": "2025-12-04T13:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Cakeshop Presents: DJ Chaotic Ugly (MACHINE GIRL)",
+    "description": "Cakeshop Presents: DJ Chaotic Ugly (@djchaoticugly) from Machine Girl (@machin3gir1). DJ Set — Net Gala, Ddd, Autopilot77_77, Dduldan, Vizita Q // Live Set — Hosoterratoma (@hosoterratoma)",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Cakeshop Presents: DJ Chaotic Ugly (MACHINE GIRL)",
+      "description": "Cakeshop Presents: DJ Chaotic Ugly (@djchaoticugly) from Machine Girl (@machin3gir1). DJ Set — Net Gala, Ddd, Autopilot77_77, Dduldan, Vizita Q // Live Set — Hosoterratoma (@hosoterratoma)"
+    },
+    "_search_ko": {
+      "title": "CAKESHOP PRESENTS DJ CHAOTIC UGLY (MACHINE GIRL)",
+      "description": "Cakeshop Presents: DJ Chaotic Ugly (@djchaoticugly) from Machine Girl (@machin3gir1). DJ Set — Net Gala, Ddd, Autopilot77_77, Dduldan, Vizita Q // Live Set — Hosoterratoma (@hosoterratoma)"
+    }
+  },
+  {
     "id": "evt_20251205_165bf943-33f3-47d1-9ac3-eef7440cb834",
     "event_key": "v:ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7|t:2025-12-05T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -974,6 +1941,32 @@
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_b32e79e8-7fed-4f15-8915-f4ed0be1d6a7",
+    "venue_location_id": "main",
+    "datetime": "2025-12-05T02:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Nice Town",
+    "description": "Nice Town with Hugo LX (France). DJ Set — Hagy @seunghagy, Youngisland @young.island // Live Set — Cityboy from Seoul. B2B — Gio & Joshua. All DJs from 5:00.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nice Town",
+      "description": "Nice Town with Hugo LX (France). DJ Set — Hagy @seunghagy, Youngisland @young.island // Live Set — Cityboy from Seoul. B2B — Gio & Joshua. All DJs from 5:00."
+    },
+    "_search_ko": {
+      "title": "Nice Town",
+      "description": "Nice Town with Hugo LX (France). DJ Set — Hagy @seunghagy, Youngisland @young.island // Live Set — Cityboy from Seoul. B2B — Gio & Joshua. All DJs from 5:00."
+    }
+  },
+  {
+    "id": "evt_20251205_27d9b744-2be6-4151-9833-bb43f9be1c35",
+    "event_key": "v:ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751|t:2025-12-05T02:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "venue_handle": "argaseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_abda2fc4-01b5-4e9b-bb3b-23c7953ba751",
     "venue_location_id": "main",
     "datetime": "2025-12-05T02:00:00+00:00",
     "price": "None",
@@ -1027,6 +2020,59 @@
       "young_on_wax"
     ],
     "venue_id": "ven_e1a828f2-5049-4e8c-af24-50a837ef9820",
+    "venue_location_id": "main",
+    "datetime": "2025-12-10T05:00:00+00:00",
+    "price": "KRW 35,000 (1 Free Drink)",
+    "llm_confidence": 1.0,
+    "title": "SOAP BALL ft. Full Lineup",
+    "description": "Final SOAP BALL edition of the year, powered by Adidas, featuring food from @masa.tacos and @wiir.philadelphia. Lineup: 2NDFLOOR, ACIDWORK, AND 1, AUSTEN, BLANCHE, CHAE, DJ POOL, FALLENS, HAKIM, ILU, JADA, KINGMCK, MINKYU, MOGWAA, NOLOVE, SINA HILL, SEIN, SEOD, SIN DOGG, YANN, YOUNG SUN // GHETTO-RAY, ANDOW, MC KIMHAN @kimhan95.1, DJ CO.KR @co_kr, RAPERCUSSION @rapercussion. Video: @yanncavaille. Tickets only at door.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "SOAP BALL ft. Full Lineup",
+      "description": "Final SOAP BALL edition of the year, powered by Adidas, featuring food from @masa.tacos and @wiir.philadelphia. Lineup: 2NDFLOOR, ACIDWORK, AND 1, AUSTEN, BLANCHE, CHAE, DJ POOL, FALLENS, HAKIM, ILU, JADA, KINGMCK, MINKYU, MOGWAA, NOLOVE, SINA HILL, SEIN, SEOD, SIN DOGG, YANN, YOUNG SUN // GHETTO-RAY, ANDOW, MC KIMHAN @kimhan95.1, DJ CO.KR @co_kr, RAPERCUSSION @rapercussion. Video: @yanncavaille. Tickets only at door."
+    },
+    "_search_ko": {
+      "title": "SOAP BALL 전 라인업",
+      "description": "올해 마지막 SOAP BALL 에디션. 음식: @masa.tacos @wiir.philadelphia. 라인업: 2NDFLOOR, ACIDWORK, AND 1, AUSTEN, BLANCHE, CHAE, DJ POOL, FALLENS, HAKIM, ILU, JADA, KINGMCK, MINKYU, MOGWAA, NOLOVE, SINA HILL, SEIN, SEOD, SIN DOGG, YANN, YOUNG SUN // GHETTO-RAY, ANDOW, MC KIMHAN @kimhan95.1, DJ CO.KR @co_kr, RAPERCUSSION @rapercussion. 영상: @yanncavaille. 현장 구매만 가능."
+    }
+  },
+  {
+    "id": "evt_20251210_d3a2405d-4b95-4f22-b528-056eb2622d0b",
+    "event_key": "v:ven_ed4016b8-3a78-458b-a9da-d991fdcdde99|t:2025-12-10T05:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DPnOS7WAZyH/",
+    "venue_handle": "soapseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "__2ndfloor",
+      "acidwork",
+      "and111111111111111111",
+      "andow",
+      "austener",
+      "blanchejeeny",
+      "chae.25",
+      "co_kr",
+      "djminkyu",
+      "fallens",
+      "ghetto_ray",
+      "hakiimr",
+      "jada23",
+      "kimhan95.1",
+      "kingmck",
+      "mogwaa",
+      "nolavuuu",
+      "pool_up__",
+      "rapercussion",
+      "s.eod",
+      "seinjh",
+      "sin.dogg",
+      "sinahill",
+      "toglanzen",
+      "yanncavaille",
+      "young_on_wax"
+    ],
+    "venue_id": "ven_ed4016b8-3a78-458b-a9da-d991fdcdde99",
     "venue_location_id": "main",
     "datetime": "2025-12-10T05:00:00+00:00",
     "price": "KRW 35,000 (1 Free Drink)",

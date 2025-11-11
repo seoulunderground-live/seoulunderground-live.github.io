@@ -996,7 +996,7 @@
   {
     "id": "evt_20251114_b45edc57-28d6-427f-b96c-be1dbfde71b9",
     "event_key": "v:ven_84da9488-d01c-4815-8912-7e82c73dca8c|t:2025-11-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQwPktrjz9I/",
+    "source_url": "https://www.instagram.com/p/DQ0_YAGEmaN/",
     "venue_handle": "cafe_minor_swing",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1005,18 +1005,18 @@
     "datetime": "2025-11-14T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "찰리정 스페셜 콘서트",
-    "description": "기타 찰리정 스페셜 콘서트.",
+    "title": "찰리정",
+    "description": "자기만의 길을 걸어가는 한국의 독보적 기타리스트 찰리정. 그의 다채로운 음악세계를 엿볼 수 있는 스페셜 콘서트.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Charlie Jung Special",
-      "description": "Guitar Charlie Jung special concert."
+      "title": "Charlie Jung",
+      "description": "A special concert featuring Charlie Jung, a unique Korean guitarist walking his own path, inviting you to explore his diverse musical world."
     },
     "_search_ko": {
-      "title": "찰리정 스페셜 콘서트",
-      "description": "기타 찰리정 스페셜 콘서트."
+      "title": "찰리정",
+      "description": "자기만의 길을 걸어가는 한국의 독보적 기타리스트 찰리정. 그의 다채로운 음악세계를 엿볼 수 있는 스페셜 콘서트."
     }
   },
   {
@@ -1678,7 +1678,7 @@
   {
     "id": "evt_20251115_e918b49b-8a30-4a88-829c-63b809f46718",
     "event_key": "v:ven_84da9488-d01c-4815-8912-7e82c73dca8c|t:2025-11-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQwPktrjz9I/",
+    "source_url": "https://www.instagram.com/p/DQ0_aNkEgA0/",
     "venue_handle": "cafe_minor_swing",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1687,18 +1687,18 @@
     "datetime": "2025-11-15T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "내한 콘서트 Bjørn Solli Quartet",
-    "description": "Bjørn Solli Quartet: 기타 Bjørn Solli, 피아노 Paul Kirby, 베이스 Sean Pentland, 드럼 Manuel Weyand.",
+    "title": "비요른 솔리 퀄텟",
+    "description": "세계가 인정한 재즈 기타/보컬 마스터 비요른 솔리 퀄텟. 11세 데뷔, 트론헤임 음악원 출신, 국제 콩쿠르 우승 경력의 월드 클래스 뮤지션. 라인업: 비요른 솔리 (기타), 폴 커비 (피아노), 션 펜틀랜드 (베이스), 마누엘 웨이앤드 (드럼).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Bjørn Solli Quartet",
-      "description": "Bjørn Solli Quartet featuring Guitar Bjørn Solli, Piano Paul Kirby, Bass Sean Pentland, Drums Manuel Weyand."
+      "description": "World-renowned jazz guitar/vocal master Bjørn Solli Quartet. Debuted at 11, alumnus of Trondheim Conservatory, and winner of international competitions. A world-class musician active in New York and Europe. Lineup: Bjørn Solli (guitar), Paul Kirby (piano), Sean Pentland (bass), Manuel Weyand (drums)."
     },
     "_search_ko": {
-      "title": "내한 콘서트 Bjørn Solli Quartet",
-      "description": "Bjørn Solli Quartet: 기타 Bjørn Solli, 피아노 Paul Kirby, 베이스 Sean Pentland, 드럼 Manuel Weyand."
+      "title": "비요른 솔리 퀄텟",
+      "description": "세계가 인정한 재즈 기타/보컬 마스터 비요른 솔리 퀄텟. 11세 데뷔, 트론헤임 음악원 출신, 국제 콩쿠르 우승 경력의 월드 클래스 뮤지션. 라인업: 비요른 솔리 (기타), 폴 커비 (피아노), 션 펜틀랜드 (베이스), 마누엘 웨이앤드 (드럼)."
     }
   },
   {
@@ -3445,18 +3445,18 @@
     "datetime": "2025-11-21T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "김태극 퀸텟",
-    "description": "김태극 (알토 색소폰), 박준서 (테너 색소폰), 김민준 (피아노), Satsuki Kusui (베이스), 송하연 (드럼).",
+    "title": "김태국 퀸텟",
+    "description": "김태국 (알토 색소폰), 박준서 (테너 색소폰), 김민준 (피아노), 쿠스이 사츠키 (베이스), 송하연 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Tae-geuk Quintet",
-      "description": "Kim Tae-geuk (alto saxophone), Park Jun-seo (tenor saxophone), Kim Min-jun (piano), Satsuki Kusui (bass), Song Ha-yeon (drums)."
+      "title": "Kim Tae-guk Quintet",
+      "description": "Kim Tae-guk (alto saxophone), Park Jun-seo (tenor saxophone), Kim Min-jun (piano), Satsuki Kusui (bass), Song Ha-yeon (drums)"
     },
     "_search_ko": {
-      "title": "김태극 퀸텟",
-      "description": "김태극 (알토 색소폰), 박준서 (테너 색소폰), 김민준 (피아노), Satsuki Kusui (베이스), 송하연 (드럼)."
+      "title": "김태국 퀸텟",
+      "description": "김태국 (알토 색소폰), 박준서 (테너 색소폰), 김민준 (피아노), 쿠스이 사츠키 (베이스), 송하연 (드럼)"
     }
   },
   {
@@ -4080,17 +4080,17 @@
     "price": "None",
     "llm_confidence": 1.0,
     "title": "베티 퀄텟",
-    "description": "베티 (보컬), 임채선 (피아노), 류형곤 (베이스), 김태현 (드럼).",
+    "description": "베티 (보컬), 임채선 (피아노), 류형곤 (베이스), 김태현 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Betty Quartet",
-      "description": "Betty (vocal), Im Chae-sun (piano), Ryu Hyeong-gon (bass), Kim Tae-hyun (drums)."
+      "description": "Betty (vocal), Im Chae-sun (piano), Ryu Hyeong-gon (bass), Kim Tae-hyun (drums)"
     },
     "_search_ko": {
       "title": "베티 퀄텟",
-      "description": "베티 (보컬), 임채선 (피아노), 류형곤 (베이스), 김태현 (드럼)."
+      "description": "베티 (보컬), 임채선 (피아노), 류형곤 (베이스), 김태현 (드럼)"
     }
   },
   {
@@ -5830,17 +5830,17 @@
     "price": "None",
     "llm_confidence": 1.0,
     "title": "뉴 재즈 메신저스",
-    "description": "송하철 (색소폰), 박종상 (트럼펫), 강재훈 (피아노), 박진교 (베이스), 이성구 (드럼).",
+    "description": "송하철 (색소폰), 박종상 (트럼펫), 강재훈 (피아노), 박진교 (베이스), 이성구 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "New Jazz Messengers",
-      "description": "Song Ha-cheol (saxophone), Park Jong-sang (trumpet), Kang Jae-hoon (piano), Park Jin-gyo (bass), Lee Seong-gu (drums)."
+      "description": "Song Ha-cheol (saxophone), Park Jong-sang (trumpet), Kang Jae-hoon (piano), Park Jin-gyo (bass), Lee Seong-gu (drums)"
     },
     "_search_ko": {
       "title": "뉴 재즈 메신저스",
-      "description": "송하철 (색소폰), 박종상 (트럼펫), 강재훈 (피아노), 박진교 (베이스), 이성구 (드럼)."
+      "description": "송하철 (색소폰), 박종상 (트럼펫), 강재훈 (피아노), 박진교 (베이스), 이성구 (드럼)"
     }
   },
   {
@@ -6491,17 +6491,17 @@
     "price": "None",
     "llm_confidence": 1.0,
     "title": "트리오 클로저",
-    "description": "비안 (피아노), 이원술 (베이스), 한웅원 (드럼).",
+    "description": "비안 (피아노), 이원술 (베이스), 한웅원 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Trio Closer",
-      "description": "Bian (piano), Lee Won-sul (bass), Han Woong-won (drums)."
+      "description": "Bian (piano), Lee Won-sul (bass), Han Ung-won (drums)"
     },
     "_search_ko": {
       "title": "트리오 클로저",
-      "description": "비안 (피아노), 이원술 (베이스), 한웅원 (드럼)."
+      "description": "비안 (피아노), 이원술 (베이스), 한웅원 (드럼)"
     }
   },
   {
@@ -7351,17 +7351,17 @@
     "price": "None",
     "llm_confidence": 1.0,
     "title": "이부영 듀오 with 곽정민",
-    "description": "이부영 듀오: 보컬 이부영, 피아노 곽정민.",
+    "description": "이부영 (보컬), 곽정민 (피아노)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lee Bu Young Duo with Park Jung Min",
-      "description": "Lee Bu Young Duo featuring Vocal Lee Bu Young and Piano Park Jung Min."
+      "title": "Lee Bu-young Duo with Kwak Jung-min",
+      "description": "Lee Bu-young (vocal), Kwak Jung-min (piano)"
     },
     "_search_ko": {
       "title": "이부영 듀오 with 곽정민",
-      "description": "이부영 듀오: 보컬 이부영, 피아노 곽정민."
+      "description": "이부영 (보컬), 곽정민 (피아노)"
     }
   },
   {
@@ -7455,17 +7455,17 @@
     "price": "None",
     "llm_confidence": 1.0,
     "title": "류복성 재즈 올스타즈",
-    "description": "류복성 (퍼커션, 드럼), 이정운 (드럼), 정영준 (베이스), 임보라 (피아노), 김도형 (색소폰), 김예중 (트럼펫).",
+    "description": "류복성 (퍼커션, 드럼), 이정윤 (드럼), 정영준 (베이스), 임보라 (피아노), 김도형 (색소폰), 김예중 (트럼펫)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Ryu Bok-seong Jazz All-Stars",
-      "description": "Ryu Bok-seong (percussion, drums), Lee Jeong-woon (drums), Jeong Yeong-jun (bass), Im Bo-ra (piano), Kim Do-hyeong (saxophone), Kim Ye-jung (trumpet)."
+      "description": "Ryu Bok-seong (percussion, drums), Lee Jeong-yoon (drums), Jung Young-jun (bass), Im Bo-ra (piano), Kim Do-hyeong (saxophone), Kim Ye-jung (trumpet)"
     },
     "_search_ko": {
       "title": "류복성 재즈 올스타즈",
-      "description": "류복성 (퍼커션, 드럼), 이정운 (드럼), 정영준 (베이스), 임보라 (피아노), 김도형 (색소폰), 김예중 (트럼펫)."
+      "description": "류복성 (퍼커션, 드럼), 이정윤 (드럼), 정영준 (베이스), 임보라 (피아노), 김도형 (색소폰), 김예중 (트럼펫)"
     }
   },
   {
@@ -7689,17 +7689,17 @@
     "price": "None",
     "llm_confidence": 1.0,
     "title": "노바샘 트리오",
-    "description": "노바샘 트리오: 피아노 노바샘, 베이스 박진교, 드럼 김상수.",
+    "description": "노바샘 (피아노), 박진교 (베이스), 김상수 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Novasam Trio",
-      "description": "Novasam (piano), Park Jin-gyo (bass), Kim Sang-su (drums)."
+      "description": "Novasam (piano), Park Jin-gyo (bass), Kim Sang-su (drums)"
     },
     "_search_ko": {
       "title": "노바샘 트리오",
-      "description": "노바샘 트리오: 피아노 노바샘, 베이스 박진교, 드럼 김상수."
+      "description": "노바샘 (피아노), 박진교 (베이스), 김상수 (드럼)"
     }
   },
   {
@@ -7741,17 +7741,17 @@
     "price": "None",
     "llm_confidence": 1.0,
     "title": "유명한 트리오",
-    "description": "유명한 (색소폰), 강재훈 (피아노), 전창민 (베이스), 이상민 (드럼).",
+    "description": "유명한 (색소폰), 강재훈 (피아노), 전창민 (베이스), 이상민 (드럼)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Yoo Myeong-han Trio",
-      "description": "Yoo Myeong-han (saxophone), Kang Jae-hoon (piano), Jeon Chang-min (bass), Lee Sang-min (drums)."
+      "title": "Yumyeonghan Trio",
+      "description": "Yumyeonghan (saxophone), Kang Jae-hoon (piano), Jeon Chang-min (bass), Lee Sang-min (drums)"
     },
     "_search_ko": {
       "title": "유명한 트리오",
-      "description": "유명한 (색소폰), 강재훈 (피아노), 전창민 (베이스), 이상민 (드럼)."
+      "description": "유명한 (색소폰), 강재훈 (피아노), 전창민 (베이스), 이상민 (드럼)"
     }
   },
   {

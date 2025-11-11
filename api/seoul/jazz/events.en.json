@@ -272,29 +272,29 @@
   {
     "id": "evt_20251112_91e79777-b77d-4786-a9f7-ae38e55eaf99",
     "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-12T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3heBWk9kj/",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
     "venue_handle": "houseofbrown.seoul",
     "musician_ids": [],
     "musician_ig_handles": [
-      "basaemroh"
+      "d.a___zz"
     ],
     "venue_id": "ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb",
     "venue_location_id": "main",
     "datetime": "2025-11-12T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "Roh Basaem Solo",
-    "description": "Roh Basaem's vocal and piano solo performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM.",
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Roh Basaem Solo",
-      "description": "Roh Basaem's vocal and piano solo performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM."
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 1."
     },
     "_search_ko": {
-      "title": "로바샘 솔로",
-      "description": "로바샘 솔로의 보컬, 피아노 공연. 1부 8:00-8:45PM, 2부 9:30-10:15PM."
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 1부."
     }
   },
   {
@@ -698,6 +698,34 @@
     "_search_ko": {
       "title": "YOON",
       "description": "YOON (보컬) 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251112_e4fce18e-dbd1-47a0-afb7-573d2bf00dca",
+    "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-12T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "d.a___zz"
+    ],
+    "venue_id": "ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T12:30:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 2."
+    },
+    "_search_ko": {
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 2부."
     }
   },
   {
@@ -1133,7 +1161,7 @@
   {
     "id": "evt_20251113_88a44f2f-69c9-4104-9be5-0bfb3706e4af",
     "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3heBWk9kj/",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
     "venue_handle": "houseofbrown.seoul",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -1144,18 +1172,18 @@
     "datetime": "2025-11-13T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "Da Eun Duo",
-    "description": "Da Eun Duo's vocal and piano performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM.",
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Da Eun Duo",
-      "description": "Da Eun Duo's vocal and piano performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM."
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 1."
     },
     "_search_ko": {
-      "title": "다은 듀오",
-      "description": "다은 듀오의 보컬, 피아노 공연. 1부 8:00-8:45PM, 2부 9:30-10:15PM."
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 1부."
     }
   },
   {
@@ -1558,6 +1586,34 @@
     "_search_ko": {
       "title": "EUN VIN",
       "description": "EUN VIN (보컬) 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251113_522cc14d-0324-4662-ab06-8653ed9a0ad3",
+    "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-13T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "d.a___zz"
+    ],
+    "venue_id": "ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T12:30:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 2."
+    },
+    "_search_ko": {
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 2부."
     }
   },
   {
@@ -2150,29 +2206,29 @@
   {
     "id": "evt_20251114_6b100696-e739-4ed4-9f5e-90301c07dad2",
     "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3heBWk9kj/",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
     "venue_handle": "houseofbrown.seoul",
     "musician_ids": [],
     "musician_ig_handles": [
-      "myungjin_drums"
+      "d.a___zz"
     ],
     "venue_id": "ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb",
     "venue_location_id": "main",
     "datetime": "2025-11-14T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "Chu Myung Jin Quartet",
-    "description": "Chu Myung Jin Quartet's vocal, piano, bass, and drums performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM.",
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Chu Myung Jin Quartet",
-      "description": "Chu Myung Jin Quartet's vocal, piano, bass, and drums performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM."
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 1."
     },
     "_search_ko": {
-      "title": "추명진 퀄텟",
-      "description": "추명진 퀄텟의 보컬, 피아노, 베이스, 드럼 공연. 1부 8:00-8:45PM, 2부 9:30-10:15PM."
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 1부."
     }
   },
   {
@@ -2782,6 +2838,34 @@
     "_search_ko": {
       "title": "이미영 슈퍼 트리오 with 양지",
       "description": "한국 재즈씬에서 활발히 활동 중인 재즈 트리오와 독보적인 재즈 보컬 양지의 무대."
+    }
+  },
+  {
+    "id": "evt_20251114_e79347e0-6586-4e6a-8ae3-6c02d512dc1d",
+    "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-14T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "d.a___zz"
+    ],
+    "venue_id": "ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T12:30:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 2."
+    },
+    "_search_ko": {
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 2부."
     }
   },
   {
@@ -3590,29 +3674,29 @@
   {
     "id": "evt_20251115_6058d81d-d6e4-4327-a25e-897edc9be9f9",
     "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3heBWk9kj/",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
     "venue_handle": "houseofbrown.seoul",
     "musician_ids": [],
     "musician_ig_handles": [
-      "hyon_park"
+      "d.a___zz"
     ],
     "venue_id": "ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb",
     "venue_location_id": "main",
     "datetime": "2025-11-15T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "Park Hyun Kyu Quartet",
-    "description": "Park Hyun Kyu Quartet's trumpet, piano, bass, and drums performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM.",
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Park Hyun Kyu Quartet",
-      "description": "Park Hyun Kyu Quartet's trumpet, piano, bass, and drums performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM."
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 1."
     },
     "_search_ko": {
-      "title": "박현규 퀄텟",
-      "description": "박현규 퀄텟의 트럼펫, 피아노, 베이스, 드럼 공연. 1부 8:00-8:45PM, 2부 9:30-10:15PM."
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 1부."
     }
   },
   {
@@ -4328,6 +4412,34 @@
     }
   },
   {
+    "id": "evt_20251115_dc07a43a-2386-46ac-b32a-fab292c9da3c",
+    "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-15T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "d.a___zz"
+    ],
+    "venue_id": "ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T12:30:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 2."
+    },
+    "_search_ko": {
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 2부."
+    }
+  },
+  {
     "id": "evt_20251115_7249d2af-33e0-4222-8b91-fe950de6b205",
     "event_key": "v:ven_28c66fe9-a9a6-4d76-ab7b-a07e19e656d3|t:2025-11-15T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ4FP1Iky67/",
@@ -4999,29 +5111,29 @@
   {
     "id": "evt_20251116_f6918499-3377-4376-92b2-8887d4053f7c",
     "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-16T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3heBWk9kj/",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
     "venue_handle": "houseofbrown.seoul",
     "musician_ids": [],
     "musician_ig_handles": [
-      "hey.hailluv"
+      "d.a___zz"
     ],
     "venue_id": "ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb",
     "venue_location_id": "main",
     "datetime": "2025-11-16T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "Hailluv Trio",
-    "description": "Hailluv Trio's vocal, piano, and bass performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM.",
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 1.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Hailluv Trio",
-      "description": "Hailluv Trio's vocal, piano, and bass performance. Part 1 8:00-8:45PM, Part 2 9:30-10:15PM."
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 1."
     },
     "_search_ko": {
-      "title": "하이럽 트리오",
-      "description": "하이럽 트리오의 보컬, 피아노, 베이스 공연. 1부 8:00-8:45PM, 2부 9:30-10:15PM."
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 1부."
     }
   },
   {
@@ -5213,6 +5325,34 @@
     "_search_ko": {
       "title": "리마 듀오",
       "description": "리마 듀오 (@vocal_lima_). 보컬, 피아노 구성."
+    }
+  },
+  {
+    "id": "evt_20251116_e9322a86-82e1-418b-95a9-751067c2b44f",
+    "event_key": "v:ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb|t:2025-11-16T12:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQyfUwQkzeY/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "d.a___zz"
+    ],
+    "venue_id": "ven_8e88db96-208b-41cd-bd4c-7deab5b3cecb",
+    "venue_location_id": "main",
+    "datetime": "2025-11-16T12:30:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "D.A. Trio",
+    "description": "Jazz trio @d.a___zz performance Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "D.A. Trio",
+      "description": "Jazz trio @d.a___zz performance Part 2."
+    },
+    "_search_ko": {
+      "title": "디에이 트리오",
+      "description": "재즈 트리오 @d.a___zz 공연 2부."
     }
   },
   {

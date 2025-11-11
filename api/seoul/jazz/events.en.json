@@ -104,6 +104,32 @@
     }
   },
   {
+    "id": "evt_20251111_1f9ecb2c-a9d1-425d-92d8-563ecb1dd1d9",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-11T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-11T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Yong-min Duo",
+    "description": "Performance by Choi Yong-min Duo.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Choi Yong-min Duo",
+      "description": "Performance by Choi Yong-min Duo."
+    },
+    "_search_ko": {
+      "title": "최용민 듀오",
+      "description": "최용민 듀오 공연."
+    }
+  },
+  {
     "id": "evt_20251111_a81f6818-cf58-4925-9956-69ed0b3befaf",
     "event_key": "v:ven_8ff9c5ab-67ee-499f-85ea-543d42e681f0|t:2025-11-11T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -153,6 +179,32 @@
     "_search_ko": {
       "title": "EUN VIN",
       "description": "EUN VIN (보컬) 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251111_2e39d3e3-d5a7-4c46-9f93-a4966712b9bb",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-11T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-11T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Bae Ga-young Mangorita",
+    "description": "Performance by Bae Ga-young Mangorita.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Bae Ga-young Mangorita",
+      "description": "Performance by Bae Ga-young Mangorita."
+    },
+    "_search_ko": {
+      "title": "배가영 망고리타",
+      "description": "배가영 망고리타 공연."
     }
   },
   {
@@ -416,6 +468,32 @@
     }
   },
   {
+    "id": "evt_20251112_6de74428-1d62-4521-bd35-731e8f185c71",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Park Ji-hye Duo",
+    "description": "Performance by Park Ji-hye Duo.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Ji-hye Duo",
+      "description": "Performance by Park Ji-hye Duo."
+    },
+    "_search_ko": {
+      "title": "박지혜 듀오",
+      "description": "박지혜 듀오 공연."
+    }
+  },
+  {
     "id": "evt_20251112_e1bbc5c8-d59a-4285-8383-751cb470ff2d",
     "event_key": "v:ven_8ff9c5ab-67ee-499f-85ea-543d42e681f0|t:2025-11-12T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -517,6 +595,32 @@
     "_search_ko": {
       "title": "헤이피 HEYP 듀오",
       "description": "헤이피 HEYP 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251112_aaf4e1f5-5255-4950-b556-31b2d43b03e3",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-12T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Han Sun-wook Quintet",
+    "description": "Performance by Han Sun-wook Quintet.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Han Sun-wook Quintet",
+      "description": "Performance by Han Sun-wook Quintet."
+    },
+    "_search_ko": {
+      "title": "한순욱 퀸텟",
+      "description": "한순욱 퀸텟 공연."
     }
   },
   {
@@ -676,6 +780,32 @@
     }
   },
   {
+    "id": "evt_20251113_4fe82b26-6a9b-43c8-852c-3a2d8485f715",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Nina Park",
+    "description": "Performance by Nina Park.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nina Park",
+      "description": "Performance by Nina Park."
+    },
+    "_search_ko": {
+      "title": "니나 박",
+      "description": "니나 박 공연."
+    }
+  },
+  {
     "id": "evt_20251113_522f00fb-02f8-4861-9876-5155f89a4ce1",
     "event_key": "v:ven_84425276-6ec2-4592-8bec-c37d875afecf|t:2025-11-13T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQhES8lD488/",
@@ -803,6 +933,32 @@
     "_search_ko": {
       "title": "임보영 듀오",
       "description": "임보영 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251113_ae7aed38-f7ae-4cad-a657-ddd5a67ea6be",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-13T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Mi-young Band",
+    "description": "Performance by Lee Mi-young Band.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Mi-young Band",
+      "description": "Performance by Lee Mi-young Band."
+    },
+    "_search_ko": {
+      "title": "이미영 밴드",
+      "description": "이미영 밴드 공연."
     }
   },
   {
@@ -1228,6 +1384,32 @@
     }
   },
   {
+    "id": "evt_20251114_cf8ce04b-aab7-415a-896e-29406554218c",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Richman and Groovenice",
+    "description": "Performance by Richman and Groovenice.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Richman and Groovenice",
+      "description": "Performance by Richman and Groovenice."
+    },
+    "_search_ko": {
+      "title": "리치맨과 그루브나이스",
+      "description": "리치맨과 그루브나이스 공연."
+    }
+  },
+  {
     "id": "evt_20251114_687701d4-6b03-4488-9bdd-1d9682520e09",
     "event_key": "v:ven_cfb873c9-6345-4bcd-8c1f-dac00bc66268|t:2025-11-14T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
@@ -1381,6 +1563,32 @@
     "_search_ko": {
       "title": "DODOMCHIT",
       "description": "DODOMCHIT (ALAN (색소폰), YOON (보컬)) 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251114_c9a85ec2-6c3a-4fb6-b5e2-5d452124e8d4",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-14T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "The Jeremy Park Show",
+    "description": "Performance by The Jeremy Park Show.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The Jeremy Park Show",
+      "description": "Performance by The Jeremy Park Show."
+    },
+    "_search_ko": {
+      "title": "더 제레미 박 쇼",
+      "description": "더 제레미 박 쇼 공연."
     }
   },
   {
@@ -1944,6 +2152,32 @@
     }
   },
   {
+    "id": "evt_20251115_07694086-adbd-4689-bcf3-15e107a6528f",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Charlie Jung Duo",
+    "description": "Performance by Charlie Jung Duo.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Charlie Jung Duo",
+      "description": "Performance by Charlie Jung Duo."
+    },
+    "_search_ko": {
+      "title": "찰리정 듀오",
+      "description": "찰리정 듀오 공연."
+    }
+  },
+  {
     "id": "evt_20251115_372934b6-c822-4943-baf7-0619824d1c10",
     "event_key": "v:ven_f9b17719-8a8f-4156-afc8-c56ec25f6b47|t:2025-11-15T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
@@ -2149,6 +2383,32 @@
     "_search_ko": {
       "title": "DODOMCHIT",
       "description": "DODOMCHIT (ALAN (색소폰), YOON (보컬)) 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251115_8e54de87-096b-4cbc-97d7-a7713338b6f3",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-15T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Kim Byung-ryeol Friends",
+    "description": "Performance by Kim Byung-ryeol Friends.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Byung-ryeol Friends",
+      "description": "Performance by Kim Byung-ryeol Friends."
+    },
+    "_search_ko": {
+      "title": "김병렬 프렌즈",
+      "description": "김병렬 프렌즈 공연."
     }
   },
   {
@@ -2388,6 +2648,58 @@
     }
   },
   {
+    "id": "evt_20251116_289c8066-ade7-4817-a47a-ca84f500eaad",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-16T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Cotton Club Band & Lee Soo-kyung (Vocal)",
+    "description": "Performance by Cotton Club Band featuring Lee Soo-kyung on vocals.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Cotton Club Band & Lee Soo-kyung (Vocal)",
+      "description": "Performance by Cotton Club Band featuring Lee Soo-kyung on vocals."
+    },
+    "_search_ko": {
+      "title": "코튼클럽 밴드 & 이수경 (보컬)",
+      "description": "코튼클럽 밴드와 보컬 이수경 공연."
+    }
+  },
+  {
+    "id": "evt_20251116_5323d5c0-c90b-42db-9dc0-ebbf9fa5cb3f",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-16T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-16T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hello, Mr. Brown!",
+    "description": "Performance by Hello, Mr. Brown!.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hello, Mr. Brown!",
+      "description": "Performance by Hello, Mr. Brown!."
+    },
+    "_search_ko": {
+      "title": "헬로, 미스터 브라운!",
+      "description": "헬로, 미스터 브라운! 공연."
+    }
+  },
+  {
     "id": "evt_20251117_3fc3d739-3a30-4c6e-a076-21d5facdf330",
     "event_key": "v:ven_c8699fc3-7054-4de8-987b-2a9bf70ca2dd|t:2025-11-17T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
@@ -2466,6 +2778,32 @@
     }
   },
   {
+    "id": "evt_20251117_52958b8d-895c-4d72-93b1-110b0dc4c3be",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-17T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Cotton Club Band & Lee Soo-kyung (Vocal)",
+    "description": "Performance by Cotton Club Band featuring Lee Soo-kyung on vocals.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Cotton Club Band & Lee Soo-kyung (Vocal)",
+      "description": "Performance by Cotton Club Band featuring Lee Soo-kyung on vocals."
+    },
+    "_search_ko": {
+      "title": "코튼클럽 밴드 & 이수경 (보컬)",
+      "description": "코튼클럽 밴드와 보컬 이수경 공연."
+    }
+  },
+  {
     "id": "evt_20251117_4a66dc8b-cfd6-44b4-a43e-d59b296f3046",
     "event_key": "v:ven_8ff9c5ab-67ee-499f-85ea-543d42e681f0|t:2025-11-17T12:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -2489,6 +2827,32 @@
     "_search_ko": {
       "title": "YOON",
       "description": "YOON (보컬) 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251117_98d3c285-be1f-4fd4-b431-9c04aff33e06",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-17T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-17T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Hello, Mr. Brown!",
+    "description": "Performance by Hello, Mr. Brown!.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hello, Mr. Brown!",
+      "description": "Performance by Hello, Mr. Brown!."
+    },
+    "_search_ko": {
+      "title": "헬로, 미스터 브라운!",
+      "description": "헬로, 미스터 브라운! 공연."
     }
   },
   {
@@ -2596,6 +2960,32 @@
     }
   },
   {
+    "id": "evt_20251118_aa20fca3-3b5b-482f-acc9-1729471e2b50",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-18T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Flamatter",
+    "description": "Performance by Flamatter.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Flamatter",
+      "description": "Performance by Flamatter."
+    },
+    "_search_ko": {
+      "title": "플라매터",
+      "description": "플라매터 공연."
+    }
+  },
+  {
     "id": "evt_20251118_4be553ca-04c9-49c8-a599-dc2625914d90",
     "event_key": "v:ven_8ff9c5ab-67ee-499f-85ea-543d42e681f0|t:2025-11-18T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -2645,6 +3035,32 @@
     "_search_ko": {
       "title": "EUN VIN",
       "description": "EUN VIN (보컬) 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251118_8ed880ed-8881-4b02-9492-41acebb209c3",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-18T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-18T13:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Choi Young-mi Band",
+    "description": "Performance by Choi Young-mi Band.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Choi Young-mi Band",
+      "description": "Performance by Choi Young-mi Band."
+    },
+    "_search_ko": {
+      "title": "최영미 밴드",
+      "description": "최영미 밴드 공연."
     }
   },
   {
@@ -2853,6 +3269,32 @@
     "_search_ko": {
       "title": "강재훈",
       "description": "강재훈 라이브 공연. 가격: 20,000원."
+    }
+  },
+  {
+    "id": "evt_20251119_e3563a25-2e70-4bbe-8dba-6e36438090b3",
+    "event_key": "v:ven_e306cb6c-c470-4684-b767-4c931baf4ed5|t:2025-11-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
+    "venue_handle": "cottonclub_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e306cb6c-c470-4684-b767-4c931baf4ed5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Duo.Unique",
+    "description": "Performance by Duo.Unique.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Duo.Unique",
+      "description": "Performance by Duo.Unique."
+    },
+    "_search_ko": {
+      "title": "듀오.유니크",
+      "description": "듀오.유니크 공연."
     }
   },
   {

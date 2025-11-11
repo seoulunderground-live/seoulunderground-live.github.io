@@ -4899,27 +4899,27 @@
   {
     "id": "evt_20251116_a7be7593-88ae-4ae5-b554-15de79703813",
     "event_key": "v:ven_ca1db5d9-b2fb-4377-bfd9-08e212622476|t:2025-11-16T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQJedmwkoYk/",
+    "source_url": "https://www.instagram.com/p/DQ6Rq9REtbr/",
     "venue_handle": "pdpdclub",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_ca1db5d9-b2fb-4377-bfd9-08e212622476",
     "venue_location_id": "main",
     "datetime": "2025-11-16T10:00:00+00:00",
-    "price": null,
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "오스카를 좋아하세요?",
-    "description": "피아노, 트럼펫, 베이스, 드럼 구성의 밴드.",
+    "description": "진재환 (피아노), 박상아 (트럼펫), 신명준 (베이스), 김상수 (드럼). 1인 1음료 필수.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Do you like Oscar?",
-      "description": "Band with piano, trumpet, bass, and drums."
+      "description": "Jin Jae-hwan (piano), Park Sang-ah (trumpet), Shin Myung-jun (bass), Kim Sang-su (drums). One drink minimum."
     },
     "_search_ko": {
       "title": "오스카를 좋아하세요?",
-      "description": "피아노, 트럼펫, 베이스, 드럼 구성의 밴드."
+      "description": "진재환 (피아노), 박상아 (트럼펫), 신명준 (베이스), 김상수 (드럼). 1인 1음료 필수."
     }
   },
   {

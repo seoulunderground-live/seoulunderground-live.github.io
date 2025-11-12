@@ -579,6 +579,32 @@
     }
   },
   {
+    "id": "evt_20251115_19ef0248-7d54-448e-ab27-31fd5d123be8",
+    "event_key": "v:ven_bb23f796-8f20-46f6-b042-da8cb56fd17b|t:2025-11-15T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ84PU1D2Bt/",
+    "venue_handle": "faustseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_bb23f796-8f20-46f6-b042-da8cb56fd17b",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T14:00:00+00:00",
+    "price": "KRW 20,000 - 25,000",
+    "llm_confidence": 1.0,
+    "title": "JUSTINE PERRY",
+    "description": "French techno DJ Justine Perry's first performance in Korea. Active in major European clubs like Berghain. FAUST: DJ Set — Justine Perry, DAMIE, NUSNOOM // TANZ BAR: DJ Set — NOCTURNAL, SOL. Tickets at door: KRW 20,000 before midnight, KRW 25,000 after.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "JUSTINE PERRY",
+      "description": "French techno DJ Justine Perry's first performance in Korea. Active in major European clubs like Berghain. FAUST: DJ Set — Justine Perry, DAMIE, NUSNOOM // TANZ BAR: DJ Set — NOCTURNAL, SOL. Tickets at door: KRW 20,000 before midnight, KRW 25,000 after."
+    },
+    "_search_ko": {
+      "title": "JUSTINE PERRY",
+      "description": "프랑스 테크노 디제이 Justine Perry 첫 내한. 베억하인 등 유럽 주요 클럽 활동. FAUST: DJ Set — Justine Perry, DAMIE, NUSNOOM // TANZ BAR: DJ Set — NOCTURNAL, SOL. 현매만 가능. 12시 이전 20,000원, 12시 이후 25,000원."
+    }
+  },
+  {
     "id": "evt_20251116_a4d77456-614e-445a-808d-bf2b2929d58d",
     "event_key": "v:ven_78f262ab-0fb3-4afa-8649-0b5555b977db|t:2025-11-16T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQq57bLD2NI/",

@@ -575,7 +575,7 @@
   {
     "id": "evt_20251112_8f648cd1-abb0-4c75-8dca-e755fc387ed8",
     "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-12T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ8qRMREmOA/",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
     "venue_handle": "orient_express_wine_",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1107,27 +1107,31 @@
   {
     "id": "evt_20251113_911c879a-dd34-46c5-9e68-a67f5a4dd52f",
     "event_key": "v:ven_c75d78e0-e2bb-47a4-8438-7ade3564cc11|t:2025-11-13T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ5l6RBk9dY/",
+    "source_url": "https://www.instagram.com/p/DQ9EdkiE78L/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "casstech_",
+      "sangsu8531",
+      "thisisjaehun"
+    ],
     "venue_id": "ven_c75d78e0-e2bb-47a4-8438-7ade3564cc11",
     "venue_location_id": "main",
     "datetime": "2025-11-13T11:00:00+00:00",
-    "price": null,
+    "price": "무료 입장, 후불 페이",
     "llm_confidence": 1.0,
     "title": "배민혁 퀄텟",
-    "description": "스탠다드 재즈, 비밥 공연.",
+    "description": "스탠다드 재즈, 비밥 공연. 출연: 배민혁 (기타) @baemimhyuk6, 강재훈 (피아노) @thisisjaehun, 박진교 (베이스) @casstech_, 김상수 (드럼) @sangsu8531.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Bae Min-hyuk Quartet",
-      "description": "Performing standard jazz and bebop."
+      "description": "Standard Jazz, Bebop performance. Featuring: Bae Min-hyuk (guitar) @baemimhyuk6, Kang Jae-hun (piano) @thisisjaehun, Park Jin-gyo (bass) @casstech_, Kim Sang-su (drums) @sangsu8531."
     },
     "_search_ko": {
       "title": "배민혁 퀄텟",
-      "description": "스탠다드 재즈, 비밥 공연."
+      "description": "스탠다드 재즈, 비밥 공연. 출연: 배민혁 (기타) @baemimhyuk6, 강재훈 (피아노) @thisisjaehun, 박진교 (베이스) @casstech_, 김상수 (드럼) @sangsu8531."
     }
   },
   {
@@ -1454,6 +1458,32 @@
     "_search_ko": {
       "title": "구민상 퀄텟",
       "description": "구민상 퀄텟 공연. 노태헌 (베이스), 임단비 (피아노), 이광혁 (드럼), 구민상 (색소폰)의 라이브 연주. 1부, 2부 모두 관람 가능."
+    }
+  },
+  {
+    "id": "evt_20251113_9cb250d7-13be-4c2e-a574-d0334a15f75b",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "스탠다드 재즈 잼 데이",
+    "description": "매주 목요일 진행되는 스탠다드 재즈 잼 세션.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Standard Jazz Jam Day",
+      "description": "Weekly Thursday standard jazz jam session."
+    },
+    "_search_ko": {
+      "title": "스탠다드 재즈 잼 데이",
+      "description": "매주 목요일 진행되는 스탠다드 재즈 잼 세션."
     }
   },
   {
@@ -1810,27 +1840,32 @@
   {
     "id": "evt_20251113_7b4e7c21-84af-4b72-9cd6-2b917f853998",
     "event_key": "v:ven_c75d78e0-e2bb-47a4-8438-7ade3564cc11|t:2025-11-13T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ5l6RBk9dY/",
+    "source_url": "https://www.instagram.com/p/DQ9EdkiE78L/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "haeseong_guitar",
+      "j.silverstar",
+      "jazzerej",
+      "realcastle"
+    ],
     "venue_id": "ven_c75d78e0-e2bb-47a4-8438-7ade3564cc11",
     "venue_location_id": "main",
     "datetime": "2025-11-13T13:00:00+00:00",
-    "price": null,
+    "price": "무료 입장, 후불 페이",
     "llm_confidence": 1.0,
     "title": "진해성 일렉트로닉 밴드",
-    "description": "퓨전 재즈 공연.",
+    "description": "퓨전 재즈 공연. 출연: 진해성 (기타) @haeseong_guitar, 장은성 (피아노) @j.silverstar, 진의진 (베이스) @jazzerej, 김진성 (드럼) @realcastle.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Jin Hae-sung Electronic Band",
-      "description": "Performing fusion jazz."
+      "title": "Jin Hae-seong Electronic Band",
+      "description": "Fusion Jazz performance. Featuring: Jin Hae-seong (guitar) @haeseong_guitar, Jang Eun-seong (piano) @j.silverstar, Jin Ui-jin (bass) @jazzerej, Kim Jin-seong (drums) @realcastle."
     },
     "_search_ko": {
       "title": "진해성 일렉트로닉 밴드",
-      "description": "퓨전 재즈 공연."
+      "description": "퓨전 재즈 공연. 출연: 진해성 (기타) @haeseong_guitar, 장은성 (피아노) @j.silverstar, 진의진 (베이스) @jazzerej, 김진성 (드럼) @realcastle."
     }
   },
   {
@@ -2648,7 +2683,7 @@
   {
     "id": "evt_20251114_b1e94ac2-f35c-4855-b89a-308d813ae635",
     "event_key": "v:ven_673c020a-b0fb-45c2-991b-6dc568ee4982|t:2025-11-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ8TTH8EmaL/",
+    "source_url": "https://www.instagram.com/p/DQ8lYKLkjVc/",
     "venue_handle": "yeonnam5701",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -2659,18 +2694,44 @@
     "datetime": "2025-11-14T11:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "김순영 재즈 탭",
-    "description": "탭 그리고 보컬 김순영 @jazz_tap.",
+    "title": "김순영 재즈탭",
+    "description": "김도용 (베이스), 강승훈 (피아노), 박정환 (드럼), 구민상 (색소폰), 김순영 (탭, 보컬). 탭댄스와 재즈의 만남. 재즈의 즉흥과 탭댄스의 비트가 어우러지는 리듬의 밤. 발끝으로 연주하는 음악, 눈으로 느끼는 리듬의 예술.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Soon-young Jazz Tap",
-      "description": "Featuring Kim Soon-young (vocal, tap) @jazz_tap."
+      "title": "Kim Sun-young Jazz Tap",
+      "description": "Kim Do-yong (bass), Kang Seung-hoon (piano), Park Jung-hwan (drums), Goo Min-sang (saxophone), Kim Sun-young (tap, vocals). A fusion of tap dance and jazz. A night of rhythm where jazz improvisation meets tap dance beats. Music played with the feet, art of rhythm felt with the eyes."
     },
     "_search_ko": {
-      "title": "김순영 재즈 탭",
-      "description": "탭 그리고 보컬 김순영 @jazz_tap."
+      "title": "김순영 재즈탭",
+      "description": "김도용 (베이스), 강승훈 (피아노), 박정환 (드럼), 구민상 (색소폰), 김순영 (탭, 보컬). 탭댄스와 재즈의 만남. 재즈의 즉흥과 탭댄스의 비트가 어우러지는 리듬의 밤. 발끝으로 연주하는 음악, 눈으로 느끼는 리듬의 예술."
+    }
+  },
+  {
+    "id": "evt_20251114_26a24676-beb5-4824-b40c-4f93b6cdb33a",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Colin Kim 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Colin Kim Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Colin Kim 퀄텟",
+      "description": null
     }
   },
   {
@@ -4194,6 +4255,32 @@
     }
   },
   {
+    "id": "evt_20251115_38996417-c256-44b4-88ec-744ee28335d2",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "김한 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Han Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김한 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20251115_7b9d9e33-5d62-4fc8-87d6-0af07f8b0ea1",
     "event_key": "v:ven_1ad93c7e-3416-442c-8e4e-db04f89effac|t:2025-11-15T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ6hQ8wj2ny/",
@@ -5330,6 +5417,32 @@
     }
   },
   {
+    "id": "evt_20251116_62fc4ffd-e2d3-44e9-88d2-c9537dae3bf3",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-16T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-16T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "박고운 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Go-un Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박고운 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20251116_0748fc64-80cc-4967-95c2-1fe61aedb951",
     "event_key": "v:ven_9485def4-9613-4aee-814c-6aa9b3b6aafc|t:2025-11-16T11:10:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3UhywCdiO/",
@@ -5679,6 +5792,32 @@
     }
   },
   {
+    "id": "evt_20251117_f2b33d2b-bd95-48e9-93d6-1499e320a1ca",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-17T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "퓨전 재즈 잼 데이",
+    "description": "매주 월요일 진행되는 퓨전 재즈 잼 세션.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Fusion Jazz Jam Day",
+      "description": "Weekly Monday fusion jazz jam session."
+    },
+    "_search_ko": {
+      "title": "퓨전 재즈 잼 데이",
+      "description": "매주 월요일 진행되는 퓨전 재즈 잼 세션."
+    }
+  },
+  {
     "id": "evt_20251117_8d712d7f-efb0-4083-8868-d0c96c1fcdf6",
     "event_key": "v:ven_64c68aee-8d38-499e-b65d-78132f8a51ea|t:2025-11-17T12:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -5884,6 +6023,32 @@
     "_search_ko": {
       "title": "Jazz Jam Day",
       "description": "매주 진행되는 Jazz Jam Day 이벤트."
+    }
+  },
+  {
+    "id": "evt_20251118_8eb2e631-f24a-4785-8170-b7adb7781e52",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-18T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "사츠키 쿠스이 & 프렌즈",
+    "description": "일본에서 온 사츠키 쿠스이와 친구들.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Satsuki Kusui & Friends",
+      "description": "Satsuki Kusui and friends from Japan."
+    },
+    "_search_ko": {
+      "title": "사츠키 쿠스이 & 프렌즈",
+      "description": "일본에서 온 사츠키 쿠스이와 친구들."
     }
   },
   {
@@ -6248,6 +6413,32 @@
     "_search_ko": {
       "title": "강재훈",
       "description": "강재훈 라이브 공연. 가격: 20,000원."
+    }
+  },
+  {
+    "id": "evt_20251119_c814c424-78ae-4cb8-9b9f-dd501263fb21",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "김태현 (TK) 트리오",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Tae-hyun (TK) Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김태현 (TK) 트리오",
+      "description": null
     }
   },
   {
@@ -6664,6 +6855,32 @@
     "_search_ko": {
       "title": "이지영",
       "description": "이지영 라이브 공연. 가격: 20,000원."
+    }
+  },
+  {
+    "id": "evt_20251120_088bbbc0-f18a-4192-bbe3-e6c337cf1527",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "스탠다드 재즈 잼 데이",
+    "description": "매주 목요일 진행되는 스탠다드 재즈 잼 세션.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Standard Jazz Jam Day",
+      "description": "Weekly Thursday standard jazz jam session."
+    },
+    "_search_ko": {
+      "title": "스탠다드 재즈 잼 데이",
+      "description": "매주 목요일 진행되는 스탠다드 재즈 잼 세션."
     }
   },
   {
@@ -7401,6 +7618,32 @@
     "_search_ko": {
       "title": "이상민",
       "description": "이상민 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251121_58f3dabf-4fb0-4b73-8898-8ece920efbc3",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "김한 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Han Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김한 퀄텟",
+      "description": null
     }
   },
   {
@@ -8194,6 +8437,32 @@
     }
   },
   {
+    "id": "evt_20251122_94db4772-4986-4cc8-a930-4dadd01d3717",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "김상희 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Sang-hee Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김상희 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20251122_67194cc1-8bbf-40e6-8692-484299bc315f",
     "event_key": "v:ven_1ad93c7e-3416-442c-8e4e-db04f89effac|t:2025-11-22T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
@@ -8690,6 +8959,32 @@
     }
   },
   {
+    "id": "evt_20251123_a5924554-af07-4ee7-a8ef-276c3396a9ab",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "장시온 밴드",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jang Si-on Band",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "장시온 밴드",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20251123_19f6813b-ca32-45e6-b73e-8a23098c68a4",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-23T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQyuL3AgWKQ/",
@@ -8847,6 +9142,32 @@
     "_search_ko": {
       "title": "김이슬",
       "description": "김이슬 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251124_ee3e50fe-4c88-4923-af05-106f937a2d79",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-24T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-24T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "이성구 트리오",
+    "description": "매월 마지막주 월요일은 잼 세션 대신 스페셜 스테이지로 진행됩니다.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Sung-gu Trio",
+      "description": "Special stage as Jam Session is off on the last Monday of the month."
+    },
+    "_search_ko": {
+      "title": "이성구 트리오",
+      "description": "매월 마지막주 월요일은 잼 세션 대신 스페셜 스테이지로 진행됩니다."
     }
   },
   {
@@ -9081,6 +9402,32 @@
     "_search_ko": {
       "title": "Jazz Jam Day",
       "description": "매주 진행되는 Jazz Jam Day 이벤트. 가격: 20,000원."
+    }
+  },
+  {
+    "id": "evt_20251125_77717c69-2d4c-4c21-9920-561b7e0ffde9",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-25T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "Betty Hwang 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Betty Hwang Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Betty Hwang 퀄텟",
+      "description": null
     }
   },
   {
@@ -9448,6 +9795,32 @@
     }
   },
   {
+    "id": "evt_20251126_91ed3b2d-2fb5-44b1-8de6-58f3057c9041",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-26T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-26T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "김태현 (TK) 트리오",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Tae-hyun (TK) Trio",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "김태현 (TK) 트리오",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20251126_4618dae7-95a3-4663-b271-c7eca730faf9",
     "event_key": "v:ven_64c68aee-8d38-499e-b65d-78132f8a51ea|t:2025-11-26T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -9809,6 +10182,32 @@
     "_search_ko": {
       "title": "김요한",
       "description": "김요한 공연. 가격: 20,000원."
+    }
+  },
+  {
+    "id": "evt_20251127_08ed140f-cdc5-4c8a-8a62-e183363b02e9",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "김성찬 퀄텟",
+    "description": "매월 마지막주 목요일은 잼 세션 대신 스페셜 스테이지로 진행됩니다.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Sung-chan Quartet",
+      "description": "Special stage as Jam Session is off on the last Thursday of the month."
+    },
+    "_search_ko": {
+      "title": "김성찬 퀄텟",
+      "description": "매월 마지막주 목요일은 잼 세션 대신 스페셜 스테이지로 진행됩니다."
     }
   },
   {
@@ -10502,6 +10901,32 @@
     "_search_ko": {
       "title": "임달균",
       "description": "임달균 공연. 가격: 20,000원."
+    }
+  },
+  {
+    "id": "evt_20251128_3918b3bf-6201-4f1e-bae6-8e55e3df1e2a",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "Damon Brown 퀸텟",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Damon Brown Quintet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "Damon Brown 퀸텟",
+      "description": null
     }
   },
   {
@@ -11324,6 +11749,32 @@
     }
   },
   {
+    "id": "evt_20251129_28db5b11-1e11-47be-acd9-5570e69b12eb",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-29T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T11:00:00+00:00",
+    "price": "20,000원",
+    "llm_confidence": 1.0,
+    "title": "박고운 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Go-un Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "박고운 퀄텟",
+      "description": null
+    }
+  },
+  {
     "id": "evt_20251129_e528717b-cfd4-495b-a054-c04387169754",
     "event_key": "v:ven_1ad93c7e-3416-442c-8e4e-db04f89effac|t:2025-11-29T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
@@ -11791,6 +12242,32 @@
     "_search_ko": {
       "title": "찰리정",
       "description": "찰리정 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251130_bc241c3f-df50-4154-9788-4f0db9f10475",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-30T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "정승우 퀄텟",
+    "description": null,
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jung Seung-woo Quartet",
+      "description": null
+    },
+    "_search_ko": {
+      "title": "정승우 퀄텟",
+      "description": null
     }
   },
   {

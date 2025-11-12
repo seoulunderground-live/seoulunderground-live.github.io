@@ -947,6 +947,34 @@
     }
   },
   {
+    "id": "evt_20251113_7483d4a8-b036-4a6d-9541-af5e128914e2",
+    "event_key": "v:ven_673c020a-b0fb-45c2-991b-6dc568ee4982|t:2025-11-13T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ6RwSkkh_w/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "saxholic9"
+    ],
+    "venue_id": "ven_673c020a-b0fb-45c2-991b-6dc568ee4982",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "구민상 퀄텟",
+    "description": "구민상 퀄텟 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Gumin-sang Quartet",
+      "description": "Gumin-sang Quartet performance."
+    },
+    "_search_ko": {
+      "title": "구민상 퀄텟",
+      "description": "구민상 퀄텟 공연."
+    }
+  },
+  {
     "id": "evt_20251113_9609346e-9f3a-4b4b-b6fe-fb58ccd8f156",
     "event_key": "v:ven_b5bb2158-042b-45ee-86f6-8a6ba4d363e3|t:2025-11-13T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQlUSlKkqDf/",
@@ -3566,7 +3594,7 @@
   {
     "id": "evt_20251115_d8ad9f1c-19d0-4c6f-9885-bd2c73b6602b",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3xCrMAUZ1/",
+    "source_url": "https://www.instagram.com/p/DQ8ZrURAchS/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -3575,18 +3603,18 @@
     "datetime": "2025-11-15T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "헤이피 밴드",
-    "description": "헤이피 밴드의 라이브 재즈 공연. 20:00, 21:00 두 차례 진행. 예약 없이 워크인 입장 가능. 예약 문의: 02-415-7816.",
+    "title": "HEY P 라이브",
+    "description": "BARTICAN에서 HEY P의 라이브 공연. 재즈, 가요, 팝 등 다양한 장르의 음악.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "HEY P Band",
-      "description": "Live jazz performance by HEY P Band. Two sets at 20:00 and 21:00. Walk-ins welcome. Reservation inquiries: 02-415-7816."
+      "title": "HEY P Live",
+      "description": "Live performance by HEY P at BARTICAN. Enjoy various genres including jazz, pop, and popular music."
     },
     "_search_ko": {
-      "title": "헤이피 밴드",
-      "description": "헤이피 밴드의 라이브 재즈 공연. 20:00, 21:00 두 차례 진행. 예약 없이 워크인 입장 가능. 예약 문의: 02-415-7816."
+      "title": "HEY P 라이브",
+      "description": "BARTICAN에서 HEY P의 라이브 공연. 재즈, 가요, 팝 등 다양한 장르의 음악."
     }
   },
   {
@@ -3724,7 +3752,7 @@
   {
     "id": "evt_20251115_023eb7fe-dd5b-475a-9ea1-e2bc3b3407fe",
     "event_key": "v:ven_0af670d5-5465-44ce-873d-018f2047a28a|t:2025-11-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQtiec7Ac4q/",
+    "source_url": "https://www.instagram.com/p/DQ8PXCPAfas/",
     "venue_handle": "gv_scene",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -3743,17 +3771,17 @@
     "price": "None",
     "llm_confidence": 1.0,
     "title": "SoWhat NOLA",
-    "description": "뉴올리언스 세컨드 라인 공연 'SoWhat NOLA'. Bourbon Street Parade, Go To Mardi Gras, Lazy Sunday 등 세트리스트. 간단한 핑거푸드와 주류(와인, 맥주, 위스키, 하이볼 등)가 준비됩니다. 예약은 DM 문의.",
+    "description": "뉴올리언스 세컨드 라인, 마칭 밴드, 트래드 재즈 공연. 라인업: 윤승원 (보컬), 박종규 (트럼펫), 최세진 (트롬본), 민경선 (반조), 김종호 (튜바), 최요셉 (드럼).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "SoWhat NOLA",
-      "description": "New Orleans Second Line performance 'SoWhat NOLA'. Setlist includes Bourbon Street Parade, Go To Mardi Gras, Lazy Sunday. Finger food and beverages (wine, beer, whiskey, highball) available. DM for reservations."
+      "description": "New Orleans Second Line, marching band, trad jazz performance. Lineup: Yoon Seung-won (vocal), Park Jong-gyu (trumpet), Choi Se-jin (trombone), Min Kyung-sun (banjo), Kim Jong-ho (tuba), Choi Yo-seop (drums)."
     },
     "_search_ko": {
       "title": "SoWhat NOLA",
-      "description": "뉴올리언스 세컨드 라인 공연 'SoWhat NOLA'. Bourbon Street Parade, Go To Mardi Gras, Lazy Sunday 등 세트리스트. 간단한 핑거푸드와 주류(와인, 맥주, 위스키, 하이볼 등)가 준비됩니다. 예약은 DM 문의."
+      "description": "뉴올리언스 세컨드 라인, 마칭 밴드, 트래드 재즈 공연. 라인업: 윤승원 (보컬), 박종규 (트럼펫), 최세진 (트롬본), 민경선 (반조), 김종호 (튜바), 최요셉 (드럼)."
     }
   },
   {
@@ -4312,7 +4340,7 @@
   {
     "id": "evt_20251115_1f843edd-74fe-4522-8a6f-24bd7322f660",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-15T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQyuL3AgWKQ/",
+    "source_url": "https://www.instagram.com/p/DQ8ZrURAchS/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -4321,18 +4349,18 @@
     "datetime": "2025-11-15T12:00:00+00:00",
     "price": "10,000원",
     "llm_confidence": 1.0,
-    "title": "Winsome Band",
-    "description": "Winsome Band 공연.",
+    "title": "HEY P 라이브",
+    "description": "BARTICAN에서 HEY P의 라이브 공연. 재즈, 가요, 팝 등 다양한 장르의 음악.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Winsome Band",
-      "description": "Winsome Band performance."
+      "title": "HEY P Live",
+      "description": "Live performance by HEY P at BARTICAN. Enjoy various genres including jazz, pop, and popular music."
     },
     "_search_ko": {
-      "title": "Winsome Band",
-      "description": "Winsome Band 공연."
+      "title": "HEY P 라이브",
+      "description": "BARTICAN에서 HEY P의 라이브 공연. 재즈, 가요, 팝 등 다양한 장르의 음악."
     }
   },
   {
@@ -9812,7 +9840,7 @@
   {
     "id": "evt_20251127_b21bbf50-9297-4a36-a6da-c2101ee11413",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-27T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQyuL3AgWKQ/",
+    "source_url": "https://www.instagram.com/p/DQ8ZrURAchS/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -9821,18 +9849,18 @@
     "datetime": "2025-11-27T12:00:00+00:00",
     "price": "5,000원",
     "llm_confidence": 1.0,
-    "title": "리마 듀오",
-    "description": "리마 듀오 공연.",
+    "title": "HEY P 라이브",
+    "description": "BARTICAN에서 HEY P의 라이브 공연. 재즈, 가요, 팝 등 다양한 장르의 음악.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lima Duo",
-      "description": "Lima Duo performance."
+      "title": "HEY P Live",
+      "description": "Live performance by HEY P at BARTICAN. Enjoy various genres including jazz, pop, and popular music."
     },
     "_search_ko": {
-      "title": "리마 듀오",
-      "description": "리마 듀오 공연."
+      "title": "HEY P 라이브",
+      "description": "BARTICAN에서 HEY P의 라이브 공연. 재즈, 가요, 팝 등 다양한 장르의 음악."
     }
   },
   {
@@ -9864,7 +9892,7 @@
   {
     "id": "evt_20251127_0374a5a3-45f5-43ed-a1e8-3b45281e69b9",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-27T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQyuL3AgWKQ/",
+    "source_url": "https://www.instagram.com/p/DQ8ZrURAchS/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -9873,18 +9901,18 @@
     "datetime": "2025-11-27T13:00:00+00:00",
     "price": "5,000원",
     "llm_confidence": 1.0,
-    "title": "리마 듀오",
-    "description": "리마 듀오 공연.",
+    "title": "HEY P 라이브",
+    "description": "BARTICAN에서 HEY P의 라이브 공연. 재즈, 가요, 팝 등 다양한 장르의 음악.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lima Duo",
-      "description": "Lima Duo performance."
+      "title": "HEY P Live",
+      "description": "Live performance by HEY P at BARTICAN. Enjoy various genres including jazz, pop, and popular music."
     },
     "_search_ko": {
-      "title": "리마 듀오",
-      "description": "리마 듀오 공연."
+      "title": "HEY P 라이브",
+      "description": "BARTICAN에서 HEY P의 라이브 공연. 재즈, 가요, 팝 등 다양한 장르의 음악."
     }
   },
   {

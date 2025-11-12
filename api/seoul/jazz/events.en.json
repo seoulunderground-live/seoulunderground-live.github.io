@@ -1511,6 +1511,37 @@
     }
   },
   {
+    "id": "evt_20251113_96f1440f-a981-4e54-8ed2-f433d6ad95f0",
+    "event_key": "v:ven_49903ca0-a489-49f2-8b7d-5a87a32e5e60|t:2025-11-13T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ71sYoE5Yh/",
+    "venue_handle": "dido_jazz_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "1_woolsss",
+      "h_0zl",
+      "iceape8",
+      "kgvovc"
+    ],
+    "venue_id": "ven_49903ca0-a489-49f2-8b7d-5a87a32e5e60",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T11:30:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Jackson's Night",
+    "description": "A special tribute stage honoring pop icon Michael Jackson. His masterpieces are reinterpreted, crossing the boundaries of jazz and pop. Featuring: Kim Han-wool (vocal) @1_woolsss, Jung Hyun-woo (piano) @h_0zl, Kim Ji-hyun (bass) @kgvovc, Choi Jae-woo (drums) @iceape8.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jackson's Night",
+      "description": "A special tribute stage honoring pop icon Michael Jackson. His masterpieces are reinterpreted, crossing the boundaries of jazz and pop. Featuring: Kim Han-wool (vocal) @1_woolsss, Jung Hyun-woo (piano) @h_0zl, Kim Ji-hyun (bass) @kgvovc, Choi Jae-woo (drums) @iceape8."
+    },
+    "_search_ko": {
+      "title": "잭슨즈 나이트",
+      "description": "세기의 팝 아이콘 마이클 잭슨을 기리는 특별한 무대. 재즈와 팝의 경계를 넘나들며 새롭게 재해석된 그의 명곡들. 출연진: 김한울 (보컬) @1_woolsss, 정현우 (피아노) @h_0zl, 김지현 (베이스) @kgvovc, 최재우 (드럼) @iceape8."
+    }
+  },
+  {
     "id": "evt_20251113_81614663-6b70-4bd6-a394-e24e48289243",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-13T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ5mpSSgcXF/",

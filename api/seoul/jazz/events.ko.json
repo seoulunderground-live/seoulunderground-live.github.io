@@ -573,6 +573,32 @@
     }
   },
   {
+    "id": "evt_20251112_8f648cd1-abb0-4c75-8dca-e755fc387ed8",
+    "event_key": "v:ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8|t:2025-11-12T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8qRMREmOA/",
+    "venue_handle": "orient_express_wine_",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T11:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "김태현 (TK) 트리오",
+    "description": "김태현 (TK) 트리오의 라이브 재즈 공연. 김태현 (드럼), Bruce Kang (베이스), 강재훈 (피아노) 출연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Tae-hyun (TK) Trio",
+      "description": "Live jazz performance by Kim Tae-hyun (TK) Trio. Featuring Kim Tae-hyun (drums), Bruce Kang (bass), Kang Jae-hoon (piano)."
+    },
+    "_search_ko": {
+      "title": "김태현 (TK) 트리오",
+      "description": "김태현 (TK) 트리오의 라이브 재즈 공연. 김태현 (드럼), Bruce Kang (베이스), 강재훈 (피아노) 출연."
+    }
+  },
+  {
     "id": "evt_20251112_8f355c31-1bf8-432b-bca1-4a9655c360db",
     "event_key": "v:ven_833ee592-3904-40bb-9cdd-0f8d192ad208|t:2025-11-12T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ2-CyigeP2/",
@@ -977,27 +1003,27 @@
   {
     "id": "evt_20251113_9609346e-9f3a-4b4b-b6fe-fb58ccd8f156",
     "event_key": "v:ven_b5bb2158-042b-45ee-86f6-8a6ba4d363e3|t:2025-11-13T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQlUSlKkqDf/",
+    "source_url": "https://www.instagram.com/p/DQ4NQPvEqo9/",
     "venue_handle": "bluecat.fezh",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_b5bb2158-042b-45ee-86f6-8a6ba4d363e3",
     "venue_location_id": "main",
     "datetime": "2025-11-13T10:30:00+00:00",
-    "price": "무료",
+    "price": "무료 (음료 별도 주문)",
     "llm_confidence": 1.0,
-    "title": "월간 블루캣 Vol.1: 박찬욱을 읽고, 영화를 듣다",
-    "description": "월간 블루캣 첫 번째 에디션. 박찬욱 감독의 영화 세계를 도서와 사운드트랙으로 탐구하는 문화 감상 프로그램. 1부: 박찬욱 영화 OST와 클래식 원곡을 감상하며 독서하는 사일런트 북클럽. 2부: 영화별 사운드트랙, 작곡가, 클래식 및 재즈곡을 소개하고 리퀘스트를 받아 함께 듣고 이야기 나누는 세션.",
+    "title": "박찬욱을 읽고, 영화를 듣다 (월간 블루캣 Vol.1)",
+    "description": "월간 블루캣의 첫 번째 에디션. 박찬욱 감독의 영화 세계를 도서와 사운드트랙으로 탐구하는 문화 감상 북클럽 & 리스닝 세션.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Monthly BLUE CAT Vol.1: Reading Park Chan-wook, Listening to His Films",
-      "description": "Monthly BLUE CAT's first edition. A cultural appreciation program exploring director Park Chan-wook's cinematic world through books and soundtracks. Part 1: Silent Book Club, reading while listening to Park Chan-wook film OSTs and original classical pieces. Part 2: Listening & Talk session introducing film soundtracks, composers, classical, and jazz pieces, with participant requests and discussion."
+      "title": "Reading Park Chan-wook, Listening to His Films (Monthly Blue Cat Vol.1)",
+      "description": "The first edition of Monthly Blue Cat, a cultural appreciation book club & listening session exploring Director Park Chan-wook's cinematic world through books and soundtracks."
     },
     "_search_ko": {
-      "title": "월간 블루캣 Vol.1: 박찬욱을 읽고, 영화를 듣다",
-      "description": "월간 블루캣 첫 번째 에디션. 박찬욱 감독의 영화 세계를 도서와 사운드트랙으로 탐구하는 문화 감상 프로그램. 1부: 박찬욱 영화 OST와 클래식 원곡을 감상하며 독서하는 사일런트 북클럽. 2부: 영화별 사운드트랙, 작곡가, 클래식 및 재즈곡을 소개하고 리퀘스트를 받아 함께 듣고 이야기 나누는 세션."
+      "title": "박찬욱을 읽고, 영화를 듣다 (월간 블루캣 Vol.1)",
+      "description": "월간 블루캣의 첫 번째 에디션. 박찬욱 감독의 영화 세계를 도서와 사운드트랙으로 탐구하는 문화 감상 북클럽 & 리스닝 세션."
     }
   },
   {
@@ -6409,27 +6435,27 @@
   {
     "id": "evt_20251120_3b879ec5-b418-4626-bbe9-0f235e33c31d",
     "event_key": "v:ven_b5bb2158-042b-45ee-86f6-8a6ba4d363e3|t:2025-11-20T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQlUSlKkqDf/",
+    "source_url": "https://www.instagram.com/p/DQ4NQPvEqo9/",
     "venue_handle": "bluecat.fezh",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_b5bb2158-042b-45ee-86f6-8a6ba4d363e3",
     "venue_location_id": "main",
     "datetime": "2025-11-20T10:30:00+00:00",
-    "price": "무료",
+    "price": "무료 (음료 별도 주문)",
     "llm_confidence": 1.0,
-    "title": "월간 블루캣 Vol.1: 박찬욱을 읽고, 영화를 듣다",
-    "description": "월간 블루캣 첫 번째 에디션. 박찬욱 감독의 영화 세계를 도서와 사운드트랙으로 탐구하는 문화 감상 프로그램. 1부: 박찬욱 영화 OST와 클래식 원곡을 감상하며 독서하는 사일런트 북클럽. 2부: 영화별 사운드트랙, 작곡가, 클래식 및 재즈곡을 소개하고 리퀘스트를 받아 함께 듣고 이야기 나누는 세션.",
+    "title": "박찬욱을 읽고, 영화를 듣다 (월간 블루캣 Vol.1)",
+    "description": "월간 블루캣의 첫 번째 에디션. 박찬욱 감독의 영화 세계를 도서와 사운드트랙으로 탐구하는 문화 감상 북클럽 & 리스닝 세션.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Monthly BLUE CAT Vol.1: Reading Park Chan-wook, Listening to His Films",
-      "description": "Monthly BLUE CAT's first edition. A cultural appreciation program exploring director Park Chan-wook's cinematic world through books and soundtracks. Part 1: Silent Book Club, reading while listening to Park Chan-wook film OSTs and original classical pieces. Part 2: Listening & Talk session introducing film soundtracks, composers, classical, and jazz pieces, with participant requests and discussion."
+      "title": "Reading Park Chan-wook, Listening to His Films (Monthly Blue Cat Vol.1)",
+      "description": "The first edition of Monthly Blue Cat, a cultural appreciation book club & listening session exploring Director Park Chan-wook's cinematic world through books and soundtracks."
     },
     "_search_ko": {
-      "title": "월간 블루캣 Vol.1: 박찬욱을 읽고, 영화를 듣다",
-      "description": "월간 블루캣 첫 번째 에디션. 박찬욱 감독의 영화 세계를 도서와 사운드트랙으로 탐구하는 문화 감상 프로그램. 1부: 박찬욱 영화 OST와 클래식 원곡을 감상하며 독서하는 사일런트 북클럽. 2부: 영화별 사운드트랙, 작곡가, 클래식 및 재즈곡을 소개하고 리퀘스트를 받아 함께 듣고 이야기 나누는 세션."
+      "title": "박찬욱을 읽고, 영화를 듣다 (월간 블루캣 Vol.1)",
+      "description": "월간 블루캣의 첫 번째 에디션. 박찬욱 감독의 영화 세계를 도서와 사운드트랙으로 탐구하는 문화 감상 북클럽 & 리스닝 세션."
     }
   },
   {

@@ -88,19 +88,71 @@
     "last_analyzed_at": "2025-11-11T12:19:19.450695+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/_jam_lounge/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/_jam_lounge/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=1247755727907721205",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/_jam_lounge",
-      "homepage": "https://m.booking.naver.com/booking/6/bizes/519939/items/4192733?theme=place&area=ple"
+      "homepage": "https://m.booking.naver.com/booking/6/bizes/519939/items/4192733?theme=place&area=ple",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=1247755727907721205",
+      "naver_map": "https://naver.me/xhzCQ2ed"
     },
     "contacts": {
-      "email": null,
-      "phone": null
-    }
+      "phone": null,
+      "email": null
+    },
+    "websites": [
+      "https://m.booking.naver.com/booking/6/bizes/519939/items/4192733?theme=place&area=ple"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Jam Lounge",
+        "address_text": "B1, B2, 16 Teheran-ro 51-gil, Gangnam District, Seoul, South Korea",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Jam Lounge",
+            "ko": "잼 라운지"
+          },
+          "address_text": {
+            "en": "B1, B2, 16 Teheran-ro 51-gil, Gangnam District, Seoul, South Korea",
+            "ko": "서울 강남구 테헤란로51길 16 지하1층, 지하2층"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Jam Lounge",
+        "ko": "잼 라운지"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Bar"
+        ],
+        "ko": [
+          "바"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "naver_subway_nearby": "2호선 수인분당선릉역 5번 출구에서 195m"
   },
   {
     "ig_handle": "africa_since1988",
@@ -547,109 +599,73 @@
     }
   },
   {
+    "raw": "The current date is Monday, October 16, 2023.",
     "ig_handle": "bar_tican",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": "19:00 - 02:00",
-      "tue": "19:00 - 02:00",
-      "wed": "19:00 - 02:00",
-      "thu": "19:00 - 02:00",
-      "fri": "19:00 - 02:00",
-      "sat": "19:00 - 02:00",
-      "sun": "19:00 - 02:00"
-    },
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-09T05:10:10.480861+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=9091986346322140521",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/bar_tican",
       "homepage": null,
       "booking": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=9091986346322140521",
       "naver_map": "https://naver.me/xoH8x4R9"
     },
     "contacts": {
       "phone": "010-9327-7816",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
+    "subway_nearby": "2, 8호선 잠실역 10번 출구에서 584m",
     "locations": [
       {
         "location_id": "main",
-        "name": "Cocktail Bar BARTICAN",
-        "address_text": "B1F, 62-10, Bangi-dong, Songpa District, Seoul, South Korea",
-        "address_components": {
-          "street": "Bangi-dong 62-10",
-          "district": "Songpa District",
-          "city": "Seoul",
-          "postal_code": null,
-          "country": "South Korea"
-        },
-        "subway_nearby": null,
+        "name": "Bar Tican",
+        "address_text": "서울 송파구 방이동 62-10 1층",
+        "address_components": null,
+        "location_lat": 37.5137708705936,
+        "location_lon": 127.109143598068,
+        "subway_nearby": "2, 8호선 잠실역 10번 출구에서 584m",
         "booking_link": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Cocktail Bar BARTICAN",
-            "ko": "칵테일 바 바티칸"
+            "en": "Bar Tican",
+            "ko": "바 티칸"
           },
           "address_text": {
-            "en": "B1F, 62-10, Bangi-dong, Songpa District, Seoul, South Korea",
-            "ko": "서울 송파구 방이동 62-10 지하1층"
+            "en": "1st Floor, 62-10 Bangi-dong, Songpa District, Seoul, South Korea",
+            "ko": "서울 송파구 방이동 62-10 1층"
           },
           "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-10-29T08:25:31.677001+09:00",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "https://www.instagram.com/bar_tican",
-      "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
-      "maps:https://maps.google.com/?cid=16999327804583333293",
-      "maps:https://maps.google.com/?cid=255498651051942510",
-      "maps:https://maps.google.com/?cid=10256081370163760459",
-      "maps:https://maps.google.com/?cid=5851297375979472758",
-      "maps:https://maps.google.com/?cid=9091986346322140521",
-      "maps:https://maps.google.com/?cid=2364787091734131273",
-      "maps:https://maps.google.com/?cid=10868077700845091316",
-      "maps:https://maps.google.com/?cid=9295147572514090360",
-      "maps:https://maps.google.com/?cid=5532494881275685340",
-      "maps:https://maps.google.com/?cid=7130867980710877223",
-      "maps:https://maps.google.com/?cid=11343319880722088304",
-      "maps:https://maps.google.com/?cid=1065395102973975500",
-      "maps:https://maps.google.com/?cid=16469810910370916422",
-      "maps:https://maps.google.com/?cid=15998828972803374628",
-      "maps:https://maps.google.com/?cid=16084038525693329250",
-      "maps:https://maps.google.com/?cid=15522284062007426342",
-      "maps:https://maps.google.com/?cid=17350927884111316879",
-      "maps:https://maps.google.com/?cid=5491814419196682725",
-      "maps:https://maps.google.com/?cid=1365788832385339373",
-      "maps:https://maps.google.com/?cid=4739987861832496351",
-      "maps:https://maps.google.com/?cid=12987742535886553749",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
     "i18n": {
       "name": {
-        "en": "Cocktail Bar BARTICAN",
-        "ko": "칵테일 바 바티칸"
+        "en": "Bar Tican",
+        "ko": "바 티칸"
       },
       "address_text": null,
       "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "584m from Jamsil Station Exit 10 (Lines 2 & 8)",
+        "ko": "2, 8호선 잠실역 10번 출구에서 584m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "2, 8호선 잠실역 10번 출구에서 584m"
+    }
   },
   {
     "raw": "Hi! How can I help you today?",
@@ -719,36 +735,22 @@
     }
   },
   {
+    "raw": "I'd be happy to help! To give you the best assistance, could you tell me what you'd like to do? For example, are you looking to:\n\n1. **Write something?** (An email, a story, a poem, code, etc.)\n2. **Get information or facts?** (About a topic, a historical event, a concept)\n3. **Brainstorm or generate ideas?**\n4. **Summarize or analyze a text you provide?**\n5. **Something else entirely?**\n\nLet me know what you have in mind!",
     "ig_handle": "bluechicago_jazzbar",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": "19:30 - 24:00",
-      "tue": "19:30 - 24:00",
-      "wed": "19:30 - 24:00",
-      "thu": "19:30 - 24:00",
-      "fri": "19:30 - 24:00",
-      "sat": "19:30 - 24:00",
-      "sun": "Closed"
-    },
-    "typical_show_times": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": [
-        "20:30"
-      ],
-      "sat": [
-        "20:30"
-      ],
-      "sun": null
-    },
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-09T05:13:07.723521+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bluechicago_jazzbar/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bluechicago_jazzbar/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bluechicago_jazzbar/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bluechicago_jazzbar/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bluechicago_jazzbar/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=1317861186723265068",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/bluechicago_jazzbar",
       "homepage": null,
@@ -759,153 +761,36 @@
       "phone": null,
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "블루시카고 재즈바 DAEGU",
-        "address_text": "대구 중구 달구벌대로 2033 엘디스리젠트호텔B1",
-        "address_components": {
-          "street": "달구벌대로 2033 엘디스리젠트호텔B1",
-          "district": "중구",
-          "city": "대구",
-          "postal_code": null,
-          "country": null
-        },
-        "location_lat": 35.866544299947,
-        "location_lon": 128.586029893578,
+        "name": "Blue Chicago Jazz Bar",
+        "address_text": null,
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": null,
         "booking_link": "http://app.catchtable.co.kr/ct/shop/bluechicago",
-        "notes": "Walk-in 👌🏻",
+        "notes": null,
         "i18n": {
           "name": {
-            "en": "Blue Chicago Jazz Bar DAEGU",
-            "ko": "블루시카고 재즈바 DAEGU"
+            "en": "Blue Chicago Jazz Bar",
+            "ko": "블루 시카고 재즈 바"
           },
-          "address_text": {
-            "en": "B1, Eldis Regent Hotel, 2033 Dalgubeol-daero, Jung-gu, Daegu, South Korea",
-            "ko": "대구 중구 달구벌대로 2033 엘디스리젠트호텔B1"
-          },
-          "notes": {
-            "en": "Walk-ins welcome",
-            "ko": "워크인 가능"
-          }
+          "address_text": null,
+          "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-11-01T05:19:40.720467+09:00",
-    "confidence": 0.9,
-    "extraction_version": "1.0",
-    "sources": [
-      "ig_profile_bluechicago_jazzbar",
-      "maps:https://maps.google.com/?cid=2341519095471557195",
-      "maps:https://maps.google.com/?cid=3227401961431666318",
-      "maps:https://maps.google.com/?cid=9762178173346855247",
-      "maps:https://maps.google.com/?cid=8644880664797627133",
-      "maps:https://maps.google.com/?cid=16084038525693329250",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
-    "handle": "bluechicago_jazzbar",
-    "analyzed": {
-      "ig_handle": "bluechicago_jazzbar",
-      "name": "블루시카고 재즈바 DAEGU",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": "19:30 - 24:00",
-        "tue": "19:30 - 24:00",
-        "wed": "19:30 - 24:00",
-        "thu": "19:30 - 24:00",
-        "fri": "19:30 - 24:00",
-        "sat": "19:30 - 24:00",
-        "sun": "Closed"
-      },
-      "typical_show_times": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": [
-          "20:30"
-        ],
-        "sat": [
-          "20:30"
-        ],
-        "sun": null
-      },
-      "genres": null,
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/bluechicago_jazzbar",
-        "homepage": null,
-        "booking": "http://app.catchtable.co.kr/ct/shop/bluechicago",
-        "google_map": null
-      },
-      "contacts": {
-        "phone": null,
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": "이용문의 | DM",
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "블루시카고 재즈바 DAEGU",
-          "address_text": "대구 중구 달구벌대로 2033 엘디스리젠트호텔B1",
-          "address_components": {
-            "street": "달구벌대로 2033 엘디스리젠트호텔B1",
-            "district": "중구",
-            "city": "대구",
-            "postal_code": null,
-            "country": null
-          },
-          "subway_nearby": null,
-          "booking_link": "http://app.catchtable.co.kr/ct/shop/bluechicago",
-          "notes": "Walk-in 👌🏻",
-          "i18n": {
-            "name": {
-              "en": "Blue Chicago Jazz Bar DAEGU",
-              "ko": "블루시카고 재즈바 DAEGU"
-            },
-            "address_text": {
-              "en": "B1, Eldis Regent Hotel, 2033 Dalgubeol-daero, Jung-gu, Daegu, South Korea",
-              "ko": "대구 중구 달구벌대로 2033 엘디스리젠트호텔B1"
-            },
-            "notes": {
-              "en": "Walk-ins welcome",
-              "ko": "워크인 가능"
-            }
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-01T05:19:40.720467+09:00",
-      "confidence": 0.9,
-      "extraction_version": "1.0",
-      "sources": [
-        "ig_profile_bluechicago_jazzbar"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.0"
-    },
     "i18n": {
       "name": {
-        "en": "Blue Chicago Jazz Bar DAEGU",
-        "ko": "블루시카고 재즈바 DAEGU"
+        "en": "Blue Chicago Jazz Bar",
+        "ko": "블루 시카고 재즈 바"
       },
       "address_text": null,
-      "notes": {
-        "en": "Inquiries | DM",
-        "ko": "(문자 예약문의)"
-      },
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -1399,166 +1284,91 @@
     "_note": "Corrected from bad Gemini enrichment that said 서울 중구 신당동"
   },
   {
+    "raw": "Hi! I'm here to help you with anything you need. What can I do for you today?",
     "ig_handle": "cafeblackfactory",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": "08:00 - 18:00",
-      "tue": "08:00 - 18:00",
-      "wed": "08:00 - 18:00",
-      "thu": "08:00 - 18:00",
-      "fri": "08:00 - 18:00",
-      "sat": "09:00 - 18:00",
-      "sun": "09:00 - 18:00"
-    },
-    "typical_show_times": null,
-    "genres": [
-      "Jazz"
+    "last_analyzed_at": "2025-11-09T05:10:02.804316+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=15368606615208860089",
+      "maps:https://maps.google.com/?cid=11104967951877494647",
+      "maps:https://maps.google.com/?cid=12710004638469705329",
+      "maps:https://maps.google.com/?cid=6319598025238130958",
+      "maps:https://maps.google.com/?cid=14943382454264612877",
+      "maps:https://maps.google.com/?cid=8973972146067361499",
+      "maps:https://maps.google.com/?cid=11572867500062866040",
+      "maps:https://maps.google.com/?cid=17405316689368651143",
+      "maps:https://maps.google.com/?cid=9845062420054443478",
+      "maps:https://maps.google.com/?cid=8635654260314479284",
+      "maps:https://maps.google.com/?cid=5367703272943385037",
+      "maps:https://maps.google.com/?cid=3911310739814899345",
+      "maps:https://maps.google.com/?cid=11333990423426913516",
+      "maps:https://maps.google.com/?cid=3226694237481759410",
+      "maps:https://maps.google.com/?cid=8437803917830255325",
+      "maps:https://maps.google.com/?cid=2694246419071091576",
+      "maps:https://maps.google.com/?cid=15717176507961847062",
+      "maps:https://maps.google.com/?cid=17035204097739530708",
+      "maps:https://maps.google.com/?cid=2797741359351924392",
+      "maps:https://maps.google.com/?cid=1445041976060175713",
+      "gemini:enrich"
     ],
-    "websites": null,
     "links": {
       "instagram": "https://www.instagram.com/cafeblackfactory",
       "homepage": null,
       "booking": null,
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=15368606615208860089",
       "naver_map": "https://naver.me/5UEPg6t1"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "Cafeblackfactory",
-        "address_text": "서울 영등포구 버드나루로 120 리오팰리스 2층",
-        "address_components": {
-          "street": "버드나루로 120 리오팰리스 2층",
-          "district": "영등포구",
-          "city": null,
-          "postal_code": null,
-          "country": null
-        },
-        "location_lat": 37.5288728620173,
-        "location_lon": 126.90813687252,
-        "subway_nearby": null,
+        "name": "Cafe Black Factory",
+        "address_text": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": "2, 9호선 당산역 8번 출구에서 677m",
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Cafeblackfactory",
-            "ko": "카페블랙팩토리"
+            "en": "Cafe Black Factory",
+            "ko": "카페 블랙 팩토리"
           },
           "address_text": {
-            "en": "2nd Floor, Rio Palace, 120, Beodeunaru-ro, Yeongdeungpo-gu, Seoul, South Korea",
-            "ko": "서울 영등포구 버드나루로 120 리오팰리스 2층"
+            "en": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
+            "ko": "서울 영등포구 당산제2동 버드나루로 120"
           },
           "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2024-05-15T12:00:00Z",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=15368606615208860089",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
-    "handle": "cafeblackfactory",
-    "analyzed": {
-      "ig_handle": "cafeblackfactory",
-      "name": "Cafeblackfactory",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": "08:00 - 18:00",
-        "tue": "08:00 - 18:00",
-        "wed": "08:00 - 18:00",
-        "thu": "08:00 - 18:00",
-        "fri": "08:00 - 18:00",
-        "sat": "09:00 - 18:00",
-        "sun": "09:00 - 18:00"
-      },
-      "typical_show_times": null,
-      "genres": [
-        "Jazz"
-      ],
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/cafeblackfactory",
-        "homepage": null,
-        "booking": null,
-        "google_map": null
-      },
-      "contacts": {
-        "phone": null,
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": null,
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Cafeblackfactory",
-          "address_text": "서울 영등포구 버드나루로 120 리오팰리스 2층",
-          "address_components": {
-            "street": "버드나루로 120 리오팰리스 2층",
-            "district": "영등포구",
-            "city": null,
-            "postal_code": null,
-            "country": null
-          },
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "Cafeblackfactory",
-              "ko": "카페블랙팩토리"
-            },
-            "address_text": {
-              "en": "2nd Floor, Rio Palace, 120, Beodeunaru-ro, Yeongdeungpo-gu, Seoul, South Korea",
-              "ko": "서울 영등포구 버드나루로 120 리오팰리스 2층"
-            },
-            "notes": null
-          }
-        }
-      ],
-      "last_analyzed_at": "2024-05-15T12:00:00Z",
-      "confidence": 1.0,
-      "extraction_version": "1.0",
-      "sources": [
-        "instagram"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.0"
-    },
     "i18n": {
       "name": {
-        "en": "Cafeblackfactory",
-        "ko": "카페블랙팩토리"
+        "en": "Cafe Black Factory",
+        "ko": "카페 블랙 팩토리"
       },
       "address_text": null,
       "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "677m from Dangsan Station Exit 8 (Lines 2, 9)",
+        "ko": "2, 9호선 당산역 8번 출구에서 677m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "2, 9호선 당산역 8번 출구에서 677m"
+    }
   },
   {
     "ig_handle": "chunnyun.jazz",
@@ -1905,101 +1715,133 @@
     "last_analyzed_at": "2025-11-11T12:16:21.153853+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=9579756090705903253",
+      "maps:https://maps.google.com/?cid=12941163501484661782",
+      "maps:https://maps.google.com/?cid=4007709537958763013",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/clubmild_official",
-      "homepage": "https://naver.me/FIfJx5mI"
+      "homepage": "https://naver.me/FIfJx5mI",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=9579756090705903253"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": null,
+      "email": null
+    },
+    "websites": [],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Club Mild",
+        "address_text": "1층, 644-6, Sinsa-dong, Gangnam-gu, Seoul, South Korea",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Club Mild",
+            "ko": "클럽 마일드"
+          },
+          "address_text": {
+            "en": "1st Floor, 644-6 Sinsa-dong, Gangnam District, Seoul, South Korea",
+            "ko": "서울 강남구 신사동 644-6 1층"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Club Mild",
+        "ko": "클럽 마일드"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Live Music",
+          "Brunch Restaurant"
+        ],
+        "ko": [
+          "라이브 공연",
+          "브런치 레스토랑"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
+    "raw": "\"What is the meaning of life?\" is one of the most enduring and complex questions humanity faces. There isn't one universally accepted answer; instead, the meaning of life is often found through various philosophical, religious, scientific, and personal lenses.\n\nHere is a comprehensive breakdown of the major perspectives on the meaning of life:\n\n---\n\n## I. Philosophical Perspectives\n\nPhilosophy grapples with this question by examining purpose, value, and existence itself.\n\n### 1. Nihilism (The Absence of Meaning)\n*   **Core Idea:** Life is without objective meaning, purpose, or intrinsic value. Morality does not inherently exist.\n*   **Implication:** Since there is no cosmic script, we are free, but this freedom can lead to despair (passive nihilism) or radical creation (active nihilism).\n\n### 2. Existentialism (Creating Your Own Meaning)\n*   **Key Thinkers:** Jean-Paul Sartre, Albert Camus, Simone de Beauvoir.\n*   **Core Idea:** \"Existence precedes essence.\" We are born as a blank slate (existence) and define our purpose (essence) through our choices, actions, and commitments.\n*   **Implication:** We are radically free and, therefore, radically responsible for creating our own subjective meaning in an otherwise meaningless universe.\n\n### 3. Absurdism (Rebelling Against Meaninglessness)\n*   **Key Thinker:** Albert Camus.\n*   **Core Idea:** The meaning of life arises from the conflict (the \"Absurd\") between humanity's innate desire for meaning and the universe's cold, silent indifference.\n*   **Implication:** The answer is not to find meaning, nor to despair, but to *rebel* against the Absurd by living passionately within its confines, acknowledging the meaninglessness but choosing engagement anyway (e.g., Sisyphus being happy).\n\n### 4. Hedonism and Epicureanism (The Pursuit of Pleasure)\n*   **Core Idea:** The primary purpose of life is to maximize pleasure and minimize pain.\n*   **Epicurean Refinement:** True pleasure is not wild indulgence but **ataraxia**—a state of serene calmness, free from fear and bodily pain, achieved through simple living, friendship, and intellectual contemplation.\n\n### 5. Eudaimonia (Flourishing and Virtue)\n*   **Key Thinker:** Aristotle.\n*   **Core Idea:** The meaning of life is to achieve **Eudaimonia**, often translated as \"human flourishing,\" \"living well,\" or \"the good life.\"\n*   **Implication:** This is achieved by cultivating **virtue** (excellence) and exercising reason, as these are the highest capacities of human beings.\n\n### 6. Stoicism (Living in Accordance with Nature)\n*   **Key Thinkers:** Marcus Aurelius, Epictetus, Seneca.\n*   **Core Idea:** The meaning of life is to live virtuously in agreement with Nature (or Divine Reason/Logos).\n*   **Implication:** Focus only on what you can control (your judgments and actions) and accept what you cannot control with equanimity. Duty, reason, and inner tranquility are the highest goods.\n\n---\n\n## II. Religious and Spiritual Perspectives\n\nMost organized religions provide clear, pre-defined answers to the meaning of life, centered on a relationship with a higher power or ultimate reality.\n\n### 1. Theistic Religions (Christianity, Islam, Judaism)\n*   **Core Idea:** Life's meaning is derived from a Creator God.\n*   **Purpose:** To know, love, serve, and obey God; to adhere to divine law; and to achieve salvation or union with God in an afterlife. For example, in Christianity, the purpose is often summarized as glorifying God and enjoying him forever.\n\n### 2. Eastern Religions (Buddhism, Hinduism)\n*   **Hinduism:** The purpose is to realize one's true self (Atman) is identical to the ultimate reality (Brahman), thereby achieving **Moksha** (liberation from the cycle of reincarnation, Samsara). This is done through fulfilling one's duty (Dharma).\n*   **Buddhism:** The purpose is to end suffering (Dukkha) caused by attachment and desire. This is achieved by following the Eightfold Path, leading to **Nirvana** (a state of profound peace, liberation, and non-self).\n\n---\n\n## III. Scientific and Biological Perspectives\n\nScience generally addresses *how* life functions, not *why* it exists in a teleological sense, but it offers a naturalistic framework for purpose.\n\n### 1. Evolutionary Biology\n*   **Core Idea:** From a purely biological perspective, the \"purpose\" of any organism is to survive long enough to **reproduce** and pass its genetic material to the next generation.\n*   **Implication:** Meaning is rooted in the continuation of life itself. Human consciousness, cooperation, and morality are complex adaptations that aid survival.\n\n### 2. Humanism and Secularism\n*   **Core Idea:** Meaning is found entirely within the human experience, without recourse to the supernatural.\n*   **Purpose:** To maximize human well-being, foster empathy, contribute to societal progress, advance knowledge, and cultivate deep, meaningful relationships while we are alive.\n\n---\n\n## IV. Psychological and Personal Perspectives\n\nModern psychology often focuses on the *feeling* of meaning, which is highly individualized.\n\n### 1. Self-Actualization (Maslow)\n*   **Core Idea:** The ultimate human need, after basic needs are met, is to become the best, most complete version of oneself—to realize one's full potential.\n\n### 2. Will to Meaning (Viktor Frankl / Logotherapy)\n*   **Key Thinker:** Viktor Frankl (Holocaust survivor).\n*   **Core Idea:** The primary driving force in human life is the **will to meaning**, not the pursuit of pleasure (Freud) or power (Adler).\n*   **How Meaning is Found:** Meaning can be discovered in three ways:\n    1.  By creating a work or doing a deed (achievement).\n    2.  By experiencing something or encountering someone (love/appreciation).\n    3.  By the attitude we take toward unavoidable suffering.\n\n---\n\n## Conclusion: The Synthesis\n\nBecause no single answer satisfies everyone, the modern understanding of the meaning of life often resolves into one of two camps:\n\n1.  **Objective Meaning (External):** Meaning is inherent in the universe, prescribed by God, Nature, or the fundamental laws of existence. (The domain of religion and some philosophy.)\n2.  **Subjective Meaning (Internal):** Meaning is something that must be created, chosen, or discovered by the individual. (The domain of existentialism, humanism, and psychology.)\n\nUltimately, the question \"What is the meaning of life?\" is often best answered by asking **\"What gives *my* life meaning?\"**",
     "ig_handle": "concino_concrete",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": "14:00-19:00",
-      "tue": "14:00-19:00",
-      "wed": null,
-      "thu": null,
-      "fri": "14:00-19:00",
-      "sat": "12:00-19:00",
-      "sun": "12:00-19:00"
-    },
-    "typical_show_times": null,
-    "genres": [
-      "Art"
+    "last_analyzed_at": "2025-11-09T05:13:29.465041+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=9468222041876555762",
+      "gemini:enrich"
     ],
-    "websites": null,
     "links": {
       "instagram": "https://www.instagram.com/concino_concrete",
-      "homepage": null,
+      "homepage": "https://booking.naver.com/booking/12/bizes/1530500",
       "booking": null,
-      "google_map": null
+      "google_map": "https://maps.google.com/?cid=9468222041876555762"
     },
     "contacts": {
       "phone": "050-71374-5800",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
+    "websites": [],
     "locations": [
       {
         "location_id": "main",
-        "name": "CONCINO CONCRETE PAJU",
+        "name": "Concino Concrete Concert Hall",
         "address_text": "17 Saeori-ro 161beon-gil, Tanhyeon-myeon, Paju-si, Gyeonggi-do, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
         "subway_nearby": null,
         "booking_link": null,
-        "notes": "예약은 따로 받지 않습니다-No reservations",
+        "notes": null,
         "i18n": {
           "name": {
-            "en": "CONCINO CONCRETE PAJU",
-            "ko": "콩치노 콘크리트 파주"
+            "en": "Concino Concrete Concert Hall",
+            "ko": "콘치노 콘크리트 콘서트홀"
           },
           "address_text": {
             "en": "17 Saeori-ro 161beon-gil, Tanhyeon-myeon, Paju-si, Gyeonggi-do, South Korea",
             "ko": "경기 파주시 탄현면 새오리로161번길 17"
           },
-          "notes": {
-            "en": "No reservations",
-            "ko": "예약은 따로 받지 않습니다"
-          }
+          "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-10-29T08:28:16.154889+09:00",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "ig_profile_concino_concrete",
-      "maps:https://maps.google.com/?cid=9468222041876555762",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
     "i18n": {
       "name": {
-        "en": "Concino Concrete",
-        "ko": "콩치노 콘크리트"
+        "en": "Concino Concrete Concert Hall",
+        "ko": "콘치노 콘크리트 콘서트홀"
       },
       "address_text": null,
-      "notes": {
-        "en": "No reservations",
-        "ko": "예약은 따로 받지 않습니다"
-      },
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -2010,14 +1852,18 @@
     "last_analyzed_at": "2025-11-11T12:17:04.763112+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cottonclub_seoul/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cottonclub_seoul/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=68841251885151081",
+      "maps:https://maps.google.com/?cid=7178488417803840401",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/cottonclub_seoul",
-      "booking": "https://naver.me/FDGU6jCE"
+      "booking": "https://naver.me/FDGU6jCE",
+      "google_map": "https://maps.google.com/?cid=68841251885151081"
     },
     "contacts": {
       "email": null,
@@ -2147,18 +1993,58 @@
     "last_analyzed_at": "2025-11-11T12:20:41.532936+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=18425494115643834400",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/edls_official",
-      "homepage": "https://litt.ly/edls"
+      "homepage": "https://litt.ly/edls",
+      "booking": null,
+      "google_map": null
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": null,
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "EDLS",
+        "address_text": "서울 성동구 성수이로14길 14",
+        "address_components": null,
+        "location_lat": 37.5414076146252,
+        "location_lon": 127.056908279292,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "EDLS",
+            "ko": "EDLS"
+          },
+          "address_text": {
+            "en": "14 Seongsui-ro 14-gil, Seongdong-gu, Seoul, South Korea",
+            "ko": "서울 성동구 성수이로14길 14"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "EDLS",
+        "ko": "EDLS"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
@@ -2457,18 +2343,58 @@
     "last_analyzed_at": "2025-11-11T12:23:47.282402+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gc_jazzpicnic/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gc_jazzpicnic/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=195886713433759621",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/gc_jazzpicnic",
-      "homepage": "https://linktr.ee/gc_jazzpicnic"
+      "homepage": "https://linktr.ee/gc_jazzpicnic",
+      "booking": null,
+      "google_map": null
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": null,
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Paloznaki Jazzpiknik",
+        "address_text": "Sport Street 4, Paloznak, 8229 Hungary",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Paloznaki Jazz Picnic",
+            "ko": "팔로즈나키 재즈 피크닉"
+          },
+          "address_text": {
+            "en": "Sport Street 4, Paloznak, 8229 Hungary",
+            "ko": "헝가리 팔로즈나크 스포르트 거리 4, 8229"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Paloznaki Jazz Picnic",
+        "ko": "팔로즈나키 재즈 피크닉"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
@@ -2801,83 +2727,32 @@
     }
   },
   {
+    "raw": "Compare and contrast the following:\n\n1.  **The Roman Republic (c. 509 BCE – 27 BCE)**\n2.  **The Roman Empire (27 BCE – 476 CE in the West)**\n\n---\n\nThe transition from the Roman Republic to the Roman Empire marks one of the most significant transformations in Western history. While both eras shared the core identity of *Roma* (Rome), they differed profoundly in their political structure, the concentration of power, and the nature of citizenship and governance.\n\nHere is a detailed comparison and contrast of the Roman Republic and the Roman Empire.\n\n---\n\n## Comparison: Similarities Between the Republic and the Empire\n\nDespite their structural differences, the Republic and the Empire shared crucial foundational elements that maintained Roman identity and continuity.\n\n### 1. Core Institutions and Identity\n*   **Roman Law:** The foundational principles of Roman jurisprudence (developed significantly during the Republic) remained the backbone of imperial administration.\n*   **The Senate:** While stripped of executive power, the Senate continued to exist under the Empire. It served as a prestigious advisory body, a venue for high-level careers (especially governorships), and a symbolic link to Rome’s glorious past.\n*   **The Roman Army:** The professional, disciplined legions remained the ultimate guarantor of Roman power, both internally and externally. Loyalty shifted from the state to the Emperor, but the military structure remained fundamentally similar.\n*   **Territorial Scope:** The Empire inherited the vast territories, infrastructure (roads, aqueducts), and administrative divisions established during the late Republic.\n\n### 2. Cultural and Religious Continuity\n*   **Latin Language:** Latin remained the language of administration, law, and the military throughout the West.\n*   **Pietas and Romanitas:** The concept of *pietas* (duty to family, state, and gods) and *Romanitas* (what it meant to be Roman) persisted. Citizens, whether under a consul or an emperor, still identified strongly with Roman cultural norms.\n*   **Imperial Cult:** While the Emperor gained divine status, this practice was an extension of the Republican practice of deifying great figures and abstract concepts (like Victory or Liberty).\n\n---\n\n## Contrast: Differences Between the Republic and the Empire\n\nThe differences primarily center on the locus of sovereignty, the role of elections, and the management of the military.\n\n| Feature | The Roman Republic (c. 509 – 27 BCE) | The Roman Empire (27 BCE – 476 CE) |\n| :--- | :--- | :--- |\n| **Head of State** | **Two Consuls**, elected annually, possessing *imperium* (supreme command). Power was temporary and shared. | **The Emperor (Princeps/Augustus)**. Power was permanent, centralized, and theoretically absolute. |\n| **Locus of Sovereignty** | **The Senate and the People of Rome (SPQR)**. Power derived theoretically from popular assemblies. | **The Emperor**. Sovereignty resided entirely in the person of the Augustus. |\n| **Executive Power** | Dispersed among numerous elected magistrates (Consuls, Praetors, Aediles, Censors, Tribunes). Subject to vetoes and checks. | Concentrated in the Emperor, who held the powers of a Consul, Tribune, and Pontifex Maximus simultaneously. |\n| **Military Control** | Armies were raised and commanded by elected generals (Consuls or Proconsuls), often leading to civil wars over loyalty. | The Emperor held supreme *imperium* over all legions. The army was professionalized and loyal only to the Emperor. |\n| **Elections** | Frequent, competitive elections were the primary mechanism for political advancement and accountability. | Elections became farcical or ceased entirely. The Emperor nominated or decreed appointments to all major offices. |\n| **Political Stability** | Characterized by intense factionalism, corruption, and growing instability, leading to multiple civil wars in its final century. | Characterized by relative internal peace (*Pax Romana*), though succession crises often led to localized violence or military coups. |\n| **Scope of Citizenship** | Citizenship was fiercely guarded, though gradually expanded through conquest and alliances. | Citizenship was expanded much more broadly, culminating in the **Edict of Caracalla (212 CE)**, which granted citizenship to nearly all free inhabitants of the Empire. |\n\n### 1. Concentration vs. Distribution of Power (The Core Difference)\n\n**The Republic:** The guiding principle was the avoidance of monarchy through the strict limitation and distribution of power. Magistrates served short terms (usually one year), and colleagues could veto one another. This system, which worked well for a city-state, broke down under the strain of managing a vast empire.\n\n**The Empire:** Following the turmoil of the late Republic, Octavian (Augustus) cleverly dismantled Republican structures while maintaining their outward appearance. He became *Princeps* (First Citizen) rather than King. Crucially, he accumulated the powers of several Republican offices (Tribunician Power, Proconsular *imperium*) into his own person, effectively making him the supreme and permanent ruler without technically abolishing the Republic.\n\n### 2. The Role of the Military\n\nThe Republican army’s loyalty was initially to the state, but Marius’s reforms created professional legions loyal to the general who paid them (like Sulla, Pompey, and Caesar). This military ambition directly caused the Republic’s collapse.\n\nThe Empire solved this by placing the entire army under the direct, undisputed control of the Emperor. This centralization of military command was the single most important guarantee of the Empire’s stability for centuries.\n\n### 3. Political Discourse and Opportunity\n\n**The Republic:** Politics was a public, adversarial, and often theatrical affair played out in the Forum and the Assemblies. Wealthy elites competed fiercely for status through holding magistracies.\n\n**The Empire:** Public political discourse was replaced by imperial patronage. Advancement was dependent on the Emperor’s favor rather than popular election or oratorical skill. While provincial administration remained important, the true center of power shifted from the Roman Forum to the Imperial Palace.\n\n## Conclusion\n\nThe Roman Republic was a system defined by **shared, temporary power** and **competitive governance**, which ultimately failed to adapt to the demands of empire, collapsing into factional warfare.\n\nThe Roman Empire was a **highly centralized, autocratic system** that prioritized stability (*Pax Romana*) and efficiency over popular participation. It preserved Roman culture, law, and military might by effectively merging all meaningful political authority into the person of the Emperor, succeeding where the competitive, fragmented leadership of the late Republic had failed.",
     "ig_handle": "houseofblue.seoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": null,
-    "genres": [
-      "Jazz",
-      "Blues"
-    ],
-    "websites": null,
-    "links": {
-      "instagram": "https://www.instagram.com/houseofblue.seoul",
-      "homepage": null,
-      "booking": "https://app.catchtable.co.kr/ct/shop/houseofblue.seoul",
-      "google_map": null,
-      "naver_map": "https://naver.me/5LHsBEmz"
-    },
-    "contacts": {
-      "phone": null,
-      "email": null
-    },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "하우스 오브 블루 재즈바",
-        "address_text": "6 Jahamun-ro 9-gil, Jongno District, Seoul, South Korea",
-        "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": null,
-        "booking_link": "https://app.catchtable.co.kr/ct/shop/houseofblue.seoul",
-        "notes": "경복궁, 서촌에 위치한 작은 유럽 🇮🇹",
-        "i18n": {
-          "name": {
-            "en": "House of Blue Jazz Bar",
-            "ko": "하우스 오브 블루 재즈바"
-          },
-          "address_text": {
-            "en": "6, Jahamun-ro 9-gil, Jongno-gu, Seoul, South Korea",
-            "ko": "서울 종로구 자하문로9길 6"
-          },
-          "notes": {
-            "en": "A small Europe located in Gyeongbokgung and Seochon 🇮🇹",
-            "ko": "경복궁, 서촌에 위치한 작은 유럽 🇮🇹"
-          }
-        }
-      }
-    ],
-    "last_analyzed_at": "2024-07-25T00:00:00Z",
+    "last_analyzed_at": "2025-11-09T05:10:30.217498+09:00",
     "confidence": 1.0,
-    "extraction_version": "1.0",
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "ig_profile",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=17671353726141817992",
       "maps:https://maps.google.com/?cid=10087528049587969518",
       "gemini:enrich"
     ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
-    "i18n": {
-      "name": {
-        "en": "House of Blue Jazz Bar",
-        "ko": "하우스 오브 블루 재즈바"
-      },
-      "address_text": null,
-      "notes": {
-        "en": "A small Europe located in Gyeongbokgung and Seochon 🇮🇹 Reservation, venue rental inquiries via DM or CATCHTABLE👇🏻",
-        "ko": "경복궁, 서촌에 위치한 작은 유럽 🇮🇹 예약, 대관문의 DM or CATCHTABLE👇🏻"
-      },
-      "food_policy": null,
-      "age_limit": null
+    "links": {
+      "instagram": "https://www.instagram.com/houseofblue.seoul",
+      "booking": "https://app.catchtable.co.kr/ct/shop/houseofblue.seoul",
+      "google_map": "https://maps.google.com/?cid=17671353726141817992",
+      "naver_map": "https://naver.me/5LHsBEmz"
+    },
+    "contacts": {
+      "email": null,
+      "phone": null
     },
     "naver_subway_nearby": "3호선 경복궁역 2번 출구에서 398m"
   },
@@ -3069,109 +2944,101 @@
     "naver_subway_nearby": "경의중앙한남역 1번 출구에서 664m\n미터"
   },
   {
+    "raw": "Write an article about the discovery of the earliest known evidence of human language.\n\n***\n\n## Whispers in the Stone: Unraveling the Earliest Evidence of Human Language\n\nThe human capacity for language—the complex, nuanced system that allows us to share thoughts, build societies, and create art—is arguably our defining characteristic. But when did this remarkable ability truly begin? For millennia, the origins of language were confined to theory and speculation, locked away in the mystery of prehistory.\n\nRecent archaeological, paleoanthropological, and genetic discoveries are finally allowing researchers to glimpse the dawn of spoken communication, pushing back the timeline for complex human interaction further than ever before. The search for the earliest evidence of language is not about finding a Rosetta Stone; it’s about piecing together subtle, indirect clues preserved in bone, tools, and ancient cave walls.\n\n### The Anatomy of Speech: Brains and Bones\n\nOne of the most compelling lines of evidence focuses on the physical requirements for speech. Human speech relies on a specific vocal tract structure—a lowered larynx—that allows for the wide range of sounds necessary for complex phonetics.\n\nFossil evidence, though sparse, has provided key insights. The discovery of the **hyoid bone** in archaic humans, particularly Neanderthals and early *Homo sapiens*, is crucial. The hyoid is the only bone in the body not directly articulated with another bone, serving as an anchor for the tongue and larynx.\n\nIn the early 1980s, the discovery of a Neanderthal hyoid bone at Kebara Cave in Israel suggested that Neanderthals possessed the necessary skeletal apparatus for modern-like vocalization. While some debate remains regarding the precise control and subtlety of their speech, the anatomy strongly suggests a capacity for complex sound production far beyond that of earlier hominins like *Australopithecus*.\n\nFurthermore, the increasing complexity observed in brain endocasts (molds of the inside of the skull) reveals the expansion of crucial language-related areas, such as **Broca’s area** (associated with speech production) and **Wernicke’s area** (associated with language comprehension), in early *Homo sapiens*.\n\n### The Cognitive Leap: Tools and Symbolism\n\nLanguage is more than just making sounds; it requires the cognitive ability to use arbitrary symbols (words) to represent complex ideas. This cognitive leap is reflected in material culture.\n\nThe shift from simple Oldowan tools to the more standardized and sophisticated **Mousterian stone tool industry** used by Neanderthals and early modern humans suggests planning, teaching, and abstract thought—all prerequisites for complex communication. Creating a prepared core, for instance, requires an understanding of geometry and sequence that implies sophisticated instruction.\n\nHowever, the most powerful evidence for symbolic thought—and thus, likely language—emerges with the **Upper Paleolithic Revolution**, dating back around 50,000 years. This era saw an explosion of cave art, figurative sculptures (like the famous Lion Man of Hohlenstein-Stadel), and personal ornamentation (beads and perforated shells).\n\nThese artifacts are not simply utilitarian; they are abstract representations. Creating a cave painting of a bison requires the mental ability to separate the idea of the bison from the actual animal, a process deeply intertwined with the symbolic nature of language.\n\n### Genomic Clues: The FOXP2 Gene\n\nPerhaps the most concrete evidence linking genetics to the potential origins of language comes from the **FOXP2 gene**. This gene is known to regulate the development of brain circuits required for fine motor control, particularly those involved in the rapid articulation of speech.\n\nModern humans share a specific variant of the FOXP2 gene. Crucially, this variant is present in Neanderthals and Denisovans. Genetic analysis suggests that the modern human version of FOXP2 became fixed in the *Homo sapiens* lineage sometime **before 300,000 years ago**.\n\nWhile having the gene does not automatically equate to full language capability—it is one component among many—its presence in our common ancestors with Neanderthals suggests that the *potential* for sophisticated vocal learning and speech syntax was present much earlier than the cultural explosion associated with modern *Homo sapiens*.\n\n### Reaching Back: *Homo erectus* and Communication\n\nIf we trace the line further back, to *Homo erectus*, the evidence becomes thinner but the necessity of some form of communication grows. *H. erectus* mastered fire, expanded across continents, and used Acheulean hand-axes for nearly two million years. Such widespread, long-term success required social cooperation and the transmission of knowledge across generations.\n\nDid *H. erectus* speak? Many linguists argue that while they likely possessed a rudimentary, perhaps protolanguage (more akin to simple noun-verb combinations), they probably lacked the grammatical complexity—syntax—that characterizes modern language. Their cognitive toolkit, as reflected in tool use, suggests communication adequate for survival, but perhaps not for poetry.\n\n### The Unwritten History\n\nThe discovery of the earliest language remains an elusive goal. Language leaves no direct fossils. Instead, researchers are piecing together a mosaic built from biological prerequisites (vocal tract, brain structure), cognitive milestones (symbolic art, complex tools), and genetic markers.\n\nWhat these varied lines of evidence suggest is that language likely did not spring into existence fully formed. Instead, it evolved gradually: from basic calls, to protolanguage in species like *Homo erectus*, to the sophisticated, syntactically rich language we use today, which may have solidified with the emergence of anatomically modern *Homo sapiens* between 100,000 and 50,000 years ago.\n\nThe whispers in the stone—the traces of early minds grappling with the world—continue to inform us that the capacity for complex thought, and the ability to share it, is an ancient, deeply woven thread in the tapestry of human evolution.",
     "ig_handle": "jazperformance",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": null,
-    "genres": [
-      "Jazz"
+    "last_analyzed_at": "2025-11-09T05:10:19.576008+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=11008665381407066468",
+      "maps:https://maps.google.com/?cid=18262202458583418314",
+      "maps:https://maps.google.com/?cid=12961168892280702927",
+      "maps:https://maps.google.com/?cid=3512824848346026630",
+      "maps:https://maps.google.com/?cid=5936925627923403423",
+      "maps:https://maps.google.com/?cid=11842852244500454903",
+      "maps:https://maps.google.com/?cid=2095809664248845139",
+      "maps:https://maps.google.com/?cid=12922401303773791025",
+      "maps:https://maps.google.com/?cid=714310057948599705",
+      "maps:https://maps.google.com/?cid=18103884637851195875",
+      "maps:https://maps.google.com/?cid=1464038180014595385",
+      "maps:https://maps.google.com/?cid=1629884300631888791",
+      "maps:https://maps.google.com/?cid=12950663042103342245",
+      "maps:https://maps.google.com/?cid=68841251885151081",
+      "maps:https://maps.google.com/?cid=9176070558265640633",
+      "maps:https://maps.google.com/?cid=2546962948746391244",
+      "maps:https://maps.google.com/?cid=13163330699457356298",
+      "maps:https://maps.google.com/?cid=7456131391953130487",
+      "maps:https://maps.google.com/?cid=12958000001331928624",
+      "maps:https://maps.google.com/?cid=15331558620770093426",
+      "maps:https://maps.google.com/?cid=908920578996579005",
+      "maps:https://maps.google.com/?cid=16693826049875737167",
+      "maps:https://maps.google.com/?cid=4519949849819397114",
+      "gemini:enrich"
     ],
-    "websites": null,
     "links": {
       "instagram": "https://www.instagram.com/jazperformance",
       "homepage": null,
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=8406116666556923682",
+      "google_map": "https://maps.google.com/?cid=1464038180014595385",
       "naver_map": "https://naver.me/56RcLYGG"
     },
     "contacts": {
-      "phone": "02-498-6934",
+      "phone": "02-465-9901",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "JAZ",
-        "address_text": "2-44 Hwayang-dong, Gwangjin District, Seoul, South Korea",
+        "name": "재즈레스토랑",
+        "address_text": "서울 광진구 화양동 18-5",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": "어린이대공원역 과 건대역 사이",
+        "location_lat": 37.5477648961168,
+        "location_lon": 127.069968240678,
+        "subway_nearby": "7호선 어린이대공원역 4번 출구에서 329m",
         "booking_link": null,
-        "notes": "An old jazz club established since 1993 (33 years). Described as a quiet and comfortable hidden gem. Serves wine and whiskey. Located near Sejong University.",
+        "notes": null,
         "i18n": {
           "name": {
-            "en": "JAZ",
-            "ko": "JAZ"
+            "en": "Jazz Restaurant",
+            "ko": "재즈레스토랑"
           },
           "address_text": {
-            "en": "2-44 Hwayang-dong, Gwangjin District, Seoul, South Korea",
-            "ko": "서울 광진구 화양동 2-44"
+            "en": "18-5 Hwayang-dong, Gwangjin District, Seoul, South Korea",
+            "ko": "서울 광진구 화양동 18-5"
           },
-          "notes": {
-            "en": "An old jazz club established since 1993 (33 years). Described as a quiet and comfortable hidden gem. Serves wine and whiskey. Located near Sejong University.",
-            "ko": "1993년에 설립된 (33년 된) 오래된 재즈 클럽입니다. 조용하고 편안한 숨겨진 보석 같은 곳으로 묘사됩니다. 와인과 위스키를 제공합니다. 세종대학교 근처에 위치해 있습니다."
-          }
+          "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-10-31T09:28:29.507490+09:00",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram.com/jazperformance",
-      "maps:https://maps.google.com/?cid=3512824848346026630",
-      "maps:https://maps.google.com/?cid=5936925627923403423",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=10469024144103497378",
-      "maps:https://maps.google.com/?cid=16693826049875737167",
-      "maps:https://maps.google.com/?cid=16084038525693329250",
-      "maps:https://maps.google.com/?cid=18262202458583418314",
-      "maps:https://maps.google.com/?cid=14974638035587022407",
-      "maps:https://maps.google.com/?cid=714310057948599705",
-      "maps:https://maps.google.com/?cid=11008665381407066468",
-      "maps:https://maps.google.com/?cid=3803486770832132230",
-      "maps:https://maps.google.com/?cid=13163330699457356298",
-      "maps:https://maps.google.com/?cid=16541142817595661083",
-      "maps:https://maps.google.com/?cid=12950663042103342245",
-      "maps:https://maps.google.com/?cid=12961168892280702927",
-      "maps:https://maps.google.com/?cid=11842852244500454903",
-      "maps:https://maps.google.com/?cid=9176070558265640633",
-      "maps:https://maps.google.com/?cid=5550789818210732130",
-      "maps:https://maps.google.com/?cid=12958000001331928624",
-      "maps:https://maps.google.com/?cid=10087528049587969518",
-      "maps:https://maps.google.com/?cid=7456131391953130487",
-      "maps:https://maps.google.com/?cid=15245543658347824413",
-      "maps:https://maps.google.com/?cid=17205286011885073919",
-      "maps:https://maps.google.com/?cid=15331558620770093426",
-      "maps:https://maps.google.com/?cid=15764128219466662741",
-      "maps:https://maps.google.com/?cid=5971072195428602943",
-      "maps:https://maps.google.com/?cid=1464038180014595385",
-      "maps:https://maps.google.com/?cid=8406116666556923682",
-      "maps:https://maps.google.com/?cid=2546962948746391244",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
     "i18n": {
       "name": {
-        "en": "JAZ",
-        "ko": "JAZ"
+        "en": "Jazz Restaurant",
+        "ko": "재즈레스토랑"
       },
       "address_text": null,
       "notes": null,
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": {
+        "en": "329m from Children's Grand Park Station Exit 4 on Line 7",
+        "ko": "7호선 어린이대공원역 4번 출구에서 329m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "7호선 어린이대공원역 4번 출구에서 329m"
+    }
   },
   {
     "raw": "The **European Union (EU)** is a unique political and economic partnership of 27 member states located primarily in Europe.\n\nHere is a comprehensive overview of the EU, covering its history, structure, objectives, and impact:\n\n---\n\n## 1. Core Identity and Function\n\nThe EU is often described as a **supranational political and economic union**. This means that member states have pooled some of their sovereignty, allowing EU institutions to make binding decisions in specific areas that apply across all member countries.\n\n*   **Members:** Currently 27 Member States (following the UK's departure, or \"Brexit,\" in 2020).\n*   **Official Languages:** 24.\n*   **Currency:** The **Euro (€)**, used by 20 member states (the Eurozone).\n\n---\n\n## 2. Historical Evolution\n\nThe EU was born out of the desire to ensure lasting peace after the devastating World Wars by linking the economies of Europe.\n\n| Phase | Key Development | Significance |\n| :--- | :--- | :--- |\n| **1951** | **Treaty of Paris** | Established the **European Coal and Steel Community (ECSC)** by the \"Inner Six\" (Belgium, France, Germany, Italy, Luxembourg, Netherlands). |\n| **1957** | **Treaties of Rome** | Created the **European Economic Community (EEC)**, establishing a common market. |\n| **1973-1995** | **Enlargement** | Membership expanded to include the UK, Ireland, Denmark, Greece, Spain, Portugal, and Austria. |\n| **1993** | **Maastricht Treaty** | Officially established the **European Union (EU)** and laid the groundwork for the Euro and common foreign policy. |\n| **2002** | **Euro Introduction** | Euro banknotes and coins entered circulation in 12 countries. |\n| **2004-2007** | **Major Eastern Enlargement** | Ten Eastern European countries joined, unifying much of the continent. |\n| **2020** | **Brexit** | The United Kingdom formally withdrew from the EU. |\n\n---\n\n## 3. Key Objectives of the European Union\n\nThe EU operates under several core goals outlined in its founding treaties:\n\n1.  **Promote Peace and Values:** Uphold democracy, the rule of law, human rights, and equality among its citizens.\n2.  **Establish a Single Market (Internal Market):** Ensure the free movement of **Goods, Services, Capital, and People** (the \"Four Freedoms\") without internal tariffs or barriers.\n3.  **Economic and Monetary Union (EMU):** Coordinate economic policies and manage the common currency (the Euro).\n4.  **Common Foreign and Security Policy (CFSP):** Speak with one voice on the world stage in diplomacy and defense.\n5.  **Cooperation on Justice and Home Affairs:** Work together on issues like immigration, asylum, and combating cross-border crime.\n\n---\n\n## 4. The Institutions of the European Union\n\nThe EU's decision-making process involves several key institutions that balance the interests of the Member States, the citizens, and the Union as a whole.\n\n### A. The Legislators\n\n| Institution | Role | Composition/Representation |\n| :--- | :--- | :--- |\n| **European Parliament (EP)** | **Represents the citizens.** It co-decides on EU laws, approves the EU budget, and oversees other EU institutions. | Directly elected by EU citizens every five years (currently ~705 Members of the European Parliament, or MEPs). |\n| **Council of the European Union** (Council of Ministers) | **Represents the governments of the Member States.** It negotiates, adopts, and amends EU laws, usually jointly with the Parliament. | Composed of relevant government ministers from each Member State (e.g., Finance Ministers meet for economic issues). |\n\n### B. The Executive\n\n| Institution | Role | Composition/Representation |\n| :--- | :--- | :--- |\n| **European Commission** | **The executive arm and initiator of legislation.** It proposes new laws, implements decisions, upholds the EU treaties, and manages the EU budget. | 27 Commissioners (one from each Member State), headed by the President of the Commission. |\n\n### C. The Judiciary and Finance\n\n| Institution | Role | Significance |\n| :--- | :--- | :--- |\n| **Court of Justice of the European Union (CJEU)** | **Ensures that EU law is interpreted and applied uniformly** across all Member States. | Its rulings are supreme over national laws in areas where the EU has competence. |\n| **European Central Bank (ECB)** | **Manages the Euro** and sets monetary policy for the Eurozone countries. | Based in Frankfurt, Germany. |\n| **European Council** | **Sets the EU’s overall political direction and priorities.** (Note: This is distinct from the Council of the EU). | Composed of the Heads of State or Government of the 27 Member States, the President of the European Council, and the President of the Commission. |\n\n---\n\n## 5. Major Policy Areas\n\nThe EU's influence spans nearly every aspect of life within the Union:\n\n*   **Single Market:** The free movement of goods means that a product legally sold in one EU country can generally be sold in all others without re-testing or tariffs.\n*   **Agriculture (CAP):** The Common Agricultural Policy provides subsidies and support to farmers across the bloc.\n*   **Trade Policy:** The EU negotiates trade agreements with third countries as a single bloc, giving it immense global bargaining power.\n*   **Digital Policy:** The EU is a global leader in digital regulation, notably with the **General Data Protection Regulation (GDPR)** and the **Digital Services Act (DSA)**.\n*   **Environmental Policy:** Sets ambitious climate targets (e.g., the European Green Deal) aimed at making the EU climate-neutral by 2050.\n\n---\n\n## 6. Criticisms and Challenges\n\nDespite its successes, the EU faces ongoing challenges:\n\n1.  **Democratic Deficit:** Critics argue that the most powerful body, the European Commission, is not directly elected, leading to concerns about accountability.\n2.  **Sovereignty Loss:** Member states often struggle with the degree of control they must cede to Brussels, particularly on sensitive issues like taxation or immigration.\n3.  **Bureaucracy (\"Red Tape\"):** The sheer volume of regulations can be seen as burdensome, especially for small businesses.\n4.  **Internal Division:** Differences in economic strength (e.g., North vs. South Europe) and political values (e.g., disagreements over the rule of law in certain Eastern member states) cause tension.",
@@ -3817,18 +3684,60 @@
     "last_analyzed_at": "2025-11-11T12:18:27.514160+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=16113452973903227162",
+      "maps:https://maps.google.com/?cid=16110422360233387664",
+      "maps:https://maps.google.com/?cid=814790026414209614",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/jrja_roy",
-      "homepage": "https://m.blog.naver.com/roy_jazz_art_hall?proxyReferer=https%253A%252F%252Fm.place.naver.com%252Fplace%252F1396699431%252Fhome%253Fentry%253Dpll%2526view%253Dblog_blog_e704d02780a2eb77720bf703f86c57cb_419114969&tab=1&trackingCode=naver_place"
+      "homepage": "https://m.blog.naver.com/roy_jazz_art_hall?proxyReferer=https%253A%252F%252Fm.place.naver.com%252Fplace%252F1396699431%252Fhome%253Fentry%253Dpll%2526view%253Dblog_blog_e704d02780a2eb77720bf703f86c57cb_419114969&tab=1&trackingCode=naver_place",
+      "booking": null,
+      "google_map": null
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": null,
+      "email": null
+    },
+    "websites": [
+      "https://m.blog.naver.com/roy_jazz_art_hall?proxyReferer=https%253A%252F%252Fm.place.naver.com%252Fplace%252F1396699431%252Fhome%253Fentry%253Dpll%2526view%253Dblog_blog_e704d02780a2eb77720bf703f86c57cb_419114969&tab=1&trackingCode=naver_place"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Roy Jazz Art Hall",
+        "address_text": null,
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Roy Jazz Art Hall",
+            "ko": "로이 재즈 아트 홀"
+          },
+          "address_text": null,
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Roy Jazz Art Hall",
+        "ko": "로이 재즈 아트 홀"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
@@ -4085,100 +3994,81 @@
     }
   },
   {
+    "raw": "For a perfect square, the probability of a random integer $x$ being a perfect square is 0.\n\nThis is because the set of perfect squares $\\{1, 4, 9, 16, 25, \\dots\\}$ is a discrete, countable set, while the set of all integers $\\mathbb{Z}$ (or $\\mathbb{N}$) is also countable.\n\nIn the context of probability on an infinite discrete set like $\\mathbb{N}$ (natural numbers), the standard way to define the probability $P(A)$ of a subset $A \\subseteq \\mathbb{N}$ is usually by taking the limit of the density:\n$$P(A) = \\lim_{N \\to \\infty} \\frac{|A \\cap \\{1, 2, \\dots, N\\}|}{N}$$\n\nLet $A$ be the set of perfect squares, $A = \\{k^2 : k \\in \\mathbb{N}\\}$.\nFor any $N$, the number of perfect squares less than or equal to $N$ is $\\lfloor\\sqrt{N}\\rfloor$.\n\nThe probability is:\n$$P(A) = \\lim_{N \\to \\infty} \\frac{\\lfloor\\sqrt{N}\\rfloor}{N}$$\n\nWe can analyze the limit:\n$$\\frac{\\sqrt{N} - 1}{N} < \\frac{\\lfloor\\sqrt{N}\\rfloor}{N} \\le \\frac{\\sqrt{N}}{N}$$\n$$\\frac{1}{\\sqrt{N}} - \\frac{1}{N} < \\frac{\\lfloor\\sqrt{N}\\rfloor}{N} \\le \\frac{1}{\\sqrt{N}}$$\n\nAs $N \\to \\infty$, both the lower bound and the upper bound tend to $0$:\n$$\\lim_{N \\to \\infty} \\left(\\frac{1}{\\sqrt{N}} - \\frac{1}{N}\\right) = 0$$\n$$\\lim_{N \\to \\infty} \\frac{1}{\\sqrt{N}} = 0$$\n\nBy the Squeeze Theorem, the probability that a randomly chosen positive integer is a perfect square is **0**.\n\n---\n### Note on context\nIf the question implied choosing an integer from a *finite* range $\\{1, 2, \\dots, N\\}$, the probability would be $\\frac{\\lfloor\\sqrt{N}\\rfloor}{N}$, which is small but strictly positive for any finite $N$. The probability of 0 applies only when choosing from the infinite set of all integers (or natural numbers).",
     "ig_handle": "michiko.seoul_official",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": "18:30-23:30",
-      "fri": "18:30-23:30",
-      "sat": "18:30-23:30",
-      "sun": "18:30-23:30"
-    },
-    "typical_show_times": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": [
-        "20:30"
-      ],
-      "fri": [
-        "20:30"
-      ],
-      "sat": [
-        "20:30"
-      ],
-      "sun": [
-        "20:30"
-      ]
-    },
-    "genres": [
-      "Jazz"
+    "last_analyzed_at": "2025-11-09T05:13:19.342874+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/michiko.seoul_official/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/michiko.seoul_official/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/michiko.seoul_official/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/michiko.seoul_official/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/michiko.seoul_official/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=3844678090420369711",
+      "gemini:enrich"
     ],
-    "websites": null,
     "links": {
       "instagram": "https://www.instagram.com/michiko.seoul_official",
       "homepage": null,
       "booking": "https://app.catchtable.co.kr/ct/shop/michiko",
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=3844678090420369711",
       "naver_map": "https://naver.me/FO9oyl6U"
     },
     "contacts": {
       "phone": "02-544-6779",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "MICHIKO SEOUL",
-        "address_text": "2F Nonhyeon-dong, 163-1 Gangnam-gu, Seoul, South Korea",
+        "name": "Michiko Seoul Jazz Lounge",
+        "address_text": "서울특별시 강남구 논현동 163-1 2층",
         "address_components": null,
-        "subway_nearby": null,
+        "location_lat": 37.5087807210581,
+        "location_lon": 127.023506055543,
+        "subway_nearby": "7호선 신분당논현역 3번 출구에서 202m",
         "booking_link": "https://app.catchtable.co.kr/ct/shop/michiko",
         "notes": null,
         "i18n": {
           "name": {
-            "en": "MICHIKO SEOUL",
-            "ko": "미치코 서울"
+            "en": "Michiko Seoul Jazz Lounge",
+            "ko": "미치코 서울 재즈 라운지"
           },
           "address_text": {
-            "en": "2F Nonhyeon-dong, 163-1 Gangnam-gu, Seoul, South Korea",
-            "ko": "서울 강남구 논현동 163-1 2층"
+            "en": "2F, 163-1 Nonhyeon-dong, Gangnam-gu, Seoul, South Korea",
+            "ko": "서울특별시 강남구 논현동 163-1 2층"
           },
           "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2024-07-28T00:00:00Z",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "ig_profile",
-      "maps:https://maps.google.com/?cid=3844678090420369711",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
     "i18n": {
       "name": {
-        "en": "MICHIKO SEOUL",
-        "ko": "미치코 서울"
+        "en": "Michiko Seoul Jazz Lounge",
+        "ko": "미치코 서울 재즈 라운지"
       },
       "address_text": null,
       "notes": null,
+      "genres": {
+        "en": [
+          "Jazz",
+          "Bar"
+        ],
+        "ko": [
+          "재즈",
+          "바"
+        ]
+      },
+      "subway_nearby": {
+        "en": "202m walk from Sinnonhyeon Station (Line 7, Shinbundang Line) Exit 3",
+        "ko": "7호선 신분당논현역 3번 출구에서 202m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "7호선 신분당논현역 3번 출구에서 202m"
+    }
   },
   {
     "raw": "It's interesting that you describe this as a \"special case\" of Fibonacci, as the sequence you've provided:\n*   `f(0) = 0`\n*   `f(1) = 1`\n*   `f(2) = 1` (`0 + 1`)\n*   `f(3) = 2` (`1 + 1`)\n*   `f(4) = 3` (`1 + 2`)\n*   `f(5) = 5` (`2 + 3`)\n\n...is precisely the standard definition of the Fibonacci sequence, where `F(n) = F(n-1) + F(n-2)` with base cases `F(0)=0` and `F(1)=1`.\n\nPerhaps the \"special\" aspect you're referring to is the implementation itself, aiming for an efficient way to calculate it. A common and efficient way to calculate Fibonacci numbers is using an iterative approach, which has `O(n)` time complexity and `O(1)` space complexity.\n\nHere's a Python function for this:\n\n```python\ndef fib_special(n: int) -> int:\n    \"\"\"\n    Calculates the nth Fibonacci number for the given 'special' case.\n    This sequence follows the standard Fibonacci definition:\n    f(0) = 0\n    f(1) = 1\n    f(n) = f(n-1) + f(n-2) for n > 1\n\n    Args:\n        n: The non-negative integer index for the Fibonacci number.\n\n    Returns:\n        The nth Fibonacci number.\n\n    Raises:\n        ValueError: If n is a negative integer.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input 'n' must be a non-negative integer.\")\n    elif n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        # Initialize with f(0) and f(1)\n        a, b = 0, 1\n        # Iterate from the 2nd number up to the nth number\n        # Each iteration calculates the next Fibonacci number\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b\n\n# --- Test Cases ---\nprint(f\"fib_special(0) = {fib_special(0)}\")   # Expected: 0\nprint(f\"fib_special(1) = {fib_special(1)}\")   # Expected: 1\nprint(f\"fib_special(2) = {fib_special(2)}\")   # Expected: 1\nprint(f\"fib_special(3) = {fib_special(3)}\")   # Expected: 2\nprint(f\"fib_special(4) = {fib_special(4)}\")   # Expected: 3\nprint(f\"fib_special(5) = {fib_special(5)}\")   # Expected: 5\nprint(f\"fib_special(6) = {fib_special(6)}\")   # Expected: 8\nprint(f\"fib_special(10) = {fib_special(10)}\") # Expected: 55\nprint(f\"fib_special(20) = {fib_special(20)}\") # Expected: 6765\n\ntry:\n    print(f\"fib_special(-1) = {fib_special(-1)}\")\nexcept ValueError as e:\n    print(f\"Error for negative input: {e}\")\n```\n\n**Explanation of the \"Special\" (Iterative) Approach:**\n\n1.  **Base Cases:**\n    *   If `n` is 0, the function immediately returns 0.\n    *   If `n` is 1, the function immediately returns 1.\n    *   These handle the starting points of the sequence.\n\n2.  **Initialization:**\n    *   `a, b = 0, 1` sets up two variables to hold the two most recent Fibonacci numbers. Initially, `a` holds `F(0)` and `b` holds `F(1)`.\n\n3.  **Iteration:**\n    *   The `for _ in range(2, n + 1):` loop starts from index 2 (since `F(0)` and `F(1)` are already known) and goes up to `n`.\n    *   Inside the loop, `a, b = b, a + b` is the core of the calculation:\n        *   The new `a` becomes the old `b` (shifting the sequence forward).\n        *   The new `b` becomes the sum of the old `a` and old `b` (calculating the next Fibonacci number).\n    *   This effectively updates `a` to `F(i-1)` and `b` to `F(i)` in each step, until `b` holds `F(n)`.\n\n4.  **Return Value:**\n    *   After the loop completes, `b` will contain the `nth` Fibonacci number, which is then returned.\n\nThis iterative method is generally preferred over naive recursion for Fibonacci sequences because it avoids recalculating values multiple times, making it much more efficient for larger `n`.",
@@ -4186,236 +4076,167 @@
     "last_analyzed_at": "2025-11-11T12:22:09.253370+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-11/profile.json",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/milestones_jazz",
-      "booking": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll"
+      "homepage": "https://milestonesjazz.modoo.at",
+      "booking": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll",
+      "google_map": null
     },
     "contacts": {
-      "email": null,
-      "phone": null
-    }
-  },
-  {
-    "ig_handle": "myjazzgarden",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": "16:00 ~ 23:00",
-      "wed": "16:00 ~ 23:00",
-      "thu": "16:00 ~ 23:00",
-      "fri": "16:00 ~ 23:00",
-      "sat": "16:00 ~ 23:00",
-      "sun": null
-    },
-    "typical_show_times": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": [
-        "19:30"
-      ],
-      "sat": [
-        "19:30"
-      ],
-      "sun": null
-    },
-    "genres": [
-      "Jazz"
-    ],
-    "websites": null,
-    "links": {
-      "instagram": "https://www.instagram.com/myjazzgarden",
-      "homepage": "http://linktr.ee/mjgarden",
-      "booking": "https://naver.me/FgScgs7l",
-      "google_map": null,
-      "naver_map": "https://naver.me/FTXwhZGX"
-    },
-    "contacts": {
-      "phone": null,
+      "phone": "0507-1339-0125",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
+    "websites": [
+      "https://milestonesjazz.modoo.at"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "마이재즈가든 | MyJazzGarden",
-        "address_text": "서울 강서구 마곡동 퀸즈파크11 타워 A 4층",
+        "name": "Milestones Jazz",
+        "address_text": "B1, 10-1 Jahamun-ro 5-gil, Jongno-gu, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
         "subway_nearby": null,
-        "booking_link": "https://naver.me/FgScgs7l",
-        "notes": "Catchtable booking available: https://app.catchtable.co.kr/ct/shop/myjazzgarden",
+        "booking_link": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll",
+        "notes": null,
         "i18n": {
           "name": {
-            "en": "MyJazzGarden",
-            "ko": "마이재즈가든"
+            "en": "Milestones Jazz",
+            "ko": "마일스톤즈 재즈"
           },
           "address_text": {
-            "en": "4F Queen's Park 11 Tower A, Magok-dong, Gangseo-gu, Seoul, South Korea",
-            "ko": "서울 강서구 마곡동 퀸즈파크11 타워 A 4층"
+            "en": "B1, 10-1 Jahamun-ro 5-gil, Jongno-gu, Seoul, South Korea",
+            "ko": "서울 종로구 자하문로5길 10-1 지하1층"
           },
-          "notes": {
-            "en": "Catchtable booking available: https://app.catchtable.co.kr/ct/shop/myjazzgarden",
-            "ko": "캐치테이블 예약 가능: https://app.catchtable.co.kr/ct/shop/myjazzgarden"
-          }
+          "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2024-07-28T00:00:00Z",
+    "i18n": {
+      "name": {
+        "en": "Milestones Jazz",
+        "ko": "마일스톤즈 재즈"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "raw": "1. **Identify the core concepts:** What is the main subject matter or skill being discussed?\n2. **Determine the audience:** Who is this information intended for (beginners, experts, general public)?\n3. **Establish the purpose:** Why is this information being presented (to inform, persuade, instruct)?\n4. **Define the scope:** How broad or narrow should the coverage be?\n5. **Select the appropriate format:** How should the information be structured (list, essay, tutorial, comparison)?\n\n**Example:** If the subject is \"The basics of quantum computing,\" the steps would look like this:\n\n1. **Core Concept:** Quantum Computing Principles.\n2. **Audience:** Technically curious laypersons or introductory computer science students.\n3. **Purpose:** To provide a foundational understanding without complex mathematics.\n4. **Scope:** Focus only on qubits, superposition, and entanglement; avoid discussion of specific algorithms (like Shor's) or hardware.\n5. **Format:** A structured, easy-to-read article using analogies.",
+    "ig_handle": "myjazzgarden",
+    "last_analyzed_at": "2025-11-09T05:13:33.299802+09:00",
     "confidence": 1.0,
-    "extraction_version": "1.0",
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "ig_myjazzgarden",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=2955420704049297629",
       "gemini:enrich"
     ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
-    "handle": "myjazzgarden",
-    "analyzed": {
-      "ig_handle": "myjazzgarden",
-      "name": "마이재즈가든 | MyJazzGarden",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": null,
-        "tue": "16:00 ~ 23:00",
-        "wed": "16:00 ~ 23:00",
-        "thu": "16:00 ~ 23:00",
-        "fri": "16:00 ~ 23:00",
-        "sat": "16:00 ~ 23:00",
-        "sun": null
-      },
-      "typical_show_times": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": [
-          "19:30"
-        ],
-        "sat": [
-          "19:30"
-        ],
-        "sun": null
-      },
-      "genres": [
-        "Jazz"
-      ],
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/myjazzgarden",
-        "homepage": "http://linktr.ee/mjgarden",
-        "booking": "https://naver.me/FgScgs7l",
-        "google_map": null
-      },
-      "contacts": {
-        "phone": null,
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": "Live music on Friday & Saturday (19:30-21:30). Catchtable booking available: https://app.catchtable.co.kr/ct/shop/myjazzgarden",
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "마이재즈가든 | MyJazzGarden",
-          "address_text": "서울 강서구 마곡동 퀸즈파크11 타워 A 4층",
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": "https://naver.me/FgScgs7l",
-          "notes": "Catchtable booking available: https://app.catchtable.co.kr/ct/shop/myjazzgarden",
-          "i18n": {
-            "name": {
-              "en": "MyJazzGarden",
-              "ko": "마이재즈가든"
-            },
-            "address_text": {
-              "en": "4F Queen's Park 11 Tower A, Magok-dong, Gangseo-gu, Seoul, South Korea",
-              "ko": "서울 강서구 마곡동 퀸즈파크11 타워 A 4층"
-            },
-            "notes": {
-              "en": "Catchtable booking available: https://app.catchtable.co.kr/ct/shop/myjazzgarden",
-              "ko": "캐치테이블 예약 가능: https://app.catchtable.co.kr/ct/shop/myjazzgarden"
-            }
-          }
-        }
-      ],
-      "last_analyzed_at": "2024-07-28T00:00:00Z",
-      "confidence": 1.0,
-      "extraction_version": "1.0",
-      "sources": [
-        "ig_myjazzgarden"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.0"
+    "links": {
+      "instagram": "https://www.instagram.com/myjazzgarden",
+      "homepage": null,
+      "booking": "http://linktr.ee/mjgarden",
+      "google_map": "https://maps.google.com/?cid=2955420704049297629",
+      "naver_map": "https://naver.me/FTXwhZGX"
     },
+    "contacts": {
+      "phone": "050-71464-0757",
+      "email": null
+    },
+    "subway_nearby": "5호선 마곡역 4번 출구에서 308m",
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "My Jazz Garden",
+        "address_text": "서울 강서구 마곡중앙6로 76 퀸즈파크11 A동 4층",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": "5호선 마곡역 4번 출구에서 308m",
+        "booking_link": "http://linktr.ee/mjgarden",
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "My Jazz Garden",
+            "ko": "마이 재즈 가든"
+          },
+          "address_text": {
+            "en": "4th Floor, Queen's Park 11 Tower A, 76 Magokjungang 6-ro, Gangseo-gu, Seoul, South Korea",
+            "ko": "서울 강서구 마곡중앙6로 76 퀸즈파크11 A동 4층"
+          },
+          "notes": null
+        }
+      }
+    ],
     "i18n": {
       "name": {
-        "en": "MyJazzGarden",
-        "ko": "마이재즈가든"
+        "en": "My Jazz Garden",
+        "ko": "마이 재즈 가든"
       },
       "address_text": null,
-      "notes": {
-        "en": "Live music on Friday & Saturday (19:30-21:30). Catchtable booking available: https://app.catchtable.co.kr/ct/shop/myjazzgarden",
-        "ko": "금요일, 토요일 라이브 공연 (19:30-21:30). 캐치테이블 예약 가능: https://app.catchtable.co.kr/ct/shop/myjazzgarden"
+      "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "308m from Magok Station Exit 4 on Line 5",
+        "ko": "5호선 마곡역 4번 출구에서 308m"
       },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "5호선 마곡역 4번 출구에서 308m"
+    }
   },
   {
+    "raw": "Please provide the text you would like me to process.",
     "ig_handle": "newall_jazz",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": null,
-    "genres": null,
-    "websites": [
-      "https://naver.me/G9tBciHQ"
+    "last_analyzed_at": "2025-11-09T05:10:21.144843+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=18103884637851195875",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/newall_jazz",
       "homepage": null,
       "booking": "https://app.catchtable.co.kr/ct/shop/newall",
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=18103884637851195875",
       "naver_map": "https://naver.me/FDnCG7WZ"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "뉴올 재즈 라운지",
+        "name": "Newall Jazz Lounge",
         "address_text": "14 Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea",
         "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": null,
         "booking_link": "https://app.catchtable.co.kr/ct/shop/newall",
         "notes": null,
@@ -4432,18 +4253,6 @@
         }
       }
     ],
-    "last_analyzed_at": "2025-10-29T08:33:18.421232+09:00",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram.com/newall_jazz",
-      "https://app.catchtable.co.kr/ct/shop/newall",
-      "https://naver.me/G9tBciHQ",
-      "maps:https://maps.google.com/?cid=18103884637851195875",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
     "i18n": {
       "name": {
         "en": "Newall Jazz Lounge",
@@ -4451,10 +4260,14 @@
       },
       "address_text": null,
       "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "310m from Hongik University Station Exit 1 (Line 2, Airport Railroad, Gyeongui-Jungang Line)",
+        "ko": "2호선 공항경의중앙홍대입구역 1번 출구에서 310m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "2호선 공항경의중앙홍대입구역 1번 출구에서 310m"
+    }
   },
   {
     "raw": "To process the string according to your specific rule, I will follow these steps:\n\n1.  **Identify Unique Characters:** I'll first create a set of all unique characters present in the input string. A set automatically handles uniqueness, so duplicates are ignored.\n2.  **Check for \"skip\" Substring:** I'll then check if the string contains the exact substring \"skip\" (case-sensitive).\n3.  **Apply Exclusion Rule (if necessary):** If \"skip\" is found in the string, I will remove the character 's' (lowercase) from my set of unique characters. I'll use `set.discard('s')` which safely removes 's' if it's present, and does nothing if 's' is not in the set, avoiding errors.\n4.  **Count and Return:** Finally, I'll count the number of characters remaining in the set and provide that as the result.\n\nLet's process the string you provide. Please provide the string now.",
@@ -4462,18 +4275,73 @@
     "last_analyzed_at": "2025-11-11T12:17:55.269249+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ninejazz_chungdam/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ninejazz_chungdam/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=714310057948599705",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/ninejazz_chungdam",
-      "booking": "https://catchtable.co.kr/ninejazz"
+      "homepage": null,
+      "booking": "https://catchtable.co.kr/ninejazz",
+      "google_map": "https://maps.google.com/?cid=714310057948599705"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": "02-2002-9800",
+      "email": null
+    },
+    "subway_nearby": "Near Samseong Jungang Station (Line 9)",
+    "websites": [],
+    "genres": [
+      "Live Music"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Chungdam Nine",
+        "address_text": "B2, 634 Samseong-ro, Gangnam District, Seoul, South Korea",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Chungdam Nine",
+            "ko": "청담 나인"
+          },
+          "address_text": {
+            "en": "B2, 634 Samseong-ro, Gangnam District, Seoul, South Korea",
+            "ko": "서울 강남구 삼성로 634 지하2층"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Chungdam Nine",
+        "ko": "청담 나인"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Live Music"
+        ],
+        "ko": [
+          "라이브 공연"
+        ]
+      },
+      "subway_nearby": {
+        "en": "Near Samseong Jungang Station (Line 9)",
+        "ko": "삼성중앙역 (9호선) 인근"
+      },
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
@@ -4670,19 +4538,70 @@
     "last_analyzed_at": "2025-11-11T12:21:17.111460+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/orient_express_wine_/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/orient_express_wine_/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=5540853786533473181",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/orient_express_wine_",
-      "booking": "https://app.catchtable.co.kr/ct/shop/orientexpresswine"
+      "homepage": null,
+      "booking": "https://app.catchtable.co.kr/ct/shop/orientexpresswine",
+      "google_map": "https://maps.google.com/?cid=5540853786533473181",
+      "naver_map": "https://naver.me/xeAf977b"
     },
     "contacts": {
-      "email": null,
-      "phone": null
-    }
+      "phone": null,
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Orient Express Wine",
+        "address_text": "서울 마포구 광성로6길 14 지하 1층",
+        "address_components": null,
+        "location_lat": 37.549194547571,
+        "location_lon": 126.938342649817,
+        "subway_nearby": null,
+        "booking_link": "https://app.catchtable.co.kr/ct/shop/orientexpresswine",
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Orient Express Wine",
+            "ko": "오리엔트 익스프레스 와인"
+          },
+          "address_text": {
+            "en": "B1, 14, Gwangseong-ro 6-gil, Mapo-gu, Seoul, South Korea",
+            "ko": "서울 마포구 광성로6길 14 지하 1층"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Orient Express Wine",
+        "ko": "오리엔트 익스프레스 와인"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Wine Bar",
+          "Bar"
+        ],
+        "ko": [
+          "와인바",
+          "바"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "naver_subway_nearby": "6호선 대흥역 4번 출구에서 312m"
   },
   {
     "raw": "<thought>\nMy thinking process for this specific instruction:\n\n1.  **Understand the \"SPECIAL INSTRUCTION\":** The core directive is \"think silently if needed\". For *this particular prompt*, the *entire task* is to demonstrate this silent thinking. Therefore, it's not \"if needed,\" but rather \"as the primary task\" to showcase.\n\n2.  **Determine the Goal:** To explicitly show my internal process of understanding and responding to *this very instruction*, in a structured way, using the specified format.\n\n3.  **Identify the Format:** The instruction implicitly suggests a distinct block for thought. The common convention is to use `<thought>` and `</thought>` tags.\n\n4.  **Plan the \"Thought\" Content:**\n    *   Start by acknowledging the instruction itself.\n    *   Explain *why* I am showing this thought process (to fulfill the instruction).\n    *   Briefly outline what my \"normal\" process would be (understand the request, plan the response, execute, review).\n    *   Since there's no external problem provided, I will use the task of *responding to this very prompt* as the subject of my internal thought.\n    *   What is the ultimate, non-thought-block response? A simple confirmation that I've understood and will comply.\n\n5.  **Simulate the Thought Process for Responding to *This* Instruction:**\n    *   \"Okay, the user wants me to demonstrate 'thinking silently'. I need to put myself in a 'thought' state and articulate what I'm doing internally.\"\n    *   \"First, I've read the instruction. It's clear: I need to output my thought process.\"\n    *   \"The best way to do this is to literally write out what I'm conceptualizing right now, in this block.\"\n    *   \"What do I need to convey in my *actual* response, after the thought block? Simply that I understand and am ready for further instructions, confirming I've integrated this new behavior.\"\n    *   \"So, the thought block will detail how I'm processing *this specific request* to show thought. I will explain my interpretation of the instruction and my plan for execution, which is essentially to just confirm understanding after the thought.\"\n    *   \"I will ensure this thought block itself is comprehensive enough to demonstrate a clear thought process, even if the 'problem' is just the instruction itself.\"\n\n6.  **Formulate the Final \"Response\" outside the thought block:** A concise statement that confirms understanding and readiness.\n</thought>\nUnderstood. I will now think silently if needed for subsequent tasks, presenting my internal thought process within `<thought>` tags.",
@@ -4690,49 +4609,99 @@
     "last_analyzed_at": "2025-11-11T12:19:58.077945+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=15770757789872884450",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/pdpdclub",
-      "homepage": "https://linktr.ee/pdpdclub"
+      "homepage": "https://linktr.ee/pdpdclub",
+      "booking": null,
+      "google_map": null,
+      "naver_map": "https://naver.me/FG7xNtEk"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": "070-4578-8792",
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "pdpdclub",
+        "address_text": "경기 수원시 팔달구 창룡대로 54",
+        "address_components": null,
+        "location_lat": 37.2835551281103,
+        "location_lon": 127.021691350363,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "pdpdclub",
+            "ko": "파닥파닥클럽"
+          },
+          "address_text": {
+            "en": "54 Changnyong-daero, Paldal-gu, Suwon, Gyeonggi-do, South Korea",
+            "ko": "경기 수원시 팔달구 창룡대로 54"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "pdpdclub",
+        "ko": "파닥파닥클럽"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Live Music"
+        ],
+        "ko": [
+          "라이브 음악"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
+    "raw": "Drei Fragen an dich:\n\n1. **Welche Art von Musik hörst du am liebsten?**\n2. **Gibt es ein Buch oder einen Film, das/der dich in letzter Zeit besonders beeindruckt hat und warum?**\n3. **Wenn du einen Tag lang eine beliebige Superkraft besitzen könntest, welche wäre das und was würdest du damit tun?**",
     "ig_handle": "positive_zero_lounge",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-09T05:13:16.611408+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/positive_zero_lounge/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/positive_zero_lounge/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/positive_zero_lounge/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/positive_zero_lounge/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/positive_zero_lounge/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=3590662693102319101",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/positive_zero_lounge",
       "homepage": null,
       "booking": null,
-      "google_map": null
+      "google_map": "https://maps.google.com/?cid=3590662693102319101"
     },
     "contacts": {
       "phone": "02-462-5994",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "Positive Zero Lounge",
+        "name": "positive zero lounge",
         "address_text": "14-2 Yeonmujang-gil, Seongdong-gu, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
@@ -4743,7 +4712,7 @@
         "i18n": {
           "name": {
             "en": "Positive Zero Lounge",
-            "ko": "포지티브 제로 라운지"
+            "ko": "파지티브 제로 라운지"
           },
           "address_text": {
             "en": "14-2 Yeonmujang-gil, Seongdong-gu, Seoul, South Korea",
@@ -4753,23 +4722,15 @@
         }
       }
     ],
-    "last_analyzed_at": "2025-10-29",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=3590662693102319101",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
     "i18n": {
       "name": {
         "en": "Positive Zero Lounge",
-        "ko": "포지티브 제로 라운지"
+        "ko": "파지티브 제로 라운지"
       },
       "address_text": null,
       "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -4875,102 +4836,43 @@
     }
   },
   {
+    "raw": "A $1000$ $\\text{m}$ cable is being used to connect two points $A$ and $B$ in a room. The cable is suspended between two poles of equal height at points $A$ and $B$. The distance between the poles is $1000$ $\\text{m}$. The cable is modeled by the curve $y=a \\cosh \\left(\\frac{x}{a}\\right)$. The lowest point of the cable is at $(0, a)$. The cable touches the ground at its lowest point. The cable is connected to the poles at the points $A$ and $B$. The coordinates of $A$ and $B$ are $(-500, y_A)$ and $(500, y_B)$. The length of the cable is $1000$ $\\text{m}$. The cable is symmetric with respect to the $y$-axis. The lowest point of the cable is at $(0, a)$, and the cable touches the ground at this point, so $y(0) = a$. The coordinates of $A$ and $B$ are $(-500, y_A)$ and $(500, y_B)$. The distance between the poles is $1000$ $\\text{m}$. The cable is connected to the poles at the points $A$ and $B$. The height of the poles is $y_A = y_B$. Let $L$ be the length of the cable. We are given $L=1000$ $\\text{m}$.\n\nThe length of a curve $y=f(x)$ from $x=x_1$ to $x=x_2$ is given by the integral:\n$$L = \\int_{x_1}^{x_2} \\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} dx$$\nFor the catenary curve $y = a \\cosh\\left(\\frac{x}{a}\\right)$, the derivative is:\n$$\\frac{dy}{dx} = \\frac{d}{dx} \\left(a \\cosh\\left(\\frac{x}{a}\\right)\\right) = a \\cdot \\frac{1}{a} \\sinh\\left(\\frac{x}{a}\\right) = \\sinh\\left(\\frac{x}{a}\\right)$$\nThen,\n$$1 + \\left(\\frac{dy}{dx}\\right)^2 = 1 + \\sinh^2\\left(\\frac{x}{a}\\right) = \\cosh^2\\left(\\frac{x}{a}\\right)$$\nSo, the integrand is:\n$$\\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} = \\sqrt{\\cosh^2\\left(\\frac{x}{a}\\right)} = \\cosh\\left(\\frac{x}{a}\\right)$$\nThe length of the cable between $x=-500$ and $x=500$ is:\n$$L = \\int_{-500}^{500} \\cosh\\left(\\frac{x}{a}\\right) dx$$\nSince $\\cosh$ is an even function,\n$$L = 2 \\int_{0}^{500} \\cosh\\left(\\frac{x}{a}\\right) dx$$\nThe integral of $\\cosh\\left(\\frac{x}{a}\\right)$ is $a \\sinh\\left(\\frac{x}{a}\\right)$.\n$$L = 2 \\left[ a \\sinh\\left(\\frac{x}{a}\\right) \\right]_0^{500} = 2 \\left( a \\sinh\\left(\\frac{500}{a}\\right) - a \\sinh(0) \\right)$$\nSince $\\sinh(0) = 0$, we have:\n$$L = 2a \\sinh\\left(\\frac{500}{a}\\right)$$\nWe are given that the length of the cable is $L=1000$ $\\text{m}$.\n$$1000 = 2a \\sinh\\left(\\frac{500}{a}\\right)$$\nDividing by 2, we get:\n$$500 = a \\sinh\\left(\\frac{500}{a}\\right)$$\nLet $u = \\frac{500}{a}$. Then $a = \\frac{500}{u}$. Substituting this into the equation:\n$$500 = \\frac{500}{u} \\sinh(u)$$\nDividing by 500 (since $500 \\neq 0$):\n$$1 = \\frac{1}{u} \\sinh(u)$$\n$$u = \\sinh(u)$$\nWe are looking for the solution $u$ to the equation $u = \\sinh(u)$.\nWe know that $\\sinh(u) = \\frac{e^u - e^{-u}}{2}$. So, the equation is:\n$$u = \\frac{e^u - e^{-u}}{2}$$\n$$2u = e^u - e^{-u}$$\nWe know that for $u > 0$, $\\sinh(u) > u$. For $u < 0$, $\\sinh(u) < u$.\nIf $u=0$, then $\\sinh(0) = 0$, so $u=0$ is a solution.\nIf $u=0$, then $\\frac{500}{a} = 0$, which means $a$ would have to be infinite, which is not possible for a hanging cable of finite length.\nSince the cable is suspended, we must have $y_A > a$, which means $\\cosh\\left(\\frac{500}{a}\\right) > 1$, which implies $\\frac{500}{a} \\neq 0$. Thus $u \\neq 0$.\n\nLet's re-read the problem carefully.\nThe distance between the poles is $1000$ $\\text{m}$. The poles are at $x=-500$ and $x=500$.\nThe length of the cable is $1000$ $\\text{m}$.\nThe cable is modeled by $y = a \\cosh(\\frac{x}{a})$.\nThe lowest point is at $(0, a)$, so $y(0)=a$. This is consistent with the equation.\nThe cable touches the ground at its lowest point, so $y(0)=0$.\nIf the cable touches the ground at its lowest point, then $a=0$.\nIf $a=0$, the model $y=a \\cosh(\\frac{x}{a})$ is not defined in the standard sense as a catenary.\n\nIf the cable touches the ground at its lowest point, then $y(0)=0$.\nSince $y(0) = a \\cosh(0) = a \\cdot 1 = a$, we must have $a=0$.\nIf $a=0$, then the length equation $L = 2a \\sinh\\left(\\frac{500}{a}\\right)$ leads to an indeterminate form $\\lim_{a\\to 0^+} 2a \\sinh\\left(\\frac{500}{a}\\right)$.\nLet $u = 500/a$. As $a \\to 0^+$, $u \\to \\infty$.\n$$L = 2 \\frac{500}{u} \\sinh(u) = 1000 \\frac{e^u - e^{-u}}{2u} = 500 \\frac{e^u - e^{-u}}{u}$$\nAs $u \\to \\infty$, $e^{-u} \\to 0$, so $L \\approx 500 \\frac{e^u}{u}$. This limit is $\\infty$, not $1000$.\nSo, the condition \"The cable touches the ground at its lowest point\" contradicts the other given conditions (distance $1000$ $\\text{m}$, length $1000$ $\\text{m}$).\n\nLet's assume the problem meant that the lowest point of the cable is at a height $a$ above the ground, and the problem statement is slightly imprecise, or the lowest point is not at the origin $y=0$.\n\nCase 1: The lowest point of the cable is $(0, a)$ and the ground is the line $y=0$. This is what we used, and it led to $u = \\sinh(u)$ where $u = 500/a$. The only solution is $u=0$, which is not physically meaningful here.\n\nLet's re-examine the setup. A cable of length $L=1000$ $\\text{m}$ connects two points $A$ and $B$ separated by a horizontal distance $D=1000$ $\\text{m}$.\nIf $L=D$, the cable must be perfectly straight, i.e., a straight line.\nIf the cable is a straight line, $y = mx + c$.\nThe points are $(-500, y_A)$ and $(500, y_B)$. Since the height is equal, $y_A = y_B$.\nThe slope $m = \\frac{y_B - y_A}{500 - (-500)} = 0$. So $y=c$ (a horizontal line).\nThe length of a horizontal line segment from $x=-500$ to $x=500$ is $\\sqrt{(500 - (-500))^2 + (c-c)^2} = \\sqrt{1000^2} = 1000$ $\\text{m}$. This is consistent with $L=1000$ $\\text{m}$.\n\nIf the cable is a straight line $y=c$, the catenary model $y = a \\cosh(\\frac{x}{a})$ must approximate this straight line.\nFor $y = a \\cosh(\\frac{x}{a})$ to be a straight line $y=c$, we need the parameter $a$ to be very large.\nIf $a \\to \\infty$, we use the Taylor expansion for $\\cosh(z) = 1 + \\frac{z^2}{2!} + \\frac{z^4}{4!} + \\dots$\n$$y = a \\left( 1 + \\frac{1}{2} \\left(\\frac{x}{a}\\right)^2 + \\frac{1}{24} \\left(\\frac{x}{a}\\right)^4 + \\dots \\right) = a + \\frac{x^2}{2a} + \\frac{x^4}{24a^3} + \\dots$$\nIf $a \\to \\infty$, then $y \\to a$. Since the lowest point is $(0, a)$, this implies $y \\to \\infty$, which is not a horizontal line $y=c$.\n\nLet's go back to the equation $u = \\sinh(u)$ for $u=500/a$.\nSince the problem states the cable is modeled by the catenary, and we found $L=D$ implies $u=\\sinh(u)$, which only has the trivial solution $u=0$, this strongly suggests that the physical situation described is that of a straight cable, which is the limiting case of a catenary with a very large parameter $a$.\n\nIf $a$ is very large, $u = 500/a$ is very small.\nFor small $u$, we use the approximation $\\sinh(u) \\approx u + \\frac{u^3}{6}$.\nThe equation $u = \\sinh(u)$ becomes:\n$$u \\approx u + \\frac{u^3}{6}$$\n$$\\frac{u^3}{6} \\approx 0$$\nThis confirms that the only non-trivial scenario that *almost* fits the catenary model in this extreme case is $u \\approx 0$.\n\nIf $u \\to 0$, then $a = 500/u \\to \\infty$.\nIf $a$ is infinite, the height of the connection points is:\n$$y_A = a \\cosh\\left(\\frac{500}{a}\\right) = a \\cosh(u) \\approx a \\left(1 + \\frac{u^2}{2}\\right) = a + \\frac{a u^2}{2}$$\nSubstituting $u=500/a$:\n$$y_A \\approx a + \\frac{a}{2} \\left(\\frac{500}{a}\\right)^2 = a + \\frac{500^2}{2a}$$\nSince $L=1000$ and $D=1000$, the cable is straight and horizontal. A horizontal cable has zero sag, meaning $y_A = y_{\\text{lowest point}}$.\nIf the cable is horizontal, the sag $S$ is zero. The sag is defined as $S = y_A - y(0)$.\nFor the catenary:\n$$S = y_A - a = a \\cosh\\left(\\frac{500}{a}\\right) - a = a \\left( \\cosh\\left(\\frac{500}{a}\\right) - 1 \\right)$$\nUsing the approximation $\\cosh(u) - 1 \\approx \\frac{u^2}{2}$:\n$$S \\approx a \\cdot \\frac{1}{2} \\left(\\frac{500}{a}\\right)^2 = \\frac{500^2}{2a}$$\nIf the cable is straight and horizontal, the sag $S=0$.\n$$0 = \\frac{500^2}{2a}$$\nThis implies $a \\to \\infty$, which corresponds to $u \\to 0$.\n\nLet's check the initial constraint: \"The cable touches the ground at its lowest point.\" This means $y(0)=0$.\nSince $y(0)=a$, this means $a=0$. As shown before, $a=0$ is inconsistent with $L=1000$ and $D=1000$.\n\nGiven the conflict between the geometric constraints ($L=D=1000$) and the standard catenary model (which requires $L>D$ unless $a\\to\\infty$), the most reasonable interpretation is that the problem describes a straight cable, which is the limiting case of the catenary when $a$ is very large.\n\nIf the cable is straight and horizontal, the height of the connection points $y_A$ is constant.\nThe lowest point is $(0, y(0))$. If the cable touches the ground at the lowest point, then $y(0)=0$.\nSince the cable is horizontal, $y(x) = 0$ for all $x$ between $-500$ and $500$.\nThen $y_A = 0$.\nThe coordinates of $A$ and $B$ are $(-500, 0)$ and $(500, 0)$.\nThe model $y = a \\cosh(x/a)$ should then represent $y=0$.\nIf $y=0$, then $a \\cosh(x/a) = 0$. Since $\\cosh(x/a) > 0$, this implies $a=0$, which is the undefined limit case.\n\nIf we ignore the statement \"The cable touches the ground at its lowest point\" and only use the consistent information: $L=D=1000$. This implies the cable is straight and horizontal.\nIf the cable is horizontal, $y_A = y_B = c$.\nIf we are forced to use the catenary model, we must conclude $a \\to \\infty$.\nIf $a \\to \\infty$, the height $y_A = a \\cosh(500/a) \\to \\infty$. This contradicts the cable being at ground level ($y=0$).\n\nLet's assume the ground is defined by the lowest point of the cable, $y(0)=a$. If the lowest point touches the ground, the ground level is $y=a$. If $y=a$, then $y(0)=a$, which is satisfied. But this means the ground is elevated relative to some absolute zero.\n\nIf the statement means the lowest point is at $y=0$ (absolute ground level), then $a=0$, leading to $L \\to \\infty$, contradiction.\n\nThe only possibility that reconciles the length $L=1000$ and separation $D=1000$ is that the cable is straight and horizontal.\n$$y(x) = y_A = c$$\nIf the cable is straight, the catenary model $y = a \\cosh(x/a)$ cannot perfectly describe it unless $a \\to \\infty$.\n\nIf we assume the problem implies the horizontal case ($a \\to \\infty$):\nThe height $y_A$ is the height of the poles. The problem doesn't ask for $y_A$. It asks for the value of $a$ or possibly the height $y_A$ if we discard the $L=D$ implication.\n\nIf we discard $L=D$ and assume the initial premise: $y(0)=a$ and $y(0)=0$ (touches ground), then $a=0$, which contradicts $L=1000$.\n\nThe scenario $L=D$ is a very specific one, $1000$ $\\text{m}$ cable spanning $1000$ $\\text{m}$. This strongly suggests a horizontal line.\n\nIf the cable is horizontal, $y(x) = y_A$.\nThe lowest point is $(0, y_A)$.\nIf this lowest point touches the ground, $y_A = 0$.\nThe coordinates of $A$ and $B$ are $(-500, 0)$ and $(500, 0)$.\n\nThe question seems ill-posed because $L=D$ forces the curve to be a straight line, which is not a catenary unless $a \\to \\infty$. If $a \\to \\infty$, then $y_A = a + 500^2/(2a) \\to \\infty$, which contradicts $y_A=0$ (ground level).\n\nAssuming the intent was to ask for the height $y_A$ under the condition $L=1000$ and $D=1000$:\nThe only configuration is a horizontal cable $y=c$. If it touches the ground at the lowest point, $c=0$.\nHeight of the poles is $y_A = 0$.\n\nIf we are forced to find a non-zero $a$ such that $L=1000$ and $D=1000$, there is no solution as $u = \\sinh(u)$ only has $u=0$.\n\nWe must conclude that the physical setup $L=D$ implies the result must be interpreted as the limit case of the catenary where the sag is zero, $S=0$, leading to $a \\to \\infty$ and $y_A \\to \\infty$ unless the ground level is elevated.\n\nGiven the constraint \"The cable touches the ground at its lowest point,\" we interpret this as $y(0) = 0$.\nFrom the catenary model, $y(0) = a$. Thus $a=0$.\nIf $a=0$, $L = 2a \\sinh(500/a)$.\nUsing L'Hopital's rule on $f(a) = 2a \\sinh(500/a)$ as $a \\to 0^+$. Let $u=500/a$, $a=500/u$.\n$L = 1000 \\frac{\\sinh u}{u}$. As $u \\to \\infty$, $L \\to \\infty$. This contradicts $L=1000$.\n\nConclusion: The problem statement contains contradictory information. The only consistent interpretation of the spatial configuration ($L=D=1000$ m) is that the cable is straight and horizontal, meaning the height of the poles $y_A$ is the same as the lowest point, and the sag is zero. If the lowest point touches the ground ($y_{min}=0$), then $y_A=0$.\n\nIf the question implies that the height of the poles $y_A$ must be determined using the catenary equation, then $L$ must be greater than $D$. Since $L=D$, the only way to resolve this with the catenary model is to admit the degenerate case $a \\to \\infty$, which leads to a horizontal cable. In this case, the height $y_A$ is undetermined by the cable length formula, but determined by the ground constraint.\n\nSince the lowest point touches the ground $y_{min}=0$, and for the catenary $y_{min}=a$, we must have $a=0$. This leads to $L \\to \\infty$. The length $L=1000$ must be the definitive constraint.\n\nIf $L=1000$ and $D=1000$, the cable is horizontal, $y(x) = y_A$.\nIf the lowest point touches the ground, $y_A = 0$.\nThe height of the poles is $y_A=0$ $\\text{m}$.\n\nIf the problem intended to use the catenary model with a non-zero sag, $L$ must be greater than $1000$ $\\text{m}$. Let's assume there was a typo and $L=1001$ $\\text{m}$ instead, just to see how $a$ would be found.\n$1001 = 2a \\sinh(500/a)$.\n$500.5 = a \\sinh(500/a)$.\nIf $u=500/a$, $u = 500.5 \\frac{\\sinh u}{500} = 1.001 \\sinh u$.\n$u = 1.001 \\sinh u$. Since $1.001 > 1$, there is a non-zero solution for $u$.\nNumerically, $u \\approx 18.74$.\nThen $a = 500/u \\approx 26.68$ $\\text{m}$.\nThe height of the poles would be $y_A = a \\cosh(u) \\approx 26.68 \\cosh(18.74) \\approx 5127.5$ $\\text{m}$.\nThe lowest point would be $a \\approx 26.68$ $\\text{m}$ above ground (if $y(0)=a$).\n\nHowever, based on the exact numbers given: $L=1000$ $\\text{m}$ and $D=1000$ $\\text{m}$.\nThe cable is straight and horizontal, $y(x) = c$.\nLowest point touches ground: $c=0$.\nThe height of the poles $y_A = c = 0$ $\\text{m}$.\nThe parameter $a$ in the catenary model is infinite, indicating a straight line.\n\nThe question does not ask for $a$, but the premise implies the physical setup must be satisfied. The physical setup dictates $y_A=0$.\n\nFinal answer based on the inescapable physical consequence of $L=D$:\nThe height of the poles $y_A$ is $0$ $\\text{m}$.",
     "ig_handle": "rustic_jazz",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": [
-        "19:40",
-        "21:00"
-      ],
-      "sat": [
-        "19:40",
-        "21:00"
-      ],
-      "sun": [
-        "19:40",
-        "21:00"
-      ]
-    },
-    "genres": [
-      "Jazz"
-    ],
-    "websites": [
-      "http://www.jazzrustic.co.kr"
+    "last_analyzed_at": "2025-11-09T05:13:45.977270+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=2518566375600343369",
+      "maps:https://maps.google.com/?cid=1629884300631888791",
+      "maps:https://maps.google.com/?cid=12958000001331928624",
+      "maps:https://maps.google.com/?cid=5936925627923403423",
+      "maps:https://maps.google.com/?cid=3512824848346026630",
+      "maps:https://maps.google.com/?cid=3803486770832132230",
+      "maps:https://maps.google.com/?cid=13163330699457356298",
+      "maps:https://maps.google.com/?cid=11842852244500454903",
+      "maps:https://maps.google.com/?cid=5550789818210732130",
+      "maps:https://maps.google.com/?cid=16693826049875737167",
+      "maps:https://maps.google.com/?cid=9176070558265640633",
+      "maps:https://maps.google.com/?cid=14710763701329609732",
+      "maps:https://maps.google.com/?cid=10469024144103497378",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/rustic_jazz",
       "homepage": "http://www.jazzrustic.co.kr",
-      "booking": null,
       "google_map": "https://maps.google.com/?cid=2518566375600343369",
       "naver_map": "https://naver.me/5apDEoVg"
     },
     "contacts": {
-      "phone": "050-71390-5280",
-      "email": null
-    },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "러스틱재즈",
-        "address_text": "74 Mangwon-ro, Mapo-gu, Seoul, South Korea",
-        "address_components": {
-          "street": "74 Mangwon-ro",
-          "district": "Mapo-gu",
-          "city": "Seoul",
-          "postal_code": null,
-          "country": "South Korea"
-        },
-        "subway_nearby": null,
-        "booking_link": null,
-        "notes": null,
-        "i18n": {
-          "name": {
-            "en": "Rustic Jazz",
-            "ko": "러스틱재즈"
-          },
-          "address_text": {
-            "en": "74 Mangwon-ro, Mapo-gu, Seoul, South Korea",
-            "ko": "서울 마포구 망원로 74"
-          },
-          "notes": null
-        }
-      }
-    ],
-    "last_analyzed_at": "2024-07-30T00:00:00Z",
-    "confidence": 0.9,
-    "extraction_version": "1.0",
-    "sources": [
-      "ig_profile_snapshot",
-      "maps:https://maps.google.com/?cid=2518566375600343369",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.3.0",
-    "i18n": {
-      "name": {
-        "en": "Rustic Jazz",
-        "ko": "러스틱재즈"
-      },
-      "address_text": null,
-      "notes": {
-        "en": "Space rental and reservation information",
-        "ko": "공간대여 및 예약안내"
-      },
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
+      "email": null,
+      "phone": null
     },
     "naver_subway_nearby": "6호선 망원역 2번 출구에서 579m"
   },
@@ -5117,70 +5019,109 @@
     "last_analyzed_at": "2025-11-11T12:22:59.353806+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul.society.club/profile/2025-11-11/profile.json"
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul.society.club/profile/2025-11-11/profile.json",
+      "maps:https://maps.google.com/?cid=11210027271886918730",
+      "maps:https://maps.google.com/?cid=1122758754087036530",
+      "maps:https://maps.google.com/?cid=7453012369005840237",
+      "maps:https://maps.google.com/?cid=10202960881228967146",
+      "gemini:enrich"
     ],
     "links": {
-      "instagram": "https://www.instagram.com/seoul.society.club"
-    },
-    "contacts": {
-      "email": null,
-      "phone": null
-    }
-  },
-  {
-    "ig_handle": "seoul_garage_bar",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": "18:00-02:00",
-      "tue": "18:00-02:00",
-      "wed": "18:00-02:00",
-      "thu": "18:00-02:00",
-      "fri": "18:00-02:00",
-      "sat": "14:00-02:00",
-      "sun": "14:00-20:00"
-    },
-    "typical_show_times": null,
-    "genres": [
-      "재즈",
-      "라이브 공연"
-    ],
-    "websites": null,
-    "links": {
-      "instagram": "https://www.instagram.com/seoul_garage_bar",
-      "homepage": "https://litt.ly/seoulgaragebar",
-      "booking": "https://litt.ly/seoulgaragebar",
-      "google_map": null,
-      "naver_map": "https://naver.me/FPn5tWZQ"
+      "instagram": "https://www.instagram.com/seoul.society.club",
+      "homepage": null,
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=11210027271886918730",
+      "naver_map": "https://naver.me/58NdhHaR"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "서울게러지바",
+        "name": "Social Club Seoul",
+        "address_text": "서울 마포구 망원제1동 414-27",
+        "address_components": null,
+        "location_lat": 37.5565346911233,
+        "location_lon": 126.906503763811,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Social Club Seoul",
+            "ko": "소셜 클럽 서울"
+          },
+          "address_text": {
+            "en": "414-27 Mangwon 1-dong, Mapo-gu, Seoul, South Korea",
+            "ko": "서울 마포구 망원제1동 414-27"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Social Club Seoul",
+        "ko": "소셜 클럽 서울"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "naver_subway_nearby": "6호선 망원역 2번 출구에서 551m"
+  },
+  {
+    "raw": "The **Doric Order** is the oldest and simplest of the classical Greek architectural orders. It is characterized by its massive, fluted columns resting directly on the stylobate (the platform of the temple) without a base, and its austere, sturdy appearance.\n\nHere is a detailed breakdown of the key characteristics of the Doric Order:\n\n---\n\n## 1. Columns (The Shaft and Capital)\n\nThe Doric column is the most distinctive feature, conveying strength and simplicity.\n\n### A. The Column Shaft\n* **Fluting:** The shaft is deeply fluted (grooved) with sharp edges called **arris** separating the grooves. Classical Greek Doric columns typically have **20 flutes**.\n* **Entasis:** A subtle, convex swelling or bulge is often incorporated into the shaft about one-third of the way up from the base. This optical refinement prevents the straight column from appearing concave (a visual illusion) when viewed from a distance.\n* **No Base:** The Doric column sits directly on the temple floor (the **stylobate**) without an intervening base, making it seem firmly rooted to the ground.\n\n### B. The Capital\nThe capital is plain and functional, consisting of two main parts:\n1.  **Echinus:** A circular, convex cushion-like element that flares out slightly from the top of the shaft.\n2.  **Abacus:** A square, flat slab placed directly on top of the echinus, which serves as the bearing surface for the architrave above.\n\n---\n\n## 2. The Entablature\nThe entablature is the structure supported by the columns, resting on the abacus. It is highly characteristic of the Doric Order.\n\n### A. Architrave\nThe lowest element resting directly on the columns. In the Doric style, the architrave is plain and undecorated, consisting of simple horizontal stone beams.\n\n### B. Frieze\nThe frieze, located above the architrave, is where the most recognizable Doric decoration occurs:\n*   **Triglyphs:** Vertical blocks containing three parallel, raised bands (giving the appearance of three grooves). These alternate with the metopes.\n*   **Metopes:** Square panels located between the triglyphs. These were often decorated in the earlier, older style with painted scenes or, more famously in the Parthenon, with sculpted reliefs depicting mythological battles.\n\n### C. Cornice\nThe projecting, crowning element of the entablature that shelters the frieze below.\n\n---\n\n## 3. The Pediment\nThe triangular gable structure at the ends of the temple roof.\n*   The sloping edges of the roof form the **raking cornices**.\n*   The tympanum (the recessed area within the triangle) was often filled with large, freestanding sculptures, especially during the mature Classical period.\n\n---\n\n## Summary of Key Visual Characteristics\n\n| Feature | Doric Description |\n| :--- | :--- |\n| **Overall Impression** | Masculine, sturdy, severe, simple. |\n| **Base** | Absent (sits directly on the stylobate). |\n| **Shaft** | Fluted with sharp arrises, often features entasis. |\n| **Capital** | Simple, consisting of an echinus and an abacus. |\n| **Frieze Decoration** | Alternating **Triglyphs** and **Metopes**. |\n| **Proportions** | Relatively short and stout compared to Ionic or Corinthian columns. |\n\n---\n\n## Historical Context and Evolution\n\nThe Doric Order originated in the Peloponnese region of Greece around the 7th century BCE.\n\n1.  **Archaic Doric (c. 600–480 BCE):** Characterized by very heavy, squat proportions, shallow fluting, and often a very exaggerated echinus (seen in early temples at Paestum, Italy).\n2.  **Classical Doric (c. 480–323 BCE):** Reached its peak perfection with the construction of the **Parthenon** in Athens. Proportions became more refined, elegant, and slender, and optical refinements (like entasis) were expertly applied.\n3.  **Roman Doric:** The Romans adopted the order but often modified it by adding a base to the column (a feature usually reserved for Ionic or Corinthian) and reducing the depth of the fluting.\n\n### Famous Examples:\n*   **The Parthenon, Athens, Greece** (The quintessential example of Classical Doric).\n*   **The Temple of Hephaestus, Athens, Greece** (One of the best-preserved Greek temples).\n*   **The Temple of Poseidon at Paestum, Italy** (Excellent example of Archaic Doric).",
+    "ig_handle": "seoul_garage_bar",
+    "last_analyzed_at": "2025-11-09T05:13:12.435183+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=16084038525693329250",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/seoul_garage_bar",
+      "homepage": "https://litt.ly/seoulgaragebar",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=16084038525693329250",
+      "naver_map": "https://naver.me/FPn5tWZQ"
+    },
+    "contacts": {
+      "phone": "010-6630-6980",
+      "email": null
+    },
+    "subway_nearby": "1호선 종각역 4번 출구에서 288m",
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Seoul Garage",
         "address_text": "서울 종로구 종로14길 4 1층",
         "address_components": null,
         "location_lat": 37.5698255207023,
         "location_lon": 126.98671553503,
-        "subway_nearby": "종로, 종각",
-        "booking_link": "https://litt.ly/seoulgaragebar",
+        "subway_nearby": "1호선 종각역 4번 출구에서 288m",
+        "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
             "en": "Seoul Garage",
-            "ko": "서울게러지바"
+            "ko": "서울가라지"
           },
           "address_text": {
             "en": "1st Floor, 4, Jong-ro 14-gil, Jongno District, Seoul, South Korea",
@@ -5190,31 +5131,30 @@
         }
       }
     ],
-    "last_analyzed_at": "2025-10-29",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "https://www.instagram.com/seoul_garage_bar",
-      "https://litt.ly/seoulgaragebar",
-      "maps:https://maps.google.com/?cid=16084038525693329250",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
     "i18n": {
       "name": {
         "en": "Seoul Garage",
-        "ko": "서울게러지바"
+        "ko": "서울가라지"
       },
       "address_text": null,
-      "notes": {
-        "en": "Reservations and inquiries are available via DM.",
-        "ko": "예약 및 문의는 DM으로 가능합니다."
+      "notes": null,
+      "genres": {
+        "en": [
+          "Bar",
+          "Live Music"
+        ],
+        "ko": [
+          "바",
+          "라이브 음악"
+        ]
+      },
+      "subway_nearby": {
+        "en": "288m from Jonggak Station Exit 4 (Line 1)",
+        "ko": "1호선 종각역 4번 출구에서 288m"
       },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "1호선 종각역 4번 출구에서 288m"
+    }
   },
   {
     "raw": "# A Beginner's Guide to Understanding and Preventing SQL Injection\n\nSQL Injection (SQLi) is one of the oldest, most prevalent, and dangerous web application vulnerabilities. For anyone building or securing web applications, understanding SQLi is crucial. This guide will break down what it is, how it works, and most importantly, how to prevent it, even if you're just starting out.\n\n---\n\n## 1. What is SQL Injection?\n\nLet's start with the basics:\n\n*   **SQL (Structured Query Language):** This is the language used to communicate with and manage relational databases. Almost every dynamic website relies on a database to store user information, product catalogs, blog posts, etc. When you log in, search for a product, or submit a comment, your web application sends SQL commands (called \"queries\") to the database.\n\n*   **Injection:** In the context of cybersecurity, \"injection\" refers to a type of attack where an attacker inserts malicious code into an input field, which is then processed by a program (in this case, a database).\n\n**Putting it together:** SQL Injection is a code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g., to dump the database contents to the attacker).\n\n---\n\n## 2. How Does SQL Injection Work? (The \"Injection\" Part)\n\nImagine a login form. When you type your username and password, the web application constructs an SQL query to check if your credentials are valid.\n\n**Scenario: A Vulnerable Login Form**\n\nLet's say a developer writes code that creates an SQL query by directly concatenating (joining) user input strings.\n\nHere's what a *typical, legitimate* query might look like behind the scenes when you enter `john` as the username and `password123` as the password:\n\n```sql\nSELECT * FROM users WHERE username = 'john' AND password = 'password123';\n```\nIf these credentials match a record in the `users` table, you're logged in.\n\n**The Attack:**\n\nAn attacker exploits the application by entering carefully crafted input that changes the *meaning* of the SQL query.\n\n**Example 1: Bypassing Authentication**\n\nThe attacker might type the following into the **username** field:\n\n`admin' --`\n\n*(The `--` in SQL is a comment marker, meaning everything after it on the line is ignored by the database.)*\n\nNow, let's see how the vulnerable application builds the query:\n\n1.  **Original Query Structure:** `SELECT * FROM users WHERE username = '[user_input]' AND password = '[password_input]';`\n2.  **Attacker's Input:** `admin' --` for username, and anything for password (e.g., `blah`).\n3.  **Resulting Query:**\n    ```sql\n    SELECT * FROM users WHERE username = 'admin' --' AND password = 'blah';\n    ```\n\n**What the database sees:**\n\nThe database executes: `SELECT * FROM users WHERE username = 'admin'`\n\nThe rest of the query (`--' AND password = 'blah';`) is commented out and ignored. If there's a user named `admin` in the database, the condition `username = 'admin'` becomes true, and the attacker is logged in as `admin` (or the first user returned if multiple match). No password needed!\n\n**Example 2: Retrieving All User Data**\n\nAnother common input for bypassing login or dumping data:\n\n`admin' OR '1'='1`\n\nWhen injected into the username field:\n\n```sql\nSELECT * FROM users WHERE username = 'admin' OR '1'='1' AND password = 'blah';\n```\n\nSince `'1'='1'` is always true, the `OR '1'='1'` part makes the entire `WHERE` clause true. The database will return *all* rows from the `users` table, potentially logging the attacker in as the first user found, or revealing sensitive information.\n\n---\n\n## 3. Why is SQL Injection Dangerous?\n\nSQLi attacks can lead to severe consequences:\n\n*   **Data Theft:** Attackers can read, modify, or delete sensitive data (customer records, credit card numbers, passwords, personal information).\n*   **Data Corruption/Deletion:** Attackers can modify or destroy your database's data, causing significant damage and loss of trust.\n*   **Authentication Bypass:** As shown above, attackers can log in as legitimate users or administrators without knowing their credentials.\n*   **Website Defacement:** Attackers can modify content displayed on your website.\n*   **Denial of Service (DoS):** Attackers can make your website or application unavailable by corrupting data or overloading the database.\n*   **Remote Code Execution:** In some advanced cases, attackers can even execute arbitrary commands on the server itself, taking full control of the machine.\n\n---\n\n## 4. How to Prevent SQL Injection (The Essential Defenses)\n\nPreventing SQLi primarily revolves around one core principle: **never treat user input as executable code.**\n\n### 1. **Parameterized Queries (The #1 Defense)**\n\nThis is the most effective and recommended way to prevent SQL injection. Parameterized queries (also known as Prepared Statements) work by separating the SQL code from the user-supplied data.\n\n**How it works:**\n\nInstead of directly embedding user input into the SQL string, you define the SQL query with \"placeholders\" for the input values. Then, you provide the user input separately, and the database engine understands that these inputs are *data* and not *code*. It will never interpret the input as part of the SQL command itself.\n\n**Analogy:** Think of it like filling out a pre-printed form. The structure of the form (the query) is fixed. You fill in the blanks (the parameters) with your information (the data). No matter what you write in the blanks, it's always treated as data, never as a change to the form's structure.\n\n**Example (Conceptual Code):**\n\nMost modern programming languages and database libraries support parameterized queries. Here's a conceptual example:\n\n```\n// Instead of this (VULNERABLE):\n// query = \"SELECT * FROM users WHERE username = '\" + user_input + \"' AND password = '\" + pass_input + \"';\"\n// execute(query)\n\n// Do this (SECURE with Parameterized Query):\nquery = \"SELECT * FROM users WHERE username = ? AND password = ?;\" // Or use named parameters like :username, :password\nparameters = [user_input, pass_input]\n\nexecute_prepared_statement(query, parameters)\n```\n\nIn this secure approach, if the attacker inputs `admin' --`, the database will simply search for a username that literally matches `admin' --`. It won't interpret `--` as a comment, and the login will fail (unless there's actually a user named `admin' --`).\n\n**Key Takeaway:** **Always use parameterized queries for *any* SQL query that incorporates user input.** This applies to `SELECT`, `INSERT`, `UPDATE`, and `DELETE` statements.\n\n### 2. **Input Validation**\n\nWhile parameterized queries are your primary defense, robust input validation is a crucial secondary layer.\n\n*   **What it is:** Checking user input to ensure it conforms to expected formats, lengths, and types.\n*   **How to do it:**\n    *   **Data Type Validation:** If you expect a number, ensure it's a number.\n    *   **Length Validation:** Limit the length of input fields (e.g., usernames usually have a max length).\n    *   **Format Validation:** Use regular expressions to enforce specific patterns (e.g., email addresses, phone numbers, alphanumeric usernames).\n    *   **Whitelisting:** Only allow specific characters or values (e.g., a dropdown list).\n*   **Server-Side Validation:** Always perform validation on the server side. Client-side validation (in the browser) is good for user experience but can be bypassed by attackers.\n\n**Example:** If a username should only contain letters and numbers, validate that the input matches `^[a-zA-Z0-9]+$` before processing.\n\n### 3. **Principle of Least Privilege**\n\nDatabase users should only have the minimum necessary permissions to perform their tasks.\n\n*   **Action:**\n    *   Your web application's database user should **NOT** be the database administrator (DBA).\n    *   It should only have `SELECT`, `INSERT`, `UPDATE`, `DELETE` permissions on the specific tables it needs to interact with.\n    *   It should *not* have permissions to create tables, drop tables, or modify database schemas.\n    *   It definitely shouldn't have permissions to execute stored procedures that aren't directly part of its function.\n\n### 4. **Robust Error Handling**\n\nDon't display raw database errors to your users. Detailed error messages can inadvertently leak information about your database structure, operating system, and application logic, which attackers can use to craft more precise attacks.\n\n*   **Action:**\n    *   Catch database errors internally.\n    *   Log them securely on the server side for debugging.\n    *   Display generic, user-friendly error messages to the end-user (e.g., \"An unexpected error occurred. Please try again later.\").\n\n### 5. **Keep Software Up-to-Date**\n\nRegularly update your operating system, database software (MySQL, PostgreSQL, etc.), web server, and application frameworks. Vendors frequently release security patches that fix known vulnerabilities, including potential SQLi vectors.\n\n### 6. **Web Application Firewalls (WAFs)**\n\nA Web Application Firewall can provide an additional layer of defense by monitoring and filtering HTTP traffic between your application and the internet. WAFs can detect and block many common attack patterns, including SQL injection attempts, before they even reach your application.\n\n*   **Note:** A WAF is a helpful *additional* layer, not a replacement for secure coding practices like parameterized queries.\n\n---\n\n## Conclusion\n\nSQL Injection remains a serious threat, but it's largely preventable with the right practices. As a beginner, focusing on **parameterized queries** should be your top priority for any application that interacts with a database. Combine this with diligent **input validation**, adherence to the **principle of least privilege**, and good **error handling**, and you'll be well on your way to building secure web applications.\n\nAlways remember: trust no input. All data coming from a user or external source should be treated as potentially malicious until proven otherwise.",
@@ -5237,76 +5177,53 @@
     }
   },
   {
+    "raw": "A group of ten people is waiting for a bus.\nThere are three men and seven women.\nThe bus arrives and the people board the bus one by one.\nWhat is the probability that the first three people to board the bus are all women?\n\nHere is the step-by-step solution:\n\n### 1. Understand the Initial Composition\n* **Total people ($N$):** 10\n* **Men ($M$):** 3\n* **Women ($W$):** 7\n\n### 2. Calculate the Probability for Each Step\n\nSince the people board one by one without replacement, the total number of people and the number of women decrease with each successful boarding.\n\n**Event 1: The first person is a woman ($W_1$)**\n* Probability ($P(W_1)$) = (Number of women available) / (Total people available)\n$$P(W_1) = \\frac{7}{10}$$\n\n**Event 2: The second person is a woman ($W_2$), given the first was a woman**\nAfter the first woman boards:\n* Total people remaining: $10 - 1 = 9$\n* Women remaining: $7 - 1 = 6$\n* Probability ($P(W_2 | W_1)$) = $\\frac{6}{9}$\n\n**Event 3: The third person is a woman ($W_3$), given the first two were women**\nAfter the second woman boards:\n* Total people remaining: $9 - 1 = 8$\n* Women remaining: $6 - 1 = 5$\n* Probability ($P(W_3 | W_1 \\text{ and } W_2)$) = $\\frac{5}{8}$\n\n### 3. Calculate the Combined Probability\n\nThe probability that all three events happen in sequence is the product of their individual probabilities:\n$$P(\\text{First three are women}) = P(W_1) \\times P(W_2 | W_1) \\times P(W_3 | W_1 \\text{ and } W_2)$$\n$$P = \\frac{7}{10} \\times \\frac{6}{9} \\times \\frac{5}{8}$$\n\nMultiply the numerators and the denominators:\n$$P = \\frac{7 \\times 6 \\times 5}{10 \\times 9 \\times 8} = \\frac{210}{720}$$\n\n### 4. Simplify the Result\n\nSimplify the fraction $\\frac{210}{720}$:\n$$P = \\frac{21}{72}$$\nBoth 21 and 72 are divisible by 3:\n$$P = \\frac{21 \\div 3}{72 \\div 3} = \\frac{7}{24}$$\n\n---\n### Alternative Method using Combinations\n\nThis problem can also be solved by calculating the ratio of favorable arrangements to total possible arrangements.\n\n**Total possible ways to choose the first 3 boarders (order matters):**\nThis is the permutation of 10 items taken 3 at a time ($P(10, 3)$).\n$$\\text{Total Arrangements} = 10 \\times 9 \\times 8 = 720$$\n\n**Favorable ways (ways to choose 3 women in order):**\nThis is the permutation of 7 women taken 3 at a time ($P(7, 3)$).\n$$\\text{Favorable Arrangements} = 7 \\times 6 \\times 5 = 210$$\n\n**Probability:**\n$$P = \\frac{\\text{Favorable Arrangements}}{\\text{Total Arrangements}} = \\frac{210}{720} = \\frac{7}{24}$$\n\nThe probability that the first three people to board the bus are all women is $\\mathbf{\\frac{7}{24}}$.",
     "ig_handle": "sounddog_jazz",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": "18:00-24:00",
-      "tue": "18:00-24:00",
-      "wed": "18:00-24:00",
-      "thu": "18:00-24:00",
-      "fri": "18:00-24:00",
-      "sat": "18:00-24:00",
-      "sun": "18:00-24:00"
-    },
-    "typical_show_times": {
-      "mon": [
-        "20:00"
-      ],
-      "tue": [
-        "20:00"
-      ],
-      "wed": [
-        "20:00"
-      ],
-      "thu": [
-        "20:00"
-      ],
-      "fri": [
-        "20:00"
-      ],
-      "sat": [
-        "20:00"
-      ],
-      "sun": [
-        "19:00"
-      ]
-    },
-    "genres": [
-      "Jazz"
-    ],
-    "websites": [
-      "https://youtube.com/@jazzliveclubsounddog1257"
+    "last_analyzed_at": "2025-11-09T05:10:37.784749+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/sounddog_jazz/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/sounddog_jazz/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/sounddog_jazz/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/sounddog_jazz/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/sounddog_jazz/profile/2025-11-03/profile.json",
+      "maps:https://maps.google.com/?cid=13163330699457356298",
+      "gemini:enrich"
     ],
     "links": {
-      "instagram": "https://www.instagram.com/sounddog_jazz/",
+      "instagram": "https://www.instagram.com/sounddog_jazz",
       "homepage": "https://youtube.com/@jazzliveclubsounddog1257",
       "booking": null,
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=13163330699457356298",
       "naver_map": "https://naver.me/5nerfq6J"
     },
     "contacts": {
       "phone": "010-5368-2584",
       "email": null
     },
-    "age_limit": null,
-    "dress_code": null,
+    "subway_nearby": "1, 4호선 공항경의중앙GTX-A서울역 12번 출구에서 537m",
+    "genres": [
+      "Jazz",
+      "Live Music"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "사운드독",
-        "address_text": "78-1, Hangang-daero 104-gil, Yongsan District, Seoul, South Korea",
+        "name": "Sounddog Jazz",
+        "address_text": "서울 용산구 한강대로104길 78-1",
         "address_components": null,
+        "location_lat": 37.5500278564415,
+        "location_lon": 126.976506572593,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Sound Dog",
-            "ko": "사운드독"
+            "en": "Sounddog Jazz",
+            "ko": "사운드독 재즈"
           },
           "address_text": {
             "en": "78-1, Hangang-daero 104-gil, Yongsan District, Seoul, South Korea",
@@ -5316,37 +5233,30 @@
         }
       }
     ],
-    "last_analyzed_at": "2024-07-29T00:00:00Z",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "ig_profile_snapshot_2025-10-29",
-      "ig_profile_snapshot_2025-10-28",
-      "ig_profile_snapshot_2025-10-27",
-      "ig_profile_snapshot_2025-10-19",
-      "web_crawl_https://youtube.com/@jazzliveclubsounddog1257",
-      "maps:https://maps.google.com/?cid=13163330699457356298",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
     "i18n": {
       "name": {
-        "en": "Sound Dog",
-        "ko": "사운드독"
+        "en": "Sounddog Jazz",
+        "ko": "사운드독 재즈"
       },
       "address_text": null,
-      "notes": {
-        "en": "* Same-day cancellation not possible",
-        "ko": "* 당일 취소불가"
+      "notes": null,
+      "genres": {
+        "en": [
+          "Jazz",
+          "Live Music"
+        ],
+        "ko": [
+          "재즈",
+          "라이브 음악"
+        ]
       },
-      "food_policy": {
-        "en": "Outside snacks (for 1-2 people) 5,000 KRW charge",
-        "ko": "안주 반입(1-2인) 5천원Charge"
+      "subway_nearby": {
+        "en": "537m from Seoul Station Exit 12 (Subway Lines 1, 4, Airport, Gyeongui-Jungang, GTX-A)",
+        "ko": "1, 4호선 공항경의중앙GTX-A서울역 12번 출구에서 537m"
       },
+      "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "1, 4호선 공항경의중앙GTX-A서울역 12번 출구에서 537m"
+    }
   },
   {
     "raw": "Hi there! How can I help you today? I'm ready to chat, answer questions, or assist with any tasks you have in mind.",
@@ -5410,77 +5320,30 @@
     }
   },
   {
+    "raw": "I can help you with that! To give you the best answer, I need a little more information.\n\nAre you looking for:\n\n1. **A definition** of a specific term?\n2. **Information** about a topic, concept, or historical event?\n3. **Help with a task** (like writing, coding, summarizing, etc.)?\n4. **Something else entirely?**\n\nPlease tell me **what** you need help with!",
     "ig_handle": "theironfairiesseoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": null,
-    "genres": [
-      "Bar"
-    ],
-    "websites": [],
-    "links": {
-      "instagram": "https://www.instagram.com/theironfairiesseoul",
-      "homepage": null,
-      "booking": "https://catchtable.co.kr/Ironfairieskorea",
-      "google_map": null
-    },
-    "contacts": {
-      "phone": null,
-      "email": null
-    },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "아이언페어리즈 서울",
-        "address_text": "서울 용산구 이태원동 72-32 1층",
-        "address_components": null,
-        "location_lat": 37.5340267478304,
-        "location_lon": 126.992322592398,
-        "subway_nearby": null,
-        "booking_link": "https://catchtable.co.kr/Ironfairieskorea",
-        "notes": null,
-        "i18n": {
-          "name": {
-            "en": "The Iron Fairies Seoul",
-            "ko": "아이언페어리즈 서울"
-          },
-          "address_text": {
-            "en": "1st Floor, 72-32, Itaewon-dong, Yongsan District, Seoul, South Korea",
-            "ko": "서울 용산구 이태원동 72-32 1층"
-          },
-          "notes": null
-        }
-      }
-    ],
-    "last_analyzed_at": "2024-07-30T00:00:00Z",
+    "last_analyzed_at": "2025-11-09T05:10:34.993898+09:00",
     "confidence": 1.0,
-    "extraction_version": "1.0",
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
     "sources": [
-      "instagram_profile",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=1973469947057542522",
       "gemini:enrich"
     ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.2.0",
-    "i18n": {
-      "name": {
-        "en": "The Iron Fairies Seoul",
-        "ko": "아이언페어리즈 서울"
-      },
-      "address_text": null,
-      "notes": {
-        "en": "We are currently closed until further notice",
-        "ko": "잠시 휴업 중입니다"
-      },
-      "food_policy": null,
-      "age_limit": null
+    "links": {
+      "instagram": "https://www.instagram.com/theironfairiesseoul",
+      "booking": "https://catchtable.co.kr/Ironfairieskorea",
+      "google_map": "https://maps.google.com/?cid=1973469947057542522"
+    },
+    "contacts": {
+      "email": null,
+      "phone": null
     }
   },
   {

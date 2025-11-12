@@ -187,6 +187,65 @@
     }
   },
   {
+    "id": "ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc",
+    "ig_handle": "bar_tican",
+    "name_irl": "Bar Tican",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "010-9327-7816",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=9091986346322140521",
+    "booking_url": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": "2, 8호선 잠실역 10번 출구에서 584m",
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Bar Tican",
+          "address_text": "서울 송파구 방이동 62-10 1층",
+          "address_components": null,
+          "location_lat": 37.5137708705936,
+          "location_lon": 127.109143598068,
+          "subway_nearby": "2, 8호선 잠실역 10번 출구에서 584m",
+          "booking_link": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Bar Tican",
+              "ko": "바 티칸"
+            },
+            "address_text": {
+              "en": "1st Floor, 62-10 Bangi-dong, Songpa District, Seoul, South Korea",
+              "ko": "서울 송파구 방이동 62-10 1층"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Bar Tican",
+        "ko": "바 티칸"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "584m from Jamsil Station Exit 10 (Lines 2 & 8)",
+        "ko": "2, 8호선 잠실역 10번 출구에서 584m"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_b5bb2158-042b-45ee-86f6-8a6ba4d363e3",
     "ig_handle": "bluecat.fezh",
     "name_irl": "Blue Cat",
@@ -248,7 +307,7 @@
   {
     "id": "ven_0636ca83-2e68-4b13-9027-70838b65d000",
     "ig_handle": "bluechicago_jazzbar",
-    "name_irl": "Blue Chicago Jazz Bar DAEGU",
+    "name_irl": "Blue Chicago Jazz Bar",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -266,69 +325,34 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "블루시카고 재즈바 DAEGU",
-          "address_text": "대구 중구 달구벌대로 2033 엘디스리젠트호텔B1",
-          "address_components": {
-            "street": "달구벌대로 2033 엘디스리젠트호텔B1",
-            "district": "중구",
-            "city": "대구",
-            "postal_code": null,
-            "country": null
-          },
-          "location_lat": 35.866544299947,
-          "location_lon": 128.586029893578,
+          "name": "Blue Chicago Jazz Bar",
+          "address_text": null,
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": "http://app.catchtable.co.kr/ct/shop/bluechicago",
-          "notes": "Walk-in 👌🏻",
+          "notes": null,
           "i18n": {
             "name": {
-              "en": "Blue Chicago Jazz Bar DAEGU",
-              "ko": "블루시카고 재즈바 DAEGU"
+              "en": "Blue Chicago Jazz Bar",
+              "ko": "블루 시카고 재즈 바"
             },
-            "address_text": {
-              "en": "B1, Eldis Regent Hotel, 2033 Dalgubeol-daero, Jung-gu, Daegu, South Korea",
-              "ko": "대구 중구 달구벌대로 2033 엘디스리젠트호텔B1"
-            },
-            "notes": {
-              "en": "Walk-ins welcome",
-              "ko": "워크인 가능"
-            }
+            "address_text": null,
+            "notes": null
           }
         }
-      ],
-      "opening_hours": {
-        "mon": "19:30 - 24:00",
-        "tue": "19:30 - 24:00",
-        "wed": "19:30 - 24:00",
-        "thu": "19:30 - 24:00",
-        "fri": "19:30 - 24:00",
-        "sat": "19:30 - 24:00",
-        "sun": "Closed"
-      },
-      "typical_show_times": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": [
-          "20:30"
-        ],
-        "sat": [
-          "20:30"
-        ],
-        "sun": null
-      }
+      ]
     },
     "i18n_data": {
       "name": {
-        "en": "Blue Chicago Jazz Bar DAEGU",
-        "ko": "블루시카고 재즈바 DAEGU"
+        "en": "Blue Chicago Jazz Bar",
+        "ko": "블루 시카고 재즈 바"
       },
       "address_text": null,
-      "notes": {
-        "en": "Inquiries | DM",
-        "ko": "(문자 예약문의)"
-      },
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -632,6 +656,65 @@
     }
   },
   {
+    "id": "ven_1f69d406-ff66-436d-91dc-a80b98777559",
+    "ig_handle": "cafeblackfactory",
+    "name_irl": "Cafe Black Factory",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=15368606615208860089",
+    "booking_url": null,
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Cafe Black Factory",
+          "address_text": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": "2, 9호선 당산역 8번 출구에서 677m",
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Cafe Black Factory",
+              "ko": "카페 블랙 팩토리"
+            },
+            "address_text": {
+              "en": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
+              "ko": "서울 영등포구 당산제2동 버드나루로 120"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Cafe Black Factory",
+        "ko": "카페 블랙 팩토리"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "677m from Dangsan Station Exit 8 (Lines 2, 9)",
+        "ko": "2, 9호선 당산역 8번 출구에서 677m"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_ef37edb7-b825-47aa-ad8f-88ca66abe239",
     "ig_handle": "cafe_gig",
     "name_irl": "Cafe Gig",
@@ -680,75 +763,6 @@
       "notes": null,
       "genres": null,
       "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
-    "id": "ven_1f69d406-ff66-436d-91dc-a80b98777559",
-    "ig_handle": "cafeblackfactory",
-    "name_irl": "Cafeblackfactory",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Cafeblackfactory",
-          "address_text": "서울 영등포구 버드나루로 120 리오팰리스 2층",
-          "address_components": {
-            "street": "버드나루로 120 리오팰리스 2층",
-            "district": "영등포구",
-            "city": null,
-            "postal_code": null,
-            "country": null
-          },
-          "location_lat": 37.5288728620173,
-          "location_lon": 126.90813687252,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "Cafeblackfactory",
-              "ko": "카페블랙팩토리"
-            },
-            "address_text": {
-              "en": "2nd Floor, Rio Palace, 120, Beodeunaru-ro, Yeongdeungpo-gu, Seoul, South Korea",
-              "ko": "서울 영등포구 버드나루로 120 리오팰리스 2층"
-            },
-            "notes": null
-          }
-        }
-      ],
-      "opening_hours": {
-        "mon": "08:00 - 18:00",
-        "tue": "08:00 - 18:00",
-        "wed": "08:00 - 18:00",
-        "thu": "08:00 - 18:00",
-        "fri": "08:00 - 18:00",
-        "sat": "09:00 - 18:00",
-        "sun": "09:00 - 18:00"
-      }
-    },
-    "i18n_data": {
-      "name": {
-        "en": "Cafeblackfactory",
-        "ko": "카페블랙팩토리"
-      },
-      "address_text": null,
-      "notes": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -833,6 +847,72 @@
     }
   },
   {
+    "id": "ven_d05479c9-a731-4967-b271-caa5e6fd7b96",
+    "ig_handle": "ninejazz_chungdam",
+    "name_irl": "Chungdam Nine",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "02-2002-9800",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=714310057948599705",
+    "booking_url": "https://catchtable.co.kr/ninejazz",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": "Near Samseong Jungang Station (Line 9)",
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Chungdam Nine",
+          "address_text": "B2, 634 Samseong-ro, Gangnam District, Seoul, South Korea",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Chungdam Nine",
+              "ko": "청담 나인"
+            },
+            "address_text": {
+              "en": "B2, 634 Samseong-ro, Gangnam District, Seoul, South Korea",
+              "ko": "서울 강남구 삼성로 634 지하2층"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Chungdam Nine",
+        "ko": "청담 나인"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Live Music"
+        ],
+        "ko": [
+          "라이브 공연"
+        ]
+      },
+      "subway_nearby": {
+        "en": "Near Samseong Jungang Station (Line 9)",
+        "ko": "삼성중앙역 (9호선) 인근"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_5b57109b-a12d-4e92-af7a-e9e14036a7f9",
     "ig_handle": "chunnyun.jonggak",
     "name_irl": "Chunnyun Dongando Jonggak",
@@ -885,6 +965,71 @@
       },
       "address_text": null,
       "notes": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_dbcdf1f7-5704-46ea-ad17-146cba84dfad",
+    "ig_handle": "clubmild_official",
+    "name_irl": "Club Mild",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=9579756090705903253",
+    "booking_url": null,
+    "homepage_url": "https://naver.me/FIfJx5mI",
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Club Mild",
+          "address_text": "1층, 644-6, Sinsa-dong, Gangnam-gu, Seoul, South Korea",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Club Mild",
+              "ko": "클럽 마일드"
+            },
+            "address_text": {
+              "en": "1st Floor, 644-6 Sinsa-dong, Gangnam District, Seoul, South Korea",
+              "ko": "서울 강남구 신사동 644-6 1층"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Club Mild",
+        "ko": "클럽 마일드"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Live Music",
+          "Brunch Restaurant"
+        ],
+        "ko": [
+          "라이브 공연",
+          "브런치 레스토랑"
+        ]
+      },
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -955,84 +1100,17 @@
     }
   },
   {
-    "id": "ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc",
-    "ig_handle": "bar_tican",
-    "name_irl": "Cocktail Bar BARTICAN",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": "010-9327-7816",
-    "email": null,
-    "google_map_url": null,
-    "booking_url": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Cocktail Bar BARTICAN",
-          "address_text": "B1F, 62-10, Bangi-dong, Songpa District, Seoul, South Korea",
-          "address_components": {
-            "street": "Bangi-dong 62-10",
-            "district": "Songpa District",
-            "city": "Seoul",
-            "postal_code": null,
-            "country": "South Korea"
-          },
-          "subway_nearby": null,
-          "booking_link": "https://app.catchtable.co.kr/ct/shop/bartican?from=share",
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "Cocktail Bar BARTICAN",
-              "ko": "칵테일 바 바티칸"
-            },
-            "address_text": {
-              "en": "B1F, 62-10, Bangi-dong, Songpa District, Seoul, South Korea",
-              "ko": "서울 송파구 방이동 62-10 지하1층"
-            },
-            "notes": null
-          }
-        }
-      ],
-      "opening_hours": {
-        "mon": "19:00 - 02:00",
-        "tue": "19:00 - 02:00",
-        "wed": "19:00 - 02:00",
-        "thu": "19:00 - 02:00",
-        "fri": "19:00 - 02:00",
-        "sat": "19:00 - 02:00",
-        "sun": "19:00 - 02:00"
-      }
-    },
-    "i18n_data": {
-      "name": {
-        "en": "Cocktail Bar BARTICAN",
-        "ko": "칵테일 바 바티칸"
-      },
-      "address_text": null,
-      "notes": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
     "id": "ven_62b18976-b260-4cfe-b1be-e0965debb1a2",
     "ig_handle": "concino_concrete",
-    "name_irl": "Concino Concrete",
+    "name_irl": "Concino Concrete Concert Hall",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
     "phone": "050-71374-5800",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=9468222041876555762",
     "booking_url": null,
-    "homepage_url": null,
+    "homepage_url": "https://booking.naver.com/booking/12/bizes/1530500",
     "websites": [],
     "subway_nearby": null,
     "food_policy": null,
@@ -1042,50 +1120,37 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "CONCINO CONCRETE PAJU",
+          "name": "Concino Concrete Concert Hall",
           "address_text": "17 Saeori-ro 161beon-gil, Tanhyeon-myeon, Paju-si, Gyeonggi-do, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
-          "notes": "예약은 따로 받지 않습니다-No reservations",
+          "notes": null,
           "i18n": {
             "name": {
-              "en": "CONCINO CONCRETE PAJU",
-              "ko": "콩치노 콘크리트 파주"
+              "en": "Concino Concrete Concert Hall",
+              "ko": "콘치노 콘크리트 콘서트홀"
             },
             "address_text": {
               "en": "17 Saeori-ro 161beon-gil, Tanhyeon-myeon, Paju-si, Gyeonggi-do, South Korea",
               "ko": "경기 파주시 탄현면 새오리로161번길 17"
             },
-            "notes": {
-              "en": "No reservations",
-              "ko": "예약은 따로 받지 않습니다"
-            }
+            "notes": null
           }
         }
-      ],
-      "opening_hours": {
-        "mon": "14:00-19:00",
-        "tue": "14:00-19:00",
-        "wed": null,
-        "thu": null,
-        "fri": "14:00-19:00",
-        "sat": "12:00-19:00",
-        "sun": "12:00-19:00"
-      }
+      ]
     },
     "i18n_data": {
       "name": {
-        "en": "Concino Concrete",
-        "ko": "콩치노 콘크리트"
+        "en": "Concino Concrete Concert Hall",
+        "ko": "콘치노 콘크리트 콘서트홀"
       },
       "address_text": null,
-      "notes": {
-        "en": "No reservations",
-        "ko": "예약은 따로 받지 않습니다"
-      },
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -1189,6 +1254,62 @@
         "en": "No entry for minors",
         "ko": "미성년자 입장 불가"
       }
+    }
+  },
+  {
+    "id": "ven_daf7f8c8-1ef0-412a-889f-f08ef31975c1",
+    "ig_handle": "edls_official",
+    "name_irl": "EDLS",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": null,
+    "booking_url": null,
+    "homepage_url": "https://litt.ly/edls",
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "EDLS",
+          "address_text": "서울 성동구 성수이로14길 14",
+          "address_components": null,
+          "location_lat": 37.5414076146252,
+          "location_lon": 127.056908279292,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "EDLS",
+              "ko": "EDLS"
+            },
+            "address_text": {
+              "en": "14 Seongsui-ro 14-gil, Seongdong-gu, Seoul, South Korea",
+              "ko": "서울 성동구 성수이로14길 14"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "EDLS",
+        "ko": "EDLS"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
@@ -1613,7 +1734,7 @@
     "location_lon": null,
     "phone": null,
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=17671353726141817992",
     "booking_url": "https://app.catchtable.co.kr/ct/shop/houseofblue.seoul",
     "homepage_url": null,
     "websites": [],
@@ -1819,18 +1940,20 @@
     }
   },
   {
-    "id": "ven_e66853c5-9af1-4907-a19b-75eba2dc11a1",
-    "ig_handle": "jazperformance",
-    "name_irl": "JAZ",
+    "id": "ven_fb67aa3c-8d1d-43f1-8457-959eb84b4c8c",
+    "ig_handle": "_jam_lounge",
+    "name_irl": "Jam Lounge",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "02-498-6934",
+    "phone": null,
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=8406116666556923682",
+    "google_map_url": "https://maps.google.com/?cid=1247755727907721205",
     "booking_url": null,
-    "homepage_url": null,
-    "websites": [],
+    "homepage_url": "https://m.booking.naver.com/booking/6/bizes/519939/items/4192733?theme=place&area=ple",
+    "websites": [
+      "https://m.booking.naver.com/booking/6/bizes/519939/items/4192733?theme=place&area=ple"
+    ],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -1839,38 +1962,44 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "JAZ",
-          "address_text": "2-44 Hwayang-dong, Gwangjin District, Seoul, South Korea",
+          "name": "Jam Lounge",
+          "address_text": "B1, B2, 16 Teheran-ro 51-gil, Gangnam District, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
-          "subway_nearby": "어린이대공원역 과 건대역 사이",
+          "subway_nearby": null,
           "booking_link": null,
-          "notes": "An old jazz club established since 1993 (33 years). Described as a quiet and comfortable hidden gem. Serves wine and whiskey. Located near Sejong University.",
+          "notes": null,
           "i18n": {
             "name": {
-              "en": "JAZ",
-              "ko": "JAZ"
+              "en": "Jam Lounge",
+              "ko": "잼 라운지"
             },
             "address_text": {
-              "en": "2-44 Hwayang-dong, Gwangjin District, Seoul, South Korea",
-              "ko": "서울 광진구 화양동 2-44"
+              "en": "B1, B2, 16 Teheran-ro 51-gil, Gangnam District, Seoul, South Korea",
+              "ko": "서울 강남구 테헤란로51길 16 지하1층, 지하2층"
             },
-            "notes": {
-              "en": "An old jazz club established since 1993 (33 years). Described as a quiet and comfortable hidden gem. Serves wine and whiskey. Located near Sejong University.",
-              "ko": "1993년에 설립된 (33년 된) 오래된 재즈 클럽입니다. 조용하고 편안한 숨겨진 보석 같은 곳으로 묘사됩니다. 와인과 위스키를 제공합니다. 세종대학교 근처에 위치해 있습니다."
-            }
+            "notes": null
           }
         }
       ]
     },
     "i18n_data": {
       "name": {
-        "en": "JAZ",
-        "ko": "JAZ"
+        "en": "Jam Lounge",
+        "ko": "잼 라운지"
       },
       "address_text": null,
       "notes": null,
+      "genres": {
+        "en": [
+          "Bar"
+        ],
+        "ko": [
+          "바"
+        ]
+      },
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -2191,6 +2320,72 @@
     }
   },
   {
+    "id": "ven_e66853c5-9af1-4907-a19b-75eba2dc11a1",
+    "ig_handle": "jazperformance",
+    "name_irl": "Jazz Restaurant",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "02-465-9901",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=1464038180014595385",
+    "booking_url": null,
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "재즈레스토랑",
+          "address_text": "서울 광진구 화양동 18-5",
+          "address_components": null,
+          "location_lat": 37.5477648961168,
+          "location_lon": 127.069968240678,
+          "subway_nearby": "7호선 어린이대공원역 4번 출구에서 329m",
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Jazz Restaurant",
+              "ko": "재즈레스토랑"
+            },
+            "address_text": {
+              "en": "18-5 Hwayang-dong, Gwangjin District, Seoul, South Korea",
+              "ko": "서울 광진구 화양동 18-5"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Jazz Restaurant",
+        "ko": "재즈레스토랑"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": {
+        "en": "329m from Children's Grand Park Station Exit 4 on Line 7",
+        "ko": "7호선 어린이대공원역 4번 출구에서 329m"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_30cf3686-8570-45f0-a97e-4ee892bff294",
     "ig_handle": "jazzxover",
     "name_irl": "Jazz X Over",
@@ -2484,84 +2679,6 @@
     }
   },
   {
-    "id": "ven_44a2e409-468f-4784-978b-6efa9fd9362d",
-    "ig_handle": "michiko.seoul_official",
-    "name_irl": "MICHIKO SEOUL",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": "02-544-6779",
-    "email": null,
-    "google_map_url": null,
-    "booking_url": "https://app.catchtable.co.kr/ct/shop/michiko",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "MICHIKO SEOUL",
-          "address_text": "2F Nonhyeon-dong, 163-1 Gangnam-gu, Seoul, South Korea",
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": "https://app.catchtable.co.kr/ct/shop/michiko",
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "MICHIKO SEOUL",
-              "ko": "미치코 서울"
-            },
-            "address_text": {
-              "en": "2F Nonhyeon-dong, 163-1 Gangnam-gu, Seoul, South Korea",
-              "ko": "서울 강남구 논현동 163-1 2층"
-            },
-            "notes": null
-          }
-        }
-      ],
-      "opening_hours": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": "18:30-23:30",
-        "fri": "18:30-23:30",
-        "sat": "18:30-23:30",
-        "sun": "18:30-23:30"
-      },
-      "typical_show_times": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": [
-          "20:30"
-        ],
-        "fri": [
-          "20:30"
-        ],
-        "sat": [
-          "20:30"
-        ],
-        "sun": [
-          "20:30"
-        ]
-      }
-    },
-    "i18n_data": {
-      "name": {
-        "en": "MICHIKO SEOUL",
-        "ko": "미치코 서울"
-      },
-      "address_text": null,
-      "notes": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
     "id": "ven_5144c26e-0c52-4370-bc0d-bdd4e9429abe",
     "ig_handle": "mammy__blue",
     "name_irl": "Mammy Blue",
@@ -2616,6 +2733,132 @@
         "en": "320m from Konkuk University Station (Lines 2, 7) Exit 3",
         "ko": "2, 7호선 건대입구역 3번 출구에서 320m"
       },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_44a2e409-468f-4784-978b-6efa9fd9362d",
+    "ig_handle": "michiko.seoul_official",
+    "name_irl": "Michiko Seoul Jazz Lounge",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "02-544-6779",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=3844678090420369711",
+    "booking_url": "https://app.catchtable.co.kr/ct/shop/michiko",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Michiko Seoul Jazz Lounge",
+          "address_text": "서울특별시 강남구 논현동 163-1 2층",
+          "address_components": null,
+          "location_lat": 37.5087807210581,
+          "location_lon": 127.023506055543,
+          "subway_nearby": "7호선 신분당논현역 3번 출구에서 202m",
+          "booking_link": "https://app.catchtable.co.kr/ct/shop/michiko",
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Michiko Seoul Jazz Lounge",
+              "ko": "미치코 서울 재즈 라운지"
+            },
+            "address_text": {
+              "en": "2F, 163-1 Nonhyeon-dong, Gangnam-gu, Seoul, South Korea",
+              "ko": "서울특별시 강남구 논현동 163-1 2층"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Michiko Seoul Jazz Lounge",
+        "ko": "미치코 서울 재즈 라운지"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Jazz",
+          "Bar"
+        ],
+        "ko": [
+          "재즈",
+          "바"
+        ]
+      },
+      "subway_nearby": {
+        "en": "202m walk from Sinnonhyeon Station (Line 7, Shinbundang Line) Exit 3",
+        "ko": "7호선 신분당논현역 3번 출구에서 202m"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_af984eb4-14ee-4284-9c35-b16765ae68bb",
+    "ig_handle": "milestones_jazz",
+    "name_irl": "Milestones Jazz",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "0507-1339-0125",
+    "email": null,
+    "google_map_url": null,
+    "booking_url": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll",
+    "homepage_url": "https://milestonesjazz.modoo.at",
+    "websites": [
+      "https://milestonesjazz.modoo.at"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Milestones Jazz",
+          "address_text": "B1, 10-1 Jahamun-ro 5-gil, Jongno-gu, Seoul, South Korea",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll",
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Milestones Jazz",
+              "ko": "마일스톤즈 재즈"
+            },
+            "address_text": {
+              "en": "B1, 10-1 Jahamun-ro 5-gil, Jongno-gu, Seoul, South Korea",
+              "ko": "서울 종로구 자하문로5길 10-1 지하1층"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Milestones Jazz",
+        "ko": "마일스톤즈 재즈"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -2737,17 +2980,17 @@
   {
     "id": "ven_339f0868-20d5-44e5-b322-478249fa9bce",
     "ig_handle": "myjazzgarden",
-    "name_irl": "MyJazzGarden",
+    "name_irl": "My Jazz Garden",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "050-71464-0757",
     "email": null,
-    "google_map_url": null,
-    "booking_url": "https://naver.me/FgScgs7l",
+    "google_map_url": "https://maps.google.com/?cid=2955420704049297629",
+    "booking_url": "http://linktr.ee/mjgarden",
     "homepage_url": "http://linktr.ee/mjgarden",
     "websites": [],
-    "subway_nearby": null,
+    "subway_nearby": "5호선 마곡역 4번 출구에서 308m",
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
@@ -2755,62 +2998,39 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "마이재즈가든 | MyJazzGarden",
-          "address_text": "서울 강서구 마곡동 퀸즈파크11 타워 A 4층",
+          "name": "My Jazz Garden",
+          "address_text": "서울 강서구 마곡중앙6로 76 퀸즈파크11 A동 4층",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
-          "subway_nearby": null,
-          "booking_link": "https://naver.me/FgScgs7l",
-          "notes": "Catchtable booking available: https://app.catchtable.co.kr/ct/shop/myjazzgarden",
+          "subway_nearby": "5호선 마곡역 4번 출구에서 308m",
+          "booking_link": "http://linktr.ee/mjgarden",
+          "notes": null,
           "i18n": {
             "name": {
-              "en": "MyJazzGarden",
-              "ko": "마이재즈가든"
+              "en": "My Jazz Garden",
+              "ko": "마이 재즈 가든"
             },
             "address_text": {
-              "en": "4F Queen's Park 11 Tower A, Magok-dong, Gangseo-gu, Seoul, South Korea",
-              "ko": "서울 강서구 마곡동 퀸즈파크11 타워 A 4층"
+              "en": "4th Floor, Queen's Park 11 Tower A, 76 Magokjungang 6-ro, Gangseo-gu, Seoul, South Korea",
+              "ko": "서울 강서구 마곡중앙6로 76 퀸즈파크11 A동 4층"
             },
-            "notes": {
-              "en": "Catchtable booking available: https://app.catchtable.co.kr/ct/shop/myjazzgarden",
-              "ko": "캐치테이블 예약 가능: https://app.catchtable.co.kr/ct/shop/myjazzgarden"
-            }
+            "notes": null
           }
         }
-      ],
-      "opening_hours": {
-        "mon": null,
-        "tue": "16:00 ~ 23:00",
-        "wed": "16:00 ~ 23:00",
-        "thu": "16:00 ~ 23:00",
-        "fri": "16:00 ~ 23:00",
-        "sat": "16:00 ~ 23:00",
-        "sun": null
-      },
-      "typical_show_times": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": [
-          "19:30"
-        ],
-        "sat": [
-          "19:30"
-        ],
-        "sun": null
-      }
+      ]
     },
     "i18n_data": {
       "name": {
-        "en": "MyJazzGarden",
-        "ko": "마이재즈가든"
+        "en": "My Jazz Garden",
+        "ko": "마이 재즈 가든"
       },
       "address_text": null,
-      "notes": {
-        "en": "Live music on Friday & Saturday (19:30-21:30). Catchtable booking available: https://app.catchtable.co.kr/ct/shop/myjazzgarden",
-        "ko": "금요일, 토요일 라이브 공연 (19:30-21:30). 캐치테이블 예약 가능: https://app.catchtable.co.kr/ct/shop/myjazzgarden"
+      "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "308m from Magok Station Exit 4 on Line 5",
+        "ko": "5호선 마곡역 4번 출구에서 308m"
       },
       "food_policy": null,
       "age_limit": null
@@ -2825,12 +3045,10 @@
     "location_lon": null,
     "phone": null,
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=18103884637851195875",
     "booking_url": "https://app.catchtable.co.kr/ct/shop/newall",
     "homepage_url": null,
-    "websites": [
-      "https://naver.me/G9tBciHQ"
-    ],
+    "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -2839,9 +3057,11 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "뉴올 재즈 라운지",
+          "name": "Newall Jazz Lounge",
           "address_text": "14 Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea",
           "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": "https://app.catchtable.co.kr/ct/shop/newall",
           "notes": null,
@@ -2866,6 +3086,11 @@
       },
       "address_text": null,
       "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "310m from Hongik University Station Exit 1 (Line 2, Airport Railroad, Gyeongui-Jungang Line)",
+        "ko": "2호선 공항경의중앙홍대입구역 1번 출구에서 310m"
+      },
       "food_policy": null,
       "age_limit": null
     }
@@ -3011,6 +3236,127 @@
     }
   },
   {
+    "id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
+    "ig_handle": "orient_express_wine_",
+    "name_irl": "Orient Express Wine",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=5540853786533473181",
+    "booking_url": "https://app.catchtable.co.kr/ct/shop/orientexpresswine",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Orient Express Wine",
+          "address_text": "서울 마포구 광성로6길 14 지하 1층",
+          "address_components": null,
+          "location_lat": 37.549194547571,
+          "location_lon": 126.938342649817,
+          "subway_nearby": null,
+          "booking_link": "https://app.catchtable.co.kr/ct/shop/orientexpresswine",
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Orient Express Wine",
+              "ko": "오리엔트 익스프레스 와인"
+            },
+            "address_text": {
+              "en": "B1, 14, Gwangseong-ro 6-gil, Mapo-gu, Seoul, South Korea",
+              "ko": "서울 마포구 광성로6길 14 지하 1층"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Orient Express Wine",
+        "ko": "오리엔트 익스프레스 와인"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Wine Bar",
+          "Bar"
+        ],
+        "ko": [
+          "와인바",
+          "바"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_c5e71d53-324f-4a86-ad6a-02b28e50aab3",
+    "ig_handle": "gc_jazzpicnic",
+    "name_irl": "Paloznaki Jazz Picnic",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": null,
+    "booking_url": null,
+    "homepage_url": "https://linktr.ee/gc_jazzpicnic",
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Paloznaki Jazzpiknik",
+          "address_text": "Sport Street 4, Paloznak, 8229 Hungary",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Paloznaki Jazz Picnic",
+              "ko": "팔로즈나키 재즈 피크닉"
+            },
+            "address_text": {
+              "en": "Sport Street 4, Paloznak, 8229 Hungary",
+              "ko": "헝가리 팔로즈나크 스포르트 거리 4, 8229"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Paloznaki Jazz Picnic",
+        "ko": "팔로즈나키 재즈 피크닉"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_9decc5c4-a543-4f02-a9ad-9da91ba67087",
     "ig_handle": "positive_zero_lounge",
     "name_irl": "Positive Zero Lounge",
@@ -3019,7 +3365,7 @@
     "location_lon": null,
     "phone": "02-462-5994",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=3590662693102319101",
     "booking_url": null,
     "homepage_url": null,
     "websites": [],
@@ -3031,7 +3377,7 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Positive Zero Lounge",
+          "name": "positive zero lounge",
           "address_text": "14-2 Yeonmujang-gil, Seongdong-gu, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
@@ -3042,7 +3388,7 @@
           "i18n": {
             "name": {
               "en": "Positive Zero Lounge",
-              "ko": "포지티브 제로 라운지"
+              "ko": "파지티브 제로 라운지"
             },
             "address_text": {
               "en": "14-2 Yeonmujang-gil, Seongdong-gu, Seoul, South Korea",
@@ -3056,10 +3402,12 @@
     "i18n_data": {
       "name": {
         "en": "Positive Zero Lounge",
-        "ko": "포지티브 제로 라운지"
+        "ko": "파지티브 제로 라운지"
       },
       "address_text": null,
       "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -3134,6 +3482,61 @@
     }
   },
   {
+    "id": "ven_7199e26a-d9c9-4ec7-9b96-735c69cb42bc",
+    "ig_handle": "jrja_roy",
+    "name_irl": "Roy Jazz Art Hall",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": null,
+    "booking_url": null,
+    "homepage_url": "https://m.blog.naver.com/roy_jazz_art_hall?proxyReferer=https%253A%252F%252Fm.place.naver.com%252Fplace%252F1396699431%252Fhome%253Fentry%253Dpll%2526view%253Dblog_blog_e704d02780a2eb77720bf703f86c57cb_419114969&tab=1&trackingCode=naver_place",
+    "websites": [
+      "https://m.blog.naver.com/roy_jazz_art_hall?proxyReferer=https%253A%252F%252Fm.place.naver.com%252Fplace%252F1396699431%252Fhome%253Fentry%253Dpll%2526view%253Dblog_blog_e704d02780a2eb77720bf703f86c57cb_419114969&tab=1&trackingCode=naver_place"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Roy Jazz Art Hall",
+          "address_text": null,
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Roy Jazz Art Hall",
+              "ko": "로이 재즈 아트 홀"
+            },
+            "address_text": null,
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Roy Jazz Art Hall",
+        "ko": "로이 재즈 아트 홀"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_50c38ea6-b54c-493b-8ea4-8dbf9b6d93de",
     "ig_handle": "rustic_jazz",
     "name_irl": "Rustic Jazz",
@@ -3145,9 +3548,7 @@
     "google_map_url": "https://maps.google.com/?cid=2518566375600343369",
     "booking_url": null,
     "homepage_url": "http://www.jazzrustic.co.kr",
-    "websites": [
-      "http://www.jazzrustic.co.kr"
-    ],
+    "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -3339,11 +3740,79 @@
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "010-6630-6980",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=16084038525693329250",
     "booking_url": "https://litt.ly/seoulgaragebar",
     "homepage_url": "https://litt.ly/seoulgaragebar",
+    "websites": [],
+    "subway_nearby": "1호선 종각역 4번 출구에서 288m",
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Seoul Garage",
+          "address_text": "서울 종로구 종로14길 4 1층",
+          "address_components": null,
+          "location_lat": 37.5698255207023,
+          "location_lon": 126.98671553503,
+          "subway_nearby": "1호선 종각역 4번 출구에서 288m",
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Seoul Garage",
+              "ko": "서울가라지"
+            },
+            "address_text": {
+              "en": "1st Floor, 4, Jong-ro 14-gil, Jongno District, Seoul, South Korea",
+              "ko": "서울 종로구 종로14길 4 1층"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Seoul Garage",
+        "ko": "서울가라지"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Bar",
+          "Live Music"
+        ],
+        "ko": [
+          "바",
+          "라이브 음악"
+        ]
+      },
+      "subway_nearby": {
+        "en": "288m from Jonggak Station Exit 4 (Line 1)",
+        "ko": "1호선 종각역 4번 출구에서 288m"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_51e6458e-ffba-4f68-92a4-4403324d16fd",
+    "ig_handle": "seoul.society.club",
+    "name_irl": "Social Club Seoul",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=11210027271886918730",
+    "booking_url": null,
+    "homepage_url": null,
     "websites": [],
     "subway_nearby": null,
     "food_policy": null,
@@ -3353,47 +3822,37 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "서울게러지바",
-          "address_text": "서울 종로구 종로14길 4 1층",
+          "name": "Social Club Seoul",
+          "address_text": "서울 마포구 망원제1동 414-27",
           "address_components": null,
-          "location_lat": 37.5698255207023,
-          "location_lon": 126.98671553503,
-          "subway_nearby": "종로, 종각",
-          "booking_link": "https://litt.ly/seoulgaragebar",
+          "location_lat": 37.5565346911233,
+          "location_lon": 126.906503763811,
+          "subway_nearby": null,
+          "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Seoul Garage",
-              "ko": "서울게러지바"
+              "en": "Social Club Seoul",
+              "ko": "소셜 클럽 서울"
             },
             "address_text": {
-              "en": "1st Floor, 4, Jong-ro 14-gil, Jongno District, Seoul, South Korea",
-              "ko": "서울 종로구 종로14길 4 1층"
+              "en": "414-27 Mangwon 1-dong, Mapo-gu, Seoul, South Korea",
+              "ko": "서울 마포구 망원제1동 414-27"
             },
             "notes": null
           }
         }
-      ],
-      "opening_hours": {
-        "mon": "18:00-02:00",
-        "tue": "18:00-02:00",
-        "wed": "18:00-02:00",
-        "thu": "18:00-02:00",
-        "fri": "18:00-02:00",
-        "sat": "14:00-02:00",
-        "sun": "14:00-20:00"
-      }
+      ]
     },
     "i18n_data": {
       "name": {
-        "en": "Seoul Garage",
-        "ko": "서울게러지바"
+        "en": "Social Club Seoul",
+        "ko": "소셜 클럽 서울"
       },
       "address_text": null,
-      "notes": {
-        "en": "Reservations and inquiries are available via DM.",
-        "ko": "예약 및 문의는 DM으로 가능합니다."
-      },
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
@@ -3401,19 +3860,17 @@
   {
     "id": "ven_0dff8bca-6c9f-4dea-85da-9b13a1b8d56c",
     "ig_handle": "sounddog_jazz",
-    "name_irl": "Sound Dog",
+    "name_irl": "Sounddog Jazz",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
     "phone": "010-5368-2584",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=13163330699457356298",
     "booking_url": null,
     "homepage_url": "https://youtube.com/@jazzliveclubsounddog1257",
-    "websites": [
-      "https://youtube.com/@jazzliveclubsounddog1257"
-    ],
-    "subway_nearby": null,
+    "websites": [],
+    "subway_nearby": "1, 4호선 공항경의중앙GTX-A서울역 12번 출구에서 537m",
     "food_policy": "Outside snacks (for 1-2 people) 5,000 KRW charge",
     "age_limit": null,
     "dress_code": null,
@@ -3421,16 +3878,18 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "사운드독",
-          "address_text": "78-1, Hangang-daero 104-gil, Yongsan District, Seoul, South Korea",
+          "name": "Sounddog Jazz",
+          "address_text": "서울 용산구 한강대로104길 78-1",
           "address_components": null,
+          "location_lat": 37.5500278564415,
+          "location_lon": 126.976506572593,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Sound Dog",
-              "ko": "사운드독"
+              "en": "Sounddog Jazz",
+              "ko": "사운드독 재즈"
             },
             "address_text": {
               "en": "78-1, Hangang-daero 104-gil, Yongsan District, Seoul, South Korea",
@@ -3439,54 +3898,30 @@
             "notes": null
           }
         }
-      ],
-      "opening_hours": {
-        "mon": "18:00-24:00",
-        "tue": "18:00-24:00",
-        "wed": "18:00-24:00",
-        "thu": "18:00-24:00",
-        "fri": "18:00-24:00",
-        "sat": "18:00-24:00",
-        "sun": "18:00-24:00"
-      },
-      "typical_show_times": {
-        "mon": [
-          "20:00"
-        ],
-        "tue": [
-          "20:00"
-        ],
-        "wed": [
-          "20:00"
-        ],
-        "thu": [
-          "20:00"
-        ],
-        "fri": [
-          "20:00"
-        ],
-        "sat": [
-          "20:00"
-        ],
-        "sun": [
-          "19:00"
-        ]
-      }
+      ]
     },
     "i18n_data": {
       "name": {
-        "en": "Sound Dog",
-        "ko": "사운드독"
+        "en": "Sounddog Jazz",
+        "ko": "사운드독 재즈"
       },
       "address_text": null,
-      "notes": {
-        "en": "* Same-day cancellation not possible",
-        "ko": "* 당일 취소불가"
+      "notes": null,
+      "genres": {
+        "en": [
+          "Jazz",
+          "Live Music"
+        ],
+        "ko": [
+          "재즈",
+          "라이브 음악"
+        ]
       },
-      "food_policy": {
-        "en": "Outside snacks (for 1-2 people) 5,000 KRW charge",
-        "ko": "안주 반입(1-2인) 5천원Charge"
+      "subway_nearby": {
+        "en": "537m from Seoul Station Exit 12 (Subway Lines 1, 4, Airport, Gyeongui-Jungang, GTX-A)",
+        "ko": "1, 4호선 공항경의중앙GTX-A서울역 12번 출구에서 537m"
       },
+      "food_policy": null,
       "age_limit": null
     }
   },
@@ -3552,7 +3987,7 @@
     "location_lon": null,
     "phone": null,
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=1973469947057542522",
     "booking_url": "https://catchtable.co.kr/Ironfairieskorea",
     "homepage_url": null,
     "websites": [],
@@ -3782,6 +4217,69 @@
     }
   },
   {
+    "id": "ven_ca1db5d9-b2fb-4377-bfd9-08e212622476",
+    "ig_handle": "pdpdclub",
+    "name_irl": "pdpdclub",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "070-4578-8792",
+    "email": null,
+    "google_map_url": null,
+    "booking_url": null,
+    "homepage_url": "https://linktr.ee/pdpdclub",
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "pdpdclub",
+          "address_text": "경기 수원시 팔달구 창룡대로 54",
+          "address_components": null,
+          "location_lat": 37.2835551281103,
+          "location_lon": 127.021691350363,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "pdpdclub",
+              "ko": "파닥파닥클럽"
+            },
+            "address_text": {
+              "en": "54 Changnyong-daero, Paldal-gu, Suwon, Gyeonggi-do, South Korea",
+              "ko": "경기 수원시 팔달구 창룡대로 54"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "pdpdclub",
+        "ko": "파닥파닥클럽"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Live Music"
+        ],
+        "ko": [
+          "라이브 음악"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "id": "ven_545e8d53-df3a-4eee-b230-9ff159f83318",
     "ig_handle": "___key001",
     "name_irl": null,
@@ -3855,46 +4353,6 @@
     }
   },
   {
-    "id": "ven_fb67aa3c-8d1d-43f1-8457-959eb84b4c8c",
-    "ig_handle": "_jam_lounge",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://m.booking.naver.com/booking/6/bizes/519939/items/4192733?theme=place&area=ple",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_dbcdf1f7-5704-46ea-ad17-146cba84dfad",
-    "ig_handle": "clubmild_official",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://naver.me/FIfJx5mI",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
     "id": "ven_833ee592-3904-40bb-9cdd-0f8d192ad208",
     "ig_handle": "cottonclub_seoul",
     "name_irl": null,
@@ -3903,168 +4361,8 @@
     "location_lon": null,
     "phone": null,
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=68841251885151081",
     "booking_url": "https://naver.me/FDGU6jCE",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_daf7f8c8-1ef0-412a-889f-f08ef31975c1",
-    "ig_handle": "edls_official",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://litt.ly/edls",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_c5e71d53-324f-4a86-ad6a-02b28e50aab3",
-    "ig_handle": "gc_jazzpicnic",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://linktr.ee/gc_jazzpicnic",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_7199e26a-d9c9-4ec7-9b96-735c69cb42bc",
-    "ig_handle": "jrja_roy",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://m.blog.naver.com/roy_jazz_art_hall?proxyReferer=https%253A%252F%252Fm.place.naver.com%252Fplace%252F1396699431%252Fhome%253Fentry%253Dpll%2526view%253Dblog_blog_e704d02780a2eb77720bf703f86c57cb_419114969&tab=1&trackingCode=naver_place",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_af984eb4-14ee-4284-9c35-b16765ae68bb",
-    "ig_handle": "milestones_jazz",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_d05479c9-a731-4967-b271-caa5e6fd7b96",
-    "ig_handle": "ninejazz_chungdam",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": "https://catchtable.co.kr/ninejazz",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_2ff90ec8-8855-45d1-bd3d-ad826af5dab8",
-    "ig_handle": "orient_express_wine_",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": "https://app.catchtable.co.kr/ct/shop/orientexpresswine",
-    "homepage_url": null,
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_ca1db5d9-b2fb-4377-bfd9-08e212622476",
-    "ig_handle": "pdpdclub",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://linktr.ee/pdpdclub",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
-  },
-  {
-    "id": "ven_51e6458e-ffba-4f68-92a4-4403324d16fd",
-    "ig_handle": "seoul.society.club",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
     "homepage_url": null,
     "websites": [],
     "subway_nearby": null,

@@ -12778,6 +12778,32 @@
     }
   },
   {
+    "id": "evt_20251220_d45c722d-1336-4bea-b830-7003ec25ac97",
+    "event_key": "v:ven_62b18976-b260-4cfe-b1be-e0965debb1a2|t:2025-12-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ734inD0DW/",
+    "venue_handle": "concino_concrete",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_62b18976-b260-4cfe-b1be-e0965debb1a2",
+    "venue_location_id": "main",
+    "datetime": "2025-12-20T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Christmas Classic Fantasy",
+    "description": "A harmonious blend of winter's lyricism and passion, this 2 Piano & Chamber Collaboration Concert combines romantic sentiment with contemporary rhythms. Part 1 features two pianos presenting the essence of love and winter through melodies by Schumann, Liszt, and Márquez. Part 2 brings the passion and fantasy of Piazzolla's tango and Joo-Hye Lee's 'Christmas Fantasy' with the rhythms of strings and cajon.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Christmas Classic Fantasy",
+      "description": "A harmonious blend of winter's lyricism and passion, this 2 Piano & Chamber Collaboration Concert combines romantic sentiment with contemporary rhythms. Part 1 features two pianos presenting the essence of love and winter through melodies by Schumann, Liszt, and Márquez. Part 2 brings the passion and fantasy of Piazzolla's tango and Joo-Hye Lee's 'Christmas Fantasy' with the rhythms of strings and cajon."
+    },
+    "_search_ko": {
+      "title": "크리스마스 클래식 판타지",
+      "description": "겨울의 서정과 열정의 조화, 낭만주의 감성과 현대적 리듬이 어우러진 2 Piano & Chamber Collaboration Concert. 1부에서는 슈만, 리스트, 마르케스의 선율로 사랑과 겨울 정서를 담은 두 대의 피아노 무대가, 2부에서는 피아졸라 탱고와 이주혜의 'Christmas Fantasy'가 현악기와 카혼의 리듬 속에서 열정과 환상의 무대를 펼친다."
+    }
+  },
+  {
     "id": "evt_20251221_5f5eab1d-047b-4ea6-af3d-f5689b785e97",
     "event_key": "v:ven_0dff8bca-6c9f-4dea-85da-9b13a1b8d56c|t:2025-12-21T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQiCUa3EhKA/",

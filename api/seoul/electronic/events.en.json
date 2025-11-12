@@ -1051,6 +1051,32 @@
     }
   },
   {
+    "id": "evt_20251122_7f1591bf-5307-4b82-865e-30b83903fc20",
+    "event_key": "v:ven_78f262ab-0fb3-4afa-8649-0b5555b977db|t:2025-11-22T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8GBcND0G3/",
+    "venue_handle": "vurt_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_78f262ab-0fb3-4afa-8649-0b5555b977db",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T14:00:00+00:00",
+    "price": "RA Reservation: KRW 22,000 / At Door: KRW 25,000",
+    "llm_confidence": 1.0,
+    "title": "Decoder",
+    "description": "Dallas, USA-based futurist Decoder, known for deep techno and sci-fi aesthetics with releases on Subsist, Jeff Mills' Axis, and Analog Solutions. He has toured with Richie Hawtin and played at De School, Fold, Berghain. // Featuring: Oyymmit, SJK.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Decoder",
+      "description": "Dallas, USA-based futurist Decoder, known for deep techno and sci-fi aesthetics with releases on Subsist, Jeff Mills' Axis, and Analog Solutions. He has toured with Richie Hawtin and played at De School, Fold, Berghain. // Featuring: Oyymmit, SJK."
+    },
+    "_search_ko": {
+      "title": "Decoder",
+      "description": "미국 달라스를 기반으로 활동하는 퓨처리스트 Decoder. Deep techno와 SF적 감성으로 사운드를 탐구하며, Subsist, Jeff Mills의 Axis, Analog Solutions 등을 통해 음반을 발표했다. Richie Hawtin과 북미 투어, De School, Fold, Berghain 등에서 공연했다. // Featuring: Oyymmit, SJK."
+    }
+  },
+  {
     "id": "evt_20251127_61c19e3d-faa4-4733-9752-2bc8bee9416f",
     "event_key": "v:ven_a58f7fb9-8883-4c5b-ad90-6b56105ddf49|t:2025-11-27T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",

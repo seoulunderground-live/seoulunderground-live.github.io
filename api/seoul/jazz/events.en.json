@@ -1377,6 +1377,32 @@
     }
   },
   {
+    "id": "evt_20251113_78443415-ea99-4ca4-af0c-87380479283f",
+    "event_key": "v:ven_673c020a-b0fb-45c2-991b-6dc568ee4982|t:2025-11-13T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8St_Wkm_h/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_673c020a-b0fb-45c2-991b-6dc568ee4982",
+    "venue_location_id": "main",
+    "datetime": "2025-11-13T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Goo Min-sang Quartet",
+    "description": "Goo Min-sang Quartet performance. Live improvisation featuring Noh Tae-heon (bass), Im Dan-bi (piano), Lee Gwang-hyeok (drums), and Goo Min-sang (saxophone). One admission covers both Part 1 and Part 2.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Goo Min-sang Quartet",
+      "description": "Goo Min-sang Quartet performance. Live improvisation featuring Noh Tae-heon (bass), Im Dan-bi (piano), Lee Gwang-hyeok (drums), and Goo Min-sang (saxophone). One admission covers both Part 1 and Part 2."
+    },
+    "_search_ko": {
+      "title": "구민상 퀄텟",
+      "description": "구민상 퀄텟 공연. 노태헌 (베이스), 임단비 (피아노), 이광혁 (드럼), 구민상 (색소폰)의 라이브 연주. 1부, 2부 모두 관람 가능."
+    }
+  },
+  {
     "id": "evt_20251113_48db9bee-a1a1-4805-a031-cd9f6a0de529",
     "event_key": "v:ven_28c66fe9-a9a6-4d76-ab7b-a07e19e656d3|t:2025-11-13T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ4FP1Iky67/",
@@ -2051,7 +2077,7 @@
   {
     "id": "evt_20251114_c8e501a1-1a41-4087-a689-5b8a278c08d8",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3w7TlAbR5/",
+    "source_url": "https://www.instagram.com/p/DQ8YE8TAcII/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -2060,18 +2086,18 @@
     "datetime": "2025-11-14T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Haeil-eop & Yangjo-jang Trio",
-    "description": "Live jazz performance by Haeil-eop & Yangjo-jang Trio. Two shows (8:00 PM, 9:00 PM). Reservation: 02-415-7816.",
+    "title": "Haileup Band",
+    "description": "Featuring jazz, popular Korean songs, and pop performances.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Haeil-eop & Yangjo-jang Trio",
-      "description": "Live jazz performance by Haeil-eop & Yangjo-jang Trio. Two shows (8:00 PM, 9:00 PM). Reservation: 02-415-7816."
+      "title": "Haileup Band",
+      "description": "Featuring jazz, popular Korean songs, and pop performances."
     },
     "_search_ko": {
-      "title": "해일럽 & 양조장 트리오",
-      "description": "해일럽 & 양조장 트리오 라이브 재즈 공연. 2회 공연 (20:00, 21:00). 예약: 02-415-7816."
+      "title": "해일럽 밴드",
+      "description": "재즈, 가요 및 팝 공연."
     }
   },
   {
@@ -2566,6 +2592,34 @@
     }
   },
   {
+    "id": "evt_20251114_b1e94ac2-f35c-4855-b89a-308d813ae635",
+    "event_key": "v:ven_673c020a-b0fb-45c2-991b-6dc568ee4982|t:2025-11-14T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8TTH8EmaL/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "jazz_tap"
+    ],
+    "venue_id": "ven_673c020a-b0fb-45c2-991b-6dc568ee4982",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Kim Soon-young Jazz Tap",
+    "description": "Featuring Kim Soon-young (vocal, tap) @jazz_tap.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Soon-young Jazz Tap",
+      "description": "Featuring Kim Soon-young (vocal, tap) @jazz_tap."
+    },
+    "_search_ko": {
+      "title": "김순영 재즈 탭",
+      "description": "탭 그리고 보컬 김순영 @jazz_tap."
+    }
+  },
+  {
     "id": "evt_20251114_4955004b-8192-4513-bc9a-76f61bb28769",
     "event_key": "v:ven_026625d0-828c-46ff-a715-50f65695f425|t:2025-11-14T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3zMBhD29e/",
@@ -2713,7 +2767,7 @@
   {
     "id": "evt_20251114_fae41393-3f15-493e-a84a-0d5bb3db67c6",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-14T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQyuL3AgWKQ/",
+    "source_url": "https://www.instagram.com/p/DQ8YE8TAcII/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -2722,18 +2776,18 @@
     "datetime": "2025-11-14T12:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Jang Jae-hyeok Band",
-    "description": "Jang Jae-hyeok Band performance.",
+    "title": "Haileup Band",
+    "description": "Featuring jazz, popular Korean songs, and pop performances.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Jang Jae-hyeok Band",
-      "description": "Jang Jae-hyeok Band performance."
+      "title": "Haileup Band",
+      "description": "Featuring jazz, popular Korean songs, and pop performances."
     },
     "_search_ko": {
-      "title": "장재혁 밴드",
-      "description": "장재혁 밴드 공연."
+      "title": "해일럽 밴드",
+      "description": "재즈, 가요 및 팝 공연."
     }
   },
   {
@@ -10076,7 +10130,7 @@
   {
     "id": "evt_20251128_995f6e46-3c50-458a-ba63-88d9293f63a1",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQyuL3AgWKQ/",
+    "source_url": "https://www.instagram.com/p/DQ8YE8TAcII/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -10085,18 +10139,18 @@
     "datetime": "2025-11-28T11:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Winsome Band",
-    "description": "Winsome Band performance.",
+    "title": "Haileup Band",
+    "description": "Featuring jazz, popular Korean songs, and pop performances.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Winsome Band",
-      "description": "Winsome Band performance."
+      "title": "Haileup Band",
+      "description": "Featuring jazz, popular Korean songs, and pop performances."
     },
     "_search_ko": {
-      "title": "Winsome Band",
-      "description": "Winsome Band 공연."
+      "title": "해일럽 밴드",
+      "description": "재즈, 가요 및 팝 공연."
     }
   },
   {
@@ -10477,7 +10531,7 @@
   {
     "id": "evt_20251128_64ef03df-79bf-43d0-be03-f8da26729c5f",
     "event_key": "v:ven_0cc64fed-9cc0-45a3-9093-c89fbc592bfc|t:2025-11-28T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQyuL3AgWKQ/",
+    "source_url": "https://www.instagram.com/p/DQ8YE8TAcII/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -10486,18 +10540,18 @@
     "datetime": "2025-11-28T12:00:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "Winsome Band",
-    "description": "Winsome Band performance.",
+    "title": "Haileup Band",
+    "description": "Featuring jazz, popular Korean songs, and pop performances.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Winsome Band",
-      "description": "Winsome Band performance."
+      "title": "Haileup Band",
+      "description": "Featuring jazz, popular Korean songs, and pop performances."
     },
     "_search_ko": {
-      "title": "Winsome Band",
-      "description": "Winsome Band 공연."
+      "title": "해일럽 밴드",
+      "description": "재즈, 가요 및 팝 공연."
     }
   },
   {

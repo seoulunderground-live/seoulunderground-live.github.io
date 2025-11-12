@@ -130,6 +130,34 @@
     }
   },
   {
+    "id": "evt_20251112_d70aa329-98d6-46b7-ba15-368bad920250",
+    "event_key": "v:ven_673c020a-b0fb-45c2-991b-6dc568ee4982|t:2025-11-12T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ6MYIUksZG/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "darubee_pianist"
+    ],
+    "venue_id": "ven_673c020a-b0fb-45c2-991b-6dc568ee4982",
+    "venue_location_id": "main",
+    "datetime": "2025-11-12T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임단비 (피아노)",
+    "description": "펑키소사이어티와 함께하는 임단비 (피아노) 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lim Danbi (piano)",
+      "description": "Lim Danbi (piano) performance with Funky Society."
+    },
+    "_search_ko": {
+      "title": "임단비 (피아노)",
+      "description": "펑키소사이어티와 함께하는 임단비 (피아노) 공연."
+    }
+  },
+  {
     "id": "evt_20251112_cd479195-074b-4f53-8665-7a0989fba99e",
     "event_key": "v:ven_8a60f41c-1ee0-45df-a8d9-e08d94fbd4e3|t:2025-11-12T11:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQOPAtPDzHk/",
@@ -2070,7 +2098,7 @@
   {
     "id": "evt_20251114_d54c4599-cc97-4b94-ac09-204aef018449",
     "event_key": "v:ven_6d184292-3531-4ca2-82d0-3850d9ad8294|t:2025-11-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ0_YAGEmaN/",
+    "source_url": "https://www.instagram.com/p/DQ6tbbTjzax/",
     "venue_handle": "cafe_minor_swing",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -2080,17 +2108,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "찰리정",
-    "description": "자기만의 길을 걸어가는 한국의 독보적 기타리스트 찰리정. 그의 다채로운 음악세계를 엿볼 수 있는 스페셜 콘서트.",
+    "description": "미국 M.I. 졸업 후 국내외를 오가며 활발히 활동해온 기타리스트 찰리정의 특별 콘서트. 'Musician of the Year' 수상, 호원대 겸임교수 역임. 여러 재즈 페스티벌 및 블루노트 참여. 2024년 '휴먼' 발매 예정.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Charlie Jung",
-      "description": "A special concert featuring Charlie Jung, a unique Korean guitarist walking his own path, inviting you to explore his diverse musical world."
+      "description": "Special concert by guitarist Charlie Jung, who has been actively performing domestically and internationally since graduating from M.I. (Musicians Institute). Awarded 'Musician of the Year' and served as an adjunct professor. Participated in numerous jazz festivals and Blue Note performances. Upcoming album 'Human' scheduled for 2024."
     },
     "_search_ko": {
       "title": "찰리정",
-      "description": "자기만의 길을 걸어가는 한국의 독보적 기타리스트 찰리정. 그의 다채로운 음악세계를 엿볼 수 있는 스페셜 콘서트."
+      "description": "미국 M.I. 졸업 후 국내외를 오가며 활발히 활동해온 기타리스트 찰리정의 특별 콘서트. 'Musician of the Year' 수상, 호원대 겸임교수 역임. 여러 재즈 페스티벌 및 블루노트 참여. 2024년 '휴먼' 발매 예정."
     }
   },
   {

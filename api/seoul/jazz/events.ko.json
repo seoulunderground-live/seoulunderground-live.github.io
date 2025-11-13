@@ -2422,6 +2422,34 @@
     }
   },
   {
+    "id": "evt_20251115_09f016c9-ad81-4120-96b7-89c33ef08277",
+    "event_key": "v:ven_6e80c633-9cca-495d-86bb-c290137172e8|t:2025-11-15T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ_iHMLEnWf/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "yoon_tap"
+    ],
+    "venue_id": "ven_6e80c633-9cca-495d-86bb-c290137172e8",
+    "venue_location_id": "main",
+    "datetime": "2025-11-15T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "손윤 밴드",
+    "description": "탭과 보컬을 선보이는 손윤 밴드의 공연. 손윤 (탭, 보컬) @yoon_tap.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Son Yoon Band",
+      "description": "Tap and vocal performance by Son Yoon Band. Featuring Son Yoon (tap, vocal) @yoon_tap."
+    },
+    "_search_ko": {
+      "title": "손윤 밴드",
+      "description": "탭과 보컬을 선보이는 손윤 밴드의 공연. 손윤 (탭, 보컬) @yoon_tap."
+    }
+  },
+  {
     "id": "evt_20251115_32f8e015-f3ea-43d7-bfcd-b7e08899c89d",
     "event_key": "v:ven_9a0661c3-f9a0-444c-9c7b-bd331e5b98bf|t:2025-11-15T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3UmIxE3Bz/",

@@ -1,62 +1,5 @@
 [
   {
-    "id": "evt_20251113_8889dbae-28d5-4cf1-8393-c3b7e94485db",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-13T02:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
-    "venue_handle": "argaseoul",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
-    "venue_location_id": "main",
-    "datetime": "2025-11-13T02:00:00+00:00",
-    "price": "None",
-    "llm_confidence": 1.0,
-    "title": "The Boss",
-    "description": "DJ Set — Cityboy from Seoul @cityboyfromseoul, Hogun @djhogun // DJ Set — Kim.Qna @kim.qna, Crab @taeyoon_djcrab",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "The Boss",
-      "description": "DJ Set — Cityboy from Seoul @cityboyfromseoul, Hogun @djhogun // DJ Set — Kim.Qna @kim.qna, Crab @taeyoon_djcrab"
-    },
-    "_search_ko": {
-      "title": "The Boss",
-      "description": "DJ Set — Cityboy from Seoul @cityboyfromseoul, Hogun @djhogun // DJ Set — Kim.Qna @kim.qna, Crab @taeyoon_djcrab"
-    }
-  },
-  {
-    "id": "evt_20251113_f5134916-0941-47e3-8503-1b7a60d1d688",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-13T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3oWXcEoER/",
-    "venue_handle": "argaseoul",
-    "musician_ids": [],
-    "musician_ig_handles": [
-      "cityboyfromseoul",
-      "djhogun",
-      "kim.qna",
-      "taeyoon_djcrab"
-    ],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
-    "venue_location_id": "main",
-    "datetime": "2025-11-13T14:00:00+00:00",
-    "price": "15,000원",
-    "llm_confidence": 1.0,
-    "title": "The Boss",
-    "description": "DJ Set — Cityboy from Seoul (@cityboyfromseoul), Hogun (@djhogun) // DJ Set — Kim.Qna (@kim.qna), Crab (@taeyoon_djcrab). House, Disco, Balearic, Indie Dance.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "The Boss",
-      "description": "DJ Set — Cityboy from Seoul (@cityboyfromseoul), Hogun (@djhogun) // DJ Set — Kim.Qna (@kim.qna), Crab (@taeyoon_djcrab). House, Disco, Balearic, Indie Dance."
-    },
-    "_search_ko": {
-      "title": "The Boss",
-      "description": "DJ Set — Cityboy from Seoul (@cityboyfromseoul), Hogun (@djhogun) // DJ Set — Kim.Qna (@kim.qna), Crab (@taeyoon_djcrab). House, Disco, Balearic, Indie Dance."
-    }
-  },
-  {
     "id": "evt_20251114_1d4aed72-b65f-4a58-87b2-1bbd6339823f",
     "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-14T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -204,7 +147,7 @@
   {
     "id": "evt_20251114_da2c542a-32a8-41c4-9151-1dbf764f3c49",
     "event_key": "v:ven_5c4d8011-ff01-4734-8642-86f5cbc9a227|t:2025-11-14T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ6uhqmj9Rr/",
+    "source_url": "https://www.instagram.com/p/DQ_mGBOF4zl/",
     "venue_handle": "faustseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -214,17 +157,17 @@
     "price": "20,000원 (자정 이전), 25,000원 (자정 이후)",
     "llm_confidence": 1.0,
     "title": "SLAVE TO THE RAVE",
-    "description": "베를린 레이브 이벤트 'SLAVE TO THE RAVE' 서울 상륙. 90년대 레이브와 베를린 클래식 사운드를 선보인다. 스페셜 게스트: 올드스쿨 바이닐 디제이 JEROME HILL. 클로징: WITTES. // FAUST: GEZIBE, JEROME HILL, WITTES // TANZ BAR: JIK, HV9. 신분증 지참, DRESS TO EXPRESS, 촬영 금지.",
+    "description": "베를린 장벽 붕괴 후 베를린 레이브 역사에 경의를 표하는 'SLAVE TO THE RAVE'가 서울에 상륙. 올드스쿨 바이닐 디제이 Jerome Hill의 장르를 넘나드는 특별 세트와 Wittes의 클로징 세트. // FAUST: DJ Set — Jerome Hill, Wittes, Gezibe // TANZ BAR: DJ Set — Jik, HV9. 현매만 가능. Dress to express. 촬영 금지.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "SLAVE TO THE RAVE",
-      "description": "Berlin rave event 'SLAVE TO THE RAVE' lands in Seoul, paying homage to Berlin's rave history. Expect 90s rave and classic Berlin sounds. Special guest: old-school vinyl DJ JEROME HILL. Closing set by WITTES. // FAUST: GEZIBE, JEROME HILL, WITTES // TANZ BAR: JIK, HV9. Photo ID required, DRESS TO EXPRESS, no phone."
+      "description": "Berlin rave event 'SLAVE TO THE RAVE' takes over Seoul, paying homage to Berlin's post-Wall rave history. Featuring old-school vinyl DJ Jerome Hill's genre-bending set and a closing set by Wittes. // FAUST: DJ Set — Jerome Hill, Wittes, Gezibe // TANZ BAR: DJ Set — Jik, HV9. Tickets at door. Dress to express. No phone."
     },
     "_search_ko": {
       "title": "SLAVE TO THE RAVE",
-      "description": "베를린 레이브 이벤트 'SLAVE TO THE RAVE' 서울 상륙. 90년대 레이브와 베를린 클래식 사운드를 선보인다. 스페셜 게스트: 올드스쿨 바이닐 디제이 JEROME HILL. 클로징: WITTES. // FAUST: GEZIBE, JEROME HILL, WITTES // TANZ BAR: JIK, HV9. 신분증 지참, DRESS TO EXPRESS, 촬영 금지."
+      "description": "베를린 장벽 붕괴 후 베를린 레이브 역사에 경의를 표하는 'SLAVE TO THE RAVE'가 서울에 상륙. 올드스쿨 바이닐 디제이 Jerome Hill의 장르를 넘나드는 특별 세트와 Wittes의 클로징 세트. // FAUST: DJ Set — Jerome Hill, Wittes, Gezibe // TANZ BAR: DJ Set — Jik, HV9. 현매만 가능. Dress to express. 촬영 금지."
     }
   },
   {
@@ -628,6 +571,36 @@
     "_search_ko": {
       "title": "WeSA X CTM & 꿈 kkum LIVE",
       "description": "[위치: 틸라 그라운드] WeSA X CTM: Thomas Ankersmit (모듈러 라이브), ABOPF (라이브 셋). // 21시부터 @vurt_seoul에서 꿈 kkum LIVE 이어짐."
+    }
+  },
+  {
+    "id": "evt_20251116_5d7743c0-d2e4-4b56-a3ae-f6cdb8c40a3d",
+    "event_key": "v:ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68|t:2025-11-16T11:40:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ_Jm0lj-oR/",
+    "venue_handle": "vurt_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "_bbureka_",
+      "rashad__becker",
+      "robert_piotrowicz_"
+    ],
+    "venue_id": "ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68",
+    "venue_location_id": "main",
+    "datetime": "2025-11-16T11:40:00+00:00",
+    "price": "25,000원",
+    "llm_confidence": 1.0,
+    "title": "꿈 kkum LIVE 밤",
+    "description": "폴란드 Robert Piotrowicz (@robert_piotrowicz_), 독일 Rashad Becker (@rashad__becker), 서울 BBUREKA (@_bbureka_)의 모듈러 라이브. BBUREKA (21:00), Piotrowicz (22:00), Becker (23:00) 공연. 촬영금지.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "kkum LIVE Night",
+      "description": "Modular live by Robert Piotrowicz (@robert_piotrowicz_) (PL), Rashad Becker (@rashad__becker) (DE), and BBUREKA (@_bbureka_) (KR). BBUREKA (21:00), Piotrowicz (22:00), Becker (23:00). No photo/video."
+    },
+    "_search_ko": {
+      "title": "꿈 kkum LIVE 밤",
+      "description": "폴란드 Robert Piotrowicz (@robert_piotrowicz_), 독일 Rashad Becker (@rashad__becker), 서울 BBUREKA (@_bbureka_)의 모듈러 라이브. BBUREKA (21:00), Piotrowicz (22:00), Becker (23:00) 공연. 촬영금지."
     }
   },
   {

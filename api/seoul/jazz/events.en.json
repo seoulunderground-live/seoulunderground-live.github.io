@@ -1166,6 +1166,32 @@
     }
   },
   {
+    "id": "evt_20251114_fd5c9f9d-61ba-44b4-9d6d-ad09444c943d",
+    "event_key": "v:ven_61a903d8-39e9-4f06-82e8-1f05e28c3f6e|t:2025-11-14T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ8rdxICcCE/",
+    "venue_handle": "chunnyun.jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_61a903d8-39e9-4f06-82e8-1f05e28c3f6e",
+    "venue_location_id": "main",
+    "datetime": "2025-11-14T10:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Rich Man & Groove Nice",
+    "description": "Performance by Rich Man & Groove Nice, who recently released a new album.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Rich Man & Groove Nice",
+      "description": "Performance by Rich Man & Groove Nice, who recently released a new album."
+    },
+    "_search_ko": {
+      "title": "리치맨과 그루브 나이스",
+      "description": "최근 새 앨범을 발매한 리치맨과 그루브 나이스 공연."
+    }
+  },
+  {
     "id": "evt_20251114_0efc1dde-c0e2-490b-b54e-1977540e73ff",
     "event_key": "v:ven_50c38ea6-b54c-493b-8ea4-8dbf9b6d93de|t:2025-11-14T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
@@ -1964,7 +1990,7 @@
   {
     "id": "evt_20251114_9cfc3c69-bf6a-46b1-b910-dd5777c32755",
     "event_key": "v:ven_0636ca83-2e68-4b13-9027-70838b65d000|t:2025-11-14T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ9ti8eE_bI/",
+    "source_url": "https://www.instagram.com/p/DQ3UmIxE3Bz/",
     "venue_handle": "bluechicago_jazzbar",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1973,18 +1999,18 @@
     "datetime": "2025-11-14T11:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Choi Myung-ji Quartet",
-    "description": "Choi Myung-ji Quartet performance. Im Su-chan (drums), Choi Myung-ji (vocal), Kim Dong-hwa (guitar), Yoon Su-yong (bass).",
+    "title": "Live Jazz Performance",
+    "description": "Regular live jazz performance every Friday and Saturday night.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Choi Myung-ji Quartet",
-      "description": "Choi Myung-ji Quartet performance. Im Su-chan (drums), Choi Myung-ji (vocal), Kim Dong-hwa (guitar), Yoon Su-yong (bass)."
+      "title": "Live Jazz Performance",
+      "description": "Regular live jazz performance every Friday and Saturday night."
     },
     "_search_ko": {
-      "title": "최명지 퀄텟",
-      "description": "최명지 퀄텟 공연. 임수찬 (드럼), 최명지 (보컬), 김동화 (기타), 윤수용 (베이스)."
+      "title": "라이브 재즈 공연",
+      "description": "매주 금, 토요일 밤 정기 라이브 재즈 공연."
     }
   },
   {
@@ -3535,7 +3561,7 @@
   {
     "id": "evt_20251115_67889996-f0cf-4880-b012-5afae2fdce7f",
     "event_key": "v:ven_0636ca83-2e68-4b13-9027-70838b65d000|t:2025-11-15T11:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ9tsU_k7hT/",
+    "source_url": "https://www.instagram.com/p/DQ3UmIxE3Bz/",
     "venue_handle": "bluechicago_jazzbar",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -3544,18 +3570,18 @@
     "datetime": "2025-11-15T11:30:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "Team Cotton",
-    "description": "Team Cotton performance featuring Kim Jong-hwa (bass), Shin Chi-ho (piano), and S W T P (trumpet, drums).",
+    "title": "Live Jazz Performance",
+    "description": "Regular live jazz performance every Friday and Saturday night.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Team Cotton",
-      "description": "Team Cotton performance featuring Kim Jong-hwa (bass), Shin Chi-ho (piano), and S W T P (trumpet, drums)."
+      "title": "Live Jazz Performance",
+      "description": "Regular live jazz performance every Friday and Saturday night."
     },
     "_search_ko": {
-      "title": "Team Cotton",
-      "description": "Team Cotton 공연. 김종화 (베이스), 신치호 (피아노), S W T P (트럼펫, 드럼)."
+      "title": "라이브 재즈 공연",
+      "description": "매주 금, 토요일 밤 정기 라이브 재즈 공연."
     }
   },
   {

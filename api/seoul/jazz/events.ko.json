@@ -1222,7 +1222,7 @@
   {
     "id": "evt_20251114_62573974-8cb3-4e29-a1aa-3659775bad0c",
     "event_key": "v:ven_8a60f41c-1ee0-45df-a8d9-e08d94fbd4e3|t:2025-11-14T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQOPAtPDzHk/",
+    "source_url": "https://www.instagram.com/p/DQ-3AsWj2dX/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1232,17 +1232,17 @@
     "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "최백결 재즈 앙상블",
-    "description": "최백결 (색소폰), Gordon R. Bazsali Jr. (트럼펫), 김대규 (피아노), 박주민 (베이스), 고명석 (드럼). 입장료 20,000원.",
+    "description": "매진 임박, 4석 남음.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Choi Baek-gyul Jazz Ensemble",
-      "description": "Choi Baek-gyul (saxophone), Gordon R. Bazsali Jr. (trumpet), Kim Dae-gyu (piano), Park Joo-min (bass), Go Myeong-seok (drums). Entry fee KRW 20,000."
+      "title": "Choi Baek-gyeol Jazz Ensemble",
+      "description": "Sold out imminent, 4 seats remaining."
     },
     "_search_ko": {
       "title": "최백결 재즈 앙상블",
-      "description": "최백결 (색소폰), Gordon R. Bazsali Jr. (트럼펫), 김대규 (피아노), 박주민 (베이스), 고명석 (드럼). 입장료 20,000원."
+      "description": "매진 임박, 4석 남음."
     }
   },
   {

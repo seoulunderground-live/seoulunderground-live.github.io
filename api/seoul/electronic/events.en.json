@@ -1,294 +1,7 @@
 [
   {
-    "id": "evt_20251115_8d67a7f5-4da3-4d5b-acff-0e24cdb13ea6",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-15T02:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
-    "venue_handle": "argaseoul",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T02:00:00+00:00",
-    "price": "None",
-    "llm_confidence": 1.0,
-    "title": "Indie Dance Night (Special)",
-    "description": "Special Indie Dance Night. DJ Set — Cityboy from Seoul @cityboyfromseoul, Fango (Italy) @fangodegustibus, RTRP @rtrpmusic.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Indie Dance Night (Special)",
-      "description": "Special Indie Dance Night. DJ Set — Cityboy from Seoul @cityboyfromseoul, Fango (Italy) @fangodegustibus, RTRP @rtrpmusic."
-    },
-    "_search_ko": {
-      "title": "Indie Dance Night (Special)",
-      "description": "Special Indie Dance Night. DJ Set — Cityboy from Seoul @cityboyfromseoul, Fango (Italy) @fangodegustibus, RTRP @rtrpmusic."
-    }
-  },
-  {
-    "id": "evt_20251115_1c40d5ef-69f1-4d1a-b605-ee327264d781",
-    "event_key": "v:ven_f24037dc-f616-4c4c-b752-c6846e02162e|t:2025-11-15T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3qnlWEhd8/",
-    "venue_handle": "theedgeseoul",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_f24037dc-f616-4c4c-b752-c6846e02162e",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T11:00:00+00:00",
-    "price": "KRW 20,000",
-    "llm_confidence": 1.0,
-    "title": "Arthur DJ Set",
-    "description": "Guest DJ Arthur (Hard Wax, Open Ground/DE) joins this Saturday. Known for his wide-ranging sound and unique style, his mixes are a shop favorite. This is a must-attend night!",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Arthur DJ Set",
-      "description": "Guest DJ Arthur (Hard Wax, Open Ground/DE) joins this Saturday. Known for his wide-ranging sound and unique style, his mixes are a shop favorite. This is a must-attend night!"
-    },
-    "_search_ko": {
-      "title": "Arthur 디제이 셋",
-      "description": "이번 주 토요일 게스트 DJ Arthur (Hard Wax, Open Ground/DE)가 함께합니다. 그의 폭넓은 음악적 감각과 독특한 스타일로 샵에서 사랑받는 믹스를 선보입니다. 놓치면 후회할 파티!"
-    }
-  },
-  {
-    "id": "evt_20251115_9590402f-8a00-4f31-9d5c-3ea2ec8b3499",
-    "event_key": "v:ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584|t:2025-11-15T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQnkpMngT4r/",
-    "venue_handle": "cakeshopseoul",
-    "musician_ids": [],
-    "musician_ig_handles": [
-      "quicktimeevent",
-      "soma_kim",
-      "tabrisnet",
-      "toma_kami",
-      "wingsofthecity",
-      "yyetsubyy"
-    ],
-    "venue_id": "ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T13:00:00+00:00",
-    "price": "KRW 20,000 before 12; KRW 25,000 after 12",
-    "llm_confidence": 1.0,
-    "title": "Toma Kami",
-    "description": "Paris-based DJ/Producer Toma Kami. Known for heavy bass, techno, dancehall, jungle, electro, rap. // DJ Set — Yetsuby, Arexibo, Moon Ki, Tabris, Wings of the City.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Toma Kami",
-      "description": "Paris-based DJ/Producer Toma Kami. Known for heavy bass, techno, dancehall, jungle, electro, rap. // DJ Set — Yetsuby, Arexibo, Moon Ki, Tabris, Wings of the City."
-    },
-    "_search_ko": {
-      "title": "Toma Kami",
-      "description": "프랑스 베이스 DJ/프로듀서 Toma Kami. Heavy bass, techno, dancehall, jungle, electro, rap. // DJ Set — Yetsuby @yyetsubyy, Arexibo @soma_kim, Moon Ki @quicktimeevent, Tabris @tabrisnet, Wings of the City @wingsofthecity."
-    }
-  },
-  {
-    "id": "evt_20251115_3537e272-da0e-4b3d-b422-7d422738f992",
-    "event_key": "v:ven_3a273956-0328-4660-a30b-d522b7027309|t:2025-11-15T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ0v3BzidiZ/",
-    "venue_handle": "pistilseoul",
-    "musician_ids": [],
-    "musician_ig_handles": [
-      "18chang3",
-      "kisewang",
-      "kt1ty",
-      "kynehti",
-      "letsmoruka",
-      "sevinary",
-      "xixoppi",
-      "yijae_____"
-    ],
-    "venue_id": "ven_3a273956-0328-4660-a30b-d522b7027309",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T13:00:00+00:00",
-    "price": "Free before 12AM, KRW 10,000 after 12AM",
-    "llm_confidence": 1.0,
-    "title": "CALORIES BLAST",
-    "description": "An interval training and fitness enhancement program completed with music and sweat. An exercise routine to complete on the dance floor. Your heart responds to every beat, and the movement continues even during short breaks. Dresscode: Sportswear / Athleisure. Lineup: DJ Set — KISEWA (@kisewang), SEVI (@sevinary), Xixo (@xixoppi) // DJ Set — Kitty (@kt1ty), Moruka (@letsmoruka), Blur (@18chang3) // DJ Set — YIJAE (@yijae_____), KYNEHTI (@kynehti).",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "CALORIES BLAST",
-      "description": "An interval training and fitness enhancement program completed with music and sweat. An exercise routine to complete on the dance floor. Your heart responds to every beat, and the movement continues even during short breaks. Dresscode: Sportswear / Athleisure. Lineup: DJ Set — KISEWA (@kisewang), SEVI (@sevinary), Xixo (@xixoppi) // DJ Set — Kitty (@kt1ty), Moruka (@letsmoruka), Blur (@18chang3) // DJ Set — YIJAE (@yijae_____), KYNEHTI (@kynehti)."
-    },
-    "_search_ko": {
-      "title": "CALORIES BLAST",
-      "description": "음악과 땀으로 완성되는 체력 강화 프로그램, 인터벌 트레이닝. 플로어에서 완주하는 운동 루틴. 비트마다 심장이 반응하고, 짧은 휴식 속에서도 움직임은 이어집니다. 드레스코드: Sportswear / Athleisure. 라인업: DJ Set — KISEWA (@kisewang), SEVI (@sevinary), Xixo (@xixoppi) // DJ Set — Kitty (@kt1ty), Moruka (@letsmoruka), Blur (@18chang3) // DJ Set — YIJAE (@yijae_____), KYNEHTI (@kynehti)."
-    }
-  },
-  {
-    "id": "evt_20251115_a0e13e39-43d6-4314-afa1-0040dd003df2",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-15T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ6ae_vkmAt/",
-    "venue_handle": "argaseoul",
-    "musician_ids": [],
-    "musician_ig_handles": [
-      "cityboyfromseoul",
-      "fangodegustibus",
-      "rtrpmusic"
-    ],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T14:00:00+00:00",
-    "price": "KRW 15,000 (includes 1 free drink)",
-    "llm_confidence": 1.0,
-    "title": "Indie Dance Night Special",
-    "description": "Italian DJ/Producer Fango (Cardinals EP), known for perfectionist sound, played by James Blake, Soulwax. Co-hosted by RTRP and Cityboy from Seoul. \nTime Table: 23:00 Cityboy from Seoul // 01:00 Fango // 03:00 RTRP // 05:00 All DJs.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Indie Dance Night Special",
-      "description": "Italian DJ/Producer Fango (Cardinals EP), known for perfectionist sound, played by James Blake, Soulwax. Co-hosted by RTRP and Cityboy from Seoul. \nTime Table: 23:00 Cityboy from Seoul // 01:00 Fango // 03:00 RTRP // 05:00 All DJs."
-    },
-    "_search_ko": {
-      "title": "Indie Dance Night Special",
-      "description": "이탈리아 DJ/프로듀서 Fango (Cardinals EP) 내한. 완벽주의적 사운드로 James Blake, Soulwax 등에게 선곡. RTRP, Cityboy from Seoul과 함께. \n타임테이블: 23:00 Cityboy from Seoul // 01:00 Fango // 03:00 RTRP // 05:00 All DJs."
-    }
-  },
-  {
-    "id": "evt_20251115_75e9afd7-3ed3-4b25-953b-afdb16a2e293",
-    "event_key": "v:ven_5c4d8011-ff01-4734-8642-86f5cbc9a227|t:2025-11-15T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ84PU1D2Bt/",
-    "venue_handle": "faustseoul",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_5c4d8011-ff01-4734-8642-86f5cbc9a227",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T14:00:00+00:00",
-    "price": "KRW 20,000 - 25,000",
-    "llm_confidence": 1.0,
-    "title": "JUSTINE PERRY",
-    "description": "French techno DJ Justine Perry's first performance in Korea. Active in major European clubs like Berghain. FAUST: DJ Set — Justine Perry, DAMIE, NUSNOOM // TANZ BAR: DJ Set — NOCTURNAL, SOL. Tickets at door: KRW 20,000 before midnight, KRW 25,000 after.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "JUSTINE PERRY",
-      "description": "French techno DJ Justine Perry's first performance in Korea. Active in major European clubs like Berghain. FAUST: DJ Set — Justine Perry, DAMIE, NUSNOOM // TANZ BAR: DJ Set — NOCTURNAL, SOL. Tickets at door: KRW 20,000 before midnight, KRW 25,000 after."
-    },
-    "_search_ko": {
-      "title": "JUSTINE PERRY",
-      "description": "프랑스 테크노 디제이 Justine Perry 첫 내한. 베억하인 등 유럽 주요 클럽 활동. FAUST: DJ Set — Justine Perry, DAMIE, NUSNOOM // TANZ BAR: DJ Set — NOCTURNAL, SOL. 현매만 가능. 12시 이전 20,000원, 12시 이후 25,000원."
-    }
-  },
-  {
-    "id": "evt_20251115_8fd120cc-a5fb-4b21-8b96-50b02840e2a5",
-    "event_key": "v:ven_138ce4cd-4d12-4add-8d6d-fe3232ff41ca|t:2025-11-15T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQtavzkkfwS/",
-    "venue_handle": "ring.seoul",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_138ce4cd-4d12-4add-8d6d-fe3232ff41ca",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T14:00:00+00:00",
-    "price": "KRW 25,000",
-    "llm_confidence": 1.0,
-    "title": "Brasi, Minkyu, Antwork",
-    "description": "Brasi from Rome returns for his second appearance at RING. Expect positive energy and raw motion all night. Lineup: Brasi, Minkyu, Antwork. Entrance 25,000 KRW (door only). No cameras or flash.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Brasi, Minkyu, Antwork",
-      "description": "Brasi from Rome returns for his second appearance at RING. Expect positive energy and raw motion all night. Lineup: Brasi, Minkyu, Antwork. Entrance 25,000 KRW (door only). No cameras or flash."
-    },
-    "_search_ko": {
-      "title": "Brasi, Minkyu, Antwork",
-      "description": "로마에서 온 Brasi의 두번째 RING 방문. 긍정적인 에너지와 거친 움직임. 라인업: Brasi, Minkyu, Antwork. 입장 25,000원 (현장 구매만 가능). 카메라 및 플래시 사용 금지."
-    }
-  },
-  {
-    "id": "evt_20251115_cc6d7bc9-dd3e-4fa3-be36-64de3ea12b5c",
-    "event_key": "v:ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d|t:2025-11-15T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ326nLkgVK/",
-    "venue_handle": "shelterseoul_",
-    "musician_ids": [],
-    "musician_ig_handles": [
-      "apachixrhtm",
-      "bum_v_",
-      "honn.co.kr",
-      "nolink.nolink.nolink",
-      "rerekat.kr",
-      "x2cmusicofficial"
-    ],
-    "venue_id": "ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T14:00:00+00:00",
-    "price": "KRW 15,000 (inc. 1 free drink)",
-    "llm_confidence": 1.0,
-    "title": "Shelter Seoul Electronic Night",
-    "description": "Shelter Seoul presents an electronic night featuring a lineup of DJs. DJ Set — X2C (@x2cmusicofficial) 11:00-12:00 // REREKAT (@rerekat.kr) 12:00-01:00 // NO.LINK (@nolink.nolink.nolink) 01:00-02:00 // APACHI (@apachixrhtm) 02:00-03:00 // BUMV (@bum_v_) 03:00-04:00 // HONN (@honn.co.kr) 04:00-05:00. KRW 15,000 (inc. 1 free drink). No minors allowed.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Shelter Seoul Electronic Night",
-      "description": "Shelter Seoul presents an electronic night featuring a lineup of DJs. DJ Set — X2C (@x2cmusicofficial) 11:00-12:00 // REREKAT (@rerekat.kr) 12:00-01:00 // NO.LINK (@nolink.nolink.nolink) 01:00-02:00 // APACHI (@apachixrhtm) 02:00-03:00 // BUMV (@bum_v_) 03:00-04:00 // HONN (@honn.co.kr) 04:00-05:00. KRW 15,000 (inc. 1 free drink). No minors allowed."
-    },
-    "_search_ko": {
-      "title": "쉘터 서울 일렉트로닉 나이트",
-      "description": "쉘터 서울에서 펼쳐지는 일렉트로닉 나이트. DJ Set — X2C (@x2cmusicofficial) 11:00-12:00 // REREKAT (@rerekat.kr) 12:00-01:00 // NO.LINK (@nolink.nolink.nolink) 01:00-02:00 // APACHI (@apachixrhtm) 02:00-03:00 // BUMV (@bum_v_) 03:00-04:00 // HONN (@honn.co.kr) 04:00-05:00. 15,000원 (1 free drink 포함). 미성년자 입장 불가."
-    }
-  },
-  {
-    "id": "evt_20251115_d45ca503-fdce-4bf5-a186-4075ef77b9f6",
-    "event_key": "v:ven_ef890694-accf-405c-a3b7-ab606de1eadb|t:2025-11-15T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQThWD_gZcY/",
-    "venue_handle": "volnostseoul",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_ef890694-accf-405c-a3b7-ab606de1eadb",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T14:00:00+00:00",
-    "price": null,
-    "llm_confidence": 1.0,
-    "title": "Volnost Night",
-    "description": "2F: DJ Set — Weeun Kim, Hogun (4 Hours Long Set) // 1F: DJ Set — Goochi, Minuc",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Volnost Night",
-      "description": "2F: DJ Set — Weeun Kim, Hogun (4 Hours Long Set) // 1F: DJ Set — Goochi, Minuc"
-    },
-    "_search_ko": {
-      "title": "VOLNOST NIGHT",
-      "description": "2F: DJ Set — WEEUN KIM, HOGUN (4HOURS LONG SET) // 1F: DJ Set — GOOCHI, MINUC"
-    }
-  },
-  {
-    "id": "evt_20251115_ceffd3de-6e47-4186-a28b-4c1e5a2c3dab",
-    "event_key": "v:ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68|t:2025-11-15T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQsYi4hEvzo/",
-    "venue_handle": "vurt_seoul",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68",
-    "venue_location_id": "main",
-    "datetime": "2025-11-15T14:00:00+00:00",
-    "price": "KRW 22,000 (RA Reservation) / KRW 25,000 (At Door) / KRW 10,000 (After 4am) / 22,000 KRW (RA); 25,000 KRW (Door); 10,000 KRW (After 4am)",
-    "llm_confidence": 1.0,
-    "title": "VURTNIGHT with ZARA, ANSOL, SUNA",
-    "description": "Vurtnight features Melbourne-based techno artist Zara (Kinesis, Animalia, Amenthia / Australia). Zara's sound is deeply rooted in the primal energy of the Australian environment, exploring spatiality and fluidity between club peak-time and immersive sets. Also featuring ANSOL and SUNA. ID required. No photo/video. Lineup: DJ Set — ZARA // DJ Set — ANSOL // DJ Set — SUNA. Doors open 11 PM.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "VURTNIGHT with ZARA, ANSOL, SUNA",
-      "description": "Vurtnight features Melbourne-based techno artist Zara (Kinesis, Animalia, Amenthia / Australia). Zara's sound is deeply rooted in the primal energy of the Australian environment, exploring spatiality and fluidity between club peak-time and immersive sets. Also featuring ANSOL and SUNA. ID required. No photo/video. Lineup: DJ Set — ZARA // DJ Set — ANSOL // DJ Set — SUNA. Doors open 11 PM."
-    },
-    "_search_ko": {
-      "title": "VURTNIGHT with ZARA, ANSOL, SUNA",
-      "description": "Vurtnight with Zara (Kinesis, Animalia, Amenthia / Australia). Zara는 호주 환경의 원초적 에너지에 깊이 뿌리내린 사운드로 공간감과 유동성을 탐구하는 테크노 아티스트. ANSOL, SUNA. 신분증 지참. 촬영금지. 라인업: DJ Set — ZARA // DJ Set — ANSOL // DJ Set — SUNA. 11PM 오픈."
-    }
-  },
-  {
-    "id": "evt_20251116_2e22c394-1a04-4c85-b822-15f064c37ae8",
-    "event_key": "v:ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68|t:2025-11-16T10:00:00+00:00",
+    "id": "evt_20251116_d50c31d4-8723-444c-8a23-9a7f63312150",
+    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T10:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQq57bLD2NI/",
     "venue_handle": "vurt_seoul",
     "musician_ids": [],
@@ -298,7 +11,7 @@
       "robert_piotrowicz_",
       "thomasankersmit"
     ],
-    "venue_id": "ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68",
+    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
     "venue_location_id": "main",
     "datetime": "2025-11-16T10:00:00+00:00",
     "price": "KRW 44,000 (Combined Ticket)",
@@ -318,8 +31,8 @@
     }
   },
   {
-    "id": "evt_20251116_5d7743c0-d2e4-4b56-a3ae-f6cdb8c40a3d",
-    "event_key": "v:ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68|t:2025-11-16T11:40:00+00:00",
+    "id": "evt_20251116_9b68685b-9a93-409a-bb73-427bbe79dd38",
+    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T11:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ_Jm0lj-oR/",
     "venue_handle": "vurt_seoul",
     "musician_ids": [],
@@ -328,7 +41,7 @@
       "rashad__becker",
       "robert_piotrowicz_"
     ],
-    "venue_id": "ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68",
+    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
     "venue_location_id": "main",
     "datetime": "2025-11-16T11:40:00+00:00",
     "price": "KRW 25,000",
@@ -348,13 +61,13 @@
     }
   },
   {
-    "id": "evt_20251116_c9b2c050-539c-4dcb-8c41-5875835439a7",
-    "event_key": "v:ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68|t:2025-11-16T12:00:00+00:00",
+    "id": "evt_20251116_bde97002-ef2d-4a51-9491-e87744711815",
+    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T12:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQoY4TfDzRC/",
     "venue_handle": "vurt_seoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68",
+    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
     "venue_location_id": "main",
     "datetime": "2025-11-16T12:00:00+00:00",
     "price": "KRW 25,000",
@@ -374,13 +87,13 @@
     }
   },
   {
-    "id": "evt_20251116_00bffaba-ad01-47f1-9f5f-d21c790c2a86",
-    "event_key": "v:ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68|t:2025-11-16T13:00:00+00:00",
+    "id": "evt_20251116_1c6bebca-5f68-4151-a1d8-2c417785bcac",
+    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQoY4TfDzRC/",
     "venue_handle": "vurt_seoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68",
+    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
     "venue_location_id": "main",
     "datetime": "2025-11-16T13:00:00+00:00",
     "price": "KRW 25,000",
@@ -400,13 +113,13 @@
     }
   },
   {
-    "id": "evt_20251116_2c11641a-ac04-45a6-be5f-5b720d880b13",
-    "event_key": "v:ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68|t:2025-11-16T14:00:00+00:00",
+    "id": "evt_20251116_29698308-e6d8-490e-8277-c532a3f5529b",
+    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQoY4TfDzRC/",
     "venue_handle": "vurt_seoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68",
+    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
     "venue_location_id": "main",
     "datetime": "2025-11-16T14:00:00+00:00",
     "price": "KRW 25,000",
@@ -426,13 +139,13 @@
     }
   },
   {
-    "id": "evt_20251120_e105ac06-9f91-4e12-86e5-0c61b7982699",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-20T02:00:00+00:00",
+    "id": "evt_20251120_ff320410-df55-450a-8808-48a826fb2b61",
+    "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-20T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
+    "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-11-20T02:00:00+00:00",
     "price": "None",
@@ -452,13 +165,13 @@
     }
   },
   {
-    "id": "evt_20251120_e1cd2427-ca58-4823-8b3c-3e5342495e41",
-    "event_key": "v:ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584|t:2025-11-20T13:00:00+00:00",
+    "id": "evt_20251120_d61be8ee-4f53-4c37-9bd1-54c2db978616",
+    "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-20T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584",
+    "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-11-20T13:00:00+00:00",
     "price": "None",
@@ -478,13 +191,13 @@
     }
   },
   {
-    "id": "evt_20251120_a71732aa-246c-4175-a12a-791aea59a111",
-    "event_key": "v:ven_e6ddc4bf-ea35-45d4-b06b-6792f0b54886|t:2025-11-20T13:00:00+00:00",
+    "id": "evt_20251120_b5d21c34-ab84-4d4c-91f1-230518b6c3d6",
+    "event_key": "v:ven_8a85b2ca-c6cc-48f7-a9dd-a29083cd7c91|t:2025-11-20T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DPwxdHYkpK7/",
     "venue_handle": "electrik.seoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_e6ddc4bf-ea35-45d4-b06b-6792f0b54886",
+    "venue_id": "ven_8a85b2ca-c6cc-48f7-a9dd-a29083cd7c91",
     "venue_location_id": "main",
     "datetime": "2025-11-20T13:00:00+00:00",
     "price": null,
@@ -504,13 +217,13 @@
     }
   },
   {
-    "id": "evt_20251121_42191452-f6c7-476e-b912-8a5259d94ca1",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-21T02:00:00+00:00",
+    "id": "evt_20251121_10098b79-2b08-4142-873f-2911c68aa771",
+    "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-21T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
+    "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-11-21T02:00:00+00:00",
     "price": "None",
@@ -530,8 +243,8 @@
     }
   },
   {
-    "id": "evt_20251121_c414c478-f96a-4679-874a-bb41dc863b01",
-    "event_key": "v:ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584|t:2025-11-21T13:00:00+00:00",
+    "id": "evt_20251121_bde60f51-cd84-4eb8-b076-0b90e381fc74",
+    "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-21T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3r90mAS0k/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
@@ -546,7 +259,7 @@
       "sinndavin",
       "yoyoufree"
     ],
-    "venue_id": "ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584",
+    "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-11-21T13:00:00+00:00",
     "price": "KRW 20,000 before 12AM, KRW 25,000 after 12AM",
@@ -566,7 +279,7 @@
     }
   },
   {
-    "id": "evt_20251121_b714fcaa-17be-4499-b78f-bc6d4ff8025a",
+    "id": "evt_20251121_39cf7f9f-5c62-4181-804f-28c9390e6ef5",
     "event_key": "vh:itslostindreams|t:2025-11-21T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQu5AbCkkI8/",
     "venue_handle": "itslostindreams",
@@ -595,13 +308,13 @@
     }
   },
   {
-    "id": "evt_20251121_76a13b0e-1cdf-46e0-ad15-4a2e02ae4a22",
-    "event_key": "v:ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d|t:2025-11-21T14:00:00+00:00",
+    "id": "evt_20251121_850b9cc2-ac41-49c9-be3e-c6ca7472fd83",
+    "event_key": "v:ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8|t:2025-11-21T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
     "venue_handle": "shelterseoul_",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d",
+    "venue_id": "ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8",
     "venue_location_id": "main",
     "datetime": "2025-11-21T14:00:00+00:00",
     "price": null,
@@ -621,13 +334,13 @@
     }
   },
   {
-    "id": "evt_20251121_36c4068c-b087-4af3-9a2f-94e7ba746b64",
-    "event_key": "v:ven_ef890694-accf-405c-a3b7-ab606de1eadb|t:2025-11-21T14:00:00+00:00",
+    "id": "evt_20251121_3b99de92-06da-4e31-b0cd-906356edd327",
+    "event_key": "v:ven_5093cda5-2b1d-4d93-b044-2abf01c61bee|t:2025-11-21T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQThWD_gZcY/",
     "venue_handle": "volnostseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_ef890694-accf-405c-a3b7-ab606de1eadb",
+    "venue_id": "ven_5093cda5-2b1d-4d93-b044-2abf01c61bee",
     "venue_location_id": "main",
     "datetime": "2025-11-21T14:00:00+00:00",
     "price": null,
@@ -647,13 +360,13 @@
     }
   },
   {
-    "id": "evt_20251121_4396197e-cd0b-4697-8fd7-978186a153d0",
-    "event_key": "v:ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68|t:2025-11-21T14:00:00+00:00",
+    "id": "evt_20251121_83c2ebeb-2558-4a61-9439-06df0a0648e7",
+    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-21T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3t0BUj1Ar/",
     "venue_handle": "vurt_seoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68",
+    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
     "venue_location_id": "main",
     "datetime": "2025-11-21T14:00:00+00:00",
     "price": "KRW 20,000",
@@ -673,13 +386,13 @@
     }
   },
   {
-    "id": "evt_20251122_20ebc4d2-77bb-48a9-b272-a16c0a430171",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-22T02:00:00+00:00",
+    "id": "evt_20251122_5e9dec8d-a854-4f28-8efc-822cb3fe67c7",
+    "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-22T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
+    "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-11-22T02:00:00+00:00",
     "price": "None",
@@ -699,8 +412,8 @@
     }
   },
   {
-    "id": "evt_20251122_ca98d673-5bcf-4ec6-8fe2-9ba31c3174bc",
-    "event_key": "v:ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584|t:2025-11-22T13:00:00+00:00",
+    "id": "evt_20251122_aaf50384-20f5-4763-850b-836e3a01fffe",
+    "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-22T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQbKn8GEtml/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
@@ -714,7 +427,7 @@
       "neverthelessthan",
       "tlswjdrms"
     ],
-    "venue_id": "ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584",
+    "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-11-22T13:00:00+00:00",
     "price": "KRW 20,000 (Earlybird) / KRW 25,000 (Door)",
@@ -734,13 +447,13 @@
     }
   },
   {
-    "id": "evt_20251122_ac3ddfae-5b2c-4959-94bf-df7d086cebc9",
-    "event_key": "v:ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d|t:2025-11-22T14:00:00+00:00",
+    "id": "evt_20251122_bcf8843b-2bac-42a3-98b2-e600b1d721ff",
+    "event_key": "v:ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8|t:2025-11-22T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
     "venue_handle": "shelterseoul_",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d",
+    "venue_id": "ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8",
     "venue_location_id": "main",
     "datetime": "2025-11-22T14:00:00+00:00",
     "price": null,
@@ -760,13 +473,13 @@
     }
   },
   {
-    "id": "evt_20251122_aebbc9f8-5ce3-431f-8467-d30c96d028c3",
-    "event_key": "v:ven_ef890694-accf-405c-a3b7-ab606de1eadb|t:2025-11-22T14:00:00+00:00",
+    "id": "evt_20251122_6bf1f0f3-f26a-44ed-82d8-f2db79ac2bf2",
+    "event_key": "v:ven_5093cda5-2b1d-4d93-b044-2abf01c61bee|t:2025-11-22T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQThWD_gZcY/",
     "venue_handle": "volnostseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_ef890694-accf-405c-a3b7-ab606de1eadb",
+    "venue_id": "ven_5093cda5-2b1d-4d93-b044-2abf01c61bee",
     "venue_location_id": "main",
     "datetime": "2025-11-22T14:00:00+00:00",
     "price": null,
@@ -786,13 +499,13 @@
     }
   },
   {
-    "id": "evt_20251122_6ed77338-31aa-4a97-b8a6-50dab05512d7",
-    "event_key": "v:ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68|t:2025-11-22T14:00:00+00:00",
+    "id": "evt_20251122_35b76bfd-51d8-4ef5-ba36-626c72042fe6",
+    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-22T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ8GBcND0G3/",
     "venue_handle": "vurt_seoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_f040a3d6-1979-4763-be36-c8b0c9a1fd68",
+    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
     "venue_location_id": "main",
     "datetime": "2025-11-22T14:00:00+00:00",
     "price": "RA Reservation: KRW 22,000 / At Door: KRW 25,000",
@@ -812,13 +525,13 @@
     }
   },
   {
-    "id": "evt_20251127_7cbe0e83-d5ec-4d1b-b875-3d09f6b5b763",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-27T02:00:00+00:00",
+    "id": "evt_20251127_e59881a7-062a-4021-b87d-e5775fbfd7dd",
+    "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-27T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
+    "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-11-27T02:00:00+00:00",
     "price": "None",
@@ -838,13 +551,13 @@
     }
   },
   {
-    "id": "evt_20251128_7fdaf9ae-063f-4dec-87e2-c7e386467ae0",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-28T02:00:00+00:00",
+    "id": "evt_20251128_904c9b18-405d-45b6-851c-d5273699973d",
+    "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-28T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
+    "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-11-28T02:00:00+00:00",
     "price": "None",
@@ -864,13 +577,13 @@
     }
   },
   {
-    "id": "evt_20251128_4551e558-fa5c-4972-a302-8da45342a1ef",
-    "event_key": "v:ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584|t:2025-11-28T13:00:00+00:00",
+    "id": "evt_20251128_033339f5-93dc-4556-bcf4-c9de2f5b1972",
+    "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-28T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584",
+    "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-11-28T13:00:00+00:00",
     "price": "None",
@@ -890,13 +603,13 @@
     }
   },
   {
-    "id": "evt_20251128_f01bc100-1525-4169-abe6-e10a8fd948e1",
-    "event_key": "v:ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d|t:2025-11-28T14:00:00+00:00",
+    "id": "evt_20251128_f98959c5-0b4a-428c-9def-62bc2afd8062",
+    "event_key": "v:ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8|t:2025-11-28T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
     "venue_handle": "shelterseoul_",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d",
+    "venue_id": "ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8",
     "venue_location_id": "main",
     "datetime": "2025-11-28T14:00:00+00:00",
     "price": null,
@@ -916,13 +629,13 @@
     }
   },
   {
-    "id": "evt_20251128_c5bdb88d-83ca-4aca-82c0-90687dec0fed",
-    "event_key": "v:ven_ef890694-accf-405c-a3b7-ab606de1eadb|t:2025-11-28T14:00:00+00:00",
+    "id": "evt_20251128_4199fa12-cc5a-4846-b293-b003b74b7e7e",
+    "event_key": "v:ven_5093cda5-2b1d-4d93-b044-2abf01c61bee|t:2025-11-28T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQThWD_gZcY/",
     "venue_handle": "volnostseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_ef890694-accf-405c-a3b7-ab606de1eadb",
+    "venue_id": "ven_5093cda5-2b1d-4d93-b044-2abf01c61bee",
     "venue_location_id": "main",
     "datetime": "2025-11-28T14:00:00+00:00",
     "price": null,
@@ -942,13 +655,13 @@
     }
   },
   {
-    "id": "evt_20251129_6de1b39f-4c64-4bce-97b1-500d309f9628",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-29T02:00:00+00:00",
+    "id": "evt_20251129_3910db38-879f-4630-a8d7-d7416377d08b",
+    "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-29T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
+    "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-11-29T02:00:00+00:00",
     "price": null,
@@ -968,13 +681,13 @@
     }
   },
   {
-    "id": "evt_20251129_6023670e-eeea-48f8-835a-89ab5eb56329",
-    "event_key": "v:ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584|t:2025-11-29T13:00:00+00:00",
+    "id": "evt_20251129_cc8ab840-f53d-4686-af3f-c43a2e191361",
+    "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-29T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584",
+    "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-11-29T13:00:00+00:00",
     "price": "None",
@@ -994,13 +707,13 @@
     }
   },
   {
-    "id": "evt_20251129_c73ca267-153d-4001-bf9b-ed9fa471a702",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-11-29T14:00:00+00:00",
+    "id": "evt_20251129_93287c17-f22a-432c-8538-e9cb604f047f",
+    "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-29T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
+    "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-11-29T14:00:00+00:00",
     "price": "None",
@@ -1020,13 +733,13 @@
     }
   },
   {
-    "id": "evt_20251129_8e81173e-32d2-4cea-98c0-cba4cf6e0afd",
-    "event_key": "v:ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d|t:2025-11-29T14:00:00+00:00",
+    "id": "evt_20251129_d635d2d6-3f13-4bf5-ad2c-136aac3a9679",
+    "event_key": "v:ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8|t:2025-11-29T14:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
     "venue_handle": "shelterseoul_",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_9b9a2a18-c0cf-463e-a4ae-1d33f889a28d",
+    "venue_id": "ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8",
     "venue_location_id": "main",
     "datetime": "2025-11-29T14:00:00+00:00",
     "price": null,
@@ -1046,8 +759,8 @@
     }
   },
   {
-    "id": "evt_20251204_3335a3b4-0951-4bb6-bb4d-7b8e2511bda4",
-    "event_key": "v:ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584|t:2025-12-04T13:00:00+00:00",
+    "id": "evt_20251204_64099523-f985-4437-a359-17985e9c1945",
+    "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-12-04T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
@@ -1055,7 +768,7 @@
       "djchaoticugly",
       "hosoterratoma"
     ],
-    "venue_id": "ven_2e282ce2-b615-4e0d-868d-ef9c2aa37584",
+    "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-12-04T13:00:00+00:00",
     "price": "None",
@@ -1075,13 +788,13 @@
     }
   },
   {
-    "id": "evt_20251205_24b90cb5-b872-441c-9f25-2b9185b680a5",
-    "event_key": "v:ven_28c110c7-7b18-45fa-b82a-aa187e016867|t:2025-12-05T02:00:00+00:00",
+    "id": "evt_20251205_adff72c5-11fd-4c27-b062-d8ccf46c3af5",
+    "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-12-05T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [],
-    "venue_id": "ven_28c110c7-7b18-45fa-b82a-aa187e016867",
+    "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-12-05T02:00:00+00:00",
     "price": "None",
@@ -1101,8 +814,8 @@
     }
   },
   {
-    "id": "evt_20251210_2387f1b5-e873-48f1-9184-6a01df03d82a",
-    "event_key": "v:ven_149363a7-8ea0-46d8-93cf-42b9efac3a04|t:2025-12-10T05:00:00+00:00",
+    "id": "evt_20251210_292d0285-d432-4ba9-9806-93ef2085ec9f",
+    "event_key": "v:ven_3f22c153-f538-495a-b23d-de4e7b31cd3b|t:2025-12-10T05:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DPnOS7WAZyH/",
     "venue_handle": "soapseoul",
     "musician_ids": [],
@@ -1134,7 +847,7 @@
       "yanncavaille",
       "young_on_wax"
     ],
-    "venue_id": "ven_149363a7-8ea0-46d8-93cf-42b9efac3a04",
+    "venue_id": "ven_3f22c153-f538-495a-b23d-de4e7b31cd3b",
     "venue_location_id": "main",
     "datetime": "2025-12-10T05:00:00+00:00",
     "price": "KRW 35,000 (1 Free Drink)",

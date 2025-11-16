@@ -4,21 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-15T22:42:29Z
-- **Source Commit**: [`912ff203ac5a4bfda7c90582be909382b8d878a9`](https://github.com/keunwoochoi/seoulunderground.live/commit/912ff203ac5a4bfda7c90582be909382b8d878a9)
+- **Build Time**: 2025-11-16T09:10:32Z
+- **Source Commit**: [`a61e0c242e09f330e8294ab2789a6decd6400e9d`](https://github.com/keunwoochoi/seoulunderground.live/commit/a61e0c242e09f330e8294ab2789a6decd6400e9d)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19396620135)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19403343727)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: K/fix dependency (#46)
-
-* Fix daily job: smart event extraction, logging improvements, env loading
-
-* add show schedule text on venue card
-
-* reflect gemini comment
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 

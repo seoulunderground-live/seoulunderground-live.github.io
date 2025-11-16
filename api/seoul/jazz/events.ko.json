@@ -1,5 +1,31 @@
 [
   {
+    "id": "evt_20251117_20fda22a-ae14-48b8-9145-9c4078db6cfc",
+    "event_key": "v:ven_d70a886a-773d-48a3-9af3-e9520d8c8e45|t:2025-11-17T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHbIy7ExX8/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d70a886a-773d-48a3-9af3-e9520d8c8e45",
+    "venue_location_id": "main",
+    "datetime": "2025-11-17T09:00:00+00:00",
+    "price": "무료 입장 (후불 페이)",
+    "llm_confidence": 1.0,
+    "title": "이영인 퀄텟",
+    "description": "스탠다드 재즈, 블루스, 오리지널곡 연주.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Young-in Quartet",
+      "description": "Performing standard jazz, blues, and original compositions."
+    },
+    "_search_ko": {
+      "title": "이영인 퀄텟",
+      "description": "스탠다드 재즈, 블루스, 오리지널곡 연주."
+    }
+  },
+  {
     "id": "evt_20251117_bd9b7a72-d6fa-4669-8764-6c8d939a76a9",
     "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-17T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DRGvEtSD8gn/",
@@ -185,6 +211,32 @@
     }
   },
   {
+    "id": "evt_20251117_9b58d376-3908-4cd0-b547-cac3a78fb785",
+    "event_key": "v:ven_d70a886a-773d-48a3-9af3-e9520d8c8e45|t:2025-11-17T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHbIy7ExX8/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d70a886a-773d-48a3-9af3-e9520d8c8e45",
+    "venue_location_id": "main",
+    "datetime": "2025-11-17T11:00:00+00:00",
+    "price": "무료 입장 (후불 페이)",
+    "llm_confidence": 1.0,
+    "title": "곽경진 퀄텟",
+    "description": "컨템포러리 재즈 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kwak Kyung-jin Quartet",
+      "description": "Performing contemporary jazz."
+    },
+    "_search_ko": {
+      "title": "곽경진 퀄텟",
+      "description": "컨템포러리 재즈 공연."
+    }
+  },
+  {
     "id": "evt_20251117_dde8e260-b57c-4be0-ba45-f1f7d2aee972",
     "event_key": "v:ven_b073f80a-2e7d-4b1c-ba43-c7c8e9838c02|t:2025-11-17T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DRHZKakE6SM/",
@@ -288,6 +340,32 @@
     "_search_ko": {
       "title": "헬로, 미스터 브라운!",
       "description": "헬로, 미스터 브라운! 공연."
+    }
+  },
+  {
+    "id": "evt_20251117_dbc81a26-3c86-4981-9e4e-6d467ade90d7",
+    "event_key": "v:ven_d70a886a-773d-48a3-9af3-e9520d8c8e45|t:2025-11-17T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHbIy7ExX8/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_d70a886a-773d-48a3-9af3-e9520d8c8e45",
+    "venue_location_id": "main",
+    "datetime": "2025-11-17T13:00:00+00:00",
+    "price": "무료 입장 (후불 페이)",
+    "llm_confidence": 1.0,
+    "title": "윤해천 트리오 (미드나잇 재즈)",
+    "description": "미드나잇 재즈 세션에서 스탠다드 재즈 연주.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yoon Hae-cheon Trio (Midnight Jazz)",
+      "description": "Performing standard jazz for 'Midnight Jazz' session."
+    },
+    "_search_ko": {
+      "title": "윤해천 트리오 (미드나잇 재즈)",
+      "description": "미드나잇 재즈 세션에서 스탠다드 재즈 연주."
     }
   },
   {
@@ -1808,6 +1886,32 @@
     }
   },
   {
+    "id": "evt_20251120_28f449bf-bd6a-45c2-a7ad-69ae7c67a2fb",
+    "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "전창민 트리오",
+    "description": "전창민 트리오: 전창민 (기타), 정하은 (피아노), 오성한 (베이스).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jeon Chang-min Trio",
+      "description": "Jeon Chang-min Trio: Jeon Chang-min (guitar), Jung Ha-eun (piano), Oh Sung-han (bass)."
+    },
+    "_search_ko": {
+      "title": "전창민 트리오",
+      "description": "전창민 트리오: 전창민 (기타), 정하은 (피아노), 오성한 (베이스)."
+    }
+  },
+  {
     "id": "evt_20251120_069ea088-3a2a-42ba-935e-6509fdeedc23",
     "event_key": "v:ven_49e1ce4d-549b-4955-9623-4a6dcc3f1ab9|t:2025-11-20T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQhES8lD488/",
@@ -2091,6 +2195,32 @@
     "_search_ko": {
       "title": "앨런",
       "description": "앨런 색소폰 공연."
+    }
+  },
+  {
+    "id": "evt_20251121_b20ff814-0d4b-40f9-9f83-0093cc93e11f",
+    "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-21T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "강채은 트리오",
+    "description": "강채은 트리오: 강채은 (보컬), 이정하 (피아노), 최성환 (베이스).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kang Chae-eun Trio",
+      "description": "Kang Chae-eun Trio: Kang Chae-eun (vocal), Lee Jung-ha (piano), Choi Sung-hwan (bass)."
+    },
+    "_search_ko": {
+      "title": "강채은 트리오",
+      "description": "강채은 트리오: 강채은 (보컬), 이정하 (피아노), 최성환 (베이스)."
     }
   },
   {
@@ -2916,7 +3046,7 @@
   {
     "id": "evt_20251121_c3065b51-73ae-4d9a-ba2f-d876ab404b01",
     "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-21T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -2927,18 +3057,18 @@
     "datetime": "2025-11-21T12:00:00+00:00",
     "price": "11,000원",
     "llm_confidence": 1.0,
-    "title": "스윙남 프로젝트",
-    "description": "스윙남 프로젝트 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용.",
+    "title": "강채은 트리오",
+    "description": "강채은 트리오: 강채은 (보컬), 이정하 (피아노), 최성환 (베이스).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Swing Nam Project",
-      "description": "Swing Nam Project performance. Part 2 at 9:00 PM. Admission is KRW 11,000 per part, with a 50% discount on Part 2 admission for a day pass."
+      "title": "Kang Chae-eun Trio",
+      "description": "Kang Chae-eun Trio: Kang Chae-eun (vocal), Lee Jung-ha (piano), Choi Sung-hwan (bass)."
     },
     "_search_ko": {
-      "title": "스윙남 프로젝트",
-      "description": "스윙남 프로젝트 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용."
+      "title": "강채은 트리오",
+      "description": "강채은 트리오: 강채은 (보컬), 이정하 (피아노), 최성환 (베이스)."
     }
   },
   {
@@ -3229,6 +3359,32 @@
     "_search_ko": {
       "title": "안성미 밴드",
       "description": "대학가요제 대상 수상 보컬리스트 안성미 밴드. 스탠다드 재즈와 팝을 넘나드는 따뜻한 무대."
+    }
+  },
+  {
+    "id": "evt_20251122_6f2d9afa-9283-4f26-9b4c-474914465da3",
+    "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-22T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "안수정 퀄텟",
+    "description": "안수정 퀄텟: 안수정 (보컬), 이정하 (피아노), 조명수 (베이스), 김찬영 (드럼).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ahn Su-jung Quartet",
+      "description": "Ahn Su-jung Quartet: Ahn Su-jung (vocal), Lee Jung-ha (piano), Jo Myung-su (bass), Kim Chan-young (drums)."
+    },
+    "_search_ko": {
+      "title": "안수정 퀄텟",
+      "description": "안수정 퀄텟: 안수정 (보컬), 이정하 (피아노), 조명수 (베이스), 김찬영 (드럼)."
     }
   },
   {
@@ -4000,7 +4156,7 @@
   {
     "id": "evt_20251122_dea1840d-321a-47d9-8924-82522fd6ee2a",
     "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-22T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -4011,18 +4167,18 @@
     "datetime": "2025-11-22T12:00:00+00:00",
     "price": "11,000원",
     "llm_confidence": 1.0,
-    "title": "후안 메히아 퀄텟",
-    "description": "후안 메히아 퀄텟 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용.",
+    "title": "안수정 퀄텟",
+    "description": "안수정 퀄텟: 안수정 (보컬), 이정하 (피아노), 조명수 (베이스), 김찬영 (드럼).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Juan Mejía Quartet",
-      "description": "Juan Mejía Quartet performance. Part 2 at 9:00 PM. Admission is KRW 11,000 per part, with a 50% discount on Part 2 admission for a day pass."
+      "title": "Ahn Su-jung Quartet",
+      "description": "Ahn Su-jung Quartet: Ahn Su-jung (vocal), Lee Jung-ha (piano), Jo Myung-su (bass), Kim Chan-young (drums)."
     },
     "_search_ko": {
-      "title": "후안 메히아 퀄텟",
-      "description": "후안 메히아 퀄텟 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용."
+      "title": "안수정 퀄텟",
+      "description": "안수정 퀄텟: 안수정 (보컬), 이정하 (피아노), 조명수 (베이스), 김찬영 (드럼)."
     }
   },
   {
@@ -4342,6 +4498,32 @@
     }
   },
   {
+    "id": "evt_20251123_6523c9c8-8aeb-4c0f-84c1-f020a663213c",
+    "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-23T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jazz Jamm Day (조영재 트리오)",
+    "description": "Jazz Jamm Day. 호스트: 조영재 트리오: 조영재 (보컬), 이동환 (기타), 김현준 (베이스).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jazz Jamm Day (Jo Young-jae Trio)",
+      "description": "Jazz Jamm Day. Host: Jo Young-jae Trio: Jo Young-jae (vocal), Lee Dong-hwan (guitar), Kim Hyun-jun (bass)."
+    },
+    "_search_ko": {
+      "title": "Jazz Jamm Day (조영재 트리오)",
+      "description": "Jazz Jamm Day. 호스트: 조영재 트리오: 조영재 (보컬), 이동환 (기타), 김현준 (베이스)."
+    }
+  },
+  {
     "id": "evt_20251123_f6ca6685-4cdf-4323-8754-7e98ab584eff",
     "event_key": "v:ven_1574b176-d6c1-4245-b771-d4904bd29896|t:2025-11-23T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
@@ -4606,7 +4788,7 @@
   {
     "id": "evt_20251123_89163a24-4477-4615-bdee-2364080a24c6",
     "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-23T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -4617,18 +4799,18 @@
     "datetime": "2025-11-23T12:00:00+00:00",
     "price": "11,000원",
     "llm_confidence": 1.0,
-    "title": "권영민 트리오",
-    "description": "권영민 트리오 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용.",
+    "title": "Jazz Jamm Day (조영재 트리오)",
+    "description": "Jazz Jamm Day. 호스트: 조영재 트리오: 조영재 (보컬), 이동환 (기타), 김현준 (베이스).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Youngmin Kwon Trio",
-      "description": "Youngmin Kwon Trio performance. Part 2 at 9:00 PM. Admission is KRW 11,000 per part, with a 50% discount on Part 2 admission for a day pass."
+      "title": "Jazz Jamm Day (Jo Young-jae Trio)",
+      "description": "Jazz Jamm Day. Host: Jo Young-jae Trio: Jo Young-jae (vocal), Lee Dong-hwan (guitar), Kim Hyun-jun (bass)."
     },
     "_search_ko": {
-      "title": "권영민 트리오",
-      "description": "권영민 트리오 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용."
+      "title": "Jazz Jamm Day (조영재 트리오)",
+      "description": "Jazz Jamm Day. 호스트: 조영재 트리오: 조영재 (보컬), 이동환 (기타), 김현준 (베이스)."
     }
   },
   {
@@ -6149,6 +6331,32 @@
     }
   },
   {
+    "id": "evt_20251127_d03b9367-7506-4cab-8acd-8eb418c50442",
+    "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "김주영 트리오",
+    "description": "김주영 트리오: 김주영 (기타), 김현주 (피아노), 김진수 (베이스).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Ju-young Trio",
+      "description": "Kim Ju-young Trio: Kim Ju-young (guitar), Kim Hyun-ju (piano), Kim Jin-su (bass)."
+    },
+    "_search_ko": {
+      "title": "김주영 트리오",
+      "description": "김주영 트리오: 김주영 (기타), 김현주 (피아노), 김진수 (베이스)."
+    }
+  },
+  {
     "id": "evt_20251127_9e4f3665-0c25-4ab6-884e-ef732fac9f77",
     "event_key": "v:ven_49e1ce4d-549b-4955-9623-4a6dcc3f1ab9|t:2025-11-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQhES8lD488/",
@@ -6406,6 +6614,32 @@
     "_search_ko": {
       "title": "THE MUSE: 킬드런 아트 토크 & 마일즈 데이비스 트리뷰트 재즈 공연",
       "description": "킬드런 작가의 아트 토크 콘서트와 마일즈 데이비스 트리뷰트 밴드 재즈 공연. 와인 라벨에 수록된 킬드런 작가 원화와 함께 즐기는 특별한 만남."
+    }
+  },
+  {
+    "id": "evt_20251128_aaa0b0f6-c6ed-4ff6-93bd-e55de54334ab",
+    "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-28T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임채운 퀄텟",
+    "description": "임채운 퀄텟: 임채운 (보컬), 유승호 (피아노), 김윤성 (베이스), 김영진 (드럼).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Im Chae-un Quartet",
+      "description": "Im Chae-un Quartet: Im Chae-un (vocal), Yu Seung-ho (piano), Kim Yoon-sung (bass), Kim Young-jin (drums)."
+    },
+    "_search_ko": {
+      "title": "임채운 퀄텟",
+      "description": "임채운 퀄텟: 임채운 (보컬), 유승호 (피아노), 김윤성 (베이스), 김영진 (드럼)."
     }
   },
   {
@@ -7130,7 +7364,7 @@
   {
     "id": "evt_20251128_885e9a9f-d1ea-4020-b273-be8004c887bf",
     "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-28T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -7141,18 +7375,18 @@
     "datetime": "2025-11-28T12:00:00+00:00",
     "price": "11,000원",
     "llm_confidence": 1.0,
-    "title": "오르미데 암스트롱 퀄텟",
-    "description": "오르미데 암스트롱 퀄텟 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용.",
+    "title": "임채운 퀄텟",
+    "description": "임채운 퀄텟: 임채운 (보컬), 유승호 (피아노), 김윤성 (베이스), 김영진 (드럼).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Ormide Armstrong Quartet",
-      "description": "Ormide Armstrong Quartet performance. Part 2 at 9:00 PM. Admission is KRW 11,000 per part, with a 50% discount on Part 2 admission for a day pass."
+      "title": "Im Chae-un Quartet",
+      "description": "Im Chae-un Quartet: Im Chae-un (vocal), Yu Seung-ho (piano), Kim Yoon-sung (bass), Kim Young-jin (drums)."
     },
     "_search_ko": {
-      "title": "오르미데 암스트롱 퀄텟",
-      "description": "오르미데 암스트롱 퀄텟 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용."
+      "title": "임채운 퀄텟",
+      "description": "임채운 퀄텟: 임채운 (보컬), 유승호 (피아노), 김윤성 (베이스), 김영진 (드럼)."
     }
   },
   {
@@ -7418,6 +7652,32 @@
     "_search_ko": {
       "title": "해일림 퀄텟",
       "description": "해일림 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251129_e0815c18-1831-4c72-a5e0-2636d6a5ffd3",
+    "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-29T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "The S 트리오",
+    "description": "The S 트리오: 성기문 (기타), 김수진 (피아노), 최인환 (베이스).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The S Trio",
+      "description": "The S Trio: Sung Ki-moon (guitar), Kim Su-jin (piano), Choi In-hwan (bass)."
+    },
+    "_search_ko": {
+      "title": "The S 트리오",
+      "description": "The S 트리오: 성기문 (기타), 김수진 (피아노), 최인환 (베이스)."
     }
   },
   {
@@ -8133,7 +8393,7 @@
   {
     "id": "evt_20251129_7de74cdd-f4d9-450a-b500-c4de63326761",
     "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-29T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -8144,18 +8404,18 @@
     "datetime": "2025-11-29T12:00:00+00:00",
     "price": "11,000원",
     "llm_confidence": 1.0,
-    "title": "마틴 야콥슨 퀄텟",
-    "description": "마틴 야콥슨 퀄텟 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용.",
+    "title": "The S 트리오",
+    "description": "The S 트리오: 성기문 (기타), 김수진 (피아노), 최인환 (베이스).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Martin Jacobsen Quartet",
-      "description": "Martin Jacobsen Quartet performance. Part 2 at 9:00 PM. Admission is KRW 11,000 per part, with a 50% discount on Part 2 admission for a day pass."
+      "title": "The S Trio",
+      "description": "The S Trio: Sung Ki-moon (guitar), Kim Su-jin (piano), Choi In-hwan (bass)."
     },
     "_search_ko": {
-      "title": "마틴 야콥슨 퀄텟",
-      "description": "마틴 야콥슨 퀄텟 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용."
+      "title": "The S 트리오",
+      "description": "The S 트리오: 성기문 (기타), 김수진 (피아노), 최인환 (베이스)."
     }
   },
   {
@@ -8419,6 +8679,32 @@
     }
   },
   {
+    "id": "evt_20251130_91547195-eeb6-45bf-a178-546f8a0a9131",
+    "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-30T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-30T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Jazz Jamm Day (전창민 트리오)",
+    "description": "Jazz Jamm Day. 호스트: 전창민 트리오: 전창민 (보컬), 최명환 (기타), 임진아 (베이스).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jazz Jamm Day (Jeon Chang-min Trio)",
+      "description": "Jazz Jamm Day. Host: Jeon Chang-min Trio: Jeon Chang-min (vocal), Choi Myung-hwan (guitar), Im Jin-a (bass)."
+    },
+    "_search_ko": {
+      "title": "Jazz Jamm Day (전창민 트리오)",
+      "description": "Jazz Jamm Day. 호스트: 전창민 트리오: 전창민 (보컬), 최명환 (기타), 임진아 (베이스)."
+    }
+  },
+  {
     "id": "evt_20251130_bebb6b9f-0809-4de5-8d01-aee1ad393340",
     "event_key": "v:ven_1574b176-d6c1-4245-b771-d4904bd29896|t:2025-11-30T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjzANhErrK/",
@@ -8631,7 +8917,7 @@
   {
     "id": "evt_20251130_1a6201d6-9dbc-45b2-80a9-a2e04e8a5952",
     "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-30T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
+    "source_url": "https://www.instagram.com/p/DRHZ--KElTG/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -8642,18 +8928,18 @@
     "datetime": "2025-11-30T12:00:00+00:00",
     "price": "11,000원",
     "llm_confidence": 1.0,
-    "title": "전제곤 퀸텟",
-    "description": "전제곤 퀸텟 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용.",
+    "title": "Jazz Jamm Day (전창민 트리오)",
+    "description": "Jazz Jamm Day. 호스트: 전창민 트리오: 전창민 (보컬), 최명환 (기타), 임진아 (베이스).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Jeon Je-gon Quintet",
-      "description": "Jeon Je-gon Quintet performance. Part 2 at 9:00 PM. Admission is KRW 11,000 per part, with a 50% discount on Part 2 admission for a day pass."
+      "title": "Jazz Jamm Day (Jeon Chang-min Trio)",
+      "description": "Jazz Jamm Day. Host: Jeon Chang-min Trio: Jeon Chang-min (vocal), Choi Myung-hwan (guitar), Im Jin-a (bass)."
     },
     "_search_ko": {
-      "title": "전제곤 퀸텟",
-      "description": "전제곤 퀸텟 공연. 2부 9:00 PM. 입장료는 각 11,000원이며, 데이패스 시 2부 입장료 50% 할인 적용."
+      "title": "Jazz Jamm Day (전창민 트리오)",
+      "description": "Jazz Jamm Day. 호스트: 전창민 트리오: 전창민 (보컬), 최명환 (기타), 임진아 (베이스)."
     }
   },
   {
@@ -9044,6 +9330,32 @@
     "_search_ko": {
       "title": "헤이피 HEYP 듀오",
       "description": "헤이피 HEYP 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251205_4f4cadfa-d985-4759-a70d-3c9c1d86b982",
+    "event_key": "v:ven_284517c6-169e-4d17-9717-0f2bc8fcb4df|t:2025-12-05T06:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQvNWmhExlF/",
+    "venue_handle": "jinjujazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_284517c6-169e-4d17-9717-0f2bc8fcb4df",
+    "venue_location_id": "main",
+    "datetime": "2025-12-05T06:00:00+00:00",
+    "price": "239,000원",
+    "llm_confidence": 1.0,
+    "title": "재즈 아트투어 & 네트워킹 파티",
+    "description": "1박 2일 재즈 아트투어 패키지. 진주국제재즈페스티벌 R석 양일권, 전통 체험, 지역 식사, 해외 아티스트와 함께하는 네트워킹 파티 포함. 날짜: 2025년 12월 5일~6일.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "JAZZ ART TOUR & NETWORKING PARTY",
+      "description": "A 1-night, 2-day Jazz Art Tour package including a 2-day R-seat pass to the Jinju International Jazz Festival, traditional experiences, local meals, and a networking party with international artists. Dates: Dec 5-6, 2025."
+    },
+    "_search_ko": {
+      "title": "재즈 아트투어 & 네트워킹 파티",
+      "description": "1박 2일 재즈 아트투어 패키지. 진주국제재즈페스티벌 R석 양일권, 전통 체험, 지역 식사, 해외 아티스트와 함께하는 네트워킹 파티 포함. 날짜: 2025년 12월 5일~6일."
     }
   },
   {

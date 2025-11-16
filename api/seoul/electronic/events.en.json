@@ -1,145 +1,5 @@
 [
   {
-    "id": "evt_20251116_d50c31d4-8723-444c-8a23-9a7f63312150",
-    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T10:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQq57bLD2NI/",
-    "venue_handle": "vurt_seoul",
-    "musician_ids": [],
-    "musician_ig_handles": [
-      "abirdofparadiseflower",
-      "thomasankersmit"
-    ],
-    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
-    "venue_location_id": "thilla_ground",
-    "datetime": "2025-11-16T10:00:00+00:00",
-    "price": "KRW 33,000",
-    "llm_confidence": 1.0,
-    "title": "WeSA X CTM",
-    "description": "Thomas Ankersmit (Modular Live) @thomasankersmit, ABOPF (Live Set) @abirdofparadiseflower. Thomas Ankersmit: acoustic archaeology, Serge Modular system. ABOPF: bass-centric intensity, ambient, IDM rhythms. Combined ticket with 꿈 kkum LIVE available for KRW 44,000.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "WeSA X CTM",
-      "description": "Thomas Ankersmit (Modular Live) @thomasankersmit, ABOPF (Live Set) @abirdofparadiseflower. Thomas Ankersmit: acoustic archaeology, Serge Modular system. ABOPF: bass-centric intensity, ambient, IDM rhythms. Combined ticket with 꿈 kkum LIVE available for KRW 44,000."
-    },
-    "_search_ko": {
-      "title": "WeSA X CTM",
-      "description": "Thomas Ankersmit (모듈러 라이브) @thomasankersmit, ABOPF (라이브 셋) @abirdofparadiseflower. Thomas Ankersmit: Serge Modular 시스템, 공간 반응 음향 고고학. ABOPF: 베이스 중심 강렬함, 앰비언트, IDM 리듬. 꿈 kkum LIVE 통합 티켓 44,000원."
-    }
-  },
-  {
-    "id": "evt_20251116_9b68685b-9a93-409a-bb73-427bbe79dd38",
-    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T11:40:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ_Jm0lj-oR/",
-    "venue_handle": "vurt_seoul",
-    "musician_ids": [],
-    "musician_ig_handles": [
-      "_bbureka_",
-      "rashad__becker",
-      "robert_piotrowicz_"
-    ],
-    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
-    "venue_location_id": "main",
-    "datetime": "2025-11-16T11:40:00+00:00",
-    "price": "KRW 25,000",
-    "llm_confidence": 1.0,
-    "title": "kkum LIVE Night",
-    "description": "Modular live by Robert Piotrowicz (@robert_piotrowicz_) (PL), Rashad Becker (@rashad__becker) (DE), and BBUREKA (@_bbureka_) (KR). BBUREKA (21:00), Piotrowicz (22:00), Becker (23:00). No photo/video.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "kkum LIVE Night",
-      "description": "Modular live by Robert Piotrowicz (@robert_piotrowicz_) (PL), Rashad Becker (@rashad__becker) (DE), and BBUREKA (@_bbureka_) (KR). BBUREKA (21:00), Piotrowicz (22:00), Becker (23:00). No photo/video."
-    },
-    "_search_ko": {
-      "title": "꿈 kkum LIVE 밤",
-      "description": "폴란드 Robert Piotrowicz (@robert_piotrowicz_), 독일 Rashad Becker (@rashad__becker), 서울 BBUREKA (@_bbureka_)의 모듈러 라이브. BBUREKA (21:00), Piotrowicz (22:00), Becker (23:00) 공연. 촬영금지."
-    }
-  },
-  {
-    "id": "evt_20251116_bde97002-ef2d-4a51-9491-e87744711815",
-    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T12:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQq57bLD2NI/",
-    "venue_handle": "vurt_seoul",
-    "musician_ids": [],
-    "musician_ig_handles": [
-      "rashad__becker",
-      "robert_piotrowicz_"
-    ],
-    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
-    "venue_location_id": "main",
-    "datetime": "2025-11-16T12:00:00+00:00",
-    "price": "KRW 25,000",
-    "llm_confidence": 1.0,
-    "title": "꿈 kkum LIVE",
-    "description": "Part of the 'WeSA X CTM & 꿈 kkum LIVE' event. Live Set — Robert Piotrowicz (@robert_piotrowicz_), Rashad Becker (@rashad__becker), BBUREKA. Robert Piotrowicz: Modular synth, physical resonance. Rashad Becker: Synthetic sound, PAN label. Combined ticket for both events: KRW 44,000 (discounted).",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "꿈 kkum LIVE",
-      "description": "Part of the 'WeSA X CTM & 꿈 kkum LIVE' event. Live Set — Robert Piotrowicz (@robert_piotrowicz_), Rashad Becker (@rashad__becker), BBUREKA. Robert Piotrowicz: Modular synth, physical resonance. Rashad Becker: Synthetic sound, PAN label. Combined ticket for both events: KRW 44,000 (discounted)."
-    },
-    "_search_ko": {
-      "title": "꿈 kkum LIVE",
-      "description": "‘WeSA X CTM & 꿈 kkum LIVE’ 연합 공연. Live Set — 로버트 피오트로비치 (@robert_piotrowicz_), 라샤드 베커 (@rashad__becker), BBUREKA. 로버트 피오트로비치: 모듈러 신시사이저, 물리적 공명. 라샤드 베커: 합성음 생태계, PAN 레이블. 통합 티켓: 44,000원 (할인)."
-    }
-  },
-  {
-    "id": "evt_20251116_1c6bebca-5f68-4151-a1d8-2c417785bcac",
-    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQoY4TfDzRC/",
-    "venue_handle": "vurt_seoul",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
-    "venue_location_id": "main",
-    "datetime": "2025-11-16T13:00:00+00:00",
-    "price": "KRW 25,000",
-    "llm_confidence": 1.0,
-    "title": "Rashad Becker LIVE",
-    "description": "Berlin-based sound engineer, artist, composer. Renowned for unique sound narratives, abstract acoustic ecologies. Synthetic sounds interacting autonomously. Albums on PAN label.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "Rashad Becker LIVE",
-      "description": "Berlin-based sound engineer, artist, composer. Renowned for unique sound narratives, abstract acoustic ecologies. Synthetic sounds interacting autonomously. Albums on PAN label."
-    },
-    "_search_ko": {
-      "title": "Rashad Becker LIVE",
-      "description": "베를린 사운드 엔지니어, 아티스트, 작곡가. 독창적인 사운드 내러티브, 추상적 음향 생태계. 자율적으로 상호작용하는 합성음. PAN 레이블 앨범."
-    }
-  },
-  {
-    "id": "evt_20251116_29698308-e6d8-490e-8277-c532a3f5529b",
-    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-16T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQoY4TfDzRC/",
-    "venue_handle": "vurt_seoul",
-    "musician_ids": [],
-    "musician_ig_handles": [],
-    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
-    "venue_location_id": "main",
-    "datetime": "2025-11-16T14:00:00+00:00",
-    "price": "KRW 25,000",
-    "llm_confidence": 1.0,
-    "title": "BBUREKA LIVE",
-    "description": "Producer duo Noddy & Lim Yongju. Electronic music project '붕괴(壞)' based on redevelopment area sounds. Debut album <붕괴(BBUREKA)> (2021). Explores social/physical phenomena.",
-    "ticket_link": null,
-    "show_time": null,
-    "age_limit": null,
-    "_search_en": {
-      "title": "BBUREKA LIVE",
-      "description": "Producer duo Noddy & Lim Yongju. Electronic music project '붕괴(壞)' based on redevelopment area sounds. Debut album <붕괴(BBUREKA)> (2021). Explores social/physical phenomena."
-    },
-    "_search_ko": {
-      "title": "BBUREKA LIVE",
-      "description": "프로듀서 듀오 노디, 임용주. 재개발 지역 소음 기반 전자음악 프로젝트 '붕괴(壞)'. 2021년 <붕괴(BBUREKA)> 앨범. 사회적/물리적 현상 탐구."
-    }
-  },
-  {
     "id": "evt_20251120_ff320410-df55-450a-8808-48a826fb2b61",
     "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-20T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -712,27 +572,36 @@
   {
     "id": "evt_20251128_033339f5-93dc-4556-bcf4-c9de2f5b1972",
     "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-28T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "source_url": "https://www.instagram.com/p/DRHfyBpCtKj/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "bbalegunjohde",
+      "dddd35u",
+      "dj_slayvoyagezigzag",
+      "forza5omb.r9x",
+      "jav2suh",
+      "junwookeem",
+      "kisewang",
+      "nimnoi__"
+    ],
     "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-11-28T13:00:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "HARDCOREPAW : FIRST EPISODE",
-    "description": "HARDCOREPAW (@hardcorepaw): First Episode event with a hardcore/electronic lineup.",
+    "title": "Hardcorepaw",
+    "description": "Hardcorepaw, a creative collective established to support abandoned animals worldwide, hosts its first charity party at Cakeshop. All proceeds from the event will be donated to support abandoned animals. Lineup: DJ — Kisewang, dddd35u, forza5omb.r9x // DJ — Junwoo Keem, Nimnoi, Bbalegunjohde // DJ — DJ Slayvoyagezigzag, jav2suh.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "HARDCOREPAW : FIRST EPISODE",
-      "description": "HARDCOREPAW (@hardcorepaw): First Episode event with a hardcore/electronic lineup."
+      "title": "Hardcorepaw",
+      "description": "Hardcorepaw, a creative collective established to support abandoned animals worldwide, hosts its first charity party at Cakeshop. All proceeds from the event will be donated to support abandoned animals. Lineup: DJ — Kisewang, dddd35u, forza5omb.r9x // DJ — Junwoo Keem, Nimnoi, Bbalegunjohde // DJ — DJ Slayvoyagezigzag, jav2suh."
     },
     "_search_ko": {
-      "title": "HARDCOREPAW : FIRST EPISODE",
-      "description": "HARDCOREPAW (@hardcorepaw): First Episode 이벤트. 하드코어/일렉트로닉 라인업."
+      "title": "하드코어파우",
+      "description": "전 세계 유기동물 후원을 위한 크리에이티브 컬렉티브 Hardcorepaw가 케이크샵에서 첫 자선 파티를 개최합니다. 파티 수익금 전액은 유기동물 지원을 위한 기부금으로 사용됩니다. 라인업: DJ — 키세왕, dddd35u, forza5omb.r9x // DJ — 김준우, 님노이, 빨래건조대 // DJ — 디제이 슬레이보야지 지그재그, jav2suh."
     }
   },
   {
@@ -965,30 +834,35 @@
   {
     "id": "evt_20251204_64099523-f985-4437-a359-17985e9c1945",
     "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-12-04T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "source_url": "https://www.instagram.com/p/DRHIz_uk68Q/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
     "musician_ig_handles": [
-      "djchaoticugly",
-      "hosoterratoma"
+      "autopilot77_77",
+      "dddd35u",
+      "dj_slayvoyagezigzag",
+      "hosoterratoma",
+      "machin3gir1",
+      "netgala",
+      "vizita_Q"
     ],
     "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-12-04T13:00:00+00:00",
-    "price": "None",
+    "price": "KRW 20,000 - 25,000",
     "llm_confidence": 1.0,
-    "title": "CAKESHOP PRESENTS : DJ CHAOTIC UGLY (MACHINE GIRL)",
-    "description": "Cakeshop presents DJ Chaotic Ugly (@djchaoticugly) from Machine Girl (@machin3gir1). Support from Net Gala, Hosoterratoma (@hosoterratoma) live, and more.",
+    "title": "DJ CHAOTIC UGLY [MACHINE GIRL]",
+    "description": "DJ Chaotic Ugly (Machine Girl) @machin3gir1 brings high-energy breakcore, digital hardcore, and future footwork to Cakeshop. Local lineup: DJ Set — NET GALA @netgala, Vizita Q @vizita_Q, Dduldan @dj_slayvoyagezigzag // DJ Set — Autopilot77_77 @autopilot77_77, DDD @dddd35u // Live Set — HOSO @hosoterratoma. KRW 20,000 before midnight, KRW 25,000 after.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "CAKESHOP PRESENTS : DJ CHAOTIC UGLY (MACHINE GIRL)",
-      "description": "Cakeshop presents DJ Chaotic Ugly (@djchaoticugly) from Machine Girl (@machin3gir1). Support from Net Gala, Hosoterratoma (@hosoterratoma) live, and more."
+      "title": "DJ CHAOTIC UGLY [MACHINE GIRL]",
+      "description": "DJ Chaotic Ugly (Machine Girl) @machin3gir1 brings high-energy breakcore, digital hardcore, and future footwork to Cakeshop. Local lineup: DJ Set — NET GALA @netgala, Vizita Q @vizita_Q, Dduldan @dj_slayvoyagezigzag // DJ Set — Autopilot77_77 @autopilot77_77, DDD @dddd35u // Live Set — HOSO @hosoterratoma. KRW 20,000 before midnight, KRW 25,000 after."
     },
     "_search_ko": {
-      "title": "CAKESHOP PRESENTS : DJ CHAOTIC UGLY (MACHINE GIRL)",
-      "description": "Cakeshop presents DJ Chaotic Ugly (@djchaoticugly) (Machine Girl @machin3gir1). Net Gala, Hosoterratoma (@hosoterratoma) 라이브 셋 및 DJ 라인업."
+      "title": "DJ CHAOTIC UGLY [MACHINE GIRL]",
+      "description": "Machine Girl의 DJ 프로젝트, DJ Chaotic Ugly @machin3gir1가 Cakeshop에 방문합니다. High-energy breakcore, digital hardcore, future footwork 사운드를 선보입니다. 로컬 라인업: DJ Set — NET GALA @netgala, Vizita Q @vizita_Q, Dduldan @dj_slayvoyagezigzag // DJ Set — Autopilot77_77 @autopilot77_77, DDD @dddd35u // Live Set — HOSO @hosoterratoma. 자정 전 20,000원, 자정 후 25,000원."
     }
   },
   {

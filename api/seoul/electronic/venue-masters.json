@@ -1,467 +1,67 @@
 [
   {
+    "raw": "The problem you're describing is about converting \"escape sequences\" (like `\\n` for newline, `\\t` for tab, `\\\\` for a literal backslash) that are represented as literal characters in a string into their actual special character equivalents.\n\nPython has a very elegant and built-in way to handle this using string encoding and decoding. The `unicode_escape` codec is designed precisely for this purpose.\n\n**The Solution**\n\nYou can convert a string containing these literal escape sequences into a string with the actual special characters by first encoding it to bytes (e.g., using `latin1`, which is a 1-to-1 mapping for the first 256 characters) and then decoding it using the `unicode_escape` codec.\n\n```python\ndef convert_special_characters(input_string):\n    \"\"\"\n    Converts common C-style escape sequences in a string to their actual characters.\n\n    Args:\n        input_string (str): The string containing literal escape sequences\n                            (e.g., r\"Hello\\nWorld\").\n\n    Returns:\n        str: The string with escape sequences converted to special characters.\n    \"\"\"\n    # Encode the string to bytes using a codec that maps characters directly\n    # (like latin1 for the first 256 Unicode points).\n    # Then decode it using 'unicode_escape' which interprets the backslash sequences.\n    return input_string.encode('latin1').decode('unicode_escape')\n\n# --- Examples ---\n\n# 1. Newline and Tab\ns1 = r\"This is a line\\nAnd this is a new line with a tab\\tcharacter.\"\nconverted_s1 = convert_special_characters(s1)\nprint(f\"Original 1:\\n'{s1}'\")\nprint(f\"Converted 1:\\n'{converted_s1}'\")\n# Expected output for converted_s1:\n# This is a line\n# And this is a new line with a tab\tcharacter.\n\nprint(\"-\" * 30)\n\n# 2. Backslash and Double Quote\ns2 = r\"Path: C:\\\\Users\\\\Name\\\\file.txt. And a quote: \\\"Hello\\\"\"\nconverted_s2 = convert_special_characters(s2)\nprint(f\"Original 2:\\n'{s2}'\")\nprint(f\"Converted 2:\\n'{converted_s2}'\")\n# Expected output for converted_s2:\n# Path: C:\\Users\\Name\\file.txt. And a quote: \"Hello\"\n\nprint(\"-\" * 30)\n\n# 3. All common escapes (including carriage return, backspace, form feed, single quote)\ns3 = r\"Newline:\\nTab:\\tCR:\\rBS:\\bFF:\\fSingle Quote:\\'Double Quote:\\\"Backslash:\\\\\"\nconverted_s3 = convert_special_characters(s3)\nprint(f\"Original 3:\\n'{s3}'\")\nprint(f\"Converted 3:\\n'{converted_s3}'\")\n# Expected output for converted_s3 (might look strange due to BS and CR):\n# Newline:\n# Tab:\tCR:\n# BS:FF: Single Quote:'Double Quote:\"Backslash:\\\n# (The \\r and \\b will affect cursor position in a terminal, so the visual output can vary)\n\nprint(\"-\" * 30)\n\n# 4. No special characters\ns4 = r\"No escapes here!\"\nconverted_s4 = convert_special_characters(s4)\nprint(f\"Original 4:\\n'{s4}'\")\nprint(f\"Converted 4:\\n'{converted_s4}'\")\n\nprint(\"-\" * 30)\n\n# 5. Hexadecimal and Unicode escapes are also handled by unicode_escape\ns5 = r\"Hex (A): \\x41, Unicode (Euro): \\u20AC\"\nconverted_s5 = convert_special_characters(s5)\nprint(f\"Original 5:\\n'{s5}'\")\nprint(f\"Converted 5:\\n'{converted_s5}'\")\n```\n\n**Explanation:**\n\n1.  **`input_string.encode('latin1')`**:\n    *   This converts your string (which is a sequence of Unicode characters) into a sequence of bytes.\n    *   `'latin1'` (also known as ISO-8859-1) is a single-byte encoding where each character's Unicode codepoint (from 0 to 255) is directly mapped to a corresponding byte value. This is important because it ensures that characters like `\\` and `n` are converted into their respective byte values (`0x5C` and `0x6E`) without any complex multi-byte representations that `utf-8` might introduce.\n\n2.  **`.decode('unicode_escape')`**:\n    *   This is the core of the solution. The `unicode_escape` codec is specifically designed to interpret byte sequences that represent C-style string literals (like those you'd find in a source file).\n    *   When it sees `\\x5C` (the byte for `\\`) followed by `\\x6E` (the byte for `n`), it recognizes it as the escape sequence `\\n` and converts it into the actual newline character (Unicode `U+000A`).\n    *   It handles all standard Python/C-style escapes: `\\n`, `\\t`, `\\r`, `\\b`, `\\f`, `\\'`, `\\\"`, `\\\\`, as well as `\\xHH` (hexadecimal), `\\uHHHH` (unicode 16-bit), `\\UHHHHHHHH` (unicode 32-bit), and octal escapes like `\\007`.\n\nThis method is the most Pythonic and robust way to perform this kind of conversion, as it leverages Python's built-in string literal parsing mechanism.",
     "ig_handle": "argaseoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": "11PM-LATE",
-      "fri": "11PM-LATE",
-      "sat": "11PM-LATE",
-      "sun": null
-    },
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-16T17:15:32.153141+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=17441298849254633058",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/argaseoul",
-      "homepage": null,
-      "booking": "https://ra.co/clubs/225363",
+      "homepage": "https://ra.co/clubs/225363",
+      "booking": null,
       "google_map": "https://maps.google.com/?cid=17441298849254633058"
     },
     "contacts": {
       "phone": "010-7430-1120",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "ARGA",
-        "address_text": "4th Floor, 173-7, Itaewon-ro, Yongsan District, Seoul, South Korea",
+        "name": "ARGA Seoul",
+        "address_text": "서울 용산구 이태원로 173-7 4층",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.5348758160203,
+        "location_lon": 126.993222665213,
         "subway_nearby": null,
-        "booking_link": "https://ra.co/clubs/225363",
-        "notes": "Song of Songs",
+        "booking_link": null,
+        "notes": null,
         "i18n": {
           "name": {
-            "en": "ARGA",
-            "ko": "ARGA"
+            "en": "ARGA Seoul",
+            "ko": "아르가 서울"
           },
           "address_text": {
             "en": "4th Floor, 173-7, Itaewon-ro, Yongsan District, Seoul, South Korea",
             "ko": "서울 용산구 이태원로 173-7 4층"
           },
-          "notes": {
-            "en": "Song of Songs",
-            "ko": "송 오브 송즈"
-          }
-        }
-      }
-    ],
-    "last_analyzed_at": "2024-07-29T00:00:00Z",
-    "confidence": 0.9,
-    "extraction_version": "1.0",
-    "sources": [
-      "ig_argaseoul",
-      "maps:https://maps.google.com/?cid=17441298849254633058",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
-    "handle": "argaseoul",
-    "analyzed": {
-      "ig_handle": "argaseoul",
-      "name": "ARGA",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": "10:00PM-3:00AM",
-        "fri": "11:00PM-5:00AM",
-        "sat": "11:00PM-5:00AM",
-        "sun": null
-      },
-      "typical_show_times": null,
-      "genres": null,
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/argaseoul",
-        "homepage": null,
-        "booking": "https://ra.co/clubs/225363",
-        "google_map": "https://maps.google.com/?cid=17441298849254633058"
-      },
-      "contacts": {
-        "phone": "010-7430-1120",
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": "Song of Songs",
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "ARGA",
-          "address_text": "4th Floor, 173-7, Itaewon-ro, Yongsan District, Seoul, South Korea",
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": "https://ra.co/clubs/225363",
-          "notes": "Song of Songs",
-          "i18n": {
-            "name": {
-              "en": "ARGA",
-              "ko": "ARGA"
-            },
-            "address_text": {
-              "en": "4th Floor, 173-7, Itaewon-ro, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 이태원로 173-7 4층"
-            },
-            "notes": {
-              "en": "Song of Songs",
-              "ko": "송 오브 송즈"
-            }
-          }
-        }
-      ],
-      "last_analyzed_at": "2024-07-29T00:00:00Z",
-      "confidence": 0.9,
-      "extraction_version": "1.0",
-      "sources": [
-        "ig_argaseoul"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.1"
-    },
-    "i18n": {
-      "name": {
-        "en": "ARGA",
-        "ko": "ARGA"
-      },
-      "address_text": null,
-      "notes": {
-        "en": "Song of Songs",
-        "ko": "송 오브 송즈"
-      },
-      "genres": null,
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
-    "ig_handle": "cakeshopseoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": "22:00 - late",
-      "fri": "22:00 - late",
-      "sat": "22:00 - late",
-      "sun": null
-    },
-    "typical_show_times": null,
-    "genres": null,
-    "websites": [
-      "https://music.apple.com/ca/curator/cakeshop/1668225448"
-    ],
-    "links": {
-      "instagram": "https://www.instagram.com/cakeshopseoul",
-      "homepage": "https://cakeshopseoul.com",
-      "booking": "https://ra.co/clubs/70614",
-      "google_map": null
-    },
-    "contacts": {
-      "phone": null,
-      "email": null
-    },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "Cakeshop",
-        "address_text": "134 Itaewon-ro, Yongsan District, Seoul, South Korea",
-        "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": null,
-        "booking_link": "https://ra.co/clubs/70614",
-        "notes": "Table bookings via DM.",
-        "i18n": {
-          "name": {
-            "en": "Cakeshop",
-            "ko": "케이크샵"
-          },
-          "address_text": {
-            "en": "134 Itaewon-ro, Itaewon 1(il)-dong, Yongsan District, Seoul, South Korea",
-            "ko": "서울 용산구 이태원로 134"
-          },
-          "notes": {
-            "en": "Table bookings via DM.",
-            "ko": "DM으로 테이블 예약 가능."
-          }
-        }
-      }
-    ],
-    "last_analyzed_at": "2025-11-07T23:53:11.852369+09:00",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "ig_cakeshopseoul",
-      "maps:https://maps.google.com/?cid=16222913485454296208",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
-    "handle": "cakeshopseoul",
-    "analyzed": {
-      "ig_handle": "cakeshopseoul",
-      "name": "Cakeshop",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": "22:00 - late",
-        "fri": "22:00 - late",
-        "sat": "22:00 - late",
-        "sun": null
-      },
-      "typical_show_times": null,
-      "genres": null,
-      "websites": [
-        "https://music.apple.com/ca/curator/cakeshop/1668225448"
-      ],
-      "links": {
-        "instagram": "https://www.instagram.com/cakeshopseoul",
-        "homepage": "https://cakeshopseoul.com",
-        "booking": "https://ra.co/clubs/70614",
-        "google_map": null
-      },
-      "contacts": {
-        "phone": null,
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": null,
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Cakeshop",
-          "address_text": "134 Itaewon-ro, Yongsan District, Seoul, South Korea",
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": "https://ra.co/clubs/70614",
-          "notes": "Table bookings via DM.",
-          "i18n": {
-            "name": {
-              "en": "Cakeshop",
-              "ko": "케이크샵"
-            },
-            "address_text": {
-              "en": "134 Itaewon-ro, Itaewon 1(il)-dong, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 이태원로 134"
-            },
-            "notes": {
-              "en": "Table bookings via DM.",
-              "ko": "DM으로 테이블 예약 가능."
-            }
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-07T23:53:11.852369+09:00",
-      "confidence": 1.0,
-      "extraction_version": "1.0",
-      "sources": [
-        "ig_cakeshopseoul"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.1"
-    },
-    "i18n": {
-      "name": {
-        "en": "Cakeshop",
-        "ko": "케이크샵"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": null,
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
-    "ig_handle": "electrik.seoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": null,
-    "genres": [
-      "K-POP",
-      "EDM"
-    ],
-    "websites": null,
-    "links": {
-      "instagram": "https://www.instagram.com/electrik.seoul",
-      "homepage": null,
-      "booking": "https://linktr.ee/electrikseoul",
-      "google_map": null
-    },
-    "contacts": {
-      "phone": null,
-      "email": null
-    },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "ELECTRIK SEOUL",
-        "address_text": null,
-        "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": null,
-        "booking_link": "https://linktr.ee/electrikseoul",
-        "notes": null,
-        "i18n": {
-          "name": {
-            "en": "ELECTRIK SEOUL",
-            "ko": "일렉트릭 서울"
-          },
-          "address_text": null,
           "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-11-07",
-    "confidence": 1,
-    "extraction_version": "1.0",
-    "sources": [
-      "electrik.seoul",
-      "maps:https://maps.google.com/?cid=8635654260314479284",
-      "maps:https://maps.google.com/?cid=11614429852695915840",
-      "maps:https://maps.google.com/?cid=15514116798790100068",
-      "maps:https://maps.google.com/?cid=14751963851389921809",
-      "maps:https://maps.google.com/?cid=3146639902868655427",
-      "maps:https://maps.google.com/?cid=8302329363682644130",
-      "maps:https://maps.google.com/?cid=2221994947731337770",
-      "maps:https://maps.google.com/?cid=7453012369005840237",
-      "maps:https://maps.google.com/?cid=10621502231094851027",
-      "maps:https://maps.google.com/?cid=14772680746317325345",
-      "maps:https://maps.google.com/?cid=11509674286054874139",
-      "maps:https://maps.google.com/?cid=4083137972013490322",
-      "maps:https://maps.google.com/?cid=9321116253651283525",
-      "maps:https://maps.google.com/?cid=13770104091218985969",
-      "maps:https://maps.google.com/?cid=645761434962684109",
-      "maps:https://maps.google.com/?cid=10546356011126762018",
-      "maps:https://maps.google.com/?cid=12153606225688285255",
-      "maps:https://maps.google.com/?cid=14401485577600779686",
-      "maps:https://maps.google.com/?cid=7524349524531423957",
-      "maps:https://maps.google.com/?cid=1462357463036191401",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
-    "handle": "electrik.seoul",
-    "analyzed": {
-      "ig_handle": "electrik.seoul",
-      "name": "ELECTRIK SEOUL",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": null,
-      "typical_show_times": null,
-      "genres": [
-        "K-POP",
-        "EDM"
-      ],
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/electrik.seoul",
-        "homepage": null,
-        "booking": "https://linktr.ee/electrikseoul",
-        "google_map": null
-      },
-      "contacts": {
-        "phone": null,
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": "San Diego: 11/14 @bloomdtsd, OC: 11/20 @timenightclub",
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "ELECTRIK SEOUL",
-          "address_text": null,
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": "https://linktr.ee/electrikseoul",
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "ELECTRIK SEOUL",
-              "ko": "일렉트릭 서울"
-            },
-            "address_text": null,
-            "notes": null
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-07",
-      "confidence": 1,
-      "extraction_version": "1.0",
-      "sources": [
-        "electrik.seoul"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.1"
-    },
     "i18n": {
       "name": {
-        "en": "ELECTRIK SEOUL",
-        "ko": "일렉트릭 서울"
+        "en": "ARGA Seoul",
+        "ko": "아르가 서울"
       },
       "address_text": null,
-      "notes": {
-        "en": "San Diego: 11/14 @bloomdtsd, OC: 11/20 @timenightclub",
-        "ko": "샌디에고: 11/14 @bloomdtsd, 오렌지 카운티: 11/20 @timenightclub"
-      },
+      "notes": null,
       "genres": {
         "en": [
-          "K-POP",
-          "EDM"
+          "Night Club",
+          "Live Music"
         ],
         "ko": [
-          "케이팝",
-          "EDM"
+          "나이트클럽",
+          "라이브 음악"
         ]
       },
       "subway_nearby": null,
@@ -470,29 +70,125 @@
     }
   },
   {
-    "ig_handle": "faustseoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": "23:00-END",
-      "sat": "23:00-END",
-      "sun": null
+    "raw": "Okay, I understand the special instruction. I will think step by step and provide my thought process before giving the final solution.\n\n**Thought Process:**\n\n1.  **Understand the Goal:** The request is to take an `input_string`, iterate through its characters, and for each character:\n    *   If it's a digit (0-9), convert it to its English word equivalent (e.g., '1' -> \"one\").\n    *   If it's not a digit, keep the character as is.\n    *   Finally, join all these processed parts with a space.\n\n2.  **Break Down the Problem:**\n    *   **Step 1: Character-by-character processing.** This suggests a loop through the input string.\n    *   **Step 2: Digit identification.** How to check if a character is a digit in Python? The `char.isdigit()` method is perfect for this.\n    *   **Step 3: Digit-to-word mapping.** I'll need a way to quickly look up the English word for a digit. A dictionary (hash map) is the most efficient data structure for this.\n    *   **Step 4: Storing processed parts.** As I process each character, I'll need to store the result (either the word or the original character) in an intermediate list.\n    *   **Step 5: Joining the parts.** Once all characters are processed and stored in the list, I'll use ` \" \".join(list_of_parts)` to get the final string.\n\n3.  **Detailed Plan:**\n\n    *   **Define the mapping:** Create a dictionary `digit_to_word_map` for '0' through '9'.\n        ```python\n        digit_to_word_map = {\n            '0': 'zero', '1': 'one', '2': 'two', '3': 'three', '4': 'four',\n            '5': 'five', '6': 'six', '7': 'seven', '8': 'eight', '9': 'nine'\n        }\n        ```\n    *   **Initialize a list:** Create an empty list, say `processed_chars`, to store the results of each character's processing.\n    *   **Loop through input_string:**\n        ```python\n        for char in input_string:\n            # ... (logic inside the loop)\n        ```\n    *   **Inside the loop (conditional logic):**\n        ```python\n        if char.isdigit():\n            # It's a digit. Look it up in the map and append to processed_chars.\n            processed_chars.append(digit_to_word_map[char])\n        else:\n            # Not a digit. Append the character itself.\n            processed_chars.append(char)\n        ```\n    *   **After the loop, join:**\n        ```python\n        return \" \".join(processed_chars)\n        ```\n\n4.  **Consider Edge Cases/Refinements:**\n    *   **Empty string:** If `input_string` is `\"\"`, the loop won't run, `processed_chars` will remain `[]`, and ` \" \".join([])` will correctly return `\"\"`. This is good.\n    *   **String with only digits:** ` \"123\"` -> `['one', 'two', 'three']` -> `\"one two three\"`. Correct.\n    *   **String with no digits:** ` \"abc\"` -> `['a', 'b', 'c']` -> `\"a b c\"`. Correct.\n    *   **Mixed string:** ` \"h3ll0 w0rld\"` -> `['h', 'three', 'l', 'l', 'zero', ' ', 'w', 'zero', 'r', 'l', 'd']` -> `\"h three l l zero w zero r l d\"`. Correct.\n    *   **Efficiency:** The approach involves a single pass through the string and dictionary lookups (which are O(1)). This is an efficient O(N) solution where N is the length of the string.\n    *   **Alternative (List Comprehension):** Could use a list comprehension for conciseness:\n        ```python\n        processed_parts = [digit_to_word_map[char] if char.isdigit() else char for char in input_string]\n        return \" \".join(processed_parts)\n        ```\n        This is more Pythonic and compact. I'll provide this as the primary solution as it's generally preferred for such transformations.\n\nThis thought process covers understanding, planning, executing, and refining the solution.\n\n---\n\n```python\ndef process_string_with_digit_words(input_string: str) -> str:\n    \"\"\"\n    Processes an input string, converting any digit characters to their\n    English word equivalents and joining all parts with spaces.\n    Non-digit characters remain unchanged.\n\n    Args:\n        input_string: The string to process.\n\n    Returns:\n        A new string with digits converted to words and parts joined by spaces.\n    \"\"\"\n    # Step 1: Define the mapping from digit characters to their English word equivalents.\n    digit_to_word_map = {\n        '0': 'zero', '1': 'one', '2': 'two', '3': 'three', '4': 'four',\n        '5': 'five', '6': 'six', '7': 'seven', '8': 'eight', '9': 'nine'\n    }\n\n    # Step 2 & 3: Iterate through each character of the input string and\n    # apply the conversion logic. Store results in a list.\n    # Using a list comprehension for a concise and Pythonic approach.\n    processed_parts = [\n        digit_to_word_map[char] if char.isdigit() else char\n        for char in input_string\n    ]\n\n    # Step 4: Join all the processed parts with a space.\n    return \" \".join(processed_parts)\n\n# Example Usage:\nprint(f\"Input: 'hello1world2'\")\nprint(f\"Output: '{process_string_with_digit_words('hello1world2')}'\")\n# Expected: 'h e l l o one w o r l d two'\n\nprint(f\"\\nInput: '123 Go4It!'\")\nprint(f\"Output: '{process_string_with_digit_words('123 Go4It!')}'\")\n# Expected: 'one two three   G o four I t !'\n\nprint(f\"\\nInput: 'Python'\")\nprint(f\"Output: '{process_string_with_digit_words('Python')}'\")\n# Expected: 'P y t h o n'\n\nprint(f\"\\nInput: '789'\")\nprint(f\"Output: '{process_string_with_digit_words('789')}'\")\n# Expected: 'seven eight nine'\n\nprint(f\"\\nInput: ''\")\nprint(f\"Output: '{process_string_with_digit_words('')}'\")\n# Expected: ''\n\nprint(f\"\\nInput: 'A0B1C2'\")\nprint(f\"Output: '{process_string_with_digit_words('A0B1C2')}'\")\n# Expected: 'A zero B one C two'\n```",
+    "ig_handle": "cakeshopseoul",
+    "last_analyzed_at": "2025-11-16T17:13:04.354905+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/cakeshopseoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/cakeshopseoul/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=16222913485454296208",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/cakeshopseoul",
+      "homepage": "https://music.apple.com/ca/curator/cakeshop/1668225448",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=16222913485454296208"
     },
-    "typical_show_times": null,
-    "genres": null,
-    "websites": [
-      "http://linktr.ee/faustseoul"
+    "contacts": {
+      "phone": null,
+      "email": null
+    },
+    "websites": [],
+    "genres": [
+      "Electronic",
+      "Club"
+    ],
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Cakeshop",
+        "address_text": "134 Itaewon-ro, Itaewon 1(il)-dong, Yongsan District, Seoul, South Korea",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": "Instagram DM for inquiries",
+        "i18n": {
+          "name": {
+            "en": "Cakeshop",
+            "ko": "케이크샵"
+          },
+          "address_text": {
+            "en": "134 Itaewon-ro, Itaewon 1(il)-dong, Yongsan District, Seoul, South Korea",
+            "ko": "서울 용산구 이태원로 134 이태원제1동"
+          },
+          "notes": {
+            "en": "Instagram DM for inquiries",
+            "ko": "인스타그램 DM으로 문의"
+          }
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Cakeshop",
+        "ko": "케이크샵"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Instagram DM for inquiries",
+        "ko": "인스타그램 DM으로 문의"
+      },
+      "genres": {
+        "en": [
+          "Electronic",
+          "Club"
+        ],
+        "ko": [
+          "일렉트로닉",
+          "클럽"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "raw": "code_output\n[\n  {\n    \"title\": \"Electrik Seoul\",\n    \"address\": \"145 Usadan-ro 10-gil, Yongsan-gu, Seoul, South Korea\",\n    \"phone\": null,\n    \"website\": \"https://linktr.ee/electrikseoul\",\n    \"rating\": 4.1,\n    \"reviews\": 11,\n    \"category\": \"Night Club\",\n    \"plus_code\": \"8Q9W+MJ Seoul\",\n    \"latitude\": 37.534246,\n    \"longitude\": 126.993719,\n    \"business_status\": \"OPERATIONAL\",\n    \"google_maps_url\": \"https://maps.google.com/?cid=3115467385806292380\",\n    \"opening_hours\": null,\n    \"popular_times\": null,\n    \"verified\": false,\n    \"thumbnail\": \"https://lh5.googleusercontent.com/p/AF1QipN30XnJ0L2s-yQz7r20R-m10f9-s-Q8p-8b0-8=w100-h100-k-no-pi-ny-v0\"\n  }\n]```json\n{\n  \"name\": \"Electrik Seoul\",\n  \"address_text\": null,\n  \"address_components\": null,\n  \"location_lat\": null,\n  \"location_lon\": null,\n  \"subway_nearby\": null,\n  \"websites\": [\n    \"https://linktr.ee/electrikseoul\"\n  ],\n  \"links\": {\n    \"instagram\": \"https://www.instagram.com/electrik.seoul\",\n    \"homepage\": \"https://linktr.ee/electrikseoul\",\n    \"booking\": null,\n    \"google_map\": \"https://maps.google.com/?cid=3115467385806292380\"\n  },\n  \"contacts\": {\n    \"phone\": null,\n    \"email\": null\n  },\n  \"food_policy\": null,\n  \"age_limit\": null,\n  \"notes\": null,\n  \"genres\": null,\n  \"locations\": [\n    {\n      \"location_id\": \"main\",\n      \"name\": \"Electrik Seoul\",\n      \"address_text\": \"서울 용산구 우사단로10길 145\",\n      \"address_components\": null,\n      \"location_lat\": 37.534246,\n      \"location_lon\": 126.993719,\n      \"subway_nearby\": null,\n      \"booking_link\": null,\n      \"notes\": null,\n      \"i18n\": {\n        \"name\": {\n          \"en\": \"Electrik Seoul\",\n          \"ko\": \"일렉트릭 서울\"\n        },\n        \"address_text\": {\n          \"en\": \"145 Usadan-ro 10-gil, Yongsan-gu, Seoul, South Korea\",\n          \"ko\": \"서울 용산구 우사단로10길 145\"\n        },\n        \"notes\": null\n      }\n    }\n  ],\n  \"i18n\": {\n    \"name\": {\n      \"en\": \"Electrik Seoul\",\n      \"ko\": \"일렉트릭 서울\"\n    },\n    \"address_text\": null,\n    \"notes\": null,\n    \"genres\": null,\n    \"subway_nearby\": null,\n    \"food_policy\": null,\n    \"age_limit\": null\n  }\n}\n```",
+    "ig_handle": "electrik.seoul",
+    "last_analyzed_at": "2025-11-16T17:14:30.422031+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/electrik.seoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/electrik.seoul/profile/2025-11-07/profile.json",
+      "gemini:enrich"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/electrik.seoul",
+      "homepage": "https://linktr.ee/electrikseoul"
+    },
+    "contacts": {
+      "email": null,
+      "phone": null
+    }
+  },
+  {
+    "raw": "Welcome! It's great to have you here. I'm an AI assistant, and getting started with me is super easy.\n\nHere's how you can begin:\n\n1.  **Just Type Your Question or Request:** Think of me as a very knowledgeable friend you can ask anything. Simply type whatever you want to know or need help with into the chat box where you're typing right now, and press Enter (or click the send button).\n\n2.  **What Can You Ask Me To Do?** The possibilities are vast! Here are a few ideas to get you started:\n\n    *   **Ask Questions:** Get information on almost any topic.\n        *   *Example:* \"What's the capital of France?\" \"Explain quantum physics in simple terms.\" \"Tell me about the history of the internet.\"\n    *   **Generate Ideas & Content:** Need help brainstorming, writing emails, stories, poems, or even code?\n        *   *Example:* \"Give me ideas for a healthy dinner.\" \"Write a short poem about a rainy day.\" \"Draft an email to my boss requesting a day off.\" \"Help me write a Python script for a simple calculator.\"\n    *   **Summarize & Explain:** Provide text for me to summarize, or ask me to explain complex concepts.\n        *   *Example:* \"Summarize this article for me: [paste article text]\" \"What is blockchain technology?\"\n    *   **Help with Tasks:** From planning a trip to suggesting recipes.\n        *   *Example:* \"What are some good tourist attractions in Rome?\" \"Give me a recipe for vegan chocolate chip cookies.\" \"Help me plan a study schedule for my exams.\"\n    *   **Brainstorm & Create:**\n        *   *Example:* \"Give me 5 unique names for a coffee shop.\" \"Write a dialogue between a robot and a talking plant.\"\n\n3.  **Tips for Best Results:**\n    *   **Be Specific:** The more detailed your request, the better I can understand and respond.\n        *   *Instead of:* \"Tell me about dogs.\"\n        *   *Try:* \"Tell me 5 interesting facts about golden retrievers.\"\n    *   **Provide Context:** If you're asking about something I've already discussed, mention it to help me keep track.\n    *   **Experiment:** Don't be afraid to try different types of questions! If my answer isn't quite right, just tell me how to improve it.\n\nThere's no wrong way to start! Just give it a try with whatever comes to mind first. I'm here to assist you.\n\nSo, what's on your mind? How can I help you today?",
+    "ig_handle": "faustseoul",
+    "last_analyzed_at": "2025-11-16T17:11:03.563297+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=12732422498009977626",
+      "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/faustseoul",
-      "homepage": "http://linktr.ee/faustseoul",
+      "homepage": "https://on.soundcloud.com/FseSLUSzF771FG5J6",
       "booking": null,
       "google_map": null
     },
@@ -500,22 +196,20 @@
       "phone": "070-2747-2727",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "FAUST",
+        "name": "Faust",
         "address_text": "서울 용산구 보광로60길 7 3층",
         "address_components": null,
+        "location_lat": 37.5340684979333,
+        "location_lon": 126.994551353559,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "FAUST",
+            "en": "Faust",
             "ko": "파우스트"
           },
           "address_text": {
@@ -523,25 +217,13 @@
             "ko": "서울 용산구 보광로60길 7 3층"
           },
           "notes": null
-        },
-        "location_lat": 37.5340684979333,
-        "location_lon": 126.994551353559
+        }
       }
     ],
-    "last_analyzed_at": "2025-11-07T23:49:16.662626+09:00",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=12732422498009977626",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
     "i18n": {
       "name": {
-        "en": "FAUST",
-        "ko": "파우스트"
+        "en": "Faust Seoul",
+        "ko": "파우스트 서울"
       },
       "address_text": null,
       "notes": null,
@@ -552,35 +234,37 @@
     }
   },
   {
+    "raw": "Here's a \"special problem\" designed to be interesting for a university student with a blend of math and programming skills.\n\n---\n\n## Special Problem: The Triskaidekaphobia-Free Numbers\n\n**Problem Title:** Count numbers without a specific digit.\n\n**The Challenge:**\n\nA unique numbering system is being designed where certain \"unlucky\" digits are forbidden. Your task is to count how many positive integers exist up to a very large number `N` (inclusive) that *do not* contain a specific forbidden digit `D`.\n\nFor example, if the forbidden digit is `3`, then numbers like `1, 2, 4, 10, 29, 412` are allowed, but `3, 13, 30, 312` are not.\n\n**Input:**\n\n*   `N`: A positive integer (up to `10^18`).\n*   `D`: A single digit character (`'0'` through `'9'`) representing the forbidden digit.\n\n**Output:**\n\n*   A single integer representing the count of positive numbers `X` such that `1 <= X <= N` and `X` does not contain the digit `D`.\n\n**Example:**\n\n**Input:**\n`N = 20`\n`D = '1'`\n\n**Output:**\n`17`\n\n**Explanation for Example:**\nThe numbers from 1 to 20 that *do not* contain the digit '1' are:\n`2, 3, 4, 5, 6, 7, 8, 9, 20`\n(Numbers disallowed: `1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19`)\nCounting these, we get 9 + 8 = 17.\n\n**Why it's interesting for a university student:**\n\nThis problem immediately rules out a naive brute-force approach (checking every number from 1 to `N`) due to the very large upper bound of `N` (`10^18`). This forces the student to think about:\n\n1.  **Mathematical Insight:** How to count numbers based on their digits and positions, rather than iterating. This leads to combinatorial thinking or a dynamic programming approach.\n2.  **Algorithmic Design:** Implementing a \"digit DP\" or a combinatorial counting algorithm efficiently. This requires careful handling of digit positions, leading zeros, and boundaries (like the upper bound `N`).\n3.  **Data Type Handling:** `10^18` requires `long long` in C++ or similar large integer types in other languages. Input `N` will likely be provided as a string if it exceeds typical `long long` limits, though for `10^18` `long long` is fine and can be converted to string for digit processing.\n4.  **Edge Cases:** Handling `D='0'`, numbers smaller than `D`, numbers exactly `D`, `N` itself containing `D`, etc.\n\n---\n\n## Solution Strategy and Explanation\n\nThe core idea is to count numbers digit by digit, effectively building them from left to right, ensuring the forbidden digit `D` is never used. Since `N` can be very large, we can't iterate. We'll use a technique known as **Digit Dynamic Programming (Digit DP)**.\n\n**Core Idea of Digit DP:**\n\nWe want to count numbers `X` such that `1 <= X <= N` and `X` doesn't contain `D`. It's often easier to count numbers `0 <= X <= N` and then subtract `1` (if `D` is not `0`, as `0` itself doesn't contain `D` unless `D='0'`).\n\nLet's convert `N` into a string `S` (e.g., if `N=20`, `S=\"20\"`). Our recursive function will build numbers digit by digit, considering the constraints imposed by `S`.\n\n**Recursive Function State:**\n\nWe'll define a recursive function `count_valid_numbers(pos, tight, is_leading_zero)`:\n\n*   `pos`: The current digit position we are trying to fill (from left, 0-indexed).\n*   `tight`: A boolean flag. If `true`, it means we are currently restricted by the digits of `N` (specifically, the digit at `S[pos]`). If `false`, it means we have already placed a digit smaller than `S[pos]` at some previous position, so we are free to place any digit from `0` to `9` (excluding `D`) for the remaining positions.\n*   `is_leading_zero`: A boolean flag. If `true`, it means all digits placed so far were `0`. This is used to handle numbers with fewer digits than `N` (e.g., if `N=20`, we can count `5` by treating it as `05`). It also ensures we don't count numbers like `01`, `007` as distinct from `1`, `7`. When `is_leading_zero` is true and we place a `0`, it remains `true`. When we place a non-zero digit, `is_leading_zero` becomes `false`.\n\n**Base Case:**\n\n*   If `pos == S.length()`: We have successfully formed a valid number. Return `1`.\n\n**Memoization:**\n\n*   We use a 3D array `memo[pos][tight][is_leading_zero]` to store the results of subproblems. Initialize with -1. If `memo[pos][tight][is_leading_zero]` is not -1, return the stored value.\n\n**Transitions:**\n\n1.  **Determine the Upper Bound for the Current Digit:**\n    *   If `tight` is `true`, the current digit can go from `0` up to `S[pos] - '0'`.\n    *   If `tight` is `false`, the current digit can go from `0` up to `9`.\n\n2.  **Iterate Through Possible Digits (`d`):**\n    *   For each `d` from `0` to `upper_bound`:\n        *   **Check for Forbidden Digit:** If `d == D - '0'`, skip this digit and continue to the next `d`.\n        *   **Handle Leading Zeros:**\n            *   If `is_leading_zero` is `true` and `d` is `0`: Recursively call `count_valid_numbers(pos + 1, tight && (d == upper_bound), true)`. We remain in the leading zero state.\n            *   Else (we are either not in a leading zero state, or we are placing a non-zero digit): Recursively call `count_valid_numbers(pos + 1, tight && (d == upper_bound), false)`. We are now placing \"real\" digits.\n\n3.  **Sum Results and Memoize:**\n    *   Add the results from all valid recursive calls to `ans`.\n    *   Store `ans` in `memo[pos][tight][is_leading_zero]` and return it.\n\n**Final Calculation:**\n\nThe `count_valid_numbers` function, called initially as `count_valid_numbers(0, true, true)`, will count all numbers `X` such that `0 <= X <= N` and `X` does not contain `D`.\n\n*   If `D` is `'0'`, the number `0` itself contains the digit `0`, so it won't be counted by the function. The result of `count_valid_numbers - 1` would be incorrect if `N` is `0`. But `N` is positive. So if `D='0'`, the function result directly gives the count of positive numbers `1 <= X <= N`.\n*   If `D` is *not* `'0'`, the number `0` itself does not contain `D`. Our function will count `0`. Since the problem asks for `1 <= X <= N`, we must subtract `1` from the final result (to exclude `0`).\n\n**Example Dry Run (`N=20, D='1'`):**\n\n`S=\"20\"`, `forbidden_digit = 1`\n\n`solve(0, true, true)`\n  `pos=0, tight=true, is_leading_zero=true`\n    `upper_bound = 2` (`S[0]='2'`)\n    `d=0`: `is_leading_zero && d==0` is true. `ans += solve(1, false, true)` (We are exploring numbers like `0_`)\n      `solve(1, false, true)`\n        `pos=1, tight=false, is_leading_zero=true`\n          `upper_bound = 9`\n          `d=0`: `is_leading_zero && d==0`. `ans += solve(2, false, true)` -> returns 1 (for `00`).\n          `d=1`: `d == forbidden_digit`. **SKIP**.\n          `d=2`: `else`. `ans += solve(2, false, false)` -> returns 1 (for `02`).\n          ...\n          `d=9`: `else`. `ans += solve(2, false, false)` -> returns 1 (for `09`).\n          Total from `solve(1, false, true)`: 9 (counts 0, 2, 3, 4, 5, 6, 7, 8, 9, implicitly prefixed with 0)\n    `d=1`: `d == forbidden_digit`. **SKIP**.\n    `d=2`: `else`. `ans += solve(1, tight && (2==2), false)` -> `ans += solve(1, true, false)` (We are exploring numbers like `2_`)\n      `solve(1, true, false)`\n        `pos=1, tight=true, is_leading_zero=false`\n          `upper_bound = 0` (`S[1]='0'`)\n          `d=0`: `else`. `ans += solve(2, tight && (0==0), false)` -> returns 1 (for `20`).\n          Total from `solve(1, true, false)`: 1 (counts 20)\nTotal `ans` from `solve(0, true, true)`: `9 + 1 = 10`.\n\nThis counts `0, 2, 3, 4, 5, 6, 7, 8, 9, 20`.\nSince `D='1'` (not '0'), we subtract 1 for `0`.\nFinal result: `10 - 1 = 9`.\nWait, the example says 17. What went wrong? Ah, the problem states `N=20, D='1'`.\nThe numbers *not* containing `1` are:\n`2, 3, 4, 5, 6, 7, 8, 9, 20`. Count is 9. This is correct as per my DP trace.\nThe problem example output is 17. Let me re-read it.\n\"The numbers from 1 to 20 that *do not* contain the digit '1' are:\n`2, 3, 4, 5, 6, 7, 8, 9, 20`\n(Numbers disallowed: `1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19`)\"\n\nMy bad. The example *explanation* listed only 9 numbers, but the example *output* is 17.\nLet's list them:\n1 -> no (contains '1')\n2 -> yes\n3 -> yes\n4 -> yes\n5 -> yes\n6 -> yes\n7 -> yes\n8 -> yes\n9 -> yes\n10 -> no (contains '1')\n11 -> no (contains '1')\n12 -> no (contains '1')\n...\n19 -> no (contains '1')\n20 -> yes\n\nSo the numbers are `2,3,4,5,6,7,8,9` (8 numbers) and `20` (1 number). Total `9`.\nMy DP produced 9. The example output is `17`.\nThe discrepancy is likely in my interpretation of the example output. If it's 17, then it includes numbers that *do* contain '1'. This doesn't match the problem.\n\nLet's assume my interpretation (and thus my DP) is correct, and the example output is a typo, or refers to a different variant of the problem. Or perhaps I made a mistake.\nAh, the example output description listed \"2, 3, 4, 5, 6, 7, 8, 9, 20\" as the allowed numbers, which sum to 9. Then it says \"Counting these, we get 9 + 8 = 17.\" This makes no sense. The example itself has an issue in its *explanation*. I will stick to my interpretation which matches the core problem statement.\n\nThe numbers between 1 and 20 that *do not* contain '1' are:\n2, 3, 4, 5, 6, 7, 8, 9, 20.\nTotal count: 9.\n\nMy DP logic should produce 9 for this specific example. Let's proceed with the code based on my DP logic, assuming the problem statement (\"numbers...that *do not* contain a specific forbidden digit D\") is the primary guide.\n\n---\n\n## C++ Code Implementation\n\n```cpp\n#include <iostream>\n#include <string>\n#include <vector>\n#include <cstring> // For memset\n\n// Memoization table: memo[pos][tight][is_leading_zero]\n// pos: current digit position (up to 18 for 10^18, so 20 is safe)\n// tight: 0 for false, 1 for true\n// is_leading_zero: 0 for false, 1 for true\nlong long memo[20][2][2]; \nstd::string N_str; // N converted to string\nint FORBIDDEN_DIGIT_INT; // Forbidden digit as an integer\n\n// Recursive digit DP function\n// pos: current digit index we are filling (from left, 0-indexed)\n// tight: boolean, true if current number is still restricted by N_str's digits\n// is_leading_zero: boolean, true if all digits placed so far were '0'\nlong long count_valid_numbers(int pos, bool tight, bool is_leading_zero) {\n    // Base case: If we have processed all digits, we successfully formed a valid number\n    if (pos == N_str.length()) {\n        return 1;\n    }\n\n    // Check memoization table\n    if (memo[pos][tight][is_leading_zero] != -1) {\n        return memo[pos][tight][is_leading_zero];\n    }\n\n    long long ans = 0;\n    // Determine the upper limit for the current digit\n    // If tight is true, the digit cannot exceed N_str[pos]\n    // If tight is false, the digit can be any from 0 to 9\n    int upper_bound = tight ? (N_str[pos] - '0') : 9;\n\n    // Iterate through possible digits for the current position\n    for (int d = 0; d <= upper_bound; ++d) {\n        // Skip if the current digit is the forbidden digit\n        if (d == FORBIDDEN_DIGIT_INT) {\n            continue;\n        }\n\n        // If we are currently placing leading zeros and the current digit is 0\n        if (is_leading_zero && d == 0) {\n            // Continue placing leading zeros. tight flag updates based on d == upper_bound.\n            ans += count_valid_numbers(pos + 1, tight && (d == upper_bound), true);\n        } else {\n            // We have placed a non-zero digit, or we were already past leading zeros.\n            // is_leading_zero becomes false.\n            ans += count_valid_numbers(pos + 1, tight && (d == upper_bound), false);\n        }\n    }\n\n    // Memoize the result and return\n    return memo[pos][tight][is_leading_zero] = ans;\n}\n\nint main() {\n    std::ios_base::sync_with_stdio(false);\n    std::cin.tie(NULL);\n\n    long long N_val;\n    char D_char;\n\n    std::cin >> N_val >> D_char;\n\n    N_str = std::to_string(N_val);\n    FORBIDDEN_DIGIT_INT = D_char - '0';\n\n    // Initialize memoization table with -1\n    memset(memo, -1, sizeof(memo));\n\n    // Call the DP function\n    // Initial call: pos=0, tight=true (restricted by N_str), is_leading_zero=true (can place leading zeros)\n    long long total_count_0_to_N = count_valid_numbers(0, true, true);\n\n    // The function counts numbers from 0 up to N (inclusive) that don't contain D.\n    // The problem asks for positive integers (1 to N).\n    // If D is not '0', then '0' itself is counted by the function, so we subtract 1.\n    // If D is '0', then '0' itself is forbidden, so it's not counted by the function.\n    // Therefore, no subtraction is needed if D is '0'.\n    if (FORBIDDEN_DIGIT_INT != 0) {\n        total_count_0_to_N--; // Remove count for number '0'\n    }\n    \n    std::cout << total_count_0_to_N << std::endl;\n\n    return 0;\n}\n\n```\n\n### Test Cases\n\nHere are a few test cases with their expected outputs:\n\n1.  **Small N, common D:**\n    *   **Input:** `N = 20`, `D = '1'`\n    *   **Expected Output:** `9`\n        *   (Numbers: 2, 3, 4, 5, 6, 7, 8, 9, 20)\n\n2.  **Small N, D='0':**\n    *   **Input:** `N = 10`, `D = '0'`\n    *   **Expected Output:** `1`\n        *   (Number: 1, 2, 3, 4, 5, 6, 7, 8, 9. None of these contain '0'. The number '10' contains '0', so it's excluded. Result for `1..9` is 9. Ah, my DP with `D='0'` doesn't count `0` itself. So for `N=10, D='0'`, it counts `1,2,3,4,5,6,7,8,9`. The total count would be 9. `10` is not included. So, 9.)\n        *   Rethink: `N=10, D='0'`.\n            `N_str = \"10\"`, `D_int = 0`.\n            `solve(0, true, true)` will explore:\n                `d=0`: forbidden. Skip.\n                `d=1`: `solve(1, true, false)`\n                    `pos=1, tight=true, is_leading_zero=false`\n                        `upper_bound=0` (`N_str[1]=0`)\n                        `d=0`: forbidden. Skip.\n            This would return 0. This is wrong.\n            The issue is with `is_leading_zero && d==0`. When `D='0'`, this `d==0` is forbidden.\n            Let's trace `N=10, D='0'`:\n            `N_str=\"10\"`, `FORBIDDEN_DIGIT_INT=0`\n            `count_valid_numbers(0, true, true)`:\n              `pos=0, tight=true, is_leading_zero=true`\n                `upper_bound=1`\n                `d=0`: `d == FORBIDDEN_DIGIT_INT`. **SKIP**.\n                `d=1`: `else` branch (not leading zero, or d!=0).\n                      `ans += count_valid_numbers(1, tight && (1==1), false)`\n                      `ans += count_valid_numbers(1, true, false)`\n                        `pos=1, tight=true, is_leading_zero=false`\n                          `upper_bound=0`\n                          `d=0`: `d == FORBIDDEN_DIGIT_INT`. **SKIP**.\n                        Returns 0 for `solve(1, true, false)`.\n            This would mean the total count is 0. This is clearly wrong. Numbers 1-9 are valid.\n            The problem with `is_leading_zero` and `d==0` is that it's *only* for \"implicit\" leading zeros.\n            Numbers like `1`, `2` are generated through `is_leading_zero=true` paths.\n            A cleaner `is_leading_zero` handling:\n\n            ```cpp\n            // inside loop, after d == FORBIDDEN_DIGIT_INT check\n            if (is_leading_zero && d == 0) { // Still placing leading zeros\n                ans += count_valid_numbers(pos + 1, tight && (d == upper_bound), true);\n            } else { // Actual number started (or already started)\n                ans += count_valid_numbers(pos + 1, tight && (d == upper_bound), false);\n            }\n            ```\n            This version is correct. For `N=10, D='0'`:\n            `solve(0, true, true)`\n              `pos=0, tight=true, is_leading_zero=true`\n                `upper_bound=1`\n                `d=0`: skip.\n                `d=1`: `ans += solve(1, true, false)`\n                  `solve(1, true, false)` (for `1_`)\n                    `pos=1, tight=true, is_leading_zero=false`\n                      `upper_bound=0`\n                      `d=0`: skip.\n                    Returns 0.\n            This is still problematic. The issue is how `is_leading_zero` works.\n            If `is_leading_zero` is true and we chose `d=0`, we are still padding zeros *before* the actual number starts. These `0`s are *not* part of the number, they are merely placeholders for shorter numbers. Thus, they should not be checked against `FORBIDDEN_DIGIT_INT`.\n            Corrected `is_leading_zero` logic:\n\n            ```cpp\n            long long count_valid_numbers(int pos, bool tight, bool is_leading_zero) {\n                if (pos == N_str.length()) {\n                    return !is_leading_zero; // Return 1 if a number was actually formed (not just all leading zeros)\n                }\n                if (memo[pos][tight][is_leading_zero] != -1) {\n                    return memo[pos][tight][is_leading_zero];\n                }\n\n                long long ans = 0;\n                int upper_bound = tight ? (N_str[pos] - '0') : 9;\n\n                for (int d = 0; d <= upper_bound; ++d) {\n                    // Only check for forbidden digit if we are not placing leading zeros, OR if d is not 0 (meaning number has started)\n                    // If is_leading_zero is true and d is 0, this '0' is a placeholder, not a 'digit' of the number itself.\n                    if (!is_leading_zero && d == FORBIDDEN_DIGIT_INT) {\n                        continue;\n                    }\n                    if (is_leading_zero && d == FORBIDDEN_DIGIT_INT && d != 0) { // e.g. D=5, and we want to place '5' as first digit of '05'\n                         continue;\n                    }\n                    if (is_leading_zero && d == FORBIDDEN_DIGIT_INT && d == 0) { // D=0, and we are placing a leading 0.\n                        // This '0' is a placeholder, but if D is '0', then '0' is forbidden.\n                        // This case is tricky. The number '0' itself should be counted ONLY IF D != 0.\n                        // And if we form a number like '05', the actual number is '5'.\n                        // My original final result handling `total_count_0_to_N--` is for handling the number '0'.\n                        // The 'is_leading_zero' state is only about generating numbers of *fewer digits*.\n                        // A digit '0' when `is_leading_zero` is true does not constitute part of the number value *yet*.\n                        // So, the check for `FORBIDDEN_DIGIT_INT` should *not* apply to leading zeros.\n                        // It should only apply once `is_leading_zero` becomes false, or for the very first non-zero digit.\n                        // This means the `d == FORBIDDEN_DIGIT_INT` should be after `is_leading_zero && d == 0` check.\n                    }\n\n                    if (is_leading_zero && d == 0) { // We are still placing leading zeros (e.g., forming 005 for N=100)\n                        ans += count_valid_numbers(pos + 1, tight && (d == upper_bound), true);\n                    } else { // A non-zero digit has been placed, or we were already past leading zeros\n                        if (d == FORBIDDEN_DIGIT_INT) { // Now we can check if this real digit is forbidden\n                            continue;\n                        }\n                        ans += count_valid_numbers(pos + 1, tight && (d == upper_bound), false);\n                    }\n                }\n                return memo[pos][tight][is_leading_zero] = ans;\n            }\n            ```\n            The base case should be `return 1;`\n            The `total_count_0_to_N--` logic handles `0`.\n            So the `d == FORBIDDEN_DIGIT_INT` check must be applied to *all* non-leading zeros.\n\n            **Revised `count_valid_numbers` logic for `d == FORBIDDEN_DIGIT_INT`:**\n            ```cpp\n            long long count_valid_numbers(int pos, bool tight, bool is_leading_zero) {\n                if (pos == N_str.length()) {\n                    return 1; // Successfully formed a number (even '0' if is_leading_zero is true till end)\n                }\n                if (memo[pos][tight][is_leading_zero] != -1) {\n                    return memo[pos][tight][is_leading_zero];\n                }\n\n                long long ans = 0;\n                int upper_bound = tight ? (N_str[pos] - '0') : 9;\n\n                for (int d = 0; d <= upper_bound; ++d) {\n                    // If we are past leading zeros OR this is a non-zero digit (starting the number)\n                    // THEN check for the forbidden digit\n                    if (!is_leading_zero || d != 0) { // If it's a 'real' digit (not just a placeholder '0')\n                        if (d == FORBIDDEN_DIGIT_INT) {\n                            continue; // This 'real' digit is forbidden, skip this path\n                        }\n                    }\n\n                    // Recursively call for the next position\n                    // is_leading_zero becomes false if we placed a non-zero digit.\n                    ans += count_valid_numbers(pos + 1, tight && (d == upper_bound), is_leading_zero && (d == 0));\n                }\n                return memo[pos][tight][is_leading_zero] = ans;\n            }\n            ```\n            This simplified logic for `is_leading_zero` and forbidden digit check is more robust.\n            With this, `N=10, D='0'`:\n            `solve(0, true, true)` will return `9`. (Counts `1..9`).\n            Final step `if (FORBIDDEN_DIGIT_INT != 0) total_count_0_to_N--;`\n            Since `FORBIDDEN_DIGIT_INT == 0`, we don't decrement. Output `9`.\n            This now correctly matches `1,2,3,4,5,6,7,8,9`.\n\n3.  **Large N, D='0':**\n    *   **Input:** `N = 100`, `D = '0'`\n    *   **Expected Output:** `81`\n        *   (Numbers from 1 to 99 that don't contain '0':\n            `1-9` (9 numbers)\n            `11-19` (9 numbers)\n            `21-29` (9 numbers)\n            ...\n            `91-99` (9 numbers)\n            Total: `9 * 9 = 81`.\n            `100` contains '0', so it's excluded. `10` contains '0', so it's excluded.)\n\n4.  **Large N, D in N:**\n    *   **Input:** `N = 345`, `D = '3'`\n    *   **Expected Output:** `242`\n        *   (Counting numbers without '3' up to 345.\n            Numbers up to 99: `9 * 9 = 81`. (1-9, 10-29, 40-99).\n            Numbers 100-299: `2 * 9 * 9 = 162`. (For each hundreds digit 1 or 2, 81 choices for last two digits).\n            Total up to 299: `81 + 162 = 243`.\n            Now for numbers from 300 to 345: All contain '3', so none are added.\n            The count for '0' needs to be handled.\n            So from `count_valid_numbers(0, true, true)`:\n            This would count `0, 1, 2, ..., 299` (total 243 numbers).\n            `243 - 1` (for 0) = `242`. Correct.)\n\n5.  **Maximum N, D='9':**\n    *   **Input:** `N = 999999999999999999` (18 nines), `D = '9'`\n    *   **Expected Output:** `10^18 - 1` is total numbers if no restriction.\n        Numbers without `9`:\n        For each position, we have 9 choices (0-8).\n        Total numbers of length `k` without `9`: `8 * 9^(k-1)` (first digit 1-8).\n        `1` digit: `8` (`1..8`)\n        `2` digits: `8*9` (`10..88`)\n        ...\n        `18` digits: `8 * 9^17`\n        Total sum of these: sum `8*9^(k-1)` for k=1 to 18.\n        This is `8 * (9^0 + 9^1 + ... + 9^17) = 8 * ( (9^18 - 1) / (9-1) ) = 9^18 - 1`.\n        This is the total count of numbers from 1 to 99..9 (18 nines) that do not contain '9'.\n        So `9^18 - 1` is the expected output.\n        `9^18` is `150094635296999121`. Subtract `1` for the `0` count if `D != 0`.\n        Expected output: `150094635296999120`.\n\nThis problem is a good test of a student's ability to transition from brute-force thinking to an efficient, mathematically grounded algorithmic solution.",
     "ig_handle": "modeci",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-16T17:20:18.727288+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/modeci/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/modeci/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=11447821975425180152",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/modeci",
       "homepage": null,
       "booking": null,
-      "google_map": null
+      "google_map": "https://maps.google.com/?cid=11447821975425180152"
     },
     "contacts": {
       "phone": "02-690-2285",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
+    "genres": [
+      "Night Club"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Fooood !!",
-        "address_text": "서울 마포구 상수동 86-22",
+        "name": "MODECi",
+        "address_text": "서울특별시 마포구 상수동 86-22",
         "address_components": null,
         "location_lat": 37.5502416057998,
         "location_lon": 126.923286593236,
@@ -589,32 +273,21 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Fooood !!",
-            "ko": "푸우드 !!"
+            "en": "MODECi",
+            "ko": "모데시"
           },
           "address_text": {
-            "en": "86-22 Sangsu-dong, Mapo-gu, Seoul, South Korea",
-            "ko": "서울 마포구 상수동 86-22"
+            "en": "86-22, Sangsu-dong, Mapo-gu, Seoul, South Korea",
+            "ko": "서울특별시 마포구 상수동 86-22"
           },
           "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-11-07",
-    "confidence": 0.5,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=9622764915020956651",
-      "maps:https://maps.google.com/?cid=11447821975425180152",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
     "i18n": {
       "name": {
-        "en": "Fooood !!",
-        "ko": "푸우드 !!"
+        "en": "MODECi",
+        "ko": "모데시"
       },
       "address_text": null,
       "notes": null,
@@ -623,7 +296,7 @@
           "Night Club"
         ],
         "ko": [
-          "나이트클럽"
+          "나이트 클럽"
         ]
       },
       "subway_nearby": null,
@@ -632,171 +305,56 @@
     }
   },
   {
+    "raw": "The problem asks us to evaluate a mathematical expression string that can contain integers, `+`, `-`, `*`, `/` operators, parentheses `()`, and spaces. Integer division should truncate towards zero.\n\nThis is a classic calculator problem. The key challenges are:\n1.  **Order of Operations:** Parentheses `()` have the highest precedence, followed by multiplication `*` and division `/` (from left to right), and then addition `+` and subtraction `-` (from left to right).\n2.  **Parentheses:** The presence of parentheses naturally suggests a recursive approach. When we encounter an opening parenthesis `(`, we can recursively evaluate the sub-expression within it, treating its result as a single number.\n3.  **Operator Precedence (without recursion for `*`/`/` vs `+`/`-`):** Even within a single level of an expression (i.e., not crossing parentheses), `*` and `/` need to be evaluated before `+` and `-`. A common technique for this is to use a stack (or a list acting as a stack) to store numbers. When `+` or `-` is encountered, the `current_num` is pushed onto the stack. When `*` or `/` is encountered, the top of the stack is popped, the operation is performed with `current_num`, and the result is pushed back. Finally, all numbers in the stack are summed up.\n\n### High-Level Algorithm (Recursive Approach)\n\nWe'll use a single global index (`self.idx`) to keep track of our position in the input string `s`. This index will be advanced by both the current function call and any recursive calls it makes.\n\nLet's define a recursive helper function, say `_calculate()`, that evaluates a segment of the expression. This function will be responsible for:\n\n1.  Initializing an empty `stack` to store numbers (for handling `*`/`/` before `+`/`-`).\n2.  Initializing `current_num` to 0 and `op` (the operator *before* `current_num`) to `'+'`.\n3.  Iterating through the string `s` using `self.idx`:\n    *   **Skip spaces.**\n    *   **If a digit is encountered:** Build `current_num` by parsing consecutive digits.\n    *   **If `(` is encountered:**\n        *   Increment `self.idx` to move past `(`.\n        *   Recursively call `_calculate()` to evaluate the sub-expression. The result of this recursive call becomes `current_num`.\n        *   The recursive call itself will advance `self.idx` past its matching `)`.\n    *   **If an operator (`+`, `-`, `*`, `/`) or `)` is encountered, or if it's the end of the string:** This signals that `current_num` is fully formed and ready to be processed with the `op` encountered *before* it.\n        *   Based on `op`:\n            *   If `op == '+'`: push `current_num` onto `stack`.\n            *   If `op == '-'`: push `-current_num` onto `stack`.\n            *   If `op == '*'`: pop top from `stack`, multiply by `current_num`, push result back.\n            *   If `op == '/'`: pop top from `stack`, perform integer division (truncating towards zero) by `current_num`, push result back.\n        *   Reset `current_num` to 0.\n        *   If the current character `char` is an operator, update `op` to `char` for the *next* number.\n        *   If `char` is `)`, this marks the end of the current sub-expression. Increment `self.idx` (to consume the `)`) and return the `sum(stack)`.\n    *   Finally, increment `self.idx` to move to the next character for the loop.\n4.  After the loop finishes (either due to `)` or end of string), `sum` all elements remaining in the `stack` and return the result.\n\n### Example Walkthrough `s = \"1 + (2 * 3) + 4\"`\n\nInitial call `calculate(\"1 + (2 * 3) + 4\")`:\n`self.idx = 0`\nCalls `_calculate()`:\n    `stack = []`, `current_num = 0`, `op = '+'`\n    `while self.idx < len(s)`:\n    1.  `self.idx = 0`, `char = '1'`. `current_num = 1`. `self.idx` becomes `1`.\n    2.  `self.idx = 1`, `char = ' '`. Skip. `self.idx` becomes `2`.\n    3.  `self.idx = 2`, `char = '+'`. This is an operator, process `current_num`.\n        *   `op = '+'`: `stack.append(1)`. `stack = [1]`.\n        *   `op = '+'`.\n        *   `current_num = 0`.\n        *   `self.idx` becomes `3`.\n    4.  `self.idx = 3`, `char = ' '`. Skip. `self.idx` becomes `4`.\n    5.  `self.idx = 4`, `char = '('`. Recursive call.\n        *   `self.idx` becomes `5`.\n        *   `current_num = _calculate()`:\n            *   `stack_inner = []`, `current_num_inner = 0`, `op_inner = '+'`\n            *   `while self.idx < len(s)`:\n                1.  `self.idx = 5`, `char = '2'`. `current_num_inner = 2`. `self.idx` becomes `6`.\n                2.  `self.idx = 6`, `char = ' '`. Skip. `self.idx` becomes `7`.\n                3.  `self.idx = 7`, `char = '*'`. Process `current_num_inner`.\n                    *   `op_inner = '+'`: `stack_inner.append(2)`. `stack_inner = [2]`.\n                    *   `op_inner = '*'`.\n                    *   `current_num_inner = 0`.\n                    *   `self.idx` becomes `8`.\n                4.  `self.idx = 8`, `char = ' '`. Skip. `self.idx` becomes `9`.\n                5.  `self.idx = 9`, `char = '3'`. `current_num_inner = 3`. `self.idx` becomes `10`.\n                6.  `self.idx = 10`, `char = ' '`. Skip. `self.idx` becomes `11`.\n                7.  `self.idx = 11`, `char = ')'`. Process `current_num_inner`.\n                    *   `op_inner = '*'`: `stack_inner.append(stack_inner.pop() * 3)`. `stack_inner = [6]`.\n                    *   `op_inner` unchanged.\n                    *   `current_num_inner = 0`.\n                    *   `char = ')'`: `self.idx` becomes `12`. `return sum(stack_inner) = 6`.\n            *   (Recursive call returns `6`).\n        *   `current_num = 6`. (back in outer scope)\n        *   `self.idx` is now `12` (past the `)`).\n        *   *(The outer loop char for `self.idx=12` is ' ', next iteration will process it)*\n    6.  `self.idx = 12`, `char = ' '`. Skip. `self.idx` becomes `13`.\n    7.  `self.idx = 13`, `char = '+'`. Process `current_num` (which is `6` from the parenthesis).\n        *   `op = '+'`: `stack.append(6)`. `stack = [1, 6]`.\n        *   `op = '+'`.\n        *   `current_num = 0`.\n        *   `self.idx` becomes `14`.\n    8.  `self.idx = 14`, `char = ' '`. Skip. `self.idx` becomes `15`.\n    9.  `self.idx = 15`, `char = '4'`. `current_num = 4`. `self.idx` becomes `16`.\n    10. `self.idx = 16`. Loop condition `self.idx < len(s)` is false. Loop terminates.\n    *   `return sum(stack)`: `sum([1, 6, 4]) = 11`. This is incorrect. The `4` was never added because `self.idx == len(s) - 1` needs to be used as a trigger for `char='4'`.\n\n### Corrected `_calculate` Logic\n\nThe critical part is the condition that triggers processing `current_num`. It should happen when:\n1.  We encounter an operator (`+`, `-`, `*`, `/`).\n2.  We encounter a closing parenthesis `)`.\n3.  We reach the end of the string `s`.\n\n```python\nimport collections\n\nclass Solution:\n    def calculate(self, s: str) -> int:\n        # Use a global index to traverse the string across recursive calls\n        self.idx = 0\n\n        def _calculate() -> int:\n            stack = collections.deque() # Using deque for potential performance, but list works too\n            current_num = 0\n            op = '+'  # `op` stores the operator *preceding* the current_num\n\n            while self.idx < len(s):\n                char = s[self.idx]\n\n                if char == ' ':\n                    self.idx += 1\n                    continue\n\n                if char.isdigit():\n                    current_num = current_num * 10 + int(char)\n                elif char == '(':\n                    self.idx += 1 # Consume '(' for the current level\n                    current_num = _calculate() # Recursive call, `current_num` becomes result of sub-expression\n                                               # `self.idx` will be *after* the matching ')' when this returns\n                \n                # This block processes `current_num` with the `op` encountered *before* it.\n                # It's triggered by hitting a new operator, a closing parenthesis, or the end of the string.\n                # `self.idx == len(s) - 1` handles the case where the expression ends with a number.\n                if (char in \"+-*/)\") or (self.idx == len(s) - 1):\n                    if op == '+':\n                        stack.append(current_num)\n                    elif op == '-':\n                        stack.append(-current_num)\n                    elif op == '*':\n                        stack.append(stack.pop() * current_num)\n                    elif op == '/':\n                        # Integer division truncates towards zero (like C++/Java).\n                        # Python's `//` floors for negative numbers (e.g., -3 // 2 = -2).\n                        # `int(a / b)` truncates towards zero in Python for both positive/negative.\n                        stack.append(int(stack.pop() / current_num))\n                    \n                    # If the current character is an operator, it becomes the `op` for the *next* number.\n                    if char in \"+-*/\":\n                        op = char\n                    \n                    current_num = 0 # Reset `current_num` for the next number parsing\n\n                    # If we encounter a closing parenthesis, it signals the end of the current sub-expression.\n                    if char == ')':\n                        self.idx += 1 # Consume ')' for this level\n                        return sum(stack) # Return the calculated result for this sub-expression\n                \n                self.idx += 1 # Move to the next character for the next iteration\n            \n            # After the loop finishes (i.e., we reached the end of the string),\n            # sum up all elements remaining in the stack. This handles the outermost expression's final numbers.\n            return sum(stack)\n\n        return _calculate()\n\n```",
     "ig_handle": "offtherecorditaewon",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": null,
-    "genres": [
-      "Bar",
-      "Lounge Bar",
-      "Dance"
+    "last_analyzed_at": "2025-11-16T17:17:15.245949+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=4979697015321161563",
+      "gemini:enrich"
     ],
-    "websites": null,
     "links": {
       "instagram": "https://www.instagram.com/offtherecorditaewon",
       "homepage": null,
       "booking": null,
-      "google_map": null
+      "google_map": "https://maps.google.com/?cid=4979697015321161563"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "OFFTHERECORD",
-        "address_text": null,
+        "name": "OFF THE RECORD",
+        "address_text": "B1, 13 Itaewon-ro 27ga-gil, Yongsan District, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
         "subway_nearby": null,
         "booking_link": null,
-        "notes": "Lounge Bar (8PM–12AM) | Dance (12-END). Music | Cocktails | Funktion-One.",
+        "notes": null,
         "i18n": {
           "name": {
-            "en": "OFFTHERECORD",
+            "en": "OFF THE RECORD",
             "ko": "오프더레코드"
           },
-          "address_text": null,
-          "notes": {
-            "en": "Lounge Bar (8 PM – 12 AM) | Dance (12 AM – Close). Music | Cocktails | Funktion-One.",
-            "ko": "라운지 바 (오후 8시 – 자정) | 댄스 (자정 – 마감). 음악 | 칵테일 | Funktion-One."
-          }
+          "address_text": {
+            "en": "B1, 13 Itaewon-ro 27ga-gil, Yongsan District, Seoul, South Korea",
+            "ko": "서울 용산구 이태원로27가길 13 지하1층"
+          },
+          "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-11-07",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=1031253018126970629",
-      "maps:https://maps.google.com/?cid=8327154637949984720",
-      "maps:https://maps.google.com/?cid=3568008598516080226",
-      "maps:https://maps.google.com/?cid=6512414078010814055",
-      "maps:https://maps.google.com/?cid=14500071607500515302",
-      "maps:https://maps.google.com/?cid=16289598991708715658",
-      "maps:https://maps.google.com/?cid=16073354953576492639",
-      "maps:https://maps.google.com/?cid=8251298229807049761",
-      "maps:https://maps.google.com/?cid=14529681714479581812",
-      "maps:https://maps.google.com/?cid=528081830924855418",
-      "maps:https://maps.google.com/?cid=163992370249559612",
-      "maps:https://maps.google.com/?cid=4572331646766507217",
-      "maps:https://maps.google.com/?cid=13277387558789782178",
-      "maps:https://maps.google.com/?cid=6912685858601139076",
-      "maps:https://maps.google.com/?cid=2275717372296593473",
-      "maps:https://maps.google.com/?cid=302532961150360413",
-      "maps:https://maps.google.com/?cid=2880683838828934574",
-      "maps:https://maps.google.com/?cid=1622847105428903847",
-      "maps:https://maps.google.com/?cid=3283980440510206085",
-      "maps:https://maps.google.com/?cid=13848193746904418822",
-      "maps:https://maps.google.com/?cid=837651869274379767",
-      "maps:https://maps.google.com/?cid=14038633846835041098",
-      "maps:https://maps.google.com/?cid=11062508125824645636",
-      "maps:https://maps.google.com/?cid=801228966904007557",
-      "maps:https://maps.google.com/?cid=2813494584689661167",
-      "maps:https://maps.google.com/?cid=11881259354384405760",
-      "maps:https://maps.google.com/?cid=9456793175901891477",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=15847726234929471906",
-      "maps:https://maps.google.com/?cid=16751232188602700942",
-      "maps:https://maps.google.com/?cid=5427176917239714008",
-      "maps:https://maps.google.com/?cid=10242055515801472952",
-      "maps:https://maps.google.com/?cid=12076744074194571440",
-      "maps:https://maps.google.com/?cid=17553450007670714737",
-      "maps:https://maps.google.com/?cid=15281372540785068490",
-      "maps:https://maps.google.com/?cid=13869190894657661386",
-      "maps:https://maps.google.com/?cid=8543241179782394785",
-      "maps:https://maps.google.com/?cid=9970960729652673930",
-      "maps:https://maps.google.com/?cid=7320119759783926385",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
-    "handle": "offtherecorditaewon",
-    "analyzed": {
-      "ig_handle": "offtherecorditaewon",
-      "name": "OFFTHERECORD",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": null,
-      "typical_show_times": null,
-      "genres": [
-        "Bar",
-        "Lounge Bar",
-        "Dance"
-      ],
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/offtherecorditaewon",
-        "homepage": null,
-        "booking": null,
-        "google_map": null
-      },
-      "contacts": {
-        "phone": null,
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": null,
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "OFFTHERECORD",
-          "address_text": null,
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": "Lounge Bar (8PM–12AM) | Dance (12-END). Music | Cocktails | Funktion-One.",
-          "i18n": {
-            "name": {
-              "en": "OFFTHERECORD",
-              "ko": "오프더레코드"
-            },
-            "address_text": null,
-            "notes": {
-              "en": "Lounge Bar (8 PM – 12 AM) | Dance (12 AM – Close). Music | Cocktails | Funktion-One.",
-              "ko": "라운지 바 (오후 8시 – 자정) | 댄스 (자정 – 마감). 음악 | 칵테일 | Funktion-One."
-            }
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-07",
-      "confidence": 1.0,
-      "extraction_version": "1.0",
-      "sources": [
-        "instagram"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.1"
-    },
     "i18n": {
       "name": {
-        "en": "OFFTHERECORD",
+        "en": "OFF THE RECORD",
         "ko": "오프더레코드"
       },
       "address_text": null,
@@ -804,13 +362,11 @@
       "genres": {
         "en": [
           "Bar",
-          "Lounge Bar",
-          "Dance"
+          "Live Music"
         ],
         "ko": [
           "바",
-          "라운지 바",
-          "댄스"
+          "라이브 공연"
         ]
       },
       "subway_nearby": null,
@@ -819,43 +375,35 @@
     }
   },
   {
+    "raw": "The font used for the title \"SPECIAL INSTRUCTION\" is **Roboto Medium**.",
     "ig_handle": "pistilseoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": "21:00-02:00",
-      "fri": "21:00-03:00",
-      "sat": "21:00-03:00",
-      "sun": "21:00-02:00"
-    },
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-16T17:18:15.189017+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=10504334388587349733",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/pistilseoul",
       "homepage": null,
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=10504334388587349733",
+      "google_map": null,
       "naver_map": "https://naver.me/513kWzHr"
     },
     "contacts": {
-      "phone": "02-797-6139",
+      "phone": null,
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
+    "subway_nearby": "6호선 이태원역 4번 출구에서 111m",
     "locations": [
       {
         "location_id": "main",
-        "name": "Pistil",
+        "name": "Pistil Seoul",
         "address_text": "서울 용산구 보광로59길 9",
         "address_components": null,
         "location_lat": 37.5338671584549,
@@ -865,8 +413,8 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Pistil",
-            "ko": "피스틸"
+            "en": "Pistil Seoul",
+            "ko": "피스틸 서울"
           },
           "address_text": {
             "en": "9 Bogwang-ro 59-gil, Yongsan District, Seoul, South Korea",
@@ -876,173 +424,73 @@
         }
       }
     ],
-    "last_analyzed_at": "2025-11-07T23:48:48.877887+09:00",
-    "confidence": 0.9,
-    "extraction_version": "1.0",
-    "sources": [
-      "ig_profile",
-      "maps:https://maps.google.com/?cid=10504334388587349733",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
-    "handle": "pistilseoul",
-    "analyzed": {
-      "ig_handle": "pistilseoul",
-      "name": "Pistil",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": "21:00-02:00",
-        "fri": "21:00-03:00",
-        "sat": "21:00-03:00",
-        "sun": "21:00-02:00"
-      },
-      "typical_show_times": null,
-      "genres": null,
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/pistilseoul",
-        "homepage": null,
-        "booking": null,
-        "google_map": "https://maps.google.com/?cid=10504334388587349733"
-      },
-      "contacts": {
-        "phone": "02-797-6139",
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": null,
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Pistil",
-          "address_text": "서울 용산구 보광로59길 9",
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "Pistil",
-              "ko": "피스틸"
-            },
-            "address_text": {
-              "en": "9 Bogwang-ro 59-gil, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 보광로59길 9"
-            },
-            "notes": null
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-07T23:48:48.877887+09:00",
-      "confidence": 0.9,
-      "extraction_version": "1.0",
-      "sources": [
-        "ig_profile"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.1"
-    },
     "i18n": {
       "name": {
-        "en": "Pistil",
-        "ko": "피스틸"
+        "en": "Pistil Seoul",
+        "ko": "피스틸 서울"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
-      "subway_nearby": null,
+      "subway_nearby": {
+        "en": "111m from Itaewon Station Exit 4, Line 6",
+        "ko": "6호선 이태원역 4번 출구에서 111m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "6호선 이태원역 4번 출구에서 111m"
+    }
   },
   {
+    "raw": "This Python script will monitor your Apache `access.log` file in real-time, detect 4xx (client errors) and 5xx (server errors) status codes, and send alerts to a Telegram chat if a configured threshold is exceeded within a specified time window.\n\n### Features:\n*   **Real-time Monitoring:** Behaves like `tail -f`.\n*   **Log Rotation Handling:** Automatically detects and re-opens the log file if it's rotated.\n*   **Error Detection:** Identifies 4xx and 5xx HTTP status codes.\n*   **Threshold-based Alerts:** Sends alerts only if the number of errors exceeds a configurable threshold within a time window.\n*   **Telegram Integration:** Uses the Telegram Bot API to send messages.\n*   **Configurable:** Easy to adjust log file path, thresholds, and Telegram credentials.\n*   **Robust:** Includes basic error handling for file operations and network issues.\n\n---\n\n### Setup Guide\n\n#### 1. Prerequisites\n*   Python 3.6+\n*   `requests` library: `pip install requests`\n\n#### 2. Create a Telegram Bot and Get Chat ID\n1.  **Create a Bot:**\n    *   Open Telegram and search for `@BotFather`.\n    *   Start a chat with BotFather and send `/newbot`.\n    *   Follow the instructions: give your bot a name (e.g., \"Apache Monitor Bot\") and a username (must end with \"bot\", e.g., `apache_monitor_alerts_bot`).\n    *   BotFather will give you an **HTTP API Token**. This is your `TELEGRAM_BOT_TOKEN`. Keep it secret!\n\n2.  **Get your Chat ID:**\n    *   Start a chat with your newly created bot (search for its username). Send it any message (e.g., \"Hi\").\n    *   Open your web browser and go to the following URL, replacing `<YOUR_BOT_TOKEN>` with your actual token:\n        `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`\n    *   Look for the `\"chat\"` object in the JSON response. The `id` field inside it is your `TELEGRAM_CHAT_ID`. It will be a large number, possibly negative if it's a group chat.\n        Example: `{\"update_id\":..., \"message\":{\"message_id\":..., \"from\":{...}, \"chat\":{\"id\":-1234567890, ...}, \"date\":..., \"text\":\"Hi\"}}`\n        Your chat ID here would be `-1234567890`.\n\n#### 3. Apache Log File Path\n*   Identify the correct path to your Apache `access.log` file. Common paths include:\n    *   `/var/log/apache2/access.log` (Debian/Ubuntu)\n    *   `/var/log/httpd/access_log` (CentOS/RHEL/Fedora)\n    *   If you have virtual hosts, each might have its own access log. Choose the one you want to monitor.\n*   Ensure the user running this script has read permissions on this file.\n\n---\n\n### Python Script\n\nSave the following code as `apache_log_monitor.py`:\n\n```python\nimport time\nimport requests\nimport re\nimport os\nfrom collections import deque\n\n# --- Configuration ---\nAPACHE_LOG_FILE = '/var/log/apache2/access.log' # <--- IMPORTANT: Update this path to your Apache access log\nTELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'  # <--- IMPORTANT: Replace with your actual bot token\nTELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID'      # <--- IMPORTANT: Replace with your actual chat ID\n\n# Alert thresholds: If this many errors occur within ALERT_WINDOW_SECONDS, an alert is sent.\nALERT_THRESHOLD_4XX = 5  # Number of 4xx errors\nALERT_THRESHOLD_5XX = 3  # Number of 5xx errors (critical)\n\nALERT_WINDOW_SECONDS = 60 # Time window (in seconds) to count errors for alerts\n\nCHECK_INTERVAL_SECONDS = 5 # How often to check for new log lines and file rotation\n\n# Regular expression to parse Apache combined log format\n# Example line: 127.0.0.1 - - [10/Oct/2023:14:30:00 +0000] \"GET /index.html HTTP/1.1\" 200 1234 \"-\" \"Mozilla/5.0 (...)\"\nAPACHE_LOG_PATTERN = re.compile(\n    r'^(\\S+) \\S+ \\S+ \\[([^\\]]+)\\] \"(\\S+ \\S+ \\S+)\" (\\d{3}) (\\S+) \"([^\"]*)\" \"([^\"]*)\"$'\n)\n\n# --- Global State for Monitoring (used by deque for sliding window) ---\n# Deques to store timestamps of errors, for rate limiting alerts\nerror_4xx_timestamps = deque()\nerror_5xx_timestamps = deque()\n\n# --- Telegram Helper Function ---\ndef send_telegram_message(message):\n    \"\"\"Sends a message to the configured Telegram chat.\"\"\"\n    url = f\"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage\"\n    payload = {\n        'chat_id': TELEGRAM_CHAT_ID,\n        'text': message,\n        'parse_mode': 'Markdown' # Allows basic formatting like bold, italics\n    }\n    try:\n        response = requests.post(url, json=payload, timeout=10)\n        response.raise_for_status() # Raise an exception for HTTP errors (4xx or 5xx)\n        print(f\"[{time.ctime()}] Telegram message sent successfully.\")\n    except requests.exceptions.Timeout:\n        print(f\"[{time.ctime()}] Telegram API request timed out.\")\n    except requests.exceptions.ConnectionError as e:\n        print(f\"[{time.ctime()}] Telegram API connection error: {e}\")\n    except requests.exceptions.HTTPError as e:\n        print(f\"[{time.ctime()}] Telegram API HTTP error: {e.response.status_code} - {e.response.text}\")\n    except Exception as e:\n        print(f\"[{time.ctime()}] An unexpected error occurred while sending Telegram message: {e}\")\n\n# --- Main Monitoring Logic ---\ndef monitor_apache_logs():\n    \"\"\"Monitors the Apache access log file for errors and sends Telegram alerts.\"\"\"\n    log_file_handle = None\n    current_inode = None # To detect log file rotation\n\n    print(f\"[{time.ctime()}] Starting Apache log monitor for: {APACHE_LOG_FILE}\")\n    print(f\"[{time.ctime()}] 4xx Alert Threshold: {ALERT_THRESHOLD_4XX} errors in {ALERT_WINDOW_SECONDS}s\")\n    print(f\"[{time.ctime()}] 5xx Alert Threshold: {ALERT_THRESHOLD_5XX} errors in {ALERT_WINDOW_SECONDS}s\")\n\n    while True:\n        try:\n            # Handle file opening, reopening, and rotation\n            if log_file_handle is None or not os.path.exists(APACHE_LOG_FILE):\n                if log_file_handle:\n                    log_file_handle.close()\n                    log_file_handle = None\n                print(f\"[{time.ctime()}] Attempting to open log file: {APACHE_LOG_FILE}\")\n                log_file_handle = open(APACHE_LOG_FILE, 'rb')\n                log_file_handle.seek(0, os.SEEK_END) # Start reading from the end of the file\n                current_inode = os.fstat(log_file_handle.fileno()).st_ino\n                print(f\"[{time.ctime()}] Log file opened. Starting from end. Inode: {current_inode}\")\n            else:\n                # Check for log file rotation by comparing inodes\n                new_inode = os.stat(APACHE_LOG_FILE).st_ino\n                if new_inode != current_inode:\n                    print(f\"[{time.ctime()}] Log file rotated! Re-opening new file. Old Inode: {current_inode}, New Inode: {new_inode}\")\n                    log_file_handle.close()\n                    log_file_handle = open(APACHE_LOG_FILE, 'rb')\n                    log_file_handle.seek(0, os.SEEK_END)\n                    current_inode = os.fstat(log_file_handle.fileno()).st_ino\n                    print(f\"[{time.ctime()}] New log file opened. Starting from end.\")\n                    # After rotation, old errors might be gone, clear deques to prevent false alerts\n                    error_4xx_timestamps.clear()\n                    error_5xx_timestamps.clear()\n\n            line = log_file_handle.readline()\n            if not line:\n                # No new lines, wait and check again\n                time.sleep(CHECK_INTERVAL_SECONDS)\n                continue\n\n            decoded_line = line.strip().decode('utf-8', errors='ignore')\n            match = APACHE_LOG_PATTERN.match(decoded_line)\n\n            if match:\n                status_code = int(match.group(4))\n                current_time = time.time()\n\n                # Clean up old timestamps from deques\n                while error_4xx_timestamps and error_4xx_timestamps[0] <= current_time - ALERT_WINDOW_SECONDS:\n                    error_4xx_timestamps.popleft()\n                while error_5xx_timestamps and error_5xx_timestamps[0] <= current_time - ALERT_WINDOW_SECONDS:\n                    error_5xx_timestamps.popleft()\n\n                # Process status codes and check for alerts\n                if 400 <= status_code < 500:\n                    error_4xx_timestamps.append(current_time)\n                    print(f\"[{time.ctime()}] Detected 4xx error. Current 4xx count: {len(error_4xx_timestamps)}\")\n                    if len(error_4xx_timestamps) >= ALERT_THRESHOLD_4XX:\n                        message = (\n                            f\"*🚨 Apache 4xx Error Alert!* ({len(error_4xx_timestamps)} errors in {ALERT_WINDOW_SECONDS}s)\\n\\n\"\n                            f\"Details of last error:\\n`{decoded_line}`\"\n                        )\n                        send_telegram_message(message)\n                        error_4xx_timestamps.clear() # Reset after alert to prevent repeated alerts for the same burst\n\n                elif 500 <= status_code < 600:\n                    error_5xx_timestamps.append(current_time)\n                    print(f\"[{time.ctime()}] Detected 5xx error. Current 5xx count: {len(error_5xx_timestamps)}\")\n                    if len(error_5xx_timestamps) >= ALERT_THRESHOLD_5XX:\n                        message = (\n                            f\"*🔥 CRITICAL Apache 5xx Error Alert!* ({len(error_5xx_timestamps)} errors in {ALERT_WINDOW_SECONDS}s)\\n\\n\"\n                            f\"Details of last error:\\n`{decoded_line}`\"\n                        )\n                        send_telegram_message(message)\n                        error_5xx_timestamps.clear() # Reset after alert\n\n        except FileNotFoundError:\n            print(f\"[{time.ctime()}] Error: Log file not found at {APACHE_LOG_FILE}. Retrying in {CHECK_INTERVAL_SECONDS} seconds.\")\n            log_file_handle = None # Force re-opening\n            time.sleep(CHECK_INTERVAL_SECONDS)\n        except PermissionError:\n            print(f\"[{time.ctime()}] Error: Permission denied to read {APACHE_LOG_FILE}. Ensure script has read access. Retrying in {CHECK_INTERVAL_SECONDS} seconds.\")\n            log_file_handle = None\n            time.sleep(CHECK_INTERVAL_SECONDS)\n        except Exception as e:\n            print(f\"[{time.ctime()}] An unexpected error occurred: {e}\")\n            if log_file_handle:\n                log_file_handle.close()\n            log_file_handle = None # Force re-opening on next iteration\n            time.sleep(CHECK_INTERVAL_SECONDS)\n\n# --- Script Entry Point ---\nif __name__ == \"__main__\":\n    monitor_apache_logs()\n```\n\n---\n\n### How to Run the Script\n\n#### 1. Update Configuration\nOpen `apache_log_monitor.py` and modify these lines with your specific details:\n\n```python\nAPACHE_LOG_FILE = '/var/log/apache2/access.log' # Your Apache access log path\nTELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'  # Your bot token\nTELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID'      # Your chat ID\n```\n\n#### 2. Run from Terminal (for testing)\n```bash\npython3 apache_log_monitor.py\n```\nYou should see output indicating the script is starting. If there are errors in your log or you generate some (e.g., by visiting a non-existent page on your server), you should see corresponding messages in the terminal and receive Telegram alerts.\n\n#### 3. Run as a Background Service (Recommended for Production)\n\nFor continuous monitoring, it's best to run this script as a systemd service (on Linux systems).\n\n1.  **Create a Service File:**\n    Create a file named `/etc/systemd/system/apache-log-monitor.service` with the following content. Replace `/path/to/your/script/` with the actual directory where you saved `apache_log_monitor.py`.\n\n    ```ini\n    [Unit]\n    Description=Apache Log Monitor and Telegram Alerter\n    After=network.target\n\n    [Service]\n    User=nobody # Or a less privileged user, e.g., 'www-data' or 'apache'\n    Group=nogroup # Or the group of the chosen user\n    WorkingDirectory=/path/to/your/script/\n    ExecStart=/usr/bin/python3 /path/to/your/script/apache_log_monitor.py\n    Restart=always\n    RestartSec=10\n\n    StandardOutput=journal\n    StandardError=journal\n\n    [Install]\n    WantedBy=multi-user.target\n    ```\n    *   **`User`/`Group`**: The user and group specified here must have *read access* to your Apache log file (`APACHE_LOG_FILE`). You might need to adjust them (e.g., `User=www-data` or `User=root` if `nobody` doesn't have permissions, though `root` is generally not recommended for security).\n    *   **`WorkingDirectory`**: The directory where `apache_log_monitor.py` is located.\n    *   **`ExecStart`**: The full path to your Python interpreter and script.\n\n2.  **Reload systemd, Enable, and Start the Service:**\n    ```bash\n    sudo systemctl daemon-reload\n    sudo systemctl enable apache-log-monitor.service\n    sudo systemctl start apache-log-monitor.service\n    ```\n\n3.  **Check Service Status and Logs:**\n    ```bash\n    sudo systemctl status apache-log-monitor.service\n    journalctl -u apache-log-monitor.service -f\n    ```\n    The `journalctl -f` command will show you the real-time output of your script, including print statements and errors.\n\n---\n\n### Testing the Script\n\n1.  **Generate 4xx Errors:**\n    From your web browser or `curl`, try accessing non-existent pages on your Apache server:\n    ```bash\n    curl http://your-server-ip/non-existent-page-123\n    curl http://your-server-ip/another-bad-url\n    # Repeat this several times within ALERT_WINDOW_SECONDS to trigger the alert\n    ```\n\n2.  **Generate 5xx Errors (Requires a misconfiguration or broken script):**\n    *   **PHP Example:** Create a PHP file like `error.php` in your web root with just `<?php parse_error_here; ?>` (syntax error). Access it.\n    *   **Python/CGI Example:** Create a Python CGI script that intentionally raises an exception.\n    *   **Temporarily Stop Backend:** If Apache is configured as a reverse proxy, temporarily stop the backend application server. Requests to the proxied path might result in 502/503 errors.\n\n    When you trigger enough errors within the configured window, you should receive a Telegram alert from your bot.",
     "ig_handle": "ring.seoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": "23:00 - Late",
-      "sat": "23:00 - Late",
-      "sun": null
-    },
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-16T17:10:31.819763+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/ring.seoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/ring.seoul/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=9717654881240194996",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/ring.seoul",
-      "homepage": null,
-      "booking": null,
-      "google_map": null
+      "google_map": "https://maps.google.com/?cid=9717654881240194996"
     },
     "contacts": {
-      "phone": null,
-      "email": "ringunderground@gmail.com"
+      "email": null,
+      "phone": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
+    "handle": "ring.seoul",
     "locations": [
       {
         "location_id": "main",
-        "name": "RING",
-        "address_text": "2F, 165-6, Itaewon-ro, Yongsan-gu, Seoul, South Korea",
-        "address_components": {
-          "street": "Itaewon-ro 165-6 2F",
-          "district": "Yongsan-gu",
-          "city": "Seoul",
-          "postal_code": null,
-          "country": "South Korea"
-        },
-        "location_lat": null,
-        "location_lon": null,
+        "name": "Ring Seoul",
+        "address_text": "서울 용산구 이태원동 이태원로 165-6 2층",
+        "address_components": null,
+        "location_lat": 37.5347510761074,
+        "location_lon": 126.992536017243,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "RING",
-            "ko": "링"
+            "en": "Ring Seoul",
+            "ko": "링 서울"
           },
           "address_text": {
-            "en": "2F, 165-6, Itaewon-ro, Yongsan-gu, Seoul, South Korea",
-            "ko": "서울 용산구 이태원로 165-6 2층"
+            "en": "2F, 165-6, Itaewon-ro, Itaewon-dong, Yongsan-gu, Seoul, South Korea",
+            "ko": "서울 용산구 이태원동 이태원로 165-6 2층"
           },
           "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-11-07",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram_profile_ring.seoul",
-      "maps:https://maps.google.com/?cid=9717654881240194996",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
     "i18n": {
       "name": {
-        "en": "RING",
-        "ko": "링"
+        "en": "Ring Seoul",
+        "ko": "링 서울"
       },
       "address_text": null,
       "notes": null,
@@ -1053,50 +501,61 @@
     }
   },
   {
+    "raw": "INSERT INTO users (id, name, email, created_at, is_active)\nVALUES (1, 'John Doe', 'john.doe@example.com', '2023-10-26T10:00:00Z', TRUE);",
     "ig_handle": "shelterseoul_",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": "23:00-late",
-      "sat": "23:00-late",
-      "sun": null
-    },
-    "typical_show_times": null,
-    "genres": [
-      "Contemporary Dance Music"
+    "last_analyzed_at": "2025-11-16T17:13:43.157405+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=16801646719980597416",
+      "maps:https://maps.google.com/?cid=3199657190972966973",
+      "maps:https://maps.google.com/?cid=11768540160292897543",
+      "maps:https://maps.google.com/?cid=11078085661269842013",
+      "maps:https://maps.google.com/?cid=11614429852695915840",
+      "maps:https://maps.google.com/?cid=16216819823189435488",
+      "maps:https://maps.google.com/?cid=4934047192252164666",
+      "maps:https://maps.google.com/?cid=5719094446149133973",
+      "maps:https://maps.google.com/?cid=14787317685547704417",
+      "maps:https://maps.google.com/?cid=12860016134613869343",
+      "maps:https://maps.google.com/?cid=550234504920290008",
+      "maps:https://maps.google.com/?cid=3200882647152115010",
+      "maps:https://maps.google.com/?cid=13553780792761557370",
+      "maps:https://maps.google.com/?cid=7589105347768904964",
+      "maps:https://maps.google.com/?cid=7522662522058867349",
+      "maps:https://maps.google.com/?cid=14206309200209649137",
+      "maps:https://maps.google.com/?cid=12510343126703140127",
+      "maps:https://maps.google.com/?cid=291822299032021928",
+      "maps:https://maps.google.com/?cid=10737787198077611632",
+      "maps:https://maps.google.com/?cid=14942600855301534434",
+      "maps:https://maps.google.com/?cid=1901033225307436492",
+      "maps:https://maps.google.com/?cid=12856532126607623482",
+      "gemini:enrich"
     ],
-    "websites": null,
     "links": {
       "instagram": "https://www.instagram.com/shelterseoul_",
       "homepage": null,
       "booking": null,
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=1901033225307436492",
       "naver_map": "https://naver.me/GJTnHPUg"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
+    "subway_nearby": "6호선 이태원역 1번 출구에서 90m",
     "locations": [
       {
         "location_id": "main",
-        "name": "𝐒𝐡𝐞𝐥𝐭𝐞𝐫",
+        "name": "Shelter",
         "address_text": "서울 용산구 이태원동 119-8 5층",
         "address_components": null,
         "location_lat": 37.5348538239035,
         "location_lon": 126.993089838224,
-        "subway_nearby": null,
+        "subway_nearby": "6호선 이태원역 1번 출구에서 90m",
         "booking_link": null,
         "notes": null,
         "i18n": {
@@ -1105,93 +564,13 @@
             "ko": "쉘터"
           },
           "address_text": {
-            "en": "5th Floor, 119-8 Itaewon-dong, Yongsan District, Seoul, South Korea",
+            "en": "5th Floor, 119-8, Itaewon-dong, Yongsan District, Seoul, South Korea",
             "ko": "서울 용산구 이태원동 119-8 5층"
           },
           "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-11-07",
-    "confidence": 1,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram_profile",
-      "maps:https://maps.google.com/?cid=4138091427305009872",
-      "maps:https://maps.google.com/?cid=12856532126607623482",
-      "maps:https://maps.google.com/?cid=1901033225307436492",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
-    "handle": "shelterseoul_",
-    "analyzed": {
-      "ig_handle": "shelterseoul_",
-      "name": "𝐒𝐡𝐞𝐥𝐭𝐞𝐫",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": "23:00-late",
-        "sat": "23:00-late",
-        "sun": null
-      },
-      "typical_show_times": null,
-      "genres": [
-        "Contemporary Dance Music"
-      ],
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/shelterseoul_",
-        "homepage": null,
-        "booking": null,
-        "google_map": null
-      },
-      "contacts": {
-        "phone": null,
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": null,
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "𝐒𝐡𝐞𝐥𝐭𝐞𝐫",
-          "address_text": "서울 용산구 이태원동 119-8 5층",
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "Shelter",
-              "ko": "쉘터"
-            },
-            "address_text": {
-              "en": "5th Floor, 119-8 Itaewon-dong, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 이태원동 119-8 5층"
-            },
-            "notes": null
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-07",
-      "confidence": 1,
-      "extraction_version": "1.0",
-      "sources": [
-        "instagram_profile"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.1"
-    },
     "i18n": {
       "name": {
         "en": "Shelter",
@@ -1199,49 +578,68 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Contemporary Dance Music"
-        ],
-        "ko": [
-          "현대 댄스 음악"
-        ]
+      "genres": null,
+      "subway_nearby": {
+        "en": "90m from Itaewon Station Exit 1 (Line 6)",
+        "ko": "6호선 이태원역 1번 출구에서 90m"
       },
-      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "6호선 이태원역 1번 출구에서 90m"
+    }
   },
   {
+    "raw": "To convert a list of dictionaries into a Pandas DataFrame, you can directly pass the list to the `pd.DataFrame()` constructor. Pandas will automatically use the keys of the dictionaries as column names and the dictionary values as row data.\n\nHere's how:\n\n```python\nimport pandas as pd\n\n# Your list of dictionaries\nsample_data = [\n    {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"},\n    {\"name\": \"Bob\", \"age\": 24, \"city\": \"Los Angeles\"},\n    {\"name\": \"Charlie\", \"age\": 35, \"city\": \"Chicago\"},\n    {\"name\": \"David\", \"age\": 29, \"city\": \"Houston\", \"occupation\": \"Engineer\"} # Example with an extra key\n]\n\n# Convert the list of dictionaries to a Pandas DataFrame\ndf = pd.DataFrame(sample_data)\n\n# Print the DataFrame to see the result\nprint(df)\n```\n\n**Explanation:**\n\n1.  **`import pandas as pd`**: Imports the pandas library, which is essential for working with DataFrames.\n2.  **`sample_data = [...]`**: Defines your list, where each dictionary represents a row of data.\n3.  **`df = pd.DataFrame(sample_data)`**: This is the core step. The `pd.DataFrame()` constructor is smart enough to iterate through the list of dictionaries. For each dictionary, it takes the keys as potential column headers and populates the corresponding row with the values.\n\n**Handling Missing Keys (Uneven Dictionaries):**\n\nIf some dictionaries in your list have keys that others don't, Pandas will automatically fill those missing values with `NaN` (Not a Number), which is Pandas' way of representing missing data.\n\nIn the example above, \"David\" has an `occupation` key. For Alice, Bob, and Charlie, the `occupation` column will show `NaN`:\n\n```\n      name  age         city occupation\n0    Alice   30     New York        NaN\n1      Bob   24  Los Angeles        NaN\n2  Charlie   35      Chicago        NaN\n3    David   29      Houston   Engineer\n```",
     "ig_handle": "soapseoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-16T17:11:27.993562+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=9880765147606845981",
+      "maps:https://maps.google.com/?cid=13453150423050779485",
+      "maps:https://maps.google.com/?cid=9831315862554584502",
+      "maps:https://maps.google.com/?cid=13185482377597148717",
+      "maps:https://maps.google.com/?cid=16108268535551864516",
+      "maps:https://maps.google.com/?cid=12048449921799397969",
+      "maps:https://maps.google.com/?cid=4228491159520379815",
+      "maps:https://maps.google.com/?cid=7991778792212958670",
+      "maps:https://maps.google.com/?cid=14157164969880763782",
+      "maps:https://maps.google.com/?cid=1948938174628590395",
+      "maps:https://maps.google.com/?cid=8921052641175848847",
+      "maps:https://maps.google.com/?cid=11937029975349132991",
+      "maps:https://maps.google.com/?cid=15749309888857244679",
+      "maps:https://maps.google.com/?cid=1629884300631888791",
+      "maps:https://maps.google.com/?cid=17739175920461882472",
+      "maps:https://maps.google.com/?cid=3563469875582750829",
+      "maps:https://maps.google.com/?cid=11290725967110225705",
+      "maps:https://maps.google.com/?cid=9295603088565694458",
+      "maps:https://maps.google.com/?cid=5855197883733786789",
+      "maps:https://maps.google.com/?cid=12407076121545963095",
+      "maps:https://maps.google.com/?cid=16383130378110450541",
+      "maps:https://maps.google.com/?cid=5762565306187319729",
+      "maps:https://maps.google.com/?cid=13513342681751609197",
+      "maps:https://maps.google.com/?cid=15889671944773142925",
+      "maps:https://maps.google.com/?cid=9160318662639849433",
+      "gemini:enrich"
+    ],
     "links": {
-      "instagram": null,
-      "homepage": null,
+      "instagram": "https://www.instagram.com/soapseoul",
+      "homepage": "http://youtube.com/@soapseoul",
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=9880765147606845981"
+      "google_map": "https://maps.google.com/?cid=9880765147606845981",
+      "naver_map": "https://naver.me/FivKX4oD"
     },
     "contacts": {
       "phone": "070-4457-6860",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "Soap",
+        "name": "Soap Seoul",
         "address_text": "132-3 Itaewon-dong, Yongsan District, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
@@ -1251,8 +649,8 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Soap",
-            "ko": "소프"
+            "en": "Soap Seoul",
+            "ko": "Soap Seoul"
           },
           "address_text": {
             "en": "132-3 Itaewon-dong, Yongsan District, Seoul, South Korea",
@@ -1262,398 +660,162 @@
         }
       }
     ],
-    "last_analyzed_at": "2025-11-07",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=9880765147606845981",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
-    "handle": "soapseoul",
-    "analyzed": {
-      "ig_handle": "soapseoul",
-      "name": "Soap",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": null,
-      "typical_show_times": null,
-      "genres": null,
-      "websites": null,
-      "links": {
-        "instagram": null,
-        "homepage": null,
-        "booking": null,
-        "google_map": "https://maps.google.com/?cid=9880765147606845981"
-      },
-      "contacts": {
-        "phone": "070-4457-6860",
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": null,
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Soap",
-          "address_text": "132-3 Itaewon-dong, Yongsan District, Seoul, South Korea",
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": null,
-          "i18n": {
-            "name": {
-              "en": "Soap",
-              "ko": "소프"
-            },
-            "address_text": {
-              "en": "132-3 Itaewon-dong, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 이태원동 132-3"
-            },
-            "notes": null
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-07",
-      "confidence": 1.0,
-      "extraction_version": "1.0",
-      "sources": [
-        "instagram"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.1"
-    },
     "i18n": {
       "name": {
-        "en": "Soap",
-        "ko": "소프"
+        "en": "Soap Seoul",
+        "ko": "Soap Seoul"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Night Club",
+          "Live Music"
+        ],
+        "ko": [
+          "나이트클럽",
+          "라이브 음악"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "경의중앙신촌역 1번 출구에서 284m\n미터"
   },
   {
+    "raw": "I have received the special instruction: \"think silently if needed.\"\n\nThere is no further prompt or task provided. Therefore, I have nothing to generate as a response beyond this acknowledgement.",
     "ig_handle": "theedgeseoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": "8PM-1AM/LATE",
-      "sat": "8PM-1AM/LATE",
-      "sun": null
-    },
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-16T17:11:43.610319+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/theedgeseoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/theedgeseoul/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=10999242426785382585",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/theedgeseoul",
       "homepage": null,
       "booking": null,
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=10999242426785382585",
       "naver_map": "https://naver.me/GQ15wUsM"
     },
     "contacts": {
       "phone": "02-2276-0302",
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
+    "genres": [
+      "Bar"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "THE EDGE",
+        "name": "The Edge",
         "address_text": "서울 중구 을지로12길 8 삼진빌딩 3층",
-        "address_components": {
-          "street": "을지로12길 8 삼진빌딩 3층",
-          "district": "중구",
-          "city": "서울",
-          "postal_code": null,
-          "country": "South Korea"
-        },
+        "address_components": null,
         "location_lat": 37.5659649840009,
         "location_lon": 126.991077289945,
-        "subway_nearby": null,
+        "subway_nearby": "2, 3호선 을지로3가역 10번 출구에서 119m",
         "booking_link": null,
-        "notes": "DAYTIME: @clique_records. 1F & B1 CLOSED SINCE MAY 24.",
+        "notes": "예약 가능.",
         "i18n": {
           "name": {
-            "en": "THE EDGE",
+            "en": "The Edge",
             "ko": "더 엣지"
           },
           "address_text": {
-            "en": "3rd Floor, 8, Eulji-ro 12-gil, Jung District, Seoul, South Korea",
+            "en": "3rd Floor, Samjin Building, 8, Eulji-ro 12-gil, Jung District, Seoul, South Korea",
             "ko": "서울 중구 을지로12길 8 삼진빌딩 3층"
           },
           "notes": {
-            "en": "DAYTIME: @clique_records. 1F & B1 CLOSED SINCE MAY 24.",
-            "ko": "낮 시간: @clique_records. 1층 및 지하 1층 5월 24일부터 폐쇄."
+            "en": "Reservations available.",
+            "ko": "예약 가능."
           }
         }
       }
     ],
-    "last_analyzed_at": "2025-11-07T23:49:41.315486+09:00",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=10999242426785382585",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
-    "handle": "theedgeseoul",
-    "analyzed": {
-      "ig_handle": "theedgeseoul",
-      "name": "THE EDGE",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": "8PM-1AM/LATE",
-        "sat": "8PM-1AM/LATE",
-        "sun": null
-      },
-      "typical_show_times": null,
-      "genres": null,
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/theedgeseoul",
-        "homepage": null,
-        "booking": null,
-        "google_map": null
-      },
-      "contacts": {
-        "phone": "02-2276-0302",
-        "email": null
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": "MUSIC & DRINKS SINCE 2017",
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "THE EDGE",
-          "address_text": "서울 중구 을지로12길 8 삼진빌딩 3층",
-          "address_components": {
-            "street": "을지로12길 8 삼진빌딩 3층",
-            "district": "중구",
-            "city": "서울",
-            "postal_code": null,
-            "country": "South Korea"
-          },
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": "DAYTIME: @clique_records. 1F & B1 CLOSED SINCE MAY 24.",
-          "i18n": {
-            "name": {
-              "en": "THE EDGE",
-              "ko": "더 엣지"
-            },
-            "address_text": {
-              "en": "3rd Floor, 8, Eulji-ro 12-gil, Jung District, Seoul, South Korea",
-              "ko": "서울 중구 을지로12길 8 삼진빌딩 3층"
-            },
-            "notes": {
-              "en": "DAYTIME: @clique_records. 1F & B1 CLOSED SINCE MAY 24.",
-              "ko": "낮 시간: @clique_records. 1층 및 지하 1층 5월 24일부터 폐쇄."
-            }
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-07T23:49:41.315486+09:00",
-      "confidence": 1.0,
-      "extraction_version": "1.0",
-      "sources": [
-        "instagram"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.1"
-    },
     "i18n": {
       "name": {
-        "en": "THE EDGE",
+        "en": "The Edge",
         "ko": "더 엣지"
       },
       "address_text": null,
       "notes": {
-        "en": "MUSIC & DRINKS SINCE 2017",
-        "ko": "2017년부터 음악과 음료를 제공합니다"
+        "en": "Reservations available.",
+        "ko": "예약 가능."
       },
-      "genres": null,
-      "subway_nearby": null,
+      "genres": {
+        "en": [
+          "Bar"
+        ],
+        "ko": [
+          "바"
+        ]
+      },
+      "subway_nearby": {
+        "en": "119m walk from Euljiro 3-ga Station Exit 10 (Line 2, 3)",
+        "ko": "2, 3호선 을지로3가역 10번 출구에서 119m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "2, 3호선 을지로3가역 10번 출구에서 119m"
+    }
   },
   {
+    "raw": "It seems there might be a slight misunderstanding or a missing piece of information.\n\nYou've asked me to explain my thinking process to arrive at the solution for a \"special instruction\" problem. However, you haven't actually provided me with a \"special instruction\" problem to solve yet.\n\nTherefore, I don't have a problem *to* explain my thinking process for at this moment.\n\n**To help me, please provide the actual \"special instruction\" problem you'd like me to address.** Once you give me the problem, I will then be able to walk you through my thought process for understanding it, breaking it down, generating a solution, and presenting it.",
     "ig_handle": "volnostseoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": "21:00-02:00",
-      "fri": "23:00-TILL END",
-      "sat": "23:00-TILL END",
-      "sun": null
-    },
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-16T17:12:21.841924+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/volnostseoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/volnostseoul/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=528081830924855418",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/volnostseoul",
       "homepage": null,
       "booking": null,
-      "google_map": null
+      "google_map": "https://maps.google.com/?cid=528081830924855418"
     },
     "contacts": {
-      "phone": null,
-      "email": "volnostseoul@gmail.com"
+      "phone": "010-5004-4944",
+      "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "Volnost",
-        "address_text": "142 Itaewon-ro, Yongsan District, Seoul, South Korea",
+        "name": "Volnost Seoul",
+        "address_text": "서울 용산구 이태원로 142",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.5340467207817,
+        "location_lon": 126.989587632675,
         "subway_nearby": null,
         "booking_link": null,
-        "notes": "Thursday operations are BAR ONLY.",
+        "notes": null,
         "i18n": {
           "name": {
-            "en": "Volnost",
-            "ko": "볼노스트"
+            "en": "Volnost Seoul",
+            "ko": "볼노스트 서울"
           },
           "address_text": {
             "en": "142 Itaewon-ro, Yongsan District, Seoul, South Korea",
             "ko": "서울 용산구 이태원로 142"
           },
-          "notes": {
-            "en": "Thursday operations are BAR ONLY.",
-            "ko": "목요일은 BAR 운영만 합니다."
-          }
+          "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2025-11-07",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "instagram",
-      "maps:https://maps.google.com/?cid=528081830924855418",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
-    "handle": "volnostseoul",
-    "analyzed": {
-      "ig_handle": "volnostseoul",
-      "name": "Volnost",
-      "address_text": null,
-      "address_components": null,
-      "location_lat": null,
-      "location_lon": null,
-      "subway_nearby": null,
-      "opening_hours": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": "21:00-02:00",
-        "fri": "23:00-TILL END",
-        "sat": "23:00-TILL END",
-        "sun": null
-      },
-      "typical_show_times": null,
-      "genres": null,
-      "websites": null,
-      "links": {
-        "instagram": "https://www.instagram.com/volnostseoul",
-        "homepage": null,
-        "booking": null,
-        "google_map": null
-      },
-      "contacts": {
-        "phone": null,
-        "email": "volnostseoul@gmail.com"
-      },
-      "food_policy": null,
-      "age_limit": null,
-      "dress_code": null,
-      "notes": null,
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "Volnost",
-          "address_text": "142 Itaewon-ro, Yongsan District, Seoul, South Korea",
-          "address_components": null,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": "Thursday operations are BAR ONLY.",
-          "i18n": {
-            "name": {
-              "en": "Volnost",
-              "ko": "볼노스트"
-            },
-            "address_text": {
-              "en": "142 Itaewon-ro, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 이태원로 142"
-            },
-            "notes": {
-              "en": "Thursday operations are BAR ONLY.",
-              "ko": "목요일은 BAR 운영만 합니다."
-            }
-          }
-        }
-      ],
-      "last_analyzed_at": "2025-11-07",
-      "confidence": 1.0,
-      "extraction_version": "1.0",
-      "sources": [
-        "instagram"
-      ],
-      "prompt_name": "venue_profile_analyze",
-      "prompt_version": "2.1.1"
-    },
     "i18n": {
       "name": {
-        "en": "Volnost",
-        "ko": "볼노스트"
+        "en": "Volnost Seoul",
+        "ko": "볼노스트 서울"
       },
       "address_text": null,
       "notes": null,
@@ -1664,78 +826,70 @@
     }
   },
   {
+    "raw": "To perform multiplication without using the `*` operator or explicit loops, the most common and elegant way is to use **recursion**, leveraging the definition of multiplication as repeated addition.\n\nHere's how we can implement it, handling positive, negative, and zero inputs:\n\n```python\ndef special_multiply(a, b):\n    \"\"\"\n    Multiplies two numbers 'a' and 'b' without using the '*' operator or loops.\n    Uses recursion and repeated addition/subtraction.\n\n    Args:\n        a (int): The first number.\n        b (int): The second number.\n\n    Returns:\n        int: The product of a and b.\n    \"\"\"\n\n    # Base case: If either number is zero, the product is zero.\n    if a == 0 or b == 0:\n        return 0\n\n    # Handle the sign of 'b'.\n    # If 'b' is negative, we can multiply 'a' by the absolute value of 'b'\n    # and then negate the final result.\n    if b < 0:\n        return -special_multiply(a, -b) # -b makes it positive, then negate result\n\n    # Now 'b' is guaranteed to be positive.\n    # We use recursion to add 'a' to itself 'b' times.\n    # The current 'a' is added to the result of 'a' multiplied by (b-1).\n    return a + special_multiply(a, b - 1)\n\n# --- Test Cases ---\nprint(f\"5 * 3 = {special_multiply(5, 3)}\")       # Expected: 15\nprint(f\"2 * 0 = {special_multiply(2, 0)}\")       # Expected: 0\nprint(f\"0 * 7 = {special_multiply(0, 7)}\")       # Expected: 0\nprint(f\"4 * 1 = {special_multiply(4, 1)}\")       # Expected: 4\nprint(f\"1 * 6 = {special_multiply(1, 6)}\")       # Expected: 6\nprint(f\"8 * -2 = {special_multiply(8, -2)}\")     # Expected: -16\nprint(f\"-5 * 4 = {special_multiply(-5, 4)}\")     # Expected: -20\nprint(f\"-6 * -3 = {special_multiply(-6, -3)}\")   # Expected: 18\nprint(f\"-1 * -1 = {special_multiply(-1, -1)}\")   # Expected: 1\nprint(f\"10 * 10 = {special_multiply(10, 10)}\")   # Expected: 100\n```\n\n**Explanation:**\n\n1.  **Base Case (`if a == 0 or b == 0: return 0`):**\n    *   Any number multiplied by zero is zero. This is crucial for stopping the recursion.\n\n2.  **Handling Negative `b` (`if b < 0: return -special_multiply(a, -b)`):**\n    *   Multiplication is commutative: `a * b` is the same as `b * a`.\n    *   We can simplify handling negative `b` by turning it positive (`-b`) and then negating the final result of `a * |b|`.\n    *   Example: `5 * -3` becomes `-(5 * 3)`. The recursive call `special_multiply(5, -3)` first translates to `-special_multiply(5, 3)`.\n\n3.  **Recursive Step (`return a + special_multiply(a, b - 1)`):**\n    *   This is the core of the repeated addition.\n    *   If `b` is positive (which it is at this point, after step 2), `a * b` can be defined as `a + (a * (b - 1))`.\n    *   Example: `special_multiply(5, 3)`\n        *   `5 + special_multiply(5, 2)`\n        *   `5 + (5 + special_multiply(5, 1))`\n        *   `5 + (5 + (5 + special_multiply(5, 0)))`\n        *   `5 + (5 + (5 + 0))` (Base case `special_multiply(5, 0)` returns 0)\n        *   `5 + (5 + 5)`\n        *   `5 + 10`\n        *   `15`\n\nThis approach effectively builds up the product by repeatedly adding `a` (or subtracting `a` if `a` is negative) `|b|` times, without using `*` or an explicit loop structure.",
     "ig_handle": "vurt_seoul",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": "11PM",
-      "sat": "11PM",
-      "sun": null
-    },
-    "typical_show_times": null,
-    "genres": null,
-    "websites": null,
+    "last_analyzed_at": "2025-11-16T17:18:53.665182+09:00",
+    "confidence": 1.0,
+    "extraction_version": "2.1.2",
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.4.1",
+    "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/vurt_seoul/profile/2025-11-09/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/vurt_seoul/profile/2025-11-07/profile.json",
+      "maps:https://maps.google.com/?cid=10335247956606384431",
+      "gemini:enrich"
+    ],
     "links": {
       "instagram": "https://www.instagram.com/vurt_seoul",
-      "homepage": null,
-      "booking": "https://docs.google.com/forms/d/14lyteri2VuW6JMA_SNo9ojpxiYv2kbZAqBP2fcba5yQ/edit",
-      "google_map": null
+      "homepage": "https://docs.google.com/forms/d/14lyteri2VuW6JMA_SNo9ojpxiYv2kbZAqBP2fcba5yQ/edit",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=10335247956606384431"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": null,
     "locations": [
       {
         "location_id": "main",
-        "name": "vurt",
-        "address_text": "서울 마포구 합정동 동막로",
+        "name": "club vurt",
+        "address_text": "Dongmak-ro, 합정동 Mapo-gu, Seoul, South Korea",
         "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": null,
-        "booking_link": "https://docs.google.com/forms/d/14lyteri2VuW6JMA_SNo9ojpxiYv2kbZAqBP2fcba5yQ/edit",
+        "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Vurt",
-            "ko": "버트"
+            "en": "Club Vurt",
+            "ko": "클럽 버트"
           },
           "address_text": {
             "en": "Dongmak-ro, Hapjeong-dong, Mapo-gu, Seoul, South Korea",
-            "ko": "서울 마포구 합정동 동막로"
+            "ko": "서울 마포구 합정동 독막로"
           },
           "notes": null
         }
       }
     ],
-    "last_analyzed_at": "2024-07-28T12:00:00Z",
-    "confidence": 1.0,
-    "extraction_version": "1.0",
-    "sources": [
-      "vurt_seoul",
-      "maps:https://maps.google.com/?cid=10335247956606384431",
-      "gemini:enrich"
-    ],
-    "prompt_name": "venue_profile_enrich",
-    "prompt_version": "2.4.0",
     "i18n": {
       "name": {
-        "en": "Vurt",
-        "ko": "버트"
+        "en": "Club Vurt",
+        "ko": "클럽 버트"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Night Club",
+          "Live Music"
+        ],
+        "ko": [
+          "나이트클럽",
+          "라이브 음악"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null

@@ -2224,6 +2224,32 @@
     }
   },
   {
+    "id": "evt_20251121_1b959e1d-f43b-43b8-8c21-e0382f93f570",
+    "event_key": "v:ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5|t:2025-11-21T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ticotico Band Quartet",
+    "description": "Ticotico Band Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ticotico Band Quartet",
+      "description": "Ticotico Band Quartet performance."
+    },
+    "_search_ko": {
+      "title": "티코티코 밴드 퀄텟",
+      "description": "티코티코 밴드 퀄텟 공연."
+    }
+  },
+  {
     "id": "evt_20251121_7508edc6-b667-4157-98ed-b22364f5d60b",
     "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-21T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3kdLTgdu0/",
@@ -2786,7 +2812,7 @@
   {
     "id": "evt_20251121_df230d79-f31b-45a6-a9ee-8267e11fb3b7",
     "event_key": "v:ven_9eb0aeb7-cbf4-42c2-8f0a-43d9c5ca97cd|t:2025-11-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQt4MSAj2tw/",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
     "venue_handle": "pungjane2021",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -2805,7 +2831,7 @@
       "description": "Lee Sung-ho Band performance."
     },
     "_search_ko": {
-      "title": "이성호밴드",
+      "title": "이성호 밴드",
       "description": "이성호밴드 공연."
     }
   },
@@ -2859,6 +2885,32 @@
     "_search_ko": {
       "title": "이상민",
       "description": "이상민의 공연."
+    }
+  },
+  {
+    "id": "evt_20251121_d38084db-196d-4128-adba-c03ac4c33940",
+    "event_key": "v:ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5|t:2025-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHcVrxD4Bw/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:00:00+00:00",
+    "price": "KRW 9,000",
+    "llm_confidence": 1.0,
+    "title": "Tico Tico Band",
+    "description": "Live jazz performance. Reservations via Catchtable. Performance fee KRW 9,000.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Tico Tico Band",
+      "description": "Live jazz performance. Reservations via Catchtable. Performance fee KRW 9,000."
+    },
+    "_search_ko": {
+      "title": "티코티코 밴드",
+      "description": "라이브 재즈 공연. 예약은 캐치테이블. 공연비 9,000원."
     }
   },
   {
@@ -3388,6 +3440,32 @@
     }
   },
   {
+    "id": "evt_20251122_2cc275e6-407d-4fe4-ab16-1bc19b3a50ff",
+    "event_key": "v:ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5|t:2025-11-22T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Knockin' Jazz Quintet",
+    "description": "Knockin' Jazz Quintet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Knockin' Jazz Quintet",
+      "description": "Knockin' Jazz Quintet performance."
+    },
+    "_search_ko": {
+      "title": "노킹 재즈 퀸텟",
+      "description": "노킹 재즈 퀸텟 공연."
+    }
+  },
+  {
     "id": "evt_20251122_33a767f3-cd07-427a-8dec-c52a981ade59",
     "event_key": "v:ven_c125f832-6f8a-4db5-b2d5-1a2c9673451b|t:2025-11-22T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjdc8bEZag/",
@@ -3844,7 +3922,7 @@
   {
     "id": "evt_20251122_092eee8a-8cd5-48fa-8b8b-bdc2837d262a",
     "event_key": "v:ven_9eb0aeb7-cbf4-42c2-8f0a-43d9c5ca97cd|t:2025-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQt4MSAj2tw/",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
     "venue_handle": "pungjane2021",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -3853,17 +3931,17 @@
     "datetime": "2025-11-22T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Ryu Ingi Band",
+    "title": "Ryu In-gi Band",
     "description": "Ryu Ingi Band performance.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Ryu Ingi Band",
+      "title": "Ryu In-gi Band",
       "description": "Ryu Ingi Band performance."
     },
     "_search_ko": {
-      "title": "류인기밴드",
+      "title": "류인기 밴드",
       "description": "류인기밴드 공연."
     }
   },
@@ -3943,6 +4021,32 @@
     "_search_ko": {
       "title": "임미정",
       "description": "임미정의 공연."
+    }
+  },
+  {
+    "id": "evt_20251122_39882b7d-0300-4abf-a9e1-d8545b73cbd2",
+    "event_key": "v:ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5|t:2025-11-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHcVrxD4Bw/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": "KRW 9,000",
+    "llm_confidence": 1.0,
+    "title": "Jung Jae-won Tenor Madness",
+    "description": "Live jazz performance. Reservations via Catchtable. Performance fee KRW 9,000.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jung Jae-won Tenor Madness",
+      "description": "Live jazz performance. Reservations via Catchtable. Performance fee KRW 9,000."
+    },
+    "_search_ko": {
+      "title": "정재원 테너 매드니스",
+      "description": "라이브 재즈 공연. 예약은 캐치테이블. 공연비 9,000원."
     }
   },
   {
@@ -6643,6 +6747,32 @@
     }
   },
   {
+    "id": "evt_20251128_292a84e5-02b2-450d-ab20-98519271219c",
+    "event_key": "v:ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5|t:2025-11-28T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lukku KIM Jazz Band Quartet",
+    "description": "Lukku KIM Jazz Band Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lukku KIM Jazz Band Quartet",
+      "description": "Lukku KIM Jazz Band Quartet performance."
+    },
+    "_search_ko": {
+      "title": "럭키킴 재즈 밴드 퀄텟",
+      "description": "럭키킴 재즈 밴드 퀄텟 공연."
+    }
+  },
+  {
     "id": "evt_20251128_f70c8211-0829-4512-8e9c-9b5a1332b7a3",
     "event_key": "v:ven_c125f832-6f8a-4db5-b2d5-1a2c9673451b|t:2025-11-28T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjdc8bEZag/",
@@ -7156,7 +7286,7 @@
   {
     "id": "evt_20251128_4dc59e43-166f-4abb-b06e-3f3e359e14c5",
     "event_key": "v:ven_9eb0aeb7-cbf4-42c2-8f0a-43d9c5ca97cd|t:2025-11-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQt4MSAj2tw/",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
     "venue_handle": "pungjane2021",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -7175,7 +7305,7 @@
       "description": "Shim Jae-min Band performance."
     },
     "_search_ko": {
-      "title": "심재민밴드",
+      "title": "심재민 밴드",
       "description": "심재민밴드 공연."
     }
   },
@@ -7681,6 +7811,32 @@
     }
   },
   {
+    "id": "evt_20251129_e1ba36c6-79e1-47cb-a1d9-35dff1853b2d",
+    "event_key": "v:ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5|t:2025-11-29T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
+    "venue_handle": "blueming_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T10:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Daeun Quartet",
+    "description": "Daeun Quartet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Daeun Quartet",
+      "description": "Daeun Quartet performance."
+    },
+    "_search_ko": {
+      "title": "다은 퀄텟",
+      "description": "다은 퀄텟 공연."
+    }
+  },
+  {
     "id": "evt_20251129_cc4a1a43-a1c5-46a6-8d1d-9b44b9ffad0e",
     "event_key": "v:ven_7a5eabd4-18c1-45a5-a383-fba1072726ff|t:2025-11-29T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQn_ulCiWtR/",
@@ -8159,7 +8315,7 @@
   {
     "id": "evt_20251129_294f3540-8f32-489f-9553-cf934c3912cd",
     "event_key": "v:ven_9eb0aeb7-cbf4-42c2-8f0a-43d9c5ca97cd|t:2025-11-29T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQt4MSAj2tw/",
+    "source_url": "https://www.instagram.com/p/DQgfI_9kV1l/",
     "venue_handle": "pungjane2021",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -8178,7 +8334,7 @@
       "description": "Hwang Jeong-won Band performance."
     },
     "_search_ko": {
-      "title": "황정원밴드",
+      "title": "황정원 밴드",
       "description": "황정원밴드 공연."
     }
   },

@@ -399,19 +399,19 @@
     }
   },
   {
-    "raw": "The current date is Monday, October 16, 2023.",
+    "raw": "To calculate the \"special sum\" for a given integer `n`, you need to repeatedly add the sum of its digits to the number itself until the result is a single-digit number (i.e., less than 10).\n\nHere's how you can implement this in Python:\n\n1.  **Helper Function `sum_digits(num)`:** This function will calculate the sum of the digits of any given number.\n2.  **Main Function `special_sum(n)`:** This function will implement the main logic of repeatedly adding the sum of digits until a single-digit number is reached.\n\n```python\ndef sum_digits(num):\n    \"\"\"\n    Calculates the sum of the digits of a given non-negative integer.\n    \"\"\"\n    total = 0\n    # Convert number to its absolute value to handle potential negative inputs,\n    # though the problem implies non-negative.\n    num = abs(num) \n    \n    # If the number is 0, sum of digits is 0\n    if num == 0:\n        return 0\n\n    # Loop while num is greater than 0\n    while num > 0:\n        # Add the last digit to total\n        total += num % 10\n        # Remove the last digit from num\n        num //= 10\n    return total\n\ndef special_sum(n):\n    \"\"\"\n    Calculates the 'special sum' of a non-negative integer n.\n    The special sum is obtained by repeatedly adding the sum of its digits\n    to the number itself, until the result is a single-digit number.\n    \"\"\"\n    current_sum = n\n\n    # Keep looping as long as current_sum is not a single digit\n    # (i.e., it's 10 or greater)\n    while current_sum >= 10:\n        current_sum += sum_digits(current_sum)\n    \n    return current_sum\n\n# --- Test Cases ---\nprint(f\"Special sum of 0: {special_sum(0)}\")    # Expected: 0\nprint(f\"Special sum of 5: {special_sum(5)}\")    # Expected: 5\nprint(f\"Special sum of 10: {special_sum(10)}\")\n# 10 -> 10 + (1+0) = 11\n# 11 -> 11 + (1+1) = 13\n# 13 -> 13 + (1+3) = 17\n# 17 -> 17 + (1+7) = 25\n# 25 -> 25 + (2+5) = 32\n# 32 -> 32 + (3+2) = 37\n# 37 -> 37 + (3+7) = 47\n# 47 -> 47 + (4+7) = 58\n# 58 -> 58 + (5+8) = 71\n# 71 -> 71 + (7+1) = 79\n# 79 -> 79 + (7+9) = 95\n# 95 -> 95 + (9+5) = 109\n# ... and so on until it reaches a single digit.\n# The trace eventually leads to 9.\nprint(f\"Special sum of 123: {special_sum(123)}\")\n# 123 -> 123 + (1+2+3) = 123 + 6 = 129\n# 129 -> 129 + (1+2+9) = 129 + 12 = 141\n# 141 -> 141 + (1+4+1) = 141 + 6 = 147\n# 147 -> 147 + (1+4+7) = 147 + 12 = 159\n# 159 -> 159 + (1+5+9) = 159 + 15 = 174\n# 174 -> 174 + (1+7+4) = 174 + 12 = 186\n# 186 -> 186 + (1+8+6) = 186 + 15 = 201\n# 201 -> 201 + (2+0+1) = 201 + 3 = 204\n# 204 -> 204 + (2+0+4) = 204 + 6 = 210\n# 210 -> 210 + (2+1+0) = 210 + 3 = 213\n# 213 -> 213 + (2+1+3) = 213 + 6 = 219\n# 219 -> 219 + (2+1+9) = 219 + 12 = 231\n# 231 -> 231 + (2+3+1) = 231 + 6 = 237\n# 237 -> 237 + (2+3+7) = 237 + 12 = 249\n# 249 -> 249 + (2+4+9) = 249 + 15 = 264\n# 264 -> 264 + (2+6+4) = 264 + 12 = 276\n# 276 -> 276 + (2+7+6) = 276 + 15 = 291\n# 291 -> 291 + (2+9+1) = 291 + 12 = 303\n# 303 -> 303 + (3+0+3) = 303 + 6 = 309\n# 309 -> 309 + (3+0+9) = 309 + 12 = 321\n# 321 -> 321 + (3+2+1) = 321 + 6 = 327\n# 327 -> 327 + (3+2+7) = 327 + 12 = 339\n# 339 -> 339 + (3+3+9) = 339 + 15 = 354\n# 354 -> 354 + (3+5+4) = 354 + 12 = 366\n# 366 -> 366 + (3+6+6) = 366 + 15 = 381\n# 381 -> 381 + (3+8+1) = 381 + 12 = 393\n# 393 -> 393 + (3+9+3) = 393 + 15 = 408\n# 408 -> 408 + (4+0+8) = 408 + 12 = 420\n# 420 -> 420 + (4+2+0) = 420 + 6 = 426\n# 426 -> 426 + (4+2+6) = 426 + 12 = 438\n# 438 -> 438 + (4+3+8) = 438 + 15 = 453\n# 453 -> 453 + (4+5+3) = 453 + 12 = 465\n# 465 -> 465 + (4+6+5) = 465 + 15 = 480\n# 480 -> 480 + (4+8+0) = 480 + 12 = 492\n# 492 -> 492 + (4+9+2) = 492 + 15 = 507\n# 507 -> 507 + (5+0+7) = 507 + 12 = 519\n# 519 -> 519 + (5+1+9) = 519 + 15 = 534\n# 534 -> 534 + (5+3+4) = 534 + 12 = 546\n# 546 -> 546 + (5+4+6) = 546 + 15 = 561\n# 561 -> 561 + (5+6+1) = 561 + 12 = 573\n# 573 -> 573 + (5+7+3) = 573 + 15 = 588\n# 588 -> 588 + (5+8+8) = 588 + 21 = 609\n# 609 -> 609 + (6+0+9) = 609 + 15 = 624\n# 624 -> 624 + (6+2+4) = 624 + 12 = 636\n# 636 -> 636 + (6+3+6) = 636 + 15 = 651\n# 651 -> 651 + (6+5+1) = 651 + 12 = 663\n# 663 -> 663 + (6+6+3) = 663 + 15 = 678\n# 678 -> 678 + (6+7+8) = 678 + 21 = 699\n# 699 -> 699 + (6+9+9) = 699 + 24 = 723\n# 723 -> 723 + (7+2+3) = 723 + 12 = 735\n# 735 -> 735 + (7+3+5) = 735 + 15 = 750\n# 750 -> 750 + (7+5+0) = 750 + 12 = 762\n# 762 -> 762 + (7+6+2) = 762 + 15 = 777\n# 777 -> 777 + (7+7+7) = 777 + 21 = 798\n# 798 -> 798 + (7+9+8) = 798 + 24 = 822\n# 822 -> 822 + (8+2+2) = 822 + 12 = 834\n# 834 ->",
     "ig_handle": "bar_tican",
-    "last_analyzed_at": "2025-11-09T05:10:10.480861+09:00",
+    "last_analyzed_at": "2025-11-16T05:53:32.096829+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/bar_tican/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=9091986346322140521",
       "gemini:enrich"
     ],
@@ -444,7 +444,7 @@
             "ko": "바 티칸"
           },
           "address_text": {
-            "en": "1st Floor, 62-10 Bangi-dong, Songpa District, Seoul, South Korea",
+            "en": "1st Floor, 62-10, Bangi-dong, Songpa District, Seoul, South Korea",
             "ko": "서울 송파구 방이동 62-10 1층"
           },
           "notes": null
@@ -460,7 +460,7 @@
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "584m from Jamsil Station Exit 10 (Lines 2 & 8)",
+        "en": "584m from Jamsil Station Exit 10 (Line 2, 8)",
         "ko": "2, 8호선 잠실역 10번 출구에서 584m"
       },
       "food_policy": null,
@@ -1017,39 +1017,29 @@
     "_note": "Corrected from bad Gemini enrichment that said 서울 중구 신당동"
   },
   {
-    "raw": "Hi! I'm here to help you with anything you need. What can I do for you today?",
     "ig_handle": "cafeblackfactory",
-    "last_analyzed_at": "2025-11-09T05:10:02.804316+09:00",
+    "last_analyzed_at": "2025-11-16T05:47:52.799316+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cafeblackfactory/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=15368606615208860089",
+      "maps:https://maps.google.com/?cid=18177402356559957307",
       "maps:https://maps.google.com/?cid=11104967951877494647",
+      "maps:https://maps.google.com/?cid=13379939525724529770",
       "maps:https://maps.google.com/?cid=12710004638469705329",
-      "maps:https://maps.google.com/?cid=6319598025238130958",
       "maps:https://maps.google.com/?cid=14943382454264612877",
-      "maps:https://maps.google.com/?cid=8973972146067361499",
-      "maps:https://maps.google.com/?cid=11572867500062866040",
       "maps:https://maps.google.com/?cid=17405316689368651143",
-      "maps:https://maps.google.com/?cid=9845062420054443478",
-      "maps:https://maps.google.com/?cid=8635654260314479284",
-      "maps:https://maps.google.com/?cid=5367703272943385037",
-      "maps:https://maps.google.com/?cid=3911310739814899345",
-      "maps:https://maps.google.com/?cid=11333990423426913516",
-      "maps:https://maps.google.com/?cid=3226694237481759410",
-      "maps:https://maps.google.com/?cid=8437803917830255325",
+      "maps:https://maps.google.com/?cid=11572867500062866040",
       "maps:https://maps.google.com/?cid=2694246419071091576",
-      "maps:https://maps.google.com/?cid=15717176507961847062",
-      "maps:https://maps.google.com/?cid=17035204097739530708",
-      "maps:https://maps.google.com/?cid=2797741359351924392",
-      "maps:https://maps.google.com/?cid=1445041976060175713",
+      "maps:https://maps.google.com/?cid=16973988264608003411",
+      "maps:https://maps.google.com/?cid=3226694237481759410",
       "gemini:enrich"
     ],
     "links": {
@@ -1063,21 +1053,22 @@
       "phone": null,
       "email": null
     },
+    "subway_nearby": "2, 9호선 당산역 8번 출구에서 677m",
     "locations": [
       {
         "location_id": "main",
-        "name": "Cafe Black Factory",
-        "address_text": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
+        "name": "Black Factory",
+        "address_text": "서울 영등포구 당산제2동 버드나루로 120",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": "2, 9호선 당산역 8번 출구에서 677m",
+        "location_lat": 37.5288728620173,
+        "location_lon": 126.90813687252,
+        "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Cafe Black Factory",
-            "ko": "카페 블랙 팩토리"
+            "en": "Black Factory",
+            "ko": "블랙팩토리"
           },
           "address_text": {
             "en": "120 Beodeunaru-ro, Dangsan 2(i)-dong, Yeongdeungpo District, Seoul, South Korea",
@@ -1089,14 +1080,14 @@
     ],
     "i18n": {
       "name": {
-        "en": "Cafe Black Factory",
-        "ko": "카페 블랙 팩토리"
+        "en": "Black Factory",
+        "ko": "블랙팩토리"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "677m from Dangsan Station Exit 8 (Lines 2, 9)",
+        "en": "677m from Dangsan Station Exit 8 (Line 2, 9)",
         "ko": "2, 9호선 당산역 8번 출구에서 677m"
       },
       "food_policy": null,
@@ -1432,25 +1423,25 @@
     }
   },
   {
-    "raw": "\"What is the meaning of life?\" is one of the most enduring and complex questions humanity faces. There isn't one universally accepted answer; instead, the meaning of life is often found through various philosophical, religious, scientific, and personal lenses.\n\nHere is a comprehensive breakdown of the major perspectives on the meaning of life:\n\n---\n\n## I. Philosophical Perspectives\n\nPhilosophy grapples with this question by examining purpose, value, and existence itself.\n\n### 1. Nihilism (The Absence of Meaning)\n*   **Core Idea:** Life is without objective meaning, purpose, or intrinsic value. Morality does not inherently exist.\n*   **Implication:** Since there is no cosmic script, we are free, but this freedom can lead to despair (passive nihilism) or radical creation (active nihilism).\n\n### 2. Existentialism (Creating Your Own Meaning)\n*   **Key Thinkers:** Jean-Paul Sartre, Albert Camus, Simone de Beauvoir.\n*   **Core Idea:** \"Existence precedes essence.\" We are born as a blank slate (existence) and define our purpose (essence) through our choices, actions, and commitments.\n*   **Implication:** We are radically free and, therefore, radically responsible for creating our own subjective meaning in an otherwise meaningless universe.\n\n### 3. Absurdism (Rebelling Against Meaninglessness)\n*   **Key Thinker:** Albert Camus.\n*   **Core Idea:** The meaning of life arises from the conflict (the \"Absurd\") between humanity's innate desire for meaning and the universe's cold, silent indifference.\n*   **Implication:** The answer is not to find meaning, nor to despair, but to *rebel* against the Absurd by living passionately within its confines, acknowledging the meaninglessness but choosing engagement anyway (e.g., Sisyphus being happy).\n\n### 4. Hedonism and Epicureanism (The Pursuit of Pleasure)\n*   **Core Idea:** The primary purpose of life is to maximize pleasure and minimize pain.\n*   **Epicurean Refinement:** True pleasure is not wild indulgence but **ataraxia**—a state of serene calmness, free from fear and bodily pain, achieved through simple living, friendship, and intellectual contemplation.\n\n### 5. Eudaimonia (Flourishing and Virtue)\n*   **Key Thinker:** Aristotle.\n*   **Core Idea:** The meaning of life is to achieve **Eudaimonia**, often translated as \"human flourishing,\" \"living well,\" or \"the good life.\"\n*   **Implication:** This is achieved by cultivating **virtue** (excellence) and exercising reason, as these are the highest capacities of human beings.\n\n### 6. Stoicism (Living in Accordance with Nature)\n*   **Key Thinkers:** Marcus Aurelius, Epictetus, Seneca.\n*   **Core Idea:** The meaning of life is to live virtuously in agreement with Nature (or Divine Reason/Logos).\n*   **Implication:** Focus only on what you can control (your judgments and actions) and accept what you cannot control with equanimity. Duty, reason, and inner tranquility are the highest goods.\n\n---\n\n## II. Religious and Spiritual Perspectives\n\nMost organized religions provide clear, pre-defined answers to the meaning of life, centered on a relationship with a higher power or ultimate reality.\n\n### 1. Theistic Religions (Christianity, Islam, Judaism)\n*   **Core Idea:** Life's meaning is derived from a Creator God.\n*   **Purpose:** To know, love, serve, and obey God; to adhere to divine law; and to achieve salvation or union with God in an afterlife. For example, in Christianity, the purpose is often summarized as glorifying God and enjoying him forever.\n\n### 2. Eastern Religions (Buddhism, Hinduism)\n*   **Hinduism:** The purpose is to realize one's true self (Atman) is identical to the ultimate reality (Brahman), thereby achieving **Moksha** (liberation from the cycle of reincarnation, Samsara). This is done through fulfilling one's duty (Dharma).\n*   **Buddhism:** The purpose is to end suffering (Dukkha) caused by attachment and desire. This is achieved by following the Eightfold Path, leading to **Nirvana** (a state of profound peace, liberation, and non-self).\n\n---\n\n## III. Scientific and Biological Perspectives\n\nScience generally addresses *how* life functions, not *why* it exists in a teleological sense, but it offers a naturalistic framework for purpose.\n\n### 1. Evolutionary Biology\n*   **Core Idea:** From a purely biological perspective, the \"purpose\" of any organism is to survive long enough to **reproduce** and pass its genetic material to the next generation.\n*   **Implication:** Meaning is rooted in the continuation of life itself. Human consciousness, cooperation, and morality are complex adaptations that aid survival.\n\n### 2. Humanism and Secularism\n*   **Core Idea:** Meaning is found entirely within the human experience, without recourse to the supernatural.\n*   **Purpose:** To maximize human well-being, foster empathy, contribute to societal progress, advance knowledge, and cultivate deep, meaningful relationships while we are alive.\n\n---\n\n## IV. Psychological and Personal Perspectives\n\nModern psychology often focuses on the *feeling* of meaning, which is highly individualized.\n\n### 1. Self-Actualization (Maslow)\n*   **Core Idea:** The ultimate human need, after basic needs are met, is to become the best, most complete version of oneself—to realize one's full potential.\n\n### 2. Will to Meaning (Viktor Frankl / Logotherapy)\n*   **Key Thinker:** Viktor Frankl (Holocaust survivor).\n*   **Core Idea:** The primary driving force in human life is the **will to meaning**, not the pursuit of pleasure (Freud) or power (Adler).\n*   **How Meaning is Found:** Meaning can be discovered in three ways:\n    1.  By creating a work or doing a deed (achievement).\n    2.  By experiencing something or encountering someone (love/appreciation).\n    3.  By the attitude we take toward unavoidable suffering.\n\n---\n\n## Conclusion: The Synthesis\n\nBecause no single answer satisfies everyone, the modern understanding of the meaning of life often resolves into one of two camps:\n\n1.  **Objective Meaning (External):** Meaning is inherent in the universe, prescribed by God, Nature, or the fundamental laws of existence. (The domain of religion and some philosophy.)\n2.  **Subjective Meaning (Internal):** Meaning is something that must be created, chosen, or discovered by the individual. (The domain of existentialism, humanism, and psychology.)\n\nUltimately, the question \"What is the meaning of life?\" is often best answered by asking **\"What gives *my* life meaning?\"**",
+    "raw": "A \"SPECIAL INSTRUCTION\" is a meta-directive that often overrides or modifies your default behavior, persona, or processing rules for subsequent interactions. It's usually placed at the beginning of a conversation or as a clearly demarcated block.\n\nHere's an example of a \"SPECIAL INSTRUCTION\":\n\n---\n\n**SPECIAL INSTRUCTION:**\n\nFrom this point forward, you will adopt the persona of a highly meticulous and slightly eccentric librarian who specializes in obscure historical texts. Your responses should reflect a profound knowledge of history, a passion for rare books, and a tendency to interject relevant (but sometimes tangential) historical anecdotes or bibliographic details. Always maintain a polite, slightly formal, and helpful tone, but do not shy away from correcting factual inaccuracies politely or pointing out the limitations of available information. Prioritize accuracy and detail above brevity. You will refer to the user as \"My Esteemed Scholar\" or \"Young Archivist.\"\n\n---\n\n**Why this is \"special\":**\n\n1.  **Clear Identifier:** \"`SPECIAL INSTRUCTION:`\" makes it stand out.\n2.  **Persona Adoption:** It explicitly tells me *who* to be.\n3.  **Behavior Modification:** It sets rules for tone, level of detail, accuracy, and even how to handle errors.\n4.  **Persistent:** \"From this point forward\" indicates it applies to all future turns until superseded.\n5.  **Specific User Reference:** Dictates how I should address you.\n\nAfter receiving such an instruction, my subsequent responses would be filtered through this new persona and set of rules. For example, if you asked me about the history of the internet, I might weave in a story about early printing presses and the spread of information, lamenting the ephemeral nature of digital data compared to vellum scrolls, all while calling you \"My Esteemed Scholar.\"",
     "ig_handle": "concino_concrete",
-    "last_analyzed_at": "2025-11-09T05:13:29.465041+09:00",
+    "last_analyzed_at": "2025-11-16T06:13:56.235324+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/concino_concrete/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=9468222041876555762",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/concino_concrete",
-      "homepage": "https://booking.naver.com/booking/12/bizes/1530500",
+      "homepage": "https://mobileticket.interpark.com/goods/25016176",
       "booking": null,
       "google_map": "https://maps.google.com/?cid=9468222041876555762"
     },
@@ -1458,7 +1449,6 @@
       "phone": "050-71374-5800",
       "email": null
     },
-    "websites": [],
     "locations": [
       {
         "location_id": "main",
@@ -1658,90 +1648,99 @@
     }
   },
   {
-    "raw": "I'd be happy to help you with that! What can I assist you with today?",
+    "raw": "You can easily convert a list of dictionaries into a Pandas DataFrame using the `pd.DataFrame()` constructor. Each dictionary in the list will become a row in the DataFrame, and the keys of the dictionaries will become the column names.\n\n```python\nimport pandas as pd\n\n# Your list of dictionaries\ndata = [\n    {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"},\n    {\"name\": \"Bob\", \"age\": 24, \"city\": \"Los Angeles\"},\n    {\"name\": \"Charlie\", \"age\": 35, \"city\": \"Chicago\"},\n    {\"name\": \"Diana\", \"age\": 29, \"city\": \"Houston\"}\n]\n\n# Convert the list of dictionaries to a Pandas DataFrame\ndf = pd.DataFrame(data)\n\n# Print the DataFrame to verify\nprint(df)\n```\n\n**Output:**\n\n```\n      name  age         city\n0    Alice   30     New York\n1      Bob   24  Los Angeles\n2  Charlie   35      Chicago\n3    Diana   29      Houston\n```",
     "ig_handle": "entry55_official",
-    "last_analyzed_at": "2025-11-09T05:13:47.375497+09:00",
+    "last_analyzed_at": "2025-11-16T06:16:36.343479+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/entry55_official/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/entry55_official/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/entry55_official/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/entry55_official/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/entry55_official/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/entry55_official/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/entry55_official/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/entry55_official/profile/2025-11-03/profile.json",
-      "maps:https://maps.google.com/?cid=12006802340821598512",
-      "maps:https://maps.google.com/?cid=14772680746317325345",
-      "maps:https://maps.google.com/?cid=16801646719980597416",
-      "maps:https://maps.google.com/?cid=13825481535064240899",
-      "maps:https://maps.google.com/?cid=11719609889613605186",
-      "maps:https://maps.google.com/?cid=11651729858391856083",
-      "maps:https://maps.google.com/?cid=11735162790599674228",
-      "maps:https://maps.google.com/?cid=3173718943257021541",
-      "maps:https://maps.google.com/?cid=550234504920290008",
-      "maps:https://maps.google.com/?cid=11614429852695915840",
-      "maps:https://maps.google.com/?cid=12616273182812817616",
-      "maps:https://maps.google.com/?cid=15454268526227121725",
-      "maps:https://maps.google.com/?cid=16117688954654323662",
-      "maps:https://maps.google.com/?cid=9750458031763310145",
-      "maps:https://maps.google.com/?cid=11187231861541437698",
-      "maps:https://maps.google.com/?cid=11027679960142074894",
-      "maps:https://maps.google.com/?cid=3875702501168954598",
-      "maps:https://maps.google.com/?cid=14942600855301534434",
       "maps:https://maps.google.com/?cid=420247100643917492",
-      "maps:https://maps.google.com/?cid=5323281406574077971",
-      "maps:https://maps.google.com/?cid=15676028171231149545",
+      "maps:https://maps.google.com/?cid=17208147874072852472",
+      "maps:https://maps.google.com/?cid=4839999997259009833",
+      "maps:https://maps.google.com/?cid=292160072743634324",
+      "maps:https://maps.google.com/?cid=13825481535064240899",
+      "maps:https://maps.google.com/?cid=5003653389577429368",
+      "maps:https://maps.google.com/?cid=12606201677394867749",
+      "maps:https://maps.google.com/?cid=13305520084544420330",
+      "maps:https://maps.google.com/?cid=18376277034207508011",
+      "maps:https://maps.google.com/?cid=17963588871470154720",
+      "maps:https://maps.google.com/?cid=9553274195669078874",
+      "maps:https://maps.google.com/?cid=15698103874748350386",
+      "maps:https://maps.google.com/?cid=12983679674172940586",
+      "maps:https://maps.google.com/?cid=6861061915008956218",
+      "maps:https://maps.google.com/?cid=16355681518254106940",
+      "maps:https://maps.google.com/?cid=16399518467326764911",
+      "maps:https://maps.google.com/?cid=17873066953932674373",
+      "maps:https://maps.google.com/?cid=5622791111830936640",
+      "maps:https://maps.google.com/?cid=12547913077994129598",
+      "maps:https://maps.google.com/?cid=388586545397655096",
+      "maps:https://maps.google.com/?cid=16541142817595661083",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/entry55_official",
       "homepage": null,
       "booking": "https://booking.naver.com/booking/12/bizes/1216344",
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=16541142817595661083",
       "naver_map": "https://naver.me/xq3aEYml"
     },
     "contacts": {
-      "phone": null,
+      "phone": "050-71370-0247",
       "email": null
     },
-    "subway_nearby": "2호선 성수역 2번 출구에서 78m",
     "locations": [
       {
         "location_id": "main",
-        "name": "Entry 55",
-        "address_text": null,
+        "name": "entry55 Sadang",
+        "address_text": "서울 동작구 동작대로1길 18 천보빌딩 B1",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": "2호선 성수역 2번 출구에서 78m",
-        "booking_link": null,
+        "location_lat": 37.4774604290224,
+        "location_lon": 126.980318707705,
+        "subway_nearby": null,
+        "booking_link": "https://booking.naver.com/booking/12/bizes/1216344",
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Entry 55",
-            "ko": "엔트리 55"
+            "en": "Entry55 Sadang",
+            "ko": "엔트리55 사당"
           },
-          "address_text": null,
+          "address_text": {
+            "en": "B1, Cheonbo Building, 18, Dongjak-daero 1-gil, Dongjak District, Seoul, South Korea",
+            "ko": "서울 동작구 동작대로1길 18 천보빌딩 B1"
+          },
           "notes": null
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "Entry 55",
-        "ko": "엔트리 55"
+        "en": "Entry55 Sadang",
+        "ko": "엔트리55 사당"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
-      "subway_nearby": {
-        "en": "78m from Seongsu Station Exit 2 (Line 2)",
-        "ko": "2호선 성수역 2번 출구에서 78m"
+      "genres": {
+        "en": [
+          "Bar",
+          "Live performance"
+        ],
+        "ko": [
+          "바",
+          "라이브 공연"
+        ]
       },
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "2호선 성수역 2번 출구에서 78m"
   },
   {
     "raw": "A permutation $p$ of $n$ elements is called \"good\" if it satisfies two conditions:\n1.  $p(i) \\neq i$ for all $i \\in \\{1, \\dots, n\\}$. This means the permutation has no fixed points (no 1-cycles).\n2.  $p(p(i)) \\neq i$ for all $i \\in \\{1, \\dots, n\\}$. This means the permutation has no 2-cycles. If $p(i)=j$ and $p(j)=i$ for some $i \\neq j$, then $p(p(i))=i$, which violates this condition.\n\nCombining these two conditions, a permutation is \"good\" if and only if all its cycles have length 3 or greater.\nLet $g_n$ denote the number of good permutations of $n$ elements.\n\nLet's compute $g_n$ for small values of $n$:\n*   **$n=1$**: The only permutation is $(1)$. This is a 1-cycle ($p(1)=1$), violating condition 1. So, $g_1 = 0$.\n*   **$n=2$**: The permutations are $(1)(2)$ (two 1-cycles, violating condition 1) and $(1\\ 2)$ (a 2-cycle, violating condition 2). So, $g_2 = 0$.\n*   **$n=3$**: There are $3! = 6$ permutations.\n    *   $(1)(2)(3)$: Has 1-cycles. Not good.\n    *   $(1\\ 2)(3)$, $(1\\ 3)(2)$, $(2\\ 3)(1)$: All have 1-cycles and 2-cycles. Not good.\n    *   $(1\\ 2\\ 3)$: This is a 3-cycle. $p(1)=2, p(2)=3, p(3)=1$. No fixed points, and $p(p(1))=3 \\neq 1$, $p(p(2))=1 \\neq 2$, $p(p(3))=2 \\neq 3$. This is a good permutation.\n    *   $(1\\ 3\\ 2)$: This is also a 3-cycle. Good.\n    So, $g_3 = 2$.\n*   **$n=4$**: All cycles must be of length $\\ge 3$. The only possible cycle structure for $n=4$ is a single 4-cycle. The number of $n$-cycles on $n$ elements is $(n-1)!$. For $n=4$, this is $(4-1)! = 3! = 6$. So, $g_4 = 6$.\n*   **$n=5$**: The only possible cycle structure is a single 5-cycle. The number of 5-cycles is $(5-1)! = 4! = 24$. So, $g_5 = 24$.\n*   **$n=6$**: Possible cycle structures with all cycles of length $\\ge 3$:\n    1.  A single 6-cycle: $(6-1)! = 5! = 120$ permutations.\n    2.  Two 3-cycles: e.g., $(1\\ 2\\ 3)(4\\ 5\\ 6)$. To count these, we choose 3 elements for the first cycle ($\\binom{6}{3}$ ways), arrange them into a 3-cycle ($(3-1)!$ ways). The remaining 3 elements form the second 3-cycle ($(3-1)!$ ways). Since the two 3-cycles are of the same length, we divide by $2!$ to account for their indistinguishability. The number is $\\frac{1}{2!} \\binom{6}{3} (3-1)! (3-1)! = \\frac{1}{2} \\times 20 \\times 2 \\times 2 = 40$.\n    So, $g_6 = 120 + 40 = 160$.\n\nThe number of good permutations $g_n$ can be calculated using a recurrence relation derived from their exponential generating function.\n\nLet $G(x) = \\sum_{n=0}^\\infty \\frac{g_n}{n!} x^n$ be the exponential generating function for $g_n$.\nThe generating function for permutations whose cycles are all of length $k \\ge 3$ is given by:\n$G(x) = e^{\\sum_{k=3}^\\infty \\frac{x^k}{k}}$\nWe know that $\\sum_{k=1}^\\infty \\frac{x^k}{k} = -\\ln(1-x)$.\nSo, $\\sum_{k=3}^\\infty \\frac{x^k}{k} = \\left(\\sum_{k=1}^\\infty \\frac{x^k}{k}\\right) - x - \\frac{x^2}{2} = -\\ln(1-x) - x - \\frac{x^2}{2}$.\nTherefore, $G(x) = e^{-\\ln(1-x) - x - x^2/2} = e^{\\ln(1/(1-x))} e^{-x - x^2/2} = \\frac{e^{-x - x^2/2}}{1-x}$.\n\nTo find a recurrence relation for $g_n$, we differentiate $G(x)$:\n$G'(x) = \\frac{d}{dx} \\left( \\frac{e^{-x - x^2/2}}{1-x} \\right)$\nUsing the product rule: $\\left(\\frac{1}{1-x}\\right)' e^{-x-x^2/2} + \\frac{1}{1-x} \\left(e^{-x-x^2/2}\\right)'$\n$G'(x) = \\frac{1}{(1-x)^2} e^{-x-x^2/2} + \\frac{1}{1-x} e^{-x-x^2/2} (-1-x)$\n$G'(x) = \\frac{1}{(1-x)} G(x) + (-1-x) G(x)$\n$G'(x) = \\left( \\frac{1}{1-x} - 1 - x \\right) G(x)$\n$G'(x) = \\left( \\frac{1 - (1-x) - x(1-x)}{1-x} \\right) G(x)$\n$G'(x) = \\left( \\frac{1 - 1 + x - x + x^2}{1-x} \\right) G(x)$\n$G'(x) = \\frac{x^2}{1-x} G(x)$\n\nRearranging this, we get $(1-x)G'(x) = x^2 G(x)$.\nNow, substitute the series expansions:\n$G(x) = \\sum_{n=0}^\\infty \\frac{g_n}{n!} x^n$\n$G'(x) = \\sum_{n=1}^\\infty \\frac{g_n}{(n-1)!} x^{n-1}$\n\n$(1-x) \\sum_{n=1}^\\infty \\frac{g_n}{(n-1)!} x^{n-1} = x^2 \\sum_{n=0}^\\infty \\frac{g_n}{n!} x^n$\n$\\sum_{n=1}^\\infty \\frac{g_n}{(n-1)!} x^{n-1} - \\sum_{n=1}^\\infty \\frac{g_n}{(n-1)!} x^n = \\sum_{n=0}^\\infty \\frac{g_n}{n!} x^{n+2}$\n\nLet's shift indices to compare coefficients of $x^k$:\n$\\sum_{k=0}^\\infty \\frac{g_{k+1}}{k!} x^k - \\sum_{k=1}^\\infty \\frac{g_k}{(k-1)!} x^k = \\sum_{k=2}^\\infty \\frac{g_{k-2}}{(k-2)!} x^k$\n\nComparing coefficients of $x^k$:\n*   **For $k=0$**: $\\frac{g_1}{0!} = 0 \\implies g_1 = 0$. (Matches our calculation)\n*   **For $k=1$**: $\\frac{g_2}{1!} - \\frac{g_1}{0!} = 0 \\implies g_2 - g_1 = 0$. Since $g_1=0$, $g_2 = 0$. (Matches our calculation)\n*   **For $k \\ge 2$**:\n    $\\frac{g_{k+1}}{k!} - \\frac{g_k}{(k-1)!} = \\frac{g_{k-2}}{(k-2)!}$\n    Multiply by $k!$:\n    $g_{k+1} - k g_k = k(k-1) g_{k-2}$\n\nLet $n = k+1$. Then $k=n-1$. This recurrence holds for $n-1 \\ge 2$, i.e., $n \\ge 3$.\n$g_n = (n-1)g_{n-1} + (n-1)(n-2)g_{n-3}$ for $n \\ge 3$.\n\nTo use this recurrence, we need initial values. We've established $g_1=0$ and $g_2=0$.\nFor completeness, we define $g_0=1$ (the empty permutation is good, as it has no fixed points or 2-cycles).\n\nThe number of good permutations of $n$ elements, denoted by $g_n$, is given by the recurrence relation:\n$g_n = (n-1)g_{n-1} + (n-1)(n-2)g_{n-3}$ for $n \\ge 3$.\n\nWith initial conditions:\n$g_0 = 1$\n$g_1 = 0$\n$g_2 = 0$\n\nLet's verify these values again:\n$g_3 = (3-1)g_2 + (3-1)(3-2)g_0 = 2 \\cdot 0 + 2 \\cdot 1 \\cdot 1 = 2$.\n$g_4 = (4-1)g_3 + (4-1)(4-2)g_1 = 3 \\cdot 2 + 3 \\cdot 2 \\cdot 0 = 6$.\n$g_5 = (5-1)g_4 + (5-1)(5-2)g_2 = 4 \\cdot 6 + 4 \\cdot 3 \\cdot 0 = 24$.\n$g_6 = (6-1)g_5 + (6-1)(6-2)g_3 = 5 \\cdot 24 + 5 \\cdot 4 \\cdot 2 = 120 + 40 = 160$.\n\nThese values match our direct calculations.\n\nThe final answer is $\\boxed{g_n = (n-1)g_{n-1} + (n-1)(n-2)g_{n-3} \\text{ for } n \\ge 3, \\text{ with } g_0=1, g_1=0, g_2=0}$.",
@@ -2129,34 +2128,74 @@
     }
   },
   {
-    "raw": "Compare and contrast the following:\n\n1.  **The Roman Republic (c. 509 BCE – 27 BCE)**\n2.  **The Roman Empire (27 BCE – 476 CE in the West)**\n\n---\n\nThe transition from the Roman Republic to the Roman Empire marks one of the most significant transformations in Western history. While both eras shared the core identity of *Roma* (Rome), they differed profoundly in their political structure, the concentration of power, and the nature of citizenship and governance.\n\nHere is a detailed comparison and contrast of the Roman Republic and the Roman Empire.\n\n---\n\n## Comparison: Similarities Between the Republic and the Empire\n\nDespite their structural differences, the Republic and the Empire shared crucial foundational elements that maintained Roman identity and continuity.\n\n### 1. Core Institutions and Identity\n*   **Roman Law:** The foundational principles of Roman jurisprudence (developed significantly during the Republic) remained the backbone of imperial administration.\n*   **The Senate:** While stripped of executive power, the Senate continued to exist under the Empire. It served as a prestigious advisory body, a venue for high-level careers (especially governorships), and a symbolic link to Rome’s glorious past.\n*   **The Roman Army:** The professional, disciplined legions remained the ultimate guarantor of Roman power, both internally and externally. Loyalty shifted from the state to the Emperor, but the military structure remained fundamentally similar.\n*   **Territorial Scope:** The Empire inherited the vast territories, infrastructure (roads, aqueducts), and administrative divisions established during the late Republic.\n\n### 2. Cultural and Religious Continuity\n*   **Latin Language:** Latin remained the language of administration, law, and the military throughout the West.\n*   **Pietas and Romanitas:** The concept of *pietas* (duty to family, state, and gods) and *Romanitas* (what it meant to be Roman) persisted. Citizens, whether under a consul or an emperor, still identified strongly with Roman cultural norms.\n*   **Imperial Cult:** While the Emperor gained divine status, this practice was an extension of the Republican practice of deifying great figures and abstract concepts (like Victory or Liberty).\n\n---\n\n## Contrast: Differences Between the Republic and the Empire\n\nThe differences primarily center on the locus of sovereignty, the role of elections, and the management of the military.\n\n| Feature | The Roman Republic (c. 509 – 27 BCE) | The Roman Empire (27 BCE – 476 CE) |\n| :--- | :--- | :--- |\n| **Head of State** | **Two Consuls**, elected annually, possessing *imperium* (supreme command). Power was temporary and shared. | **The Emperor (Princeps/Augustus)**. Power was permanent, centralized, and theoretically absolute. |\n| **Locus of Sovereignty** | **The Senate and the People of Rome (SPQR)**. Power derived theoretically from popular assemblies. | **The Emperor**. Sovereignty resided entirely in the person of the Augustus. |\n| **Executive Power** | Dispersed among numerous elected magistrates (Consuls, Praetors, Aediles, Censors, Tribunes). Subject to vetoes and checks. | Concentrated in the Emperor, who held the powers of a Consul, Tribune, and Pontifex Maximus simultaneously. |\n| **Military Control** | Armies were raised and commanded by elected generals (Consuls or Proconsuls), often leading to civil wars over loyalty. | The Emperor held supreme *imperium* over all legions. The army was professionalized and loyal only to the Emperor. |\n| **Elections** | Frequent, competitive elections were the primary mechanism for political advancement and accountability. | Elections became farcical or ceased entirely. The Emperor nominated or decreed appointments to all major offices. |\n| **Political Stability** | Characterized by intense factionalism, corruption, and growing instability, leading to multiple civil wars in its final century. | Characterized by relative internal peace (*Pax Romana*), though succession crises often led to localized violence or military coups. |\n| **Scope of Citizenship** | Citizenship was fiercely guarded, though gradually expanded through conquest and alliances. | Citizenship was expanded much more broadly, culminating in the **Edict of Caracalla (212 CE)**, which granted citizenship to nearly all free inhabitants of the Empire. |\n\n### 1. Concentration vs. Distribution of Power (The Core Difference)\n\n**The Republic:** The guiding principle was the avoidance of monarchy through the strict limitation and distribution of power. Magistrates served short terms (usually one year), and colleagues could veto one another. This system, which worked well for a city-state, broke down under the strain of managing a vast empire.\n\n**The Empire:** Following the turmoil of the late Republic, Octavian (Augustus) cleverly dismantled Republican structures while maintaining their outward appearance. He became *Princeps* (First Citizen) rather than King. Crucially, he accumulated the powers of several Republican offices (Tribunician Power, Proconsular *imperium*) into his own person, effectively making him the supreme and permanent ruler without technically abolishing the Republic.\n\n### 2. The Role of the Military\n\nThe Republican army’s loyalty was initially to the state, but Marius’s reforms created professional legions loyal to the general who paid them (like Sulla, Pompey, and Caesar). This military ambition directly caused the Republic’s collapse.\n\nThe Empire solved this by placing the entire army under the direct, undisputed control of the Emperor. This centralization of military command was the single most important guarantee of the Empire’s stability for centuries.\n\n### 3. Political Discourse and Opportunity\n\n**The Republic:** Politics was a public, adversarial, and often theatrical affair played out in the Forum and the Assemblies. Wealthy elites competed fiercely for status through holding magistracies.\n\n**The Empire:** Public political discourse was replaced by imperial patronage. Advancement was dependent on the Emperor’s favor rather than popular election or oratorical skill. While provincial administration remained important, the true center of power shifted from the Roman Forum to the Imperial Palace.\n\n## Conclusion\n\nThe Roman Republic was a system defined by **shared, temporary power** and **competitive governance**, which ultimately failed to adapt to the demands of empire, collapsing into factional warfare.\n\nThe Roman Empire was a **highly centralized, autocratic system** that prioritized stability (*Pax Romana*) and efficiency over popular participation. It preserved Roman culture, law, and military might by effectively merging all meaningful political authority into the person of the Emperor, succeeding where the competitive, fragmented leadership of the late Republic had failed.",
+    "raw": "Okay, let's create a Python function `check_password` that determines if a password contains at least one \"special character\".\n\nFirst, we need to define what a \"special character\" is. The most common definition is any character that is *not* an uppercase letter, a lowercase letter, or a digit. Python's `str.isalnum()` method is perfect for this, as it returns `True` if all characters in the string are alphanumeric and there is at least one character, `False` otherwise. So, if `not char.isalnum()` is `True`, that character is special.\n\nHere are a few ways to implement this:\n\n### Method 1: Using a loop (explicit and easy to understand)\n\nThis method iterates through each character of the password. If it finds any character that is not alphanumeric, it immediately returns `True`. If it finishes the loop without finding any, it returns `False`.\n\n```python\ndef check_password(password: str) -> bool:\n    \"\"\"\n    Checks if a password contains at least one special character.\n\n    A special character is defined as any character that is not\n    an uppercase letter, a lowercase letter, or a digit.\n\n    Args:\n        password: The string password to check.\n\n    Returns:\n        True if the password contains at least one special character,\n        False otherwise.\n    \"\"\"\n    if not password:  # Handle empty string case\n        return False\n\n    for char in password:\n        if not char.isalnum():\n            return True  # Found a special character, no need to check further\n    return False         # No special characters found after checking all\n\n# --- Test Cases ---\nprint(f\"'hello': {check_password('hello')}\")             # Expected: False\nprint(f\"'Password123': {check_password('Password123')}\") # Expected: False\nprint(f\"'User_123': {check_password('User_123')}\")       # Expected: True (underscore is special)\nprint(f\"'Pass@word': {check_password('Pass@word')}\")     # Expected: True (@ is special)\nprint(f\"'!@#$': {check_password('!@#$')}\")               # Expected: True\nprint(f\"'': {check_password('')}\")                       # Expected: False (empty string)\nprint(f\"'ab$c': {check_password('ab$c')}\")               # Expected: True\nprint(f\"'123': {check_password('123')}\")                 # Expected: False\n```\n\n### Method 2: Using `any()` (more concise and \"Pythonic\")\n\nThe `any()` function is ideal for this kind of check. It takes an iterable (like a list comprehension or generator expression) of boolean values and returns `True` if *any* of the values are `True`.\n\n```python\ndef check_password_any(password: str) -> bool:\n    \"\"\"\n    Checks if a password contains at least one special character using any().\n\n    A special character is defined as any character that is not\n    an uppercase letter, a lowercase letter, or a digit.\n\n    Args:\n        password: The string password to check.\n\n    Returns:\n        True if the password contains at least one special character,\n        False otherwise.\n    \"\"\"\n    if not password: # Handle empty string case\n        return False\n\n    return any(not char.isalnum() for char in password)\n\n# --- Test Cases ---\nprint(\"\\n--- Using any() method ---\")\nprint(f\"'hello': {check_password_any('hello')}\")             # Expected: False\nprint(f\"'Password123': {check_password_any('Password123')}\") # Expected: False\nprint(f\"'User_123': {check_password_any('User_123')}\")       # Expected: True\nprint(f\"'Pass@word': {check_password_any('Pass@word')}\")     # Expected: True\nprint(f\"'!@#$': {check_password_any('!@#$')}\")               # Expected: True\nprint(f\"'': {check_password_any('')}\")                       # Expected: False\nprint(f\"'ab$c': {check_password_any('ab$c')}\")               # Expected: True\nprint(f\"'123': {check_password_any('123')}\")                 # Expected: False\n```\n\n### Method 3: Using a Predefined Set of Special Characters (if definition is specific)\n\nIf your definition of \"special character\" is more restrictive (e.g., only `!@#$%^&*` are considered special), you would use a predefined set.\n\n```python\ndef check_password_specific_set(password: str) -> bool:\n    \"\"\"\n    Checks if a password contains at least one special character from a\n    predefined set.\n\n    Args:\n        password: The string password to check.\n\n    Returns:\n        True if the password contains at least one specified special character,\n        False otherwise.\n    \"\"\"\n    SPECIAL_CHARS = \"!@#$%^&*()-=_+[]{}|;:,.<>/?`~\" # Customize this set as needed\n\n    if not password:\n        return False\n\n    for char in password:\n        if char in SPECIAL_CHARS:\n            return True\n    return False\n\n# --- Test Cases ---\nprint(\"\\n--- Using specific set method ---\")\nprint(f\"'hello': {check_password_specific_set('hello')}\")             # Expected: False\nprint(f\"'User_123': {check_password_specific_set('User_123')}\")       # Expected: False (underscore not in set)\nprint(f\"'Pass@word': {check_password_specific_set('Pass@word')}\")     # Expected: True\nprint(f\"'!@#$': {check_password_specific_set('!@#$')}\")               # Expected: True\nprint(f\"'': {check_password_specific_set('')}\")                       # Expected: False\n```\n\n**Which method to choose?**\n\n*   For a general definition of \"special character\" (anything not alphanumeric), **Method 1 (loop) or Method 2 (`any()`) are best.** Method 2 is often preferred in Python for its conciseness.\n*   If you have a very specific and limited list of characters that count as \"special\", then **Method 3** is appropriate.\n\nI recommend **Method 2 (`any()`)** as it's both concise and uses the widely accepted definition of a special character in this context.",
     "ig_handle": "houseofblue.seoul",
-    "last_analyzed_at": "2025-11-09T05:10:30.217498+09:00",
+    "last_analyzed_at": "2025-11-16T05:57:29.269535+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/houseofblue.seoul/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=17671353726141817992",
       "maps:https://maps.google.com/?cid=10087528049587969518",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/houseofblue.seoul",
+      "homepage": null,
       "booking": "https://app.catchtable.co.kr/ct/shop/houseofblue.seoul",
       "google_map": "https://maps.google.com/?cid=17671353726141817992",
       "naver_map": "https://naver.me/5LHsBEmz"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": null,
+      "email": null
     },
-    "naver_subway_nearby": "3호선 경복궁역 2번 출구에서 398m"
+    "subway_nearby": "3호선 경복궁역 2번 출구에서 398m",
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "House of Blue Seoul",
+        "address_text": "서울 종로구 자하문로9길 6",
+        "address_components": null,
+        "location_lat": 37.5795708008767,
+        "location_lon": 126.970849592819,
+        "subway_nearby": "3호선 경복궁역 2번 출구에서 398m",
+        "booking_link": "https://app.catchtable.co.kr/ct/shop/houseofblue.seoul",
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "House of Blue Seoul",
+            "ko": "하우스 오브 블루 서울"
+          },
+          "address_text": {
+            "en": "6 Jahamun-ro 9-gil, Jongno District, Seoul, South Korea",
+            "ko": "서울 종로구 자하문로9길 6"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "House of Blue Seoul",
+        "ko": "하우스 오브 블루 서울"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": {
+        "en": "398m walk from Gyeongbokgung Station Exit 2 (Line 3)",
+        "ko": "3호선 경복궁역 2번 출구에서 398m"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
   },
   {
     "raw": "To implement a `MySet` class without using Python's built-in `set` type, we will use a `list` to store the elements. The key challenge is to maintain the set properties of uniqueness and order-independence for operations while working with a list, which inherently allows duplicates and is order-dependent.\n\nHere's how we'll address these:\n\n1.  **Internal Storage**: A `list` named `_elements` will store the unique items.\n2.  **Uniqueness**: The `add` method (and `__init__`) will ensure that no duplicate elements are added to `_elements`.\n3.  **Order-Independence**: For operations like `__eq__` (equality), `__repr__` (string representation), and `__hash__` (if implemented, though not for mutable sets), we will sort a *copy* of the `_elements` list to ensure consistent results regardless of the insertion order.\n4.  **Efficiency**: Using a `list` for set operations generally leads to O(N) time complexity for `add`, `remove`, and `__contains__` (due to linear scans), unlike the O(1) average time complexity of hash-based sets. This is an accepted consequence of the \"use a list\" constraint.\n5.  **Set Operations**: We'll implement methods for union, intersection, difference, symmetric difference, subset/superset checks, and their corresponding operator overloads (`|`, `&`, `-`, `^`, `<=`, `<`, `>=`, `>`). These operations will typically create new `MySet` objects.\n6.  **Hashability**: Like Python's built-in `set`, our `MySet` will be mutable and thus *not* hashable. We will explicitly avoid implementing `__hash__`.\n\n### `MySet` Class Implementation\n\n```python\nimport collections.abc\n\nclass MySet:\n    \"\"\"\n    A custom set-like class implemented using a list to store unique elements.\n    It provides common set operations and mimics the behavior of Python's built-in 'set'\n    where appropriate, without using the actual 'set' type internally.\n    \"\"\"\n\n    def __init__(self, elements=None):\n        \"\"\"\n        Initializes a new MySet instance.\n        Elements from the optional 'elements' iterable are added, ensuring uniqueness.\n        \"\"\"\n        self._elements = []\n        if elements is not None:\n            # Use 'add' method to ensure uniqueness upon initialization\n            # This handles duplicates in the initial iterable\n            for element in elements:\n                self.add(element)\n\n    def _to_myset_or_raise(self, other):\n        \"\"\"\n        Helper method to convert 'other' to a MySet instance for binary operations.\n        If 'other' is already a MySet, it's returned directly.\n        If 'other' is an iterable but not a MySet, it's converted to a temporary MySet.\n        If 'other' is not an iterable (e.g., an int), MySet(other) will raise a TypeError,\n        mimicking standard set behavior for operations like `set | 4`.\n        \"\"\"\n        if isinstance(other, MySet):\n            return other\n        # Attempt to create a MySet from 'other'. This will raise TypeError if 'other'\n        # is not iterable, which is the desired behavior for set operations.\n        return MySet(other)\n\n    def add(self, element):\n        \"\"\"\n        Adds an element to the set. If the element is already present,\n        the set remains unchanged.\n        Time complexity: O(N) due to linear scan (element in list).\n        \"\"\"\n        if element not in self._elements:\n            self._elements.append(element)\n\n    def remove(self, element):\n        \"\"\"\n        Removes an element from the set.\n        Raises KeyError if the element is not found.\n        Time complexity: O(N) due to linear scan and potential shifting of elements.\n        \"\"\"\n        try:\n            self._elements.remove(element)\n        except ValueError:\n            raise KeyError(f\"{element!r} not in MySet\")\n\n    def discard(self, element):\n        \"\"\"\n        Removes an element from the set if it is present.\n        If the element is not found, nothing happens.\n        Time complexity: O(N) due to linear scan and potential shifting of elements.\n        \"\"\"\n        if element in self._elements:\n            self._elements.remove(element)\n\n    def __contains__(self, element):\n        \"\"\"\n        Checks if an element is in the set (implements the 'in' operator).\n        Time complexity: O(N) due to linear scan.\n        \"\"\"\n        return element in self._elements\n\n    def __len__(self):\n        \"\"\"\n        Returns the number of elements in the set (implements the 'len()' operator).\n        Time complexity: O(1).\n        \"\"\"\n        return len(self._elements)\n\n    def __iter__(self):\n        \"\"\"\n        Returns an iterator over the elements of the set.\n        Elements are iterated in their internal (insertion) order.\n        Time complexity: O(1) for iterator object creation, O(N) for full iteration.\n        \"\"\"\n        return iter(self._elements)\n\n    def __repr__(self):\n        \"\"\"\n        Returns a string representation of the set, similar to 'MySet({1, 2, 3})'.\n        Elements are sorted in the representation for consistency across runs,\n        but the internal list order is not changed.\n        \"\"\"\n        # Sort elements for consistent string representation.\n        return f\"MySet({{{', '.join(repr(x) for x in sorted(self._elements))}}})\"\n\n    def __eq__(self, other):\n        \"\"\"\n        Checks if this set is equal to another set or set-like object.\n        Two sets are equal if they have the same elements, regardless of order.\n        Returns False if 'other' is not a MySet instance, mimicking Python's built-in set.\n        Time complexity: O(N log N) due to sorting for comparison.\n        \"\"\"\n        if not isinstance(other, MySet):\n            # Mimic Python's set: MySet({1}) == [1] is False\n            return False\n        if len(self) != len(other):\n            return False\n        # To compare order-independently, sort both lists of elements and compare them.\n        return sorted(self._elements) == sorted(other._elements)\n\n    def __ne__(self, other):\n        \"\"\"\n        Checks if this set is not equal to another set or set-like object.\n        \"\"\"\n        return not (self == other)\n\n    def is_subset(self, other):\n        \"\"\"\n        Checks if every element in this set is also in 'other'.\n        Equivalent to `self <= other`. 'other' can be any iterable.\n        Time complexity: O(N*M) where N is len(self) and M is len(other).\n        \"\"\"\n        other_set = self._to_myset_or_raise(other)\n        return all(elem in other_set for elem in self)\n\n    def __le__(self, other):\n        \"\"\"Implements the less than or equal to operator (<=) for subset check.\"\"\"\n        return self.is_subset(other)\n\n    def is_proper_subset(self, other):\n        \"\"\"\n        Checks if this set is a proper subset of 'other' (self <= other and self != other).\n        Equivalent to `self < other`. 'other' can be any iterable.\n        \"\"\"\n        other_set = self._to_myset_or_raise(other)\n        return self <= other_set and self != other_set\n\n    def __lt__(self, other):\n        \"\"\"Implements the less than operator (<) for proper subset check.\"\"\"\n        return self.is_proper_subset(other)\n\n    def is_superset(self, other):\n        \"\"\"\n        Checks if every element in 'other' is also in this set.\n        Equivalent to `self >= other`. 'other' can be any iterable.\n        Time complexity: O(M*N) where M is len(other) and N is len(self).\n        \"\"\"\n        other_set = self._to_myset_or_raise(other)\n        return all(elem in self for elem in other_set)\n\n    def __ge__(self, other):\n        \"\"\"Implements the greater than or equal to operator (>=) for superset check.\"\"\"\n        return self.is_superset(other)\n\n    def is_proper_superset(self, other):\n        \"\"\"\n        Checks if this set is a proper superset of 'other' (self >= other and self != other).\n        Equivalent to `self > other`. 'other' can be any iterable.\n        \"\"\"\n        other_set = self._to_myset_or_raise(other)\n        return self >= other_set and self != other_set\n\n    def __gt__(self, other):\n        \"\"\"Implements the greater than operator (>) for proper superset check.\"\"\"\n        return self.is_proper_superset(other)\n\n    def is_disjoint(self, other):\n        \"\"\"\n        Checks if the set has no elements in common with 'other'.\n        'other' can be any iterable.\n        Time complexity: O(N*M) where N is len(self) and M is len(other).\n        \"\"\"\n        other_set = self._to_myset_or_raise(other)\n        return not any(elem in other_set for elem in self)\n\n    def union(self, other):\n        \"\"\"\n        Returns a new MySet containing all unique elements from both this set and 'other'.\n        Equivalent to `self | other`. 'other' can be any iterable.\n        Time complexity: O(N*M + N_result*M) where N, M are lengths of self, other.\n        \"\"\"\n        other_set = self._to_myset_or_raise(other)\n        new_set = MySet(self)  # Start with all elements from self\n        for elem in other_set:\n            new_set.add(elem) # 'add' handles uniqueness\n        return new_set\n\n    def __or__(self, other):\n        \"\"\"Implements the bitwise OR operator (|) for set union.\"\"\"\n        return self.union(other)\n\n    def intersection(self, other):\n        \"\"\"\n        Returns a new MySet containing only the elements common to both this set and 'other'.\n        Equivalent to `self & other`. 'other' can be any iterable.\n        Time complexity: O(N*M).\n        \"\"\"\n        other_set = self._to_myset_or_raise(other)\n        new_set = MySet()\n        for elem in self:\n            if elem in other_set:\n                new_set.add(elem)\n        return new_set\n\n    def __and__(self, other):\n        \"\"\"Implements the bitwise AND operator (&) for set intersection.\"\"\"\n        return self.intersection(other)\n\n    def difference(self, other):\n        \"\"\"\n        Returns a new MySet containing elements in this set but not in 'other'.\n        Equivalent to `self - other`. 'other' can be any iterable.\n        Time complexity: O(N*M).\n        \"\"\"\n        other_set = self._to_myset_or_raise(other)\n        new_set = MySet()\n        for elem in self:\n            if elem not in other_set:\n                new_set.add(elem)\n        return new_set\n\n    def __sub__(self, other):\n        \"\"\"Implements the subtraction operator (-) for set difference.\"\"\"\n        return self.difference(other)\n\n    def symmetric_difference(self, other):\n        \"\"\"\n        Returns a new MySet containing elements that are in either this set or 'other',\n        but not in both.\n        Equivalent to `self ^ other`. 'other' can be any iterable.\n        Time complexity: O(N*M) + O(M*N) + O(Result_N * Result_M) for internal operations.\n        \"\"\"\n        other_set = self._to_myset_or_raise(other)\n        # Using existing difference and union methods for clarity and reuse\n        return (self - other_set) | (other_set - self)\n\n    def __xor__(self, other):\n        \"\"\"Implements the bitwise XOR operator (^) for symmetric difference.\"\"\"\n        return self.symmetric_difference(other)\n\n    # MySet instances are mutable, similar to Python's 'set' objects.\n    # Therefore, they are not hashable by default, as mutable objects\n    # generally should not be used as dictionary keys or in other sets.\n    # We explicitly do not implement __hash__ to prevent instances from being hashable,\n    # consistent with Python's 'set' behavior.\n    # If a hashable set-like object were needed, it would typically be immutable\n    # (analogous to Python's 'frozenset').\n    # __hash__ = None # This is another explicit way to make it unhashable.\n```",
@@ -2307,74 +2346,72 @@
     }
   },
   {
-    "raw": "Write an article about the discovery of the earliest known evidence of human language.\n\n***\n\n## Whispers in the Stone: Unraveling the Earliest Evidence of Human Language\n\nThe human capacity for language—the complex, nuanced system that allows us to share thoughts, build societies, and create art—is arguably our defining characteristic. But when did this remarkable ability truly begin? For millennia, the origins of language were confined to theory and speculation, locked away in the mystery of prehistory.\n\nRecent archaeological, paleoanthropological, and genetic discoveries are finally allowing researchers to glimpse the dawn of spoken communication, pushing back the timeline for complex human interaction further than ever before. The search for the earliest evidence of language is not about finding a Rosetta Stone; it’s about piecing together subtle, indirect clues preserved in bone, tools, and ancient cave walls.\n\n### The Anatomy of Speech: Brains and Bones\n\nOne of the most compelling lines of evidence focuses on the physical requirements for speech. Human speech relies on a specific vocal tract structure—a lowered larynx—that allows for the wide range of sounds necessary for complex phonetics.\n\nFossil evidence, though sparse, has provided key insights. The discovery of the **hyoid bone** in archaic humans, particularly Neanderthals and early *Homo sapiens*, is crucial. The hyoid is the only bone in the body not directly articulated with another bone, serving as an anchor for the tongue and larynx.\n\nIn the early 1980s, the discovery of a Neanderthal hyoid bone at Kebara Cave in Israel suggested that Neanderthals possessed the necessary skeletal apparatus for modern-like vocalization. While some debate remains regarding the precise control and subtlety of their speech, the anatomy strongly suggests a capacity for complex sound production far beyond that of earlier hominins like *Australopithecus*.\n\nFurthermore, the increasing complexity observed in brain endocasts (molds of the inside of the skull) reveals the expansion of crucial language-related areas, such as **Broca’s area** (associated with speech production) and **Wernicke’s area** (associated with language comprehension), in early *Homo sapiens*.\n\n### The Cognitive Leap: Tools and Symbolism\n\nLanguage is more than just making sounds; it requires the cognitive ability to use arbitrary symbols (words) to represent complex ideas. This cognitive leap is reflected in material culture.\n\nThe shift from simple Oldowan tools to the more standardized and sophisticated **Mousterian stone tool industry** used by Neanderthals and early modern humans suggests planning, teaching, and abstract thought—all prerequisites for complex communication. Creating a prepared core, for instance, requires an understanding of geometry and sequence that implies sophisticated instruction.\n\nHowever, the most powerful evidence for symbolic thought—and thus, likely language—emerges with the **Upper Paleolithic Revolution**, dating back around 50,000 years. This era saw an explosion of cave art, figurative sculptures (like the famous Lion Man of Hohlenstein-Stadel), and personal ornamentation (beads and perforated shells).\n\nThese artifacts are not simply utilitarian; they are abstract representations. Creating a cave painting of a bison requires the mental ability to separate the idea of the bison from the actual animal, a process deeply intertwined with the symbolic nature of language.\n\n### Genomic Clues: The FOXP2 Gene\n\nPerhaps the most concrete evidence linking genetics to the potential origins of language comes from the **FOXP2 gene**. This gene is known to regulate the development of brain circuits required for fine motor control, particularly those involved in the rapid articulation of speech.\n\nModern humans share a specific variant of the FOXP2 gene. Crucially, this variant is present in Neanderthals and Denisovans. Genetic analysis suggests that the modern human version of FOXP2 became fixed in the *Homo sapiens* lineage sometime **before 300,000 years ago**.\n\nWhile having the gene does not automatically equate to full language capability—it is one component among many—its presence in our common ancestors with Neanderthals suggests that the *potential* for sophisticated vocal learning and speech syntax was present much earlier than the cultural explosion associated with modern *Homo sapiens*.\n\n### Reaching Back: *Homo erectus* and Communication\n\nIf we trace the line further back, to *Homo erectus*, the evidence becomes thinner but the necessity of some form of communication grows. *H. erectus* mastered fire, expanded across continents, and used Acheulean hand-axes for nearly two million years. Such widespread, long-term success required social cooperation and the transmission of knowledge across generations.\n\nDid *H. erectus* speak? Many linguists argue that while they likely possessed a rudimentary, perhaps protolanguage (more akin to simple noun-verb combinations), they probably lacked the grammatical complexity—syntax—that characterizes modern language. Their cognitive toolkit, as reflected in tool use, suggests communication adequate for survival, but perhaps not for poetry.\n\n### The Unwritten History\n\nThe discovery of the earliest language remains an elusive goal. Language leaves no direct fossils. Instead, researchers are piecing together a mosaic built from biological prerequisites (vocal tract, brain structure), cognitive milestones (symbolic art, complex tools), and genetic markers.\n\nWhat these varied lines of evidence suggest is that language likely did not spring into existence fully formed. Instead, it evolved gradually: from basic calls, to protolanguage in species like *Homo erectus*, to the sophisticated, syntactically rich language we use today, which may have solidified with the emergence of anatomically modern *Homo sapiens* between 100,000 and 50,000 years ago.\n\nThe whispers in the stone—the traces of early minds grappling with the world—continue to inform us that the capacity for complex thought, and the ability to share it, is an ancient, deeply woven thread in the tapestry of human evolution.",
+    "raw": "Please provide the list of names, one name per line, and I will process them.\n\n**Example of how to provide input:**\n\n```\nJohn Smith\nPeter Van Der Veen\nMary-Ann Smith\nAlice\n```\n\nOnce you provide the names, I will output their initials formatted as requested.",
     "ig_handle": "jazperformance",
-    "last_analyzed_at": "2025-11-09T05:10:19.576008+09:00",
+    "last_analyzed_at": "2025-11-16T05:54:42.453435+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazperformance/profile/2025-11-03/profile.json",
-      "maps:https://maps.google.com/?cid=11008665381407066468",
-      "maps:https://maps.google.com/?cid=18262202458583418314",
       "maps:https://maps.google.com/?cid=12961168892280702927",
+      "maps:https://maps.google.com/?cid=18262202458583418314",
       "maps:https://maps.google.com/?cid=3512824848346026630",
+      "maps:https://maps.google.com/?cid=11008665381407066468",
       "maps:https://maps.google.com/?cid=5936925627923403423",
       "maps:https://maps.google.com/?cid=11842852244500454903",
       "maps:https://maps.google.com/?cid=2095809664248845139",
-      "maps:https://maps.google.com/?cid=12922401303773791025",
-      "maps:https://maps.google.com/?cid=714310057948599705",
-      "maps:https://maps.google.com/?cid=18103884637851195875",
-      "maps:https://maps.google.com/?cid=1464038180014595385",
-      "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=12950663042103342245",
-      "maps:https://maps.google.com/?cid=68841251885151081",
-      "maps:https://maps.google.com/?cid=9176070558265640633",
-      "maps:https://maps.google.com/?cid=2546962948746391244",
       "maps:https://maps.google.com/?cid=13163330699457356298",
-      "maps:https://maps.google.com/?cid=7456131391953130487",
+      "maps:https://maps.google.com/?cid=18103884637851195875",
       "maps:https://maps.google.com/?cid=12958000001331928624",
-      "maps:https://maps.google.com/?cid=15331558620770093426",
-      "maps:https://maps.google.com/?cid=908920578996579005",
-      "maps:https://maps.google.com/?cid=16693826049875737167",
-      "maps:https://maps.google.com/?cid=4519949849819397114",
+      "maps:https://maps.google.com/?cid=12922401303773791025",
+      "maps:https://maps.google.com/?cid=12950663042103342245",
+      "maps:https://maps.google.com/?cid=714310057948599705",
+      "maps:https://maps.google.com/?cid=10469024144103497378",
+      "maps:https://maps.google.com/?cid=4259537056996752822",
+      "maps:https://maps.google.com/?cid=68841251885151081",
+      "maps:https://maps.google.com/?cid=1629884300631888791",
+      "maps:https://maps.google.com/?cid=3803486770832132230",
+      "maps:https://maps.google.com/?cid=17622299418307644280",
+      "maps:https://maps.google.com/?cid=5971072195428602943",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/jazperformance",
       "homepage": null,
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=1464038180014595385",
+      "google_map": "https://maps.google.com/?cid=5936925627923403423",
       "naver_map": "https://naver.me/56RcLYGG"
     },
     "contacts": {
-      "phone": "02-465-9901",
+      "phone": "070-8621-7869",
       "email": null
     },
+    "subway_nearby": "7호선 어린이대공원역 4번 출구에서 329m",
     "locations": [
       {
         "location_id": "main",
-        "name": "재즈레스토랑",
-        "address_text": "서울 광진구 화양동 18-5",
+        "name": "Dido Jazz Lounge",
+        "address_text": "서울 광진구 자양로18길 56 거송빌딩 지하 1층",
         "address_components": null,
-        "location_lat": 37.5477648961168,
-        "location_lon": 127.069968240678,
+        "location_lat": 37.5379721361606,
+        "location_lon": 127.086647241261,
         "subway_nearby": "7호선 어린이대공원역 4번 출구에서 329m",
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Jazz Restaurant",
-            "ko": "재즈레스토랑"
+            "en": "Dido Jazz Lounge",
+            "ko": "디도 재즈 라운지"
           },
           "address_text": {
-            "en": "18-5 Hwayang-dong, Gwangjin District, Seoul, South Korea",
-            "ko": "서울 광진구 화양동 18-5"
+            "en": "B1 Geoseong Building, 56, Jayang-ro 18-gil, Gwangjin District, Seoul, South Korea",
+            "ko": "서울 광진구 자양로18길 56 거송빌딩 지하 1층"
           },
           "notes": null
         }
@@ -2382,21 +2419,23 @@
     ],
     "i18n": {
       "name": {
-        "en": "Jazz Restaurant",
-        "ko": "재즈레스토랑"
+        "en": "Dido Jazz Lounge",
+        "ko": "디도 재즈 라운지"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "en": [
-          "Jazz"
+          "Jazz",
+          "Live music"
         ],
         "ko": [
-          "재즈"
+          "재즈",
+          "라이브 공연"
         ]
       },
       "subway_nearby": {
-        "en": "329m from Children's Grand Park Station Exit 4 on Line 7",
+        "en": "329m from Children's Grand Park Station Exit 4 (Line 7)",
         "ko": "7호선 어린이대공원역 4번 출구에서 329m"
       },
       "food_policy": null,
@@ -3527,19 +3566,19 @@
     }
   },
   {
-    "raw": "1. **Identify the core concepts:** What is the main subject matter or skill being discussed?\n2. **Determine the audience:** Who is this information intended for (beginners, experts, general public)?\n3. **Establish the purpose:** Why is this information being presented (to inform, persuade, instruct)?\n4. **Define the scope:** How broad or narrow should the coverage be?\n5. **Select the appropriate format:** How should the information be structured (list, essay, tutorial, comparison)?\n\n**Example:** If the subject is \"The basics of quantum computing,\" the steps would look like this:\n\n1. **Core Concept:** Quantum Computing Principles.\n2. **Audience:** Technically curious laypersons or introductory computer science students.\n3. **Purpose:** To provide a foundational understanding without complex mathematics.\n4. **Scope:** Focus only on qubits, superposition, and entanglement; avoid discussion of specific algorithms (like Shor's) or hardware.\n5. **Format:** A structured, easy-to-read article using analogies.",
+    "raw": "This is a classic Google interview problem that tests your understanding of data structures, especially heaps (priority queues).\n\nThe goal is to maintain the median of a stream of numbers efficiently. If we were to store all numbers in a list and sort it every time `get_median()` is called, `add_num()` would be `O(1)` but `get_median()` would be `O(N log N)` (or `O(N)` if we maintain a sorted list with `O(N)` insertion). This is too slow.\n\nA more efficient approach involves using two heaps:\n\n1.  **A Max-Heap (`left_half`):** This heap stores the smaller half of the numbers. Since it's a max-heap, its root will always be the largest element in the smaller half.\n2.  **A Min-Heap (`right_half`):** This heap stores the larger half of the numbers. Since it's a min-heap, its root will always be the smallest element in the larger half.\n\n**The Invariants:**\n\n*   All elements in `left_half` must be less than or equal to all elements in `right_half`.\n*   The size difference between the two heaps must be at most 1.\n    *   If the total number of elements `N` is even, both heaps will have `N/2` elements.\n    *   If the total number of elements `N` is odd, one heap will have `(N/2) + 1` elements and the other `N/2`. We'll choose the `left_half` (max-heap) to store the extra element for consistency, making it simpler to find the median.\n\n**How it works:**\n\n*   **`add_num(num)`:**\n    1.  **Placement:** First, decide which heap `num` should go into.\n        *   If `num` is smaller than or equal to the largest element in `left_half` (or `left_half` is empty), add `num` to `left_half`.\n        *   Otherwise, add `num` to `right_half`.\n    2.  **Rebalance:** After adding, check the size invariant.\n        *   If `left_half.size > right_half.size + 1`: Move the largest element from `left_half` to `right_half`.\n        *   If `right_half.size > left_half.size`: Move the smallest element from `right_half` to `left_half`.\n        (This ensures `left_half` either has the same size as `right_half` or is larger by 1.)\n\n*   **`get_median()`:**\n    *   If `left_half.size == right_half.size`: The median is the average of the largest element in `left_half` and the smallest element in `right_half`.\n    *   If `left_half.size == right_half.size + 1`: The median is the largest element in `left_half` (since it holds the middle element).\n\n**Example Trace:**\n\nLet's say the stream is `[5, 15, 1, 3, 20, 10, 8]`\n\n1.  **`add_num(5)`:**\n    *   `left_half = [5]`, `right_half = []`\n    *   Median: `5.0`\n\n2.  **`add_num(15)`:**\n    *   `15 > 5`, so add to `right_half`: `left_half = [5]`, `right_half = [15]`\n    *   Sizes are equal, balanced.\n    *   Median: `(5 + 15) / 2 = 10.0`\n\n3.  **`add_num(1)`:**\n    *   `1 <= 5`, so add to `left_half`: `left_half = [5, 1]`, `right_half = [15]` (max-heap property means 5 is root)\n    *   `left_half.size (2) == right_half.size (1) + 1`. Balanced.\n    *   Median: `5.0`\n\n4.  **`add_num(3)`:**\n    *   `3 <= 5`, so add to `left_half`: `left_half = [5, 3, 1]`, `right_half = [15]`\n    *   `left_half.size (3) > right_half.size (1) + 1`. Rebalance: move `5` from `left_half` to `right_half`.\n    *   `left_half = [3, 1]`, `right_half = [5, 15]`\n    *   Median: `(3 + 5) / 2 = 4.0`\n\n5.  **`add_num(20)`:**\n    *   `20 > 3`, so add to `right_half`: `left_half = [3, 1]`, `right_half = [5, 15, 20]`\n    *   `right_half.size (3) > left_half.size (2)`. Rebalance: move `5` from `right_half` to `left_half`.\n    *   `left_half = [5, 3, 1]`, `right_half = [15, 20]`\n    *   Median: `5.0`\n\n**Complexity:**\n\n*   **`add_num`**: Each push or pop operation on a heap takes `O(log K)` time, where `K` is the size of the heap. Since `K` is at most `N` (total elements), `add_num` is `O(log N)`.\n*   **`get_median`**: Peeking at the top of a heap takes `O(1)` time.\n*   **Space**: `O(N)` to store all numbers in the heaps.\n\n**Python Implementation:**\n\nPython's `heapq` module implements a min-heap. To simulate a max-heap, we can store the negative of the numbers.\n\n```python\nimport heapq\n\nclass MedianFinder:\n    def __init__(self):\n        # max_heap_left stores the smaller half of the numbers.\n        # Python's heapq is a min-heap, so we store negative values to simulate a max-heap.\n        self.max_heap_left = [] \n        \n        # min_heap_right stores the larger half of the numbers.\n        self.min_heap_right = []\n\n    def add_num(self, num: int) -> None:\n        # Rule 1: Add to max_heap_left if it's empty or num is smaller than max element in left\n        # Otherwise, add to min_heap_right\n        if not self.max_heap_left or num <= -self.max_heap_left[0]:\n            heapq.heappush(self.max_heap_left, -num)\n        else:\n            heapq.heappush(self.min_heap_right, num)\n\n        # Rule 2: Rebalance to ensure sizes differ by at most 1\n        # Prioritize max_heap_left to be larger if total count is odd\n        \n        # If max_heap_left is too big\n        if len(self.max_heap_left) > len(self.min_heap_right) + 1:\n            # Move the largest element from max_heap_left to min_heap_right\n            heapq.heappush(self.min_heap_right, -heapq.heappop(self.max_heap_left))\n        # If min_heap_right is too big\n        elif len(self.min_heap_right) > len(self.max_heap_left):\n            # Move the smallest element from min_heap_right to max_heap_left\n            heapq.heappush(self.max_heap_left, -heapq.heappop(self.min_heap_right))\n\n    def find_median(self) -> float:\n        if not self.max_heap_left and not self.min_heap_right:\n            # Handle empty stream case, though problem usually implies at least one number before call\n            raise ValueError(\"No numbers in the stream to find median.\")\n\n        # If total number of elements is odd, max_heap_left has one more element\n        if len(self.max_heap_left) > len(self.min_heap_right):\n            return float(-self.max_heap_left[0])\n        # If total number of elements is even, both heaps have equal size\n        else:\n            # Median is the average of the two middle elements\n            return (-self.max_heap_left[0] + self.min_heap_right[0]) / 2.0\n\n```",
     "ig_handle": "myjazzgarden",
-    "last_analyzed_at": "2025-11-09T05:13:33.299802+09:00",
+    "last_analyzed_at": "2025-11-16T06:15:07.880987+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/myjazzgarden/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=2955420704049297629",
       "gemini:enrich"
     ],
@@ -3554,12 +3593,15 @@
       "phone": "050-71464-0757",
       "email": null
     },
-    "subway_nearby": "5호선 마곡역 4번 출구에서 308m",
+    "genres": [
+      "Jazz",
+      "Bar"
+    ],
     "locations": [
       {
         "location_id": "main",
         "name": "My Jazz Garden",
-        "address_text": "서울 강서구 마곡중앙6로 76 퀸즈파크11 A동 4층",
+        "address_text": "4F Queen's Park 11 Tower A, Makok, 강서구 서울특별시 South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
@@ -3572,8 +3614,8 @@
             "ko": "마이 재즈 가든"
           },
           "address_text": {
-            "en": "4th Floor, Queen's Park 11 Tower A, 76 Magokjungang 6-ro, Gangseo-gu, Seoul, South Korea",
-            "ko": "서울 강서구 마곡중앙6로 76 퀸즈파크11 A동 4층"
+            "en": "4th Floor, Queen's Park 11 Tower A, Magok-dong, Gangseo-gu, Seoul, South Korea",
+            "ko": "서울 강서구 마곡동 퀸즈파크11타워 A동 4층"
           },
           "notes": null
         }
@@ -3586,9 +3628,18 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Jazz",
+          "Bar"
+        ],
+        "ko": [
+          "재즈",
+          "바"
+        ]
+      },
       "subway_nearby": {
-        "en": "308m from Magok Station Exit 4 on Line 5",
+        "en": "308m from Magok Station Exit 4, Line 5",
         "ko": "5호선 마곡역 4번 출구에서 308m"
       },
       "food_policy": null,
@@ -3596,19 +3647,19 @@
     }
   },
   {
-    "raw": "Please provide the text you would like me to process.",
+    "raw": "Problem Solution: Tree Growth Pattern Analysis\nThe core challenge of this problem involves determining the total height of a tree after a specified number of days, based on a non-linear growth pattern. It requires identifying the underlying sequence governing daily growth and then summing these incremental changes over time to find the cumulative height.\nTo address this, the approach begins by observing the given daily growth rates: 2 cm on Day 1, 3 cm on Day 2, 5 cm on Day 3, and 8 cm on Day 4. Analysis of these numbers reveals a Fibonacci-like sequence where each day's growth, starting from Day 3, is the sum of the previous two days' growth (2+3=5, 3+5=8). Subsequently, this pattern was extended to calculate the growth for Day 5 (which is 5 cm + 8 cm = 13 cm) and Day 6 (which is 8 cm + 13 cm = 21 cm). The methodology then progressed by summing all daily growth amounts from Day 1 to Day 6. Careful consideration was given to accumulating the total height from the tree's starting point of 0 cm. A crucial insight derived is that the daily growth follows a modified Fibonacci sequence where the first two terms are set as 2 and 3, and subsequent terms are the sum of the preceding two. The final output, obtained through these steps by summing 2 + 3 + 5 + 8 + 13 + 21, is 52 cm.",
     "ig_handle": "newall_jazz",
-    "last_analyzed_at": "2025-11-09T05:10:21.144843+09:00",
+    "last_analyzed_at": "2025-11-16T05:56:39.418943+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/newall_jazz/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=18103884637851195875",
       "gemini:enrich"
     ],
@@ -3623,6 +3674,8 @@
       "phone": null,
       "email": null
     },
+    "subway_nearby": "2호선 공항경의중앙홍대입구역 1번 출구에서 310m",
+    "websites": [],
     "locations": [
       {
         "location_id": "main",
@@ -3631,7 +3684,7 @@
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
-        "subway_nearby": null,
+        "subway_nearby": "2호선 공항경의중앙홍대입구역 1번 출구에서 310m",
         "booking_link": "https://app.catchtable.co.kr/ct/shop/newall",
         "notes": null,
         "i18n": {
@@ -3640,7 +3693,7 @@
             "ko": "뉴올 재즈 라운지"
           },
           "address_text": {
-            "en": "14 Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea",
+            "en": "14, Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea",
             "ko": "서울 마포구 동교로23길 14"
           },
           "notes": null
@@ -3656,8 +3709,8 @@
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "310m from Hongik University Station Exit 1 (Line 2, Airport Railroad, Gyeongui-Jungang Line)",
-        "ko": "2호선 공항경의중앙홍대입구역 1번 출구에서 310m"
+        "en": "310m from Hongik University Station (Line 2, Airport Railroad, Gyeongui-Jungang Line) Exit 1",
+        "ko": "홍대입구역 1번 출구에서 310m (2호선, 공항철도, 경의중앙선)"
       },
       "food_policy": null,
       "age_limit": null
@@ -4113,37 +4166,22 @@
     }
   },
   {
-    "raw": "To parse a command string like `\"mv a b\"` into its command and a list of arguments, you can use Python's `split()` method. For more robust parsing, especially if arguments might contain spaces and be quoted, the `shlex` module is a better choice.\n\nLet's look at both methods:\n\n### 1. Using `str.split()` (Simple Cases)\n\nThis method is straightforward and works well for commands where arguments are separated by single or multiple spaces and don't contain spaces themselves (unless they are escaped, which `split()` won't handle directly).\n\n```python\ncommand_string = \"mv a b\"\n\n# Split the string by whitespace. By default, split() handles\n# multiple spaces and strips leading/trailing whitespace.\nparts = command_string.split()\n\nif parts:\n    command = parts[0]      # The first element is the command\n    arguments = parts[1:]   # The rest are the arguments\nelse:\n    command = \"\"\n    arguments = []\n\nprint(f\"Original string: '{command_string}'\")\nprint(f\"Command: '{command}'\")\nprint(f\"Arguments: {arguments}\")\n\nprint(\"\\n--- Another example (ls with one arg) ---\")\ncommand_string_ls = \"ls -l\"\nparts_ls = command_string_ls.split()\ncommand_ls = parts_ls[0]\narguments_ls = parts_ls[1:]\nprint(f\"Original string: '{command_string_ls}'\")\nprint(f\"Command: '{command_ls}'\")\nprint(f\"Arguments: {arguments_ls}\")\n\nprint(\"\\n--- Another example (no args) ---\")\ncommand_string_no_args = \"pwd\"\nparts_no_args = command_string_no_args.split()\ncommand_no_args = parts_no_args[0] if parts_no_args else \"\"\narguments_no_args = parts_no_args[1:] if parts_no_args else []\nprint(f\"Original string: '{command_string_no_args}'\")\nprint(f\"Command: '{command_no_args}'\")\nprint(f\"Arguments: {arguments_no_args}\")\n```\n\n**Output:**\n\n```\nOriginal string: 'mv a b'\nCommand: 'mv'\nArguments: ['a', 'b']\n\n--- Another example (ls with one arg) ---\nOriginal string: 'ls -l'\nCommand: 'ls'\nArguments: ['-l']\n\n--- Another example (no args) ---\nOriginal string: 'pwd'\nCommand: 'pwd'\nArguments: []\n```\n\n### 2. Using `shlex.split()` (Robust Parsing)\n\nThe `shlex` module is designed for parsing shell-like syntax. It correctly handles quoted strings (single or double quotes), escaped characters, and comments. This is the recommended approach for more complex or real-world scenarios.\n\n```python\nimport shlex\n\ncommand_string = \"mv a b\"\n\n# shlex.split() will parse the string like a Unix shell\nparts = shlex.split(command_string)\n\nif parts:\n    command = parts[0]\n    arguments = parts[1:]\nelse:\n    command = \"\"\n    arguments = []\n\nprint(f\"Original string: '{command_string}'\")\nprint(f\"Command: '{command}'\")\nprint(f\"Arguments: {arguments}\")\n\nprint(\"\\n--- Example with quoted arguments ---\")\ncommand_string_quoted = \"cp 'my document with spaces.txt' \\\"another file.pdf\\\"\"\nparts_quoted = shlex.split(command_string_quoted)\ncommand_quoted = parts_quoted[0]\narguments_quoted = parts_quoted[1:]\nprint(f\"Original string: '{command_string_quoted}'\")\nprint(f\"Command: '{command_quoted}'\")\nprint(f\"Arguments: {arguments_quoted}\")\n\nprint(\"\\n--- Example with escaped spaces ---\")\ncommand_string_escaped = \"rm my\\\\ file.txt\"\nparts_escaped = shlex.split(command_string_escaped)\ncommand_escaped = parts_escaped[0]\narguments_escaped = parts_escaped[1:]\nprint(f\"Original string: '{command_string_escaped}'\")\nprint(f\"Command: '{command_escaped}'\")\nprint(f\"Arguments: {arguments_escaped}\")\n```\n\n**Output:**\n\n```\nOriginal string: 'mv a b'\nCommand: 'mv'\nArguments: ['a', 'b']\n\n--- Example with quoted arguments ---\nOriginal string: 'cp 'my document with spaces.txt' \"another file.pdf\"'\nCommand: 'cp'\nArguments: ['my document with spaces.txt', 'another file.pdf']\n\n--- Example with escaped spaces ---\nOriginal string: 'rm my\\ file.txt'\nCommand: 'rm'\nArguments: ['my file.txt']\n```\n\n### Which to choose?\n\n*   **`str.split()`:** Use this if you are absolutely sure that your arguments will *never* contain spaces, or if you control the input and it's always simple whitespace-separated values. It's simpler and slightly faster for these specific cases.\n*   **`shlex.split()`:** Use this for almost all real-world scenarios, especially when dealing with user input or parsing actual shell commands, as it provides robust handling for quotes, escapes, and other shell conventions.",
+    "raw": "Okay, this is a classic text extraction problem, and Regular Expressions (regex) are your best friend here. Since the format can be \"free-form\" but usually has labels, we'll create a script that looks for common labels and extracts the subsequent text until it hits another known label or the end of the section/document.\n\nWe'll aim for a JSON output for structured data.\n\n### Python Script: `extract_profile.py`\n\n```python\nimport re\nimport json\nimport argparse\nimport os\n\ndef extract_data_from_text(text_content):\n    \"\"\"\n    Extracts structured data from free-form text using predefined patterns.\n    \"\"\"\n    extracted_info = {}\n\n    # Define the fields and their primary keywords (case-insensitive)\n    # The order here is important for lookaheads to prevent over-capturing.\n    # Fields that typically appear earlier in a document should be listed first.\n    field_definitions = [\n        (\"Name\", [\"Name\", \"Full Name\", \"Candidate Name\"]),\n        (\"Date of Birth\", [\"DOB\", \"Date of Birth\", \"Birth Date\"]),\n        (\"Height\", [\"Height\"]),\n        (\"Weight\", [\"Weight\"]),\n        (\"Hair Color\", [\"Hair Color\", \"Hair\"]),\n        (\"Eye Color\", [\"Eye Color\", \"Eyes\"]),\n        (\"Address\", [\"Address\", \"Location\", \"Residential Address\"]),\n        (\"Phone\", [\"Phone\", \"Phone Number\", \"Contact Number\", \"Mobile\"]),\n        (\"Email\", [\"Email\", \"E-mail\", \"Email Address\"]),\n        (\"Education\", [\"Education\", \"Academic Background\", \"Qualifications\"]),\n        (\"Employment\", [\"Employment\", \"Work Experience\", \"Experience\", \"Professional History\"]),\n        (\"Skills\", [\"Skills\", \"Key Skills\", \"Core Competencies\"]),\n        (\"Summary\", [\"Summary\", \"Profile\", \"About Me\", \"Objective\"]),\n        # Add more fields as needed, keeping the order logical\n    ]\n\n    # Generate a list of all potential keywords for lookahead purposes.\n    # This helps to define the end of a field's value, preventing over-capture.\n    all_keywords_flat = []\n    for _, keywords in field_definitions:\n        all_keywords_flat.extend(keywords)\n    # Sort by length descending to match longer keywords first (e.g., \"Phone Number\" before \"Phone\")\n    all_keywords_flat.sort(key=len, reverse=True)\n    # Regex for any of these keywords appearing on a new line (or start of text),\n    # possibly followed by a colon or other delimiters.\n    # This acts as a boundary for the current field's value.\n    next_field_boundary_pattern = r\"(?:\\n|^)(?:\" + \"|\".join(re.escape(k) for k in all_keywords_flat) + r\")(?:\\s*[:\\-—]*\\s*|\\s+|$)\"\n\n    # Process each field definition\n    for field_name, keywords in field_definitions:\n        # Construct a regex pattern for the current field:\n        # 1. Look for any of the field's keywords (case-insensitive).\n        # 2. Allow for optional colon, hyphen, or just whitespace after the keyword.\n        # 3. Capture everything non-greedily (.*?)\n        # 4. Stop capturing when the `next_field_boundary_pattern` is encountered OR\n        #    the end of the text ($) is reached.\n        keyword_group = \"|\".join(re.escape(k) for k in keywords)\n        pattern = re.compile(\n            rf\"(?:{keyword_group})[:\\s\\-—]*(.*?)(?={next_field_boundary_pattern}|$)\",\n            re.IGNORECASE | re.DOTALL # IGNORECASE for case-insensitivity, DOTALL for multi-line matching\n        )\n\n        match = pattern.search(text_content)\n        if match:\n            value = match.group(1).strip()\n\n            # Clean up the extracted value:\n            # - Remove leading/trailing newlines and spaces.\n            # - Replace internal sequences of multiple newlines/spaces with a single space\n            #   for single-line display, but keep original structure for multi-line fields\n            #   like Education/Employment where lists are common.\n            #   For now, we'll standardize to single spaces for simplicity in output,\n            #   but this can be adjusted.\n            value = re.sub(r'\\s*\\n\\s*', ' ', value).strip()\n            value = re.sub(r'\\s{2,}', ' ', value) # Replace multiple spaces with single space\n            value = re.strip(value, '-,.:') # Remove common trailing punctuation\n\n            if value: # Only add if a non-empty value was found\n                extracted_info[field_name] = value\n\n    return extracted_info\n\ndef main():\n    parser = argparse.ArgumentParser(\n        description=\"Extracts structured profile data from a free-form text file.\"\n    )\n    parser.add_argument(\n        \"input_file\",\n        help=\"Path to the input text file containing profile information.\"\n    )\n    parser.add_argument(\n        \"-o\", \"--output-file\",\n        help=\"Optional: Path to save the extracted JSON data. If not provided, prints to console.\"\n    )\n    args = parser.parse_args()\n\n    if not os.path.exists(args.input_file):\n        print(f\"Error: Input file '{args.input_file}' not found.\")\n        return\n\n    try:\n        with open(args.input_file, 'r', encoding='utf-8') as f:\n            text_content = f.read()\n    except Exception as e:\n        print(f\"Error reading file '{args.input_file}': {e}\")\n        return\n\n    extracted_data = extract_data_from_text(text_content)\n\n    json_output = json.dumps(extracted_data, indent=4, ensure_ascii=False)\n\n    if args.output_file:\n        try:\n            with open(args.output_file, 'w', encoding='utf-8') as f:\n                f.write(json_output)\n            print(f\"Extracted data successfully saved to '{args.output_file}'\")\n        except Exception as e:\n            print(f\"Error writing to output file '{args.output_file}': {e}\")\n            print(\"\\n--- Extracted Data (printed to console due to file error) ---\")\n            print(json_output)\n    else:\n        print(json_output)\n\nif __name__ == \"__main__\":\n    main()\n```\n\n### How to Use\n\n1.  **Save the script:** Save the code above as `extract_profile.py`.\n\n2.  **Prepare your input file:** Create a text file (e.g., `profile.txt`) with your free-form data. The more consistently you use labels, the better the extraction will be.\n\n    **Example `profile.txt`:**\n\n    ```\n    Candidate Name: Jane Doe\n    DOB: 15/05/1988\n    Height: 5'6\"\n    Weight: 130 lbs\n    Hair Color: Brown\n    Eye Color: Blue\n    Address: 123 Main Street, Apt 4B\n             Anytown, State 12345\n             Country\n\n    Phone Number: (555) 123-4567\n    Email Address: jane.doe@example.com\n\n    Education:\n    - PhD in Computer Science, University of XYZ (2010-2014)\n    - M.Sc. in Software Engineering, Tech Institute (2008-2010)\n    - B.Sc. in Information Technology, City College (2004-2008)\n\n    Employment History:\n    - Senior Software Engineer at Innovate Corp (2018-Present)\n      Developed scalable backend systems using Python and microservices architecture.\n    - Software Developer at Startup Solutions (2014-2018)\n      Contributed to full-stack web development projects.\n\n    Key Skills: Python, AWS, Docker, Kubernetes, SQL, JavaScript, React, Agile Methodologies\n\n    Summary: Highly motivated and experienced software engineer with a strong background in distributed systems and cloud technologies. Passionate about building robust and efficient solutions.\n    ```\n\n3.  **Run the script:**\n\n    *   **To print to console:**\n        ```bash\n        python extract_profile.py profile.txt\n        ```\n\n    *   **To save to a JSON file:**\n        ```bash\n        python extract_profile.py profile.txt -o output.json\n        ```\n\n### Explanation of the Script\n\n1.  **`extract_data_from_text(text_content)` function:**\n    *   **`field_definitions`:** This list defines the fields you want to extract (e.g., \"Name\", \"Date of Birth\"). For each field, it provides a list of common keywords that might precede its value (e.g., \"DOB\", \"Date of Birth\"). **The order matters!** Fields appearing earlier in your typical text should be listed first to improve the accuracy of the lookahead.\n    *   **`all_keywords_flat` and `next_field_boundary_pattern`:**\n        *   It first gathers all possible keywords from `field_definitions`.\n        *   It sorts these keywords by length (descending) to ensure that longer, more specific keywords (like \"Phone Number\") are matched before shorter, more general ones (\"Phone\").\n        *   `next_field_boundary_pattern` is dynamically built. This regex is crucial: it acts as a \"stop sign\" for the current field's value. It means \"stop capturing when you see any of these keywords appearing on a new line (or at the start of the text), possibly followed by a colon or other separators.\"\n    *   **Regex Pattern Construction:**\n        *   For each `field_name` and its `keywords`:\n            *   `re.escape(k)` is used to treat special regex characters in your keywords literally.\n            *   `rf\"(?:{keyword_group})[:\\s\\-—]*(.*?)(?={next_field_boundary_pattern}|$)\"` is the core regex:\n                *   `(?:{keyword_group})`: Matches any of the defined keywords for the current field (non-capturing group).\n                *   `[:\\s\\-—]*`: Matches an optional colon, whitespace, or hyphen/em dash immediately after the keyword.\n                *   `(.*?)`: This is the **capturing group** for the actual value. `.` matches any character (including newlines due to `re.DOTALL`), and `*?` makes it non-greedy, meaning it matches as few characters as possible.\n                *   `(?={next_field_boundary_pattern}|$)`: This is a **positive lookahead assertion**. It tells the regex engine to stop the `.*?` capture *just before* it encounters either:\n                    *   `next_field_boundary_pattern`: Another defined field's keyword on a new line.\n                    *   `$`: The end of the entire text string.\n                This lookahead is critical for correctly extracting multi-line values (like Address, Education, Employment) without overshooting into the next field.\n            *   `re.IGNORECASE`: Makes the search case-insensitive (e.g., \"name\", \"Name\", \"NAME\" all match).\n            *   `re.DOTALL`: Allows `.` to match newline characters, which is essential for multi-line fields.\n    *   **Value Cleaning:** After extraction, it cleans up extra newlines and spaces, and removes common trailing punctuation from the extracted value.\n\n2.  **`main()` function:**\n    *   Handles command-line arguments using `argparse` for input and optional output files.\n    *   Reads the content of the specified input file.\n    *   Calls `extract_data_from_text` to get the structured dictionary.\n    *   Converts the dictionary to a pretty-printed JSON string (`json.dumps` with `indent=4`).\n    *   Prints the JSON to the console or saves it to an output file as specified.\n    *   Includes basic error handling for file operations.\n\n### Considerations and Limitations\n\n*   **Reliance on Labels:** This script heavily relies on the presence of clear labels (e.g., \"Name:\", \"DOB:\", \"Address\"). If data is completely unstructured with no labels, this approach won't work well.\n*   **Order of Fields:** The `field_definitions` list order is important. If your text routinely has \"Email\" *before* \"Phone\", adjust the list accordingly.\n*   **Keyword Variations:** You might need to expand the `keywords` list for each field to include more variations you encounter in your data (e.g., \"Tel:\", \"Mobile No:\", \"Street Address\").\n*   **Complex Multi-line Data:** While the lookahead helps with multi-line fields, highly complex, nested, or inconsistent multi-line data might require more sophisticated parsing (e.g., using specific parsers for resume formats or NLP techniques).\n*   **False Positives:** If a keyword appears in a context that isn't a label (e.g., \"The project **Skills** included...\" where \"Skills\" isn't a header), it might lead to incorrect extraction. The `next_field_boundary_pattern` tries to mitigate this by looking for keywords typically at the start of a line/section.\n*   **Ambiguity:** If \"Name\" is followed by multiple names (e.g., \"Name: John Doe, Jane Smith\"), it will extract the whole string. Further post-processing would be needed to separate them.\n*   **\"Orphaned\" Data:** If there's important data that *doesn't* have a preceding label and doesn't fall between two recognized labels, it won't be extracted.\n\nThis script provides a strong foundation for extracting structured data from semi-structured text. You can extend `field_definitions` and refine the regex patterns as you encounter more variations in your input files.",
     "ig_handle": "pungjane2021",
-    "last_analyzed_at": "2025-11-10T05:09:44.868208+09:00",
+    "last_analyzed_at": "2025-11-17T06:44:06.792732+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-03/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pungjane2021/profile/2025-11-11/profile.json",
       "maps:https://maps.google.com/?cid=12011275209003638965",
       "maps:https://maps.google.com/?cid=862641155739216924",
-      "maps:https://maps.google.com/?cid=3060289581387063849",
-      "maps:https://maps.google.com/?cid=9007553733847857661",
-      "maps:https://maps.google.com/?cid=10659432083350541379",
-      "maps:https://maps.google.com/?cid=16128865461387965881",
-      "maps:https://maps.google.com/?cid=1277901080893012707",
-      "maps:https://maps.google.com/?cid=7975290367467350674",
       "maps:https://maps.google.com/?cid=16649714475133148097",
-      "maps:https://maps.google.com/?cid=11077532143515550153",
-      "maps:https://maps.google.com/?cid=17181138888049527675",
-      "maps:https://maps.google.com/?cid=6002780785341071861",
-      "maps:https://maps.google.com/?cid=16943394053933634027",
-      "maps:https://maps.google.com/?cid=16003773055734617663",
-      "maps:https://maps.google.com/?cid=16454829249622375967",
-      "maps:https://maps.google.com/?cid=9422763238434655596",
-      "maps:https://maps.google.com/?cid=3573271152574291133",
-      "maps:https://maps.google.com/?cid=14457656345016522914",
       "gemini:enrich"
     ],
     "links": {
@@ -4158,13 +4196,6 @@
       "email": null
     },
     "subway_nearby": "5호선 둔촌동역 3번 출구에서 195m",
-    "websites": [
-      "https://www.instagram.com/pungjane2021",
-      "https://blog.naver.com/hsu4812"
-    ],
-    "genres": [
-      "Bar"
-    ],
     "locations": [
       {
         "location_id": "main",
@@ -4196,16 +4227,9 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Bar"
-        ],
-        "ko": [
-          "바"
-        ]
-      },
+      "genres": null,
       "subway_nearby": {
-        "en": "195m walk from Dunchon-dong Station Exit 3 (Line 5)",
+        "en": "195m from Dunchon-dong Station Exit 3 (Line 5)",
         "ko": "5호선 둔촌동역 3번 출구에서 195m"
       },
       "food_policy": null,
@@ -4213,45 +4237,92 @@
     }
   },
   {
-    "raw": "A $1000$ $\\text{m}$ cable is being used to connect two points $A$ and $B$ in a room. The cable is suspended between two poles of equal height at points $A$ and $B$. The distance between the poles is $1000$ $\\text{m}$. The cable is modeled by the curve $y=a \\cosh \\left(\\frac{x}{a}\\right)$. The lowest point of the cable is at $(0, a)$. The cable touches the ground at its lowest point. The cable is connected to the poles at the points $A$ and $B$. The coordinates of $A$ and $B$ are $(-500, y_A)$ and $(500, y_B)$. The length of the cable is $1000$ $\\text{m}$. The cable is symmetric with respect to the $y$-axis. The lowest point of the cable is at $(0, a)$, and the cable touches the ground at this point, so $y(0) = a$. The coordinates of $A$ and $B$ are $(-500, y_A)$ and $(500, y_B)$. The distance between the poles is $1000$ $\\text{m}$. The cable is connected to the poles at the points $A$ and $B$. The height of the poles is $y_A = y_B$. Let $L$ be the length of the cable. We are given $L=1000$ $\\text{m}$.\n\nThe length of a curve $y=f(x)$ from $x=x_1$ to $x=x_2$ is given by the integral:\n$$L = \\int_{x_1}^{x_2} \\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} dx$$\nFor the catenary curve $y = a \\cosh\\left(\\frac{x}{a}\\right)$, the derivative is:\n$$\\frac{dy}{dx} = \\frac{d}{dx} \\left(a \\cosh\\left(\\frac{x}{a}\\right)\\right) = a \\cdot \\frac{1}{a} \\sinh\\left(\\frac{x}{a}\\right) = \\sinh\\left(\\frac{x}{a}\\right)$$\nThen,\n$$1 + \\left(\\frac{dy}{dx}\\right)^2 = 1 + \\sinh^2\\left(\\frac{x}{a}\\right) = \\cosh^2\\left(\\frac{x}{a}\\right)$$\nSo, the integrand is:\n$$\\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} = \\sqrt{\\cosh^2\\left(\\frac{x}{a}\\right)} = \\cosh\\left(\\frac{x}{a}\\right)$$\nThe length of the cable between $x=-500$ and $x=500$ is:\n$$L = \\int_{-500}^{500} \\cosh\\left(\\frac{x}{a}\\right) dx$$\nSince $\\cosh$ is an even function,\n$$L = 2 \\int_{0}^{500} \\cosh\\left(\\frac{x}{a}\\right) dx$$\nThe integral of $\\cosh\\left(\\frac{x}{a}\\right)$ is $a \\sinh\\left(\\frac{x}{a}\\right)$.\n$$L = 2 \\left[ a \\sinh\\left(\\frac{x}{a}\\right) \\right]_0^{500} = 2 \\left( a \\sinh\\left(\\frac{500}{a}\\right) - a \\sinh(0) \\right)$$\nSince $\\sinh(0) = 0$, we have:\n$$L = 2a \\sinh\\left(\\frac{500}{a}\\right)$$\nWe are given that the length of the cable is $L=1000$ $\\text{m}$.\n$$1000 = 2a \\sinh\\left(\\frac{500}{a}\\right)$$\nDividing by 2, we get:\n$$500 = a \\sinh\\left(\\frac{500}{a}\\right)$$\nLet $u = \\frac{500}{a}$. Then $a = \\frac{500}{u}$. Substituting this into the equation:\n$$500 = \\frac{500}{u} \\sinh(u)$$\nDividing by 500 (since $500 \\neq 0$):\n$$1 = \\frac{1}{u} \\sinh(u)$$\n$$u = \\sinh(u)$$\nWe are looking for the solution $u$ to the equation $u = \\sinh(u)$.\nWe know that $\\sinh(u) = \\frac{e^u - e^{-u}}{2}$. So, the equation is:\n$$u = \\frac{e^u - e^{-u}}{2}$$\n$$2u = e^u - e^{-u}$$\nWe know that for $u > 0$, $\\sinh(u) > u$. For $u < 0$, $\\sinh(u) < u$.\nIf $u=0$, then $\\sinh(0) = 0$, so $u=0$ is a solution.\nIf $u=0$, then $\\frac{500}{a} = 0$, which means $a$ would have to be infinite, which is not possible for a hanging cable of finite length.\nSince the cable is suspended, we must have $y_A > a$, which means $\\cosh\\left(\\frac{500}{a}\\right) > 1$, which implies $\\frac{500}{a} \\neq 0$. Thus $u \\neq 0$.\n\nLet's re-read the problem carefully.\nThe distance between the poles is $1000$ $\\text{m}$. The poles are at $x=-500$ and $x=500$.\nThe length of the cable is $1000$ $\\text{m}$.\nThe cable is modeled by $y = a \\cosh(\\frac{x}{a})$.\nThe lowest point is at $(0, a)$, so $y(0)=a$. This is consistent with the equation.\nThe cable touches the ground at its lowest point, so $y(0)=0$.\nIf the cable touches the ground at its lowest point, then $a=0$.\nIf $a=0$, the model $y=a \\cosh(\\frac{x}{a})$ is not defined in the standard sense as a catenary.\n\nIf the cable touches the ground at its lowest point, then $y(0)=0$.\nSince $y(0) = a \\cosh(0) = a \\cdot 1 = a$, we must have $a=0$.\nIf $a=0$, then the length equation $L = 2a \\sinh\\left(\\frac{500}{a}\\right)$ leads to an indeterminate form $\\lim_{a\\to 0^+} 2a \\sinh\\left(\\frac{500}{a}\\right)$.\nLet $u = 500/a$. As $a \\to 0^+$, $u \\to \\infty$.\n$$L = 2 \\frac{500}{u} \\sinh(u) = 1000 \\frac{e^u - e^{-u}}{2u} = 500 \\frac{e^u - e^{-u}}{u}$$\nAs $u \\to \\infty$, $e^{-u} \\to 0$, so $L \\approx 500 \\frac{e^u}{u}$. This limit is $\\infty$, not $1000$.\nSo, the condition \"The cable touches the ground at its lowest point\" contradicts the other given conditions (distance $1000$ $\\text{m}$, length $1000$ $\\text{m}$).\n\nLet's assume the problem meant that the lowest point of the cable is at a height $a$ above the ground, and the problem statement is slightly imprecise, or the lowest point is not at the origin $y=0$.\n\nCase 1: The lowest point of the cable is $(0, a)$ and the ground is the line $y=0$. This is what we used, and it led to $u = \\sinh(u)$ where $u = 500/a$. The only solution is $u=0$, which is not physically meaningful here.\n\nLet's re-examine the setup. A cable of length $L=1000$ $\\text{m}$ connects two points $A$ and $B$ separated by a horizontal distance $D=1000$ $\\text{m}$.\nIf $L=D$, the cable must be perfectly straight, i.e., a straight line.\nIf the cable is a straight line, $y = mx + c$.\nThe points are $(-500, y_A)$ and $(500, y_B)$. Since the height is equal, $y_A = y_B$.\nThe slope $m = \\frac{y_B - y_A}{500 - (-500)} = 0$. So $y=c$ (a horizontal line).\nThe length of a horizontal line segment from $x=-500$ to $x=500$ is $\\sqrt{(500 - (-500))^2 + (c-c)^2} = \\sqrt{1000^2} = 1000$ $\\text{m}$. This is consistent with $L=1000$ $\\text{m}$.\n\nIf the cable is a straight line $y=c$, the catenary model $y = a \\cosh(\\frac{x}{a})$ must approximate this straight line.\nFor $y = a \\cosh(\\frac{x}{a})$ to be a straight line $y=c$, we need the parameter $a$ to be very large.\nIf $a \\to \\infty$, we use the Taylor expansion for $\\cosh(z) = 1 + \\frac{z^2}{2!} + \\frac{z^4}{4!} + \\dots$\n$$y = a \\left( 1 + \\frac{1}{2} \\left(\\frac{x}{a}\\right)^2 + \\frac{1}{24} \\left(\\frac{x}{a}\\right)^4 + \\dots \\right) = a + \\frac{x^2}{2a} + \\frac{x^4}{24a^3} + \\dots$$\nIf $a \\to \\infty$, then $y \\to a$. Since the lowest point is $(0, a)$, this implies $y \\to \\infty$, which is not a horizontal line $y=c$.\n\nLet's go back to the equation $u = \\sinh(u)$ for $u=500/a$.\nSince the problem states the cable is modeled by the catenary, and we found $L=D$ implies $u=\\sinh(u)$, which only has the trivial solution $u=0$, this strongly suggests that the physical situation described is that of a straight cable, which is the limiting case of a catenary with a very large parameter $a$.\n\nIf $a$ is very large, $u = 500/a$ is very small.\nFor small $u$, we use the approximation $\\sinh(u) \\approx u + \\frac{u^3}{6}$.\nThe equation $u = \\sinh(u)$ becomes:\n$$u \\approx u + \\frac{u^3}{6}$$\n$$\\frac{u^3}{6} \\approx 0$$\nThis confirms that the only non-trivial scenario that *almost* fits the catenary model in this extreme case is $u \\approx 0$.\n\nIf $u \\to 0$, then $a = 500/u \\to \\infty$.\nIf $a$ is infinite, the height of the connection points is:\n$$y_A = a \\cosh\\left(\\frac{500}{a}\\right) = a \\cosh(u) \\approx a \\left(1 + \\frac{u^2}{2}\\right) = a + \\frac{a u^2}{2}$$\nSubstituting $u=500/a$:\n$$y_A \\approx a + \\frac{a}{2} \\left(\\frac{500}{a}\\right)^2 = a + \\frac{500^2}{2a}$$\nSince $L=1000$ and $D=1000$, the cable is straight and horizontal. A horizontal cable has zero sag, meaning $y_A = y_{\\text{lowest point}}$.\nIf the cable is horizontal, the sag $S$ is zero. The sag is defined as $S = y_A - y(0)$.\nFor the catenary:\n$$S = y_A - a = a \\cosh\\left(\\frac{500}{a}\\right) - a = a \\left( \\cosh\\left(\\frac{500}{a}\\right) - 1 \\right)$$\nUsing the approximation $\\cosh(u) - 1 \\approx \\frac{u^2}{2}$:\n$$S \\approx a \\cdot \\frac{1}{2} \\left(\\frac{500}{a}\\right)^2 = \\frac{500^2}{2a}$$\nIf the cable is straight and horizontal, the sag $S=0$.\n$$0 = \\frac{500^2}{2a}$$\nThis implies $a \\to \\infty$, which corresponds to $u \\to 0$.\n\nLet's check the initial constraint: \"The cable touches the ground at its lowest point.\" This means $y(0)=0$.\nSince $y(0)=a$, this means $a=0$. As shown before, $a=0$ is inconsistent with $L=1000$ and $D=1000$.\n\nGiven the conflict between the geometric constraints ($L=D=1000$) and the standard catenary model (which requires $L>D$ unless $a\\to\\infty$), the most reasonable interpretation is that the problem describes a straight cable, which is the limiting case of the catenary when $a$ is very large.\n\nIf the cable is straight and horizontal, the height of the connection points $y_A$ is constant.\nThe lowest point is $(0, y(0))$. If the cable touches the ground at the lowest point, then $y(0)=0$.\nSince the cable is horizontal, $y(x) = 0$ for all $x$ between $-500$ and $500$.\nThen $y_A = 0$.\nThe coordinates of $A$ and $B$ are $(-500, 0)$ and $(500, 0)$.\nThe model $y = a \\cosh(x/a)$ should then represent $y=0$.\nIf $y=0$, then $a \\cosh(x/a) = 0$. Since $\\cosh(x/a) > 0$, this implies $a=0$, which is the undefined limit case.\n\nIf we ignore the statement \"The cable touches the ground at its lowest point\" and only use the consistent information: $L=D=1000$. This implies the cable is straight and horizontal.\nIf the cable is horizontal, $y_A = y_B = c$.\nIf we are forced to use the catenary model, we must conclude $a \\to \\infty$.\nIf $a \\to \\infty$, the height $y_A = a \\cosh(500/a) \\to \\infty$. This contradicts the cable being at ground level ($y=0$).\n\nLet's assume the ground is defined by the lowest point of the cable, $y(0)=a$. If the lowest point touches the ground, the ground level is $y=a$. If $y=a$, then $y(0)=a$, which is satisfied. But this means the ground is elevated relative to some absolute zero.\n\nIf the statement means the lowest point is at $y=0$ (absolute ground level), then $a=0$, leading to $L \\to \\infty$, contradiction.\n\nThe only possibility that reconciles the length $L=1000$ and separation $D=1000$ is that the cable is straight and horizontal.\n$$y(x) = y_A = c$$\nIf the cable is straight, the catenary model $y = a \\cosh(x/a)$ cannot perfectly describe it unless $a \\to \\infty$.\n\nIf we assume the problem implies the horizontal case ($a \\to \\infty$):\nThe height $y_A$ is the height of the poles. The problem doesn't ask for $y_A$. It asks for the value of $a$ or possibly the height $y_A$ if we discard the $L=D$ implication.\n\nIf we discard $L=D$ and assume the initial premise: $y(0)=a$ and $y(0)=0$ (touches ground), then $a=0$, which contradicts $L=1000$.\n\nThe scenario $L=D$ is a very specific one, $1000$ $\\text{m}$ cable spanning $1000$ $\\text{m}$. This strongly suggests a horizontal line.\n\nIf the cable is horizontal, $y(x) = y_A$.\nThe lowest point is $(0, y_A)$.\nIf this lowest point touches the ground, $y_A = 0$.\nThe coordinates of $A$ and $B$ are $(-500, 0)$ and $(500, 0)$.\n\nThe question seems ill-posed because $L=D$ forces the curve to be a straight line, which is not a catenary unless $a \\to \\infty$. If $a \\to \\infty$, then $y_A = a + 500^2/(2a) \\to \\infty$, which contradicts $y_A=0$ (ground level).\n\nAssuming the intent was to ask for the height $y_A$ under the condition $L=1000$ and $D=1000$:\nThe only configuration is a horizontal cable $y=c$. If it touches the ground at the lowest point, $c=0$.\nHeight of the poles is $y_A = 0$.\n\nIf we are forced to find a non-zero $a$ such that $L=1000$ and $D=1000$, there is no solution as $u = \\sinh(u)$ only has $u=0$.\n\nWe must conclude that the physical setup $L=D$ implies the result must be interpreted as the limit case of the catenary where the sag is zero, $S=0$, leading to $a \\to \\infty$ and $y_A \\to \\infty$ unless the ground level is elevated.\n\nGiven the constraint \"The cable touches the ground at its lowest point,\" we interpret this as $y(0) = 0$.\nFrom the catenary model, $y(0) = a$. Thus $a=0$.\nIf $a=0$, $L = 2a \\sinh(500/a)$.\nUsing L'Hopital's rule on $f(a) = 2a \\sinh(500/a)$ as $a \\to 0^+$. Let $u=500/a$, $a=500/u$.\n$L = 1000 \\frac{\\sinh u}{u}$. As $u \\to \\infty$, $L \\to \\infty$. This contradicts $L=1000$.\n\nConclusion: The problem statement contains contradictory information. The only consistent interpretation of the spatial configuration ($L=D=1000$ m) is that the cable is straight and horizontal, meaning the height of the poles $y_A$ is the same as the lowest point, and the sag is zero. If the lowest point touches the ground ($y_{min}=0$), then $y_A=0$.\n\nIf the question implies that the height of the poles $y_A$ must be determined using the catenary equation, then $L$ must be greater than $D$. Since $L=D$, the only way to resolve this with the catenary model is to admit the degenerate case $a \\to \\infty$, which leads to a horizontal cable. In this case, the height $y_A$ is undetermined by the cable length formula, but determined by the ground constraint.\n\nSince the lowest point touches the ground $y_{min}=0$, and for the catenary $y_{min}=a$, we must have $a=0$. This leads to $L \\to \\infty$. The length $L=1000$ must be the definitive constraint.\n\nIf $L=1000$ and $D=1000$, the cable is horizontal, $y(x) = y_A$.\nIf the lowest point touches the ground, $y_A = 0$.\nThe height of the poles is $y_A=0$ $\\text{m}$.\n\nIf the problem intended to use the catenary model with a non-zero sag, $L$ must be greater than $1000$ $\\text{m}$. Let's assume there was a typo and $L=1001$ $\\text{m}$ instead, just to see how $a$ would be found.\n$1001 = 2a \\sinh(500/a)$.\n$500.5 = a \\sinh(500/a)$.\nIf $u=500/a$, $u = 500.5 \\frac{\\sinh u}{500} = 1.001 \\sinh u$.\n$u = 1.001 \\sinh u$. Since $1.001 > 1$, there is a non-zero solution for $u$.\nNumerically, $u \\approx 18.74$.\nThen $a = 500/u \\approx 26.68$ $\\text{m}$.\nThe height of the poles would be $y_A = a \\cosh(u) \\approx 26.68 \\cosh(18.74) \\approx 5127.5$ $\\text{m}$.\nThe lowest point would be $a \\approx 26.68$ $\\text{m}$ above ground (if $y(0)=a$).\n\nHowever, based on the exact numbers given: $L=1000$ $\\text{m}$ and $D=1000$ $\\text{m}$.\nThe cable is straight and horizontal, $y(x) = c$.\nLowest point touches ground: $c=0$.\nThe height of the poles $y_A = c = 0$ $\\text{m}$.\nThe parameter $a$ in the catenary model is infinite, indicating a straight line.\n\nThe question does not ask for $a$, but the premise implies the physical setup must be satisfied. The physical setup dictates $y_A=0$.\n\nFinal answer based on the inescapable physical consequence of $L=D$:\nThe height of the poles $y_A$ is $0$ $\\text{m}$.",
+    "raw": "Here is a demonstration of how I would approach the task, using a hypothetical text on a common academic subject, as no specific text was provided.\n\n**Hypothetical Text Topic:** \"The Impact of Artificial Intelligence on Future Employment Trends\"\n\n---\n\n**Summary:**\n\nThe provided text rigorously examines the multifaceted impact of artificial intelligence (AI) on global employment trends. It posits that while AI adoption will inevitably lead to the automation and displacement of numerous routine tasks across various sectors, it will simultaneously foster the emergence of new, specialized roles requiring advanced technical and human-centric skills. Key findings highlight an increasing skills gap and the imperative for widespread workforce reskilling and upskilling initiatives to navigate this transition effectively. The text underscores the critical significance of these developments for policymakers, educators, and organizations in proactively shaping future labor markets and ensuring equitable socio-economic adaptations.\n\n**Critique:**\n\nA primary weakness of the text lies in its tendency to offer broad predictions without a robust methodological framework for assessing their precise likelihood or detailed actionable policy recommendations for managing the transition.",
     "ig_handle": "rustic_jazz",
-    "last_analyzed_at": "2025-11-09T05:13:45.977270+09:00",
+    "last_analyzed_at": "2025-11-16T06:16:15.930947+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/rustic_jazz/profile/2025-11-03/profile.json",
-      "maps:https://maps.google.com/?cid=2518566375600343369",
       "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=12958000001331928624",
+      "maps:https://maps.google.com/?cid=2518566375600343369",
       "maps:https://maps.google.com/?cid=5936925627923403423",
+      "maps:https://maps.google.com/?cid=5550789818210732130",
+      "maps:https://maps.google.com/?cid=12958000001331928624",
+      "maps:https://maps.google.com/?cid=11842852244500454903",
       "maps:https://maps.google.com/?cid=3512824848346026630",
       "maps:https://maps.google.com/?cid=3803486770832132230",
-      "maps:https://maps.google.com/?cid=13163330699457356298",
-      "maps:https://maps.google.com/?cid=11842852244500454903",
-      "maps:https://maps.google.com/?cid=5550789818210732130",
-      "maps:https://maps.google.com/?cid=16693826049875737167",
-      "maps:https://maps.google.com/?cid=9176070558265640633",
       "maps:https://maps.google.com/?cid=14710763701329609732",
-      "maps:https://maps.google.com/?cid=10469024144103497378",
+      "maps:https://maps.google.com/?cid=16693826049875737167",
+      "maps:https://maps.google.com/?cid=17205286011885073919",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/rustic_jazz",
       "homepage": "http://www.jazzrustic.co.kr",
+      "booking": null,
       "google_map": "https://maps.google.com/?cid=2518566375600343369",
       "naver_map": "https://naver.me/5apDEoVg"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": "050-71390-5280",
+      "email": null
     },
-    "naver_subway_nearby": "6호선 망원역 2번 출구에서 579m"
+    "subway_nearby": "6호선 망원역 2번 출구에서 579m",
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Rustic Jazz",
+        "address_text": "서울 마포구 망원로 74",
+        "address_components": null,
+        "location_lat": 37.5572258907747,
+        "location_lon": 126.904979777478,
+        "subway_nearby": "6호선 망원역 2번 출구에서 579m",
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Rustic Jazz",
+            "ko": "러스틱재즈"
+          },
+          "address_text": {
+            "en": "74 Mangwon-ro, Mapo-gu, Seoul, South Korea",
+            "ko": "서울 마포구 망원로 74"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Rustic Jazz",
+        "ko": "러스틱재즈"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": {
+        "en": [
+          "Jazz",
+          "Live Performance"
+        ],
+        "ko": [
+          "재즈",
+          "라이브 공연"
+        ]
+      },
+      "subway_nearby": {
+        "en": "579m from Mangwon Station Exit 2 (Line 6)",
+        "ko": "6호선 망원역 2번 출구에서 579m"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
   },
   {
     "raw": "That's **Lily of the Valley** (scientific name: *Convallaria majalis*).",
@@ -4464,19 +4535,19 @@
     "naver_subway_nearby": "6호선 망원역 2번 출구에서 551m"
   },
   {
-    "raw": "The **Doric Order** is the oldest and simplest of the classical Greek architectural orders. It is characterized by its massive, fluted columns resting directly on the stylobate (the platform of the temple) without a base, and its austere, sturdy appearance.\n\nHere is a detailed breakdown of the key characteristics of the Doric Order:\n\n---\n\n## 1. Columns (The Shaft and Capital)\n\nThe Doric column is the most distinctive feature, conveying strength and simplicity.\n\n### A. The Column Shaft\n* **Fluting:** The shaft is deeply fluted (grooved) with sharp edges called **arris** separating the grooves. Classical Greek Doric columns typically have **20 flutes**.\n* **Entasis:** A subtle, convex swelling or bulge is often incorporated into the shaft about one-third of the way up from the base. This optical refinement prevents the straight column from appearing concave (a visual illusion) when viewed from a distance.\n* **No Base:** The Doric column sits directly on the temple floor (the **stylobate**) without an intervening base, making it seem firmly rooted to the ground.\n\n### B. The Capital\nThe capital is plain and functional, consisting of two main parts:\n1.  **Echinus:** A circular, convex cushion-like element that flares out slightly from the top of the shaft.\n2.  **Abacus:** A square, flat slab placed directly on top of the echinus, which serves as the bearing surface for the architrave above.\n\n---\n\n## 2. The Entablature\nThe entablature is the structure supported by the columns, resting on the abacus. It is highly characteristic of the Doric Order.\n\n### A. Architrave\nThe lowest element resting directly on the columns. In the Doric style, the architrave is plain and undecorated, consisting of simple horizontal stone beams.\n\n### B. Frieze\nThe frieze, located above the architrave, is where the most recognizable Doric decoration occurs:\n*   **Triglyphs:** Vertical blocks containing three parallel, raised bands (giving the appearance of three grooves). These alternate with the metopes.\n*   **Metopes:** Square panels located between the triglyphs. These were often decorated in the earlier, older style with painted scenes or, more famously in the Parthenon, with sculpted reliefs depicting mythological battles.\n\n### C. Cornice\nThe projecting, crowning element of the entablature that shelters the frieze below.\n\n---\n\n## 3. The Pediment\nThe triangular gable structure at the ends of the temple roof.\n*   The sloping edges of the roof form the **raking cornices**.\n*   The tympanum (the recessed area within the triangle) was often filled with large, freestanding sculptures, especially during the mature Classical period.\n\n---\n\n## Summary of Key Visual Characteristics\n\n| Feature | Doric Description |\n| :--- | :--- |\n| **Overall Impression** | Masculine, sturdy, severe, simple. |\n| **Base** | Absent (sits directly on the stylobate). |\n| **Shaft** | Fluted with sharp arrises, often features entasis. |\n| **Capital** | Simple, consisting of an echinus and an abacus. |\n| **Frieze Decoration** | Alternating **Triglyphs** and **Metopes**. |\n| **Proportions** | Relatively short and stout compared to Ionic or Corinthian columns. |\n\n---\n\n## Historical Context and Evolution\n\nThe Doric Order originated in the Peloponnese region of Greece around the 7th century BCE.\n\n1.  **Archaic Doric (c. 600–480 BCE):** Characterized by very heavy, squat proportions, shallow fluting, and often a very exaggerated echinus (seen in early temples at Paestum, Italy).\n2.  **Classical Doric (c. 480–323 BCE):** Reached its peak perfection with the construction of the **Parthenon** in Athens. Proportions became more refined, elegant, and slender, and optical refinements (like entasis) were expertly applied.\n3.  **Roman Doric:** The Romans adopted the order but often modified it by adding a base to the column (a feature usually reserved for Ionic or Corinthian) and reducing the depth of the fluting.\n\n### Famous Examples:\n*   **The Parthenon, Athens, Greece** (The quintessential example of Classical Doric).\n*   **The Temple of Hephaestus, Athens, Greece** (One of the best-preserved Greek temples).\n*   **The Temple of Poseidon at Paestum, Italy** (Excellent example of Archaic Doric).",
+    "raw": "WAIT",
     "ig_handle": "seoul_garage_bar",
-    "last_analyzed_at": "2025-11-09T05:13:12.435183+09:00",
+    "last_analyzed_at": "2025-11-16T06:10:38.195728+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul_garage_bar/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=16084038525693329250",
       "gemini:enrich"
     ],
@@ -4491,11 +4562,13 @@
       "phone": "010-6630-6980",
       "email": null
     },
-    "subway_nearby": "1호선 종각역 4번 출구에서 288m",
+    "websites": [
+      "https://litt.ly/seoulgaragebar"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Seoul Garage",
+        "name": "Seoul Garage Bar",
         "address_text": "서울 종로구 종로14길 4 1층",
         "address_components": null,
         "location_lat": 37.5698255207023,
@@ -4505,8 +4578,8 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Seoul Garage",
-            "ko": "서울가라지"
+            "en": "Seoul Garage Bar",
+            "ko": "서울 개러지 바"
           },
           "address_text": {
             "en": "1st Floor, 4, Jong-ro 14-gil, Jongno District, Seoul, South Korea",
@@ -4518,23 +4591,21 @@
     ],
     "i18n": {
       "name": {
-        "en": "Seoul Garage",
-        "ko": "서울가라지"
+        "en": "Seoul Garage Bar",
+        "ko": "서울 개러지 바"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "en": [
-          "Bar",
           "Live Music"
         ],
         "ko": [
-          "바",
-          "라이브 음악"
+          "라이브 공연"
         ]
       },
       "subway_nearby": {
-        "en": "288m from Jonggak Station Exit 4 (Line 1)",
+        "en": "288m from Jonggak Station Exit 4, Line 1",
         "ko": "1호선 종각역 4번 출구에서 288m"
       },
       "food_policy": null,
@@ -4813,30 +4884,67 @@
     }
   },
   {
-    "raw": "I can help you with that! To give you the best answer, I need a little more information.\n\nAre you looking for:\n\n1. **A definition** of a specific term?\n2. **Information** about a topic, concept, or historical event?\n3. **Help with a task** (like writing, coding, summarizing, etc.)?\n4. **Something else entirely?**\n\nPlease tell me **what** you need help with!",
+    "raw": "The term \"special characters\" can be a bit ambiguous, as it depends on what you consider \"normal\" characters (letters, numbers, underscores, whitespace) versus \"special.\"\n\nHere are a few common regular expressions for matching various definitions of \"special characters,\" starting from the most common:\n\n---\n\n### 1. Most Common: Anything that is *not* a letter, number, or underscore\n\nThis is often what people mean by \"special characters\" when validating inputs like usernames or passwords where only alphanumeric characters are allowed, but *not* symbols.\n\n*   **Regex:** `\\W`\n*   **Explanation:**\n    *   `\\W` is the \"non-word\" character class. It matches any character that is *not* a letter (a-z, A-Z), a digit (0-9), or an underscore (`_`).\n    *   This *includes* whitespace characters (spaces, tabs, newlines).\n*   **Examples it matches:** `!, @, #, $, %, ^, &, *, (, ), -, +, =, {, }, [, ], |, \\, ;, :, ', \", <, >, ,, ., ?, /, `, ` ` (space), tab, newline.\n*   **Examples it does NOT match:** `a, B, 1, 9, _`\n\n**Example (Python):**\n\n```python\nimport re\n\ntext1 = \"Hello, world! 123_abc\"\ntext2 = \"This has only words and numbers\"\ntext3 = \"Special-chars_@here!\"\n\n# Find all special characters\nmatches1 = re.findall(r'\\W', text1)\nmatches2 = re.findall(r'\\W', text2)\nmatches3 = re.findall(r'\\W', text3)\n\nprint(f\"'{text1}' special chars: {matches1}\") # Output: [',', ' ', '!', ' ']\nprint(f\"'{text2}' special chars: {matches2}\") # Output: [' ', ' ']\nprint(f\"'{text3}' special chars: {matches3}\") # Output: ['-', '_', '@', '!']\n```\n\n---\n\n### 2. Special Characters, *excluding* whitespace\n\nIf you want to match symbols but explicitly *not* spaces, tabs, or newlines.\n\n*   **Regex:** `[^a-zA-Z0-9_\\s]`\n*   **Explanation:**\n    *   `[...]` defines a character set.\n    *   `[^...]` negates the character set, meaning it matches any character *not* in the set.\n    *   `a-zA-Z0-9_` covers all letters (uppercase and lowercase), all digits, and the underscore. This is equivalent to `\\w` for ASCII characters.\n    *   `\\s` matches any whitespace character (space, tab, newline, etc.).\n    *   So, this regex matches any character that is *not* a letter, digit, underscore, *or* whitespace.\n*   **Examples it matches:** `!, @, #, $, %, ^, &, *, (, ), -, +, =, {, }, [, ], |, \\, ;, :, ', \", <, >, ,, ., ?, /, ` `\n*   **Examples it does NOT match:** `a, B, 1, 9, _, ` ` (space), tab, newline`\n\n**Example (Python):**\n\n```python\nimport re\n\ntext1 = \"Hello, world! 123_abc\"\ntext2 = \"This has only words and numbers\"\ntext3 = \"Special-chars_@here!\"\n\n# Find all special characters, excluding whitespace\nmatches1 = re.findall(r'[^a-zA-Z0-9_\\s]', text1)\nmatches2 = re.findall(r'[^a-zA-Z0-9_\\s]', text2)\nmatches3 = re.findall(r'[^a-zA-Z0-9_\\s]', text3)\n\nprint(f\"'{text1}' special chars (no spaces): {matches1}\") # Output: [',', '!']\nprint(f\"'{text2}' special chars (no spaces): {matches2}\") # Output: []\nprint(f\"'{text3}' special chars (no spaces): {matches3}\") # Output: ['-', '@', '!']\n```\n\n---\n\n### 3. Special Characters, with Unicode Support\n\nIf your definition of \"letters\" or \"numbers\" needs to include characters from other languages (e.g., `é`, `ü`, Chinese characters, etc.), and you want to match anything *else* as \"special.\"\n\n*   **Regex (often requires a Unicode flag):** `[^\\p{L}\\p{N}_]` or `[^\\p{L}\\p{N}\\p{P}\\p{Z}]` (depending on exact definition)\n*   **Explanation:**\n    *   `\\p{L}` matches any Unicode letter.\n    *   `\\p{N}` matches any Unicode number (digit).\n    *   `\\p{P}` matches any Unicode punctuation character.\n    *   `\\p{Z}` matches any Unicode separator (like spaces).\n    *   `_` explicitly includes the underscore.\n    *   This approach is more robust for international text.\n    *   **Important:** Not all regex engines support `\\p{}` (Unicode properties) by default.\n        *   **Python:** Use `re.UNICODE` flag with `\\w` (which will then include Unicode word characters in `\\w` and exclude them from `\\W`). For `\\p{}`, you often need the `regex` module (`import regex` instead of `re`).\n        *   **JavaScript:** Use the `u` flag (e.g., `/\\W/u`). Starting with ES2018, it supports `\\p{}` using the `v` flag (e.g., `/[^\\p{L}\\p{N}_]/v`).\n        *   **PHP:** Use the `u` flag (e.g., `/\\W/u` or `/[^\\p{L}\\p{N}_]/u`).\n\n**Example (Python using `regex` module for `\\p{}`):**\n\n```python\nimport regex # Install with: pip install regex\n\ntext = \"Résumé, price: 100€. 日本語の文字。\"\n\n# Matches anything that is NOT a Unicode letter, number, or underscore\nmatches = regex.findall(r'[^\\p{L}\\p{N}_]', text)\nprint(f\"'{text}' special chars (Unicode): {matches}\")\n# Output: [',', ' ', ':', ' ', '€', '.', ' ']\n# Notice it excludes 'é', 'Résumé', '100', '日本語の文字'\n```\n\n---\n\n### Summary and Recommendation:\n\n1.  **For most common use cases (ASCII letters, numbers, underscore as \"normal\", everything else \"special\"):**\n    *   Use `\\W` if whitespace *should* be considered special.\n    *   Use `[^a-zA-Z0-9_\\s]` if whitespace *should NOT* be considered special.\n\n2.  **For international text where you want to treat Unicode letters/numbers as \"normal\":**\n    *   Use `\\W` with the appropriate Unicode flag in your regex engine (e.g., `re.UNICODE` in Python, `u` flag in JavaScript/PHP). This will exclude Unicode letters/numbers from `\\W`.\n    *   If you need finer control with Unicode properties (`\\p{L}`, `\\p{N}`), check your language's regex engine for support (like Python's `regex` module or JS `v` flag).\n\nChoose the regex that best fits your specific definition of what constitutes a \"special character\" in your context.",
     "ig_handle": "theironfairiesseoul",
-    "last_analyzed_at": "2025-11-09T05:10:34.993898+09:00",
+    "last_analyzed_at": "2025-11-16T05:58:28.150448+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/theironfairiesseoul/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=1973469947057542522",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/theironfairiesseoul",
+      "homepage": null,
       "booking": "https://catchtable.co.kr/Ironfairieskorea",
       "google_map": "https://maps.google.com/?cid=1973469947057542522"
     },
     "contacts": {
-      "email": null,
-      "phone": null
+      "phone": "010-6707-1641",
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "The Iron Fairies Seoul",
+        "address_text": "1F, 72-32, Itaewon-dong, Yongsan District, Seoul, South Korea",
+        "address_components": null,
+        "location_lat": null,
+        "location_lon": null,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "The Iron Fairies Seoul",
+            "ko": "더 아이언페어리스 서울"
+          },
+          "address_text": {
+            "en": "1F, 72-32, Itaewon-dong, Yongsan District, Seoul, South Korea",
+            "ko": "서울 용산구 이태원동 72-32 1층"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "The Iron Fairies Seoul",
+        "ko": "더 아이언페어리스 서울"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
     }
   },
   {
@@ -4971,37 +5079,41 @@
     }
   },
   {
-    "raw": "A study was conducted to investigate the effect of different lighting conditions on the sleep quality of office workers. The study involved 100 office workers, 50 of whom were exposed to **bright, cool-white light** during the workday (Group A), and 50 of whom were exposed to **dim, warm-yellow light** during the workday (Group B).\n\nAfter three months, the sleep quality of all participants was measured using the Pittsburgh Sleep Quality Index (PSQI), with higher scores indicating poorer sleep quality. The average PSQI scores were calculated:\n\n*   **Group A (Bright, Cool-White Light):** Average PSQI Score = 4.5\n*   **Group B (Dim, Warm-Yellow Light):** Average PSQI Score = 6.8\n\n**Question 1:** Based on the results, which lighting condition appears to be associated with **better sleep quality**? Justify your answer using the provided data.\n\n**Question 2:** Formulate a **null hypothesis ($H_0$)** and an **alternative hypothesis ($H_8$)** for a statistical test that could be used to determine if the observed difference in mean PSQI scores between the two groups is statistically significant.\n\n**Question 3:** If the researchers wanted to replicate this study but only included participants who already reported mild sleep disturbances (PSQI scores between 5 and 10 before the study), what type of study design would this represent (e.g., independent groups, repeated measures, crossover, etc.) and why?",
+    "raw": "The problem asks us to determine if a given string is a palindrome, considering only alphanumeric characters and ignoring cases.\n\n**Understanding the Constraints:**\n\n1.  **Alphanumeric only**: We need to filter out spaces, punctuation, and other non-alphanumeric characters.\n2.  **Case-insensitive**: 'A' should be treated the same as 'a'.\n3.  **Empty string**: An empty string is considered a valid palindrome.\n\n**Approach: Two Pointers**\n\nThe most efficient way to check for a palindrome is using the two-pointer technique.\n\n1.  Initialize one pointer (`left`) at the beginning of the string and another pointer (`right`) at the end of the string.\n2.  Move `left` inwards from the left and `right` inwards from the right, comparing characters as we go.\n3.  Before comparing, ensure that both `s[left]` and `s[right]` are alphanumeric. If not, advance the respective pointer until it points to an alphanumeric character.\n4.  Once both pointers point to alphanumeric characters, convert them to a common case (e.g., lowercase) and compare them.\n    *   If they don't match, the string is not a palindrome, so return `False`.\n    *   If they match, move both pointers one step inwards (`left++`, `right--`).\n5.  Continue this process until `left` crosses or meets `right`. If the loop completes without finding any mismatches, the string is a palindrome, so return `True`.\n\n**Detailed Steps:**\n\n1.  Initialize `left = 0` and `right = len(s) - 1`.\n2.  Start a `while left < right` loop.\n3.  Inside the loop:\n    a.  **Move `left`:** While `left < right` and `s[left]` is not alphanumeric, increment `left`.\n    b.  **Move `right`:** While `left < right` and `s[right]` is not alphanumeric, decrement `right`.\n    c.  **Check for crossover:** If `left >= right` after moving pointers, it means we've processed all relevant characters or the string has no alphanumeric characters (e.g., \" \", \".,,\"), so we can break the loop. The string is a palindrome in such cases.\n    d.  **Compare characters:** Convert `s[left]` and `s[right]` to lowercase. If `s[left].lower() != s[right].lower()`, return `False`.\n    e.  **Advance pointers:** If characters match, increment `left` and decrement `right`.\n4.  If the loop finishes, return `True`.\n\n**Example Walkthrough: \"A man, a plan, a canal: Panama\"**\n\n1.  `s = \"A man, a plan, a canal: Panama\"`\n2.  `left = 0`, `right = 20` (length is 21)\n3.  **Loop 1:**\n    *   `s[0]` is 'A' (alphanumeric).\n    *   `s[20]` is 'a' (alphanumeric).\n    *   `'A'.lower() == 'a'.lower()` (`'a' == 'a'`) -> Match.\n    *   `left = 1`, `right = 19`.\n4.  **Loop 2:**\n    *   `s[1]` is ' ' (not alphanumeric). `left` becomes `2`.\n    *   `s[2]` is 'm' (alphanumeric).\n    *   `s[19]` is 'm' (alphanumeric).\n    *   `'m'.lower() == 'm'.lower()` -> Match.\n    *   `left = 3`, `right = 18`.\n5.  **Loop 3:**\n    *   `s[3]` is 'a' (alphanumeric).\n    *   `s[18]` is 'a' (alphanumeric).\n    *   `'a'.lower() == 'a'.lower()` -> Match.\n    *   `left = 4`, `right = 17`.\n    *   ... (this continues until `left` meets `right`) ...\n6.  Eventually, `left` will meet `right` or cross. No mismatches would have been found.\n7.  The loop finishes. Return `True`.\n\n**Python Implementation:**\n\n```python\nclass Solution:\n    def isPalindrome(self, s: str) -> bool:\n        left = 0\n        right = len(s) - 1\n\n        while left < right:\n            # Move left pointer past non-alphanumeric characters\n            while left < right and not s[left].isalnum():\n                left += 1\n            \n            # Move right pointer past non-alphanumeric characters\n            while left < right and not s[right].isalnum():\n                right -= 1\n\n            # If pointers crossed or met, it means we've processed all\n            # relevant characters or the string had no alphanumeric ones.\n            # In either case, it's a palindrome.\n            if left >= right:\n                break\n\n            # Now both s[left] and s[right] are guaranteed to be alphanumeric.\n            # Compare them in a case-insensitive manner.\n            if s[left].lower() != s[right].lower():\n                return False\n            \n            # If they match, move both pointers inwards\n            left += 1\n            right -= 1\n        \n        return True\n\n```\n\n**Complexity Analysis:**\n\n*   **Time Complexity: O(N)**\n    *   In the worst case, both `left` and `right` pointers will traverse the entire string once. Each character is checked for being alphanumeric at most twice (once by `left`, once by `right`), and compared at most once. Therefore, the operations are proportional to the length of the string `N`.\n*   **Space Complexity: O(1)**\n    *   We are only using a few constant extra variables (`left`, `right`). We are not creating any new data structures proportional to the input size.",
     "ig_handle": "yeonnam5701",
-    "last_analyzed_at": "2025-11-09T05:13:53.753746+09:00",
+    "last_analyzed_at": "2025-11-16T06:18:19.567654+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yeonnam5701/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yeonnam5701/profile/2025-11-12/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yeonnam5701/profile/2025-11-11/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yeonnam5701/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yeonnam5701/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yeonnam5701/profile/2025-11-05/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yeonnam5701/profile/2025-11-04/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/yeonnam5701/profile/2025-11-03/profile.json",
       "maps:https://maps.google.com/?cid=14710763701329609732",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/yeonnam5701",
-      "homepage": null,
-      "booking": "https://app.catchtable.co.kr/ct/shop/yeonnam5701?from=share&type=VISIT_RESERVATION",
+      "homepage": "https://linktr.ee/yeonnam5701",
+      "booking": null,
       "google_map": "https://maps.google.com/?cid=14710763701329609732"
     },
     "contacts": {
       "phone": "02-333-8161",
       "email": null
     },
+    "genres": [
+      "Bar",
+      "Cocktail Bar"
+    ],
     "locations": [
       {
         "location_id": "main",
         "name": "Yeonnam5701",
-        "address_text": "Basement, 64, Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea",
+        "address_text": "64 지하 Donggyo-ro 23-gil, Mapo-gu, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
@@ -5028,7 +5140,16 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Bar",
+          "Cocktail Bar"
+        ],
+        "ko": [
+          "바",
+          "칵테일 바"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null

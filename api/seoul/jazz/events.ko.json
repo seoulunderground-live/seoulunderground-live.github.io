@@ -342,6 +342,35 @@
     }
   },
   {
+    "id": "evt_20251118_002aef2a-126b-4801-a66f-c5fadc41c261",
+    "event_key": "v:ven_d33a64a8-1eae-4dcd-88c3-61897570004f|t:2025-11-18T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ9TOwE_y6/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "chennniverse",
+      "min_suuuuuu8"
+    ],
+    "venue_id": "ven_d33a64a8-1eae-4dcd-88c3-61897570004f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-18T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "노장 듀오",
+    "description": "장경천 (피아노) @chennniverse, 노민수 (기타) @min_suuuuuu8",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nojang Duo",
+      "description": "Jang Kyung-cheon (piano) @chennniverse, Noh Min-su (guitar) @min_suuuuuu8"
+    },
+    "_search_ko": {
+      "title": "노장 듀오",
+      "description": "장경천 (피아노) @chennniverse, 노민수 (기타) @min_suuuuuu8"
+    }
+  },
+  {
     "id": "evt_20251118_8bdb504a-7181-4266-8950-e1eece600bd7",
     "event_key": "v:ven_3bda2b1e-086a-4704-8aeb-796fd05dd726|t:2025-11-18T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
@@ -1121,6 +1150,65 @@
     "_search_ko": {
       "title": "Satsuki Kusui 트리오",
       "description": "일본 최고의 베이시스트 Satsuki Kusui와 피아니스트 윤 찬, 드러머 김정우의 스페셜 잼세션."
+    }
+  },
+  {
+    "id": "evt_20251119_34910dd9-7209-44a1-999d-6c1a0eddf6bc",
+    "event_key": "v:ven_3b2b2cb7-d487-4c67-91de-9c609d64055f|t:2025-11-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ95Aak2kB/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "gbaejazz",
+      "willycalderonofficial"
+    ],
+    "venue_id": "ven_3b2b2cb7-d487-4c67-91de-9c609d64055f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "배가영 x 윌리 칼데론 듀오",
+    "description": "배가영 (피아노) @gbaejazz, 윌리 칼데론 (퍼커션) @willycalderonofficial 듀오 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Bae Gayoung x Willy Calderon Duo",
+      "description": "Bae Gayoung (piano) @gbaejazz and Willy Calderon (percussion) @willycalderonofficial duo performance."
+    },
+    "_search_ko": {
+      "title": "배가영 x 윌리 칼데론 듀오",
+      "description": "배가영 (피아노) @gbaejazz, 윌리 칼데론 (퍼커션) @willycalderonofficial 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251119_be4a7aeb-d1eb-48c8-8f75-fd9aee5c0cde",
+    "event_key": "v:ven_d33a64a8-1eae-4dcd-88c3-61897570004f|t:2025-11-19T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ9TOwE_y6/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "ht_ham89",
+      "onlyone_joo",
+      "young_piano0504"
+    ],
+    "venue_id": "ven_d33a64a8-1eae-4dcd-88c3-61897570004f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-19T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "영원희 트리오",
+    "description": "원주 (보컬) @onlyone_joo, 임보영 (피아노) @young_piano0504, 함희태 (베이스) @ht_ham89",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Youngwonhee Trio",
+      "description": "Wonjoo (vocal) @onlyone_joo, Lim Bo-young (piano) @young_piano0504, Ham Hee-tae (bass) @ht_ham89"
+    },
+    "_search_ko": {
+      "title": "영원희 트리오",
+      "description": "원주 (보컬) @onlyone_joo, 임보영 (피아노) @young_piano0504, 함희태 (베이스) @ht_ham89"
     }
   },
   {
@@ -1970,6 +2058,64 @@
     "_search_ko": {
       "title": "노바샘 솔로",
       "description": "노바샘 (@basaemroh) 솔로 공연. 보컬, 피아노. 공연 시간: 1부 8:00PM, 2부 9:25PM."
+    }
+  },
+  {
+    "id": "evt_20251120_a8582241-9ec9-4651-b921-2d568fc9d98f",
+    "event_key": "v:ven_3b2b2cb7-d487-4c67-91de-9c609d64055f|t:2025-11-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ95Aak2kB/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "d.a___zz"
+    ],
+    "venue_id": "ven_3b2b2cb7-d487-4c67-91de-9c609d64055f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임다은 듀오",
+    "description": "임다은 (보컬, 피아노) @d.a___zz 듀오 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lim Daeun Duo",
+      "description": "Lim Daeun (vocal, piano) @d.a___zz duo performance."
+    },
+    "_search_ko": {
+      "title": "임다은 듀오",
+      "description": "임다은 (보컬, 피아노) @d.a___zz 듀오 공연."
+    }
+  },
+  {
+    "id": "evt_20251120_8a2c2a2a-310c-43d0-899d-54d60c176fbc",
+    "event_key": "v:ven_d33a64a8-1eae-4dcd-88c3-61897570004f|t:2025-11-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ9TOwE_y6/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "lee_daaahe",
+      "sueenena",
+      "young_piano0504"
+    ],
+    "venue_id": "ven_d33a64a8-1eae-4dcd-88c3-61897570004f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "임보영 트리오",
+    "description": "임보영 (피아노) @young_piano0504, 수이 (보컬) @sueenena, 이대희 (베이스) @lee_daaahe",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lim Bo-young Trio",
+      "description": "Lim Bo-young (piano) @young_piano0504, Sui (vocal) @sueenena, Lee Dae-hee (bass) @lee_daaahe"
+    },
+    "_search_ko": {
+      "title": "임보영 트리오",
+      "description": "임보영 (피아노) @young_piano0504, 수이 (보컬) @sueenena, 이대희 (베이스) @lee_daaahe"
     }
   },
   {
@@ -3169,6 +3315,65 @@
     "_search_ko": {
       "title": "마틴 야콥센 오르간 트리오",
       "description": "마틴 야콥센 (@martinjacobsenmusic) 오르간 트리오 공연. 색소폰, 오르간, 드럼. 공연 시간: 1부 8:00PM, 2부 9:25PM."
+    }
+  },
+  {
+    "id": "evt_20251121_76e6d87a-4522-40a6-a161-06e69c1d0c49",
+    "event_key": "v:ven_3b2b2cb7-d487-4c67-91de-9c609d64055f|t:2025-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ95Aak2kB/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "d.a___zz"
+    ],
+    "venue_id": "ven_3b2b2cb7-d487-4c67-91de-9c609d64055f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "임다은 퀄텟",
+    "description": "임다은 (보컬, 피아노) @d.a___zz 퀄텟 공연. (베이스, 드럼 포함)",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lim Daeun Quartet",
+      "description": "Lim Daeun (vocal, piano) @d.a___zz quartet performance, including bass and drums."
+    },
+    "_search_ko": {
+      "title": "임다은 퀄텟",
+      "description": "임다은 (보컬, 피아노) @d.a___zz 퀄텟 공연. (베이스, 드럼 포함)"
+    }
+  },
+  {
+    "id": "evt_20251121_49adb936-d5f4-4db9-a038-ed8f46ed5e10",
+    "event_key": "v:ven_d33a64a8-1eae-4dcd-88c3-61897570004f|t:2025-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ9TOwE_y6/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "_chorong.lee",
+      "palladinohyun",
+      "seong_eun._.jp",
+      "taesk88"
+    ],
+    "venue_id": "ven_d33a64a8-1eae-4dcd-88c3-61897570004f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "이초롱 어반 유닛",
+    "description": "이초롱 (보컬) @_chorong.lee, 김태수 (드럼) @taesk88, 김노현 (베이스) @palladinohyun, 박성은 (피아노) @seong_eun._.jp",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Chorong Urban Unit",
+      "description": "Lee Chorong (vocal) @_chorong.lee, Kim Tae-su (drums) @taesk88, Kim Noh-hyun (bass) @palladinohyun, Park Seong-eun (piano) @seong_eun._.jp"
+    },
+    "_search_ko": {
+      "title": "이초롱 어반 유닛",
+      "description": "이초롱 (보컬) @_chorong.lee, 김태수 (드럼) @taesk88, 김노현 (베이스) @palladinohyun, 박성은 (피아노) @seong_eun._.jp"
     }
   },
   {
@@ -4647,6 +4852,37 @@
     }
   },
   {
+    "id": "evt_20251122_6a7fc84b-282e-46ed-bc4f-aeade3d35b42",
+    "event_key": "v:ven_d33a64a8-1eae-4dcd-88c3-61897570004f|t:2025-11-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ9TOwE_y6/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "contraworms",
+      "dain.oday",
+      "lsjun_piano",
+      "teddy.shin_drummer"
+    ],
+    "venue_id": "ven_d33a64a8-1eae-4dcd-88c3-61897570004f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "이다인 퀄텟",
+    "description": "이다인 (보컬) @dain.oday, 이승준 (피아노) @lsjun_piano, 김재근 (베이스) @contraworms, 테디 신 (드럼) @teddy.shin_drummer",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Da-in Quartet",
+      "description": "Lee Da-in (vocal) @dain.oday, Lee Seung-jun (piano) @lsjun_piano, Kim Jae-geun (bass) @contraworms, Teddy Shin (drums) @teddy.shin_drummer"
+    },
+    "_search_ko": {
+      "title": "이다인 퀄텟",
+      "description": "이다인 (보컬) @dain.oday, 이승준 (피아노) @lsjun_piano, 김재근 (베이스) @contraworms, 테디 신 (드럼) @teddy.shin_drummer"
+    }
+  },
+  {
     "id": "evt_20251122_dfa19e38-dbcb-45f9-8eef-c1d77c68a6b7",
     "event_key": "v:ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5|t:2025-11-22T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
@@ -5713,6 +5949,65 @@
     "_search_ko": {
       "title": "마르디 트리오",
       "description": "마르디 (@marditimeline) 트리오 공연. 보컬, 피아노, 베이스. 공연 시간: 1부 8:00PM, 2부 9:25PM."
+    }
+  },
+  {
+    "id": "evt_20251123_da1a4e43-823c-48eb-9991-422ad443ddd4",
+    "event_key": "v:ven_3b2b2cb7-d487-4c67-91de-9c609d64055f|t:2025-11-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ95Aak2kB/",
+    "venue_handle": "houseofbrown.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "hyon_park"
+    ],
+    "venue_id": "ven_3b2b2cb7-d487-4c67-91de-9c609d64055f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "박형규 퀄텟",
+    "description": "박형규 (트럼펫) @hyon_park 퀄텟 공연. (피아노, 베이스, 드럼 포함)",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Hyongyu Quartet",
+      "description": "Park Hyongyu (trumpet) @hyon_park quartet performance, including piano, bass, and drums."
+    },
+    "_search_ko": {
+      "title": "박형규 퀄텟",
+      "description": "박형규 (트럼펫) @hyon_park 퀄텟 공연. (피아노, 베이스, 드럼 포함)"
+    }
+  },
+  {
+    "id": "evt_20251123_26907055-3051-4c8d-b327-dc0cccb30986",
+    "event_key": "v:ven_d33a64a8-1eae-4dcd-88c3-61897570004f|t:2025-11-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJ9TOwE_y6/",
+    "venue_handle": "newall_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "analogue_8sup",
+      "lsjun_piano",
+      "no_racket_",
+      "youngjik.k"
+    ],
+    "venue_id": "ven_d33a64a8-1eae-4dcd-88c3-61897570004f",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "정필섭 스윙 밴드",
+    "description": "정필섭 (보컬) @analogue_8sup, 김영직 (드럼) @youngjik.k, 이승준 (피아노) @lsjun_piano, 안이채 (베이스) @no_racket_",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jung Pil-seop Swing Band",
+      "description": "Jung Pil-seop (vocal) @analogue_8sup, Kim Young-jik (drums) @youngjik.k, Lee Seung-jun (piano) @lsjun_piano, Ahn Yi-chae (bass) @no_racket_"
+    },
+    "_search_ko": {
+      "title": "정필섭 스윙 밴드",
+      "description": "정필섭 (보컬) @analogue_8sup, 김영직 (드럼) @youngjik.k, 이승준 (피아노) @lsjun_piano, 안이채 (베이스) @no_racket_"
     }
   },
   {
@@ -14182,6 +14477,32 @@
     "_search_ko": {
       "title": "라그랑지안 + 브누아 메니에",
       "description": "라그랑지안 밴드와 게스트 색소포니스트 브누아 메니에의 합동 공연. 이건민 (피아노), 황인규 (베이스), 최원석 (색소폰), 김인태 (드럼), 브누아 메니에 (색소폰)."
+    }
+  },
+  {
+    "id": "evt_20261109_ea5e925b-734a-4a13-8181-56794227f995",
+    "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2026-11-09T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DQ3JT9OEou_/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f",
+    "venue_location_id": "main",
+    "datetime": "2026-11-09T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "레오킴그룹",
+    "description": "레오킴그룹 라이브 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Leo Kim Group",
+      "description": "Live performance by Leo Kim Group."
+    },
+    "_search_ko": {
+      "title": "레오킴그룹",
+      "description": "레오킴그룹 라이브 공연."
     }
   }
 ]

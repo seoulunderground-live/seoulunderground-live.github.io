@@ -832,6 +832,41 @@
     }
   },
   {
+    "id": "evt_20251130_4436bcb9-1a09-4fa8-9f85-4d03ec9ed461",
+    "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-30T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRHryQmEvyz/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "20._m4h1_.841",
+      "__h.i.t.t.__",
+      "bojvck2002",
+      "djgapdjgap",
+      "haomiiya",
+      "hyperwine.hyperwine",
+      "kj_.j0ns0n",
+      "neosmzy"
+    ],
+    "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
+    "venue_location_id": "main",
+    "datetime": "2025-11-30T13:00:00+00:00",
+    "price": "JPY 2,000 +1 Drink",
+    "llm_confidence": 1.0,
+    "title": "CAKESHOP FUKUOKA POP UP",
+    "description": "Cakeshop presents a pop-up at STAND-BOP FUKUOKA, linking Seoul and Fukuoka's dance music scenes. Expect an international party experience with both guest and local DJs.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "CAKESHOP FUKUOKA POP UP",
+      "description": "Cakeshop presents a pop-up at STAND-BOP FUKUOKA, linking Seoul and Fukuoka's dance music scenes. Expect an international party experience with both guest and local DJs."
+    },
+    "_search_ko": {
+      "title": "CAKESHOP FUKUOKA POP UP",
+      "description": "케이크샵이 후쿠오카 STAND-BOP에서 팝업 이벤트를 개최합니다. 서울과 후쿠오카 댄스 음악 씬을 연결하는 국제적인 파티 경험을 기대하세요."
+    }
+  },
+  {
     "id": "evt_20251204_64099523-f985-4437-a359-17985e9c1945",
     "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-12-04T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DRHIz_uk68Q/",
@@ -927,6 +962,41 @@
     "_search_ko": {
       "title": "Nice Town",
       "description": "Hugo LX (파리)와 함께하는 Nice Town. DJ Set — Hagy @seunghagy, Youngisland @young.island // DJ Set — Hugo LX (파리) @hugolascoux // Live Set — Cityboy from Seoul // DJ Set — Gio & Joshua (B2B)"
+    }
+  },
+  {
+    "id": "evt_20251206_67591ec6-505b-47e7-9ed7-fd0892064ebd",
+    "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-12-06T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJE3XYE7uD/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "_et1c_",
+      "constantcottonmouth",
+      "danielforests",
+      "dddd35u",
+      "mirasagirbay",
+      "oobahtel",
+      "rxsxyx",
+      "wetfurs"
+    ],
+    "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
+    "venue_location_id": "main",
+    "datetime": "2025-12-06T13:00:00+00:00",
+    "price": "KRW 20,000 before midnight / KRW 25,000 after midnight",
+    "llm_confidence": 1.0,
+    "title": "The Sacrifice",
+    "description": "The Sacrifice returns for its third ritual, balancing chaotic and ethereal mayhem. Tonight's lineup: DJ Set — ETIC (@_et1c_), KIRIN (@wetfurs) // DJ Set — Excultist (@oobahtel), Daniel Forests (@danielforests), DDD (@dddd35u) // DJ Set — Rue (@rxsxyx), Constantcottonmouth (@constantcottonmouth), Bayaru (@mirasagirbay).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The Sacrifice",
+      "description": "The Sacrifice returns for its third ritual, balancing chaotic and ethereal mayhem. Tonight's lineup: DJ Set — ETIC (@_et1c_), KIRIN (@wetfurs) // DJ Set — Excultist (@oobahtel), Daniel Forests (@danielforests), DDD (@dddd35u) // DJ Set — Rue (@rxsxyx), Constantcottonmouth (@constantcottonmouth), Bayaru (@mirasagirbay)."
+    },
+    "_search_ko": {
+      "title": "더 새크리파이스",
+      "description": "세 번째 더 새크리파이스. 혼돈과 에테르적 혼란의 균형. 라인업: DJ Set — ETIC (@_et1c_), KIRIN (@wetfurs) // DJ Set — Excultist (@oobahtel), Daniel Forests (@danielforests), DDD (@dddd35u) // DJ Set — Rue (@rxsxyx), Constantcottonmouth (@constantcottonmouth), Bayaru (@mirasagirbay)."
     }
   },
   {

@@ -156,29 +156,37 @@
   {
     "id": "evt_20251121_bde60f51-cd84-4eb8-b076-0b90e381fc74",
     "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-21T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "source_url": "https://www.instagram.com/p/DQ3r90mAS0k/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
     "musician_ig_handles": [
+      "autopilot77_77",
+      "axe.axe._",
+      "davidcho__",
+      "dddd35u",
+      "forza5omb.r9x",
+      "nofear_official",
+      "sider7777",
+      "sinndavin",
       "yoyoufree"
     ],
     "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-11-21T13:00:00+00:00",
-    "price": "20,000원 (12시 이전), 25,000원 (12시 이후)",
+    "price": "20,000원 (자정 전) / 25,000원 (자정 후)",
     "llm_confidence": 1.0,
     "title": "SOAR",
-    "description": "SOAR (@dddd35u) 이벤트. Yoyou (@yoyoufree), Sider7, Sinn Davin 라이브 셋 및 DJ 라인업.",
+    "description": "Live Sets — Yoyou (JP) @yoyoufree, sider7 @sider7777, sinn davin @sinndavin // DJ Sets — Avalanche Death @davidcho__, DDD @dddd35u, Autopilot77_77 @autopilot77_77 // DJ Sets — axe (JP) @axe.axe._, Bonic Soom @forza5omb.r9x, nofear @nofear_official. 플라이어 @pen__key.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "SOAR",
-      "description": "SOAR (@dddd35u) event featuring live sets from Yoyou (@yoyoufree), Sider7, Sinn Davin and a multi-DJ lineup."
+      "description": "Live Sets — Yoyou (JP) @yoyoufree, sider7 @sider7777, sinn davin @sinndavin // DJ Sets — Avalanche Death @davidcho__, DDD @dddd35u, Autopilot77_77 @autopilot77_77 // DJ Sets — axe (JP) @axe.axe._, Bonic Soom @forza5omb.r9x, nofear @nofear_official. Flyer by @pen__key."
     },
     "_search_ko": {
       "title": "SOAR",
-      "description": "SOAR (@dddd35u) 이벤트. Yoyou (@yoyoufree), Sider7, Sinn Davin 라이브 셋 및 DJ 라인업."
+      "description": "Live Sets — Yoyou (JP) @yoyoufree, sider7 @sider7777, sinn davin @sinndavin // DJ Sets — Avalanche Death @davidcho__, DDD @dddd35u, Autopilot77_77 @autopilot77_77 // DJ Sets — axe (JP) @axe.axe._, Bonic Soom @forza5omb.r9x, nofear @nofear_official. 플라이어 @pen__key."
     }
   },
   {
@@ -192,48 +200,55 @@
       "johnnychay"
     ],
     "venue_id": null,
-    "venue_location_id": "main",
+    "venue_location_id": "chicago",
     "datetime": "2025-11-21T13:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "일렉트릭 서울 K-Pop x EDM 테이크오버",
-    "description": "ELECTRIK SEOUL이 Lost in Dreams Chicago에서 K-Pop x EDM 테이크오버를 선보입니다. DJ Set — Johnny Chay (@johnnychay) b2b IZNYRS (@iznyrs).",
+    "title": "IZNYRS B2B JOHNNY CHAY: K-Pop X EDM 테이크오버",
+    "description": "[위치: 시카고] @electrik.seoul K-Pop x EDM 테이크오버. @itslostindreams에서 진행. Featuring: DJ Set — @johnnychay b2b @iznyrs.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "ELECTRIK SEOUL K-Pop x EDM Takeover",
-      "description": "ELECTRIK SEOUL presents a K-Pop x EDM takeover at Lost in Dreams Chicago. Featuring DJ Set — Johnny Chay (@johnnychay) b2b IZNYRS (@iznyrs)."
+      "title": "IZNYRS B2B JOHNNY CHAY: K-Pop X EDM Takeover",
+      "description": "[Location: Chicago] @electrik.seoul presents a K-Pop x EDM takeover featuring DJ Set — @johnnychay b2b @iznyrs at @itslostindreams."
     },
     "_search_ko": {
-      "title": "일렉트릭 서울 K-Pop x EDM 테이크오버",
-      "description": "ELECTRIK SEOUL이 Lost in Dreams Chicago에서 K-Pop x EDM 테이크오버를 선보입니다. DJ Set — Johnny Chay (@johnnychay) b2b IZNYRS (@iznyrs)."
+      "title": "IZNYRS B2B JOHNNY CHAY: K-Pop X EDM 테이크오버",
+      "description": "[위치: 시카고] @electrik.seoul K-Pop x EDM 테이크오버. @itslostindreams에서 진행. Featuring: DJ Set — @johnnychay b2b @iznyrs."
     }
   },
   {
     "id": "evt_20251121_850b9cc2-ac41-49c9-be3e-c6ca7472fd83",
     "event_key": "v:ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8|t:2025-11-21T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
+    "source_url": "https://www.instagram.com/p/DRMrHH2ktEW/",
     "venue_handle": "shelterseoul_",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "axivxn",
+      "baskerville.xtc",
+      "bum_v_",
+      "honn.co.kr",
+      "wugu_kr",
+      "x2cmusicofficial"
+    ],
     "venue_id": "ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8",
     "venue_location_id": "main",
     "datetime": "2025-11-21T14:00:00+00:00",
-    "price": null,
+    "price": "15,000원 (1프리 드링크 포함)",
     "llm_confidence": 1.0,
-    "title": "X2C, WUGU, BASKERVILLE, AXIV, BUMV, HONN",
-    "description": "DJ Set — X2C, WUGU, BASKERVILLE // AXIV, BUMV, HONN. 미성년자 입장 불가.",
+    "title": "Shelter Seoul 금요일 레이브",
+    "description": "Shelter Seoul 금요일 밤 테크노 레이브. 라인업: DJ Set — @x2cmusicofficial, @wugu_kr // DJ Set — @baskerville.xtc, @axivxn // DJ Set — @bum_v_, @honn.co.kr. 아트워크: @osnamizu.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "X2C, WUGU, BASKERVILLE, AXIV, BUMV, HONN",
-      "description": "DJ Set — X2C, WUGU, BASKERVILLE // AXIV, BUMV, HONN. No minors allowed."
+      "title": "Shelter Seoul Friday Rave",
+      "description": "Shelter Seoul presents a Friday night of techno and rave. Lineup: DJ Set — @x2cmusicofficial, @wugu_kr // DJ Set — @baskerville.xtc, @axivxn // DJ Set — @bum_v_, @honn.co.kr. Artwork by @osnamizu."
     },
     "_search_ko": {
-      "title": "X2C, WUGU, BASKERVILLE, AXIV, BUMV, HONN",
-      "description": "DJ Set — X2C, WUGU, BASKERVILLE // AXIV, BUMV, HONN. 미성년자 입장 불가."
+      "title": "Shelter Seoul 금요일 레이브",
+      "description": "Shelter Seoul 금요일 밤 테크노 레이브. 라인업: DJ Set — @x2cmusicofficial, @wugu_kr // DJ Set — @baskerville.xtc, @axivxn // DJ Set — @bum_v_, @honn.co.kr. 아트워크: @osnamizu."
     }
   },
   {
@@ -272,20 +287,20 @@
     "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
     "venue_location_id": "main",
     "datetime": "2025-11-21T14:00:00+00:00",
-    "price": "20,000원",
+    "price": "RA 18,000원 / 현장 20,000원 (오전 4시 이후 10,000원)",
     "llm_confidence": 1.0,
     "title": "합정동테크노",
-    "description": "서울 로컬 테크노를 배경으로, 'musse_archive'의 설치 및 회화 전시와 chukimaandal, Djilogue, SUNA의 디제이 세트가 함께하는 '합정동테크노'. chukimaandal의 섬세한 선곡과 단계적인 전개, Djilogue의 반복과 질서, 우연과 혼돈 사이를 탐험하는 사운드, SUNA의 단순하면서도 깊이 있는 사운드. 전시 작가: BRUTALISM9, ALLIBISWELL, gwak__dong, MUJU_HVN. RA 예약: 18,000원. 새벽 4시 이후: 10,000원.",
+    "description": "서울 로컬 테크노와 다양한 아티스트들이 함께하는 '합정동테크노'. 타투 기반 콜렉티브 'musse_archive'의 설치 및 회화 전시 (BRUTALISM9, ALLIBISWELL, gwak__dong, MUJU_HVN). DJ Set — chukimaandal (오프닝, 섬세한 선곡, 댄서블한 흐름), Djilogue (메인, 반복과 질서, 우연과 혼돈 사이의 경계), SUNA (클로징, 단순하면서도 깊이 있는 사운드). 신분증 지참. vurt. 촬영 금지. 슬리퍼, 샌들 입장 금지.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Hapjeong-dong Techno",
-      "description": "Hapjeong-dong Techno event features local techno DJs chukimaandal, Djilogue, and SUNA, alongside an installation and painting exhibition by 'musse_archive'. Chukimaandal opens with delicate selections, Djilogue explores repetition and chaos, and SUNA closes with deep sounds. Exhibition artists: BRUTALISM9, ALLIBISWELL, gwak__dong, MUJU_HVN. RA Reservation: KRW 18,000. After 4 AM: KRW 10,000."
+      "description": "Hapjeong-dong Techno presents local techno artists and an exhibition by musse_archive. Exhibition by BRUTALISM9, ALLIBISWELL, gwak__dong, MUJU_HVN—a collective exploring beauty through tattooing. DJ Set — chukimaandal (opening), Djilogue (main), SUNA (closing). ID required. No photos/videos at vurt. No slippers/sandals."
     },
     "_search_ko": {
       "title": "합정동테크노",
-      "description": "서울 로컬 테크노를 배경으로, 'musse_archive'의 설치 및 회화 전시와 chukimaandal, Djilogue, SUNA의 디제이 세트가 함께하는 '합정동테크노'. chukimaandal의 섬세한 선곡과 단계적인 전개, Djilogue의 반복과 질서, 우연과 혼돈 사이를 탐험하는 사운드, SUNA의 단순하면서도 깊이 있는 사운드. 전시 작가: BRUTALISM9, ALLIBISWELL, gwak__dong, MUJU_HVN. RA 예약: 18,000원. 새벽 4시 이후: 10,000원."
+      "description": "서울 로컬 테크노와 다양한 아티스트들이 함께하는 '합정동테크노'. 타투 기반 콜렉티브 'musse_archive'의 설치 및 회화 전시 (BRUTALISM9, ALLIBISWELL, gwak__dong, MUJU_HVN). DJ Set — chukimaandal (오프닝, 섬세한 선곡, 댄서블한 흐름), Djilogue (메인, 반복과 질서, 우연과 혼돈 사이의 경계), SUNA (클로징, 단순하면서도 깊이 있는 사운드). 신분증 지참. vurt. 촬영 금지. 슬리퍼, 샌들 입장 금지."
     }
   },
   {
@@ -321,6 +336,32 @@
     }
   },
   {
+    "id": "evt_20251121_144bb9ac-8489-4812-a315-847a07baf8d0",
+    "event_key": "v:ven_4de91e9d-d651-43a4-bc85-380ac006abc7|t:2025-11-21T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRMswjLj_i6/",
+    "venue_handle": "faustseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_4de91e9d-d651-43a4-bc85-380ac006abc7",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T14:00:00+00:00",
+    "price": "15,000원",
+    "llm_confidence": 1.0,
+    "title": "파우스트 나흐트",
+    "description": "FAUST: DJ Set — DAMIE, SUMAN, GEZIBE // TANZ BAR: DJ Set — GINGER, BOLM. 현매만 가능. 12시 이전 15,000원, 12시 이후 20,000원. 신분증 지참, 플래쉬 금지.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "FAUST NACHT",
+      "description": "FAUST: DJ Set — DAMIE, SUMAN, GEZIBE // TANZ BAR: DJ Set — GINGER, BOLM. Tickets only at door. Before midnight KRW 15,000, After midnight KRW 20,000. Photo ID required, no flash."
+    },
+    "_search_ko": {
+      "title": "파우스트 나흐트",
+      "description": "FAUST: DJ Set — DAMIE, SUMAN, GEZIBE // TANZ BAR: DJ Set — GINGER, BOLM. 현매만 가능. 12시 이전 15,000원, 12시 이후 20,000원. 신분증 지참, 플래쉬 금지."
+    }
+  },
+  {
     "id": "evt_20251122_5e9dec8d-a854-4f28-8efc-822cb3fe67c7",
     "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-22T02:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
@@ -352,55 +393,95 @@
   {
     "id": "evt_20251122_aaf50384-20f5-4763-850b-836e3a01fffe",
     "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-22T13:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQjFm9wE0GU/",
+    "source_url": "https://www.instagram.com/p/DQbKn8GEtml/",
     "venue_handle": "cakeshopseoul",
     "musician_ids": [],
     "musician_ig_handles": [
-      "cavin_ghost"
+      "7ip7o3",
+      "cavin_ghost",
+      "co_kr",
+      "edd.yyy",
+      "kennid__",
+      "lun8528_",
+      "neverthelessthan",
+      "tlswjdrms"
     ],
     "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
     "venue_location_id": "main",
     "datetime": "2025-11-22T13:00:00+00:00",
-    "price": "20,000원 (얼리버드) / 25,000원 (현매)",
+    "price": "25,000원",
     "llm_confidence": 1.0,
-    "title": "1001.GLOBAL X TOHA RADIO",
-    "description": "1001.GLOBAL (@1001_global) X TOHA RADIO (@toha.radio) 콜라보 이벤트. Choi Seong (@cavin_ghost) 라이브 셋 및 멀티 DJ 라인업.",
+    "title": "1001.Global x Toha Radio Take Over",
+    "description": "서울의 1001.Global과 대만의 Toha Radio가 실험적인 음악 교류를 위해 협력하는 밤. 라인업: DJ Set — Jngkn @tlswjdrms, Kennid @kennid__, Mongsang @neverthelessthan // DJ Set — Lun (TW) @lun8528_, Loey (TW) @edd.yyy // 게스트 아티스트: DJ Set — 7ip7o3 @7ip7o3, Dj co.kr @co_kr // 라이브 셋 — 최성 @cavin_ghost. 현장 25,000원. 미성년자 입장 불가.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "1001.GLOBAL X TOHA RADIO",
-      "description": "1001.GLOBAL (@1001_global) X TOHA RADIO (@toha.radio) collaboration event. Live set by Choi Seong (@cavin_ghost) and a multi-DJ lineup."
+      "title": "1001.Global x Toha Radio Take Over",
+      "description": "Seoul's 1001.Global and Taiwan's Toha Radio collaborate for an experimental music exchange night. Lineup: DJ Set — Jngkn @tlswjdrms, Kennid @kennid__, Mongsang @neverthelessthan // DJ Set — Lun (TW) @lun8528_, Loey (TW) @edd.yyy // Guest artists: DJ Set — 7ip7o3 @7ip7o3, Dj co.kr @co_kr // Live Set — Choi Seong @cavin_ghost. Door KRW 25,000. No Minors Allowed."
     },
     "_search_ko": {
-      "title": "1001.GLOBAL X TOHA RADIO",
-      "description": "1001.GLOBAL (@1001_global) X TOHA RADIO (@toha.radio) 콜라보 이벤트. Choi Seong (@cavin_ghost) 라이브 셋 및 멀티 DJ 라인업."
+      "title": "1001.Global x Toha Radio Take Over",
+      "description": "서울의 1001.Global과 대만의 Toha Radio가 실험적인 음악 교류를 위해 협력하는 밤. 라인업: DJ Set — Jngkn @tlswjdrms, Kennid @kennid__, Mongsang @neverthelessthan // DJ Set — Lun (TW) @lun8528_, Loey (TW) @edd.yyy // 게스트 아티스트: DJ Set — 7ip7o3 @7ip7o3, Dj co.kr @co_kr // 라이브 셋 — 최성 @cavin_ghost. 현장 25,000원. 미성년자 입장 불가."
+    }
+  },
+  {
+    "id": "evt_20251122_db941d17-09de-4004-9a50-9b308f1d2dc0",
+    "event_key": "v:ven_c4eaf99f-3f2c-4a72-bedd-29a917a00fe6|t:2025-11-22T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRMPDjXEXPo/",
+    "venue_handle": "ring.seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_c4eaf99f-3f2c-4a72-bedd-29a917a00fe6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T13:00:00+00:00",
+    "price": "25,000원",
+    "llm_confidence": 1.0,
+    "title": "Enrica Falqui & Antwork",
+    "description": "DJ Set — Enrica Falqui, Antwork. 입장료 25,000원. 티켓 현장 구매만 가능.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Enrica Falqui & Antwork",
+      "description": "DJ Set — Enrica Falqui, Antwork. Entrance fee KRW 25,000. Tickets available exclusively at the door."
+    },
+    "_search_ko": {
+      "title": "Enrica Falqui & Antwork",
+      "description": "DJ Set — Enrica Falqui, Antwork. 입장료 25,000원. 티켓 현장 구매만 가능."
     }
   },
   {
     "id": "evt_20251122_bcf8843b-2bac-42a3-98b2-e600b1d721ff",
     "event_key": "v:ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8|t:2025-11-22T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQokchYEjTQ/",
+    "source_url": "https://www.instagram.com/p/DRMrJi4EkN5/",
     "venue_handle": "shelterseoul_",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "_changyunflug",
+      "avalonixv",
+      "bum_v_",
+      "honn.co.kr",
+      "jung_ae_",
+      "x2cmusicofficial"
+    ],
     "venue_id": "ven_906b1f19-1e7a-44eb-8d6f-3d60634609e8",
     "venue_location_id": "main",
     "datetime": "2025-11-22T14:00:00+00:00",
-    "price": null,
+    "price": "15,000원",
     "llm_confidence": 1.0,
-    "title": "X2C, HONN, JUNG, CHANGYUNFLUG, AVALON, BUMV",
-    "description": "DJ Set — X2C, HONN, JUNG // CHANGYUNFLUG, AVALON, BUMV. 미성년자 입장 불가.",
+    "title": "일렉트로닉 나이트",
+    "description": "일렉트로닉 나이트. DJ 라인업: 11:00 PM-12:00 AM DJ Set — @x2cmusicofficial, 12:00-01:00 AM DJ Set — @honn.co.kr // 01:00-02:00 AM DJ Set — @jung_ae_, 02:00-03:00 AM DJ Set — @_changyunflug // 03:00-04:00 AM DJ Set — @avalonixv, 04:00-05:00 AM DJ Set — @bum_v_. 1 free drink 포함. 미성년자 입장 불가.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "X2C, HONN, JUNG, CHANGYUNFLUG, AVALON, BUMV",
-      "description": "DJ Set — X2C, HONN, JUNG // CHANGYUNFLUG, AVALON, BUMV. No minors allowed."
+      "title": "Electronic Night",
+      "description": "Electronic night with a lineup of DJs: 11:00 PM-12:00 AM DJ Set — @x2cmusicofficial, 12:00-01:00 AM DJ Set — @honn.co.kr // 01:00-02:00 AM DJ Set — @jung_ae_, 02:00-03:00 AM DJ Set — @_changyunflug // 03:00-04:00 AM DJ Set — @avalonixv, 04:00-05:00 AM DJ Set — @bum_v_. Price includes 1 free drink. No minors allowed."
     },
     "_search_ko": {
-      "title": "X2C, HONN, JUNG, CHANGYUNFLUG, AVALON, BUMV",
-      "description": "DJ Set — X2C, HONN, JUNG // CHANGYUNFLUG, AVALON, BUMV. 미성년자 입장 불가."
+      "title": "일렉트로닉 나이트",
+      "description": "일렉트로닉 나이트. DJ 라인업: 11:00 PM-12:00 AM DJ Set — @x2cmusicofficial, 12:00-01:00 AM DJ Set — @honn.co.kr // 01:00-02:00 AM DJ Set — @jung_ae_, 02:00-03:00 AM DJ Set — @_changyunflug // 03:00-04:00 AM DJ Set — @avalonixv, 04:00-05:00 AM DJ Set — @bum_v_. 1 free drink 포함. 미성년자 입장 불가."
     }
   },
   {
@@ -458,30 +539,33 @@
   {
     "id": "evt_20251122_592e9e33-9398-451a-8445-dd8631fce07b",
     "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-22T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQnTSEjEguz/",
+    "source_url": "https://www.instagram.com/p/DRMTwyLEuLc/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [
+      "hender__r",
+      "jaesang.orz",
       "jomyty",
+      "limhaneun_",
       "mosobabo"
     ],
     "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-11-22T14:00:00+00:00",
-    "price": "None",
+    "price": "15,000원 (1 free drink 포함)",
     "llm_confidence": 1.0,
-    "title": "Tic Tac Toe",
-    "description": "DJ Set — Gio @jomyty, Moso @mosobabo 외 다수.",
+    "title": "Tic-Tac-Toe with Jae-Sang, Hender, Millim, Moso, Gio",
+    "description": "Arga 레지던트 디제이 Gio와 마스코트 Moso가 만들어가는 새로운 파티 Tic-Tac-Toe. 하우스 댄서이자 바이닐 디제이 Jae-Sang, Arga의 친구 Hender, Millim 참여. X와 O처럼 연결되는 다양한 취향들을 경험하세요. 라인업: DJ Set — Hender, Gio // DJ Set — Jae-Sang, Moso, Millim.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Tic Tac Toe",
-      "description": "DJ Set — Gio @jomyty, Moso @mosobabo and more."
+      "title": "Tic-Tac-Toe with Jae-Sang, Hender, Millim, Moso, Gio",
+      "description": "Arga's new party Tic-Tac-Toe, led by resident DJ Gio and mascot Moso. Featuring house dancer/vinyl DJ Jae-Sang, and Arga friends Hender and Millim. Experience diverse tastes connecting like X and O on a grid. Lineup: DJ Set — Hender, Gio // DJ Set — Jae-Sang, Moso, Millim."
     },
     "_search_ko": {
-      "title": "Tic Tac Toe",
-      "description": "DJ Set — Gio @jomyty, Moso @mosobabo 외 다수."
+      "title": "Tic-Tac-Toe with Jae-Sang, Hender, Millim, Moso, Gio",
+      "description": "Arga 레지던트 디제이 Gio와 마스코트 Moso가 만들어가는 새로운 파티 Tic-Tac-Toe. 하우스 댄서이자 바이닐 디제이 Jae-Sang, Arga의 친구 Hender, Millim 참여. X와 O처럼 연결되는 다양한 취향들을 경험하세요. 라인업: DJ Set — Hender, Gio // DJ Set — Jae-Sang, Moso, Millim."
     }
   },
   {
@@ -692,7 +776,7 @@
   {
     "id": "evt_20251128_2e2bdc4a-f6d8-4259-918c-5859a0e1f66f",
     "event_key": "v:ven_914114f1-fdf0-4d6a-b058-ef1318a50c98|t:2025-11-28T14:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRJ7XqLkmoC/",
+    "source_url": "https://www.instagram.com/p/DRMvkSbEqxt/",
     "venue_handle": "argaseoul",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -705,20 +789,20 @@
     "venue_id": "ven_914114f1-fdf0-4d6a-b058-ef1318a50c98",
     "venue_location_id": "main",
     "datetime": "2025-11-28T14:00:00+00:00",
-    "price": "25,000원",
+    "price": "20,000원",
     "llm_confidence": 1.0,
     "title": "La Mamie's",
-    "description": "프랑스 파리 La Mamie's (@la_mamies) 첫 서울 공연. House, Disco, Rare Groove. 예매 20,000원, 현매 25,000원 (1 free drink).",
+    "description": "프랑스 파리 기반 DJ 콜렉티브 La Mamie's의 첫 서울 무대. House, Disco, Rare Groove 사운드를 선보이며 파리 댄스뮤직씬에 큰 영향을 미쳤고, La Machine du Moulin Rouge 레지던시 및 6년간 Rinse FM 쇼 진행. // 라인업: DJ Set — Gio (@jomyty), Cityboy from Seoul (@cityboyfromseoul), La Mamie's (@la_mamies) // DJ Set — Youngisland (@young.island), Joshua (@joshuakr__).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "La Mamie's",
-      "description": "Parisian collective La Mamie's (@la_mamies) first Seoul show, bringing House, Disco, Rare Groove. Pre-sale: KRW 20,000, Door: KRW 25,000 (1 free drink)."
+      "description": "Parisian DJ collective La Mamie's makes their Seoul debut, bringing their signature House, Disco, and Rare Groove sound. Influential in the Paris dance music scene, resident at La Machine du Moulin Rouge, and with a 6-year residency on Rinse FM. // Lineup: DJ Set — Gio (@jomyty), Cityboy from Seoul (@cityboyfromseoul), La Mamie's (@la_mamies) // DJ Set — Youngisland (@young.island), Joshua (@joshuakr__)."
     },
     "_search_ko": {
       "title": "La Mamie's",
-      "description": "프랑스 파리 La Mamie's (@la_mamies) 첫 서울 공연. House, Disco, Rare Groove. 예매 20,000원, 현매 25,000원 (1 free drink)."
+      "description": "프랑스 파리 기반 DJ 콜렉티브 La Mamie's의 첫 서울 무대. House, Disco, Rare Groove 사운드를 선보이며 파리 댄스뮤직씬에 큰 영향을 미쳤고, La Machine du Moulin Rouge 레지던시 및 6년간 Rinse FM 쇼 진행. // 라인업: DJ Set — Gio (@jomyty), Cityboy from Seoul (@cityboyfromseoul), La Mamie's (@la_mamies) // DJ Set — Youngisland (@young.island), Joshua (@joshuakr__)."
     }
   },
   {
@@ -964,6 +1048,39 @@
     "_search_ko": {
       "title": "Nice Town",
       "description": "Hugo LX (파리)와 함께하는 Nice Town. DJ Set — Hagy, Youngisland // DJ Set — Hugo LX (파리) // Live Set — Cityboy from Seoul // DJ Set (B2B) — Gio & Joshua // All DJs"
+    }
+  },
+  {
+    "id": "evt_20251205_ce6f734f-f0f7-406c-af9c-012ef4437cbf",
+    "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-12-05T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRMYXZQkcSD/",
+    "venue_handle": "cakeshopseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "drillpunch",
+      "ivylab",
+      "madebyrafa",
+      "moonice_",
+      "mountxlr",
+      "untitled_wav"
+    ],
+    "venue_id": "ven_2171b962-9b4d-41bb-9521-f061b421217c",
+    "venue_location_id": "main",
+    "datetime": "2025-12-05T13:00:00+00:00",
+    "price": "자정 이전 20,000원 / 자정 이후 25,000원",
+    "llm_confidence": 1.0,
+    "title": "Kimchi Cult! w/ Ivy Lab",
+    "description": "런던 듀오 Ivy Lab (@ivylab). UK 베이스 선구자 (힙합, 하프타임, 레프트필드 베이스). 20/20 LDN 레이블 오너. 글로벌 페스티벌 헤드라이너. 게스트 디제이.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kimchi Cult! w/ Ivy Lab",
+      "description": "London duo Ivy Lab (@ivylab). UK bass pioneers (hip-hop, halftime, leftfield bass). 20/20 LDN label owners. Global festival headliners. Guest DJs."
+    },
+    "_search_ko": {
+      "title": "Kimchi Cult! w/ Ivy Lab",
+      "description": "런던 듀오 Ivy Lab (@ivylab). UK 베이스 선구자 (힙합, 하프타임, 레프트필드 베이스). 20/20 LDN 레이블 오너. 글로벌 페스티벌 헤드라이너. 게스트 디제이."
     }
   },
   {

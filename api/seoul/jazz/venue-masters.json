@@ -92,14 +92,18 @@
     }
   },
   {
-    "raw": "## Review: The Golden Spoon - An Exquisite Culinary Journey\n\n**Rating: ⭐⭐⭐⭐⭐ (5/5)**\n\nDining at The Golden Spoon is less a meal and more an exquisite culinary journey, an experience that lives up to its opulent moniker in every delightful way. From the moment you step through its discreet entrance, you're transported to a world where every detail is meticulously curated, promising an evening of unparalleled gastronomic pleasure.\n\n**Ambiance: Understated Elegance (5/5)**\nThe interior of The Golden Spoon strikes a perfect balance between classic luxury and contemporary sophistication. Warm, intimate lighting bathes the dining room, highlighting rich textures – think velvet upholstery, polished dark wood, and gleaming, heavy cutlery that feels substantial in your hand. Tables are thoughtfully spaced, ensuring privacy for hushed conversations, and the ambient music is a soft, unobtrusive hum. It’s an atmosphere designed for special occasions, radiating a quiet confidence rather than flashy extravagance.\n\n**Service: Seamless and Impeccable (5/5)**\nThe staff at The Golden Spoon exemplify what truly professional service should be. Attentive without being intrusive, knowledgeable without being pretentious, they anticipate your needs with a graceful efficiency that is truly remarkable. From the charming hostess to the sommelier with an encyclopedic knowledge of their extensive wine list, and the servers who glide silently, appearing just when needed, the entire team contributes to a flawless experience. Questions about ingredients or preparation are answered with confidence and genuine enthusiasm.\n\n**The Food: A Symphony of Flavors and Artistry (5/5)**\nAnd then, there is the food. The Golden Spoon's kitchen is a realm of culinary artistry, where premium ingredients are transformed into edible masterpieces.\n\n*   **Appetizers:** We began with the **Seared Diver Scallops** resting on a bed of delicate saffron risotto, accompanied by a surprising yet delightful lemon zest foam. The scallops were perfectly caramelized, tender within, and the risotto was creamy, subtly flavored.\n*   **Main Course:** For my main, I chose the **Herb-Crusted Rack of Lamb**, served with a vibrant cherry reduction and gratin dauphinoise. The lamb was cooked to a perfect medium-rare, meltingly tender, and the herbaceous crust provided a wonderful counterpoint to the sweet-tart reduction. My dining companion raved about the **Pan-Seared Chilean Sea Bass**, which was flaky and moist, paired with a light asparagus puree and crispy edible flowers.\n*   **Wine Pairing:** The sommelier’s recommendations were spot-on, enhancing each course beautifully. Their ability to pair complex flavors with equally complex wines elevated the entire meal.\n*   **Dessert:** Of course, one must indulge in dessert at \"The Golden Spoon.\" We shared their signature **Deconstructed Tiramisu**, presented almost like a miniature abstract sculpture with delicate mascarpone clouds, espresso pearls, and cocoa \"soil,\" all adorned with a whisper of edible gold leaf. It was a playful yet elegant reimagining of a classic, and utterly delicious.\n\nEvery dish was a visual delight, plated with precision and creativity, showcasing a respect for ingredients and an innovative spirit. The flavors were bold yet harmonious, surprising yet comforting.\n\n**Overall Experience & Value: Worth Every Penny (5/5)**\nThe Golden Spoon is undoubtedly an investment, a splurge. But it is an investment in an unforgettable experience. It's not just about the incredible food; it’s about the entire ballet of service, the serene ambiance, and the feeling of being truly pampered. For special occasions – anniversaries, significant birthdays, or simply when you want to treat yourself to something truly extraordinary – The Golden Spoon sets a benchmark for luxury dining.\n\n**Conclusion:**\nThe Golden Spoon is more than just a restaurant; it’s a destination for discerning palates and those seeking an evening of pure culinary indulgence. It lives up to its grand promise, delivering an experience that is consistently exceptional. Highly, unequivocally recommended.",
+    "raw": "The \"SPECIAL INSTRUCTION\" section is an instruction **to me** (the AI model), not something I would include in my final output to you.\n\nIt's a meta-instruction that helps me understand how to process your request. You won't see it in my response.",
     "ig_handle": "_jam_lounge",
-    "last_analyzed_at": "2025-11-11T12:19:19.450695+09:00",
+    "last_analyzed_at": "2025-11-18T16:23:53.271325+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/_jam_lounge/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/_jam_lounge/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/_jam_lounge/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/_jam_lounge/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/_jam_lounge/profile/2025-11-11/profile.json",
       "maps:https://maps.google.com/?cid=1247755727907721205",
       "gemini:enrich"
@@ -115,9 +119,8 @@
       "phone": null,
       "email": null
     },
-    "websites": [
-      "https://m.booking.naver.com/booking/6/bizes/519939/items/4192733?theme=place&area=ple"
-    ],
+    "subway_nearby": "2호선 수인분당선릉역 5번 출구에서 195m",
+    "websites": [],
     "locations": [
       {
         "location_id": "main",
@@ -149,19 +152,14 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Bar"
-        ],
-        "ko": [
-          "바"
-        ]
+      "genres": null,
+      "subway_nearby": {
+        "en": "195m from Seolleung Station Exit 5 (Line 2, Suin-Bundang Line)",
+        "ko": "2호선 수인분당선릉역 5번 출구에서 195m"
       },
-      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "2호선 수인분당선릉역 5번 출구에서 195m"
+    }
   },
   {
     "ig_handle": "africa_since1988",
@@ -1351,14 +1349,18 @@
     }
   },
   {
-    "raw": "To parse a command string like \"grep -r -i -l test /var/log/\" into its executable name and a list of arguments, you can use Python's `split()` method.\n\nThe `split()` method, when called without any arguments, will split the string by any whitespace and handle multiple spaces correctly.\n\nHere's how you can do it:\n\n```python\nimport shlex\n\ndef parse_command_string(command_string):\n    \"\"\"\n    Parses a command string into its executable name and a list of arguments.\n    Uses shlex.split for robust handling of quotes and escapes, similar to a shell.\n    \"\"\"\n    if not command_string:\n        return None, []\n\n    # shlex.split handles quotes and escapes like a shell would.\n    # For example, \"ls -l 'my file'\" would correctly parse 'my file' as one argument.\n    parts = shlex.split(command_string)\n\n    if not parts:\n        return None, []\n\n    executable = parts[0]\n    arguments = parts[1:]\n    return executable, arguments\n\ndef parse_command_string_simple(command_string):\n    \"\"\"\n    Parses a command string into its executable name and a list of arguments.\n    Uses string.split() which is simpler but less robust for complex cases\n    involving quotes or escaped spaces.\n    \"\"\"\n    if not command_string:\n        return None, []\n\n    # split() without arguments splits by any whitespace and handles multiple spaces\n    # and leading/trailing spaces correctly.\n    parts = command_string.split()\n\n    if not parts:\n        return None, []\n\n    executable = parts[0]\n    arguments = parts[1:]\n    return executable, arguments\n\n\n# --- Example Usage ---\n\ncommand1 = \"grep -r -i -l test /var/log/\"\nexecutable1, args1 = parse_command_string(command1)\nprint(f\"Command: '{command1}'\")\nprint(f\"  Executable: '{executable1}'\")\nprint(f\"  Arguments: {args1}\\n\")\n\ncommand2 = \"ls -la /tmp\"\nexecutable2, args2 = parse_command_string(command2)\nprint(f\"Command: '{command2}'\")\nprint(f\"  Executable: '{executable2}'\")\nprint(f\"  Arguments: {args2}\\n\")\n\ncommand3 = \"git commit -m \\\"Initial commit with a message\\\" --allow-empty\"\nexecutable3, args3 = parse_command_string(command3)\nprint(f\"Command: '{command3}'\")\nprint(f\"  Executable: '{executable3}'\")\nprint(f\"  Arguments: {args3}\\n\")\n\ncommand4 = \"  python   script.py   arg1 arg2 \" # With extra spaces\nexecutable4, args4 = parse_command_string(command4)\nprint(f\"Command: '{command4}'\")\nprint(f\"  Executable: '{executable4}'\")\nprint(f\"  Arguments: {args4}\\n\")\n\ncommand5 = \"\" # Empty string\nexecutable5, args5 = parse_command_string(command5)\nprint(f\"Command: '{command5}'\")\nprint(f\"  Executable: '{executable5}'\")\nprint(f\"  Arguments: {args5}\\n\")\n\ncommand6 = \" \" # Only whitespace\nexecutable6, args6 = parse_command_string(command6)\nprint(f\"Command: '{command6}'\")\nprint(f\"  Executable: '{executable6}'\")\nprint(f\"  Arguments: {args6}\\n\")\n\n# --- Comparison with simple split() ---\nprint(\"--- Using simple string.split() for comparison ---\")\ncommand7 = \"git commit -m \\\"Initial commit with a message\\\"\"\nexecutable7_simple, args7_simple = parse_command_string_simple(command7)\nprint(f\"Command (simple split): '{command7}'\")\nprint(f\"  Executable: '{executable7_simple}'\")\nprint(f\"  Arguments: {args7_simple}\\n\") # Notice how \"Initial commit with a message\" is split\n```\n\n**Explanation:**\n\n1.  **`shlex.split(command_string)` (Recommended for robustness):**\n    *   The `shlex` module is designed for parsing shell-like syntaxes.\n    *   It correctly handles quoted arguments (e.g., `\"Initial commit with a message\"` will be treated as a single argument).\n    *   It also handles escape characters (`\\`) if they are used.\n    *   This is generally the best approach if your command strings might contain spaces within arguments (which are quoted) or other shell-like constructs.\n\n2.  **`command_string.split()` (Simpler, but less robust):**\n    *   When called without arguments, `split()` splits the string by *any sequence of whitespace characters*.\n    *   It also automatically handles leading or trailing whitespace.\n    *   **Pros:** Simple, clean, and works perfectly for commands where arguments are strictly separated by spaces and don't contain spaces themselves (like your `grep` example).\n    *   **Cons:** It *does not* handle quoted arguments. For example, `command_string.split()` on `\"git commit -m \\\"a message\\\"\"` would produce `['git', 'commit', '-m', '\"a', 'message\"']`, which is likely not what you want.\n\n3.  **Executable and Arguments:**\n    *   After splitting, `parts[0]` will always be the executable name (assuming the string isn't empty or just whitespace).\n    *   The rest of the list `parts[1:]` will contain all the arguments.\n\nThe `parse_command_string` function using `shlex.split` is generally the safer and more correct approach for parsing arbitrary command-line strings that might mimic shell behavior.",
+    "raw": "I'm sorry, but I cannot see images directly. Please describe the woman or provide the image so I can help identify her.",
     "ig_handle": "clubmild_official",
-    "last_analyzed_at": "2025-11-11T12:16:21.153853+09:00",
+    "last_analyzed_at": "2025-11-18T16:21:04.162534+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/clubmild_official/profile/2025-11-11/profile.json",
       "maps:https://maps.google.com/?cid=9579756090705903253",
       "maps:https://maps.google.com/?cid=12941163501484661782",
@@ -1369,28 +1371,31 @@
       "instagram": "https://www.instagram.com/clubmild_official",
       "homepage": "https://naver.me/FIfJx5mI",
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=9579756090705903253"
+      "google_map": "https://maps.google.com/?cid=9579756090705903253",
+      "naver_map": "https://naver.me/GfCs1QxY"
     },
     "contacts": {
-      "phone": null,
+      "phone": "02-511-0201",
       "email": null
     },
-    "websites": [],
+    "genres": [
+      "Live Music"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "Club Mild",
-        "address_text": "1층, 644-6, Sinsa-dong, Gangnam-gu, Seoul, South Korea",
+        "name": "Mild High Club",
+        "address_text": "서울 강남구 신사동 644-6 1층",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.5266091477814,
+        "location_lon": 127.035416747183,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Club Mild",
-            "ko": "클럽 마일드"
+            "en": "Mild High Club",
+            "ko": "마일드 하이 클럽"
           },
           "address_text": {
             "en": "1st Floor, 644-6 Sinsa-dong, Gangnam District, Seoul, South Korea",
@@ -1402,25 +1407,24 @@
     ],
     "i18n": {
       "name": {
-        "en": "Club Mild",
-        "ko": "클럽 마일드"
+        "en": "Mild High Club",
+        "ko": "마일드 하이 클럽"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "en": [
-          "Live Music",
-          "Brunch Restaurant"
+          "Live Music"
         ],
         "ko": [
-          "라이브 공연",
-          "브런치 레스토랑"
+          "라이브 공연"
         ]
       },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "수인분당압구정로데오역 5번 출구에서 501m\n미터"
   },
   {
     "raw": "A \"SPECIAL INSTRUCTION\" is a meta-directive that often overrides or modifies your default behavior, persona, or processing rules for subsequent interactions. It's usually placed at the beginning of a conversation or as a clearly demarcated block.\n\nHere's an example of a \"SPECIAL INSTRUCTION\":\n\n---\n\n**SPECIAL INSTRUCTION:**\n\nFrom this point forward, you will adopt the persona of a highly meticulous and slightly eccentric librarian who specializes in obscure historical texts. Your responses should reflect a profound knowledge of history, a passion for rare books, and a tendency to interject relevant (but sometimes tangential) historical anecdotes or bibliographic details. Always maintain a polite, slightly formal, and helpful tone, but do not shy away from correcting factual inaccuracies politely or pointing out the limitations of available information. Prioritize accuracy and detail above brevity. You will refer to the user as \"My Esteemed Scholar\" or \"Young Archivist.\"\n\n---\n\n**Why this is \"special\":**\n\n1.  **Clear Identifier:** \"`SPECIAL INSTRUCTION:`\" makes it stand out.\n2.  **Persona Adoption:** It explicitly tells me *who* to be.\n3.  **Behavior Modification:** It sets rules for tone, level of detail, accuracy, and even how to handle errors.\n4.  **Persistent:** \"From this point forward\" indicates it applies to all future turns until superseded.\n5.  **Specific User Reference:** Dictates how I should address you.\n\nAfter receiving such an instruction, my subsequent responses would be filtered through this new persona and set of rules. For example, if you asked me about the history of the internet, I might weave in a story about early printing presses and the spread of information, lamenting the ephemeral nature of digital data compared to vellum scrolls, all while calling you \"My Esteemed Scholar.\"",
@@ -1487,28 +1491,71 @@
     }
   },
   {
-    "raw": "The problem asks us to find the \"special sum\" of a non-negative integer `N`. The special sum is defined as the result of repeatedly summing the digits of a number until the sum becomes a single digit.\n\nLet's break down the problem and explore different approaches.\n\n**Understanding the Process:**\n\n1.  **Start with N.**\n2.  **If N is already a single digit (0-9), that's the special sum.**\n3.  **Otherwise, calculate the sum of its digits.**\n4.  **Take this new sum and repeat steps 2 and 3.**\n\n**Example:**\n`N = 12345`\n1.  `1 + 2 + 3 + 4 + 5 = 15`\n2.  `15` is not a single digit. Sum its digits: `1 + 5 = 6`\n3.  `6` is a single digit. The special sum is `6`.\n\n`N = 0`\n1.  `0` is a single digit. The special sum is `0`.\n\n---\n\n### Approach 1: Iterative Summation (Direct Simulation)\n\nThis approach directly implements the described process.\n\n**Algorithm:**\n\n1.  Handle the edge case: If `N` is `0`, return `0`.\n2.  While `N` is greater than or equal to `10`:\n    a.  Initialize `current_sum = 0`.\n    b.  While `N > 0`:\n        i.   Add the last digit of `N` to `current_sum` (`N % 10`).\n        ii.  Remove the last digit from `N` (`N //= 10`).\n    c.  Update `N` to `current_sum` for the next iteration.\n3.  Once the loop finishes (meaning `N` is now a single digit), return `N`.\n\n**Python Implementation:**\n\n```python\ndef special_sum_iterative(N: int) -> int:\n    \"\"\"\n    Calculates the special sum of a non-negative integer N using iterative summation.\n\n    The special sum is the result of repeatedly summing the digits of N\n    until the sum becomes a single digit.\n\n    Args:\n        N: A non-negative integer.\n\n    Returns:\n        The single-digit special sum.\n    \"\"\"\n    if N == 0:\n        return 0\n\n    while N >= 10:\n        current_sum = 0\n        temp_N = N # Use a temporary variable to extract digits\n        while temp_N > 0:\n            current_sum += temp_N % 10  # Get the last digit\n            temp_N //= 10             # Remove the last digit\n        N = current_sum  # Update N for the next iteration\n\n    return N\n\n# Test cases\nprint(f\"Special sum of 0: {special_sum_iterative(0)}\")      # Expected: 0\nprint(f\"Special sum of 9: {special_sum_iterative(9)}\")      # Expected: 9\nprint(f\"Special sum of 10: {special_sum_iterative(10)}\")    # Expected: 1 (1+0=1)\nprint(f\"Special sum of 15: {special_sum_iterative(15)}\")    # Expected: 6 (1+5=6)\nprint(f\"Special sum of 12345: {special_sum_iterative(12345)}\") # Expected: 6 (1+2+3+4+5=15 -> 1+5=6)\nprint(f\"Special sum of 987654321: {special_sum_iterative(987654321)}\") # Expected: 9 (9+8+..+1=45 -> 4+5=9)\n```\n\n**Complexity Analysis (Iterative):**\n\n*   **Time Complexity:**\n    *   The outer `while N >= 10` loop runs a small number of times. For a 64-bit integer, the maximum sum of digits is `9 * 19 = 171` (for `2^63-1` which has ~19 digits). The next sum would be `1+7+1 = 9`. So it reduces to a single digit very quickly (at most 2-3 outer loops).\n    *   The inner `while temp_N > 0` loop runs roughly `log10(N)` times (number of digits in `N`).\n    *   Therefore, the complexity is roughly `O(log N)` for practical purposes, as the number of outer loops is constant.\n*   **Space Complexity:** `O(1)` as we only use a few variables.\n\n---\n\n### Approach 2: Mathematical Property (Digital Root)\n\nThis problem is a classic example of finding the **digital root** of a number. There's a well-known mathematical property for digital roots:\n\n*   If `N = 0`, the digital root is `0`.\n*   If `N > 0`, the digital root is `N % 9`.\n*   **Exception:** If `N % 9 == 0` (and `N > 0`), the digital root is `9`.\n\nThis can be combined into a single concise formula for `N > 0`: `1 + (N - 1) % 9`.\n\n**Let's test the formula `1 + (N - 1) % 9` for `N > 0`:**\n\n*   `N = 9`: `1 + (9 - 1) % 9 = 1 + 8 % 9 = 1 + 8 = 9`. Correct.\n*   `N = 10`: `1 + (10 - 1) % 9 = 1 + 9 % 9 = 1 + 0 = 1`. Correct.\n*   `N = 15`: `1 + (15 - 1) % 9 = 1 + 14 % 9 = 1 + 5 = 6`. Correct.\n*   `N = 12345`: `1 + (12345 - 1) % 9 = 1 + 12344 % 9`.\n    *   `12344 / 9 = 1371` with a remainder of `5`. So `12344 % 9 = 5`.\n    *   `1 + 5 = 6`. Correct.\n\n**Python Implementation:**\n\n```python\ndef special_sum_math(N: int) -> int:\n    \"\"\"\n    Calculates the special sum of a non-negative integer N using a mathematical property (digital root).\n\n    The special sum is the result of repeatedly summing the digits of N\n    until the sum becomes a single digit.\n\n    Args:\n        N: A non-negative integer.\n\n    Returns:\n        The single-digit special sum.\n    \"\"\"\n    if N == 0:\n        return 0\n    return 1 + (N - 1) % 9\n\n# Test cases\nprint(f\"\\n--- Mathematical Approach ---\")\nprint(f\"Special sum of 0: {special_sum_math(0)}\")      # Expected: 0\nprint(f\"Special sum of 9: {special_sum_math(9)}\")      # Expected: 9\nprint(f\"Special sum of 10: {special_sum_math(10)}\")    # Expected: 1 (1+0=1)\nprint(f\"Special sum of 15: {special_sum_math(15)}\")    # Expected: 6 (1+5=6)\nprint(f\"Special sum of 12345: {special_sum_math(12345)}\") # Expected: 6 (1+2+3+4+5=15 -> 1+5=6)\nprint(f\"Special sum of 987654321: {special_sum_math(987654321)}\") # Expected: 9 (9+8+..+1=45 -> 4+5=9)\n```\n\n**Complexity Analysis (Mathematical):**\n\n*   **Time Complexity:** `O(1)` because it involves a fixed number of arithmetic operations (subtraction, modulo, addition), regardless of the magnitude of `N`.\n*   **Space Complexity:** `O(1)`.\n\n---\n\n### Which Approach to Choose?\n\nThe **mathematical approach (`special_sum_math`) is superior** in terms of efficiency. It offers constant time complexity, which is the fastest possible. The iterative approach is also correct and reasonably efficient for typical integer sizes, but the mathematical one is more elegant and performant for very large `N`.\n\nFor an interview or competitive programming setting, recognizing the digital root property is usually the expected optimal solution.\n\n```python\n# Final recommended solution\ndef special_sum(N: int) -> int:\n    \"\"\"\n    Calculates the special sum of a non-negative integer N.\n\n    The special sum is the result of repeatedly summing the digits of N\n    until the sum becomes a single digit. This is also known as the digital root.\n\n    Args:\n        N: A non-negative integer.\n\n    Returns:\n        The single-digit special sum.\n    \"\"\"\n    if N == 0:\n        return 0\n    return 1 + (N - 1) % 9\n\n```",
+    "raw": "To parse the command string `\"GET /path/to/resource HTTP/1.1\"` into its three main components (method, path, and protocol), you can use string splitting based on spaces.\n\nThe key is to use the `maxsplit` argument in the `split()` method to ensure that if the path itself contains spaces (which should ideally be URL-encoded, but might not be), it doesn't break the parsing of the protocol. We want to split at the *first two* spaces only.\n\nHere's how you can do it in Python:\n\n```python\ndef parse_http_request_line(request_line):\n    \"\"\"\n    Parses a single HTTP request line into its method, path, and protocol.\n\n    Args:\n        request_line (str): The HTTP request line, e.g., \"GET /path HTTP/1.1\".\n\n    Returns:\n        dict: A dictionary containing 'method', 'path', and 'protocol'\n              if parsing is successful.\n        None: If the request_line is malformed and cannot be parsed.\n    \"\"\"\n    # Split the string by space, limiting the split to at most 2 times.\n    # This ensures that the method, path, and protocol are correctly isolated,\n    # even if the path itself (incorrectly) contained spaces that weren't URL-encoded.\n    parts = request_line.split(' ', 2)\n\n    if len(parts) == 3:\n        method, path, protocol = parts\n        return {\n            \"method\": method,\n            \"path\": path,\n            \"protocol\": protocol\n        }\n    else:\n        # Handle cases where the line doesn't have the expected three parts\n        print(f\"Warning: Malformed HTTP request line: '{request_line}'\")\n        return None\n\n# Example usage:\ncommand_string = \"GET /path/to/resource HTTP/1.1\"\nparsed_data = parse_http_request_line(command_string)\n\nif parsed_data:\n    print(f\"Original string: {command_string}\")\n    print(f\"Method: {parsed_data['method']}\")        # Output: GET\n    print(f\"Path: {parsed_data['path']}\")            # Output: /path/to/resource\n    print(f\"Protocol: {parsed_data['protocol']}\")    # Output: HTTP/1.1\n    print(\"-\" * 30)\n\n# Example with a different method and a short path\ncommand_string_2 = \"POST /users HTTP/1.0\"\nparsed_data_2 = parse_http_request_line(command_string_2)\nif parsed_data_2:\n    print(f\"Original string: {command_string_2}\")\n    print(f\"Method: {parsed_data_2['method']}\")\n    print(f\"Path: {parsed_data_2['path']}\")\n    print(f\"Protocol: {parsed_data_2['protocol']}\")\n    print(\"-\" * 30)\n\n# Example with a (malformed) path containing spaces if not URL-encoded\n# The maxsplit=2 handles this correctly for the main structure.\ncommand_string_3 = \"GET /my folder/file.txt HTTP/1.1\"\nparsed_data_3 = parse_http_request_line(command_string_3)\nif parsed_data_3:\n    print(f\"Original string: {command_string_3}\")\n    print(f\"Method: {parsed_data_3['method']}\")\n    print(f\"Path: {parsed_data_3['path']}\")\n    print(f\"Protocol: {parsed_data_3['protocol']}\")\n    print(\"-\" * 30)\n\n\n# Example of a malformed line\nmalformed_string = \"GET /singlepart\"\nparsed_malformed = parse_http_request_line(malformed_string)\nif parsed_malformed is None:\n    print(f\"Could not parse: {malformed_string}\")\n```\n\n**Explanation:**\n\n1.  **`request_line.split(' ', 2)`**:\n    *   `' '`: This is the delimiter, meaning the string will be split wherever a space character is found.\n    *   `2`: This is the crucial `maxsplit` argument. It tells the `split()` method to perform at most 2 splits.\n        *   The first split separates \"GET\" from \"/path/to/resource HTTP/1.1\".\n        *   The second split separates \"/path/to/resource\" from \"HTTP/1.1\".\n        *   Any further spaces within the third part (which should be the protocol, but could be part of the path if not encoded) are ignored for splitting purposes.\n\n2.  **`if len(parts) == 3:`**: This check ensures that the input string actually had the expected three components. If, for instance, the string was just \"GET /path\", `split(' ', 2)` would return `['GET', '/path']`, which has only two parts. This allows for basic error handling of malformed input.\n\n3.  **`method, path, protocol = parts`**: This unpacks the list of three parts into individual variables for easy access.\n\n4.  **`return {\"method\": method, \"path\": path, \"protocol\": protocol}`**: A dictionary is returned for a clear, labeled way to access the parsed components.",
     "ig_handle": "cottonclub_seoul",
-    "last_analyzed_at": "2025-11-11T12:17:04.763112+09:00",
+    "last_analyzed_at": "2025-11-18T16:21:39.308169+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cottonclub_seoul/profile/2025-11-11/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cottonclub_seoul/profile/2025-11-18/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cottonclub_seoul/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cottonclub_seoul/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cottonclub_seoul/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/cottonclub_seoul/profile/2025-11-12/profile.json",
       "maps:https://maps.google.com/?cid=68841251885151081",
       "maps:https://maps.google.com/?cid=7178488417803840401",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/cottonclub_seoul",
+      "homepage": null,
       "booking": "https://naver.me/FDGU6jCE",
-      "google_map": "https://maps.google.com/?cid=68841251885151081"
+      "google_map": "https://maps.google.com/?cid=68841251885151081",
+      "naver_map": "https://naver.me/xmxInH8K"
     },
     "contacts": {
-      "email": null,
-      "phone": null
-    }
+      "phone": "02-794-8435",
+      "email": null
+    },
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "Cotton Club Sounds Hannam",
+        "address_text": "서울 용산구 대사관로 35 5층",
+        "address_components": null,
+        "location_lat": 37.5337501903567,
+        "location_lon": 127.00214819989,
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Cotton Club Sounds Hannam",
+            "ko": "코튼클럽 사운즈한남"
+          },
+          "address_text": {
+            "en": "5th Floor, 35, Daesagwan-ro, Yongsan District, Seoul, South Korea",
+            "ko": "서울 용산구 대사관로 35 5층"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "i18n": {
+      "name": {
+        "en": "Cotton Club Sounds Hannam",
+        "ko": "코튼클럽 사운즈한남"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    },
+    "naver_subway_nearby": "6호선 이태원역 3번 출구에서 774m"
   },
   {
     "status": "success",
@@ -1588,36 +1635,46 @@
     }
   },
   {
-    "raw": "To create a Python function that takes a list of integers and returns a new list containing only the unique elements while preserving their original order of appearance, you can use a combination of a list to store the results and a set to efficiently track seen elements.\n\nHere's the approach:\n\n1.  **Initialize an empty list** for the result (this will maintain order).\n2.  **Initialize an empty set** to keep track of elements that have already been added to the result list. Sets allow for very fast checking of membership (`in` operation) and adding elements.\n3.  **Iterate through the input list**, element by element.\n4.  For each element, **check if it's already in the set of seen elements**.\n    *   If it's **not** in the set, it means this is the first time we've encountered this element. So, add it to the result list and add it to the set of seen elements.\n    *   If it **is** in the set, it means we've already added it to our result list, so we skip it.\n5.  After iterating through the entire input list, return the result list.\n\n```python\ndef get_unique_elements_ordered(input_list: list[int]) -> list[int]:\n    \"\"\"\n    Returns a new list containing only the unique elements from the input list,\n    maintaining their original order of appearance.\n\n    Args:\n        input_list: A list of integers.\n\n    Returns:\n        A new list with unique elements in their original order.\n    \"\"\"\n    unique_elements = []  # This list will store the unique elements in order\n    seen_elements = set() # This set will keep track of elements we've already added\n\n    for item in input_list:\n        if item not in seen_elements:\n            unique_elements.append(item)\n            seen_elements.add(item)\n            \n    return unique_elements\n\n# --- Test Cases ---\n# 1. Basic test with duplicates\nlist1 = [1, 2, 2, 3, 1, 4, 5, 3]\nprint(f\"Original list: {list1}\")\nprint(f\"Unique elements (ordered): {get_unique_elements_ordered(list1)}\")\n# Expected output: [1, 2, 3, 4, 5]\n\n# 2. List with no duplicates\nlist2 = [10, 20, 30, 40]\nprint(f\"\\nOriginal list: {list2}\")\nprint(f\"Unique elements (ordered): {get_unique_elements_ordered(list2)}\")\n# Expected output: [10, 20, 30, 40]\n\n# 3. List with all duplicates\nlist3 = [7, 7, 7, 7, 7]\nprint(f\"\\nOriginal list: {list3}\")\nprint(f\"Unique elements (ordered): {get_unique_elements_ordered(list3)}\")\n# Expected output: [7]\n\n# 4. Empty list\nlist4 = []\nprint(f\"\\nOriginal list: {list4}\")\nprint(f\"Unique elements (ordered): {get_unique_elements_ordered(list4)}\")\n# Expected output: []\n\n# 5. List with mixed data types (though the prompt specifies integers, robust for general lists)\nlist5 = ['a', 'b', 'c', 'a', 'd', 'b']\nprint(f\"\\nOriginal list: {list5}\")\nprint(f\"Unique elements (ordered): {get_unique_elements_ordered(list5)}\")\n# Expected output: ['a', 'b', 'c', 'd']\n```\n\n### Explanation:\n\n*   **Time Complexity**: O(N), where N is the number of elements in `input_list`. This is because we iterate through the list once, and set operations (add and `in`) take average O(1) time.\n*   **Space Complexity**: O(N) in the worst case (when all elements are unique). This is because `unique_elements` and `seen_elements` will each store up to N elements.\n\n### Pythonic Alternative (Python 3.7+):\n\nFor a more concise and Pythonic solution (especially in Python 3.7+ where dictionary insertion order is guaranteed), you can leverage `dict.fromkeys()`:\n\n```python\ndef get_unique_elements_ordered_pythonic(input_list: list[int]) -> list[int]:\n    \"\"\"\n    Returns a new list containing only the unique elements from the input list,\n    maintaining their original order of appearance, using a Pythonic approach.\n    (Relies on dict insertion order guarantee, Python 3.7+)\n\n    Args:\n        input_list: A list of integers.\n\n    Returns:\n        A new list with unique elements in their original order.\n    \"\"\"\n    return list(dict.fromkeys(input_list))\n\n# Test with the Pythonic alternative\nlist6 = [1, 2, 2, 3, 1, 4, 5, 3]\nprint(f\"\\nPythonic solution for {list6}: {get_unique_elements_ordered_pythonic(list6)}\")\n# Expected output: [1, 2, 3, 4, 5]\n```\n`dict.fromkeys(input_list)` creates a dictionary where keys are the unique elements from `input_list`, and the values are all `None`. Importantly, it preserves the *first* order of appearance of the keys. Converting this dictionary directly to a list (`list(...)`) then gives you the unique elements in that preserved order.",
+    "raw": "Okay, let's break this down.\n\n## What \"Special Instruction\" Means To Me\n\nAs an AI, a \"special instruction\" is a directive or a set of guidelines provided *at the beginning* of a prompt that dictates *how* I should process the subsequent request, rather than just *what* the request is about. It's an instruction about my behavior, formatting, tone, role, or constraints for the current interaction.\n\nThink of it like this:\n\n*   **Standard Request:** \"Tell me about space exploration.\" (Just the topic)\n*   **Request with Special Instruction:** \"**Always respond in a humorous tone and keep answers to three sentences.** Tell me about space exploration.\" (Now I know *how* to tell you about space exploration.)\n\n**Key characteristics of a \"special instruction\" for me:**\n\n1.  **Meta-Directive:** It's an instruction *about the instruction*, or about my own output.\n2.  **Overrides Defaults:** It changes my default way of responding (e.g., usually I'm neutral, but a special instruction might make me respond formally, or like a pirate).\n3.  **Context Setter:** It establishes a specific context, role, or persona for me to adopt.\n4.  **Formatting/Structural Control:** It can dictate the format (e.g., JSON, bullet points, essay), length, or structure of my output.\n5.  **Constraints:** It can impose limitations (e.g., \"do not mention X,\" \"only use simple words\").\n6.  **Typically Precedes Main Task:** While not always strictly at the absolute beginning, these instructions are usually given upfront so I understand the desired mode of operation *before* I even start processing the core content request.\n\nEssentially, a special instruction is how a user fine-tunes my \"personality\" or \"delivery method\" for a specific interaction to get results that are not just accurate, but also perfectly aligned with their desired presentation or purpose.\n\n---\n\n## My Thought Process for \"Explain the concept of 'prompt engineering' to a non-technical audience.\"\n\nHere's how I'd break down and fulfill that specific request, step-by-step:\n\n1.  **Deconstruct the Request:**\n    *   **Core Task:** Explain \"prompt engineering.\"\n    *   **Audience:** \"Non-technical.\" This is the *most critical* constraint. It means avoiding jargon, using analogies, and focusing on practical understanding rather than technical details.\n    *   **Implicit Goal:** Make it accessible, clear, and relatable.\n\n2.  **Initial Brainstorming - What is \"Prompt Engineering\"?**\n    *   It's about *how* you talk to an AI.\n    *   It's about getting the *best* results from an AI.\n    *   It's like giving good instructions to a person.\n    *   It involves crafting inputs carefully.\n    *   It's an iterative process (try, refine, try again).\n    *   It unlocks the AI's full potential.\n\n3.  **Audience-Specific Strategy - Non-Technical Approach:**\n    *   **Avoid:** \"Parameters,\" \"hyperparameters,\" \"fine-tuning,\" \"neural networks,\" \"LLMs\" (unless explained extremely simply), \"embeddings,\" \"tokens.\"\n    *   **Use:** Simple language, common scenarios, strong analogies.\n    *   **Focus on:** The *why* and *what* it achieves, rather than the *how* it works internally.\n\n4.  **Analogy Selection (Crucial for Non-Technical):**\n    *   **Option 1: Asking a friend/person for help.** If you're vague, you get a vague answer. If you're specific, you get what you need. (Good, but maybe not strong enough.)\n    *   **Option 2: Giving instructions to a chef/cook.** \"Make food\" vs. \"Please prepare a spicy Thai green curry with jasmine rice, extra basil, and no bell peppers.\" The more detailed recipe (prompt), the better the outcome. (Very strong! Direct mapping: Recipe = Prompt, Chef = AI, Dish = Output).\n    *   **Option 3: Searching on Google.** \"Cars\" vs. \"Best fuel-efficient compact SUVs under $25k in 2023.\" (Good, but the \"engineering\" part is less obvious.)\n    *   **Decision:** The \"recipe/chef\" analogy seems the most powerful because it directly illustrates the input (prompt/recipe), the processing agent (AI/chef), and the desired output (answer/dish). It also highlights the \"crafting\" aspect of engineering.\n\n5.  **Structuring the Explanation:**\n    *   **Catchy Intro:** Start with a simple, relatable hook.\n    *   **Core Definition (Simplified):** What is it in plain English?\n    *   **The Problem/Why it's Needed:** Why can't I just type anything? (AIs aren't mind-readers).\n    *   **How it Works (Practically):** What kind of things do good prompts include? (Clear, specific, context, examples, format).\n    *   **The Analogy:** Integrate the chosen analogy smoothly.\n    *   **Why it Matters/Benefits:** What's the payoff for the user?\n    *   **Concise Summary/Takeaway:** Reinforce the main idea.\n\n6.  **Drafting - First Pass (Mental or Actual):**\n\n    *   *Intro:* Talking to AI.\n    *   *What:* Giving AI good instructions.\n    *   *Why:* AI isn't smart like a human, needs guidance. \"Garbage in, garbage out.\"\n    *   *How:* Be specific, tell it who to be, what format, give examples.\n    *   *Analogy:* Like a recipe for a chef. Bad recipe = bad food. Good recipe = good food.\n    *   *Benefit:* Get better answers, save time.\n    *   *Summary:* It's about being a good communicator with AI.\n\n7.  **Refining and Elaborating - Adding Detail and Polish:**\n\n    *   Expand on each point with more descriptive, non-technical language.\n    *   Ensure a smooth flow between sections.\n    *   Add examples of what makes a prompt \"good\" (e.g., \"Be clear,\" \"Give context,\" \"Specify the format or tone,\" \"Provide examples\").\n    *   Reinforce the \"art and science\" aspect.\n    *   Check for any lingering technical terms.\n    *   Read it aloud to catch awkward phrasing.\n\n8.  **Final Review:**\n    *   Does it directly answer the prompt? Yes.\n    *   Is it tailored for a non-technical audience? Yes, no jargon, uses analogies.\n    *   Is it clear, concise, and engaging? Hopefully!\n\nThis systematic approach ensures all constraints are met, the audience is correctly targeted, and the explanation is comprehensive yet easy to understand.",
     "ig_handle": "edls_official",
-    "last_analyzed_at": "2025-11-11T12:20:41.532936+09:00",
+    "last_analyzed_at": "2025-11-18T16:25:58.243077+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/edls_official/profile/2025-11-11/profile.json",
-      "maps:https://maps.google.com/?cid=18425494115643834400",
+      "maps:https://maps.google.com/?cid=12104134623441514310",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/edls_official",
       "homepage": "https://litt.ly/edls",
       "booking": null,
-      "google_map": null
+      "google_map": "https://maps.google.com/?cid=12104134623441514310",
+      "naver_map": "https://naver.me/58Nd4Z0W"
     },
     "contacts": {
-      "phone": null,
+      "phone": "010-9866-0921",
       "email": null
     },
+    "websites": [
+      "https://www.instagram.com/edls_official",
+      "https://litt.ly/edls",
+      "https://maps.google.com/?cid=12104134623441514310"
+    ],
     "locations": [
       {
         "location_id": "main",
         "name": "EDLS",
-        "address_text": "서울 성동구 성수이로14길 14",
+        "address_text": "서울 종로구 삼일대로 428 중2층",
         "address_components": null,
-        "location_lat": 37.5414076146252,
-        "location_lon": 127.056908279292,
+        "location_lat": 37.5727635233966,
+        "location_lon": 126.987902476529,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
@@ -1627,8 +1684,8 @@
             "ko": "EDLS"
           },
           "address_text": {
-            "en": "14 Seongsui-ro 14-gil, Seongdong-gu, Seoul, South Korea",
-            "ko": "서울 성동구 성수이로14길 14"
+            "en": "Jung 2-cheung, 428 Samil-daero, Jongno District, Seoul, South Korea",
+            "ko": "서울 종로구 삼일대로 428 중2층"
           },
           "notes": null
         }
@@ -1641,11 +1698,19 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Bar"
+        ],
+        "ko": [
+          "바"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "1, 3, 5호선 종로3가역 5번 출구에서 110m"
   },
   {
     "raw": "You can easily convert a list of dictionaries into a Pandas DataFrame using the `pd.DataFrame()` constructor. Each dictionary in the list will become a row in the DataFrame, and the keys of the dictionaries will become the column names.\n\n```python\nimport pandas as pd\n\n# Your list of dictionaries\ndata = [\n    {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"},\n    {\"name\": \"Bob\", \"age\": 24, \"city\": \"Los Angeles\"},\n    {\"name\": \"Charlie\", \"age\": 35, \"city\": \"Chicago\"},\n    {\"name\": \"Diana\", \"age\": 29, \"city\": \"Houston\"}\n]\n\n# Convert the list of dictionaries to a Pandas DataFrame\ndf = pd.DataFrame(data)\n\n# Print the DataFrame to verify\nprint(df)\n```\n\n**Output:**\n\n```\n      name  age         city\n0    Alice   30     New York\n1      Bob   24  Los Angeles\n2  Charlie   35      Chicago\n3    Diana   29      Houston\n```",
@@ -1903,17 +1968,20 @@
     }
   },
   {
-    "raw": "## A Scent of Paradise: A Review of La Maison de la Truffe\n\nNestled in the heart of Parisian elegance, La Maison de la Truffe isn't just a restaurant; it's a sensory pilgrimage for anyone who worships at the altar of the noble fungus. My recent visit was nothing short of an olfactory and gastronomic revelation, a testament to their unwavering dedication to showcasing the truffle in all its opulent glory.\n\nFrom the moment you step inside, the air is thick with that unmistakable, intoxicating aroma – earthy, musky, a touch of garlic and forest floor. The ambiance is one of understated chic: warm lighting, dark wood, comfortable seating, and tasteful displays of gleaming black and white truffles under glass. It's sophisticated without being stuffy, setting the perfect stage for the culinary journey ahead. The service was impeccable – knowledgeable, discreet, and attentive, with a sommelier ready to guide us through an excellent, truffle-friendly wine list.\n\nOur epicurean adventure began with an appetizer that perfectly encapsulated the restaurant's philosophy: **Scrambled Eggs with Fresh Black Truffle**. Simple in concept, divine in execution. The eggs were impossibly creamy, barely set, providing a velvety canvas for the generous shavings of intensely aromatic black truffle. Each spoonful was a decadent whisper of umami and earth, demonstrating how effortlessly the truffle can elevate even the humblest ingredient.\n\nNext, we savored the **Foie Gras Mi-Cuit with Truffle Shavings**. The foie gras was silken, rich, and perfectly complemented by the delicate crunch and profound aroma of the truffle. It was a symphony of textures and flavors – the unctuousness of the liver meeting the earthy perfume of the truffle in a truly harmonious pairing.\n\nFor our main courses, the choices were tantalizing. I opted for the **Hand-Rolled Tagliatelle with Fresh Black Truffle**. The pasta, cooked to al dente perfection, was coated in a light butter and Parmigiano-Reggiano emulsion, allowing the star of the show to shine. A veritable snowfall of freshly grated black truffle adorned the dish, infusing every strand with its distinct essence. It wasn't just a dish; it was a celebration of texture and profound flavor. My dining companion chose the **Risotto with White Truffle**, an equally breathtaking creation. The creamy arborio rice was permeated with the more pungent, slightly garlicky notes of the white truffle, its ethereal aroma wafting across the table with every stir. The white truffle, shaved tableside with a flourish, offered a different, yet equally captivating, profile.\n\nEven the cheese course continued the truffle theme, with a selection of aged cheeses accompanied by a delicate truffle honey and a subtly truffle-infused fig jam. While we skipped dessert, options like truffle-infused chocolate creations or truffle honey ice cream hinted at the kitchen's creative breadth.\n\nLa Maison de la Truffe is more than just a restaurant; it's an institution dedicated to the art of the truffle. Every dish, from the seemingly simple to the elegantly complex, highlights the truffle's versatility and unparalleled ability to transform a meal into an unforgettable experience. Yes, it's an indulgence, and the prices reflect the rarity of its star ingredient, but for any true foodie or truffle aficionado, it's an essential destination.\n\nCome here to revel in the rich, earthy magic of the truffle, to experience a culinary journey that tantalizes every sense, and to leave with the intoxicating scent of luxury lingering on your palate. La Maison de la Truffe is, quite simply, a gastronomic treasure.",
+    "raw": "The problem asks for the `n`-th term of a \"special\" Fibonacci sequence. Let's break down what that means:\n\n1.  **Standard Fibonacci Sequence:**\n    The sequence `S(k)` is defined as:\n    *   `S(0) = 0`\n    *   `S(1) = 1`\n    *   `S(k) = S(k-1) + S(k-2)` for `k > 1`\n\n    Let's list the first few terms:\n    *   `S(0) = 0`\n    *   `S(1) = 1`\n    *   `S(2) = S(1) + S(0) = 1 + 0 = 1`\n    *   `S(3) = S(2) + S(1) = 1 + 1 = 2`\n    *   `S(4) = S(3) + S(2) = 2 + 1 = 3`\n    *   `S(5) = S(4) + S(3) = 3 + 2 = 5`\n    *   `S(6) = S(5) + S(4) = 5 + 3 = 8`\n    *   `S(7) = S(6) + S(5) = 8 + 5 = 13`\n    *   `S(8) = S(7) + S(6) = 13 + 8 = 21`\n    *   `S(9) = S(8) + S(7) = 21 + 13 = 34`\n    *   `S(10) = S(9) + S(8) = 34 + 21 = 55`\n    *   `S(11) = S(10) + S(9) = 55 + 34 = 89`\n    *   `S(12) = S(11) + S(10) = 89 + 55 = 144`\n\n2.  **\"Special\" Condition: Only Even Terms:**\n    We need to filter this sequence and only keep the even numbers. Then, we want the `n`-th term from *this new sequence*.\n\n    Let's list the even terms from the standard Fibonacci sequence:\n    *   `S(0) = 0` (1st even term)\n    *   `S(3) = 2` (2nd even term)\n    *   `S(6) = 8` (3rd even term)\n    *   `S(9) = 34` (4th even term)\n    *   `S(12) = 144` (5th even term)\n\n    So the \"special\" Fibonacci sequence, let's call it `E(k)`, is:\n    *   `E(1) = 0`\n    *   `E(2) = 2`\n    *   `E(3) = 8`\n    *   `E(4) = 34`\n    *   `E(5) = 144`\n\n3.  **Find a Recurrence Relation for E(k):**\n    We observe the terms: 0, 2, 8, 34, 144, ...\n    Let's try to find a relationship between consecutive terms:\n    *   `8 = 4 * 2 + 0`\n    *   `34 = 4 * 8 + 2`\n    *   `144 = 4 * 34 + 8`\n\n    It appears that the recurrence relation for the even Fibonacci numbers is `E(k) = 4 * E(k-1) + E(k-2)`.\n\n    **Mathematical Justification (Optional but good for understanding):**\n    A known property of Fibonacci numbers is that `F(k)` is even if and only if `k` is a multiple of 3. So, the sequence of even Fibonacci numbers is `F(0), F(3), F(6), F(9), ...`.\n    Let `E_m = F(3m)`. We want to find a recurrence for `E_m`.\n    The characteristic equation for the general Fibonacci sequence `F(n) = F(n-1) + F(n-2)` is `x^2 - x - 1 = 0`, with roots `phi = (1+sqrt(5))/2` and `psi = (1-sqrt(5))/2`.\n    So `F(n) = (phi^n - psi^n)/sqrt(5)`.\n    For `E_m = F(3m)`, we have:\n    `E_m = (phi^(3m) - psi^(3m))/sqrt(5)`\n    We know that `phi^3 = ((1+sqrt(5))/2)^3 = (1 + 3sqrt(5) + 3*5 + 5sqrt(5))/8 = (16 + 8sqrt(5))/8 = 2 + sqrt(5)`.\n    Similarly, `psi^3 = 2 - sqrt(5)`.\n    So, `E_m = ((2+sqrt(5))^m - (2-sqrt(5))^m)/sqrt(5)`.\n    This implies that `E_m` is a sequence generated by a linear recurrence relation whose characteristic equation has roots `(2+sqrt(5))` and `(2-sqrt(5))`.\n    The characteristic equation is `(x - (2+sqrt(5))) * (x - (2-sqrt(5))) = 0`\n    `x^2 - ((2+sqrt(5)) + (2-sqrt(5)))x + ((2+sqrt(5)) * (2-sqrt(5))) = 0`\n    `x^2 - (4)x + (4 - 5) = 0`\n    `x^2 - 4x - 1 = 0`\n    This corresponds to the recurrence relation `E_m - 4E_{m-1} - E_{m-2} = 0`, or `E_m = 4E_{m-1} + E_{m-2}`.\n\n4.  **Implementation:**\n    We can use an iterative approach to calculate the `n`-th term of this `E(k)` sequence.\n\n    *   **Base cases:**\n        *   If `n = 1`, the first even term is `0`.\n        *   If `n = 2`, the second even term is `2`.\n    *   **General case (n > 2):**\n        *   Initialize `e_prev_prev = 0` (representing `E(1)`)\n        *   Initialize `e_prev = 2` (representing `E(2)`)\n        *   Loop `n-2` times (from the 3rd term up to the `n`-th term):\n            *   Calculate `e_curr = 4 * e_prev + e_prev_prev`\n            *   Update `e_prev_prev = e_prev`\n            *   Update `e_prev = e_curr`\n        *   The final `e_curr` (or `e_prev` after the last update) will be the `n`-th term.\n\n**Example Walkthrough for n=4:**\n\n1.  `n=4`, so it's not a base case.\n2.  `e_prev_prev = 0`\n3.  `e_prev = 2`\n4.  Loop `n-2 = 2` times:\n    *   **Iteration 1 (for `k=3`):**\n        *   `e_curr = 4 * e_prev + e_prev_prev = 4 * 2 + 0 = 8`\n        *   `e_prev_prev = 2`\n        *   `e_prev = 8`\n    *   **Iteration 2 (for `k=4`):**\n        *   `e_curr = 4 * e_prev + e_prev_prev = 4 * 8 + 2 = 32 + 2 = 34`\n        *   `e_prev_prev = 8`\n        *   `e_prev = 34`\n5.  Loop finishes. Return `e_prev` which is `34`. This is correct (`E(4)`).\n\nThis approach has a time complexity of O(n) and a space complexity of O(1), making it efficient for calculating the `n`-th term.\n\n```python\nclass Solution:\n    def specialFibonacci(self, n: int) -> int:\n        # The special Fibonacci sequence consists only of the even terms\n        # of the standard Fibonacci sequence.\n        # Standard Fibonacci: S(0)=0, S(1)=1, S(2)=1, S(3)=2, S(4)=3, S(5)=5, S(6)=8, ...\n        # Even terms: 0, 2, 8, 34, 144, ...\n\n        # Let E(k) be the k-th even term.\n        # E(1) = 0\n        # E(2) = 2\n        # E(3) = 8\n        # E(4) = 34\n        # E(5) = 144\n\n        # We observe a recurrence relation for E(k):\n        # E(k) = 4 * E(k-1) + E(k-2)\n\n        # Base cases for our E(k) sequence:\n        if n == 1:\n            return 0\n        if n == 2:\n            return 2\n\n        # Initialize the previous two even terms\n        # e_prev_prev corresponds to E(k-2)\n        # e_prev corresponds to E(k-1)\n        e_prev_prev = 0  # This is E(1)\n        e_prev = 2       # This is E(2)\n\n        # Iterate from the 3rd term up to the n-th term\n        for _ in range(3, n + 1):\n            e_curr = 4 * e_prev + e_prev_prev\n            e_prev_prev = e_prev\n            e_prev = e_curr\n        \n        # After the loop, e_prev holds the n-th even term\n        return e_prev\n\n```",
     "ig_handle": "gc_jazzpicnic",
-    "last_analyzed_at": "2025-11-11T12:23:47.282402+09:00",
+    "last_analyzed_at": "2025-11-18T16:30:58.983329+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gc_jazzpicnic/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gc_jazzpicnic/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gc_jazzpicnic/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/gc_jazzpicnic/profile/2025-11-11/profile.json",
-      "maps:https://maps.google.com/?cid=195886713433759621",
-      "gemini:enrich"
+      "gemini:enrich",
+      "manual:venue_manual_information"
     ],
     "links": {
       "instagram": "https://www.instagram.com/gc_jazzpicnic",
@@ -1928,8 +1996,8 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "Paloznaki Jazzpiknik",
-        "address_text": "Sport Street 4, Paloznak, 8229 Hungary",
+        "name": "GC Jazz Picnic",
+        "address_text": null,
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
@@ -1938,21 +2006,18 @@
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Paloznaki Jazz Picnic",
-            "ko": "팔로즈나키 재즈 피크닉"
+            "en": "GC Jazz Picnic",
+            "ko": "지씨 재즈 피크닉"
           },
-          "address_text": {
-            "en": "Sport Street 4, Paloznak, 8229 Hungary",
-            "ko": "헝가리 팔로즈나크 스포르트 거리 4, 8229"
-          },
+          "address_text": null,
           "notes": null
         }
       }
     ],
     "i18n": {
       "name": {
-        "en": "Paloznaki Jazz Picnic",
-        "ko": "팔로즈나키 재즈 피크닉"
+        "en": "GC Jazz Picnic",
+        "ko": "지씨 재즈 피크닉"
       },
       "address_text": null,
       "notes": null,
@@ -1960,7 +2025,8 @@
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "explanation": "This is an annual event happening in Gwacheon, Gyeonggi-do, South Korea. If the event address is not clear, just say 'Gwacheon, Gyeonggi-do, South Korea' / 경기도 과천시."
   },
   {
     "raw": "You're looking for a robust way to identify and list \"special characters\" in a string. The definition of \"special character\" can vary, but generally, it refers to anything that isn't an uppercase letter, lowercase letter, or digit. You've provided a specific list, including whitespace.\n\nI'll provide two main approaches using Python's `re` (regular expression) module:\n\n1.  **Using your explicit list of special characters + whitespace:** This is precise if you only want *those specific* characters.\n2.  **Using a more general \"non-alphanumeric\" definition:** This is often more flexible and catches other characters that might be considered special (like `€`, `é`, etc.) while still including your list and whitespace.\n\nBoth functions will return a tuple: `(has_special_chars, list_of_found_special_chars)`.\n\n---\n\n### Method 1: Using Your Explicit List of Special Characters\n\nThis method constructs a regular expression character set `[...]` using precisely the characters you listed. It also explicitly includes whitespace (`\\s`).\n\n```python\nimport re\n\ndef find_special_chars_explicit(text):\n    \"\"\"\n    Detects and lists special characters from a predefined explicit set,\n    including whitespace.\n\n    Args:\n        text (str): The input string to check.\n\n    Returns:\n        tuple: (bool, list)\n               - True if special characters are found, False otherwise.\n               - A list of all unique special characters found.\n    \"\"\"\n    # Your explicit list of special characters, plus common whitespace (\\s)\n    # Characters like -, [, ], \\ need to be escaped or carefully placed in regex character classes.\n    # The `r` prefix makes it a raw string, useful for regex.\n    # I've explicitly included space \" \" and then all your characters.\n    # The hyphen `-` is escaped to avoid being interpreted as a range.\n    # The square brackets `[` `]` are escaped to match literally.\n    # The double quote `\"` is escaped if used inside double quotes.\n    # \\s matches any whitespace character (space, tab, newline, etc.)\n    special_char_pattern = r\"[ !@#$%^&*()_+\\-=\\[\\]{};':\\\"|,.//<>?\\s]\"\n\n    # Find all occurrences of any character matching the pattern\n    found_chars = re.findall(special_char_pattern, text)\n\n    # Convert to a set to get unique characters, then back to a list\n    unique_found_chars = sorted(list(set(found_chars)))\n\n    return bool(unique_found_chars), unique_found_chars\n\nprint(\"--- Method 1: Explicit List ---\")\nprint(f\"Test 1 ('Hello World!'): {find_special_chars_explicit('Hello World!')}\")\n# Expected: (True, [' ', '!'])\n\nprint(f\"Test 2 ('This_is-a-test.123'): {find_special_chars_explicit('This_is-a-test.123')}\")\n# Expected: (True, ['-', '.', '_'])\n\nprint(f\"Test 3 ('NoSpecialCharsHere'): {find_special_chars_explicit('NoSpecialCharsHere')}\")\n# Expected: (False, [])\n\nprint(f\"Test 4 ('Complex: [a]= {1+2}\"\"): {find_special_chars_explicit('Complex: [a]= {1+2}\"')}\")\n# Expected: (True, [' ', '\"', '+', ':', '=', '[', ']'])\n\nprint(f\"Test 5 ('With\\tTabs\\nand\\rReturns'): {find_special_chars_explicit('With\\tTabs\\nand\\rReturns')}\")\n# Expected: (True, ['\\n', '\\r', '\\t'])\n\nprint(f\"Test 6 ('Only Alphabets and Numbers'): {find_special_chars_explicit('OnlyAlphabetsandNumbers')}\")\n# Expected: (False, [])\n\nprint(f\"Test 7 ('What about an underscore?'): {find_special_chars_explicit('What about an underscore?')}\")\n# Expected: (True, [' ', '?', '_'])\n\nprint(f\"Test 8 ('A sentence with a period.'): {find_special_chars_explicit('A sentence with a period.')}\")\n# Expected: (True, [' ', '.'])\n```\n\n---\n\n### Method 2: Using a General \"Non-Alphanumeric\" Definition\n\nThis method considers any character that is *not* a letter (a-z, A-Z) or a digit (0-9) as a special character. This is often more practical as it automatically includes whitespace and other symbols you might not have explicitly thought of (like `€`, `é`, `ñ`, `£`, `—`, etc.) that are outside the basic ASCII alphanumeric set.\n\nThe regex `[^a-zA-Z0-9]` means \"match any character that is NOT (`^` inside `[]`) in the range `a-z`, `A-Z`, or `0-9`\".\n\n```python\nimport re\n\ndef find_special_chars_general(text):\n    \"\"\"\n    Detects and lists special characters defined as any character that is\n    not an English alphabet letter (a-z, A-Z) or a digit (0-9).\n\n    Args:\n        text (str): The input string to check.\n\n    Returns:\n        tuple: (bool, list)\n               - True if special characters are found, False otherwise.\n               - A list of all unique special characters found.\n    \"\"\"\n    # [^a-zA-Z0-9] matches any character that is NOT an English letter or a digit.\n    # This automatically includes whitespace, your explicit list, and many other symbols.\n    general_special_char_pattern = r\"[^a-zA-Z0-9]\"\n\n    found_chars = re.findall(general_special_char_pattern, text)\n    unique_found_chars = sorted(list(set(found_chars)))\n\n    return bool(unique_found_chars), unique_found_chars\n\nprint(\"\\n--- Method 2: General Non-Alphanumeric ---\")\nprint(f\"Test 1 ('Hello World!'): {find_special_chars_general('Hello World!')}\")\n# Expected: (True, [' ', '!'])\n\nprint(f\"Test 2 ('This_is-a-test.123'): {find_special_chars_general('This_is-a-test.123')}\")\n# Expected: (True, ['-', '.', '_'])\n\nprint(f\"Test 3 ('NoSpecialCharsHere'): {find_special_chars_general('NoSpecialCharsHere')}\")\n# Expected: (False, [])\n\nprint(f\"Test 4 ('Complex: [a]= {1+2}\"\"): {find_special_chars_general('Complex: [a]= {1+2}\"')}\")\n# Expected: (True, [' ', '\"', '+', ':', '=', '[', ']'])\n\nprint(f\"Test 5 ('With\\tTabs\\nand\\rReturns'): {find_special_chars_general('With\\tTabs\\nand\\rReturns')}\")\n# Expected: (True, ['\\n', '\\r', '\\t'])\n\nprint(f\"Test 6 ('Only Alphabets and Numbers'): {find_special_chars_general('OnlyAlphabetsandNumbers')}\")\n# Expected: (False, [])\n\nprint(f\"Test 7 ('What about an underscore?'): {find_special_chars_general('What about an underscore?')}\")\n# Expected: (True, [' ', '?', '_'])\n\nprint(f\"Test 8 ('A sentence with a period.'): {find_special_chars_general('A sentence with a period.')}\")\n# Expected: (True, [' ', '.'])\n\nprint(f\"Test 9 ('Euro sign € and umlaut ü'): {find_special_chars_general('Euro sign € and umlaut ü')}\")\n# Expected: (True, [' ', '€', 'ü'])\n# Note: Method 1 would NOT catch '€' or 'ü' unless explicitly added.\n\nprint(f\"Test 10 ('En dash – and copyright ©'): {find_special_chars_general('En dash – and copyright ©')}\")\n# Expected: (True, [' ', '–', '©'])\n```\n\n---\n\n### Which Method to Choose?\n\n*   **Choose Method 1 (`find_special_chars_explicit`)** if you have a very strict and limited definition of what constitutes a \"special character\" and you want to ignore anything else (like `é`, `€`, `—`) even if it's not alphanumeric. This pattern explicitly lists what to look for.\n*   **Choose Method 2 (`find_special_chars_general`)** if your goal is to find *anything that isn't a standard letter or number*. This is generally more robust for validation purposes, as it catches a wider range of unexpected symbols. Based on your provided list, it aligns perfectly with your requirements for the listed characters and whitespace, plus it has the added benefit of catching other non-alphanumeric symbols.\n\nI recommend **Method 2** for most general use cases, as it's simpler to write and more comprehensive.",
@@ -3001,14 +3067,18 @@
     }
   },
   {
-    "raw": "Here's how you can do that:\n\n```python\ntext = \"This service is available 247 for our customers. You can reach us 247.\"\ncorrected_text = text.replace(\"247\", \"24/7\")\n\nprint(corrected_text)\n```\n\n**Output:**\n\n```\nThis service is available 24/7 for our customers. You can reach us 24/7.\n```\n\nThe `replace()` method in Python is perfect for this task, as it finds all occurrences of the first argument and replaces them with the second.",
+    "raw": "## How-To: Clean Your Gaming Peripherals for Peak Performance & Hygiene\n\nHey Gamers! Let's face it, our battle stations take a beating. From epic clutch plays to marathon sessions, our gaming peripherals accumulate a surprising amount of gunk: skin oils, dust, crumbs, sweat, and who knows what else. Not only is this gross, but it can also negatively impact performance and shorten the lifespan of your gear.\n\nIt's time for a deep clean! This guide will walk you through safely and effectively cleaning your essential gaming peripherals.\n\n---\n\n### **Before You Start: General Precautions & What You'll Need**\n\n**General Precautions (READ THIS!):**\n\n1.  **POWER OFF & UNPLUG EVERYTHING:** This is non-negotiable. Disconnect all peripherals from your PC or console before cleaning to prevent accidental inputs, short circuits, or damage. Remove batteries from wireless devices.\n2.  **LESS IS MORE WITH LIQUIDS:** Never spray cleaners directly onto electronics. Apply liquids to a cloth first.\n3.  **AVOID HARSH CHEMICALS:** Stay away from bleach, abrasive cleaners, or anything with ammonia, as these can damage plastics, finishes, and delicate components.\n4.  **GENTLE IS KEY:** Don't scrub aggressively. If it's not coming off, try a little more patience and a slightly damp cloth.\n5.  **AIR DRY THOROUGHLY:** Ensure everything is completely dry before plugging anything back in.\n\n**What You'll Need:**\n\n*   **Microfiber Cloths:** Excellent for wiping surfaces without scratching or leaving lint.\n*   **Compressed Air (Canned Air):** For blasting dust and crumbs out of crevices.\n*   **Isopropyl Alcohol (IPA) - 70% or 90%+:** Great for sanitizing and cutting through grease/grime without leaving residue.\n*   **Cotton Swabs (Q-tips):** Perfect for small crevices and delicate areas.\n*   **Small, Soft Brush:** An old, clean toothbrush or a dedicated detailing brush.\n*   **Mild Dish Soap (e.g., Dawn):** For washing certain items like mousepads or keycaps.\n*   **Keycap Puller (Optional but Recommended for mechanical keyboards):** Makes removing keycaps much safer.\n*   **Small Prying Tool (Optional):** For stubborn grime in seams (e.g., guitar pick, plastic spudger).\n\n---\n\n### **1. The Gaming Keyboard (The Real Dirt Magnet)**\n\nThis is usually the most involved clean, but also the most satisfying!\n\n1.  **Unplug and Remove Keycaps (Mechanical Keyboards Only):**\n    *   **Take a Photo:** Snap a quick picture of your keyboard layout first – you'll thank yourself later when putting keycaps back on!\n    *   **Use a Keycap Puller:** Gently hook and lift each keycap straight up. For larger keys (spacebar, shift, enter), pull from multiple points to avoid bending stabilizers.\n    *   **Membrane/Scissor Keyboards:** Do NOT attempt to remove keycaps as they are not designed for easy removal and you risk breaking them. Proceed to step 3.\n\n2.  **Clear the Debris (Mechanical Keyboards):**\n    *   **Shake it Out:** Turn the keyboard upside down and give it a good shake over a trash can. You'll be amazed (and disgusted) by what falls out.\n    *   **Compressed Air:** Use short, controlled bursts to dislodge dust, crumbs, and hair from between the switches. Angle the nozzle to get under the switch housing.\n    *   **Brush:** Use your soft brush to sweep away any stubborn particles.\n\n3.  **Clean the Keyboard Deck (All Keyboards):**\n    *   **Wipe Down:** Dampen a microfiber cloth *lightly* with IPA and carefully wipe down the exposed keyboard deck, getting into the spaces between switches/keys.\n    *   **Cotton Swabs:** Use cotton swabs dipped in IPA for tight corners and around switch stems.\n\n4.  **Clean the Keycaps (Mechanical Keyboards):**\n    *   **Soak:** Place all removed keycaps in a bowl of warm water with a few drops of mild dish soap. Let them soak for 15-30 minutes.\n    *   **Scrub (Optional):** For extra grimy keycaps, gently scrub them with your soft brush.\n    *   **Rinse & Dry:** Rinse the keycaps thoroughly under cool water to remove all soap residue. Lay them out on a towel to air dry *completely* – this can take a few hours. Ensure there's no moisture trapped inside.\n\n5.  **Reassemble & Wipe (All Keyboards):**\n    *   **Reattach Keycaps:** Refer to your photo and carefully press each keycap back onto its switch until it clicks into place.\n    *   **Exterior Wipe:** Use a fresh microfiber cloth dampened with IPA to clean the entire exterior of the keyboard, including the frame and bottom.\n\n---\n\n### **2. The Gaming Mouse**\n\nOften overlooked, but just as prone to grime.\n\n1.  **Unplug and Disassemble (if applicable):** Disconnect your mouse. If you have an ambidextrous mouse with swappable side buttons or palm rests, remove them.\n\n2.  **Wipe Down the Body:**\n    *   Dampen a microfiber cloth *lightly* with IPA.\n    *   Wipe down the entire surface of the mouse, paying close attention to areas where your fingers and palm rest. This will remove oils and sweat.\n\n3.  **Clean Crevices & Buttons:**\n    *   **Cotton Swabs:** Dip a cotton swab in IPA and run it along the seams, between the primary click buttons, and around the scroll wheel.\n    *   **Scroll Wheel:** Use compressed air around the scroll wheel to dislodge dust and crumbs. Then, use a cotton swab with IPA to clean the rubber grip.\n\n4.  **Clean the Sensor:**\n    *   **Delicate Area!** Lightly dampen a *fresh* cotton swab with IPA.\n    *   **Gently wipe** the optical/laser sensor on the underside of the mouse. Be very careful not to scratch it. This ensures accurate tracking.\n\n5.  **Mouse Feet:**\n    *   Wipe around the edges of your mouse feet with a damp cloth to remove any accumulated grime that might cause drag.\n\n---\n\n### **3. The Gaming Headset**\n\nKeep your ears and mic hygienic!\n\n1.  **Unplug:** Disconnect your headset from all sources.\n\n2.  **Earpads:**\n    *   **Removable Earpads:** If your earpads are designed to be removed (check your manual), carefully detach them. Some fabric earpads can be hand-washed with mild soap and water, then air-dried. For leatherette/pleather, proceed to the next step.\n    *   **Non-Removable or Leatherette/Pleather:** Lightly dampen a microfiber cloth with IPA. Gently wipe down the entire surface of the earpads to remove skin oils, sweat, and earwax residue. Be careful not to saturate them.\n\n3.  **Headband:**\n    *   Wipe down the top of the headband and the underside padding with an IPA-dampened microfiber cloth.\n\n4.  **Microphone:**\n    *   If your mic has a foam cover, gently remove it and wash it separately with mild soap and water, then air dry.\n    *   Use a cotton swab with IPA to carefully clean the mic arm and around the microphone capsule itself. Avoid getting liquid *into* the mic.\n\n5.  **Cables:**\n    *   Wipe down all cables with an IPA-dampened cloth to remove grime and stickiness.\n\n---\n\n### **4. The Gaming Mousepad**\n\nEssential for smooth tracking!\n\n1.  **Fabric Mousepads:**\n    *   **Hand Wash:** Fill a sink or tub with lukewarm water and a few drops of mild dish soap.\n    *   **Submerge:** Place your mousepad in the water and gently agitate it.\n    *   **Scrub:** Use your hands or a soft brush (like a sponge or old toothbrush) to gently scrub the surface, focusing on grimy areas.\n    *   **Rinse:** Rinse thoroughly under cool running water until all soap is gone.\n    *   **Air Dry:** Lay flat on a clean towel or hang to air dry completely. This can take 12-24 hours. **Do NOT put in a washing machine or dryer unless explicitly stated by the manufacturer.**\n\n2.  **Hard Surface Mousepads:**\n    *   Simply wipe down the entire surface with an IPA-dampened microfiber cloth.\n\n---\n\n### **5. The Gaming Controller**\n\nSticky buttons and greasy grips no more!\n\n1.  **Power Off & Remove Batteries:** Disconnect the controller and remove any battery packs or batteries.\n\n2.  **Wipe Down the Body:**\n    *   Dampen a microfiber cloth *lightly* with IPA.\n    *   Wipe down the entire controller, focusing on the grips, thumbsticks, and main face.\n\n3.  **Clean Crevices & Buttons:**\n    *   **Cotton Swabs:** Dip a cotton swab in IPA and carefully clean around the edges of all buttons, triggers, d-pad, and thumbsticks. Get into the seams of the controller shell.\n    *   **Sticky Buttons:** For sticky buttons, gently press and release them repeatedly while cleaning around their edges with an IPA-dampened cotton swab. This can help dislodge gunk.\n\n4.  **Thumbsticks:**\n    *   Wipe down the tops and sides of the thumbsticks. You can gently push the thumbstick to one side to expose more of the base for cleaning with a cotton swab.\n\n---\n\n### **Routine Maintenance for a Cleaner Setup**\n\n*   **Weekly Quick Wipes:** Keep a microfiber cloth handy and give your mouse and keyboard a quick wipe down after a few gaming sessions.\n*   **Dust Regularly:** Use compressed air to blast dust out of your keyboard and PC fans regularly.\n*   **Wash Your Hands:** A simple step that makes a huge difference in how much grime transfers to your peripherals.\n*   **No Food or Drinks at the Desk:** The number one cause of sticky keys and crumbs.\n\n---\n\nBy following these steps, your gaming peripherals will not only look better but will also perform better, feel more responsive, and last longer. Happy gaming!",
     "ig_handle": "jrja_roy",
-    "last_analyzed_at": "2025-11-11T12:18:27.514160+09:00",
+    "last_analyzed_at": "2025-11-18T16:23:33.807566+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jrja_roy/profile/2025-11-11/profile.json",
       "maps:https://maps.google.com/?cid=16113452973903227162",
       "maps:https://maps.google.com/?cid=16110422360233387664",
@@ -3025,9 +3095,6 @@
       "phone": null,
       "email": null
     },
-    "websites": [
-      "https://m.blog.naver.com/roy_jazz_art_hall?proxyReferer=https%253A%252F%252Fm.place.naver.com%252Fplace%252F1396699431%252Fhome%253Fentry%253Dpll%2526view%253Dblog_blog_e704d02780a2eb77720bf703f86c57cb_419114969&tab=1&trackingCode=naver_place"
-    ],
     "locations": [
       {
         "location_id": "main",
@@ -3042,7 +3109,7 @@
         "i18n": {
           "name": {
             "en": "Roy Jazz Art Hall",
-            "ko": "로이 재즈 아트 홀"
+            "ko": "로이 재즈 아트홀"
           },
           "address_text": null,
           "notes": null
@@ -3052,7 +3119,7 @@
     "i18n": {
       "name": {
         "en": "Roy Jazz Art Hall",
-        "ko": "로이 재즈 아트 홀"
+        "ko": "로이 재즈 아트홀"
       },
       "address_text": null,
       "notes": null,
@@ -3448,35 +3515,46 @@
     }
   },
   {
-    "raw": "It's interesting that you describe this as a \"special case\" of Fibonacci, as the sequence you've provided:\n*   `f(0) = 0`\n*   `f(1) = 1`\n*   `f(2) = 1` (`0 + 1`)\n*   `f(3) = 2` (`1 + 1`)\n*   `f(4) = 3` (`1 + 2`)\n*   `f(5) = 5` (`2 + 3`)\n\n...is precisely the standard definition of the Fibonacci sequence, where `F(n) = F(n-1) + F(n-2)` with base cases `F(0)=0` and `F(1)=1`.\n\nPerhaps the \"special\" aspect you're referring to is the implementation itself, aiming for an efficient way to calculate it. A common and efficient way to calculate Fibonacci numbers is using an iterative approach, which has `O(n)` time complexity and `O(1)` space complexity.\n\nHere's a Python function for this:\n\n```python\ndef fib_special(n: int) -> int:\n    \"\"\"\n    Calculates the nth Fibonacci number for the given 'special' case.\n    This sequence follows the standard Fibonacci definition:\n    f(0) = 0\n    f(1) = 1\n    f(n) = f(n-1) + f(n-2) for n > 1\n\n    Args:\n        n: The non-negative integer index for the Fibonacci number.\n\n    Returns:\n        The nth Fibonacci number.\n\n    Raises:\n        ValueError: If n is a negative integer.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input 'n' must be a non-negative integer.\")\n    elif n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        # Initialize with f(0) and f(1)\n        a, b = 0, 1\n        # Iterate from the 2nd number up to the nth number\n        # Each iteration calculates the next Fibonacci number\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b\n\n# --- Test Cases ---\nprint(f\"fib_special(0) = {fib_special(0)}\")   # Expected: 0\nprint(f\"fib_special(1) = {fib_special(1)}\")   # Expected: 1\nprint(f\"fib_special(2) = {fib_special(2)}\")   # Expected: 1\nprint(f\"fib_special(3) = {fib_special(3)}\")   # Expected: 2\nprint(f\"fib_special(4) = {fib_special(4)}\")   # Expected: 3\nprint(f\"fib_special(5) = {fib_special(5)}\")   # Expected: 5\nprint(f\"fib_special(6) = {fib_special(6)}\")   # Expected: 8\nprint(f\"fib_special(10) = {fib_special(10)}\") # Expected: 55\nprint(f\"fib_special(20) = {fib_special(20)}\") # Expected: 6765\n\ntry:\n    print(f\"fib_special(-1) = {fib_special(-1)}\")\nexcept ValueError as e:\n    print(f\"Error for negative input: {e}\")\n```\n\n**Explanation of the \"Special\" (Iterative) Approach:**\n\n1.  **Base Cases:**\n    *   If `n` is 0, the function immediately returns 0.\n    *   If `n` is 1, the function immediately returns 1.\n    *   These handle the starting points of the sequence.\n\n2.  **Initialization:**\n    *   `a, b = 0, 1` sets up two variables to hold the two most recent Fibonacci numbers. Initially, `a` holds `F(0)` and `b` holds `F(1)`.\n\n3.  **Iteration:**\n    *   The `for _ in range(2, n + 1):` loop starts from index 2 (since `F(0)` and `F(1)` are already known) and goes up to `n`.\n    *   Inside the loop, `a, b = b, a + b` is the core of the calculation:\n        *   The new `a` becomes the old `b` (shifting the sequence forward).\n        *   The new `b` becomes the sum of the old `a` and old `b` (calculating the next Fibonacci number).\n    *   This effectively updates `a` to `F(i-1)` and `b` to `F(i)` in each step, until `b` holds `F(n)`.\n\n4.  **Return Value:**\n    *   After the loop completes, `b` will contain the `nth` Fibonacci number, which is then returned.\n\nThis iterative method is generally preferred over naive recursion for Fibonacci sequences because it avoids recalculating values multiple times, making it much more efficient for larger `n`.",
+    "raw": "The problem asks us to count \"special palindromic substrings\". A substring is special if:\n1. All characters in the substring are the same (e.g., \"aaa\").\n2. All characters except the middle one are the same (e.g., \"aba\", \"aadaa\"). This implies an odd length.\n\nLet's break down the problem and devise an efficient strategy.\n\n**Understanding the two types of special palindromes:**\n\n*   **Type 1: All characters are the same.**\n    *   Examples: \"a\", \"aa\", \"aaa\", \"b\", \"bbb\".\n    *   If we have a run of `k` identical characters (e.g., \"aaaaa\" with `k=5`), it forms `k` substrings of length 1, `k-1` substrings of length 2, ..., `1` substring of length `k`.\n    *   The total count for such a run is `1 + 2 + ... + k = k * (k + 1) / 2`.\n\n*   **Type 2: All characters except the middle one are the same.**\n    *   Examples: \"aba\", \"aadaa\", \"xyx\" (where `x` is any character and `y` is a different character).\n    *   Crucially, the \"all characters except middle one\" means it's like `X...XYX...X` where all `X`s are the same character, and `Y` is a single different character.\n    *   Example: \"aaabaaa\". Here, `X='a'` and `Y='b'`.\n    *   \"aaaaaa\" is Type 1, not Type 2 (though it fits the \"all except middle are same\" if middle is `a`, but it's already covered by Type 1, and the problem generally implies the middle character being *different* from the surrounding ones for Type 2). The formal definition usually means the outer characters must be identical and the inner character (if any) must be unique. Based on examples, \"aaa\" is covered by Type 1. \"aba\" is Type 2.\n\n**Strategy: Grouping Consecutive Identical Characters**\n\nA very efficient way to solve this type of problem is to first group consecutive identical characters.\n\nLet's represent the string `s` as a sequence of `(character, count)` pairs.\nFor example, `s = \"aaabbbaaaac\"` would be grouped as `[('a', 3), ('b', 3), ('a', 4), ('c', 1)]`.\n\nNow, we can count the two types of palindromes:\n\n1.  **Count Type 1 Palindromes:**\n    *   Iterate through each group `(char, count)` in our `groups` list.\n    *   For each group, add `count * (count + 1) / 2` to the total.\n    *   Example \"aaabbbaaaac\":\n        *   `('a', 3)` contributes `3 * 4 / 2 = 6` (\"a\", \"a\", \"a\", \"aa\", \"aa\", \"aaa\")\n        *   `('b', 3)` contributes `3 * 4 / 2 = 6`\n        *   `('a', 4)` contributes `4 * 5 / 2 = 10`\n        *   `('c', 1)` contributes `1 * 2 / 2 = 1`\n        *   Total so far = `6 + 6 + 10 + 1 = 23`.\n\n2.  **Count Type 2 Palindromes:**\n    *   These palindromes are formed around a single distinct middle character. They look like `X...XYX...X`.\n    *   This means we need to consider three consecutive groups: `groups[i-1]`, `groups[i]`, and `groups[i+1]`.\n    *   Let:\n        *   `left_group = groups[i-1]` (e.g., `('a', 3)`)\n        *   `middle_group = groups[i]` (e.g., `('b', 1)`)\n        *   `right_group = groups[i+1]` (e.g., `('a', 4)`)\n    *   For `middle_group` to be the center `Y` of a Type 2 palindrome, two conditions must be met:\n        1.  The character of `left_group` must be the same as the character of `right_group` (i.e., `left_group.char == right_group.char`). This forms the `X`s.\n        2.  The `count` of `middle_group` must be `1` (i.e., `middle_group.count == 1`). This ensures it's a single `Y` character.\n    *   If both conditions are met, how many such palindromes can be formed?\n        *   The number of palindromes is limited by the shorter of the `left_count` and `right_count`. So, we add `min(left_group.count, right_group.count)` to the total.\n    *   Example \"aaabaaaac\" from `[('a', 3), ('b', 3), ('a', 4), ('c', 1)]`:\n        *   Look at `i=0, i=1, i=2`: `('a', 3)`, `('b', 3)`, `('a', 4)`.\n            *   `left_char='a'`, `right_char='a'` (match!)\n            *   `middle_count=3` (NOT 1, so no Type 2 palindrome centered here for `b` of length 3). If `middle_count` was 1, say `('b', 1)`, then we would add `min(3, 4) = 3`.\n        *   No other valid `(i-1, i, i+1)` triplets in this example that fulfill the Type 2 condition.\n\n**Algorithm Steps:**\n\n1.  **Initialize `total_special_palindromes = 0`**.\n2.  **Generate `groups`**: Iterate through the input string `s`. When the character changes or the string ends, store the `(current_char, count)` in the `groups` list.\n3.  **Count Type 1 palindromes**: Iterate through the `groups` list. For each `(char, count)` pair, add `count * (count + 1) // 2` to `total_special_palindromes`.\n4.  **Count Type 2 palindromes**: Iterate `i` from `1` to `len(groups) - 2` (to access `groups[i-1]`, `groups[i]`, `groups[i+1]`).\n    *   Get `left_char, left_count = groups[i-1]`.\n    *   Get `middle_char, middle_count = groups[i]`.\n    *   Get `right_char, right_count = groups[i+1]`.\n    *   If `left_char == right_char` AND `middle_count == 1`:\n        *   Add `min(left_count, right_count)` to `total_special_palindromes`.\n5.  **Return `total_special_palindromes`**.\n\n**Example Walkthrough: `s = \"aadaa\"`**\n\n1.  `total_special_palindromes = 0`\n\n2.  **Generate `groups`**:\n    *   `'a'` (count 1)\n    *   `'a'` (count 2)\n    *   Change to `'d'`: `groups.append(('a', 2))`\n    *   `'d'` (count 1)\n    *   Change to `'a'`: `groups.append(('d', 1))`\n    *   `'a'` (count 1)\n    *   `'a'` (count 2)\n    *   End of string: `groups.append(('a', 2))`\n    *   `groups = [('a', 2), ('d', 1), ('a', 2)]`\n\n3.  **Count Type 1 palindromes**:\n    *   `('a', 2)`: `2 * 3 // 2 = 3`\n    *   `('d', 1)`: `1 * 2 // 2 = 1`\n    *   `('a', 2)`: `2 * 3 // 2 = 3`\n    *   `total_special_palindromes = 3 + 1 + 3 = 7`\n    *   (These are: \"a\", \"a\", \"d\", \"a\", \"a\", \"aa\", \"aa\")\n\n4.  **Count Type 2 palindromes**:\n    *   Iterate `i` from `1` to `len(groups) - 2` (`1` to `3-2=1`). Only `i=1`.\n    *   `left_group = groups[0] = ('a', 2)`\n    *   `middle_group = groups[1] = ('d', 1)`\n    *   `right_group = groups[2] = ('a', 2)`\n    *   Check conditions:\n        *   `left_char ('a') == right_char ('a')`? Yes.\n        *   `middle_count (1) == 1`? Yes.\n    *   Add `min(left_count, right_count) = min(2, 2) = 2` to total.\n    *   `total_special_palindromes = 7 + 2 = 9`\n    *   (These are: \"ada\", \"aadaa\")\n\n5.  **Return `9`**.\n\nThis approach is efficient because it processes the string in a single pass to create groups (O(N)), then iterates through the groups once for Type 1 (O(N) in worst case, if all chars are unique), and once for Type 2 (O(N) in worst case). Overall time complexity is O(N).\n\n```python\nimport math\n\ndef substrCount(n, s):\n    # Step 1: Initialize total count\n    total_special_palindromes = 0\n\n    # Step 2: Create groups of consecutive identical characters\n    # Each group is (character, count)\n    groups = []\n    \n    # Handle the case of an empty string\n    if not s:\n        return 0\n\n    current_char = s[0]\n    current_count = 1\n\n    for i in range(1, n):\n        if s[i] == current_char:\n            current_count += 1\n        else:\n            groups.append((current_char, current_count))\n            current_char = s[i]\n            current_count = 1\n    \n    # Append the last group after the loop finishes\n    groups.append((current_char, current_count))\n\n    # Step 3: Count special palindromes of Type 1 (all characters are the same)\n    # For a group (char, count), it forms count * (count + 1) / 2 such palindromes.\n    # E.g., \"aaa\" -> 3 ('a') + 2 ('aa') + 1 ('aaa') = 6\n    for _, count in groups:\n        total_special_palindromes += count * (count + 1) // 2\n\n    # Step 4: Count special palindromes of Type 2 (X...XYX...X)\n    # We need to look at three consecutive groups: groups[i-1], groups[i], groups[i+1]\n    # Condition: groups[i-1].char == groups[i+1].char AND groups[i].count == 1\n    # If these conditions are met, add min(groups[i-1].count, groups[i+1].count)\n    for i in range(1, len(groups) - 1):\n        left_char, left_count = groups[i-1]\n        middle_char, middle_count = groups[i]\n        right_char, right_count = groups[i+1]\n\n        if left_char == right_char and middle_count == 1:\n            total_special_palindromes += min(left_count, right_count)\n\n    return total_special_palindromes\n\n```",
     "ig_handle": "milestones_jazz",
-    "last_analyzed_at": "2025-11-11T12:22:09.253370+09:00",
+    "last_analyzed_at": "2025-11-18T16:29:16.995792+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-11/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-18/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/milestones_jazz/profile/2025-11-12/profile.json",
+      "maps:https://maps.google.com/?cid=1629884300631888791",
+      "maps:https://maps.google.com/?cid=14714176468931161517",
+      "maps:https://maps.google.com/?cid=2190136828111905418",
+      "maps:https://maps.google.com/?cid=12958000001331928624",
+      "maps:https://maps.google.com/?cid=12961168892280702927",
+      "maps:https://maps.google.com/?cid=3512824848346026630",
+      "maps:https://maps.google.com/?cid=9176070558265640633",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/milestones_jazz",
-      "homepage": "https://milestonesjazz.modoo.at",
+      "homepage": null,
       "booking": "https://m.place.naver.com/restaurant/1096771778/booking?entry=pll",
       "google_map": null
     },
     "contacts": {
-      "phone": "0507-1339-0125",
+      "phone": null,
       "email": null
     },
-    "websites": [
-      "https://milestonesjazz.modoo.at"
+    "genres": [
+      "Jazz"
     ],
     "locations": [
       {
         "location_id": "main",
         "name": "Milestones Jazz",
-        "address_text": "B1, 10-1 Jahamun-ro 5-gil, Jongno-gu, Seoul, South Korea",
+        "address_text": null,
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
@@ -3488,10 +3566,7 @@
             "en": "Milestones Jazz",
             "ko": "마일스톤즈 재즈"
           },
-          "address_text": {
-            "en": "B1, 10-1 Jahamun-ro 5-gil, Jongno-gu, Seoul, South Korea",
-            "ko": "서울 종로구 자하문로5길 10-1 지하1층"
-          },
+          "address_text": null,
           "notes": null
         }
       }
@@ -3503,7 +3578,14 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -3717,79 +3799,33 @@
     }
   },
   {
-    "raw": "To process the string according to your specific rule, I will follow these steps:\n\n1.  **Identify Unique Characters:** I'll first create a set of all unique characters present in the input string. A set automatically handles uniqueness, so duplicates are ignored.\n2.  **Check for \"skip\" Substring:** I'll then check if the string contains the exact substring \"skip\" (case-sensitive).\n3.  **Apply Exclusion Rule (if necessary):** If \"skip\" is found in the string, I will remove the character 's' (lowercase) from my set of unique characters. I'll use `set.discard('s')` which safely removes 's' if it's present, and does nothing if 's' is not in the set, avoiding errors.\n4.  **Count and Return:** Finally, I'll count the number of characters remaining in the set and provide that as the result.\n\nLet's process the string you provide. Please provide the string now.",
+    "raw": "To solve this problem, we need to count the number of ways to form a \"special string\" `T` of the same length as `S`, adhering to the given rules.\n\nLet `N` be the length of the string `S`. We need to determine the number of choices for each character `T[i]` based on `S[i]`.\n\nFor each position `i` from `0` to `N-1`:\n1.  **If `S[i]` is a lowercase English letter (e.g., 'a', 'b', ..., 'z'):**\n    Then `T[i]` *must* be that specific letter. There is only **1** choice for `T[i]`.\n2.  **If `S[i]` is `'?'`:**\n    Then `T[i]` can be any lowercase English letter. There are **26** choices ('a' through 'z') for `T[i]`.\n\nSince the choice for each position is independent of the choices for other positions, the total number of special strings is the product of the number of choices for each position.\n\nWe also need to perform calculations modulo `10^9 + 7` to prevent integer overflow, as the number of special strings can be very large.\n\n**Algorithm:**\n\n1.  Initialize a variable `total_ways` to `1`. This will store the cumulative product of choices.\n2.  Define the modulo constant `MOD = 10^9 + 7`.\n3.  Iterate through each character `char` in the input string `S`.\n4.  For each `char`:\n    *   If `char` is `'?'`, multiply `total_ways` by `26`.\n    *   If `char` is a lowercase letter, multiply `total_ways` by `1` (this step doesn't change `total_ways`, so it can be implicitly handled by just not multiplying if it's a letter).\n    *   After each multiplication, take the result modulo `MOD`: `total_ways = (total_ways * factor) % MOD`.\n5.  After iterating through all characters, `total_ways` will hold the final count of special strings.\n\n**Example:**\n\nLet `S = \"a?c\"`\n\n1.  `total_ways = 1`\n2.  `MOD = 10^9 + 7`\n\n*   **For `char = 'a'` (S[0]):** It's a letter.\n    `total_ways = (1 * 1) % MOD = 1`\n*   **For `char = '?'` (S[1]):** It's a question mark.\n    `total_ways = (1 * 26) % MOD = 26`\n*   **For `char = 'c'` (S[2]):** It's a letter.\n    `total_ways = (26 * 1) % MOD = 26`\n\nThe final `total_ways` is 26.\n\n**Python Implementation:**\n\n```python\ndef count_special_strings(S: str) -> int:\n    \"\"\"\n    Calculates the number of special strings T of length N (len(S))\n    such that S[i] = T[i] or S[i] = '?'.\n\n    Args:\n        S: The input string containing lowercase English letters or '?'.\n\n    Returns:\n        The total number of special strings, modulo 10^9 + 7.\n    \"\"\"\n    \n    MOD = 10**9 + 7\n    total_ways = 1\n\n    for char in S:\n        if char == '?':\n            # If it's a '?', there are 26 possible lowercase letters.\n            total_ways = (total_ways * 26) % MOD\n        else:\n            # If it's a specific letter, there's only 1 choice for T[i].\n            # Multiplying by 1 doesn't change total_ways, so this else block\n            # is technically optional but included for clarity.\n            total_ways = (total_ways * 1) % MOD \n            # Alternatively, if char is a letter, total_ways just remains the same.\n            # No operation needed: pass \n            \n    return total_ways\n\n# --- Test Cases ---\nprint(f\"'a?c' -> {count_special_strings('a?c')}\") # Expected: 26\nprint(f\"'???' -> {count_special_strings('???')}\") # Expected: 26*26*26 = 17576\nprint(f\"'abc' -> {count_special_strings('abc')}\") # Expected: 1\nprint(f\"'' -> {count_special_strings('')}\")       # Expected: 1 (empty string has one way to be formed)\nprint(f\"'a' -> {count_special_strings('a')}\")     # Expected: 1\nprint(f\"'?' -> {count_special_strings('?')}\")     # Expected: 26\nprint(f\"'??????????' -> {count_special_strings('??????????')}\") # 26^10 mod (10^9+7)\n# For '??????????', 26^10 = 141372395175949662059632896\n# 26^10 % (10^9 + 7) = 163773180\n```",
     "ig_handle": "ninejazz_chungdam",
-    "last_analyzed_at": "2025-11-11T12:17:55.269249+09:00",
+    "last_analyzed_at": "2025-11-18T16:22:39.094568+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ninejazz_chungdam/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ninejazz_chungdam/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ninejazz_chungdam/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ninejazz_chungdam/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/ninejazz_chungdam/profile/2025-11-11/profile.json",
       "maps:https://maps.google.com/?cid=714310057948599705",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/ninejazz_chungdam",
-      "homepage": null,
       "booking": "https://catchtable.co.kr/ninejazz",
-      "google_map": "https://maps.google.com/?cid=714310057948599705"
+      "google_map": "https://maps.google.com/?cid=714310057948599705",
+      "naver_map": "https://naver.me/Fuz5xJxI"
     },
     "contacts": {
-      "phone": "02-2002-9800",
-      "email": null
+      "email": null,
+      "phone": null
     },
-    "subway_nearby": "Near Samseong Jungang Station (Line 9)",
-    "websites": [],
-    "genres": [
-      "Live Music"
-    ],
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "Chungdam Nine",
-        "address_text": "B2, 634 Samseong-ro, Gangnam District, Seoul, South Korea",
-        "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": null,
-        "booking_link": null,
-        "notes": null,
-        "i18n": {
-          "name": {
-            "en": "Chungdam Nine",
-            "ko": "청담 나인"
-          },
-          "address_text": {
-            "en": "B2, 634 Samseong-ro, Gangnam District, Seoul, South Korea",
-            "ko": "서울 강남구 삼성로 634 지하2층"
-          },
-          "notes": null
-        }
-      }
-    ],
-    "i18n": {
-      "name": {
-        "en": "Chungdam Nine",
-        "ko": "청담 나인"
-      },
-      "address_text": null,
-      "notes": null,
-      "genres": {
-        "en": [
-          "Live Music"
-        ],
-        "ko": [
-          "라이브 공연"
-        ]
-      },
-      "subway_nearby": {
-        "en": "Near Samseong Jungang Station (Line 9)",
-        "ko": "삼성중앙역 (9호선) 인근"
-      },
-      "food_policy": null,
-      "age_limit": null
-    }
+    "naver_subway_nearby": "7호선 청담역 6번 출구에서 237m"
   },
   {
     "raw": "Okay, this is fun! For a game called \"Special Instruction,\" the \"Special Instruction\" itself must be... special.\n\nHere's your first \"Special Instruction\":\n\n---\n\n**SPECIAL INSTRUCTION:**\n\nFor the game \"Special Instruction,\" your task is never to simply follow the explicit text of the instruction given.\n\nInstead, the \"Special Instruction\" is always the *meta-instruction*—the implicit rule, condition, or understanding that governs *how* the explicit instruction itself should be interpreted or acted upon, given the context of a game named \"Special Instruction.\"\n\nTherefore, for *this specific turn*, your Special Instruction is to identify the *nature* of the instruction itself. What is the fundamental, inherent quality or self-referential paradox that any instruction *must* possess in a game called 'Special Instruction' to truly be 'special'? You must state *that* quality.\n\n---\n\n**What the player needs to do:** The player must articulate *what makes an instruction \"special\"* in the context of a game named \"Special Instruction,\" not just follow a command.\n\n**Example of a potential (correct) answer:** \"The Special Instruction for the game 'Special Instruction' must be self-referential, commenting on its own nature as an instruction, or requiring an action related to the act of instructing itself.\"\n\nLet me know if you want another!",
@@ -3963,14 +3999,18 @@
     }
   },
   {
-    "raw": "Yes, I understand the instructions.\n\nYes. Antarctica is a continent, not a country, and therefore does not have a capital city. It is governed by the Antarctic Treaty System, which designates it as a scientific preserve.",
+    "raw": "The problem asks us to find the \"special sum\" of a non-negative integer `n`. The definition is recursive:\n1.  If `n` is a single-digit number (`n < 10`), its special sum is `n` itself.\n2.  If `n` is a multi-digit number (`n >= 10`), its special sum is the special sum of the sum of its digits.\n\nThis process continues until we reach a single-digit number. This concept is also known as the [digital root](https://en.wikipedia.org/wiki/Digital_root).\n\nLet's break down how to implement this.\n\n### Method 1: Iterative Approach\n\nThis method directly translates the problem description into code using loops.\n\n1.  Start with the given number `n`.\n2.  While `n` has more than one digit (i.e., `n >= 10`):\n    a.  Calculate the sum of its digits.\n    b.  Update `n` to this new sum.\n3.  Once `n` becomes a single-digit number (i.e., `n < 10`), return `n`.\n\n**How to calculate the sum of digits:**\nYou can do this using a nested loop:\n*   Initialize a `current_sum_of_digits` to 0.\n*   Take the number and repeatedly:\n    *   Add its last digit (`number % 10`) to `current_sum_of_digits`.\n    *   Remove its last digit (`number //= 10`).\n*   Continue until the number becomes 0.\n\n**Example Walkthrough: `special_sum(12345)`**\n\n1.  `n = 12345`. `n >= 10` is true.\n    *   Calculate sum of digits for `12345`:\n        *   `current_sum = 0`\n        *   `12345 % 10 = 5`. `current_sum = 5`. `12345 //= 10` -> `1234`.\n        *   `1234 % 10 = 4`. `current_sum = 5 + 4 = 9`. `1234 //= 10` -> `123`.\n        *   `123 % 10 = 3`. `current_sum = 9 + 3 = 12`. `123 //= 10` -> `12`.\n        *   `12 % 10 = 2`. `current_sum = 12 + 2 = 14`. `12 //= 10` -> `1`.\n        *   `1 % 10 = 1`. `current_sum = 14 + 1 = 15`. `1 //= 10` -> `0`.\n        *   Loop ends. `current_sum_of_digits = 15`.\n    *   Update `n = 15`.\n2.  `n = 15`. `n >= 10` is true.\n    *   Calculate sum of digits for `15`:\n        *   `current_sum = 0`\n        *   `15 % 10 = 5`. `current_sum = 5`. `15 //= 10` -> `1`.\n        *   `1 % 10 = 1`. `current_sum = 5 + 1 = 6`. `1 //= 10` -> `0`.\n        *   Loop ends. `current_sum_of_digits = 6`.\n    *   Update `n = 6`.\n3.  `n = 6`. `n >= 10` is false.\n    *   Outer loop ends.\n4.  Return `n` which is `6`.\n\n```python\ndef special_sum_iterative(n: int) -> int:\n    \"\"\"\n    Calculates the special sum of a non-negative integer using an iterative approach.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n\n    # Continue the process as long as n is a multi-digit number\n    while n >= 10:\n        current_sum_of_digits = 0\n        temp_n = n  # Use a temporary variable to extract digits without altering n mid-calculation\n\n        # Calculate the sum of digits for the current number\n        while temp_n > 0:\n            current_sum_of_digits += temp_n % 10  # Add the last digit\n            temp_n //= 10  # Remove the last digit\n\n        # Update n to be this new sum, for the next iteration of the outer loop\n        n = current_sum_of_digits\n\n    # When the loop finishes, n will be a single-digit number (0-9)\n    return n\n\n# Test cases\nprint(f\"special_sum_iterative(0) = {special_sum_iterative(0)}\")      # Expected: 0\nprint(f\"special_sum_iterative(5) = {special_sum_iterative(5)}\")      # Expected: 5\nprint(f\"special_sum_iterative(10) = {special_sum_iterative(10)}\")    # Expected: 1\nprint(f\"special_sum_iterative(19) = {special_sum_iterative(19)}\")    # Expected: 1 (1+9=10, 1+0=1)\nprint(f\"special_sum_iterative(99) = {special_sum_iterative(99)}\")    # Expected: 9 (9+9=18, 1+8=9)\nprint(f\"special_sum_iterative(12345) = {special_sum_iterative(12345)}\") # Expected: 6 (1+2+3+4+5=15, 1+5=6)\nprint(f\"special_sum_iterative(9876543210) = {special_sum_iterative(9876543210)}\") # Expected: 9 (sum=45, 4+5=9)\n```\n\n### Method 2: Mathematical Property (Digital Root Formula)\n\nThere's a well-known mathematical shortcut for finding the digital root (which is what this problem describes).\n\nFor any positive integer `n`, its digital root can be calculated as:\n*   If `n = 0`, the digital root is `0`.\n*   If `n > 0`, the digital root is `(n - 1) % 9 + 1`.\n\n**Why this works:**\nThe sum of digits of a number `n` is congruent to `n` modulo 9. This means `n % 9` will be the same as `(sum_of_digits(n)) % 9`. The only exception is when `n` is a multiple of 9 (and not 0), in which case `n % 9` is 0, but the digital root is 9. The formula `(n - 1) % 9 + 1` correctly handles this:\n*   If `n` is a multiple of 9 (e.g., 9, 18, 27...), then `n - 1` will be one less than a multiple of 9. `(n - 1) % 9` will be 8. Adding 1 gives 9.\n*   If `n` is not a multiple of 9, then `n - 1` will have the same remainder as `n` when divided by 9, minus 1 (unless `n % 9` was 0, which is handled). For example, `n=10`, `(10-1)%9+1 = 9%9+1 = 0+1=1`. `n=5`, `(5-1)%9+1 = 4%9+1 = 4+1=5`.\n\nThis method is significantly more efficient as it performs a constant number of arithmetic operations, regardless of the size of `n` (as long as `n` fits into the integer type).\n\n```python\ndef special_sum_math(n: int) -> int:\n    \"\"\"\n    Calculates the special sum (digital root) of a non-negative integer using a mathematical formula.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n    if n == 0:\n        return 0\n    return (n - 1) % 9 + 1\n\n# Test cases\nprint(f\"special_sum_math(0) = {special_sum_math(0)}\")      # Expected: 0\nprint(f\"special_sum_math(5) = {special_sum_math(5)}\")      # Expected: 5\nprint(f\"special_sum_math(10) = {special_sum_math(10)}\")    # Expected: 1\nprint(f\"special_sum_math(19) = {special_sum_math(19)}\")    # Expected: 1\nprint(f\"special_sum_math(99) = {special_sum_math(99)}\")    # Expected: 9\nprint(f\"special_sum_math(12345) = {special_sum_math(12345)}\") # Expected: 6\nprint(f\"special_sum_math(9876543210) = {special_sum_math(9876543210)}\") # Expected: 9\n```\n\n### Conclusion\n\nBoth methods correctly solve the problem.\n*   The **iterative approach** (`special_sum_iterative`) is a direct implementation of the problem description and is easy to understand without prior mathematical knowledge of digital roots.\n*   The **mathematical approach** (`special_sum_math`) is much more efficient, especially for very large numbers, as it computes the result in constant time (O(1)) using modular arithmetic.\n\nFor most programming challenges, the mathematical approach is preferred for its efficiency if you're aware of the property. If the goal is to demonstrate understanding of iterative digit processing, the first method is excellent.",
     "ig_handle": "orient_express_wine_",
-    "last_analyzed_at": "2025-11-11T12:21:17.111460+09:00",
+    "last_analyzed_at": "2025-11-18T16:27:55.710094+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/orient_express_wine_/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/orient_express_wine_/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/orient_express_wine_/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/orient_express_wine_/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/orient_express_wine_/profile/2025-11-11/profile.json",
       "maps:https://maps.google.com/?cid=5540853786533473181",
       "gemini:enrich"
@@ -3986,6 +4026,7 @@
       "phone": null,
       "email": null
     },
+    "websites": [],
     "locations": [
       {
         "location_id": "main",
@@ -3994,8 +4035,8 @@
         "address_components": null,
         "location_lat": 37.549194547571,
         "location_lon": 126.938342649817,
-        "subway_nearby": null,
-        "booking_link": "https://app.catchtable.co.kr/ct/shop/orientexpresswine",
+        "subway_nearby": "6호선 대흥역 4번 출구에서 312m",
+        "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
@@ -4020,29 +4061,34 @@
       "genres": {
         "en": [
           "Wine Bar",
-          "Bar"
+          "Jazz"
         ],
         "ko": [
           "와인바",
-          "바"
+          "재즈"
         ]
       },
-      "subway_nearby": null,
+      "subway_nearby": {
+        "en": "312m from Daeheung Station Exit 4, Line 6",
+        "ko": "6호선 대흥역 4번 출구에서 312m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "6호선 대흥역 4번 출구에서 312m"
+    }
   },
   {
-    "raw": "<thought>\nMy thinking process for this specific instruction:\n\n1.  **Understand the \"SPECIAL INSTRUCTION\":** The core directive is \"think silently if needed\". For *this particular prompt*, the *entire task* is to demonstrate this silent thinking. Therefore, it's not \"if needed,\" but rather \"as the primary task\" to showcase.\n\n2.  **Determine the Goal:** To explicitly show my internal process of understanding and responding to *this very instruction*, in a structured way, using the specified format.\n\n3.  **Identify the Format:** The instruction implicitly suggests a distinct block for thought. The common convention is to use `<thought>` and `</thought>` tags.\n\n4.  **Plan the \"Thought\" Content:**\n    *   Start by acknowledging the instruction itself.\n    *   Explain *why* I am showing this thought process (to fulfill the instruction).\n    *   Briefly outline what my \"normal\" process would be (understand the request, plan the response, execute, review).\n    *   Since there's no external problem provided, I will use the task of *responding to this very prompt* as the subject of my internal thought.\n    *   What is the ultimate, non-thought-block response? A simple confirmation that I've understood and will comply.\n\n5.  **Simulate the Thought Process for Responding to *This* Instruction:**\n    *   \"Okay, the user wants me to demonstrate 'thinking silently'. I need to put myself in a 'thought' state and articulate what I'm doing internally.\"\n    *   \"First, I've read the instruction. It's clear: I need to output my thought process.\"\n    *   \"The best way to do this is to literally write out what I'm conceptualizing right now, in this block.\"\n    *   \"What do I need to convey in my *actual* response, after the thought block? Simply that I understand and am ready for further instructions, confirming I've integrated this new behavior.\"\n    *   \"So, the thought block will detail how I'm processing *this specific request* to show thought. I will explain my interpretation of the instruction and my plan for execution, which is essentially to just confirm understanding after the thought.\"\n    *   \"I will ensure this thought block itself is comprehensive enough to demonstrate a clear thought process, even if the 'problem' is just the instruction itself.\"\n\n6.  **Formulate the Final \"Response\" outside the thought block:** A concise statement that confirms understanding and readiness.\n</thought>\nUnderstood. I will now think silently if needed for subsequent tasks, presenting my internal thought process within `<thought>` tags.",
     "ig_handle": "pdpdclub",
-    "last_analyzed_at": "2025-11-11T12:19:58.077945+09:00",
+    "last_analyzed_at": "2025-11-18T16:24:57.981652+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-11/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-18/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/pdpdclub/profile/2025-11-12/profile.json",
       "maps:https://maps.google.com/?cid=15770757789872884450",
       "gemini:enrich"
     ],
@@ -4050,27 +4096,30 @@
       "instagram": "https://www.instagram.com/pdpdclub",
       "homepage": "https://linktr.ee/pdpdclub",
       "booking": null,
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=15770757789872884450",
       "naver_map": "https://naver.me/FG7xNtEk"
     },
     "contacts": {
       "phone": "070-4578-8792",
       "email": null
     },
+    "websites": [
+      "https://linktr.ee/pdpdclub"
+    ],
     "locations": [
       {
         "location_id": "main",
-        "name": "pdpdclub",
-        "address_text": "경기 수원시 팔달구 창룡대로 54",
+        "name": "PDPDclub",
+        "address_text": "54 Changnyong-daero, Paldal-gu, Suwon, Gyeonggi-do, South Korea",
         "address_components": null,
-        "location_lat": 37.2835551281103,
-        "location_lon": 127.021691350363,
+        "location_lat": null,
+        "location_lon": null,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "pdpdclub",
+            "en": "PDPDclub",
             "ko": "파닥파닥클럽"
           },
           "address_text": {
@@ -4083,19 +4132,12 @@
     ],
     "i18n": {
       "name": {
-        "en": "pdpdclub",
+        "en": "PDPDclub",
         "ko": "파닥파닥클럽"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Live Music"
-        ],
-        "ko": [
-          "라이브 음악"
-        ]
-      },
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
@@ -4470,51 +4512,83 @@
     }
   },
   {
-    "raw": "Okay, let's create a comprehensive Python script using the `requests` library to interact with a REST API.\n\nI'll use `JSONPlaceholder` (https://jsonplaceholder.typicode.com/) as a sample API because it's free, public, and provides mock data for all common HTTP methods (GET, POST, PUT, PATCH, DELETE). This will allow you to run the script and see real results.\n\n---\n\n### Python Script: `api_client.py`\n\n```python\nimport requests\nimport json\nimport logging\n\n# --- Configuration ---\n# Replace with the base URL of your target API\nBASE_URL = \"https://jsonplaceholder.typicode.com\"\n# Example endpoint for posts\nENDPOINT = \"posts\" \n\n# Set up basic logging\nlogging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')\n\n# --- Helper Functions ---\n\ndef _print_json(data, message=\"\"):\n    \"\"\"Prints JSON data in a human-readable format.\"\"\"\n    if message:\n        logging.info(message)\n    if isinstance(data, (dict, list)):\n        print(json.dumps(data, indent=2))\n    else:\n        print(data)\n\ndef _handle_response(response, expected_status_codes=None):\n    \"\"\"\n    Handles API responses, checks for errors, and returns JSON or text.\n    \n    Args:\n        response (requests.Response): The response object from a requests call.\n        expected_status_codes (list): A list of status codes considered successful.\n                                       Defaults to [200, 201, 204].\n    \n    Returns:\n        dict or str: JSON response if available, otherwise response text.\n    \n    Raises:\n        requests.exceptions.HTTPError: If the response status code is not successful.\n    \"\"\"\n    if expected_status_codes is None:\n        expected_status_codes = [200, 201, 204] # Common success codes\n\n    if response.status_code not in expected_status_codes:\n        logging.error(f\"API Error: Status {response.status_code} - {response.reason}\")\n        try:\n            error_details = response.json()\n            logging.error(f\"Error Details: {json.dumps(error_details, indent=2)}\")\n        except json.JSONDecodeError:\n            logging.error(f\"Error Body: {response.text}\")\n        response.raise_for_status() # Raises an HTTPError for bad responses (4xx or 5xx)\n\n    if response.status_code == 204: # No Content\n        return \"No Content\"\n    \n    try:\n        return response.json()\n    except json.JSONDecodeError:\n        logging.warning(\"Response was not JSON. Returning raw text.\")\n        return response.text\n\n# --- API Interaction Functions ---\n\ndef get_resource(endpoint, resource_id=None, params=None, headers=None, timeout=10):\n    \"\"\"\n    Performs a GET request to retrieve resources.\n\n    Args:\n        endpoint (str): The API endpoint (e.g., \"posts\").\n        resource_id (int, optional): Specific ID of the resource to retrieve.\n        params (dict, optional): Dictionary of query parameters.\n        headers (dict, optional): Dictionary of HTTP headers.\n        timeout (int): Timeout for the request in seconds.\n\n    Returns:\n        dict or list: The JSON response from the API.\n    \"\"\"\n    url = f\"{BASE_URL}/{endpoint}\"\n    if resource_id:\n        url = f\"{url}/{resource_id}\"\n    \n    logging.info(f\"GET Request to: {url} with params: {params}\")\n    try:\n        response = requests.get(url, params=params, headers=headers, timeout=timeout)\n        return _handle_response(response, expected_status_codes=[200])\n    except requests.exceptions.RequestException as e:\n        logging.error(f\"GET Request failed: {e}\")\n        return None\n\ndef post_resource(endpoint, data, headers=None, timeout=10):\n    \"\"\"\n    Performs a POST request to create a new resource.\n\n    Args:\n        endpoint (str): The API endpoint (e.g., \"posts\").\n        data (dict): Dictionary of data to send in the request body.\n        headers (dict, optional): Dictionary of HTTP headers.\n        timeout (int): Timeout for the request in seconds.\n\n    Returns:\n        dict: The JSON response from the API, usually including the new resource's ID.\n    \"\"\"\n    url = f\"{BASE_URL}/{endpoint}\"\n    # Default Content-Type for JSON, can be overridden by custom headers\n    default_headers = {\"Content-Type\": \"application/json\"}\n    if headers:\n        default_headers.update(headers)\n\n    logging.info(f\"POST Request to: {url} with data: {json.dumps(data)}\")\n    try:\n        response = requests.post(url, json=data, headers=default_headers, timeout=timeout)\n        return _handle_response(response, expected_status_codes=[200, 201]) # JSONPlaceholder returns 201 for success\n    except requests.exceptions.RequestException as e:\n        logging.error(f\"POST Request failed: {e}\")\n        return None\n\ndef put_resource(endpoint, resource_id, data, headers=None, timeout=10):\n    \"\"\"\n    Performs a PUT request to update or replace an existing resource.\n\n    Args:\n        endpoint (str): The API endpoint (e.g., \"posts\").\n        resource_id (int): ID of the resource to update.\n        data (dict): Dictionary of data to send in the request body (full replacement).\n        headers (dict, optional): Dictionary of HTTP headers.\n        timeout (int): Timeout for the request in seconds.\n\n    Returns:\n        dict: The JSON response from the API, usually the updated resource.\n    \"\"\"\n    url = f\"{BASE_URL}/{endpoint}/{resource_id}\"\n    default_headers = {\"Content-Type\": \"application/json\"}\n    if headers:\n        default_headers.update(headers)\n\n    logging.info(f\"PUT Request to: {url} with data: {json.dumps(data)}\")\n    try:\n        response = requests.put(url, json=data, headers=default_headers, timeout=timeout)\n        return _handle_response(response, expected_status_codes=[200])\n    except requests.exceptions.RequestException as e:\n        logging.error(f\"PUT Request failed: {e}\")\n        return None\n\ndef patch_resource(endpoint, resource_id, data, headers=None, timeout=10):\n    \"\"\"\n    Performs a PATCH request to partially update an existing resource.\n\n    Args:\n        endpoint (str): The API endpoint (e.g., \"posts\").\n        resource_id (int): ID of the resource to partially update.\n        data (dict): Dictionary of data to send in the request body (partial update).\n        headers (dict, optional): Dictionary of HTTP headers.\n        timeout (int): Timeout for the request in seconds.\n\n    Returns:\n        dict: The JSON response from the API, usually the updated resource.\n    \"\"\"\n    url = f\"{BASE_URL}/{endpoint}/{resource_id}\"\n    default_headers = {\"Content-Type\": \"application/json\"}\n    if headers:\n        default_headers.update(headers)\n\n    logging.info(f\"PATCH Request to: {url} with data: {json.dumps(data)}\")\n    try:\n        response = requests.patch(url, json=data, headers=default_headers, timeout=timeout)\n        return _handle_response(response, expected_status_codes=[200])\n    except requests.exceptions.RequestException as e:\n        logging.error(f\"PATCH Request failed: {e}\")\n        return None\n\ndef delete_resource(endpoint, resource_id, headers=None, timeout=10):\n    \"\"\"\n    Performs a DELETE request to remove a resource.\n\n    Args:\n        endpoint (str): The API endpoint (e.g., \"posts\").\n        resource_id (int): ID of the resource to delete.\n        headers (dict, optional): Dictionary of HTTP headers.\n        timeout (int): Timeout for the request in seconds.\n\n    Returns:\n        str: \"No Content\" if successful (common for 204), or raw text if available.\n    \"\"\"\n    url = f\"{BASE_URL}/{endpoint}/{resource_id}\"\n    \n    logging.info(f\"DELETE Request to: {url}\")\n    try:\n        response = requests.delete(url, headers=headers, timeout=timeout)\n        # JSONPlaceholder returns 200 with an empty object {} for DELETE,\n        # but 204 No Content is also very common for DELETE.\n        return _handle_response(response, expected_status_codes=[200, 204]) \n    except requests.exceptions.RequestException as e:\n        logging.error(f\"DELETE Request failed: {e}\")\n        return None\n\n# --- Main Execution Block (Demonstration) ---\n\nif __name__ == \"__main__\":\n    print(f\"\\n--- Interacting with {BASE_URL} ---\")\n\n    # --- 1. GET all posts ---\n    print(\"\\n--- GET All Posts ---\")\n    all_posts = get_resource(ENDPOINT)\n    if all_posts:\n        _print_json(all_posts[0], \"First post fetched:\") # Print only the first for brevity\n        _print_json({\"count\": len(all_posts)}, f\"Total posts fetched: {len(all_posts)}\")\n    \n    # --- 2. GET a single post ---\n    print(\"\\n--- GET Single Post (ID 1) ---\")\n    post_id = 1\n    single_post = get_resource(ENDPOINT, resource_id=post_id)\n    if single_post:\n        _print_json(single_post, f\"Post with ID {post_id}:\")\n\n    # --- 3. GET posts with query parameters (filtering) ---\n    print(\"\\n--- GET Posts by User ID (User 1) ---\")\n    user_id = 1\n    user_posts = get_resource(ENDPOINT, params={\"userId\": user_id})\n    if user_posts:\n        _print_json(user_posts, f\"Posts by User ID {user_id}:\")\n\n    # --- 4. POST a new post ---\n    print(\"\\n--- POST New Post ---\")\n    new_post_data = {\n        \"title\": \"My New Awesome Post\",\n        \"body\": \"This is the content of my brand new post, created via API.\",\n        \"userId\": 1\n    }\n    created_post = post_resource(ENDPOINT, data=new_post_data)\n    if created_post:\n        _print_json(created_post, \"Newly Created Post:\")\n        # Store the ID of the newly created post for subsequent updates/deletes\n        # (JSONPlaceholder returns a mock ID, usually 101, for new posts)\n        mock_new_post_id = created_post.get(\"id\")\n\n    # --- 5. PUT update an existing post (full replacement) ---\n    # Using the mock ID from POST, or a known ID (e.g., 1 for demonstration)\n    update_id = mock_new_post_id if mock_new_post_id else 1\n    print(f\"\\n--- PUT Update Post (ID {update_id}) ---\")\n    put_data = {\n        \"id\": update_id, # Often required in PUT for some APIs\n        \"title\": \"Updated Post Title (PUT)\",\n        \"body\": \"This body has been completely replaced by a PUT request.\",\n        \"userId\": 1 # Often required to be sent even if unchanged\n    }\n    updated_post_put = put_resource(ENDPOINT, resource_id=update_id, data=put_data)\n    if updated_post_put:\n        _print_json(updated_post_put, f\"Post with ID {update_id} after PUT update:\")\n\n    # --- 6. PATCH partial update an existing post ---\n    # Using the mock ID from POST, or a known ID (e.g., 1 for demonstration)\n    patch_id = mock_new_post_id if mock_new_post_id else 1\n    print(f\"\\n--- PATCH Partial Update Post (ID {patch_id}) ---\")\n    patch_data = {\n        \"title\": \"Partially Updated Title (PATCH)\",\n        \"status\": \"published\" # Adding a new field, or changing an existing one\n    }\n    updated_post_patch = patch_resource(ENDPOINT, resource_id=patch_id, data=patch_data)\n    if updated_post_patch:\n        _print_json(updated_post_patch, f\"Post with ID {patch_id} after PATCH update:\")\n\n    # --- 7. DELETE a post ---\n    # Using the mock ID from POST, or a known ID (e.g., 1 for demonstration)\n    delete_id = mock_new_post_id if mock_new_post_id else 1\n    print(f\"\\n--- DELETE Post (ID {delete_id}) ---\")\n    delete_result = delete_resource(ENDPOINT, resource_id=delete_id)\n    if delete_result is not None:\n        _print_json(delete_result, f\"Result of deleting post with ID {delete_id}:\")\n    else:\n        logging.info(f\"Failed to delete post with ID {delete_id}.\")\n\n    # --- 8. Demonstration of Authentication (Conceptual - JSONPlaceholder doesn't need it) ---\n    print(\"\\n--- Authentication Examples (Conceptual) ---\")\n    \n    # Example 1: API Key in Header\n    api_key_headers = {\n        \"X-API-KEY\": \"YOUR_SUPER_SECRET_API_KEY\",\n        \"Accept\": \"application/json\"\n    }\n    # get_resource(ENDPOINT, headers=api_key_headers, resource_id=1) \n    logging.info(\"API Key authentication would involve passing headers like: {'X-API-KEY': '...'}\")\n\n    # Example 2: Bearer Token (OAuth 2.0) in Header\n    access_token = \"YOUR_BEARER_TOKEN_HERE\"\n    bearer_headers = {\n        \"Authorization\": f\"Bearer {access_token}\",\n        \"Accept\": \"application/json\"\n    }\n    # get_resource(ENDPOINT, headers=bearer_headers, resource_id=1)\n    logging.info(\"Bearer Token authentication would involve passing headers like: {'Authorization': 'Bearer ...'}\")\n\n    # Example 3: Basic Authentication\n    from requests.auth import HTTPBasicAuth\n    username = \"admin\"\n    password = \"password123\"\n    # requests.get(f\"{BASE_URL}/some_protected_endpoint\", auth=HTTPBasicAuth(username, password))\n    logging.info(\"Basic authentication would involve passing an 'auth' parameter: auth=HTTPBasicAuth(username, password)\")\n\n    # --- 9. Error Handling Example (requesting a non-existent endpoint) ---\n    print(\"\\n--- Error Handling Example (Non-existent endpoint) ---\")\n    # This will trigger an HTTPError if the API returns 404 (which JSONPlaceholder does)\n    non_existent_resource = get_resource(\"nonexistent_endpoint\", resource_id=999999)\n    if non_existent_resource is None:\n        logging.info(\"Expected error for non-existent endpoint handled gracefully.\")\n\n    print(\"\\n--- Script Finished ---\")\n```\n\n---\n\n### How to Run the Script\n\n1.  **Save:** Save the code above as `api_client.py`.\n2.  **Install `requests`:** If you don't have it, open your terminal or command prompt and run:\n    ```bash\n    pip install requests\n    ```\n3.  **Run:** Execute the script from your terminal:\n    ```bash\n    python api_client.py\n    ```\n\n### Explanation of the Script\n\n1.  **`requests` Library:** This is the core library for making HTTP requests in Python.\n2.  **Configuration:**\n    *   `BASE_URL`: The root URL of the API you're interacting with. **Change this to your actual API's base URL.**\n    *   `ENDPOINT`: A specific path segment of the API.\n3.  **Helper Functions:**\n    *   `_print_json(data, message)`: Nicely formats and prints JSON data, making the output readable.\n    *   `_handle_response(response, expected_status_codes)`: This is crucial for robustness. It checks the HTTP status code, logs errors, attempts to parse JSON errors, and `raises_for_status()` for non-2xx codes, turning them into Python exceptions. This allows centralized error handling.\n4.  **API Interaction Functions (`get_resource`, `post_resource`, etc.):**\n    *   Each function (`get_resource`, `post_resource`, `put_resource`, `patch_resource`, `delete_resource`) wraps a specific `requests` method.\n    *   They construct the full URL, handle `params` (for GET query strings), `data` (for POST/PUT/PATCH request bodies), and `headers`.\n    *   They all include a `timeout` parameter to prevent indefinite waiting.\n    *   They use `try...except requests.exceptions.RequestException` to catch network-related errors (connection issues, timeouts, HTTP errors) gracefully.\n    *   `json=data`: For `POST`, `PUT`, `PATCH`, `requests` automatically serializes the Python dictionary `data` into JSON and sets the `Content-Type: application/json` header (unless you override it).\n5.  **`if __name__ == \"__main__\":` block:**\n    *   This block demonstrates how to use each of the API interaction functions.\n    *   It shows examples of:\n        *   Fetching all resources.\n        *   Fetching a single resource by ID.\n        *   Filtering resources using query parameters.\n        *   Creating a new resource.\n        *   Completely replacing a resource (PUT).\n        *   Partially updating a resource (PATCH).\n        *   Deleting a resource.\n    *   **Authentication Examples:** A conceptual section showing how to include API keys, Bearer tokens, or use Basic Authentication. You would uncomment and adapt these for your specific API's authentication method.\n    *   **Error Handling Demo:** Shows what happens when an invalid endpoint is requested.\n6.  **Logging:** Basic logging is set up to provide informational messages and error details.\n\n### Customizing for Your API\n\nTo adapt this script for *your* specific REST API:\n\n1.  **`BASE_URL`:** Change `https://jsonplaceholder.typicode.com` to your API's base URL.\n2.  **`ENDPOINT`:** Adjust the `ENDPOINT` variable and the `endpoint` arguments in the function calls to match your API's paths (e.g., `\"users\"`, `\"products\"`, `\"orders\"`).\n3.  **Request Body (`data`):** For `POST`, `PUT`, `PATCH`, modify the `data` dictionaries to match the JSON structure your API expects.\n4.  **Query Parameters (`params`):** For `GET` requests that support filtering, sorting, or pagination, adjust the `params` dictionary accordingly.\n5.  **Headers:**\n    *   **Authentication:** Crucial for most real-world APIs. Use the `headers` parameter in the functions to pass API keys, `Authorization` (for Bearer tokens), or use the `auth` parameter for Basic Auth.\n    *   **Other Headers:** You might need to send custom headers (e.g., `X-Request-ID`, `Accept-Language`).\n6.  **`expected_status_codes`:** Review the `_handle_response` function's `expected_status_codes` list. While `[200, 201, 204]` are common, your API might return other success codes (e.g., 202 Accepted).\n7.  **Error Handling:** While `requests.exceptions.RequestException` and `_handle_response` provide robust generic error handling, you might want to add more specific logic based on common error responses from *your* API (e.g., parsing specific error codes or messages from the API's JSON error bodies).\n8.  **Return Values:** The functions currently return the JSON response or specific strings. Adjust this if your application needs to process the raw `requests.Response` object directly for more advanced checks.",
+    "model_name": "Mixtral-8x7B-Instruct-v0.1",
+    "temperature": 0.1,
+    "max_tokens": 1000,
+    "top_p": 1,
+    "stop": [
+      "Observation"
+    ],
     "ig_handle": "seoul.society.club",
-    "last_analyzed_at": "2025-11-11T12:22:59.353806+09:00",
+    "last_analyzed_at": "2025-11-18T16:29:47.704826+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul.society.club/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul.society.club/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul.society.club/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul.society.club/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoul.society.club/profile/2025-11-11/profile.json",
       "maps:https://maps.google.com/?cid=11210027271886918730",
-      "maps:https://maps.google.com/?cid=1122758754087036530",
       "maps:https://maps.google.com/?cid=7453012369005840237",
       "maps:https://maps.google.com/?cid=10202960881228967146",
+      "maps:https://maps.google.com/?cid=7035786665359032247",
+      "maps:https://maps.google.com/?cid=10163213318750349541",
+      "maps:https://maps.google.com/?cid=1122758754087036530",
+      "maps:https://maps.google.com/?cid=17784676563566721318",
+      "maps:https://maps.google.com/?cid=14637885576061924485",
+      "maps:https://maps.google.com/?cid=6833845545365371946",
+      "maps:https://maps.google.com/?cid=14379046372290030213",
+      "maps:https://maps.google.com/?cid=1393810346421464127",
+      "maps:https://maps.google.com/?cid=3156411725260440829",
+      "maps:https://maps.google.com/?cid=13108995758253402675",
+      "maps:https://maps.google.com/?cid=8148267329487659625",
+      "maps:https://maps.google.com/?cid=12866772885470122152",
+      "maps:https://maps.google.com/?cid=9227422986733993602",
+      "maps:https://maps.google.com/?cid=13329409049662213265",
+      "maps:https://maps.google.com/?cid=10883201251796447554",
+      "maps:https://maps.google.com/?cid=4618961545112395000",
+      "maps:https://maps.google.com/?cid=3119958240265986569",
+      "maps:https://maps.google.com/?cid=9490006149131235151",
+      "maps:https://maps.google.com/?cid=9793096899527800592",
+      "maps:https://maps.google.com/?cid=7549033809431374487",
+      "maps:https://maps.google.com/?cid=4241094932729564316",
+      "maps:https://maps.google.com/?cid=16704091038064997586",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/seoul.society.club",
       "homepage": null,
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=11210027271886918730",
+      "google_map": null,
       "naver_map": "https://naver.me/58NdhHaR"
     },
     "contacts": {
       "phone": null,
       "email": null
     },
+    "subway_nearby": "6호선 망원역 2번 출구에서 551m",
     "locations": [
       {
         "location_id": "main",
-        "name": "Social Club Seoul",
-        "address_text": "서울 마포구 망원제1동 414-27",
+        "name": "Seoul Society Club",
+        "address_text": "서울 마포구 망원동 414-27",
         "address_components": null,
         "location_lat": 37.5565346911233,
         "location_lon": 126.906503763811,
-        "subway_nearby": null,
+        "subway_nearby": "6호선 망원역 2번 출구에서 551m",
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Social Club Seoul",
-            "ko": "소셜 클럽 서울"
+            "en": "Seoul Society Club",
+            "ko": "서울 소사이어티 클럽"
           },
           "address_text": {
-            "en": "414-27 Mangwon 1-dong, Mapo-gu, Seoul, South Korea",
-            "ko": "서울 마포구 망원제1동 414-27"
+            "en": "414-27 Mangwon-dong, Mapo-gu, Seoul, South Korea",
+            "ko": "서울 마포구 망원동 414-27"
           },
           "notes": null
         }
@@ -4522,17 +4596,19 @@
     ],
     "i18n": {
       "name": {
-        "en": "Social Club Seoul",
-        "ko": "소셜 클럽 서울"
+        "en": "Seoul Society Club",
+        "ko": "서울 소사이어티 클럽"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
-      "subway_nearby": null,
+      "subway_nearby": {
+        "en": "551m from Mangwon Station Exit 2 on Line 6",
+        "ko": "6호선 망원역 2번 출구에서 551m"
+      },
       "food_policy": null,
       "age_limit": null
-    },
-    "naver_subway_nearby": "6호선 망원역 2번 출구에서 551m"
+    }
   },
   {
     "raw": "WAIT",
@@ -4613,35 +4689,39 @@
     }
   },
   {
-    "raw": "# A Beginner's Guide to Understanding and Preventing SQL Injection\n\nSQL Injection (SQLi) is one of the oldest, most prevalent, and dangerous web application vulnerabilities. For anyone building or securing web applications, understanding SQLi is crucial. This guide will break down what it is, how it works, and most importantly, how to prevent it, even if you're just starting out.\n\n---\n\n## 1. What is SQL Injection?\n\nLet's start with the basics:\n\n*   **SQL (Structured Query Language):** This is the language used to communicate with and manage relational databases. Almost every dynamic website relies on a database to store user information, product catalogs, blog posts, etc. When you log in, search for a product, or submit a comment, your web application sends SQL commands (called \"queries\") to the database.\n\n*   **Injection:** In the context of cybersecurity, \"injection\" refers to a type of attack where an attacker inserts malicious code into an input field, which is then processed by a program (in this case, a database).\n\n**Putting it together:** SQL Injection is a code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g., to dump the database contents to the attacker).\n\n---\n\n## 2. How Does SQL Injection Work? (The \"Injection\" Part)\n\nImagine a login form. When you type your username and password, the web application constructs an SQL query to check if your credentials are valid.\n\n**Scenario: A Vulnerable Login Form**\n\nLet's say a developer writes code that creates an SQL query by directly concatenating (joining) user input strings.\n\nHere's what a *typical, legitimate* query might look like behind the scenes when you enter `john` as the username and `password123` as the password:\n\n```sql\nSELECT * FROM users WHERE username = 'john' AND password = 'password123';\n```\nIf these credentials match a record in the `users` table, you're logged in.\n\n**The Attack:**\n\nAn attacker exploits the application by entering carefully crafted input that changes the *meaning* of the SQL query.\n\n**Example 1: Bypassing Authentication**\n\nThe attacker might type the following into the **username** field:\n\n`admin' --`\n\n*(The `--` in SQL is a comment marker, meaning everything after it on the line is ignored by the database.)*\n\nNow, let's see how the vulnerable application builds the query:\n\n1.  **Original Query Structure:** `SELECT * FROM users WHERE username = '[user_input]' AND password = '[password_input]';`\n2.  **Attacker's Input:** `admin' --` for username, and anything for password (e.g., `blah`).\n3.  **Resulting Query:**\n    ```sql\n    SELECT * FROM users WHERE username = 'admin' --' AND password = 'blah';\n    ```\n\n**What the database sees:**\n\nThe database executes: `SELECT * FROM users WHERE username = 'admin'`\n\nThe rest of the query (`--' AND password = 'blah';`) is commented out and ignored. If there's a user named `admin` in the database, the condition `username = 'admin'` becomes true, and the attacker is logged in as `admin` (or the first user returned if multiple match). No password needed!\n\n**Example 2: Retrieving All User Data**\n\nAnother common input for bypassing login or dumping data:\n\n`admin' OR '1'='1`\n\nWhen injected into the username field:\n\n```sql\nSELECT * FROM users WHERE username = 'admin' OR '1'='1' AND password = 'blah';\n```\n\nSince `'1'='1'` is always true, the `OR '1'='1'` part makes the entire `WHERE` clause true. The database will return *all* rows from the `users` table, potentially logging the attacker in as the first user found, or revealing sensitive information.\n\n---\n\n## 3. Why is SQL Injection Dangerous?\n\nSQLi attacks can lead to severe consequences:\n\n*   **Data Theft:** Attackers can read, modify, or delete sensitive data (customer records, credit card numbers, passwords, personal information).\n*   **Data Corruption/Deletion:** Attackers can modify or destroy your database's data, causing significant damage and loss of trust.\n*   **Authentication Bypass:** As shown above, attackers can log in as legitimate users or administrators without knowing their credentials.\n*   **Website Defacement:** Attackers can modify content displayed on your website.\n*   **Denial of Service (DoS):** Attackers can make your website or application unavailable by corrupting data or overloading the database.\n*   **Remote Code Execution:** In some advanced cases, attackers can even execute arbitrary commands on the server itself, taking full control of the machine.\n\n---\n\n## 4. How to Prevent SQL Injection (The Essential Defenses)\n\nPreventing SQLi primarily revolves around one core principle: **never treat user input as executable code.**\n\n### 1. **Parameterized Queries (The #1 Defense)**\n\nThis is the most effective and recommended way to prevent SQL injection. Parameterized queries (also known as Prepared Statements) work by separating the SQL code from the user-supplied data.\n\n**How it works:**\n\nInstead of directly embedding user input into the SQL string, you define the SQL query with \"placeholders\" for the input values. Then, you provide the user input separately, and the database engine understands that these inputs are *data* and not *code*. It will never interpret the input as part of the SQL command itself.\n\n**Analogy:** Think of it like filling out a pre-printed form. The structure of the form (the query) is fixed. You fill in the blanks (the parameters) with your information (the data). No matter what you write in the blanks, it's always treated as data, never as a change to the form's structure.\n\n**Example (Conceptual Code):**\n\nMost modern programming languages and database libraries support parameterized queries. Here's a conceptual example:\n\n```\n// Instead of this (VULNERABLE):\n// query = \"SELECT * FROM users WHERE username = '\" + user_input + \"' AND password = '\" + pass_input + \"';\"\n// execute(query)\n\n// Do this (SECURE with Parameterized Query):\nquery = \"SELECT * FROM users WHERE username = ? AND password = ?;\" // Or use named parameters like :username, :password\nparameters = [user_input, pass_input]\n\nexecute_prepared_statement(query, parameters)\n```\n\nIn this secure approach, if the attacker inputs `admin' --`, the database will simply search for a username that literally matches `admin' --`. It won't interpret `--` as a comment, and the login will fail (unless there's actually a user named `admin' --`).\n\n**Key Takeaway:** **Always use parameterized queries for *any* SQL query that incorporates user input.** This applies to `SELECT`, `INSERT`, `UPDATE`, and `DELETE` statements.\n\n### 2. **Input Validation**\n\nWhile parameterized queries are your primary defense, robust input validation is a crucial secondary layer.\n\n*   **What it is:** Checking user input to ensure it conforms to expected formats, lengths, and types.\n*   **How to do it:**\n    *   **Data Type Validation:** If you expect a number, ensure it's a number.\n    *   **Length Validation:** Limit the length of input fields (e.g., usernames usually have a max length).\n    *   **Format Validation:** Use regular expressions to enforce specific patterns (e.g., email addresses, phone numbers, alphanumeric usernames).\n    *   **Whitelisting:** Only allow specific characters or values (e.g., a dropdown list).\n*   **Server-Side Validation:** Always perform validation on the server side. Client-side validation (in the browser) is good for user experience but can be bypassed by attackers.\n\n**Example:** If a username should only contain letters and numbers, validate that the input matches `^[a-zA-Z0-9]+$` before processing.\n\n### 3. **Principle of Least Privilege**\n\nDatabase users should only have the minimum necessary permissions to perform their tasks.\n\n*   **Action:**\n    *   Your web application's database user should **NOT** be the database administrator (DBA).\n    *   It should only have `SELECT`, `INSERT`, `UPDATE`, `DELETE` permissions on the specific tables it needs to interact with.\n    *   It should *not* have permissions to create tables, drop tables, or modify database schemas.\n    *   It definitely shouldn't have permissions to execute stored procedures that aren't directly part of its function.\n\n### 4. **Robust Error Handling**\n\nDon't display raw database errors to your users. Detailed error messages can inadvertently leak information about your database structure, operating system, and application logic, which attackers can use to craft more precise attacks.\n\n*   **Action:**\n    *   Catch database errors internally.\n    *   Log them securely on the server side for debugging.\n    *   Display generic, user-friendly error messages to the end-user (e.g., \"An unexpected error occurred. Please try again later.\").\n\n### 5. **Keep Software Up-to-Date**\n\nRegularly update your operating system, database software (MySQL, PostgreSQL, etc.), web server, and application frameworks. Vendors frequently release security patches that fix known vulnerabilities, including potential SQLi vectors.\n\n### 6. **Web Application Firewalls (WAFs)**\n\nA Web Application Firewall can provide an additional layer of defense by monitoring and filtering HTTP traffic between your application and the internet. WAFs can detect and block many common attack patterns, including SQL injection attempts, before they even reach your application.\n\n*   **Note:** A WAF is a helpful *additional* layer, not a replacement for secure coding practices like parameterized queries.\n\n---\n\n## Conclusion\n\nSQL Injection remains a serious threat, but it's largely preventable with the right practices. As a beginner, focusing on **parameterized queries** should be your top priority for any application that interacts with a database. Combine this with diligent **input validation**, adherence to the **principle of least privilege**, and good **error handling**, and you'll be well on your way to building secure web applications.\n\nAlways remember: trust no input. All data coming from a user or external source should be treated as potentially malicious until proven otherwise.",
+    "raw": "Please upload your CSV file, and I'll convert it to JSON for you.",
     "ig_handle": "seoulforestjazz",
-    "last_analyzed_at": "2025-11-11T12:24:43.647197+09:00",
+    "last_analyzed_at": "2025-11-18T16:32:29.152323+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoulforestjazz/profile/2025-11-11/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoulforestjazz/profile/2025-11-18/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoulforestjazz/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoulforestjazz/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoulforestjazz/profile/2025-11-15/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/seoulforestjazz/profile/2025-11-12/profile.json",
       "maps:https://maps.google.com/?cid=15968524466520016538",
       "maps:https://maps.google.com/?cid=12961168892280702927",
       "maps:https://maps.google.com/?cid=1629884300631888791",
-      "maps:https://maps.google.com/?cid=13163330699457356298",
       "maps:https://maps.google.com/?cid=15346599358860238442",
-      "maps:https://maps.google.com/?cid=5550789818210732130",
+      "maps:https://maps.google.com/?cid=2603954066245394090",
+      "maps:https://maps.google.com/?cid=13163330699457356298",
       "maps:https://maps.google.com/?cid=12958000001331928624",
-      "maps:https://maps.google.com/?cid=12950663042103342245",
       "maps:https://maps.google.com/?cid=13994463002958167587",
+      "maps:https://maps.google.com/?cid=12950663042103342245",
       "maps:https://maps.google.com/?cid=1622847105428903847",
       "maps:https://maps.google.com/?cid=10469024144103497378",
-      "maps:https://maps.google.com/?cid=2603954066245394090",
       "maps:https://maps.google.com/?cid=11842852244500454903",
+      "maps:https://maps.google.com/?cid=2095809664248845139",
+      "maps:https://maps.google.com/?cid=5550789818210732130",
       "maps:https://maps.google.com/?cid=5936925627923403423",
       "maps:https://maps.google.com/?cid=9176070558265640633",
-      "maps:https://maps.google.com/?cid=2095809664248845139",
+      "maps:https://maps.google.com/?cid=5462078913250648946",
       "maps:https://maps.google.com/?cid=12215941447602648811",
       "maps:https://maps.google.com/?cid=3803486770832132230",
-      "maps:https://maps.google.com/?cid=10868077700845091316",
-      "maps:https://maps.google.com/?cid=714310057948599705",
+      "maps:https://maps.google.com/?cid=17622299418307644280",
       "gemini:enrich"
     ],
     "links": {
@@ -4655,8 +4735,8 @@
       "email": null
     },
     "websites": [
-      "https://www.instagram.com/seoulforestjazz",
-      "https://linktr.ee/seoulforestjazz"
+      "https://linktr.ee/seoulforestjazz",
+      "https://www.instagram.com/seoulforestjazz"
     ],
     "locations": [
       {

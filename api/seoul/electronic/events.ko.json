@@ -391,6 +391,34 @@
     }
   },
   {
+    "id": "evt_20251122_1fad0217-7c52-479e-915b-2c3d76ed8667",
+    "event_key": "v:ven_120a7553-5364-4c13-958c-2ccca171c8d1|t:2025-11-22T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DROz2A2kmcY/",
+    "venue_handle": "pistilseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "aaron.y.choe"
+    ],
+    "venue_id": "ven_120a7553-5364-4c13-958c-2ccca171c8d1",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T12:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "아론 와이 최",
+    "description": "DJ Set — 아론 와이 최. 롱셋.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Aaron Y. Choe",
+      "description": "DJ Set — Aaron Y. Choe. Long set."
+    },
+    "_search_ko": {
+      "title": "아론 와이 최",
+      "description": "DJ Set — 아론 와이 최. 롱셋."
+    }
+  },
+  {
     "id": "evt_20251122_aaf50384-20f5-4763-850b-836e3a01fffe",
     "event_key": "v:ven_2171b962-9b4d-41bb-9521-f061b421217c|t:2025-11-22T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQbKn8GEtml/",
@@ -520,20 +548,20 @@
     "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
     "venue_location_id": "main",
     "datetime": "2025-11-22T14:00:00+00:00",
-    "price": "RA Reservation: 22,000원 / 현장 구매: 25,000원",
+    "price": "22,000원 (RA 예약)",
     "llm_confidence": 1.0,
-    "title": "Decoder",
-    "description": "미국 달라스를 기반으로 활동하는 퓨처리스트 Decoder. Deep techno와 SF적 감성으로 사운드를 탐구하며, Subsist, Jeff Mills의 Axis, Analog Solutions 등을 통해 음반을 발표했다. Richie Hawtin과 북미 투어, De School, Fold, Berghain 등에서 공연했다. // Featuring: Oyymmit, SJK.",
+    "title": "vurtnight with Decoder",
+    "description": "미국 달라스를 기반으로 활동하는 퓨처리스트 Decoder (Toca, Axis, Subsist). 딥 테크노와 SF적 감성. Jeff Mills, Richie Hawtin의 주목. Oyymmit, SJK 서포트. 가격: 22,000원 (RA 예약), 25,000원 (현장), 10,000원 (오전 4시 이후).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Decoder",
-      "description": "Dallas, USA-based futurist Decoder, known for deep techno and sci-fi aesthetics with releases on Subsist, Jeff Mills' Axis, and Analog Solutions. He has toured with Richie Hawtin and played at De School, Fold, Berghain. // Featuring: Oyymmit, SJK."
+      "title": "vurtnight with Decoder",
+      "description": "Dallas, USA based futurist Decoder (Toca, Axis, Subsist) known for deep techno & sci-fi aesthetics. Recognized by Jeff Mills, Richie Hawtin. Supported by Oyymmit, SJK. Price: KRW 22,000 (RA), KRW 25,000 (Door), KRW 10,000 (After 4 AM)."
     },
     "_search_ko": {
-      "title": "Decoder",
-      "description": "미국 달라스를 기반으로 활동하는 퓨처리스트 Decoder. Deep techno와 SF적 감성으로 사운드를 탐구하며, Subsist, Jeff Mills의 Axis, Analog Solutions 등을 통해 음반을 발표했다. Richie Hawtin과 북미 투어, De School, Fold, Berghain 등에서 공연했다. // Featuring: Oyymmit, SJK."
+      "title": "vurtnight with Decoder",
+      "description": "미국 달라스를 기반으로 활동하는 퓨처리스트 Decoder (Toca, Axis, Subsist). 딥 테크노와 SF적 감성. Jeff Mills, Richie Hawtin의 주목. Oyymmit, SJK 서포트. 가격: 22,000원 (RA 예약), 25,000원 (현장), 10,000원 (오전 4시 이후)."
     }
   },
   {
@@ -803,6 +831,32 @@
     "_search_ko": {
       "title": "La Mamie's",
       "description": "프랑스 파리 기반 DJ 콜렉티브 La Mamie's의 첫 서울 무대. House, Disco, Rare Groove 사운드를 선보이며 파리 댄스뮤직씬에 큰 영향을 미쳤고, La Machine du Moulin Rouge 레지던시 및 6년간 Rinse FM 쇼 진행. // 라인업: DJ Set — Gio (@jomyty), Cityboy from Seoul (@cityboyfromseoul), La Mamie's (@la_mamies) // DJ Set — Youngisland (@young.island), Joshua (@joshuakr__)."
+    }
+  },
+  {
+    "id": "evt_20251128_7e1a9c4e-ce94-418e-a295-7ef382f6e611",
+    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-28T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRO4nS0j0Gg/",
+    "venue_handle": "vurt_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T14:00:00+00:00",
+    "price": "25,000원",
+    "llm_confidence": 1.0,
+    "title": "VΛNTA With Polar Inertia Live",
+    "description": "VΛNTA With Polar Inertia Live (Northern Electronics / Paris, FR). 2011년 'Indirect Light' (Dement3d) 이후 불가해한 사운드와 '가려진 시선의 예술'을 탐구. Ambient, Experimental, Deep Techno와 보컬 내러티브의 교차점. SIOT, Djilogue 오프닝/클로징 셋. 수묵화가 Goyohal 전시. 25,000원.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "VΛNTA With Polar Inertia Live",
+      "description": "VΛNTA presents Polar Inertia Live (Northern Electronics / Paris, FR). Exploring elusive soundscapes & 'the art of obscured vision' since 2011's 'Indirect Light' (Dement3d). Ambient, experimental, deep techno with vocal narratives. Support: SIOT, Djilogue. Exhibition: Goyohal. KRW 25,000."
+    },
+    "_search_ko": {
+      "title": "VΛNTA With Polar Inertia Live",
+      "description": "VΛNTA With Polar Inertia Live (Northern Electronics / Paris, FR). 2011년 'Indirect Light' (Dement3d) 이후 불가해한 사운드와 '가려진 시선의 예술'을 탐구. Ambient, Experimental, Deep Techno와 보컬 내러티브의 교차점. SIOT, Djilogue 오프닝/클로징 셋. 수묵화가 Goyohal 전시. 25,000원."
     }
   },
   {

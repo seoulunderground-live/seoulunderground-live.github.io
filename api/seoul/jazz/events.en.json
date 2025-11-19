@@ -170,18 +170,18 @@
     "datetime": "2025-11-19T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Seon Jeong Quartet",
-    "description": "Seon Jeong (vocal), Kim Dae-gyu (piano), Park Joo-min (bass), Kim Bi-oh (drums). Entry fee KRW 20,000.",
+    "title": "Seon Jung Quartet",
+    "description": "Seon Jung Quartet (Wednesday Project): Seon Jung (vocal), Kim Dae-gyu (piano), Park Ju-min (bass), Kim Bi-oh (drums). Entry fee KRW 20,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Seon Jeong Quartet",
-      "description": "Seon Jeong (vocal), Kim Dae-gyu (piano), Park Joo-min (bass), Kim Bi-oh (drums). Entry fee KRW 20,000."
+      "title": "Seon Jung Quartet",
+      "description": "Seon Jung Quartet (Wednesday Project): Seon Jung (vocal), Kim Dae-gyu (piano), Park Ju-min (bass), Kim Bi-oh (drums). Entry fee KRW 20,000."
     },
     "_search_ko": {
       "title": "선정 퀄텟",
-      "description": "선정 (보컬), 김대규 (피아노), 박주민 (베이스), 김비오 (드럼). 입장료 20,000원."
+      "description": "선정 퀄텟 (수요기획): 선정 (보컬), 김대규 (피아노), 박주민 (베이스), 김비오 (드럼). 입장료 20,000원."
     }
   },
   {
@@ -1570,6 +1570,34 @@
     }
   },
   {
+    "id": "evt_20251120_e25c2554-bfb0-497e-85db-00cc33c9dc55",
+    "event_key": "v:ven_f47dae88-370f-4b0e-882c-45a366d1c15c|t:2025-11-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRJj4F9kjx0/",
+    "venue_handle": "yeonnam5701",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "bighandjoe"
+    ],
+    "venue_id": "ven_f47dae88-370f-4b0e-882c-45a366d1c15c",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Jo Jae-beom Latin Jazz Unit",
+    "description": "Latin Jazz by Jo Jae-beom (percussion) @bighandjoe and his unit.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jo Jae-beom Latin Jazz Unit",
+      "description": "Latin Jazz by Jo Jae-beom (percussion) @bighandjoe and his unit."
+    },
+    "_search_ko": {
+      "title": "조재범 라틴 재즈 유닛",
+      "description": "퍼커션 조재범 (@bighandjoe)과 라틴 재즈 유닛."
+    }
+  },
+  {
     "id": "evt_20251120_069ea088-3a2a-42ba-935e-6509fdeedc23",
     "event_key": "v:ven_49e1ce4d-549b-4955-9623-4a6dcc3f1ab9|t:2025-11-20T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQhES8lD488/",
@@ -2301,17 +2329,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Park Sang-ah Trio",
-    "description": "Park Sang-ah (trumpet), Lee Ha-rim (piano), Jo Woo-jin (bass). Entry fee KRW 20,000.",
+    "description": "Park Sang-ah Trio: Park Sang-ah (trumpet), Lee Ha-rim (piano), Jo Woo-jin (bass). Entry fee KRW 20,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Park Sang-ah Trio",
-      "description": "Park Sang-ah (trumpet), Lee Ha-rim (piano), Jo Woo-jin (bass). Entry fee KRW 20,000."
+      "description": "Park Sang-ah Trio: Park Sang-ah (trumpet), Lee Ha-rim (piano), Jo Woo-jin (bass). Entry fee KRW 20,000."
     },
     "_search_ko": {
       "title": "박상아 트리오",
-      "description": "박상아 (트럼펫), 이하림 (피아노), 조우진 (베이스). 입장료 20,000원."
+      "description": "박상아 트리오: 박상아 (트럼펫), 이하림 (피아노), 조우진 (베이스). 입장료 20,000원."
     }
   },
   {
@@ -3922,17 +3950,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Love Supreme",
-    "description": "Jo Min-jae (drums), Kim Dae-ho (guitar), Kim Dae-gyu (piano), Hwang Dae-ung (bass), Park In-chan (saxophone), Choi Baek-gyul (saxophone). Entry fee KRW 20,000.",
+    "description": "Love Supreme: Jo Min-jae (drums), Kim Dae-ho (guitar), Kim Dae-gyu (piano), Hwang Dae-woong (bass), Park In-chan (saxophone), Choi Baek-gyeol (saxophone). Entry fee KRW 20,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Love Supreme",
-      "description": "Jo Min-jae (drums), Kim Dae-ho (guitar), Kim Dae-gyu (piano), Hwang Dae-ung (bass), Park In-chan (saxophone), Choi Baek-gyul (saxophone). Entry fee KRW 20,000."
+      "description": "Love Supreme: Jo Min-jae (drums), Kim Dae-ho (guitar), Kim Dae-gyu (piano), Hwang Dae-woong (bass), Park In-chan (saxophone), Choi Baek-gyeol (saxophone). Entry fee KRW 20,000."
     },
     "_search_ko": {
       "title": "Love Supreme",
-      "description": "조민재 (드럼), 김대호 (기타), 김대규 (피아노), 황대웅 (베이스), 박인찬 (색소폰), 최백결 (색소폰). 입장료 20,000원."
+      "description": "Love Supreme: 조민재 (드럼), 김대호 (기타), 김대규 (피아노), 황대웅 (베이스), 박인찬 (색소폰), 최백결 (색소폰). 입장료 20,000원."
     }
   },
   {
@@ -6200,18 +6228,18 @@
     "datetime": "2025-11-25T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Hyo Jeong-ri Band",
-    "description": "Hyo Jeong-ri (vocal), Jang Se-yeon (piano), Park Joo-min (bass), Alain O. Samada (drums). Entry fee KRW 20,000.",
+    "title": "Hyo Jung-ri Band (One Month Festival)",
+    "description": "Hyo Jung-ri Band (One Month Festival): Hyo Jung-ri (vocal), Jang Se-yeon (piano), Park Ju-min (bass), Alain O. Samada (drums). Entry fee KRW 20,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Hyo Jeong-ri Band",
-      "description": "Hyo Jeong-ri (vocal), Jang Se-yeon (piano), Park Joo-min (bass), Alain O. Samada (drums). Entry fee KRW 20,000."
+      "title": "Hyo Jung-ri Band (One Month Festival)",
+      "description": "Hyo Jung-ri Band (One Month Festival): Hyo Jung-ri (vocal), Jang Se-yeon (piano), Park Ju-min (bass), Alain O. Samada (drums). Entry fee KRW 20,000."
     },
     "_search_ko": {
-      "title": "효정리 밴드",
-      "description": "효정리 (보컬), 장세연 (피아노), 박주민 (베이스), Alain O. Samada (드럼). 입장료 20,000원."
+      "title": "효정리 밴드 (원먼스페스티벌)",
+      "description": "효정리 밴드 (원먼스페스티벌): 효정리 (보컬), 장세연 (피아노), 박주민 (베이스), Alain O. Samada (드럼). 입장료 20,000원."
     }
   },
   {
@@ -6565,17 +6593,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "KeepAliveJazz",
-    "description": "Son Tae-ho (saxophone), Park Chan-ho (piano), Kwon Soon-an (bass), Kim Isaac (drums). Entry fee KRW 20,000.",
+    "description": "KeepAliveJazz (Wednesday Project): Son Tae-ho (saxophone), Park Chan-ho (piano), Kwon Soon-an (bass), Kim Isaac (drums). Entry fee KRW 20,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "KeepAliveJazz",
-      "description": "Son Tae-ho (saxophone), Park Chan-ho (piano), Kwon Soon-an (bass), Kim Isaac (drums). Entry fee KRW 20,000."
+      "description": "KeepAliveJazz (Wednesday Project): Son Tae-ho (saxophone), Park Chan-ho (piano), Kwon Soon-an (bass), Kim Isaac (drums). Entry fee KRW 20,000."
     },
     "_search_ko": {
       "title": "KeepAliveJazz",
-      "description": "손태호 (색소폰), 박찬호 (피아노), 권순안 (베이스), 김이삭 (드럼). 입장료 20,000원."
+      "description": "KeepAliveJazz (수요기획): 손태호 (색소폰), 박찬호 (피아노), 권순안 (베이스), 김이삭 (드럼). 입장료 20,000원."
     }
   },
   {
@@ -7814,7 +7842,7 @@
   {
     "id": "evt_20251128_c8f21f33-34a3-4e57-8cc0-f38965968280",
     "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQbpcyADwZn/",
+    "source_url": "https://www.instagram.com/p/DQOPAtPDzHk/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -7824,17 +7852,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Pipeline",
-    "description": "Performance by Heo Yu-jin (vocal), Kim Seon-hun (piano, guitar), Kim Eun-ho (percussion), and Kang Min-jeong (haegeum).",
+    "description": "Pipeline: Heo Yu-jin (vocal), Kim Seon-hoon (piano, guitar), Kim Eun-ho (percussion), Kang Min-jung (haegeum). Entry fee KRW 20,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Pipeline",
-      "description": "Performance by Heo Yu-jin (vocal), Kim Seon-hun (piano, guitar), Kim Eun-ho (percussion), and Kang Min-jeong (haegeum)."
+      "description": "Pipeline: Heo Yu-jin (vocal), Kim Seon-hoon (piano, guitar), Kim Eun-ho (percussion), Kang Min-jung (haegeum). Entry fee KRW 20,000."
     },
     "_search_ko": {
       "title": "Pipeline",
-      "description": "허유진 (보컬), 김선훈 (피아노, 기타), 김은호 (퍼커션), 강민정 (해금)의 공연."
+      "description": "Pipeline: 허유진 (보컬), 김선훈 (피아노, 기타), 김은호 (퍼커션), 강민정 (해금). 입장료 20,000원."
     }
   },
   {
@@ -8940,17 +8968,17 @@
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
     "title": "Kim Dae-gyu Quintet",
-    "description": "Kim Dae-gyu (piano), Kang Seong-min (bass), Kim So-hee (drums), Kim Gyeong-mo (guitar), Jeong Jun (saxophone). Entry fee KRW 20,000.",
+    "description": "Kim Dae-gyu Quintet: Kim Dae-gyu (piano), Kang Sung-min (bass), Kim Hoe-hui (drums), Kim Kyung-mo (guitar), Jung Jun (saxophone). Entry fee KRW 20,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Dae-gyu Quintet",
-      "description": "Kim Dae-gyu (piano), Kang Seong-min (bass), Kim So-hee (drums), Kim Gyeong-mo (guitar), Jeong Jun (saxophone). Entry fee KRW 20,000."
+      "description": "Kim Dae-gyu Quintet: Kim Dae-gyu (piano), Kang Sung-min (bass), Kim Hoe-hui (drums), Kim Kyung-mo (guitar), Jung Jun (saxophone). Entry fee KRW 20,000."
     },
     "_search_ko": {
       "title": "김대규 퀸텟",
-      "description": "김대규 (피아노), 강성민 (베이스), 김소희 (드럼), 김경모 (기타), 정준 (색소폰). 입장료 20,000원."
+      "description": "김대규 퀸텟: 김대규 (피아노), 강성민 (베이스), 김회희 (드럼), 김경모 (기타), 정준 (색소폰). 입장료 20,000원."
     }
   },
   {

@@ -76,18 +76,18 @@
     "datetime": "2025-11-20T13:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "ELECTRIK SEOUL: K-POP x EDM",
-    "description": "Insomniac 주최 ELECTRIK SEOUL K-POP x EDM 나이트. TIME Nightclub, 오렌지 카운티, CA.",
+    "title": "일렉트릭 서울: K-POP x EDM",
+    "description": "[위치: 오렌지 카운티, CA] K-POP x EDM 이벤트. 라이트스틱 준비. 티켓은 timenightclub.com에서 구매 가능.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "ELECTRIK SEOUL: K-Pop x EDM",
-      "description": "ELECTRIK SEOUL K-POP x EDM night presented by Insomniac at TIME Nightclub, Orange County, CA."
+      "title": "ELECTRIK SEOUL: K-POP x EDM",
+      "description": "[Location: Orange County, CA] K-POP x EDM event. Get your lightsticks ready! Tickets available at timenightclub.com."
     },
     "_search_ko": {
-      "title": "ELECTRIK SEOUL: K-POP x EDM",
-      "description": "Insomniac 주최 ELECTRIK SEOUL K-POP x EDM 나이트. TIME Nightclub, 오렌지 카운티, CA."
+      "title": "일렉트릭 서울: K-POP x EDM",
+      "description": "[위치: 오렌지 카운티, CA] K-POP x EDM 이벤트. 라이트스틱 준비. 티켓은 timenightclub.com에서 구매 가능."
     }
   },
   {
@@ -911,6 +911,32 @@
     "_search_ko": {
       "title": "X2C, MOVIN.KR, HONN, AVALON, ALIVE999, BUMV",
       "description": "DJ Set — X2C, MOVIN.KR, HONN // AVALON, ALIVE999, BUMV. 미성년자 입장 불가."
+    }
+  },
+  {
+    "id": "evt_20251129_a6983004-2a18-4207-8fcd-6d4cdf5db2eb",
+    "event_key": "v:ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be|t:2025-11-29T14:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRN93D0j0Nn/",
+    "venue_handle": "vurt_seoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_086c557a-87a5-485e-9b4c-8ca1b8fc81be",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T14:00:00+00:00",
+    "price": "22,000원 (RA 예약) / 25,000원 (현장 구매)",
+    "llm_confidence": 1.0,
+    "title": "벌트나잇 with Marco Shuttle",
+    "description": "베를린 기반 이탈리아 아티스트 Marco Shuttle (Spazio Disponibile, EERIE Records). 딥, 앱스트랙, 애트모스페릭, 시네마틱 테크노 사운드의 마스터풀 디제이/프로듀서. Support: Ansol, Suzan. 4시 이후: 10,000원.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "vurtnight with Marco Shuttle",
+      "description": "Berlin-based Italian artist Marco Shuttle (Spazio Disponibile, EERIE Records). Masterful DJ/producer known for deep, abstract, atmospheric, cinematic techno. Support: Ansol, Suzan. After 4am: KRW 10,000."
+    },
+    "_search_ko": {
+      "title": "벌트나잇 with Marco Shuttle",
+      "description": "베를린 기반 이탈리아 아티스트 Marco Shuttle (Spazio Disponibile, EERIE Records). 딥, 앱스트랙, 애트모스페릭, 시네마틱 테크노 사운드의 마스터풀 디제이/프로듀서. Support: Ansol, Suzan. 4시 이후: 10,000원."
     }
   },
   {

@@ -1890,19 +1890,19 @@
     }
   },
   {
-    "raw": "To count special characters in a string, you first need to define what you consider \"special.\" A common definition is: **any character that is NOT a letter (a-z, A-Z), a digit (0-9), or whitespace (spaces, tabs, newlines).**\n\nHere are two common ways to achieve this in Python:\n\n1.  **Using a loop and built-in string methods (`isalnum()`, `isspace()`):**\n2.  **Using Regular Expressions (`re` module):**\n\n---\n\n### Method 1: Loop and Built-in String Methods (Recommended for clarity)\n\nThis method iterates through each character and checks if it's alphanumeric (`isalnum()`) or whitespace (`isspace()`). If it's neither, it's considered special.\n\n```python\ndef count_special_chars_loop(s):\n    \"\"\"\n    Counts special characters in a string.\n    Special characters are defined as anything that is NOT:\n    - a letter (a-z, A-Z)\n    - a digit (0-9)\n    - whitespace (space, tab, newline, etc.)\n    \"\"\"\n    special_char_count = 0\n    for char in s:\n        if not char.isalnum() and not char.isspace():\n            special_char_count += 1\n    return special_char_count\n\n# --- Examples ---\nstring1 = \"Hello World! This is a test string with 123 numbers and symbols: @#$.\"\nstring2 = \"No special characters here 123.\"\nstring3 = \"!@#$%^&*()\"\nstring4 = \"Python_is_great\" # Underscore is counted as special by this definition\n\nprint(f\"'{string1}' -> Special characters: {count_special_chars_loop(string1)}\")\n# Expected: '!' (1), ':' (1), '@' (1), '#' (1), '$' (1), '.' (1) = 6\nprint(f\"'{string2}' -> Special characters: {count_special_chars_loop(string2)}\")\n# Expected: 0\nprint(f\"'{string3}' -> Special characters: {count_special_chars_loop(string3)}\")\n# Expected: 10\nprint(f\"'{string4}' -> Special characters: {count_special_chars_loop(string4)}\")\n# Expected: 2 (for the two underscores)\n```\n\n**Explanation:**\n*   `char.isalnum()`: Returns `True` if `char` is an alphabet letter (a-z, A-Z) or a digit (0-9).\n*   `char.isspace()`: Returns `True` if `char` is a whitespace character (space, tab, newline, etc.).\n*   The condition `not char.isalnum() and not char.isspace()` effectively checks if the character is *neither* alphanumeric *nor* whitespace, thus classifying it as \"special.\"\n\n---\n\n### Method 2: Using Regular Expressions (`re` module)\n\nThis method is more concise and often more performant for very long strings, but requires familiarity with regular expressions.\n\n```python\nimport re\n\ndef count_special_chars_regex(s):\n    \"\"\"\n    Counts special characters in a string using regex.\n    Special characters are defined as anything that is NOT:\n    - a letter (a-zA-Z)\n    - a digit (0-9)\n    - whitespace (\\s)\n    \"\"\"\n    # The pattern `[^a-zA-Z0-9\\s]` means:\n    # ^   : Negation (match anything NOT in the following set)\n    # a-zA-Z : Match any lowercase or uppercase letter\n    # 0-9 : Match any digit\n    # \\s  : Match any whitespace character (space, tab, newline, etc.)\n    pattern = r'[^a-zA-Z0-9\\s]'\n    matches = re.findall(pattern, s)\n    return len(matches)\n\n# --- Examples ---\nstring1 = \"Hello World! This is a test string with 123 numbers and symbols: @#$.\"\nstring2 = \"No special characters here 123.\"\nstring3 = \"!@#$%^&*()\"\nstring4 = \"Python_is_great\" # Underscore is counted as special by this definition\n\nprint(f\"'{string1}' -> Special characters: {count_special_chars_regex(string1)}\")\nprint(f\"'{string2}' -> Special characters: {count_special_chars_regex(string2)}\")\nprint(f\"'{string3}' -> Special characters: {count_special_chars_regex(string3)}\")\nprint(f\"'{string4}' -> Special characters: {count_special_chars_regex(string4)}\")\n```\n\n**Explanation:**\n*   `import re`: Imports Python's regular expression module.\n*   `r'[^a-zA-Z0-9\\s]'`: This is the regular expression pattern.\n    *   `[]` defines a character set.\n    *   `^` inside `[]` negates the set, meaning \"match any character *not* in this set.\"\n    *   `a-zA-Z`: Matches all uppercase and lowercase letters.\n    *   `0-9`: Matches all digits.\n    *   `\\s`: Matches any whitespace character (space, tab, newline, carriage return, form feed, vertical tab).\n*   `re.findall(pattern, s)`: Finds all non-overlapping matches of the `pattern` in the string `s` and returns them as a list of strings.\n*   `len(matches)`: The number of special characters found is simply the length of this list.\n\n---\n\n### Which method to choose?\n\n*   **For clarity and simpler cases:** Use the **loop and built-in methods**. It's generally easier to read and understand, especially for those new to Python.\n*   **For performance-critical applications or complex character definitions:** The **regular expression** method can be more efficient and powerful.\n\nBoth methods provide the same result based on the defined \"special character\" criteria.",
+    "raw": "To calculate the \"special sum\" as defined, we're essentially looking for the [digital root](https://en.wikipedia.org/wiki/Digital_root) of a number.\n\nThe \"special sum\" of a number `n` is:\n1.  If `n` is a single-digit number (0-9), the special sum is `n`.\n2.  If `n` is a multi-digit number, the special sum is the special sum of the sum of its digits.\n\nLet's break down how to implement this efficiently.\n\n### Method 1: Iterative Summation (Following the definition directly)\n\nThis method involves repeatedly summing the digits of a number until the result is a single-digit number.\n\n```python\ndef get_special_sum_iterative(n):\n    \"\"\"\n    Calculates the special sum of a non-negative integer n by repeatedly\n    summing its digits until a single-digit number is obtained.\n\n    Args:\n        n: A non-negative integer.\n\n    Returns:\n        The special sum (digital root) of n.\n\n    Raises:\n        ValueError: If n is negative.\n    \"\"\"\n    if not isinstance(n, int):\n        raise TypeError(\"Input must be an integer.\")\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n\n    if n == 0:\n        return 0\n\n    current_num = n\n    while current_num >= 10:\n        digit_sum = 0\n        temp_num = current_num\n        # Sum the digits of temp_num\n        while temp_num > 0:\n            digit_sum += temp_num % 10  # Add the last digit\n            temp_num //= 10             # Remove the last digit\n        current_num = digit_sum\n        \n    return current_num\n\n# Test cases\nprint(f\"Special sum of 9: {get_special_sum_iterative(9)}\")    # Expected: 9\nprint(f\"Special sum of 18: {get_special_sum_iterative(18)}\")  # Expected: 9 (1+8=9)\nprint(f\"Special sum of 99: {get_special_sum_iterative(99)}\")  # Expected: 9 (9+9=18, 1+8=9)\nprint(f\"Special sum of 123: {get_special_sum_iterative(123)}\")# Expected: 6 (1+2+3=6)\nprint(f\"Special sum of 0: {get_special_sum_iterative(0)}\")    # Expected: 0\nprint(f\"Special sum of 12345: {get_special_sum_iterative(12345)}\") # Expected: 6 (1+2+3+4+5=15, 1+5=6)\n```\n\n### Method 2: Using the Digital Root Formula (More Efficient)\n\nThere's a mathematical property for the digital root of a positive integer `n`:\n*   If `n` is 0, the digital root is 0.\n*   If `n` is a multiple of 9 (and `n > 0`), the digital root is 9.\n*   Otherwise, the digital root is `n % 9`.\n\nThis can be concisely expressed for `n > 0` as: `1 + (n - 1) % 9`.\n\nLet's verify this formula:\n*   If `n = 9`: `1 + (9 - 1) % 9 = 1 + 8 % 9 = 1 + 8 = 9`. Correct.\n*   If `n = 18`: `1 + (18 - 1) % 9 = 1 + 17 % 9 = 1 + 8 = 9`. Correct.\n*   If `n = 123`: `1 + (123 - 1) % 9 = 1 + 122 % 9 = 1 + 5 = 6`. Correct.\n*   If `n = 1`: `1 + (1 - 1) % 9 = 1 + 0 % 9 = 1 + 0 = 1`. Correct.\n\nThis method avoids loops proportional to the number of digits and is `O(1)` (constant time complexity) for any size of `n` (as long as `n` fits in standard integer types).\n\n```python\ndef get_special_sum_formula(n):\n    \"\"\"\n    Calculates the special sum of a non-negative integer n using the\n    digital root formula (1 + (n - 1) % 9 for n > 0).\n\n    Args:\n        n: A non-negative integer.\n\n    Returns:\n        The special sum (digital root) of n.\n\n    Raises:\n        ValueError: If n is negative.\n    \"\"\"\n    if not isinstance(n, int):\n        raise TypeError(\"Input must be an integer.\")\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n\n    if n == 0:\n        return 0\n    else:\n        return 1 + (n - 1) % 9\n\n# Test cases\nprint(\"\\n--- Using Formula Method ---\")\nprint(f\"Special sum of 9: {get_special_sum_formula(9)}\")    # Expected: 9\nprint(f\"Special sum of 18: {get_special_sum_formula(18)}\")  # Expected: 9\nprint(f\"Special sum of 99: {get_special_sum_formula(99)}\")  # Expected: 9\nprint(f\"Special sum of 123: {get_special_sum_formula(123)}\")# Expected: 6\nprint(f\"Special sum of 0: {get_special_sum_formula(0)}\")    # Expected: 0\nprint(f\"Special sum of 12345: {get_special_sum_formula(12345)}\") # Expected: 6\n```\n\n### Which method to choose?\n\n*   **`get_special_sum_iterative`**: More intuitive, directly mirrors the problem's definition, and might be easier to understand for someone unfamiliar with digital roots. Its performance is proportional to the number of digits (log_10(N)).\n*   **`get_special_sum_formula`**: More mathematically elegant and significantly more efficient (constant time) for very large numbers. This is generally preferred in competitive programming or performance-critical applications.\n\nFor most practical purposes, either function will work well. The formula method is often considered the \"trick\" or \"optimal\" solution for this specific problem.",
     "ig_handle": "flatnine_jazzbar",
-    "last_analyzed_at": "2025-11-13T07:02:23.306308+09:00",
+    "last_analyzed_at": "2025-11-20T07:24:13.947363+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-18/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-11/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/flatnine_jazzbar/profile/2025-11-05/profile.json",
       "maps:https://maps.google.com/?cid=3512824848346026630",
       "gemini:enrich"
     ],
@@ -1921,17 +1921,17 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "Flatnine",
+        "name": "FLATNINE",
         "address_text": "서울 서초구 강남대로65길 10 5층",
         "address_components": null,
         "location_lat": 37.5004929768454,
         "location_lon": 127.024952031721,
         "subway_nearby": "2호선 신분당강남역 10번 출구에서 342m",
-        "booking_link": "https://catchtable.co.kr/flatnine_jazzbar",
+        "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Flatnine",
+            "en": "FLATNINE",
             "ko": "플랫나인"
           },
           "address_text": {
@@ -1944,23 +1944,25 @@
     ],
     "i18n": {
       "name": {
-        "en": "Flatnine",
+        "en": "FLATNINE",
         "ko": "플랫나인"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "en": [
+          "Jazz",
           "Bar",
           "Live Music"
         ],
         "ko": [
+          "재즈",
           "바",
           "라이브 공연"
         ]
       },
       "subway_nearby": {
-        "en": "342m from Gangnam Station Exit 10 (Line 2 / Sinbundang Line)",
+        "en": "342m from Gangnam Station Exit 10 (Line 2, Shinbundang Line)",
         "ko": "2호선 신분당강남역 10번 출구에서 342m"
       },
       "food_policy": null,
@@ -2906,18 +2908,19 @@
     }
   },
   {
+    "raw": "The \"Special Instruction\" section isn't a universally fixed or named section in every document. Its location and what it's called can vary greatly depending on the **type of document** and its **purpose**.\n\nHowever, it generally refers to a place where **critical, specific, or unique information** is provided that deviates from standard procedures or requires special attention.\n\nHere are common places where you might find \"Special Instructions\" or similar content:\n\n1.  **At the beginning or end of a document/form:** Often to highlight important prerequisites, deadlines, or unique submission requirements.\n2.  **Within specific sections or steps:** If a particular step or part of a process requires an exception or specific handling, the instruction might be embedded directly there, often in a \"Note,\" \"Warning,\" \"Important,\" or \"Caution\" box.\n3.  **In a dedicated \"Notes,\" \"Remarks,\" \"Exceptions,\" \"Specific Requirements,\" or \"Additional Information\" section:** Some documents will have a general section for anything that doesn't fit neatly into the main structure.\n4.  **Highlighted formatting:** Special instructions are often bolded, italicized, underlined, in a different color, or placed in a box to make them stand out.\n5.  **In an email or memo:** They might be at the top, bolded, or bulleted clearly as \"IMPORTANT,\" \"ACTION REQUIRED,\" or \"SPECIAL NOTE.\"\n6.  **On an invoice or order form:** Often found in a \"Comments,\" \"Notes,\" or \"Delivery Instructions\" field.\n\n**To help you find it, consider:**\n\n*   **What type of document are you looking at?** (e.g., a manual, an application form, a project plan, an email, a task list)\n*   **What kind of information are you expecting to find there?** (e.g., how to handle a specific product, a unique deadline, a deviation from a standard process)\n*   **Look for keywords** like \"Note,\" \"Important,\" \"Warning,\" \"Caution,\" \"Please Read,\" \"Exceptions,\" \"Specific,\" \"Do Not,\" \"Only,\" etc.\n\nWithout knowing the specific document you're referring to, I can't point to an exact location, but these are the most common places to look for such information.",
     "ig_handle": "jazzxover",
-    "last_analyzed_at": "2025-11-13T07:03:27.524399+09:00",
+    "last_analyzed_at": "2025-11-20T07:25:11.875045+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzxover/profile/2025-11-17/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzxover/profile/2025-11-16/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzxover/profile/2025-11-15/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzxover/profile/2025-11-12/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzxover/profile/2025-11-11/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzxover/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzxover/profile/2025-11-07/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/jazz/ig_raw/venues/jazzxover/profile/2025-11-05/profile.json",
       "maps:https://maps.google.com/?cid=4259537056996752822",
       "gemini:enrich"
     ],
@@ -2933,14 +2936,11 @@
       "email": null
     },
     "subway_nearby": "2호선 성수역 2번 출구에서 335m",
-    "genres": [
-      "Bar"
-    ],
     "locations": [
       {
         "location_id": "main",
         "name": "JAZZXOVER",
-        "address_text": "서울 성동구 성수이로22길 34",
+        "address_text": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
         "address_components": null,
         "location_lat": null,
         "location_lon": null,
@@ -2953,8 +2953,8 @@
             "ko": "재즈오버"
           },
           "address_text": {
-            "en": "34, Seongsu-iro 22-gil, Seongdong-gu, Seoul, South Korea",
-            "ko": "서울 성동구 성수이로22길 34"
+            "en": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
+            "ko": "서울 성동구 성수동2가 277-138"
           },
           "notes": null
         }
@@ -2967,16 +2967,9 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Bar"
-        ],
-        "ko": [
-          "바"
-        ]
-      },
+      "genres": null,
       "subway_nearby": {
-        "en": "5 min walk from Seongsu Station Exit 2 on Line 2",
+        "en": "335m walk from Seongsu Station Exit 2 (Line 2)",
         "ko": "2호선 성수역 2번 출구에서 335m"
       },
       "food_policy": null,

@@ -1357,7 +1357,7 @@
   {
     "id": "ven_1574b176-d6c1-4245-b771-d4904bd29896",
     "ig_handle": "flatnine_jazzbar",
-    "name_irl": "Flatnine",
+    "name_irl": "FLATNINE",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -1375,17 +1375,17 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Flatnine",
+          "name": "FLATNINE",
           "address_text": "서울 서초구 강남대로65길 10 5층",
           "address_components": null,
           "location_lat": 37.5004929768454,
           "location_lon": 127.024952031721,
           "subway_nearby": "2호선 신분당강남역 10번 출구에서 342m",
-          "booking_link": "https://catchtable.co.kr/flatnine_jazzbar",
+          "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Flatnine",
+              "en": "FLATNINE",
               "ko": "플랫나인"
             },
             "address_text": {
@@ -1399,23 +1399,25 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Flatnine",
+        "en": "FLATNINE",
         "ko": "플랫나인"
       },
       "address_text": null,
       "notes": null,
       "genres": {
         "en": [
+          "Jazz",
           "Bar",
           "Live Music"
         ],
         "ko": [
+          "재즈",
           "바",
           "라이브 공연"
         ]
       },
       "subway_nearby": {
-        "en": "342m from Gangnam Station Exit 10 (Line 2 / Sinbundang Line)",
+        "en": "342m from Gangnam Station Exit 10 (Line 2, Shinbundang Line)",
         "ko": "2호선 신분당강남역 10번 출구에서 342m"
       },
       "food_policy": null,
@@ -1804,7 +1806,7 @@
         {
           "location_id": "main",
           "name": "JAZZXOVER",
-          "address_text": "서울 성동구 성수이로22길 34",
+          "address_text": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
@@ -1817,8 +1819,8 @@
               "ko": "재즈오버"
             },
             "address_text": {
-              "en": "34, Seongsu-iro 22-gil, Seongdong-gu, Seoul, South Korea",
-              "ko": "서울 성동구 성수이로22길 34"
+              "en": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
+              "ko": "서울 성동구 성수동2가 277-138"
             },
             "notes": null
           }
@@ -1832,16 +1834,9 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Bar"
-        ],
-        "ko": [
-          "바"
-        ]
-      },
+      "genres": null,
       "subway_nearby": {
-        "en": "5 min walk from Seongsu Station Exit 2 on Line 2",
+        "en": "335m walk from Seongsu Station Exit 2 (Line 2)",
         "ko": "2호선 성수역 2번 출구에서 335m"
       },
       "food_policy": null,

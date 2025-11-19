@@ -686,6 +686,36 @@
     }
   },
   {
+    "id": "evt_20251120_cb4e330f-6d5b-472b-b091-8d7e85f12a50",
+    "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-20T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
+    "venue_handle": "africa_since1988",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "bassist_y.m.kim",
+      "j_song_hyun",
+      "yeonkim_p"
+    ],
+    "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "김나연 트리오",
+    "description": "유럽과 아프리카를 오가며 다채로운 음악 활동을 펼치고 있는 피아니스트 김나연의 첫 아프리카 무대. 독특한 음악적 세계를 통해 재즈의 새로운 면모를 경험.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Na-yeon Trio",
+      "description": "Pianist Kim Na-yeon's debut performance at Africa Jazz Club, known for diverse music activities across Europe and Africa. Experience a new side of jazz through her unique musical world."
+    },
+    "_search_ko": {
+      "title": "김나연 트리오",
+      "description": "유럽과 아프리카를 오가며 다채로운 음악 활동을 펼치고 있는 피아니스트 김나연의 첫 아프리카 무대. 독특한 음악적 세계를 통해 재즈의 새로운 면모를 경험."
+    }
+  },
+  {
     "id": "evt_20251120_069ea088-3a2a-42ba-935e-6509fdeedc23",
     "event_key": "v:ven_49e1ce4d-549b-4955-9623-4a6dcc3f1ab9|t:2025-11-20T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQhES8lD488/",
@@ -1488,27 +1518,31 @@
   {
     "id": "evt_20251121_721a0d25-36d1-48c1-adc0-c33924ba6e9a",
     "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQOPAtPDzHk/",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "drum_dongha",
+      "ojun_e",
+      "pjeungyun"
+    ],
     "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
     "venue_location_id": "main",
     "datetime": "2025-11-21T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "박상아 트리오",
-    "description": "박상아 트리오: 박상아 (트럼펫), 이하림 (피아노), 조우진 (베이스). 입장료 20,000원.",
+    "title": "박정윤 트리오",
+    "description": "서정적인 선율과 강렬한 즉흥 연주로 재즈 기타의 진수를 보여주는 박정윤 트리오. 섬세한 감성과 폭발적인 에너지의 조화.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Park Sang-ah Trio",
-      "description": "Park Sang-ah Trio: Park Sang-ah (trumpet), Lee Ha-rim (piano), Jo Woo-jin (bass). Entry fee KRW 20,000."
+      "title": "Park Jeong-yun Trio",
+      "description": "Park Jeong-yun Trio showcases the essence of jazz guitar with lyrical melodies and powerful improvisations. Experience the harmony of delicate sensibility and explosive energy."
     },
     "_search_ko": {
-      "title": "박상아 트리오",
-      "description": "박상아 트리오: 박상아 (트럼펫), 이하림 (피아노), 조우진 (베이스). 입장료 20,000원."
+      "title": "박정윤 트리오",
+      "description": "서정적인 선율과 강렬한 즉흥 연주로 재즈 기타의 진수를 보여주는 박정윤 트리오. 섬세한 감성과 폭발적인 에너지의 조화."
     }
   },
   {
@@ -3329,27 +3363,29 @@
   {
     "id": "evt_20251122_463b26d5-ee22-4363-9a35-3831f02b8918",
     "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-22T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQOPAtPDzHk/",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "yoonsungchojazz"
+    ],
     "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
     "venue_location_id": "main",
     "datetime": "2025-11-22T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Love Supreme",
-    "description": "Love Supreme: 조민재 (드럼), 김대호 (기타), 김대규 (피아노), 황대웅 (베이스), 박인찬 (색소폰), 최백결 (색소폰). 입장료 20,000원.",
+    "title": "조윤성 트리오",
+    "description": "한국 재즈 씬의 독보적인 존재, 피아니스트 조윤성 트리오. 깊이 있는 음악 세계와 뛰어난 연주력.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Love Supreme",
-      "description": "Love Supreme: Jo Min-jae (drums), Kim Dae-ho (guitar), Kim Dae-gyu (piano), Hwang Dae-woong (bass), Park In-chan (saxophone), Choi Baek-gyeol (saxophone). Entry fee KRW 20,000."
+      "title": "Jo Yoon-sung Trio",
+      "description": "Pianist Jo Yoon-sung Trio, a unique presence in the Korean jazz scene. Enjoy his profound musical world and outstanding musicianship."
     },
     "_search_ko": {
-      "title": "Love Supreme",
-      "description": "Love Supreme: 조민재 (드럼), 김대호 (기타), 김대규 (피아노), 황대웅 (베이스), 박인찬 (색소폰), 최백결 (색소폰). 입장료 20,000원."
+      "title": "조윤성 트리오",
+      "description": "한국 재즈 씬의 독보적인 존재, 피아니스트 조윤성 트리오. 깊이 있는 음악 세계와 뛰어난 연주력."
     }
   },
   {
@@ -5137,6 +5173,37 @@
     }
   },
   {
+    "id": "evt_20251123_0ba89511-70b5-4ca3-bd6f-571e929e9bb3",
+    "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
+    "venue_handle": "africa_since1988",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "bass_kimyeonghu",
+      "kwang_yeon_drum",
+      "myungseop_shin",
+      "yuseungho__"
+    ],
+    "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "신명섭 퀄텟",
+    "description": "재즈 색소포니스트 신명섭이 이끄는 퀄텟. 스윙과 비밥을 넘나들며 현대적인 감각으로 재해석한 전통 재즈의 매력.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Shin Myung-seop Quartet",
+      "description": "Jazz saxophonist Shin Myung-seop's Quartet. Presents the charm of traditional jazz reinterpreted with modern sensibilities, spanning swing and bebop."
+    },
+    "_search_ko": {
+      "title": "신명섭 퀄텟",
+      "description": "재즈 색소포니스트 신명섭이 이끄는 퀄텟. 스윙과 비밥을 넘나들며 현대적인 감각으로 재해석한 전통 재즈의 매력."
+    }
+  },
+  {
     "id": "evt_20251123_04d7d6d2-c629-4cdd-aaa0-b460c582bb2a",
     "event_key": "v:ven_1f98b252-1aa5-49c4-be3e-90b5a377de2f|t:2025-11-23T11:10:00+00:00",
     "source_url": "https://www.instagram.com/p/DRJNRUuiQRC/",
@@ -5375,6 +5442,37 @@
     "_search_ko": {
       "title": "Anthony Fung 퀄텟",
       "description": "Anthony Fung 퀄텟 공연."
+    }
+  },
+  {
+    "id": "evt_20251124_d1558a07-5751-4013-a261-5d6678417c23",
+    "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-24T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
+    "venue_handle": "africa_since1988",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "hwanbass_",
+      "kh_e__h_",
+      "minchandrummer",
+      "yoonsungchojazz"
+    ],
+    "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-24T10:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "서경혜 퀄텟",
+    "description": "감성적인 보컬리스트 서경혜가 이끄는 퀄텟. 부드러운 음색과 섬세한 표현력으로 관객들의 마음을 사로잡을 특별한 무대.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Seo Kyung-hye Quartet",
+      "description": "Vocalist Seo Kyung-hye's Quartet. A special performance that will captivate the audience with her soft tone and delicate expressiveness."
+    },
+    "_search_ko": {
+      "title": "서경혜 퀄텟",
+      "description": "감성적인 보컬리스트 서경혜가 이끄는 퀄텟. 부드러운 음색과 섬세한 표현력으로 관객들의 마음을 사로잡을 특별한 무대."
     }
   },
   {
@@ -5855,7 +5953,7 @@
   {
     "id": "evt_20251125_35013802-eef9-48c7-bfc7-9bf51d4209c3",
     "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-25T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQOPAtPDzHk/",
+    "source_url": "https://www.instagram.com/p/DQOOz-TD-bO/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -5864,18 +5962,18 @@
     "datetime": "2025-11-25T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "효정리 밴드 (원먼스페스티벌)",
-    "description": "효정리 밴드 (원먼스페스티벌): 효정리 (보컬), 장세연 (피아노), 박주민 (베이스), Alain O. Samada (드럼). 입장료 20,000원.",
+    "title": "효정리 밴드",
+    "description": "원먼스페스티벌. 효정리 (보컬)",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Hyo Jung-ri Band (One Month Festival)",
-      "description": "Hyo Jung-ri Band (One Month Festival): Hyo Jung-ri (vocal), Jang Se-yeon (piano), Park Ju-min (bass), Alain O. Samada (drums). Entry fee KRW 20,000."
+      "title": "Hyo Jeong-ri Band",
+      "description": "One Month Festival. Hyo Jeong-ri (vocal)"
     },
     "_search_ko": {
-      "title": "효정리 밴드 (원먼스페스티벌)",
-      "description": "효정리 밴드 (원먼스페스티벌): 효정리 (보컬), 장세연 (피아노), 박주민 (베이스), Alain O. Samada (드럼). 입장료 20,000원."
+      "title": "효정리 밴드",
+      "description": "원먼스페스티벌. 효정리 (보컬)"
     }
   },
   {
@@ -6245,27 +6343,32 @@
   {
     "id": "evt_20251126_d3061a2d-fa38-4d4f-8e30-bd7f076ce22f",
     "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-26T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQOPAtPDzHk/",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "daehwankim_d",
+      "hayy_y0",
+      "jih00n.song",
+      "kiminyoung_b"
+    ],
     "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
     "venue_location_id": "main",
     "datetime": "2025-11-26T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "KeepAliveJazz",
-    "description": "KeepAliveJazz (수요기획): 손태호 (색소폰), 박찬호 (피아노), 권순안 (베이스), 김이삭 (드럼). 입장료 20,000원.",
+    "title": "유하영 밴드",
+    "description": "독특한 음색과 폭발적인 가창력의 유하영 밴드. 다양한 장르를 넘나드는 음악적 스펙트럼.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "KeepAliveJazz",
-      "description": "KeepAliveJazz (Wednesday Project): Son Tae-ho (saxophone), Park Chan-ho (piano), Kwon Soon-an (bass), Kim Isaac (drums). Entry fee KRW 20,000."
+      "title": "Yu Ha-young Band",
+      "description": "Yu Ha-young Band, with a unique voice and explosive vocal power. Anticipate her musical spectrum spanning various genres."
     },
     "_search_ko": {
-      "title": "KeepAliveJazz",
-      "description": "KeepAliveJazz (수요기획): 손태호 (색소폰), 박찬호 (피아노), 권순안 (베이스), 김이삭 (드럼). 입장료 20,000원."
+      "title": "유하영 밴드",
+      "description": "독특한 음색과 폭발적인 가창력의 유하영 밴드. 다양한 장르를 넘나드는 음악적 스펙트럼."
     }
   },
   {
@@ -7111,6 +7214,37 @@
     }
   },
   {
+    "id": "evt_20251127_d9f432e3-d40d-4543-838a-c6380b31cc0a",
+    "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
+    "venue_handle": "africa_since1988",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "jingyobass",
+      "sindong_ha",
+      "sunggu_lee",
+      "sunye_park"
+    ],
+    "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "박선예 트리오",
+    "description": "깊은 감성과 섬세한 표현력으로 관객들에게 감동을 선사하는 보컬리스트 박선예 트리오. 그녀의 목소리에 담긴 이야기.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Seon-ye Trio",
+      "description": "Vocalist Park Seon-ye Trio delivers emotion with deep sensibility and delicate expression. Listen to the stories in her voice."
+    },
+    "_search_ko": {
+      "title": "박선예 트리오",
+      "description": "깊은 감성과 섬세한 표현력으로 관객들에게 감동을 선사하는 보컬리스트 박선예 트리오. 그녀의 목소리에 담긴 이야기."
+    }
+  },
+  {
     "id": "evt_20251127_9e4f3665-0c25-4ab6-884e-ef732fac9f77",
     "event_key": "v:ven_49e1ce4d-549b-4955-9623-4a6dcc3f1ab9|t:2025-11-27T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQhES8lD488/",
@@ -7665,27 +7799,32 @@
   {
     "id": "evt_20251128_c8f21f33-34a3-4e57-8cc0-f38965968280",
     "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-28T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQOPAtPDzHk/",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "h.s.s_guitar",
+      "hangulchoi",
+      "leedongmin_bass",
+      "sdj_music"
+    ],
     "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
     "venue_location_id": "main",
     "datetime": "2025-11-28T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "Pipeline",
-    "description": "Pipeline: 허유진 (보컬), 김선훈 (피아노, 기타), 김은호 (퍼커션), 강민정 (해금). 입장료 20,000원.",
+    "title": "허성수 퀄텟",
+    "description": "재즈 기타리스트 허성수가 이끄는 퀄텟. 전통 재즈의 정통성에 기반을 둔 현대적인 사운드를 추구하며 다채로운 음악적 시도.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Pipeline",
-      "description": "Pipeline: Heo Yu-jin (vocal), Kim Seon-hoon (piano, guitar), Kim Eun-ho (percussion), Kang Min-jung (haegeum). Entry fee KRW 20,000."
+      "title": "Heo Seong-su Quartet",
+      "description": "Jazz guitarist Heo Seong-su's Quartet. Pursues a modern sound based on traditional jazz authenticity, showcasing diverse musical attempts."
     },
     "_search_ko": {
-      "title": "Pipeline",
-      "description": "Pipeline: 허유진 (보컬), 김선훈 (피아노, 기타), 김은호 (퍼커션), 강민정 (해금). 입장료 20,000원."
+      "title": "허성수 퀄텟",
+      "description": "재즈 기타리스트 허성수가 이끄는 퀄텟. 전통 재즈의 정통성에 기반을 둔 현대적인 사운드를 추구하며 다채로운 음악적 시도."
     }
   },
   {
@@ -8859,27 +8998,30 @@
   {
     "id": "evt_20251129_9a0f0e4f-78d0-4290-b9d9-713ea104fa7b",
     "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-29T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQOPAtPDzHk/",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
     "venue_handle": "africa_since1988",
     "musician_ids": [],
-    "musician_ig_handles": [],
+    "musician_ig_handles": [
+      "jeong_seongmo_",
+      "yongjoon.jeon"
+    ],
     "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
     "venue_location_id": "main",
     "datetime": "2025-11-29T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "김대규 퀸텟",
-    "description": "김대규 퀸텟: 김대규 (피아노), 강성민 (베이스), 김회희 (드럼), 김경모 (기타), 정준 (색소폰). 입장료 20,000원.",
+    "title": "정성모 퀄텟",
+    "description": "다채로운 음악적 스펙트럼을 가진 피아니스트 정성모 퀄텟. 깊이 있는 음악성과 감각적인 연주.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Kim Dae-gyu Quintet",
-      "description": "Kim Dae-gyu Quintet: Kim Dae-gyu (piano), Kang Sung-min (bass), Kim Hoe-hui (drums), Kim Kyung-mo (guitar), Jung Jun (saxophone). Entry fee KRW 20,000."
+      "title": "Jeong Seong-mo Quartet",
+      "description": "Pianist Jeong Seong-mo Quartet with a diverse musical spectrum. Delivers an unforgettable night with profound musicality and sensuous performance."
     },
     "_search_ko": {
-      "title": "김대규 퀸텟",
-      "description": "김대규 퀸텟: 김대규 (피아노), 강성민 (베이스), 김회희 (드럼), 김경모 (기타), 정준 (색소폰). 입장료 20,000원."
+      "title": "정성모 퀄텟",
+      "description": "다채로운 음악적 스펙트럼을 가진 피아니스트 정성모 퀄텟. 깊이 있는 음악성과 감각적인 연주."
     }
   },
   {
@@ -10035,6 +10177,37 @@
     "_search_ko": {
       "title": "찰리정",
       "description": "찰리정 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251130_3c0afb22-b2d9-4e58-9485-8d2ee6a95748",
+    "event_key": "v:ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5|t:2025-11-30T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPJzHCD-90/",
+    "venue_handle": "africa_since1988",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "chang_min_bass",
+      "eunjeong__hwang",
+      "j_song_hyun",
+      "yoonsungchojazz"
+    ],
+    "venue_id": "ven_b4e9d0e4-c979-4c79-b12f-564196a0bfa5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-30T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "황은정 퀄텟",
+    "description": "따뜻하고 매력적인 보이스의 황은정 퀄텟. 섬세한 감성과 깊이 있는 표현력으로 재즈 보컬의 진수를 선사.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Hwang Eun-jeong Quartet",
+      "description": "Hwang Eun-jeong Quartet with a warm and charming voice. Delivers the essence of jazz vocal with her delicate sensibility and profound expressiveness."
+    },
+    "_search_ko": {
+      "title": "황은정 퀄텟",
+      "description": "따뜻하고 매력적인 보이스의 황은정 퀄텟. 섬세한 감성과 깊이 있는 표현력으로 재즈 보컬의 진수를 선사."
     }
   },
   {

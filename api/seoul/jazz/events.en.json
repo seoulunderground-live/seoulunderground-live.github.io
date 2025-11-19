@@ -3425,6 +3425,32 @@
     }
   },
   {
+    "id": "evt_20251122_49d08633-7d55-495f-a1f5-9324ce9c8e6f",
+    "event_key": "v:ven_8f3bc73b-ce03-4d24-8ac1-2448715db5d5|t:2025-11-22T05:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRGfPnrEokk/",
+    "venue_handle": "jazzclubbottomline",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_8f3bc73b-ce03-4d24-8ac1-2448715db5d5",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T05:00:00+00:00",
+    "price": "Free",
+    "llm_confidence": 1.0,
+    "title": "Gyejeoljieum",
+    "description": "Jazz guitarist Bong Yoon-geun performs 'Gyejeoljieum', a crossover of Korean traditional music and jazz. Held at Korea-China Cultural Center in Jung-gu.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Gyejeoljieum",
+      "description": "Jazz guitarist Bong Yoon-geun performs 'Gyejeoljieum', a crossover of Korean traditional music and jazz. Held at Korea-China Cultural Center in Jung-gu."
+    },
+    "_search_ko": {
+      "title": "계절지음",
+      "description": "재즈 기타리스트 봉윤근의 국악과 재즈 크로스오버 공연 '계절지음'. 중구 한중문화관에서 진행."
+    }
+  },
+  {
     "id": "evt_20251122_cbb1de17-87c7-4948-8d21-3307a806c032",
     "event_key": "v:ven_1f98b252-1aa5-49c4-be3e-90b5a377de2f|t:2025-11-22T06:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DRJNtAKCfLD/",

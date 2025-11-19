@@ -4477,6 +4477,32 @@
     }
   },
   {
+    "id": "evt_20251122_b77af45e-c051-4657-8ba3-7f5fa34bc57e",
+    "event_key": "v:ven_c92cb787-559d-4f29-8ab7-c835fedcb926|t:2025-11-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRNpcPzk3he/",
+    "venue_handle": "myjazzgarden",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_c92cb787-559d-4f29-8ab7-c835fedcb926",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "손윤 밴드",
+    "description": "손윤 밴드의 라이브 공연.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Sohn Yoon Band",
+      "description": "Sohn Yoon and her tap band perform live."
+    },
+    "_search_ko": {
+      "title": "손윤 밴드",
+      "description": "손윤 밴드의 라이브 공연."
+    }
+  },
+  {
     "id": "evt_20251122_dfa19e38-dbcb-45f9-8eef-c1d77c68a6b7",
     "event_key": "v:ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5|t:2025-11-22T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
@@ -12077,17 +12103,17 @@
     "price": "None",
     "llm_confidence": 1.0,
     "title": "크리스마스 클래식 판타지",
-    "description": "겨울의 서정과 열정의 조화, 낭만주의 감성과 현대적 리듬이 어우러진 2 Piano & Chamber Collaboration Concert. 1부에서는 슈만, 리스트, 마르케스의 선율로 사랑과 겨울 정서를 담은 두 대의 피아노 무대가, 2부에서는 피아졸라 탱고와 이주혜의 'Christmas Fantasy'가 현악기와 카혼의 리듬 속에서 열정과 환상의 무대를 펼친다.",
+    "description": "겨울의 서정과 열정의 조화를 테마로 한 2PIANO & CHAMBER COLLABORATION CONCERT. 슈만, 리스트, 마르케스, 피아졸라, 이주혜의 'Christmas Fantasy'를 현악기와 카혼이 어우러진 무대.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Christmas Classic Fantasy",
-      "description": "A harmonious blend of winter's lyricism and passion, this 2 Piano & Chamber Collaboration Concert combines romantic sentiment with contemporary rhythms. Part 1 features two pianos presenting the essence of love and winter through melodies by Schumann, Liszt, and Márquez. Part 2 brings the passion and fantasy of Piazzolla's tango and Joo-Hye Lee's 'Christmas Fantasy' with the rhythms of strings and cajon."
+      "description": "A Christmas 2-piano and chamber collaboration concert. Blends romantic and modern rhythms with works by Schumann, Liszt, Márquez, Piazzolla, and Joo-Hye Lee."
     },
     "_search_ko": {
       "title": "크리스마스 클래식 판타지",
-      "description": "겨울의 서정과 열정의 조화, 낭만주의 감성과 현대적 리듬이 어우러진 2 Piano & Chamber Collaboration Concert. 1부에서는 슈만, 리스트, 마르케스의 선율로 사랑과 겨울 정서를 담은 두 대의 피아노 무대가, 2부에서는 피아졸라 탱고와 이주혜의 'Christmas Fantasy'가 현악기와 카혼의 리듬 속에서 열정과 환상의 무대를 펼친다."
+      "description": "겨울의 서정과 열정의 조화를 테마로 한 2PIANO & CHAMBER COLLABORATION CONCERT. 슈만, 리스트, 마르케스, 피아졸라, 이주혜의 'Christmas Fantasy'를 현악기와 카혼이 어우러진 무대."
     }
   },
   {

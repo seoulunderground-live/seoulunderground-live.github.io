@@ -657,7 +657,7 @@
   {
     "id": "evt_20251120_eb69e553-e1fd-4498-9c65-ab270a13140c",
     "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRPAka5k4Xh/",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
     "venue_handle": "_jam_lounge",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -669,20 +669,20 @@
     "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
     "venue_location_id": "main",
     "datetime": "2025-11-20T11:00:00+00:00",
-    "price": "KRW 10,000",
+    "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Lee Ju-hyun Quartet",
-    "description": "Live jazz performance led by vocalist Lee Ju-hyun. Lee Ju-hyun (vocal) @juliannalewislee, Choi Ji-hoon (piano) @ji_hoon_choi_jazz, Jung Jae-yoon (bass) @j_j_y_n, Kim Min-chan (drums) @minchan_kim_official.",
+    "title": "Lee Jeong-yoon Trio",
+    "description": "Jazz trio performance.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lee Ju-hyun Quartet",
-      "description": "Live jazz performance led by vocalist Lee Ju-hyun. Lee Ju-hyun (vocal) @juliannalewislee, Choi Ji-hoon (piano) @ji_hoon_choi_jazz, Jung Jae-yoon (bass) @j_j_y_n, Kim Min-chan (drums) @minchan_kim_official."
+      "title": "Lee Jeong-yoon Trio",
+      "description": "Jazz trio performance."
     },
     "_search_ko": {
-      "title": "이주현 퀄텟",
-      "description": "보컬 이주현을 주축으로 한 라이브 재즈 공연. 이주현 (보컬) @juliannalewislee, 최지훈 (피아노) @ji_hoon_choi_jazz, 정재윤 (베이스) @j_j_y_n, 김민찬 (드럼) @minchan_kim_official."
+      "title": "이정윤 트리오",
+      "description": "재즈 트리오 공연."
     }
   },
   {
@@ -2144,7 +2144,7 @@
   {
     "id": "evt_20251121_0f0a3968-0b3d-402b-9bdf-0579bed2c2e6",
     "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DRPAka5k4Xh/",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
     "venue_handle": "_jam_lounge",
     "musician_ids": [],
     "musician_ig_handles": [
@@ -2156,20 +2156,20 @@
     "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
     "venue_location_id": "main",
     "datetime": "2025-11-21T11:00:00+00:00",
-    "price": "KRW 10,000",
+    "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Heo So-young Quartet",
-    "description": "Live jazz performance led by vocalist Heo So-young. Heo So-young (vocal) @huryonng, Park Ki-hoon (piano) @gihun__p, Park Kwan-woo (bass) @kwanu__park, Jo Jae-won (drums) @cho_jae_won_.",
+    "title": "Kim Tae-hwan Quartet",
+    "description": "Jazz quartet performance.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Heo So-young Quartet",
-      "description": "Live jazz performance led by vocalist Heo So-young. Heo So-young (vocal) @huryonng, Park Ki-hoon (piano) @gihun__p, Park Kwan-woo (bass) @kwanu__park, Jo Jae-won (drums) @cho_jae_won_."
+      "title": "Kim Tae-hwan Quartet",
+      "description": "Jazz quartet performance."
     },
     "_search_ko": {
-      "title": "허소영 퀄텟",
-      "description": "보컬 허소영을 주축으로 한 라이브 재즈 공연. 허소영 (보컬) @huryonng, 박기훈 (피아노) @gihun__p, 박관우 (베이스) @kwanu__park, 조재원 (드럼) @cho_jae_won_."
+      "title": "김태환 퀄텟",
+      "description": "재즈 퀄텟 공연."
     }
   },
   {
@@ -3112,6 +3112,32 @@
     }
   },
   {
+    "id": "evt_20251122_cf2283af-6ff8-417b-9df0-9c720ae39de5",
+    "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-22T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T10:00:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Park Sun-young Band",
+    "description": "Live band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Sun-young Band",
+      "description": "Live band performance."
+    },
+    "_search_ko": {
+      "title": "박선영 밴드",
+      "description": "라이브 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251122_33a767f3-cd07-427a-8dec-c52a981ade59",
     "event_key": "v:ven_c125f832-6f8a-4db5-b2d5-1a2c9673451b|t:2025-11-22T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQjdc8bEZag/",
@@ -3933,6 +3959,35 @@
     }
   },
   {
+    "id": "evt_20251122_975f1803-9e28-4d83-a011-1db88db88d15",
+    "event_key": "v:ven_7a5eabd4-18c1-45a5-a383-fba1072726ff|t:2025-11-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DROyGv4EySf/",
+    "venue_handle": "banjul_stage",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "minsub_gim",
+      "soojin_x_park"
+    ],
+    "venue_id": "ven_7a5eabd4-18c1-45a5-a383-fba1072726ff",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": "KRW 25,000",
+    "llm_confidence": 1.0,
+    "title": "Yu Ha-young Quartet",
+    "description": "Jazz vocal Yu Ha-young. Kim Min-seop (guitar) @minsub_gim, Jung Sang-hoon (bass), Park Soo-jin (drums) @soojin_x_park.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Yu Ha-young Quartet",
+      "description": "Jazz vocal Yu Ha-young. Kim Min-seop (guitar) @minsub_gim, Jung Sang-hoon (bass), Park Soo-jin (drums) @soojin_x_park."
+    },
+    "_search_ko": {
+      "title": "유하영 퀄텟",
+      "description": "재즈 보컬 유하영. 김민섭 (기타) @minsub_gim, 정상훈 (베이스), 박수진 (드럼) @soojin_x_park."
+    }
+  },
+  {
     "id": "evt_20251122_dfa19e38-dbcb-45f9-8eef-c1d77c68a6b7",
     "event_key": "v:ven_2fe1969b-85a1-4fbc-a0cd-5a02bcfca5a5|t:2025-11-22T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
@@ -4337,6 +4392,32 @@
     "_search_ko": {
       "title": "박상연 퀸텟",
       "description": "박상연 퀸텟의 재즈 공연."
+    }
+  },
+  {
+    "id": "evt_20251122_5a7def21-2ef6-48dd-828d-b4b554ee4656",
+    "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-22T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T12:00:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Park Sun-young Band",
+    "description": "Live band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Sun-young Band",
+      "description": "Live band performance."
+    },
+    "_search_ko": {
+      "title": "박선영 밴드",
+      "description": "라이브 밴드 공연."
     }
   },
   {
@@ -4923,6 +5004,32 @@
     }
   },
   {
+    "id": "evt_20251123_2d3eb394-9f4b-4677-ad3d-a3c7cda8aaee",
+    "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-23T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T10:30:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Blues Jam Day",
+    "description": "Blues jam session hosted by Song Ho-hyun Duo.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Blues Jam Day",
+      "description": "Blues jam session hosted by Song Ho-hyun Duo."
+    },
+    "_search_ko": {
+      "title": "블루스 잼데이",
+      "description": "송호현 듀오가 호스트하는 블루스 잼데이."
+    }
+  },
+  {
     "id": "evt_20251123_9e6be30f-c210-416b-b180-ec8272e7ddc8",
     "event_key": "v:ven_2bd24276-e054-4c7f-8d70-4a4eaea9878f|t:2025-11-23T10:40:00+00:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
@@ -5201,6 +5308,34 @@
     "_search_ko": {
       "title": "신명섭 퀄텟",
       "description": "재즈 색소포니스트 신명섭이 이끄는 퀄텟. 스윙과 비밥을 넘나들며 현대적인 감각으로 재해석한 전통 재즈의 매력."
+    }
+  },
+  {
+    "id": "evt_20251123_9b60e66b-89d1-4b57-b744-5f6818c87ad4",
+    "event_key": "v:ven_31c5ce25-0751-4363-85b1-d40e7678846d|t:2025-11-23T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPmAUeEzLv/",
+    "venue_handle": "jazzxover",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "hanxazz"
+    ],
+    "venue_id": "ven_31c5ce25-0751-4363-85b1-d40e7678846d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T11:00:00+00:00",
+    "price": "KRW 25,000 (advance), KRW 30,000 (at door)",
+    "llm_confidence": 1.0,
+    "title": "Lukku Kim Jazz Band",
+    "description": "Performance by Lukku Kim Jazz Band (@lukkukim_jazz_band). Lukku Kim (guitar, vocal), Kim Han (bass) @hanxazz, Park Jin-hyuk (drums), Choi Yong-soo (piano). Advance KRW 25,000, at door KRW 30,000.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lukku Kim Jazz Band",
+      "description": "Performance by Lukku Kim Jazz Band (@lukkukim_jazz_band). Lukku Kim (guitar, vocal), Kim Han (bass) @hanxazz, Park Jin-hyuk (drums), Choi Yong-soo (piano). Advance KRW 25,000, at door KRW 30,000."
+    },
+    "_search_ko": {
+      "title": "김럭구 재즈 밴드",
+      "description": "김럭구 재즈 밴드 (@lukkukim_jazz_band)의 공연. 김럭구 (기타, 보컬), 김한 (베이스) @hanxazz, 박진혁 (드럼), 최용수 (피아노). 예매 25,000원, 현매 30,000원."
     }
   },
   {
@@ -6437,18 +6572,18 @@
     "datetime": "2025-11-26T11:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Anthony Fung Trio Feat. Kyumin Shim",
-    "description": "Anthony Fung Trio with special guest Kyumin Shim (piano) @kyumin_shim. Performance in two parts, starting at 8:00 PM and 9:20 PM.",
+    "title": "Anthony Fung Trio (feat. Kyumin Shim)",
+    "description": "Anthony Fung Trio Korea tour. Lineup: Tomoaki Baba (tenor sax), Shin Sakaino (bass), Kyumin Shim (piano) @kyumin_shim, Anthony Fung (drums).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Anthony Fung Trio Feat. Kyumin Shim",
-      "description": "Anthony Fung Trio with special guest Kyumin Shim (piano) @kyumin_shim. Performance in two parts, starting at 8:00 PM and 9:20 PM."
+      "title": "Anthony Fung Trio (feat. Kyumin Shim)",
+      "description": "Anthony Fung Trio Korea tour. Lineup: Tomoaki Baba (tenor sax), Shin Sakaino (bass), Kyumin Shim (piano) @kyumin_shim, Anthony Fung (drums)."
     },
     "_search_ko": {
-      "title": "앤서니 펑 트리오 Feat. 심규민",
-      "description": "앤서니 펑 트리오. 스페셜 게스트 심규민 (피아노) @kyumin_shim. 2부 공연, 8시와 9시 20분 시작."
+      "title": "앤서니 펑 트리오 (feat. 심규민)",
+      "description": "앤서니 펑 트리오 내한 공연. 라인업: Tomoaki Baba (테너 색소폰), Shin Sakaino (베이스), 심규민 (피아노) @kyumin_shim, Anthony Fung (드럼)."
     }
   },
   {
@@ -7242,6 +7377,32 @@
     "_search_ko": {
       "title": "박선예 트리오",
       "description": "깊은 감성과 섬세한 표현력으로 관객들에게 감동을 선사하는 보컬리스트 박선예 트리오. 그녀의 목소리에 담긴 이야기."
+    }
+  },
+  {
+    "id": "evt_20251127_e247dc56-ce31-4651-904c-1af2d7af4d92",
+    "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-27T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-27T11:00:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Lim Mi-jeong & Kim Young-hoo",
+    "description": "Jazz pianist Lim Mi-jeong with special guest Kim Young-hoo (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lim Mi-jeong & Kim Young-hoo",
+      "description": "Jazz pianist Lim Mi-jeong with special guest Kim Young-hoo (drums)."
+    },
+    "_search_ko": {
+      "title": "임미정 & 김영후",
+      "description": "재즈 피아니스트 임미정, 스페셜 게스트 김영후 (드럼)."
     }
   },
   {
@@ -8229,6 +8390,32 @@
     }
   },
   {
+    "id": "evt_20251128_6e0d6118-75ea-44da-a185-cce8f1bf32d8",
+    "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-28T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-28T11:00:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Lee Ye-jin Band",
+    "description": "Vocal Lee Ye-jin's band performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Ye-jin Band",
+      "description": "Vocal Lee Ye-jin's band performance."
+    },
+    "_search_ko": {
+      "title": "이예진 밴드",
+      "description": "보컬 이예진 밴드 공연."
+    }
+  },
+  {
     "id": "evt_20251128_5f138a9d-122b-45b0-9c6f-3385ee7e27f5",
     "event_key": "v:ven_09b720cd-485f-48f5-8008-1ad4e04210e9|t:2025-11-28T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3zMBhD29e/",
@@ -8805,6 +8992,32 @@
     "_search_ko": {
       "title": "이주미 재즈팔레트",
       "description": "섬세한 기교와 힘을 갖춘 최고의 재즈 디바 이주미의 '재즈팔레트' 공연. 2025년 제31회 대한민국 연예예술상 '재즈아티스트상' 수상. 이주미 (보컬), 이미영 (피아노), 문새롬 (드럼), 임경진 (베이스). 음료(와인 포함) 1잔 및 스낵 제공. 예매 25,000원, 현장 30,000원. 학생 20% 할인."
+    }
+  },
+  {
+    "id": "evt_20251129_1466116d-4aa7-4621-b414-c602f1fe3f23",
+    "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-29T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T10:00:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Kim Sung-hyun Quintet",
+    "description": "Jazz quintet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Sung-hyun Quintet",
+      "description": "Jazz quintet performance."
+    },
+    "_search_ko": {
+      "title": "김성현 퀸텟",
+      "description": "재즈 퀸텟 공연."
     }
   },
   {
@@ -9684,6 +9897,32 @@
     }
   },
   {
+    "id": "evt_20251129_580294ce-e332-43f2-8e48-7aec9dd4343f",
+    "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-29T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-29T12:00:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Kim Sung-hyun Quintet",
+    "description": "Jazz quintet performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Kim Sung-hyun Quintet",
+      "description": "Jazz quintet performance."
+    },
+    "_search_ko": {
+      "title": "김성현 퀸텟",
+      "description": "재즈 퀸텟 공연."
+    }
+  },
+  {
     "id": "evt_20251129_8ebf124f-6f42-49df-8703-1cf21b18c74e",
     "event_key": "v:ven_a2c6a34c-852a-4890-b574-4a7ca9b29451|t:2025-11-29T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DQTg-WdAQgE/",
@@ -10045,6 +10284,32 @@
     "_search_ko": {
       "title": "주미래 듀오",
       "description": "주미래 듀오의 재즈 공연."
+    }
+  },
+  {
+    "id": "evt_20251130_7bf17823-d989-4f2f-b50f-9f7831b88b71",
+    "event_key": "v:ven_91cbca0c-e581-4bb5-a189-261b26e29df2|t:2025-11-30T10:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRPAwmyE1kV/",
+    "venue_handle": "_jam_lounge",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_91cbca0c-e581-4bb5-a189-261b26e29df2",
+    "venue_location_id": "main",
+    "datetime": "2025-11-30T10:30:00+00:00",
+    "price": "KRW 20,000",
+    "llm_confidence": 1.0,
+    "title": "Park Jin-woo Solo",
+    "description": "Bass Park Jin-woo solo performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Park Jin-woo Solo",
+      "description": "Bass Park Jin-woo solo performance."
+    },
+    "_search_ko": {
+      "title": "박진우 솔로",
+      "description": "베이스 박진우 솔로 공연."
     }
   },
   {

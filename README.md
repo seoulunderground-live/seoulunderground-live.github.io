@@ -4,15 +4,15 @@ This is a **static site** automatically deployed from the private crawler reposi
 
 ## Build Information
 
-- **Build Time**: 2025-11-19T19:57:21Z
+- **Build Time**: 2025-11-19T21:42:12Z
 - **Source Commit**: [`acb2cb13c55a152c98011ba300473bad2432dbe1`](https://github.com/keunwoochoi/seoulunderground.live/commit/acb2cb13c55a152c98011ba300473bad2432dbe1)
 - **Branch**: `main`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19514567755)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19517361351)
 
 ## Commit Details
 
-- **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: refactor: slack notify now calls python function directly
+- **Author**:  <>
+- **Message**: 
 
 ## Deployment
 

@@ -26,9 +26,39 @@
     }
   },
   {
+    "id": "evt_20251120_01a7db3a-20f9-4f20-ba7f-6fcabbcaca98",
+    "event_key": "v:ven_89fb12fe-3651-48a9-9621-f1205b549d0d|t:2025-11-20T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRRA5oCE8vm/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "00_jun_ho_",
+      "still.hee",
+      "townsley0070"
+    ],
+    "venue_id": "ven_89fb12fe-3651-48a9-9621-f1205b549d0d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-20T10:00:00+00:00",
+    "price": "Free Entry",
+    "llm_confidence": 1.0,
+    "title": "Lee Eun-chong Trio",
+    "description": "Lee Eun-chong Trio (contemporary jazz) presents diverse original compositions conveying various emotions. Free entry & deferred payment.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Eun-chong Trio",
+      "description": "Lee Eun-chong Trio (contemporary jazz) presents diverse original compositions conveying various emotions. Free entry & deferred payment."
+    },
+    "_search_ko": {
+      "title": "이은총 트리오",
+      "description": "이은총 트리오의 컨템포러리 재즈 공연. 다채로운 자작곡을 통해 여러 감정들을 전달합니다. 무료 입장 및 후불 페이."
+    }
+  },
+  {
     "id": "evt_20251120_ba41d206-d97e-49bb-9586-3a084b5b4cc2",
     "event_key": "v:ven_ba02a95a-d9f9-4e4e-a5c7-1d2d915e5538|t:2025-11-20T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ3kdLTgdu0/",
+    "source_url": "https://www.instagram.com/p/DRQ8nmegW-e/",
     "venue_handle": "_jam_lounge",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -37,18 +67,18 @@
     "datetime": "2025-11-20T10:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Woo Sun Hee Trio",
-    "description": "Jazz performance by Woo Sun Hee Trio. First set.",
+    "title": "Woo Seon-hee Trio",
+    "description": "Jazz performance by Woo Seon-hee Trio. Featuring Woo Seon-hee (vocal, piano), Lee Byeong-heon (bass), and Kim Yong-jun (saxophone).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Woo Sun Hee Trio",
-      "description": "Jazz performance by Woo Sun Hee Trio. First set."
+      "title": "Woo Seon-hee Trio",
+      "description": "Jazz performance by Woo Seon-hee Trio. Featuring Woo Seon-hee (vocal, piano), Lee Byeong-heon (bass), and Kim Yong-jun (saxophone)."
     },
     "_search_ko": {
-      "title": "우 선 희 트리오",
-      "description": "우 선 희 트리오 재즈 공연. 1부."
+      "title": "우선희 트리오",
+      "description": "우선희 트리오의 재즈 공연. 우선희 (보컬, 피아노), 이병헌 (베이스), 김용준 (색소폰) 참여."
     }
   },
   {
@@ -1265,6 +1295,32 @@
     "_search_ko": {
       "title": "강채은 트리오",
       "description": "강채은 트리오: 강채은 (보컬), 이정하 (피아노), 최성환 (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251121_1e87cb63-a231-46be-b150-6ab5f139d50a",
+    "event_key": "v:ven_89fb12fe-3651-48a9-9621-f1205b549d0d|t:2025-11-21T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQ4_4-kzKs/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_89fb12fe-3651-48a9-9621-f1205b549d0d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T10:00:00+00:00",
+    "price": "Free Entry (Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "No.5 Blue",
+    "description": "HardBop, Swing, and Standard Jazz.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "No.5 Blue",
+      "description": "HardBop, Swing, and Standard Jazz."
+    },
+    "_search_ko": {
+      "title": "넘버5 블루",
+      "description": "하드밥, 스윙, 스탠다드 재즈."
     }
   },
   {
@@ -2541,6 +2597,32 @@
     }
   },
   {
+    "id": "evt_20251121_faa906b5-ea9f-46ab-b36d-f31cf42d2959",
+    "event_key": "v:ven_89fb12fe-3651-48a9-9621-f1205b549d0d|t:2025-11-21T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQ4_4-kzKs/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_89fb12fe-3651-48a9-9621-f1205b549d0d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T12:00:00+00:00",
+    "price": "Free Entry (Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "Latin Factory",
+    "description": "Cuban Jazz, Salsa, Vocal, and Big Band music.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Latin Factory",
+      "description": "Cuban Jazz, Salsa, Vocal, and Big Band music."
+    },
+    "_search_ko": {
+      "title": "라틴 팩토리",
+      "description": "쿠반 재즈, 살사, 보컬, 빅밴드 음악."
+    }
+  },
+  {
     "id": "evt_20251121_e16e48ca-3997-44a3-9bfc-2624cea67043",
     "event_key": "v:ven_e2f809d5-372f-4ce9-a622-55b5eb68060c|t:2025-11-21T12:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3zMBhD29e/",
@@ -2958,6 +3040,32 @@
     "_search_ko": {
       "title": "Love Supreme",
       "description": "Love Supreme. 조민재 (드럼), 김대호 (기타), 김대규 (피아노), 황대웅 (베이스), 박인찬 (색소폰), 최백결 (색소폰). 가격: 15,000원."
+    }
+  },
+  {
+    "id": "evt_20251122_1cbd77e0-ea98-4c7b-8627-149f2eae1d26",
+    "event_key": "v:ven_89fb12fe-3651-48a9-9621-f1205b549d0d|t:2025-11-22T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQ4_4-kzKs/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_89fb12fe-3651-48a9-9621-f1205b549d0d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T09:00:00+00:00",
+    "price": "Free Entry (Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "Nanji Groove",
+    "description": "World Music performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nanji Groove",
+      "description": "World Music performance."
+    },
+    "_search_ko": {
+      "title": "난지 그루브",
+      "description": "월드 음악 공연."
     }
   },
   {
@@ -3943,6 +4051,32 @@
     }
   },
   {
+    "id": "evt_20251122_878ad1bc-1b0e-4b13-b121-f04b9147b0b7",
+    "event_key": "v:ven_89fb12fe-3651-48a9-9621-f1205b549d0d|t:2025-11-22T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQ4_4-kzKs/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_89fb12fe-3651-48a9-9621-f1205b549d0d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:00:00+00:00",
+    "price": "Free Entry (Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "Song Jong-bin Boptronix",
+    "description": "Bebop jazz performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Song Jong-bin Boptronix",
+      "description": "Bebop jazz performance."
+    },
+    "_search_ko": {
+      "title": "송종빈 밥트로닉스",
+      "description": "비밥 재즈 공연."
+    }
+  },
+  {
     "id": "evt_20251122_504979ba-1c8a-4858-ac26-466773e122fa",
     "event_key": "v:ven_73e12fe0-1e32-4e7b-83d2-574317a7f3bc|t:2025-11-22T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
@@ -4475,6 +4609,32 @@
     }
   },
   {
+    "id": "evt_20251122_24754dd8-bc71-4f71-be30-3714994a25f9",
+    "event_key": "v:ven_89fb12fe-3651-48a9-9621-f1205b549d0d|t:2025-11-22T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQ4_4-kzKs/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_89fb12fe-3651-48a9-9621-f1205b549d0d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T13:00:00+00:00",
+    "price": "Free Entry (Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "TicoTicoBand",
+    "description": "Standard Jazz performance.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "TicoTicoBand",
+      "description": "Standard Jazz performance."
+    },
+    "_search_ko": {
+      "title": "티코티코밴드",
+      "description": "스탠다드 재즈 공연."
+    }
+  },
+  {
     "id": "evt_20251122_57fcd8eb-29e8-492b-bb2e-a65a14cddfd9",
     "event_key": "v:ven_c3a0fe58-1429-44b4-90e2-360e2a9e633d|t:2025-11-22T13:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3BX6hEr2V/",
@@ -4790,6 +4950,32 @@
     "_search_ko": {
       "title": "이선재",
       "description": "이선재의 공연."
+    }
+  },
+  {
+    "id": "evt_20251123_5a27a302-14d7-4172-81b1-65c43ccb2280",
+    "event_key": "v:ven_89fb12fe-3651-48a9-9621-f1205b549d0d|t:2025-11-23T10:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQ4_4-kzKs/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_89fb12fe-3651-48a9-9621-f1205b549d0d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T10:00:00+00:00",
+    "price": "Free Entry (Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "Now's the Time",
+    "description": "Standard Jazz, Hardbop, and Swing music.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Now's the Time",
+      "description": "Standard Jazz, Hardbop, and Swing music."
+    },
+    "_search_ko": {
+      "title": "나우즈 더 타임",
+      "description": "스탠다드 재즈, 하드밥, 스윙 음악."
     }
   },
   {
@@ -5419,6 +5605,32 @@
     "_search_ko": {
       "title": "Jazz Jamm Day (조영재 트리오)",
       "description": "Jazz Jamm Day. 호스트: 조영재 트리오: 조영재 (보컬), 이동환 (기타), 김현준 (베이스)."
+    }
+  },
+  {
+    "id": "evt_20251123_10753d9b-1728-4e35-933b-0b21adc6fd41",
+    "event_key": "v:ven_89fb12fe-3651-48a9-9621-f1205b549d0d|t:2025-11-23T12:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQ4_4-kzKs/",
+    "venue_handle": "subriot_hbc",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_89fb12fe-3651-48a9-9621-f1205b549d0d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T12:00:00+00:00",
+    "price": "Free Entry (Deferred Payment)",
+    "llm_confidence": 1.0,
+    "title": "The1997",
+    "description": "Standard Jazz and Swing music.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "The1997",
+      "description": "Standard Jazz and Swing music."
+    },
+    "_search_ko": {
+      "title": "더1997",
+      "description": "스탠다드 재즈, 스윙 음악."
     }
   },
   {
@@ -6185,6 +6397,32 @@
     "_search_ko": {
       "title": "재즈 잼 데이",
       "description": "사운드독 재즈 잼 데이."
+    }
+  },
+  {
+    "id": "evt_20251125_6c0f353a-720c-4cd7-ac09-6e9a68846ce0",
+    "event_key": "v:ven_75b0fb64-384b-4cb9-ad9f-0fb18ab2cae6|t:2025-11-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRRG0MVknSZ/",
+    "venue_handle": "pdpdclub",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_75b0fb64-384b-4cb9-ad9f-0fb18ab2cae6",
+    "venue_location_id": "main",
+    "datetime": "2025-11-25T11:00:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "Papacl Jam Session: Our meeting is not a coincidence",
+    "description": "8th jam session. Jazz standards: Bluesette, Recorda-Me, Killer Joe. On-site performer registration. Walk-ins. Drink mandatory.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Papacl Jam Session: Our meeting is not a coincidence",
+      "description": "8th jam session. Jazz standards: Bluesette, Recorda-Me, Killer Joe. On-site performer registration. Walk-ins. Drink mandatory."
+    },
+    "_search_ko": {
+      "title": "파파클 잼세션: 우리 만남은 우연이 아니야",
+      "description": "파닥파닥클럽의 여덟 번째 잼세션. 지정곡: Bluesette, Recorda-Me, Killer Joe. 현장 참가 신청 및 신청곡 작성. 예약 없이 현장 입장 가능. 1인 1음료 필수."
     }
   },
   {
@@ -12474,6 +12712,58 @@
     }
   },
   {
+    "id": "evt_20251220_fda020b1-7dd4-4aaf-9431-3361241a202f",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-20T06:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-20T06:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Tap.oz Jazz Band",
+    "description": "[Location: Sadang] Christmas carol live performance by Tap.oz Jazz Band.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Tap.oz Jazz Band",
+      "description": "[Location: Sadang] Christmas carol live performance by Tap.oz Jazz Band."
+    },
+    "_search_ko": {
+      "title": "Tap.oz 재즈 밴드",
+      "description": "[위치: 사당] Tap.oz 재즈 밴드의 캐롤 라이브 공연."
+    }
+  },
+  {
+    "id": "evt_20251220_9f761e45-6f17-49a8-9a10-83b56a4cf065",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-20T10:15:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-20T10:15:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Gritty Kitty",
+    "description": "[Location: Sadang] Gritty Kitty band's Jazzy Christmas carol live performance. Carol playlist: This Christmas, All I want for christmas is you, Zat you Santa Claus.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Gritty Kitty",
+      "description": "[Location: Sadang] Gritty Kitty band's Jazzy Christmas carol live performance. Carol playlist: This Christmas, All I want for christmas is you, Zat you Santa Claus."
+    },
+    "_search_ko": {
+      "title": "Gritty Kitty",
+      "description": "[위치: 사당] Gritty Kitty 밴드의 재즈 캐롤 라이브 공연. 캐롤 플레이리스트: This Christmas, All I want for christmas is you, Zat you Santa Claus."
+    }
+  },
+  {
     "id": "evt_20251220_3dd88db0-e7af-4980-9b6e-74366c40222c",
     "event_key": "v:ven_ed9bc015-072a-46d5-8727-e3a8edd5675a|t:2025-12-20T10:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DRQoiLrj4y5/",
@@ -12656,6 +12946,58 @@
     }
   },
   {
+    "id": "evt_20251220_be965c6d-9265-4e18-8892-f6c2a044c546",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-20T12:40:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-20T12:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Gritty Kitty",
+    "description": "[Location: Sadang] Gritty Kitty band's Jazzy Christmas carol live performance. Carol playlist: This Christmas, All I want for christmas is you, Zat you Santa Claus.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Gritty Kitty",
+      "description": "[Location: Sadang] Gritty Kitty band's Jazzy Christmas carol live performance. Carol playlist: This Christmas, All I want for christmas is you, Zat you Santa Claus."
+    },
+    "_search_ko": {
+      "title": "Gritty Kitty",
+      "description": "[위치: 사당] Gritty Kitty 밴드의 재즈 캐롤 라이브 공연. 캐롤 플레이리스트: This Christmas, All I want for christmas is you, Zat you Santa Claus."
+    }
+  },
+  {
+    "id": "evt_20251221_dea7f669-912c-416a-8edf-18f9636cfe15",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-21T05:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-21T05:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Heo Won-moo Quartet",
+    "description": "[Location: Sadang] Christmas carol live performance by Heo Won-moo Quartet.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Heo Won-moo Quartet",
+      "description": "[Location: Sadang] Christmas carol live performance by Heo Won-moo Quartet."
+    },
+    "_search_ko": {
+      "title": "허원무 퀄텟",
+      "description": "[위치: 사당] 허원무 퀄텟의 재즈 캐롤 라이브 공연."
+    }
+  },
+  {
     "id": "evt_20251221_bda6f92d-881b-42cc-8f64-7d02b75aca86",
     "event_key": "v:ven_f2a51821-f288-426f-81a2-9769d8e67bb7|t:2025-12-21T06:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DRBjGPTkX1c/",
@@ -12679,6 +13021,32 @@
     "_search_ko": {
       "title": "2025 크리스마스 스페셜 올데이 재즈쇼",
       "description": "2025 크리스마스 스페셜 올데이 재즈쇼. 이들스에서 맛있는 음식과 함께하는 재즈 공연으로 기억에 남을 크리스마스 주간을 보내세요. 14:30부터 입장 가능."
+    }
+  },
+  {
+    "id": "evt_20251221_5d03e3af-2298-45e6-ad6f-aeeb48d7c526",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-21T09:15:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-21T09:15:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "AimHigh Band",
+    "description": "[Location: Sadang] Jazzy Christmas carol live performance by AimHigh Band with bassist Noh Gwang-rae. Carol playlist: All I Want For Christmas Is You, The Christmas Song, Let it snow, Have Yourself A Merry Little Christmas.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "AimHigh Band",
+      "description": "[Location: Sadang] Jazzy Christmas carol live performance by AimHigh Band with bassist Noh Gwang-rae. Carol playlist: All I Want For Christmas Is You, The Christmas Song, Let it snow, Have Yourself A Merry Little Christmas."
+    },
+    "_search_ko": {
+      "title": "AimHigh 밴드",
+      "description": "[위치: 사당] AimHigh 밴드의 재즈 캐롤 라이브 공연. 베이시스트 노광래. 캐롤 플레이리스트: All I Want For Christmas Is You, The Christmas Song, Let it snow, Have Yourself A Merry Little Christmas."
     }
   },
   {
@@ -12757,6 +13125,32 @@
     "_search_ko": {
       "title": "더 스탠다드 트리오",
       "description": "더 스탠다드 트리오."
+    }
+  },
+  {
+    "id": "evt_20251221_b86c9a48-7e8b-42b5-8da2-35c36dcebbf4",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-21T11:40:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-21T11:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "AimHigh Band",
+    "description": "[Location: Sadang] Jazzy Christmas carol live performance by AimHigh Band with bassist Noh Gwang-rae. Carol playlist: All I Want For Christmas Is You, The Christmas Song, Let it snow, Have Yourself A Merry Little Christmas.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "AimHigh Band",
+      "description": "[Location: Sadang] Jazzy Christmas carol live performance by AimHigh Band with bassist Noh Gwang-rae. Carol playlist: All I Want For Christmas Is You, The Christmas Song, Let it snow, Have Yourself A Merry Little Christmas."
+    },
+    "_search_ko": {
+      "title": "AimHigh 밴드",
+      "description": "[위치: 사당] AimHigh 밴드의 재즈 캐롤 라이브 공연. 베이시스트 노광래. 캐롤 플레이리스트: All I Want For Christmas Is You, The Christmas Song, Let it snow, Have Yourself A Merry Little Christmas."
     }
   },
   {
@@ -12861,6 +13255,32 @@
     "_search_ko": {
       "title": "재즈 잼 데이",
       "description": "사운드독 재즈 잼 데이."
+    }
+  },
+  {
+    "id": "evt_20251224_17dfbf9d-ad89-46c1-a50d-faa46d12dbd9",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-24T06:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-24T06:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Jun-young Quartet",
+    "description": "[Location: Sadang] Jazzy Christmas carol live performance by Lee Jun-young Quartet. Carol playlist: All I want for christmas is you, Sleigh bell, Jingle bell.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Jun-young Quartet",
+      "description": "[Location: Sadang] Jazzy Christmas carol live performance by Lee Jun-young Quartet. Carol playlist: All I want for christmas is you, Sleigh bell, Jingle bell."
+    },
+    "_search_ko": {
+      "title": "이준영 퀄텟",
+      "description": "[위치: 사당] 이준영 퀄텟의 재즈 캐롤 라이브 공연. 캐롤 플레이리스트: All I want for christmas is you, Sleigh bell, Jingle bell."
     }
   },
   {
@@ -12993,6 +13413,32 @@
     "_search_ko": {
       "title": "Niko Jin",
       "description": "Niko Jin의 공연."
+    }
+  },
+  {
+    "id": "evt_20251224_b7cd91cd-a11c-44c8-848d-5807e8c55e6e",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-24T10:15:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-24T10:15:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Jun-young Quartet",
+    "description": "[Location: Sadang] Jazzy Christmas carol live performance by Lee Jun-young Quartet. Carol playlist: All I want for christmas is you, Sleigh bell, Jingle bell.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Jun-young Quartet",
+      "description": "[Location: Sadang] Jazzy Christmas carol live performance by Lee Jun-young Quartet. Carol playlist: All I want for christmas is you, Sleigh bell, Jingle bell."
+    },
+    "_search_ko": {
+      "title": "이준영 퀄텟",
+      "description": "[위치: 사당] 이준영 퀄텟의 재즈 캐롤 라이브 공연. 캐롤 플레이리스트: All I want for christmas is you, Sleigh bell, Jingle bell."
     }
   },
   {
@@ -13282,6 +13728,32 @@
     }
   },
   {
+    "id": "evt_20251224_faf201fb-259e-4e65-aee8-e06b4cf0639a",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-24T12:40:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-24T12:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Lee Jun-young Quartet",
+    "description": "[Location: Sadang] Jazzy Christmas carol live performance by Lee Jun-young Quartet. Carol playlist: All I want for christmas is you, Sleigh bell, Jingle bell.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Jun-young Quartet",
+      "description": "[Location: Sadang] Jazzy Christmas carol live performance by Lee Jun-young Quartet. Carol playlist: All I want for christmas is you, Sleigh bell, Jingle bell."
+    },
+    "_search_ko": {
+      "title": "이준영 퀄텟",
+      "description": "[위치: 사당] 이준영 퀄텟의 재즈 캐롤 라이브 공연. 캐롤 플레이리스트: All I want for christmas is you, Sleigh bell, Jingle bell."
+    }
+  },
+  {
     "id": "evt_20251224_4fdca46c-a980-4b16-bef4-3fce65e98535",
     "event_key": "v:ven_711cca10-dc5b-4fe8-8c73-90c5763f7c64|t:2025-12-24T13:00:00+00:00",
     "source_url": "https://www.instagram.com/p/DRGuDd6kymD/",
@@ -13359,6 +13831,32 @@
     "_search_ko": {
       "title": "크리스마스 런치",
       "description": "프렌치 미식과 레이첼 몬드의 라이브 재즈가 어우러지는 로맨틱 크리스마스 런치. 해산물 & 오세트라 캐비어, 블랙트러플, 한우 채끝스테이크 등 스페셜 다이닝 메뉴 제공. 2인 기준 공연비 포함. 미성년자 입장 가능."
+    }
+  },
+  {
+    "id": "evt_20251225_9857d161-1ee7-40d9-a212-0c6c4d1bdf5d",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-25T05:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-25T05:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Ru:A",
+    "description": "[Location: Sadang] Ru:A band's Jazzy Christmas carol live performance. Carol playlist: Have Yourself A Merry Little Christmas.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Ru:A",
+      "description": "[Location: Sadang] Ru:A band's Jazzy Christmas carol live performance. Carol playlist: Have Yourself A Merry Little Christmas."
+    },
+    "_search_ko": {
+      "title": "Ru:A",
+      "description": "[위치: 사당] Ru:A 밴드의 재즈 캐롤 라이브 공연. 캐롤 플레이리스트: Have Yourself A Merry Little Christmas."
     }
   },
   {
@@ -13517,6 +14015,32 @@
     "_search_ko": {
       "title": "The Jeremy Park Show: Merry Jazzy Christmas Show",
       "description": "만능 엔터테이너 제레미박이 선사하는 낭만 가득 크리스마스 쇼. 2인 390,000원 (공연 포함, 와인 보틀 주문 필수)."
+    }
+  },
+  {
+    "id": "evt_20251225_bfddb2fc-f6ef-4fb4-b6b7-d849bbf4bff7",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-25T09:15:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-25T09:15:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Richman & Groove Nice",
+    "description": "[Location: Sadang] Christmas carol live performance by Richman & Groove Nice.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Richman & Groove Nice",
+      "description": "[Location: Sadang] Christmas carol live performance by Richman & Groove Nice."
+    },
+    "_search_ko": {
+      "title": "리치맨과 그루브나이스",
+      "description": "[위치: 사당] 리치맨과 그루브나이스의 재즈 캐롤 라이브 공연."
     }
   },
   {
@@ -13808,6 +14332,32 @@
     }
   },
   {
+    "id": "evt_20251225_11109b2c-3091-4c61-b6b5-ded4e06451ea",
+    "event_key": "v:ven_e3a5c728-69bf-4a2a-87a2-fd4386d0498a|t:2025-12-25T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQm3f-AWlz/",
+    "venue_handle": "yoori.kim_mullaejazzin",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_e3a5c728-69bf-4a2a-87a2-fd4386d0498a",
+    "venue_location_id": "main",
+    "datetime": "2025-12-25T11:00:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Shin So-yi Christmas Concert",
+    "description": "Mullae Jazzin's sold-out signature concert. A joyful Christmas concert featuring top jazz musicians: Shin So-yi (vocal), Oh Jong-dae (drums), Han Hyun-woo (bass), Park Jong-hyun (piano), Lee Yong-seok (tenor saxophone), Kim Tae-guk (alto saxophone).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Shin So-yi Christmas Concert",
+      "description": "Mullae Jazzin's sold-out signature concert. A joyful Christmas concert featuring top jazz musicians: Shin So-yi (vocal), Oh Jong-dae (drums), Han Hyun-woo (bass), Park Jong-hyun (piano), Lee Yong-seok (tenor saxophone), Kim Tae-guk (alto saxophone)."
+    },
+    "_search_ko": {
+      "title": "신소이 크리스마스 콘서트",
+      "description": "전회 매진을 기록한 문래재즈인의 대표적인 기획 공연. 신소이 (보컬), 오종대 (드럼), 한현우 (베이스), 박종현 (피아노), 이용석 (테너 색소폰), 김태국 (알토 색소폰) 등 최고의 재즈 뮤지션과 행복 가득한 크리스마스."
+    }
+  },
+  {
     "id": "evt_20251225_4c25fca9-905d-444b-a3c4-5129341eb9d5",
     "event_key": "v:ven_f3cb0621-2127-4bf3-8abf-032ee80553e8|t:2025-12-25T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DRCjowgD0od/",
@@ -13883,6 +14433,32 @@
     "_search_ko": {
       "title": "김순영 재즈탭",
       "description": "김순영 재즈탭의 웜 재즈 퍼포먼스. 크리스마스 분위기를 풍성하게. 2인 5-코스 다이닝과 프리미엄 라이브 공연 포함. 바틀 와인 필수 주문."
+    }
+  },
+  {
+    "id": "evt_20251225_788781b0-723c-4cf3-8544-321c8f7c6c96",
+    "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-12-25T11:40:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRQz2NRCYLf/",
+    "venue_handle": "entry55_official",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb",
+    "venue_location_id": "sadang",
+    "datetime": "2025-12-25T11:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Richman & Groove Nice",
+    "description": "[Location: Sadang] Christmas carol live performance by Richman & Groove Nice.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Richman & Groove Nice",
+      "description": "[Location: Sadang] Christmas carol live performance by Richman & Groove Nice."
+    },
+    "_search_ko": {
+      "title": "리치맨과 그루브나이스",
+      "description": "[위치: 사당] 리치맨과 그루브나이스의 재즈 캐롤 라이브 공연."
     }
   },
   {

@@ -1001,7 +1001,7 @@
   {
     "id": "evt_20251121_afe2d688-c5ae-47ed-b3a9-bf7cc7d299b5",
     "event_key": "v:ven_86477723-44a8-4344-b375-17b4b5c31bb0|t:2025-11-21T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQxd955kk3p/",
+    "source_url": "https://www.instagram.com/p/DRRz9HEkvZF/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1010,18 +1010,18 @@
     "datetime": "2025-11-21T11:00:00+00:00",
     "price": "20,000원",
     "llm_confidence": 1.0,
-    "title": "이상민",
-    "description": "이상민의 공연.",
+    "title": "이상민 Art of Legacy",
+    "description": "이상민 (드럼), 제이슨 박 (피아노), 폴 JB 이 (기타), 최지호 (베이스).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lee Sangmin",
-      "description": "Performance by Lee Sangmin."
+      "title": "Lee Sangmin Art of Legacy",
+      "description": "Lee Sangmin (drums), Jason Park (piano), Paul JB Lee (guitar), Choi Jiho (bass)."
     },
     "_search_ko": {
-      "title": "이상민",
-      "description": "이상민의 공연."
+      "title": "이상민 Art of Legacy",
+      "description": "이상민 (드럼), 제이슨 박 (피아노), 폴 JB 이 (기타), 최지호 (베이스)."
     }
   },
   {
@@ -3096,6 +3096,32 @@
     }
   },
   {
+    "id": "evt_20251122_950811d1-4a11-4f0c-9717-807c31176d1a",
+    "event_key": "v:ven_542ec805-98ff-4d07-8017-209e88cda413|t:2025-11-22T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRSFMp6EjsS/",
+    "venue_handle": "eulji_libro",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_542ec805-98ff-4d07-8017-209e88cda413",
+    "venue_location_id": "main",
+    "datetime": "2025-11-22T11:30:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "리원 퀄텟",
+    "description": "리원 퀄텟 재즈 라이브. 리원 (비브라폰, 보컬), 김찬영 (베이스), 윤건호 (피아노), 이건욱 (드럼).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Lee Won Quartet",
+      "description": "Jazz live by Lee Won Quartet. Lee Won (vibraphone, vocal), Kim Chan-young (bass), Yoon Gun-ho (piano), Lee Geon-wook (drums)."
+    },
+    "_search_ko": {
+      "title": "리원 퀄텟",
+      "description": "리원 퀄텟 재즈 라이브. 리원 (비브라폰, 보컬), 김찬영 (베이스), 윤건호 (피아노), 이건욱 (드럼)."
+    }
+  },
+  {
     "id": "evt_20251122_a8e99539-1c45-4500-af5a-b73260ca38be",
     "event_key": "v:ven_15c9ed75-e381-41cf-ae36-ee3c3aa6749a|t:2025-11-22T11:50:00+00:00",
     "source_url": "https://www.instagram.com/p/DRB-05siUd_/",
@@ -4359,6 +4385,32 @@
     "_search_ko": {
       "title": "노민수 스윙 프렌즈",
       "description": "노민수 스윙 프렌즈의 스윙 재즈 공연. 출연진: 노민수 (기타) @min_suuuuuuu8, 안이채 (베이스) @no_racket_, 강성문 (드럼) @k.s.dru.m, 양예본 (피아노) @ye_vans."
+    }
+  },
+  {
+    "id": "evt_20251123_8076a618-e818-44f1-a54e-fd172bc9966e",
+    "event_key": "v:ven_542ec805-98ff-4d07-8017-209e88cda413|t:2025-11-23T11:30:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRSFN6YEjg8/",
+    "venue_handle": "eulji_libro",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_542ec805-98ff-4d07-8017-209e88cda413",
+    "venue_location_id": "main",
+    "datetime": "2025-11-23T11:30:00+00:00",
+    "price": "None",
+    "llm_confidence": 1.0,
+    "title": "극동음악단",
+    "description": "리브로 재즈 라이브. 극동음악단: 최준혁 (베이스), 송민섭 (기타), 서효상 (클라리넷), 유효정 (바이올린).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Geukdong Music Group",
+      "description": "Libro Jazz Live with Geukdong Music Group: Choi Jun-hyeok (bass), Song Min-seop (guitar), Seo Hyo-sang (clarinet), Yoo Hyo-jeong (violin)."
+    },
+    "_search_ko": {
+      "title": "극동음악단",
+      "description": "리브로 재즈 라이브. 극동음악단: 최준혁 (베이스), 송민섭 (기타), 서효상 (클라리넷), 유효정 (바이올린)."
     }
   },
   {

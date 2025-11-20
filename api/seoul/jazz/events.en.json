@@ -610,7 +610,7 @@
   {
     "id": "evt_20251120_4c995a62-720c-4458-bfc4-94ebacc45d5c",
     "event_key": "v:ven_db2c8db2-a426-49ce-b6a4-6cbee595359c|t:2025-11-20T11:00:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQ8wH6kEl8H/",
+    "source_url": "https://www.instagram.com/p/DRRbQVLEvQv/",
     "venue_handle": "orient_express_wine_",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -619,18 +619,18 @@
     "datetime": "2025-11-20T11:00:00+00:00",
     "price": "KRW 20,000",
     "llm_confidence": 1.0,
-    "title": "Standard Jazz Jam Day",
-    "description": "Weekly Thursday standard jazz jam session.",
+    "title": "Standard Jazz Jam Session (90th)",
+    "description": "90th Standard Jazz Jam Session. Jazz musicians perform improvised music. Features a host band (leader Kim Jun-beom (guitar), Kim In-young (bass), Ha Min-woo (drums)) performing 3 songs, followed by an open jam session.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Standard Jazz Jam Day",
-      "description": "Weekly Thursday standard jazz jam session."
+      "title": "Standard Jazz Jam Session (90th)",
+      "description": "90th Standard Jazz Jam Session. Jazz musicians perform improvised music. Features a host band (leader Kim Jun-beom (guitar), Kim In-young (bass), Ha Min-woo (drums)) performing 3 songs, followed by an open jam session."
     },
     "_search_ko": {
-      "title": "스탠다드 재즈 잼 데이",
-      "description": "매주 목요일 진행되는 스탠다드 재즈 잼 세션."
+      "title": "스탠다드 재즈 잼 세션 (90회)",
+      "description": "90회 스탠다드 재즈 잼 세션. 재즈 연주자들이 악보 없이 즉흥적으로 연주하며 다양한 변주의 곡을 선보이는 무대. 호스트 밴드 (리더 김준범 (기타), 김인영 (베이스), 하민우 (드럼))의 3곡 연주 후 본격적인 잼 세션이 시작됩니다."
     }
   },
   {

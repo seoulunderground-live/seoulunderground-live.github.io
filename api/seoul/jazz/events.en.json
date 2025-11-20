@@ -26,6 +26,37 @@
     }
   },
   {
+    "id": "evt_20251121_f992245e-125d-4123-abfe-9af704082f4e",
+    "event_key": "v:ven_0253930b-8532-430e-8b95-662cc91369d9|t:2025-11-21T09:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRSNkV_k_n-/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "_evaristus_",
+      "kevbdrum_",
+      "wndoflzx",
+      "yodaen9"
+    ],
+    "venue_id": "ven_0253930b-8532-430e-8b95-662cc91369d9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T09:00:00+00:00",
+    "price": "Free Entry + Deferred Payment",
+    "llm_confidence": 1.0,
+    "title": "Jon Kim Trio with Jerry",
+    "description": "Standard jazz performance by Jon Kim Trio with vocalist Jerry. Roster: Jerry (vocal) @wndoflzx, Jon Kim (piano) @yodaen9, No Kyu-sik (bass) @_evaristus_, Sim Sang-hun (drums) @kevbdrum_.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Jon Kim Trio with Jerry",
+      "description": "Standard jazz performance by Jon Kim Trio with vocalist Jerry. Roster: Jerry (vocal) @wndoflzx, Jon Kim (piano) @yodaen9, No Kyu-sik (bass) @_evaristus_, Sim Sang-hun (drums) @kevbdrum_."
+    },
+    "_search_ko": {
+      "title": "존킴 트리오 with 제리",
+      "description": "보컬 제리와 함께하는 존킴 트리오의 스탠다드 재즈 공연. 라인업: 제리 (보컬) @wndoflzx, 존킴 (피아노) @yodaen9, 노규식 (베이스) @_evaristus_, 심상훈 (드럼) @kevbdrum_."
+    }
+  },
+  {
     "id": "evt_20251121_2bbcadbd-1c9e-4537-a4e2-44e385a3ef03",
     "event_key": "v:ven_0f9ac2da-0b88-46b1-b9c0-72206ccc94fb|t:2025-11-21T09:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DRJNtAKCfLD/",
@@ -1051,6 +1082,32 @@
     }
   },
   {
+    "id": "evt_20251121_0dd1b435-390f-4af5-b329-e621983cf300",
+    "event_key": "v:ven_0253930b-8532-430e-8b95-662cc91369d9|t:2025-11-21T11:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRSNkV_k_n-/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_0253930b-8532-430e-8b95-662cc91369d9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T11:00:00+00:00",
+    "price": "Free Entry + Deferred Payment",
+    "llm_confidence": 1.0,
+    "title": "Rush Life Jazz Band Origin",
+    "description": "A splendid and exciting jazz band led by trombone and saxophone, performing Dixieland, swing, and funk. Roster: Lee Han-jin (trombone), Konstantin (trumpet), Kim Hyeon-il (saxophone), Choi Se-yeol (bass), Park Sung-jun (piano), Noh Yong-jin (drums).",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Rush Life Jazz Band Origin",
+      "description": "A splendid and exciting jazz band led by trombone and saxophone, performing Dixieland, swing, and funk. Roster: Lee Han-jin (trombone), Konstantin (trumpet), Kim Hyeon-il (saxophone), Choi Se-yeol (bass), Park Sung-jun (piano), Noh Yong-jin (drums)."
+    },
+    "_search_ko": {
+      "title": "러쉬라이프 재즈밴드 오리진",
+      "description": "트럼본, 색소폰이 리드하는 화려하고 신나는 재즈 밴드. 딕시랜드, 스윙, 펑크 재즈 공연. 라인업: 이한진 (트럼본), 콘스탄틴 (트럼펫), 김현일 (색소폰), 최세열 (베이스), 박성준 (피아노), 노용진 (드럼)."
+    }
+  },
+  {
     "id": "evt_20251121_a85921e2-995b-49e8-b3ef-2e8241d61f73",
     "event_key": "v:ven_e2f809d5-372f-4ce9-a622-55b5eb68060c|t:2025-11-21T11:30:00+00:00",
     "source_url": "https://www.instagram.com/p/DQ3zMBhD29e/",
@@ -1608,6 +1665,37 @@
     "_search_ko": {
       "title": "매터데이: 앨런, DK & 은빈",
       "description": "앨런 (색소폰), DK (보컬), 은빈 (보컬)의 매터데이 공연."
+    }
+  },
+  {
+    "id": "evt_20251121_c9a2543b-d2a2-4061-a1ae-824476bdc095",
+    "event_key": "v:ven_0253930b-8532-430e-8b95-662cc91369d9|t:2025-11-21T13:00:00+00:00",
+    "source_url": "https://www.instagram.com/p/DRSNkV_k_n-/",
+    "venue_handle": "boogiewoogieseoul",
+    "musician_ids": [],
+    "musician_ig_handles": [
+      "__suno_kim_",
+      "chuni_mcbride",
+      "gt_tae6",
+      "juu.piano"
+    ],
+    "venue_id": "ven_0253930b-8532-430e-8b95-662cc91369d9",
+    "venue_location_id": "main",
+    "datetime": "2025-11-21T13:00:00+00:00",
+    "price": "Free Entry + Deferred Payment",
+    "llm_confidence": 1.0,
+    "title": "Contras Point ES",
+    "description": "Fusion and contemporary jazz performance with a groovy sound. Roster: Je Tae-sik (guitar) @gt_tae6, Yang Jung-ju (piano) @juu.piano, Kim Dong-hwan (bass) @chuni_mcbride, Kim Seon-ho (drums) @__suno_kim_.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Contras Point ES",
+      "description": "Fusion and contemporary jazz performance with a groovy sound. Roster: Je Tae-sik (guitar) @gt_tae6, Yang Jung-ju (piano) @juu.piano, Kim Dong-hwan (bass) @chuni_mcbride, Kim Seon-ho (drums) @__suno_kim_."
+    },
+    "_search_ko": {
+      "title": "Contras Point ES",
+      "description": "그루브 넘치는 퓨전, 컨템포러리 재즈 공연. 라인업: 제태식 (기타) @gt_tae6, 양정주 (피아노) @juu.piano, 김동환 (베이스) @chuni_mcbride, 김선호 (드럼) @__suno_kim_."
     }
   },
   {
@@ -6745,18 +6833,18 @@
     "datetime": "2025-11-28T10:00:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "THE MUSE: Kildren Art Talk & Miles Davis Tribute Jazz Concert",
-    "description": "Art talk concert by artist Kildren and jazz performance by a Miles Davis Tribute Band. A special event featuring Kildren's original artwork on the wine label.",
+    "title": "THE MUSE",
+    "description": "An art talk concert by artist Kildren, featuring a jazz performance by the Miles Davis Tribute Band, alongside the original artwork on the wine label.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "THE MUSE: Kildren Art Talk & Miles Davis Tribute Jazz Concert",
-      "description": "Art talk concert by artist Kildren and jazz performance by a Miles Davis Tribute Band. A special event featuring Kildren's original artwork on the wine label."
+      "title": "THE MUSE",
+      "description": "An art talk concert by artist Kildren, featuring a jazz performance by the Miles Davis Tribute Band, alongside the original artwork on the wine label."
     },
     "_search_ko": {
-      "title": "THE MUSE: 킬드런 아트 토크 & 마일즈 데이비스 트리뷰트 재즈 공연",
-      "description": "킬드런 작가의 아트 토크 콘서트와 마일즈 데이비스 트리뷰트 밴드 재즈 공연. 와인 라벨에 수록된 킬드런 작가 원화와 함께 즐기는 특별한 만남."
+      "title": "THE MUSE",
+      "description": "킬드런 작가의 아트 토크 콘서트와 와인 라벨에 수록된 원화와 함께 즐기는 마일즈 데이비스 트리뷰트 밴드의 재즈 공연."
     }
   },
   {
@@ -10010,29 +10098,29 @@
   {
     "id": "evt_20251205_13c4308d-9f3d-4da3-80d2-dcd811ec297c",
     "event_key": "v:ven_e594d386-a2ce-43cb-a219-3fe01ad88d16|t:2025-12-05T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQndRG1DEUH/",
+    "source_url": "https://www.instagram.com/p/DQ_NAwKDIXJ/",
     "venue_handle": "jinjujazz",
     "musician_ids": [],
     "musician_ig_handles": [
-      "love__yuna"
+      "malojazz"
     ],
     "venue_id": "ven_e594d386-a2ce-43cb-a219-3fe01ad88d16",
     "venue_location_id": "main",
     "datetime": "2025-12-05T10:30:00+00:00",
     "price": "None",
     "llm_confidence": 1.0,
-    "title": "2025 Jinju International Jazz Festival",
-    "description": "The 2025 Jinju International Jazz Festival featuring renowned singer-songwriter Kim Yuna @love__yuna, who delivers a congratulatory message for the festival. Held at Gyeongnam Culture and Arts Center Grand Performance Hall.",
+    "title": "2025 Jinju International Jazz Festival: Malo",
+    "description": "Performance by Malo, the Queen of Scat and Korea's top jazz vocalist.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "2025 Jinju International Jazz Festival",
-      "description": "The 2025 Jinju International Jazz Festival featuring renowned singer-songwriter Kim Yuna @love__yuna, who delivers a congratulatory message for the festival. Held at Gyeongnam Culture and Arts Center Grand Performance Hall."
+      "title": "2025 Jinju International Jazz Festival: Malo",
+      "description": "Performance by Malo, the Queen of Scat and Korea's top jazz vocalist."
     },
     "_search_ko": {
-      "title": "2025 진주국제재즈페스티벌",
-      "description": "2025 진주국제재즈페스티벌. 시대를 대표하는 싱어송라이터 김윤아 @love__yuna가 페스티벌을 축하하는 메시지를 전하며 참여. 경남문화예술회관 대공연장에서 진행된다."
+      "title": "2025 진주국제재즈페스티벌: 말로",
+      "description": "스캣의 여왕이자 한국 최고의 재즈 보컬리스트 말로의 무대."
     }
   },
   {
@@ -10220,27 +10308,27 @@
   {
     "id": "evt_20251206_afc76e8c-37dd-476e-b2a7-be71ab32a3db",
     "event_key": "v:ven_e594d386-a2ce-43cb-a219-3fe01ad88d16|t:2025-12-06T10:30:00+00:00",
-    "source_url": "https://www.instagram.com/p/DQd8dlxiVQ4/",
+    "source_url": "https://www.instagram.com/p/DQ_NX18DLr8/",
     "venue_handle": "jinjujazz",
     "musician_ids": [],
     "musician_ig_handles": [],
     "venue_id": "ven_e594d386-a2ce-43cb-a219-3fe01ad88d16",
-    "venue_location_id": "gyeongnam-culture-arts-center-grand-performance-hall",
+    "venue_location_id": "main",
     "datetime": "2025-12-06T10:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "2025 Jinju International Jazz Festival: EchoWind",
-    "description": "Jazz duo EchoWind, created by the synergy of two brothers. Unique sound crossing the boundaries of jazz, improvisation, and urban music.",
+    "title": "Lee Hyun Woo",
+    "description": "Performance by Lee Hyun Woo, an emotional balladeer who sings memories and love, at the 8th Jinju International Jazz Festival 2025, held at Gyeongnam Culture and Arts Center Grand Performance Hall.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "2025 Jinju International Jazz Festival: EchoWind",
-      "description": "Jazz duo EchoWind, created by the synergy of two brothers. Unique sound crossing the boundaries of jazz, improvisation, and urban music."
+      "title": "Lee Hyun Woo",
+      "description": "Performance by Lee Hyun Woo, an emotional balladeer who sings memories and love, at the 8th Jinju International Jazz Festival 2025, held at Gyeongnam Culture and Arts Center Grand Performance Hall."
     },
     "_search_ko": {
-      "title": "2025 진주국제재즈페스티벌: 에코윈드",
-      "description": "형제의 호흡이 만들어내는 재즈 듀오 에코윈드. 재즈, 즉흥연주, 어반 뮤직의 경계를 넘나드는 독창적인 사운드."
+      "title": "이현우",
+      "description": "경남문화예술회관 대공연장에서 열리는 2025 진주국제재즈페스티벌 (8회) 무대. 추억과 사랑을 노래하는 감성 발라더 이현우의 공연."
     }
   },
   {
